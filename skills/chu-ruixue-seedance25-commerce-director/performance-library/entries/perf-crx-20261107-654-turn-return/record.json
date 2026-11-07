@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "id": "perf-crx-20261107-654-turn-return",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "操作间隙低头看手中物，再抬眼回镜头",
+  "summary": "头和目光下移到当前操作区域，随后抬眼看镜头，头部回正。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "操作间隙",
+    "低头回视",
+    "少手势"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "手部确有需要查看的操作对象。",
+    "只迁移看物—回视，不迁移安瓶用法。"
+  ],
+  "avoid": [
+    "不能把涂额头、眯眼写成任意口播习惯。",
+    "不采纳文件名“无美颜滤镜”作为已验证事实。"
+  ],
+  "performance": {
+    "start_state": "刚完成举物展示，手逐渐降到镜外，目光开始下移。",
+    "movement": "头和目光下移到当前操作区域，随后抬眼看镜头，头部回正。",
+    "gaze_expression": "没有持续笑容，主要是眼神从下方转回观众，伴随眨眼。",
+    "rhythm": "观察窗口约2秒，低头—回视构成一个短衔接。",
+    "recovery": "手留在低位，目光回到镜头。",
+    "end_state": "约50.5秒仍正对镜头；后续额头涂抹属于产品操作，未收为通用动作。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-654",
+      "start_seconds": 48.5,
+      "end_seconds": 50.5,
+      "context": "额头护理过程中的短暂间隙；原片包含安瓶类物体和涂抹，具体商品身份未核对。",
+      "observed_sequence": "刚完成举物展示，手逐渐降到镜外，目光开始下移。 头和目光下移到当前操作区域，随后抬眼看镜头，头部回正。 没有持续笑容，主要是眼神从下方转回观众，伴随眨眼。 观察窗口约2秒，低头—回视构成一个短衔接。 手留在低位，目光回到镜头。 约50.5秒仍正对镜头；后续额头涂抹属于产品操作，未收为通用动作。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      46,
+      54
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/654-turn-return-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  },
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "已保留原片及视觉动作观察；尚未核查原话、情绪语气和台词与动作的对应关系。"
+  }
+}

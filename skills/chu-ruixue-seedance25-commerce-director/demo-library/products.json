@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "id": "product-ginseng-oil-legacy",
+      "name": "人参精油（原对标产品）",
+      "category": "面部护理油",
+      "description": "原演示中的透明滴管瓶与瓶内人参；品牌和规格待用户填写，尚未关联产品参考图。",
+      "reference_hashes": [],
+      "enabled": true
+    },
+    {
+      "id": "product-cream-b5-20261107",
+      "name": "B5面霜（本批次原片包装）",
+      "category": "面霜",
+      "description": "白色矮圆罐、浅紫色旋盖；开盖后可见浅色膏霜。产品称呼来自用户提供的目录，品牌、规格与配方未另行核实。",
+      "reference_hashes": [
+        "ed023cf0d4cf276323bb1eb907d239d2533218a098927970ee93974d435a9689"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "product-cream-waterglow-20261107",
+      "name": "水光霜（本批次原片包装）",
+      "category": "面霜",
+      "description": "白色高筒容器、玫瑰金色肩环、粉色顶面中央出料结构。保留用户目录称呼；机器转写提到玫瑰面霜但未听审，不据此重命名。",
+      "reference_hashes": [
+        "068953f34277053f4a88f3f581da8c070f7d3eb8385b17e0e5acacc52b48775e"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "product-cream-cherry-20261107",
+      "name": "辛等等樱桃面霜（本批次原片包装）",
+      "category": "面霜",
+      "description": "透明圆筒外罩、粉色内胆及顶部结构，瓶身有樱桃/花朵图案。本片未演示开盖、出料或上脸，不从外观推断完整使用方式。",
+      "reference_hashes": [
+        "be0ff68d1764ebb1ae68332f3aebbdb50f5a15599829142e780ce263122388b2"
+      ],
+      "enabled": true
+    }
+  ]
+}

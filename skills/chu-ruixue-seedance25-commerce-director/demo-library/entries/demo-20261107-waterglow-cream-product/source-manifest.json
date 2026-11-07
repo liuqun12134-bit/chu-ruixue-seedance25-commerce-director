@@ -1,0 +1,16 @@
+{
+  "user_source": "水光霜/8.mp4",
+  "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82",
+  "saved_asset": "source.mp4",
+  "duration_seconds": 97.593991,
+  "original_audio_preserved": true,
+  "sample_fps": 2,
+  "reviewed_windows": [
+    "约 0.0–3.5 秒",
+    "约 3.5–30.0 秒",
+    "约 32.0–65.5 秒",
+    "约 55.0–56.5 秒；约 67.5–72.5 秒（两次独立出现）",
+    "约 88.5–91.5 秒"
+  ],
+  "identity_basis": "用户在本次对话确认四段均为初瑞雪本人。"
+}

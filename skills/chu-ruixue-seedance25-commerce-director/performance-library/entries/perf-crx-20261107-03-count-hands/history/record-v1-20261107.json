@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "perf-crx-20261107-03-count-hands",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "双手靠桌：食指指向另一手后停留",
+  "summary": "食指抬离、再次指向对侧手指，随后双手在低位保持接触或相邻。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "banks": [
+    "general"
+  ],
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "双手",
+    "低位指示",
+    "分项候选",
+    "停留"
+  ],
+  "meaning_tags": [],
+  "evidence_status": "example",
+  "preconditions": [
+    "双手均可用且有低位承托。",
+    "需要列举或分项时可考虑，但原片是否对应列举尚未听审。"
+  ],
+  "avoid": [
+    "不能据指形猜测实际数字。",
+    "持罐、滴管等占用双手时不套用。"
+  ],
+  "performance": {
+    "start_state": "一手微摊，另一手食指靠近对侧手指。",
+    "movement": "食指抬离、再次指向对侧手指，随后双手在低位保持接触或相邻。",
+    "gaze_expression": "视线主要朝镜头，偶有向上侧看的短变化；头部动作小于手部动作。",
+    "rhythm": "短指示与低位停留相间，约235–237秒可见一次明显抬指再落下。",
+    "recovery": "食指回到对侧手附近，双手继续低位承托。",
+    "end_state": "约238.8秒双手仍低于胸部，未持续遮脸。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-03",
+      "start_seconds": 233.5,
+      "end_seconds": 238.9,
+      "context": "同一化妆整理现场；本人双手在桌面前方，工作人员动作不属于本记录。",
+      "observed_sequence": "一手微摊，另一手食指靠近对侧手指。 食指抬离、再次指向对侧手指，随后双手在低位保持接触或相邻。 视线主要朝镜头，偶有向上侧看的短变化；头部动作小于手部动作。 短指示与低位停留相间，约235–237秒可见一次明显抬指再落下。 食指回到对侧手附近，双手继续低位承托。 约238.8秒双手仍低于胸部，未持续遮脸。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable"
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      232,
+      240
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/03-count-hands-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  }
+}

@@ -1,0 +1,849 @@
+{
+  "schema_version": 1,
+  "library": "performance",
+  "person_id": "chu-ruixue",
+  "entries": [
+    {
+      "id": "perf-crx-20261107-01-open-close",
+      "title": "单手指形变化、向下指示与胸前回收",
+      "summary": "手从下方抬起，拇指与食指形成环状，随后转为向下指示；回到胸前松握，间隔后再次短促抬指。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "单手",
+        "指形变化",
+        "向下指示",
+        "胸前回收"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "至少一只手空闲；画面容纳胸前手势。",
+        "可借用抬手—停留—回收的变化，具体语义须按当次音频重新判断。"
+      ],
+      "path": "entries/perf-crx-20261107-01-open-close/record.json",
+      "source_ids": [
+        "src-crx-20261107-01"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-02-point-recover",
+      "title": "脸侧竖食指、短指镜头后落手",
+      "summary": "先短暂侧看，回镜头后把食指举到脸侧，保持片刻，再将指尖转向镜头方向，最后放下。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "单手",
+        "竖食指",
+        "直视",
+        "回收"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "一只手空闲；坐姿或稳定近景。",
+        "适合需要短暂突出某点的设计情境，原话未听审。"
+      ],
+      "path": "entries/perf-crx-20261107-02-point-recover/record.json",
+      "source_ids": [
+        "src-crx-20261107-02"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-03-count-hands",
+      "title": "双手靠桌：食指指向另一手后停留",
+      "summary": "食指抬离、再次指向对侧手指，随后双手在低位保持接触或相邻。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "双手",
+        "低位指示",
+        "分项候选",
+        "停留"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "双手均可用且有低位承托。",
+        "需要列举或分项时可考虑，但原片是否对应列举尚未听审。"
+      ],
+      "path": "entries/perf-crx-20261107-03-count-hands/record.json",
+      "source_ids": [
+        "src-crx-20261107-03"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-03-finger-rest",
+      "title": "桌面交叠前臂中抬指，再回到承托位",
+      "summary": "一只前臂从交叠状态抬起，食指在脸前和侧方作短距离指示，回桌后再抬一次，最后重新交叠。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "桌面",
+        "交叠前臂",
+        "竖指",
+        "稳定头位"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "有真实桌面或相同前臂承托条件。",
+        "活动手没有持物，另一只前臂可继续承托。"
+      ],
+      "path": "entries/perf-crx-20261107-03-finger-rest/record.json",
+      "source_ids": [
+        "src-crx-20261107-03"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-04-v-recover",
+      "title": "半卧状态比V、短遮额后放松回落",
+      "summary": "一手抬到太阳穴附近比V，短暂保持；手指收拢后掌面经过额头和眼前，再移开。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "半卧",
+        "比V",
+        "放松",
+        "落手"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "轻松、半卧或休息语境，且有一只空闲手。",
+        "只作为本次情境样例；是否采用遮额动作要另行判断。"
+      ],
+      "path": "entries/perf-crx-20261107-04-v-recover/record.json",
+      "source_ids": [
+        "src-crx-20261107-04"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-201-free-palm",
+      "title": "一手持物时，空闲手展开再松握收回",
+      "summary": "空闲手掌面向上或斜向镜头展开，手指收拢再展开，短暂指向侧前方，最后松握到下巴以下。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "tags": [
+        "单手持物",
+        "空闲手",
+        "开掌",
+        "侧看回视"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "一手已安全持物且另一手可用。",
+        "只迁移交流动作，具体容器数量和握法须服从当前产品。"
+      ],
+      "path": "entries/perf-crx-20261107-201-free-palm/record.json",
+      "source_ids": [
+        "src-crx-20261107-201"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-201-two-hands",
+      "title": "双食指指向眼下后回到桌面操作",
+      "summary": "双手分开，两个食指同时指向各自眼下附近，保持片刻后一起下降。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "tags": [
+        "双手",
+        "眼下指示",
+        "操作衔接"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "双手空闲、产品可稳定放置。",
+        "当次内容确实需要指示眼下时才考虑；不能把它当作任意强调手势。"
+      ],
+      "path": "entries/perf-crx-20261107-201-two-hands/record.json",
+      "source_ids": [
+        "src-crx-20261107-201"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-235-lean-point",
+      "title": "身体前探配近镜指示，随后退回",
+      "summary": "手先在胸前做较小捏合状，身体随后向镜头前探，食指伸向镜头附近；之后身体退回，手也降低。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "前倾",
+        "近镜指示",
+        "退回",
+        "较大幅度"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "稳定机位或可区分身体移动的近景，至少一只手空闲。",
+        "当次语气允许较强交流动作；这只是设计适用条件，原声语气未核实。"
+      ],
+      "path": "entries/perf-crx-20261107-235-lean-point/record.json",
+      "source_ids": [
+        "src-crx-20261107-235"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-24-smile-turn",
+      "title": "看向身旁的人，再带笑回到镜头",
+      "summary": "转头看向身旁的人，稍靠近交流，再转回前方；回正后笑容展开，随后逐渐收小。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "侧向交流",
+        "笑容变化",
+        "回镜头",
+        "轻松"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "当前情境允许回应旁人或镜外对象。",
+        "轻松交流语境，不能只因一句关键词就安排转头。"
+      ],
+      "path": "entries/perf-crx-20261107-24-smile-turn/record.json",
+      "source_ids": [
+        "src-crx-20261107-24"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-24-v-point",
+      "title": "比V停留后收成小指示，再低位放松",
+      "summary": "手在脸侧比V并保持，随后收成单指和松握状，在嘴边附近短暂停留，再降至胸前。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "比V",
+        "单手",
+        "指形转换",
+        "低位放松"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "一只手空闲，脸侧空间足够。"
+      ],
+      "path": "entries/perf-crx-20261107-24-v-point/record.json",
+      "source_ids": [
+        "src-crx-20261107-24"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-280-lean-back",
+      "title": "少手势讲述中的前倾、坐回与抬眼",
+      "summary": "上身退回坐姿，之后略前探；中途抬眼看上方，再回到镜头。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "tags": [
+        "少手势",
+        "前倾坐回",
+        "抬眼",
+        "回视"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "手部受披肩、持物或构图限制时可参考目光与姿态部分。",
+        "身体前后移动不能破坏当前持物和桌面关系。"
+      ],
+      "path": "entries/perf-crx-20261107-280-lean-back/record.json",
+      "source_ids": [
+        "src-crx-20261107-280"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-282-greet-point",
+      "title": "开掌举过头侧，落回胸前后再到脸侧",
+      "summary": "开掌举到头侧上方并停留，随后落回胸前，再抬到耳侧附近。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "开掌",
+        "高位抬手",
+        "停留",
+        "胸前回收"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "一只手空闲，构图能容纳较高的抬手。",
+        "当前交流允许较活跃的开场或回应动作。"
+      ],
+      "path": "entries/perf-crx-20261107-282-greet-point/record.json",
+      "source_ids": [
+        "src-crx-20261107-282"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-606-open-palm",
+      "title": "贴膜状态下的开掌前送与胸前回收",
+      "summary": "空闲手抬至胸上方，张开后向镜头方向短送，回到胸前；随后再开掌一次并放下。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "tags": [
+        "开掌",
+        "胸前回收",
+        "面膜条件",
+        "单手"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "一只手空闲；若实际首帧无面膜，只参考手部路线和目光，不增加面膜。"
+      ],
+      "path": "entries/perf-crx-20261107-606-open-palm/record.json",
+      "source_ids": [
+        "src-crx-20261107-606"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-654-turn-return",
+      "title": "操作间隙低头看手中物，再抬眼回镜头",
+      "summary": "头和目光下移到当前操作区域，随后抬眼看镜头，头部回正。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "操作间隙",
+        "低头回视",
+        "少手势"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "手部确有需要查看的操作对象。",
+        "只迁移看物—回视，不迁移安瓶用法。"
+      ],
+      "path": "entries/perf-crx-20261107-654-turn-return/record.json",
+      "source_ids": [
+        "src-crx-20261107-654"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-657-busy-gaze",
+      "title": "手部忙于操作时短暂低头，再回镜头展开手势",
+      "summary": "保持手部真实接触时，目光先侧看再回镜头；短暂低头看双手，抬眼后双掌展开，随后合回。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "双手操作",
+        "低头回视",
+        "开掌合回"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "实际操作允许双手离开产品且手上状态已交代。",
+        "优先借用操作中看物—回视的交流方式。"
+      ],
+      "path": "entries/perf-crx-20261107-657-busy-gaze/record.json",
+      "source_ids": [
+        "src-crx-20261107-657"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-845-recline-gaze",
+      "title": "侧卧近景中短暂睁眼、低位指示和回落",
+      "summary": "短暂睁眼后，手在胸前抬起作一次小指示，随后降低；眼睛再次闭合。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "侧卧",
+        "少手势",
+        "睁闭眼",
+        "场景受限"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "仅适用于已有侧卧承托、休息或同类护理情境。",
+        "场景受限的视觉例子；普通坐姿电商讲解不直接调用。"
+      ],
+      "path": "entries/perf-crx-20261107-845-recline-gaze/record.json",
+      "source_ids": [
+        "src-crx-20261107-845"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-905-side-return",
+      "title": "移动自拍中侧看、回镜头，再恢复交流",
+      "summary": "头和目光由侧方回镜头，随后再侧看，再回到镜头附近。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "移动自拍",
+        "侧看回视",
+        "少手势",
+        "轻笑"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "已有移动自拍情境，需要兼顾周围环境。",
+        "可借用侧看—回视，移动方式服从当前场景。"
+      ],
+      "path": "entries/perf-crx-20261107-905-side-return/record.json",
+      "source_ids": [
+        "src-crx-20261107-905"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-918-open-body",
+      "title": "脸前短抬掌，落回胸前并带笑继续",
+      "summary": "本人开掌抬到脸前，短暂经过后降回胸前；人物与镜头距离略增。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "开掌",
+        "笑意",
+        "胸前回收",
+        "短手势"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "一只手空闲，轻松交流允许短促抬掌。",
+        "不要求复制摄影机位移。"
+      ],
+      "path": "entries/perf-crx-20261107-918-open-body/record.json",
+      "source_ids": [
+        "src-crx-20261107-918"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-920-v-close",
+      "title": "移动自拍中比V，收成向下指示后放手",
+      "summary": "一手抬起比V，短停后收成向下指示，再放低，中间短暂侧看。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "移动自拍",
+        "比V",
+        "向下指示",
+        "落手"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "移动自拍且有一只空闲手。",
+        "比V含义须按当次音频判断。"
+      ],
+      "path": "entries/perf-crx-20261107-920-v-close/record.json",
+      "source_ids": [
+        "src-crx-20261107-920"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-940-steady-face",
+      "title": "稳定头位中短抬掌，恢复无遮挡交流",
+      "summary": "本人开掌短暂进入下半脸前方，随后降低，头没有随手大幅摇动。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "稳定头位",
+        "开掌",
+        "少手势",
+        "手势间隔"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "稳定近景，一只手可用。",
+        "参考短手势之后留白，不需复制礼服或造型现场。"
+      ],
+      "path": "entries/perf-crx-20261107-940-steady-face/record.json",
+      "source_ids": [
+        "src-crx-20261107-940"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-941-point-recover",
+      "title": "胸前捏合状小手势、落手，再短扫掌",
+      "summary": "一手抬到胸前作捏合状小手势，放下后间隔片刻，再开掌横向短扫并回落。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "捏合状",
+        "短扫掌",
+        "胸前",
+        "分组回收"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "至少一只空闲手，胸前空间足够。",
+        "手势意思尚未核实，按当次语义选择。"
+      ],
+      "path": "entries/perf-crx-20261107-941-point-recover/record.json",
+      "source_ids": [
+        "src-crx-20261107-941"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-941-two-palms",
+      "title": "双掌短展开，再合握到下巴下方",
+      "summary": "双掌短展开，随后合拢交握到下巴下方，停留后降低并改变手位。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "tags": [
+        "双掌展开",
+        "交握",
+        "下巴下方",
+        "回落"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "双手可短暂空闲，前序产品和手上状态已交代。",
+        "展开—合握不能妨碍当前产品持握。"
+      ],
+      "path": "entries/perf-crx-20261107-941-two-palms/record.json",
+      "source_ids": [
+        "src-crx-20261107-941"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-943-close-gaze",
+      "title": "近景少手势讲述，头部微倾后回正",
+      "summary": "头小幅侧倾后回到较正位置，眉眼随讲述变化。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "tags": [
+        "少手势",
+        "头部微倾",
+        "眉眼变化",
+        "近景"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "近景构图或双手不便做手势。",
+        "只参考眼神头位，镜头距离服从当次首帧。"
+      ],
+      "path": "entries/perf-crx-20261107-943-close-gaze/record.json",
+      "source_ids": [
+        "src-crx-20261107-943"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-949-smile-hand",
+      "title": "笑容展开时短遮嘴，落手后继续交流",
+      "summary": "笑容扩大后，本人一手抬起短遮嘴部，随后降低。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "笑容展开",
+        "短遮嘴",
+        "眼睛变窄",
+        "落手"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "内容轻松且实际有笑意，一只手空闲。",
+        "是否遮嘴取决于当前语气和产品持握。"
+      ],
+      "path": "entries/perf-crx-20261107-949-smile-hand/record.json",
+      "source_ids": [
+        "src-crx-20261107-949"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-950-walk-gaze",
+      "title": "移动中兼顾前方与镜头的交替回视",
+      "summary": "目光和头位短暂朝前方或侧上方偏转，再回镜头，多次交替。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "移动自拍",
+        "环境回视",
+        "少手势",
+        "目光切换"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "已有移动场景，需要兼顾前方环境。",
+        "固定机位只可有条件借用短离镜头和回视。"
+      ],
+      "path": "entries/perf-crx-20261107-950-walk-gaze/record.json",
+      "source_ids": [
+        "src-crx-20261107-950"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-952-walk-hand",
+      "title": "户外移动中多次短开掌，再低位放松",
+      "summary": "一手数次短促张开朝镜头，之间略回收，之后再展开横扫并放低。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "移动自拍",
+        "连续短开掌",
+        "低位回收",
+        "环境回视"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "移动自拍且一只手空闲，动作不影响看路。",
+        "已有移动场景，保留每组之后的回收。"
+      ],
+      "path": "entries/perf-crx-20261107-952-walk-hand/record.json",
+      "source_ids": [
+        "src-crx-20261107-952"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-953-smile-recover",
+      "title": "车内近景笑容扩大，随后带笑缓下来",
+      "summary": "笑容扩大，头与自拍画面轻晃；手降到胸前后再靠近衣领。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "笑容变化",
+        "车内坐姿",
+        "少手势",
+        "保留笑意"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "坐姿轻松交流，原声内容允许笑意。",
+        "可只借用笑容起落，衣领触碰不是必需。"
+      ],
+      "path": "entries/perf-crx-20261107-953-smile-recover/record.json",
+      "source_ids": [
+        "src-crx-20261107-953"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-954-v-recover",
+      "title": "脸侧比V停留，落手后短暂侧转",
+      "summary": "一手在脸侧比V停留后降低，头随后略向侧方偏转。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "比V",
+        "脸侧停留",
+        "落手",
+        "侧转"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "一只空闲手，轻松讲述且当前语义允许。",
+        "仅借用手势回收，不继承贴纸。"
+      ],
+      "path": "entries/perf-crx-20261107-954-v-recover/record.json",
+      "source_ids": [
+        "src-crx-20261107-954"
+      ],
+      "independent_families": 1
+    },
+    {
+      "id": "perf-crx-20261107-957-small-hand",
+      "title": "低位小指示，松握后停在胸前",
+      "summary": "一手在胸前作小范围手指指示，随后松握，最后停在领口和胸前附近。 单次情境视觉样例，原声未听审。",
+      "enabled": true,
+      "banks": [
+        "general"
+      ],
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "低位指示",
+        "松握",
+        "胸前停留",
+        "头部微倾"
+      ],
+      "meaning_tags": [],
+      "evidence_status": "example",
+      "preconditions": [
+        "稳定坐姿、一只空闲手，适合较低强度交流。",
+        "可借用伸指—松握—停留，领口触碰不强制。"
+      ],
+      "path": "entries/perf-crx-20261107-957-small-hand/record.json",
+      "source_ids": [
+        "src-crx-20261107-957"
+      ],
+      "independent_families": 1
+    }
+  ]
+}

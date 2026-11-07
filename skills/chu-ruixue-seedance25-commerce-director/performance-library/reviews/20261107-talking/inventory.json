@@ -1,0 +1,841 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "input_files": 26,
+  "included_sources": 25,
+  "excluded": [
+    {
+      "key": "359",
+      "reason": "用户明确排除；未导入来源或表现记录。"
+    }
+  ],
+  "added_general_records": 29,
+  "added_language_records": 0,
+  "pending_language_candidates": 29,
+  "added_product_records": 0,
+  "added_category_records": 0,
+  "original_demo_records_preserved": 13,
+  "original_demo_units_preserved": 38,
+  "identity_basis": "用户明确确认其余均为真人初瑞雪，359 排除。",
+  "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+  "limitations": [
+    "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+    "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+    "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+    "未做 Seedance 成片生成、人物相似度或口型验证。",
+    "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+  ],
+  "videos": [
+    {
+      "key": "01",
+      "original_name": "01.mp4",
+      "source_id": "src-crx-20261107-01",
+      "nominal_duration_seconds": 28.966667,
+      "stored_duration_seconds": 28.966667,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-01-open-close"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-01-open-close"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "02",
+      "original_name": "02.mp4",
+      "source_id": "src-crx-20261107-02",
+      "nominal_duration_seconds": 25.658005,
+      "stored_duration_seconds": 25.658005,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-02-point-recover"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-02-point-recover"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "03",
+      "original_name": "03.mp4",
+      "source_id": "src-crx-20261107-03",
+      "nominal_duration_seconds": 270.791111,
+      "stored_duration_seconds": 270.791111,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-03-finger-rest",
+            "perf-crx-20261107-03-count-hands"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-03-finger-rest",
+            "candidate-crx-20261107-03-count-hands"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "04",
+      "original_name": "04.mp4",
+      "source_id": "src-crx-20261107-04",
+      "nominal_duration_seconds": 21.85,
+      "stored_duration_seconds": 21.85,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-04-v-recover"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-04-v-recover"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "24",
+      "original_name": "24_带娃的日子是幸福，跟你们一起是快乐。能理解这个区别吗？.mp4",
+      "source_id": "src-crx-20261107-24",
+      "nominal_duration_seconds": 193.608005,
+      "stored_duration_seconds": 193.608005,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-24-smile-turn",
+            "perf-crx-20261107-24-v-point"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-24-smile-turn",
+            "candidate-crx-20261107-24-v-point"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "201",
+      "original_name": "201_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+      "source_id": "src-crx-20261107-201",
+      "nominal_duration_seconds": 192.733333,
+      "stored_duration_seconds": 192.733333,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "insufficient_evidence",
+          "reason": "证据不足：出现持物或护理情境，具体同款身份和商品关键操作未完成核查；未绑定为已有产品。"
+        },
+        "category": {
+          "status": "not_completed",
+          "reason": "本次未完成：做过概览筛查，未进一步核查产品接触、转移和使用条件；不据零散画面新增教程。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-201-free-palm",
+            "perf-crx-20261107-201-two-hands"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-201-free-palm",
+            "candidate-crx-20261107-201-two-hands"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "235",
+      "original_name": "235_有妙招~@初瑞雪（辛巴818）(O3xxcgtnm2bj65kq).mp4",
+      "source_id": "src-crx-20261107-235",
+      "nominal_duration_seconds": 117.653991,
+      "stored_duration_seconds": 117.653991,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-235-lean-point"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-235-lean-point"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "280",
+      "original_name": "280_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+      "source_id": "src-crx-20261107-280",
+      "nominal_duration_seconds": 29.633333,
+      "stored_duration_seconds": 29.633333,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-280-lean-back"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-280-lean-back"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "282",
+      "original_name": "282_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+      "source_id": "src-crx-20261107-282",
+      "nominal_duration_seconds": 23.406009,
+      "stored_duration_seconds": 23.406009,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-282-greet-point"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-282-greet-point"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "606",
+      "original_name": "606_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+      "source_id": "src-crx-20261107-606",
+      "nominal_duration_seconds": 33.181995,
+      "stored_duration_seconds": 33.181995,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "insufficient_evidence",
+          "reason": "证据不足：出现持物或护理情境，具体同款身份和商品关键操作未完成核查；未绑定为已有产品。"
+        },
+        "category": {
+          "status": "not_completed",
+          "reason": "本次未完成：做过概览筛查，未进一步核查产品接触、转移和使用条件；不据零散画面新增教程。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-606-open-palm"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-606-open-palm"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "654",
+      "original_name": "654_无美颜滤镜.mp4",
+      "source_id": "src-crx-20261107-654",
+      "nominal_duration_seconds": 60.023991,
+      "stored_duration_seconds": 60.023991,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "insufficient_evidence",
+          "reason": "证据不足：出现持物或护理情境，具体同款身份和商品关键操作未完成核查；未绑定为已有产品。"
+        },
+        "category": {
+          "status": "not_completed",
+          "reason": "本次未完成：做过概览筛查，未进一步核查产品接触、转移和使用条件；不据零散画面新增教程。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-654-turn-return"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-654-turn-return"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "657",
+      "original_name": "657_.mp4",
+      "source_id": "src-crx-20261107-657",
+      "nominal_duration_seconds": 57.8,
+      "stored_duration_seconds": 57.8,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "insufficient_evidence",
+          "reason": "证据不足：出现持物或护理情境，具体同款身份和商品关键操作未完成核查；未绑定为已有产品。"
+        },
+        "category": {
+          "status": "not_completed",
+          "reason": "本次未完成：做过概览筛查，未进一步核查产品接触、转移和使用条件；不据零散画面新增教程。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-657-busy-gaze"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-657-busy-gaze"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "845",
+      "original_name": "845_我的最爱就是掏耳朵，掏完就能放心出去玩一阵了。.mp4",
+      "source_id": "src-crx-20261107-845",
+      "nominal_duration_seconds": 57.168005,
+      "stored_duration_seconds": 57.168005,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-845-recline-gaze"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-845-recline-gaze"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "905",
+      "original_name": "905_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+      "source_id": "src-crx-20261107-905",
+      "nominal_duration_seconds": 86.28,
+      "stored_duration_seconds": 86.28,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-905-side-return"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-905-side-return"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "918",
+      "original_name": "918_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+      "source_id": "src-crx-20261107-918",
+      "nominal_duration_seconds": 51.76,
+      "stored_duration_seconds": 51.76,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-918-open-body"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-918-open-body"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "920",
+      "original_name": "920_@初瑞雪店播号(O3xmvu8fbxti6v6u)记得来哟.mp4",
+      "source_id": "src-crx-20261107-920",
+      "nominal_duration_seconds": 35.76,
+      "stored_duration_seconds": 35.76,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-920-v-close"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-920-v-close"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "940",
+      "original_name": "940_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+      "source_id": "src-crx-20261107-940",
+      "nominal_duration_seconds": 36.362993,
+      "stored_duration_seconds": 36.362993,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-940-steady-face"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-940-steady-face"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "941",
+      "original_name": "941_@初瑞雪店播21号(O3xcb6j3si6rn68w)新店开业觉了！夸我！火爆了！.mp4",
+      "source_id": "src-crx-20261107-941",
+      "nominal_duration_seconds": 76.928005,
+      "stored_duration_seconds": 76.928005,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "insufficient_evidence",
+          "reason": "证据不足：出现持物或护理情境，具体同款身份和商品关键操作未完成核查；未绑定为已有产品。"
+        },
+        "category": {
+          "status": "not_completed",
+          "reason": "本次未完成：做过概览筛查，未进一步核查产品接触、转移和使用条件；不据零散画面新增教程。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-941-point-recover",
+            "perf-crx-20261107-941-two-palms"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-941-point-recover",
+            "candidate-crx-20261107-941-two-palms"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "943",
+      "original_name": "943_@初瑞雪店播21号(O3xcb6j3si6rn68w)开业大吉！超级成功！太开心了！来！.mp4",
+      "source_id": "src-crx-20261107-943",
+      "nominal_duration_seconds": 73.281995,
+      "stored_duration_seconds": 73.281995,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-943-close-gaze"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-943-close-gaze"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "949",
+      "original_name": "949_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+      "source_id": "src-crx-20261107-949",
+      "nominal_duration_seconds": 37.245011,
+      "stored_duration_seconds": 37.245011,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-949-smile-hand"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-949-smile-hand"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "950",
+      "original_name": "950_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+      "source_id": "src-crx-20261107-950",
+      "nominal_duration_seconds": 26.191995,
+      "stored_duration_seconds": 26.191995,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-950-walk-gaze"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-950-walk-gaze"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "952",
+      "original_name": "952_早上太早了，孩子们睡觉，带我妈去看。晚上带等等看花样游泳还是女团呢？.mp4",
+      "source_id": "src-crx-20261107-952",
+      "nominal_duration_seconds": 160.96,
+      "stored_duration_seconds": 86.16,
+      "preservation": "stream-copy usable prefix",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-952-walk-hand"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-952-walk-hand"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "953",
+      "original_name": "953_看上瘾了。早几天来好了，多看几场。世界级比赛看起来太给力了！.mp4",
+      "source_id": "src-crx-20261107-953",
+      "nominal_duration_seconds": 258.206009,
+      "stored_duration_seconds": 80.16,
+      "preservation": "stream-copy usable prefix",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-953-smile-recover"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-953-smile-recover"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "954",
+      "original_name": "954_出门就病了，没啥体力接着走了。看看奥运会旅行就圆满了。.mp4",
+      "source_id": "src-crx-20261107-954",
+      "nominal_duration_seconds": 40.92,
+      "stored_duration_seconds": 40.92,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-954-v-recover"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-954-v-recover"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    },
+    {
+      "key": "957",
+      "original_name": "957_简单发一个，度假中哈。身体第一，身体第一！.mp4",
+      "source_id": "src-crx-20261107-957",
+      "nominal_duration_seconds": 53.32,
+      "stored_duration_seconds": 53.32,
+      "preservation": "byte-identical copy",
+      "four_banks": {
+        "product": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：概览筛查及选段未形成可用的产品专属操作证据。"
+        },
+        "category": {
+          "status": "no_eligible_evidence",
+          "reason": "未新增：本次选段为人物交流，没有建立可复用品类操作单元。"
+        },
+        "general": {
+          "status": "added",
+          "record_ids": [
+            "perf-crx-20261107-957-small-hand"
+          ]
+        },
+        "language": {
+          "status": "pending_audio_review",
+          "formal_records_added": 0,
+          "candidate_ids": [
+            "candidate-crx-20261107-957-small-hand"
+          ],
+          "reason": "未对声音核查原话与动作对应；保留原音轨、机器转写与定位区间待复核。"
+        }
+      }
+    }
+  ],
+  "skill_rule": "语言对应库必须有核查过的原话及对应动作区间；未复核 ASR 只能做待查线索，不成为固定语言映射。",
+  "skill_rule_file": "references/ingestion.md",
+  "family_policy": "25份原文件无字节重复；941/943与952/953分别保守合组，其余跨片拍摄独立性未知。全部记录只标example。"
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "perf-crx-20261107-01-open-close",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "单手指形变化、向下指示与胸前回收",
+  "summary": "手从下方抬起，拇指与食指形成环状，随后转为向下指示；回到胸前松握，间隔后再次短促抬指。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "banks": [
+    "general"
+  ],
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "单手",
+    "指形变化",
+    "向下指示",
+    "胸前回收"
+  ],
+  "meaning_tags": [],
+  "evidence_status": "example",
+  "preconditions": [
+    "至少一只手空闲；画面容纳胸前手势。",
+    "可借用抬手—停留—回收的变化，具体语义须按当次音频重新判断。"
+  ],
+  "avoid": [
+    "不把环形手势固定解释为数字或承诺。",
+    "不为填时间添加后续拨发；不照搬机场场景。"
+  ],
+  "performance": {
+    "start_state": "正对镜头，活动手在胸前较低处。",
+    "movement": "手从下方抬起，拇指与食指形成环状，随后转为向下指示；回到胸前松握，间隔后再次短促抬指。",
+    "gaze_expression": "主要直视镜头，伴随眨眼、眉眼轻抬和小幅头部偏转。",
+    "rhythm": "约18–20.5秒为较密的指形变化，21–22秒有手留胸前的停留；时间为抽帧近似。",
+    "recovery": "每一小组手势之后回到胸前或画面下沿，不持续悬在脸前。",
+    "end_state": "约24.2秒手已降低，脸正对镜头；后续拨发没有纳入本观察。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-01",
+      "start_seconds": 17,
+      "end_seconds": 24.2,
+      "context": "公共大厅的近距离自拍；当前片段没有持产品，另一只手未完整入镜。",
+      "observed_sequence": "正对镜头，活动手在胸前较低处。 手从下方抬起，拇指与食指形成环状，随后转为向下指示；回到胸前松握，间隔后再次短促抬指。 主要直视镜头，伴随眨眼、眉眼轻抬和小幅头部偏转。 约18–20.5秒为较密的指形变化，21–22秒有手留胸前的停留；时间为抽帧近似。 每一小组手势之后回到胸前或画面下沿，不持续悬在脸前。 约24.2秒手已降低，脸正对镜头；后续拨发没有纳入本观察。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable"
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      17,
+      25
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/01-open-close-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  }
+}

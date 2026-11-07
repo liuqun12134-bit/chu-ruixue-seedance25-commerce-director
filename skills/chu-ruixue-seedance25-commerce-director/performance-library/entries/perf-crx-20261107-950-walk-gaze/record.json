@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "id": "perf-crx-20261107-950-walk-gaze",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "移动中兼顾前方与镜头的交替回视",
+  "summary": "目光和头位短暂朝前方或侧上方偏转，再回镜头，多次交替。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "移动自拍",
+    "环境回视",
+    "少手势",
+    "目光切换"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "已有移动场景，需要兼顾前方环境。",
+    "固定机位只可有条件借用短离镜头和回视。"
+  ],
+  "avoid": [
+    "不把看路写成所有坐姿口播习惯。",
+    "不添加妨碍观察环境的持续闭眼。"
+  ],
+  "performance": {
+    "start_state": "头面向镜头附近，背景随自拍位置移动。",
+    "movement": "目光和头位短暂朝前方或侧上方偏转，再回镜头，多次交替。",
+    "gaze_expression": "约7.3、9.2、11.6秒看环境；8.1、10.4、12.4秒附近回镜头。",
+    "rhythm": "看环境的短变化与面向镜头的停留交替，不是连续快速扫视。",
+    "recovery": "每次看环境后恢复对镜头交流。",
+    "end_state": "约14秒继续移动自拍，没有加入大幅手势。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-950",
+      "start_seconds": 6,
+      "end_seconds": 14,
+      "context": "白色上衣的机场移动自拍，手主要在镜外。",
+      "observed_sequence": "头面向镜头附近，背景随自拍位置移动。 目光和头位短暂朝前方或侧上方偏转，再回镜头，多次交替。 约7.3、9.2、11.6秒看环境；8.1、10.4、12.4秒附近回镜头。 看环境的短变化与面向镜头的停留交替，不是连续快速扫视。 每次看环境后恢复对镜头交流。 约14秒继续移动自拍，没有加入大幅手势。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      6,
+      14
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/950-walk-gaze-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  },
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "已保留原片及视觉动作观察；尚未核查原话、情绪语气和台词与动作的对应关系。"
+  }
+}

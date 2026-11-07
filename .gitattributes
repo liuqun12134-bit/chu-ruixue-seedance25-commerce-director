@@ -1,0 +1,6 @@
+# Preserve the installed package byte-for-byte, including evidence hashes.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp4 filter=lfs diff=lfs merge=lfs -text

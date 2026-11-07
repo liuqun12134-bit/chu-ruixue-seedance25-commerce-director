@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "perf-crx-20261107-282-greet-point",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "开掌举过头侧，落回胸前后再到脸侧",
+  "summary": "开掌举到头侧上方并停留，随后落回胸前，再抬到耳侧附近。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "banks": [
+    "general"
+  ],
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "开掌",
+    "高位抬手",
+    "停留",
+    "胸前回收"
+  ],
+  "meaning_tags": [],
+  "evidence_status": "example",
+  "preconditions": [
+    "一只手空闲，构图能容纳较高的抬手。",
+    "当前交流允许较活跃的开场或回应动作。"
+  ],
+  "avoid": [
+    "不把工作人员的动作归给本人。",
+    "不限定抬手必须配某句招呼。"
+  ],
+  "performance": {
+    "start_state": "本人手从胸前较低位置开始抬起。",
+    "movement": "开掌举到头侧上方并停留，随后落回胸前，再抬到耳侧附近。",
+    "gaze_expression": "看向镜头，头略侧倾，嘴角有轻微笑意。",
+    "rhythm": "上举动作较快，约1–3秒的停留更长，3秒后有清楚的下落。",
+    "recovery": "手回到胸前承接，再进入较低的脸侧交流手势。",
+    "end_state": "约5.2秒活动手在脸侧，后续整理额发不纳入本记录。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-282",
+      "start_seconds": 0,
+      "end_seconds": 5.2,
+      "context": "黄色服装的造型现场；后方他人整理头发不属于本人动作。",
+      "observed_sequence": "本人手从胸前较低位置开始抬起。 开掌举到头侧上方并停留，随后落回胸前，再抬到耳侧附近。 看向镜头，头略侧倾，嘴角有轻微笑意。 上举动作较快，约1–3秒的停留更长，3秒后有清楚的下落。 手回到胸前承接，再进入较低的脸侧交流手势。 约5.2秒活动手在脸侧，后续整理额发不纳入本记录。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable"
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      0,
+      8
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/282-greet-point-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  }
+}

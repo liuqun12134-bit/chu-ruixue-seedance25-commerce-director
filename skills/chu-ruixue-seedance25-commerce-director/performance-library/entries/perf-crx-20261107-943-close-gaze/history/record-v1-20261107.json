@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "perf-crx-20261107-943-close-gaze",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "近景少手势讲述，头部微倾后回正",
+  "summary": "头小幅侧倾后回到较正位置，眉眼随讲述变化。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "banks": [
+    "general"
+  ],
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "tags": [
+    "少手势",
+    "头部微倾",
+    "眉眼变化",
+    "近景"
+  ],
+  "meaning_tags": [],
+  "evidence_status": "example",
+  "preconditions": [
+    "近景构图或双手不便做手势。",
+    "只参考眼神头位，镜头距离服从当次首帧。"
+  ],
+  "avoid": [
+    "不把另一讲述者表现记为初瑞雪。",
+    "不将自拍机位变化误写为身体前探。"
+  ],
+  "performance": {
+    "start_state": "脸处于近景，手未进入主要画面。",
+    "movement": "头小幅侧倾后回到较正位置，眉眼随讲述变化。",
+    "gaze_expression": "目光围绕镜头，眨眼与眉眼变化可见。",
+    "rhythm": "小幅头位变化之间有停留，不把手机晃动计作身体前探。",
+    "recovery": "头位接近正面，视线保持交流。",
+    "end_state": "约44秒脸仍朝镜头附近，手势很少。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-943",
+      "start_seconds": 40,
+      "end_seconds": 44,
+      "context": "活动后台近景自拍；此前另一位讲述者和37–39秒拨发不纳入本段。",
+      "observed_sequence": "脸处于近景，手未进入主要画面。 头小幅侧倾后回到较正位置，眉眼随讲述变化。 目光围绕镜头，眨眼与眉眼变化可见。 小幅头位变化之间有停留，不把手机晃动计作身体前探。 头位接近正面，视线保持交流。 约44秒脸仍朝镜头附近，手势很少。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable"
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      36,
+      44
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/943-close-gaze-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  }
+}

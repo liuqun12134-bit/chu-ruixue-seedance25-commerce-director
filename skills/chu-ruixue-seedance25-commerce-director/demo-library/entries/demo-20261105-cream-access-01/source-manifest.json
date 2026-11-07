@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "W15",
+    "filename": "玻色因面霜 (15).mp4",
+    "batch": "王玉钊",
+    "sha256": "1478c5647dea73b7af90d7f87b9146694e253ce8e68f3f073b5ce9498af94b0e",
+    "size_bytes": 6280877,
+    "duration_seconds": 20.711995,
+    "width": 720,
+    "height": 1280,
+    "source_asset": null,
+    "observation": "0–6秒双手分离罐盖、开口朝镜头、罐盖分别落桌；后讲解和再次举品。开盖结构及台面去向重点加密核对。",
+    "review_method": "覆盖可读时段的每2秒抽帧视觉分析；选中关键交互另加密至每秒2或4帧",
+    "integrity": "video_decode_no_error"
+  },
+  {
+    "source_id": "W27",
+    "filename": "玻色因面霜 (27).mp4",
+    "batch": "王玉钊",
+    "sha256": "db3b19e83c8645ca06149b37ca346144d78c5a2ee4e78c327c87b173740c6b3d",
+    "size_bytes": 5989965,
+    "duration_seconds": 20.737007,
+    "width": 720,
+    "height": 1280,
+    "source_asset": null,
+    "observation": "与15号全段视觉近重复，时长略有差异且哈希不同；合并为开罐来源家族。",
+    "review_method": "覆盖可读时段的每2秒抽帧视觉分析；选中关键交互另加密至每秒2或4帧",
+    "integrity": "video_decode_no_error"
+  },
+  {
+    "source_id": "Q08",
+    "filename": "8.mp4",
+    "batch": "秦营",
+    "sha256": "4977db31e8e80f3058ac744028e0bad9e70598b5d092f348a024b2a2c0aab732",
+    "size_bytes": 5629999,
+    "duration_seconds": 38.382993,
+    "width": 652,
+    "height": 1280,
+    "source_asset": null,
+    "observation": "秦营8：闭罐持品，约11–15秒外盖及白色内片分离，18–20秒指腹取黄调内容物，随后接近眼周轻抹。仅采纳包装开启结构；未知产品眼周适用性，不自动迁移眼部用法。",
+    "review_method": "覆盖可读时段的每2秒抽帧视觉分析；选中关键交互另加密至每秒2或4帧",
+    "integrity": "video_decode_no_error"
+  },
+  {
+    "source_id": "W47",
+    "filename": "玻色因面霜 (47).mp4",
+    "batch": "王玉钊",
+    "sha256": "24aa38c57c3d2cac17a16f78ed0df28b2da53c0e3c626c86c16534f9f322ad5a",
+    "size_bytes": 8866748,
+    "duration_seconds": 25.149002,
+    "width": 720,
+    "height": 1280,
+    "source_asset": null,
+    "observation": "约2–6秒开口朝镜头再倾斜/倒转展示，膏体没有明显流出；仅适合已确认不易流动的膏霜。后为图文讲解。",
+    "review_method": "覆盖可读时段的每2秒抽帧视觉分析；选中关键交互另加密至每秒2或4帧",
+    "integrity": "video_decode_no_error"
+  },
+  {
+    "source_id": "W24",
+    "filename": "玻色因面霜 (24).mp4",
+    "batch": "王玉钊",
+    "sha256": "94ff28e7b87a033bf0a4c7085da797bc198561785cc783250d3e8ddcb1984b46",
+    "size_bytes": 16342815,
+    "duration_seconds": 56.833333,
+    "width": 720,
+    "height": 1408,
+    "source_asset": null,
+    "observation": "前段持罐及开口展示，约20–26秒罐内取霜至持罐手背并推开；后持罐讲解。手背主证据的辅助，不另建同动作。",
+    "review_method": "覆盖可读时段的每2秒抽帧视觉分析；选中关键交互另加密至每秒2或4帧",
+    "integrity": "video_decode_no_error"
+  }
+]

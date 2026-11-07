@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "id": "perf-crx-20261107-949-smile-hand",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "笑容展开时短遮嘴，落手后继续交流",
+  "summary": "笑容扩大后，本人一手抬起短遮嘴部，随后降低。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "笑容展开",
+    "短遮嘴",
+    "眼睛变窄",
+    "落手"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "内容轻松且实际有笑意，一只手空闲。",
+    "是否遮嘴取决于当前语气和产品持握。"
+  ],
+  "avoid": [
+    "无笑意内容不机械插入遮嘴。",
+    "不复制工作人员梳头或额外遮挡产品。"
+  ],
+  "performance": {
+    "start_state": "脸已有笑意，手在较低处。",
+    "movement": "笑容扩大后，本人一手抬起短遮嘴部，随后降低。",
+    "gaze_expression": "笑时眼睛变窄；落手后仍带笑，恢复讲述时的口部变化。",
+    "rhythm": "约18.3–19.4秒笑容扩大，19.6–20.4秒遮嘴，20.8秒前后降低。",
+    "recovery": "手从嘴部退开，脸重新完整可见。",
+    "end_state": "约21.1秒手在低位，笑意未完全消失。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-949",
+      "start_seconds": 18.3,
+      "end_seconds": 21.1,
+      "context": "红色礼服、花饰造型现场；工作人员梳发的手与本人活动手分开。",
+      "observed_sequence": "脸已有笑意，手在较低处。 笑容扩大后，本人一手抬起短遮嘴部，随后降低。 笑时眼睛变窄；落手后仍带笑，恢复讲述时的口部变化。 约18.3–19.4秒笑容扩大，19.6–20.4秒遮嘴，20.8秒前后降低。 手从嘴部退开，脸重新完整可见。 约21.1秒手在低位，笑意未完全消失。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      16,
+      24
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/949-smile-hand-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  },
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "已保留原片及视觉动作观察；尚未核查原话、情绪语气和台词与动作的对应关系。"
+  }
+}

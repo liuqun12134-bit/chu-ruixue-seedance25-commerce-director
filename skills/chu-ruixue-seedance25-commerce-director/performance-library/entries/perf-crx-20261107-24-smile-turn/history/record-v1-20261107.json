@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "perf-crx-20261107-24-smile-turn",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "看向身旁的人，再带笑回到镜头",
+  "summary": "转头看向身旁的人，稍靠近交流，再转回前方；回正后笑容展开，随后逐渐收小。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "banks": [
+    "general"
+  ],
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "侧向交流",
+    "笑容变化",
+    "回镜头",
+    "轻松"
+  ],
+  "meaning_tags": [],
+  "evidence_status": "example",
+  "preconditions": [
+    "当前情境允许回应旁人或镜外对象。",
+    "轻松交流语境，不能只因一句关键词就安排转头。"
+  ],
+  "avoid": [
+    "单人口播不能凭空添加孩子或对话对象。",
+    "不把鼻部、头发的偶发触碰写成必做动作。"
+  ],
+  "performance": {
+    "start_state": "面向镜头附近，脸上已经带笑。",
+    "movement": "转头看向身旁的人，稍靠近交流，再转回前方；回正后笑容展开，随后逐渐收小。",
+    "gaze_expression": "目光有明确交流对象，笑时眼睛变窄、嘴角抬起，回镜头后仍保留笑意。",
+    "rhythm": "约91–94秒向身旁交流，95秒后回前方，96–99秒笑容展开并缓下来。",
+    "recovery": "头和目光回到镜头附近，笑容从较大变为轻笑。",
+    "end_state": "约100秒仍有笑意，姿态稳定。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-24",
+      "start_seconds": 90.5,
+      "end_seconds": 100,
+      "context": "与孩子同处候坐区域；只提取初瑞雪的转头和笑容变化，不提取孩子动作。",
+      "observed_sequence": "面向镜头附近，脸上已经带笑。 转头看向身旁的人，稍靠近交流，再转回前方；回正后笑容展开，随后逐渐收小。 目光有明确交流对象，笑时眼睛变窄、嘴角抬起，回镜头后仍保留笑意。 约91–94秒向身旁交流，95秒后回前方，96–99秒笑容展开并缓下来。 头和目光回到镜头附近，笑容从较大变为轻笑。 约100秒仍有笑意，姿态稳定。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable"
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      88,
+      100
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/24-smile-turn-1.jpg",
+      "reviews/20261107-talking/frames/dense/24-smile-turn-2.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  }
+}

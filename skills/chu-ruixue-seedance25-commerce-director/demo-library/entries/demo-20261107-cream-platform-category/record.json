@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261107-cream-platform-category",
+  "title": "顶部按压出料面霜：承接取霜与按压展示",
+  "record_type": "demo",
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "category": "面霜",
+  "product_name": "水光霜（本批次原片包装）",
+  "product_form": "可由确认的顶部出料结构转移的膏霜",
+  "container": "中央出料、顶面承接的按压容器；须按当前产品参考确认",
+  "body_part": "面颊",
+  "tags": [
+    "从顶面已有膏体取霜，再接触面颊",
+    "举近顶部，双指按压后露出新增膏体"
+  ],
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "summary": "仅适合已确认同类顶部承接出料结构：区分首帧已有料直接取用，与从较少残料按压新增膏体；不迁移为普通旋盖罐操作。",
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户本轮提供 水光霜/8.mp4；用户确认讲解者为初瑞雪本人。",
+    "source_url": null,
+    "source_asset": "source.mp4",
+    "notes_path": "source-notes.md",
+    "analyzed_on": "2026-11-07",
+    "duration_seconds": 97.593991,
+    "time_reliability": "approximate",
+    "observation_method": "实测容器与音轨；全片解码；2 fps 抽帧序列及重点窗口视觉观察；本地 ASR 未听审。",
+    "limitations": [
+      "全片解码通过；视觉检查采用每秒 2 帧抽样和动作窗口序列，关键时点近似，未声称实时连续播放。",
+      "原声保留；本地机器转写未听审，台词、语气和成分/功效说法不作为本条动作结论。",
+      "未进行生成验证；现场反光不证明功效，不迁移曝光变化或整脸换肤。",
+      "眼周、配方搭配和适用人群不能仅凭演示推断；使用区域以当前产品真实说明为准。"
+    ]
+  },
+  "preconditions": [
+    "按当前首帧确定开合、已有膏体、持物与可用支撑面。",
+    "源视频时序只作证据，不强制新稿复刻全长或固定次数。",
+    "仅借与当前产品形态、容器及适用部位相容的操作，不继承原品牌、人物、配方或功效说法。"
+  ],
+  "units": [
+    {
+      "id": "take-platform",
+      "name": "从顶面已有膏体取霜，再接触面颊",
+      "source_time": "约 0.0–3.5 秒",
+      "start_conditions": [
+        "粉色顶面已有可见浅色膏体；一手持容器，另一手可取用。"
+      ],
+      "action": "将顶面朝镜头保持可见，指腹抹取其上已有膏体，然后接触画面右侧面颊并开始推开。首帧出料已完成，不能把开头写成从零开始挤出。",
+      "transition": "取霜手转为局部涂抹，容器仍由另一手持住。",
+      "end_state": "少量膏体转移到面颊，顶面留有残余。",
+      "expected_effect": "建立顶面膏体到指腹、再到皮肤的真实转移。",
+      "avoid": [
+        "不把按压顶面当作可旋开的普通盖；不忽略首帧已有膏。"
+      ],
+      "prompt_fragment": "承接顶面已有的面霜，用指腹抹取后落到面颊，再从落点逐步推开。"
+    },
+    {
+      "id": "press-platform",
+      "name": "举近顶部，双指按压后露出新增膏体",
+      "source_time": "约 88.5–91.5 秒",
+      "start_conditions": [
+        "确认是当前产品具有顶部承接、中央出料的按压结构；容器竖直，手可稳定承托。"
+      ],
+      "action": "将粉色顶面举近并朝向镜头，手指接触顶面两侧后向下按压，随后抬手；中央浅色膏体由小点变为较明显膏团。只记录可见出料变化，不推定内部真空结构和精确出料量。",
+      "transition": "抬手让顶面膏体清楚可见，之后可按当前任务取用或收回容器。",
+      "end_state": "顶面中央新增膏体，瓶身仍完整未拆开。",
+      "expected_effect": "展示该包装的按压出料与顶面承接。",
+      "avoid": [
+        "不旋拧拆开顶面；不凭空增加泵嘴；不写固定按压次数或克数。"
+      ],
+      "prompt_fragment": "持稳已确认结构相容的按压容器，将顶面朝向镜头，手指按压后抬起，让中央真实挤出的面霜留在承接面上。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/key-01.jpg",
+      "timestamp_seconds": 0,
+      "role": "source_evidence",
+      "observation": "粉色顶面中央已有浅色膏体，首帧并非尚未出料。"
+    },
+    {
+      "path": "assets/key-02.jpg",
+      "timestamp_seconds": 0.5,
+      "role": "source_evidence",
+      "observation": "指腹抹取顶面已有膏体。"
+    },
+    {
+      "path": "assets/key-03.jpg",
+      "timestamp_seconds": 1.5,
+      "role": "source_evidence",
+      "observation": "取霜指腹接触一侧面颊，出现浅色膏痕。"
+    },
+    {
+      "path": "assets/key-04.jpg",
+      "timestamp_seconds": 89,
+      "role": "source_evidence",
+      "observation": "手指接触粉色顶面边缘，中央白色点较小。"
+    },
+    {
+      "path": "assets/key-05.jpg",
+      "timestamp_seconds": 90.5,
+      "role": "source_evidence",
+      "observation": "按压后抬手，中央浅色膏团较前一状态明显增加。"
+    },
+    {
+      "path": "assets/key-06.jpg",
+      "timestamp_seconds": 91,
+      "role": "source_evidence",
+      "observation": "容器举近镜头，粉色顶面上新增膏体可见。"
+    }
+  ],
+  "scope": "category",
+  "product_id": null,
+  "enabled": true
+}

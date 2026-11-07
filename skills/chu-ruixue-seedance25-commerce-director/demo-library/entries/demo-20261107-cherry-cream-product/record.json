@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261107-cherry-cream-product",
+  "title": "辛等等樱桃面霜：举近、转向与脸侧持品",
+  "record_type": "demo",
+  "modes": [
+    "talk"
+  ],
+  "category": "面霜",
+  "product_name": "辛等等樱桃面霜（本批次原片包装）",
+  "product_form": "内容物未展示，不据外壳推断质地",
+  "container": "透明圆筒外罩、粉色内部容器和顶部结构",
+  "body_part": "无接触使用",
+  "tags": [
+    "从画外取出，脸侧举近并露出顶部",
+    "看一眼瓶身，转向展示图案与正面",
+    "脸侧正面持品，指腹扶稳下缘"
+  ],
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "summary": "纯展示同款透明外罩粉色包装，包含举近露顶、视线看物后转向和脸侧持稳；没有开盖、取膏或上脸。",
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户本轮提供 辛等等樱桃面霜/3.mp4；用户确认讲解者为初瑞雪本人。",
+    "source_url": null,
+    "source_asset": "source.mp4",
+    "notes_path": "source-notes.md",
+    "analyzed_on": "2026-11-07",
+    "duration_seconds": 20.92,
+    "time_reliability": "approximate",
+    "observation_method": "实测容器与音轨；全片解码；2 fps 抽帧序列及重点窗口视觉观察；本地 ASR 未听审。",
+    "limitations": [
+      "全片解码通过；视觉检查采用每秒 2 帧抽样和动作窗口序列，关键时点近似，未声称实时连续播放。",
+      "原声保留；本地机器转写未听审，台词、语气和成分/功效说法不作为本条动作结论。",
+      "未进行生成验证；现场反光不证明功效，不迁移曝光变化或整脸换肤。",
+      "眼周、配方搭配和适用人群不能仅凭演示推断；使用区域以当前产品真实说明为准。"
+    ]
+  },
+  "preconditions": [
+    "按当前首帧确定开合、已有膏体、持物与可用支撑面。",
+    "源视频时序只作证据，不强制新稿复刻全长或固定次数。"
+  ],
+  "units": [
+    {
+      "id": "bring-in",
+      "name": "从画外取出，脸侧举近并露出顶部",
+      "source_time": "约 3.0–6.5 秒",
+      "start_conditions": [
+        "同款透明外罩粉色容器可拿取；一手空闲。"
+      ],
+      "action": "先看向画外产品，将容器举至脸侧，略倾使顶部和外罩可见，再收至自然展示距离。",
+      "transition": "保持握持进入包装转向。",
+      "end_state": "容器在脸侧，顶部结构和外罩可见。",
+      "expected_effect": "介绍同款包装外形。",
+      "avoid": [
+        "本片没有开启动作，不编开盖或取膏。"
+      ],
+      "prompt_fragment": "从画外拿起同款面霜，举至脸侧略倾展示顶部，再回到自然持品距离。"
+    },
+    {
+      "id": "turn-container",
+      "name": "看一眼瓶身，转向展示图案与正面",
+      "source_time": "约 6.5–11.0 秒",
+      "start_conditions": [
+        "一手持透明外罩粉色容器。"
+      ],
+      "action": "视线短暂落向容器，手腕转动瓶身，交替露出侧面、顶部和带图案的正面，再回看镜头。",
+      "transition": "正面朝向镜头后减少转动。",
+      "end_state": "容器正面在脸侧可见。",
+      "expected_effect": "看清真实包装，不要求无法辨认的小字。",
+      "avoid": [
+        "不任意改标签、图案、内部件数量。"
+      ],
+      "prompt_fragment": "看一眼手中面霜，转到包装正面并停稳，再把目光带回镜头。"
+    },
+    {
+      "id": "face-side-hold",
+      "name": "脸侧正面持品，指腹扶稳下缘",
+      "source_time": "约 12.0–19.0 秒",
+      "start_conditions": [
+        "容器正面已朝向镜头；手可自然扶住瓶身与下缘。"
+      ],
+      "action": "把容器停在脸侧，指腹扶稳下缘及瓶身，随讲话做有限的距离和角度调整；接近结尾将产品移出画面。",
+      "transition": "从持品展示回到无持物交流。",
+      "end_state": "产品最后离开镜头，脸部保持可见。",
+      "expected_effect": "纯口播展示路线，不引入使用教程。",
+      "avoid": [
+        "不把托瓶手指误写成向下购买指示；不新增上脸动作。"
+      ],
+      "prompt_fragment": "在脸侧自然持稳面霜，保持正面可见，随交流调整角度，完成后放回。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/key-01.jpg",
+      "timestamp_seconds": 4,
+      "role": "source_evidence",
+      "observation": "透明外罩粉色容器从画外举入，仍有移动模糊，不用于核对包装微字。"
+    },
+    {
+      "path": "assets/key-02.jpg",
+      "timestamp_seconds": 5,
+      "role": "source_evidence",
+      "observation": "容器略倾，顶部结构和透明外罩可见。"
+    },
+    {
+      "path": "assets/key-03.jpg",
+      "timestamp_seconds": 8,
+      "role": "source_evidence",
+      "observation": "视线看向手中容器，瓶身处于转向中。"
+    },
+    {
+      "path": "assets/key-04.jpg",
+      "timestamp_seconds": 10,
+      "role": "source_evidence",
+      "observation": "容器另一面与粉色内胆可见，尚未展示取用。"
+    },
+    {
+      "path": "assets/key-05.jpg",
+      "timestamp_seconds": 14,
+      "role": "source_evidence",
+      "observation": "容器带图案的正面在脸侧，手指扶住下缘。"
+    },
+    {
+      "path": "assets/key-06.jpg",
+      "timestamp_seconds": 18,
+      "role": "source_evidence",
+      "observation": "容器正面继续靠近脸侧，保持真实握持。"
+    }
+  ],
+  "scope": "product",
+  "product_id": "product-cream-cherry-20261107",
+  "enabled": true
+}

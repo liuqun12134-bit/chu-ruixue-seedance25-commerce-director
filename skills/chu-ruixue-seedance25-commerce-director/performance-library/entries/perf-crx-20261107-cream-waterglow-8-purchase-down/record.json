@@ -1,0 +1,78 @@
+{
+  "schema_version": 2,
+  "id": "perf-crx-20261107-cream-waterglow-8-purchase-down",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待核查｜引导购买—前探并向下指示后落手",
+  "summary": "待核查：机器句“点击这里去拍吧”附近出现向下指示；这是候选关系，不是已核实原话或反复习惯。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "tags": [],
+  "evidence_status": "example",
+  "preconditions": [
+    "须先核查原声、语气及动作对应区间，再用于已核实话术匹配。",
+    "持物、空闲手和姿态须与具体动作相容。"
+  ],
+  "avoid": [
+    "不将待审词句认作已核实原话；不将单次观察升级为反复习惯。"
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": "引导购买",
+    "tone_tags": [],
+    "keywords": [
+      "点击这里",
+      "去拍"
+    ],
+    "paraphrases": [
+      "赶紧拍",
+      "快下单",
+      "想要的点下面链接"
+    ],
+    "exclusions": [
+      "同词的否定、引用、反例或不同表达意图不自动适用。"
+    ],
+    "placement": "约 84.5–85.0 秒可见指示，85.5 秒附近手已放低；机器句时约 84.78–86.02 秒，未听审。",
+    "pending_reason": "类别与关键词仅由未复核机器文字形成候选；原声、情绪语气和精确对应尚未核查。"
+  },
+  "performance": {
+    "start_state": "面对镜头，双手较低，当前画面中没有持品。",
+    "movement": "身体略前探，活动手抬起并以食指向画面下方作短指示，随后降低退出脸前。",
+    "gaze_expression": "主要看镜头，落手后嘴角略带笑，视线继续与镜头交流。",
+    "rhythm": "约 84.5–85.0 秒可见指示，85.5 秒附近手已放低；机器句时约 84.78–86.02 秒，未听审。",
+    "recovery": "手落回画面下方，身体回到自然近景交流距离。",
+    "end_state": "约 86 秒脸前无遮挡，继续面对镜头。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-cream-waterglow-8",
+      "start_seconds": 83.5,
+      "end_seconds": 86.5,
+      "context": "用户确认本人；水光霜/8.mp4 中的近景讲述窗口。",
+      "observed_sequence": "面对镜头，双手较低，当前画面中没有持品。 身体略前探，活动手抬起并以食指向画面下方作短指示，随后降低退出脸前。 手落回画面下方，身体回到自然近景交流距离。",
+      "utterance": "点击这里去拍吧",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": "待核查：机器句“点击这里去拍吧”附近出现向下指示；这是候选关系，不是已核实原话或反复习惯。"
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence_plus_unreviewed_local_asr",
+    "sample_fps": 2,
+    "evidence_sheets": [
+      "reviews/20261107-cream/frames/waterglow-buy.jpg"
+    ],
+    "asr_path": "reviews/20261107-cream/asr/waterglow-8.json",
+    "limitations": [
+      "本轮工具返回不支持音频输入，未完成原声听审。",
+      "机器文字有明显误识别；不静默纠正后声称听审通过。",
+      "动作观察来自抽帧序列，节奏近似，未认证连续播放或生成效果。"
+    ]
+  }
+}

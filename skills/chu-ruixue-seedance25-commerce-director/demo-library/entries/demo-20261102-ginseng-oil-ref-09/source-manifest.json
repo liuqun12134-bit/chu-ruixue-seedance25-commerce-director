@@ -1,0 +1,14 @@
+{
+  "primary_source_number": 9,
+  "sources": [
+    {
+      "source_number": 9,
+      "filename": "人参油 (9).mp4",
+      "duration_seconds": 41.448005,
+      "sha256": "5ed639426366de35813fe8b116a96b1da04258e38cbc3d0109508142dfa795b1",
+      "source_asset": null
+    }
+  ],
+  "deduplication_notes": [],
+  "original_video_included": false
+}

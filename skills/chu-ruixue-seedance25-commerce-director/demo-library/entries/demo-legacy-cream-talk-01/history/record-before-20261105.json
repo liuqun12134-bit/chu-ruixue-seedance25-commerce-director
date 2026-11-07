@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "demo-legacy-cream-talk-01",
+  "title": "罐装面霜：持品讲解与自然收尾",
+  "record_type": "demo",
+  "modes": [
+    "talk"
+  ],
+  "category": "面霜",
+  "product_name": null,
+  "product_form": "膏霜",
+  "container": "有盖罐",
+  "body_part": null,
+  "tags": [
+    "持品讲解",
+    "包装展示",
+    "自然收尾"
+  ],
+  "created_on": "2026-11-01",
+  "updated_on": "2026-11-01",
+  "summary": "从原纯口播导演文字案例提炼讲解、举品和收尾方法；不继承案例人物和固定时长。",
+  "provenance": {
+    "kind": "legacy_text",
+    "description": "来源：seedance25-commerce-director 1.0.1 的 zuzu-successful-example.md 与主规则。",
+    "source_url": null,
+    "source_asset": null,
+    "notes_path": "source-notes.md",
+    "analyzed_on": null,
+    "duration_seconds": null,
+    "time_reliability": "unknown",
+    "observation_method": "本次读取历史文字稿，未重新查看对应视频。",
+    "limitations": [
+      "原记录称类似导演式写法曾获用户认可；不能据此验证本条提炼稿。",
+      "无对应视频或关键帧随包，未验证口型、包装小字或精确时长。"
+    ]
+  },
+  "preconditions": [
+    "首帧持有匹配的有盖罐装产品，目标是讲解展示。",
+    "手势根据新首帧的空闲手选择，不能凭空腾出一只手。"
+  ],
+  "units": [
+    {
+      "id": "present",
+      "name": "讲解与轻举产品",
+      "source_time": null,
+      "start_conditions": [
+        "首帧可连续持品",
+        "另一手若被占用则不安排双手并行动作"
+      ],
+      "action": "随真实原声自然交流，持品手小幅调整展示高度，空闲手轻指产品或作短促解释手势。",
+      "transition": "手势回收后保持原握持，产品随手连续移动。",
+      "end_state": "同一产品仍被可靠握持，适时可辨包装。",
+      "expected_effect": "无新增皮肤效果，重点是讲解自然与产品展示。",
+      "avoid": [
+        "不照搬原案例固定秒数与抬高厘米数",
+        "不自动开盖或添加脸上膏体"
+      ],
+      "prompt_fragment": "从首帧姿势自然讲话，持品手平稳调整到可辨认的位置，空闲手随当前话题作一次简洁讲解手势，再自然收回。"
+    },
+    {
+      "id": "finish",
+      "name": "原声收尾",
+      "source_time": null,
+      "start_conditions": [
+        "产品仍在已知位置"
+      ],
+      "action": "最后一句适度呈现包装并与镜头交流。",
+      "transition": "动作随原声自然回稳。",
+      "end_state": "最后一句结束后自然停口。",
+      "expected_effect": "产品和人物连续，无新增使用效果。",
+      "avoid": [
+        "不添加无声片尾"
+      ],
+      "prompt_fragment": "沿当前握持自然完成最后一句讲解，保留包装可辨状态，随原声结束自然停口。"
+    }
+  ],
+  "keyframes": [],
+  "scope": "category",
+  "product_id": null,
+  "enabled": true
+}

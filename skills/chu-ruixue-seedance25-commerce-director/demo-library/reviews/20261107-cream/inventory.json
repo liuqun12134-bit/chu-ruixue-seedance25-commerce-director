@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-07",
+  "sources": [
+    {
+      "source": "B5面霜/4.mp4",
+      "key": "b5-4",
+      "duration": 78.6,
+      "sha256": "cd0dedeb528d2235a3955b12b9b5abd3669cb04f8dafed2f6e5cee915e9c8a55",
+      "product": {
+        "status": "新增",
+        "entries": [
+          {
+            "id": "demo-20261107-b5-cream-product",
+            "source": "b5-4",
+            "scope": "product",
+            "units": 7,
+            "title": "B5面霜：开罐、多区布膏、分区推匀与收罐"
+          }
+        ],
+        "reason": "同款包装及实际动作来自本片；名称按用户目录，未合并到已有其他产品。"
+      },
+      "category": {
+        "status": "新增",
+        "entries": [
+          {
+            "id": "demo-20261107-cream-multipoint-category",
+            "source": "b5-4",
+            "scope": "category",
+            "units": 3,
+            "title": "罐装面霜：多区布膏与释放双手后的补匀"
+          }
+        ],
+        "reason": "按相容结构和用法提取可复用路线。"
+      },
+      "performance": {
+        "status": "待核查候选",
+        "entries": [
+          {
+            "id": "perf-crx-20261107-cream-b5-4-pairing-point",
+            "source": "b5-4",
+            "intent": "说明搭配产品",
+            "status": "pending",
+            "keywords": [
+              "搭配",
+              "面霜"
+            ]
+          }
+        ],
+        "reason": "身份已由用户确认；视觉动作已整理，机器台词、语气和对应关系未听审，不进入默认编排。"
+      }
+    },
+    {
+      "source": "水光霜/8.mp4",
+      "key": "waterglow-8",
+      "duration": 97.593991,
+      "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82",
+      "product": {
+        "status": "新增",
+        "entries": [
+          {
+            "id": "demo-20261107-waterglow-cream-product",
+            "source": "waterglow-8",
+            "scope": "product",
+            "units": 5,
+            "title": "水光霜：顶面取霜、局部推薄与按压出料"
+          }
+        ],
+        "reason": "同款包装及实际动作来自本片；名称按用户目录，未合并到已有其他产品。"
+      },
+      "category": {
+        "status": "新增",
+        "entries": [
+          {
+            "id": "demo-20261107-cream-platform-category",
+            "source": "waterglow-8",
+            "scope": "category",
+            "units": 2,
+            "title": "顶部按压出料面霜：承接取霜与按压展示"
+          }
+        ],
+        "reason": "按相容结构和用法提取可复用路线。"
+      },
+      "performance": {
+        "status": "待核查候选",
+        "entries": [
+          {
+            "id": "perf-crx-20261107-cream-waterglow-8-purchase-down",
+            "source": "waterglow-8",
+            "intent": "引导购买",
+            "status": "pending",
+            "keywords": [
+              "点击这里",
+              "去拍"
+            ]
+          }
+        ],
+        "reason": "身份已由用户确认；视觉动作已整理，机器台词、语气和对应关系未听审，不进入默认编排。"
+      }
+    },
+    {
+      "source": "辛等等樱桃面霜/3.mp4",
+      "key": "cherry-3",
+      "duration": 20.92,
+      "sha256": "cc51baddb9a5b18b6ec1d352bad0f592dcfe6ebdd339dcfdb109f0dc06a9e2d0",
+      "product": {
+        "status": "新增",
+        "entries": [
+          {
+            "id": "demo-20261107-cherry-cream-product",
+            "source": "cherry-3",
+            "scope": "product",
+            "units": 3,
+            "title": "辛等等樱桃面霜：举近、转向与脸侧持品"
+          }
+        ],
+        "reason": "同款包装及实际动作来自本片；名称按用户目录，未合并到已有其他产品。"
+      },
+      "category": {
+        "status": "已有相近动作，不重复新增",
+        "entries": [],
+        "reason": "持品、转向、展示已有通用路线，本轮保留在同款专属记录。"
+      },
+      "performance": {
+        "status": "待核查候选",
+        "entries": [
+          {
+            "id": "perf-crx-20261107-cream-cherry-3-recommend-hold",
+            "source": "cherry-3",
+            "intent": "表达个人推荐",
+            "status": "pending",
+            "keywords": [
+              "我觉得",
+              "更好用"
+            ]
+          }
+        ],
+        "reason": "身份已由用户确认；视觉动作已整理，机器台词、语气和对应关系未听审，不进入默认编排。"
+      }
+    },
+    {
+      "source": "银霜/1.mp4",
+      "key": "silver-1",
+      "duration": 38.29,
+      "sha256": "b235c8a711221ada9af69dcbf5252cdc3adf413b1ff05552c0a83ff489d08db1",
+      "product": {
+        "status": "不适用",
+        "entries": [],
+        "reason": "没有展示容器、取霜或使用过程，不能仅凭口播或文件夹名称补产品演示。"
+      },
+      "category": {
+        "status": "不适用",
+        "entries": [],
+        "reason": "没有实际产品操作。"
+      },
+      "performance": {
+        "status": "待核查候选",
+        "entries": [
+          {
+            "id": "perf-crx-20261107-cream-silver-1-distinctive-hand",
+            "source": "silver-1",
+            "intent": "强调产品独有性",
+            "status": "pending",
+            "keywords": [
+              "除了咱家",
+              "还没有别人"
+            ]
+          }
+        ],
+        "reason": "身份已由用户确认；视觉动作已整理，机器台词、语气和对应关系未听审，不进入默认编排。"
+      }
+    }
+  ],
+  "summary": {
+    "new_product_records": 3,
+    "new_category_records": 2,
+    "new_demo_units": 20,
+    "new_pending_performances": 4,
+    "new_ready_performances": 0
+  }
+}

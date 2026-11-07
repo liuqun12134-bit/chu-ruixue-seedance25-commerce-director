@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "id": "perf-crx-20261107-920-v-close",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "移动自拍中比V，收成向下指示后放手",
+  "summary": "一手抬起比V，短停后收成向下指示，再放低，中间短暂侧看。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "移动自拍",
+    "比V",
+    "向下指示",
+    "落手"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "移动自拍且有一只空闲手。",
+    "比V含义须按当次音频判断。"
+  ],
+  "avoid": [
+    "不新增脸部贴纸。",
+    "不把末尾未收完的另一手势写成已回收。"
+  ],
+  "performance": {
+    "start_state": "面对镜头，活动手在较低处。",
+    "movement": "一手抬起比V，短停后收成向下指示，再放低，中间短暂侧看。",
+    "gaze_expression": "多数时间看镜头，约30.6–31秒侧看，之后回视。",
+    "rhythm": "约29.6–30秒比V，30.3秒附近转为指示，31.4秒前后放低。",
+    "recovery": "手降到镜外，31.6秒后目光回镜头。",
+    "end_state": "约32.6秒未持续高举手势，继续移动自拍。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-920",
+      "start_seconds": 27,
+      "end_seconds": 32.6,
+      "context": "机场内移动自拍，脸上有原有贴纸；不包含原片末尾尚未收回的第二次比V。",
+      "observed_sequence": "面对镜头，活动手在较低处。 一手抬起比V，短停后收成向下指示，再放低，中间短暂侧看。 多数时间看镜头，约30.6–31秒侧看，之后回视。 约29.6–30秒比V，30.3秒附近转为指示，31.4秒前后放低。 手降到镜外，31.6秒后目光回镜头。 约32.6秒未持续高举手势，继续移动自拍。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      27,
+      35
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/920-v-close-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  },
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "已保留原片及视觉动作观察；尚未核查原话、情绪语气和台词与动作的对应关系。"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "perf-crx-20261107-606-open-palm",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "贴膜状态下的开掌前送与胸前回收",
+  "summary": "空闲手抬至胸上方，张开后向镜头方向短送，回到胸前；随后再开掌一次并放下。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "banks": [
+    "general"
+  ],
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "tags": [
+    "开掌",
+    "胸前回收",
+    "面膜条件",
+    "单手"
+  ],
+  "meaning_tags": [],
+  "evidence_status": "example",
+  "preconditions": [
+    "一只手空闲；若实际首帧无面膜，只参考手部路线和目光，不增加面膜。"
+  ],
+  "avoid": [
+    "不能从面膜遮挡下推断完整面部细节。",
+    "不迁移前面的摸头发动作或商品功效。"
+  ],
+  "performance": {
+    "start_state": "手在胸前或画面下缘，面膜持续贴在脸上。",
+    "movement": "空闲手抬至胸上方，张开后向镜头方向短送，回到胸前；随后再开掌一次并放下。",
+    "gaze_expression": "目光短暂侧上方后回镜头；面膜遮挡限制了细微面部判断。",
+    "rhythm": "两次抬掌之间有胸前停留，约29.5秒以后明确落手。",
+    "recovery": "手回到低位，继续保持面对镜头。",
+    "end_state": "约30.8秒面膜仍在，手已不遮脸。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-606",
+      "start_seconds": 26.1,
+      "end_seconds": 30.8,
+      "context": "已经贴好面膜的室内近景，只记录空闲手和视线，不提取贴膜或取用教程。",
+      "observed_sequence": "手在胸前或画面下缘，面膜持续贴在脸上。 空闲手抬至胸上方，张开后向镜头方向短送，回到胸前；随后再开掌一次并放下。 目光短暂侧上方后回镜头；面膜遮挡限制了细微面部判断。 两次抬掌之间有胸前停留，约29.5秒以后明确落手。 手回到低位，继续保持面对镜头。 约30.8秒面膜仍在，手已不遮脸。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable"
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      23,
+      31
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/606-open-palm-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  }
+}

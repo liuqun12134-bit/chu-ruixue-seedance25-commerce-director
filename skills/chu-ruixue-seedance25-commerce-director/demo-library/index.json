@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "library": "demo",
+  "entries": [
+    {
+      "id": "demo-20261102-ginseng-oil-ref-03",
+      "title": "人参精油：透光展示、手背试油与掌心上脸",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "category": "面部护理油",
+      "product_name": "人参精油（用户命名）",
+      "product_form": "黄色透明油状液体，瓶内可见根状物；具体成分未核实",
+      "container": "透明玻璃瓶、金色长盖；使用片段可见按压式滴管结构，纯展示片段不推定已开盖",
+      "body_part": "手背、掌心、面颊",
+      "tags": [
+        "透光展示",
+        "滴管",
+        "手背试油",
+        "掌心取油",
+        "面颊按抹"
+      ],
+      "summary": "近光源展示瓶内油液及根状物；滴管向手背转移少量液体并推开，随后另取油至掌心、搓开、按抹面颊，最后持瓶讲解。",
+      "path": "entries/demo-20261102-ginseng-oil-ref-03/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-ginseng-oil-legacy",
+      "enabled": true
+    },
+    {
+      "id": "demo-20261102-ginseng-oil-ref-08",
+      "title": "人参精油：卧靠持瓶与肤面展示口播",
+      "modes": [
+        "talk"
+      ],
+      "category": "面部护理油",
+      "product_name": "人参精油（用户命名）",
+      "product_form": "黄色透明油状液体，瓶内可见根状物；具体成分未核实",
+      "container": "透明玻璃瓶、金色长盖；使用片段可见按压式滴管结构，纯展示片段不推定已开盖",
+      "body_part": "面部（展示，非取用）",
+      "tags": [
+        "卧靠口播",
+        "脸侧持瓶",
+        "肤面展示",
+        "闭合瓶"
+      ],
+      "summary": "闭合瓶在脸侧举放及小幅倾斜，随后撤出画面，用空闲手指示额头与面颊；本片没有可确认的滴管取油和涂油链。",
+      "path": "entries/demo-20261102-ginseng-oil-ref-08/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-ginseng-oil-legacy",
+      "enabled": true
+    },
+    {
+      "id": "demo-20261102-ginseng-oil-ref-09",
+      "title": "人参精油：透光瓶展示与第二瓶并列讲解",
+      "modes": [
+        "talk"
+      ],
+      "category": "面部护理油",
+      "product_name": "人参精油（用户命名）",
+      "product_form": "黄色透明油状液体，瓶内可见根状物；具体成分未核实",
+      "container": "透明玻璃瓶、金色长盖；使用片段可见按压式滴管结构，纯展示片段不推定已开盖",
+      "body_part": null,
+      "tags": [
+        "透光展示",
+        "双瓶展示",
+        "转瓶",
+        "标签朝前"
+      ],
+      "summary": "金色盖透明油瓶在下方光源附近展示后转到正面标签，随后出现蓝色渐变第二瓶并短暂并列；仅提取展示关系，不采纳优劣结论。",
+      "path": "entries/demo-20261102-ginseng-oil-ref-09/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-ginseng-oil-legacy",
+      "enabled": true
+    },
+    {
+      "id": "demo-20261102-ginseng-oil-ref-12",
+      "title": "人参精油：摇晃闭合瓶展示瓶内人参与脸侧讲解",
+      "modes": [
+        "talk"
+      ],
+      "category": "面部护理油",
+      "product_name": "人参精油（用户命名）",
+      "product_form": "黄色透明油状液体，瓶内可见根状物；具体成分未核实",
+      "container": "透明玻璃瓶、金色长盖；使用片段可见按压式滴管结构，纯展示片段不推定已开盖",
+      "body_part": null,
+      "tags": [
+        "闭合瓶",
+        "举品口播",
+        "液体晃动",
+        "重复来源已合并",
+        "摇晃展示人参",
+        "瓶内人参",
+        "用户补充展示目的"
+      ],
+      "summary": "闭合透明油瓶短暂摇晃，重点让观众看清瓶内人参，而不只是包装或油液；摇晃后停稳展示并回到脸侧交流。12号与41号为同画面版本，合并来源。展示目的由用户本轮明确补充。",
+      "path": "entries/demo-20261102-ginseng-oil-ref-12/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-ginseng-oil-legacy",
+      "enabled": true
+    },
+    {
+      "id": "demo-20261102-ginseng-oil-ref-15",
+      "title": "人参精油：掌心铺油、面膜配合及膜面补涂长流程",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "category": "面部护理油",
+      "product_name": "人参精油（用户命名）",
+      "product_form": "黄色透明油状液体，瓶内可见根状物；具体成分未核实",
+      "container": "透明玻璃瓶、金色长盖；使用片段可见按压式滴管结构，纯展示片段不推定已开盖",
+      "body_part": "掌心、面部、面膜表面",
+      "tags": [
+        "掌心油膜",
+        "双掌按抹",
+        "面膜搭配需确认",
+        "支撑层剥离",
+        "膜面补涂",
+        "长流程拆分"
+      ],
+      "summary": "近光源展示后滴管取油至掌心、双掌按抹面部；另有向面膜袋口送入滴管、揉袋、展开贴膜及剥离支撑层，之后隔着薄膜补抹袋内液体和油。 油敷面膜相关单元须同时满足本次参考图有面膜与原音频讲到面膜；独立精油上脸单元可单独调用。",
+      "path": "entries/demo-20261102-ginseng-oil-ref-15/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-ginseng-oil-legacy",
+      "enabled": true
+    },
+    {
+      "id": "demo-20261102-ginseng-oil-ref-20",
+      "title": "人参精油：掌心接油上脸与透明面膜贴合",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "category": "面部护理油",
+      "product_name": "人参精油（用户命名）",
+      "product_form": "黄色透明油状液体，瓶内可见根状物；具体成分未核实",
+      "container": "透明玻璃瓶、金色长盖；使用片段可见按压式滴管结构，纯展示片段不推定已开盖",
+      "body_part": "掌心、面部、面膜表面",
+      "tags": [
+        "掌心接油",
+        "双掌上脸",
+        "面膜支撑层",
+        "薄膜状态持续",
+        "剪辑重叠已合并"
+      ],
+      "summary": "20号含前置其他护肤品操作，约35秒起进入精油展示、滴管掌心取油、双掌上脸和贴膜；7号对应后半段，合并为同一来源家族。 油敷面膜相关单元须同时满足本次参考图有面膜与原音频讲到面膜；独立精油上脸单元可单独调用。",
+      "path": "entries/demo-20261102-ginseng-oil-ref-20/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-ginseng-oil-legacy",
+      "enabled": true
+    },
+    {
+      "id": "demo-20261102-ginseng-oil-ref-21",
+      "title": "人参精油：单瓶交替展示与举近收尾",
+      "modes": [
+        "talk"
+      ],
+      "category": "面部护理油",
+      "product_name": "人参精油（用户命名）",
+      "product_form": "黄色透明油状液体，瓶内可见根状物；具体成分未核实",
+      "container": "透明玻璃瓶、金色长盖；使用片段可见按压式滴管结构，纯展示片段不推定已开盖",
+      "body_part": null,
+      "tags": [
+        "交替举品",
+        "双品条件",
+        "闭合瓶",
+        "脸侧收尾"
+      ],
+      "summary": "先后展示金色盖油瓶与蓝色渐变瓶，再回到原油瓶举近、轻转、脸侧停留；两件产品换手/画外取放，未发生取用。",
+      "path": "entries/demo-20261102-ginseng-oil-ref-21/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-ginseng-oil-legacy",
+      "enabled": true
+    },
+    {
+      "id": "demo-20261102-ginseng-oil-ref-24",
+      "title": "人参精油：指示瓶身与小幅交流手势",
+      "modes": [
+        "talk"
+      ],
+      "category": "面部护理油",
+      "product_name": "人参精油（用户命名）",
+      "product_form": "黄色透明油状液体，瓶内可见根状物；具体成分未核实",
+      "container": "透明玻璃瓶、金色长盖；使用片段可见按压式滴管结构，纯展示片段不推定已开盖",
+      "body_part": "面部、颈部（指示，非取用）",
+      "tags": [
+        "指瓶讲解",
+        "空闲手手势",
+        "闭合瓶",
+        "近镜展示"
+      ],
+      "summary": "一手持闭合瓶，另一手指示瓶身及根状物，间以摸颈、指颊和开放手势交流；靠近镜头展示后脸侧停留。",
+      "path": "entries/demo-20261102-ginseng-oil-ref-24/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-ginseng-oil-legacy",
+      "enabled": true
+    },
+    {
+      "id": "demo-20261105-cream-access-01",
+      "title": "罐装面霜：分离外盖、移除内片与开口展示",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "category": "面霜",
+      "product_name": "来源批次：玻色因面霜/面霜（用户命名；跨黑罐、银罐，不认定同款）",
+      "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+      "container": "有盖罐；独立内片仅在参考确认时使用",
+      "body_part": null,
+      "tags": [
+        "开盖",
+        "盖子去向",
+        "内盖条件",
+        "开口展示",
+        "稠膏条件"
+      ],
+      "summary": "有台面时分离外盖并明确落桌；确有白色内片时先移除再取用；开口朝镜头短暂停留。倾罐仅适合已确认不易流动的膏霜，不默认倒扣。",
+      "path": "entries/demo-20261105-cream-access-01/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261105-cream-handback-01",
+      "title": "罐装面霜：手背落膏、推薄与同光展示",
+      "modes": [
+        "use"
+      ],
+      "category": "面霜",
+      "product_name": "来源批次：玻色因面霜/面霜（用户命名；跨黑罐、银罐，不认定同款）",
+      "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+      "container": "有盖罐；独立内片仅在参考确认时使用",
+      "body_part": "手背",
+      "tags": [
+        "手背试霜",
+        "持罐手背",
+        "膏团转薄层",
+        "过程展示",
+        "同光线"
+      ],
+      "summary": "持罐手同时露出手背，另一手从罐内取霜后落到手背，从可见膏团逐渐推成薄层，最后离手展示；主证据为Q12，不混入粉扑、隔离类产品或胶囊混用结果。",
+      "path": "entries/demo-20261105-cream-handback-01/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261107-b5-cream-product",
+      "title": "B5面霜：开罐、多区布膏、分区推匀与收罐",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "category": "面霜",
+      "product_name": "B5面霜（本批次原片包装）",
+      "product_form": "浅色膏霜；在取用与点涂阶段保持可见膏痕",
+      "container": "浅紫旋盖白色矮圆罐",
+      "body_part": "面颊、额头、鼻侧外部、下巴",
+      "tags": [
+        "闭罐举至脸侧并指示罐身",
+        "旋开外盖并露出罐内膏霜",
+        "逐次取霜，在双颊、额头、鼻外部和下巴布膏",
+        "持罐分区推开，保留未处理区域的膏痕",
+        "盖回后展示，再将罐放到画外",
+        "放下容器后补匀残留，再离手",
+        "离手后略侧转靠近，展示当前肤面"
+      ],
+      "summary": "原片同款的完整演示路线，包含展示、开盖、多区接触转移、分区推薄、回盖放低和离手看肤面。",
+      "path": "entries/demo-20261107-b5-cream-product/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-cream-b5-20261107",
+      "enabled": true
+    },
+    {
+      "id": "demo-20261107-cherry-cream-product",
+      "title": "辛等等樱桃面霜：举近、转向与脸侧持品",
+      "modes": [
+        "talk"
+      ],
+      "category": "面霜",
+      "product_name": "辛等等樱桃面霜（本批次原片包装）",
+      "product_form": "内容物未展示，不据外壳推断质地",
+      "container": "透明圆筒外罩、粉色内部容器和顶部结构",
+      "body_part": "无接触使用",
+      "tags": [
+        "从画外取出，脸侧举近并露出顶部",
+        "看一眼瓶身，转向展示图案与正面",
+        "脸侧正面持品，指腹扶稳下缘"
+      ],
+      "summary": "纯展示同款透明外罩粉色包装，包含举近露顶、视线看物后转向和脸侧持稳；没有开盖、取膏或上脸。",
+      "path": "entries/demo-20261107-cherry-cream-product/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-cream-cherry-20261107",
+      "enabled": true
+    },
+    {
+      "id": "demo-20261107-cream-multipoint-category",
+      "title": "罐装面霜：多区布膏与释放双手后的补匀",
+      "modes": [
+        "use"
+      ],
+      "category": "面霜",
+      "product_name": "B5面霜（本批次原片包装）",
+      "product_form": "可点涂、可推薄的膏霜；量与颜色以当前产品为准",
+      "container": "可取膏罐；多区涂抹不要求继承原罐颜色",
+      "body_part": "面颊、额头、下巴；鼻外部按当前产品适用范围",
+      "tags": [
+        "逐次取霜，在双颊、额头、鼻外部和下巴布膏",
+        "持罐分区推开，保留未处理区域的膏痕",
+        "放下容器后补匀残留，再离手"
+      ],
+      "summary": "补足已有局部用霜演示：先多区布膏，再逐区推薄；容器放稳后释放双手继续补匀。顺序可按首帧、时长和真实用法重新编排。",
+      "path": "entries/demo-20261107-cream-multipoint-category/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261107-cream-platform-category",
+      "title": "顶部按压出料面霜：承接取霜与按压展示",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "category": "面霜",
+      "product_name": "水光霜（本批次原片包装）",
+      "product_form": "可由确认的顶部出料结构转移的膏霜",
+      "container": "中央出料、顶面承接的按压容器；须按当前产品参考确认",
+      "body_part": "面颊",
+      "tags": [
+        "从顶面已有膏体取霜，再接触面颊",
+        "举近顶部，双指按压后露出新增膏体"
+      ],
+      "summary": "仅适合已确认同类顶部承接出料结构：区分首帧已有料直接取用，与从较少残料按压新增膏体；不迁移为普通旋盖罐操作。",
+      "path": "entries/demo-20261107-cream-platform-category/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261107-waterglow-cream-product",
+      "title": "水光霜：顶面取霜、局部推薄与按压出料",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "category": "面霜",
+      "product_name": "水光霜（本批次原片包装）",
+      "product_form": "浅色膏霜，推开后呈较薄的可见反光层",
+      "container": "白色高筒容器、玫瑰金肩环、粉色按压顶面",
+      "body_part": "面颊、鼻侧外部、下巴、额头",
+      "tags": [
+        "从顶面已有膏体取霜，再接触面颊",
+        "少量补取后沿面颊、鼻侧外部和下巴推薄",
+        "容器放低后，单手和双手交替补匀",
+        "停手、侧转，看清当前面颊反光",
+        "举近顶部，双指按压后露出新增膏体"
+      ],
+      "summary": "从顶面已有膏体取用、面颊局部推薄、放低容器后补匀；尾段另有顶面按压并露出新增膏体的包装演示。",
+      "path": "entries/demo-20261107-waterglow-cream-product/record.json",
+      "source_kind": "video_analysis",
+      "scope": "product",
+      "product_id": "product-cream-waterglow-20261107",
+      "enabled": true
+    },
+    {
+      "id": "demo-legacy-cream-talk-01",
+      "title": "罐装面霜：持品、指罐与稳定展示",
+      "modes": [
+        "talk"
+      ],
+      "category": "面霜",
+      "product_name": "来源批次：玻色因面霜/面霜（用户命名；跨黑罐、银罐，不认定同款）",
+      "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+      "container": "有盖罐；独立内片仅在参考确认时使用",
+      "body_part": null,
+      "tags": [
+        "持品讲解",
+        "闭合罐",
+        "托底",
+        "指罐",
+        "视频依据已补充"
+      ],
+      "summary": "闭合罐在脸侧或胸前稳定展示，空闲手指示包装后收回；本轮补充W52等视频依据，纯口播不转入取霜上脸。",
+      "path": "entries/demo-legacy-cream-talk-01/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-legacy-cream-use-01",
+      "title": "罐装面霜：取霜、分区上脸与膏痕推薄",
+      "modes": [
+        "use"
+      ],
+      "category": "面霜",
+      "product_name": "来源批次：玻色因面霜/面霜（用户命名；跨黑罐、银罐，不认定同款）",
+      "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+      "container": "有盖罐；独立内片仅在参考确认时使用",
+      "body_part": "额头、面颊、鼻侧外部、下巴",
+      "tags": [
+        "指腹取霜",
+        "额头膏痕",
+        "局部上脸",
+        "接触转移",
+        "离手展示",
+        "不等比压缩"
+      ],
+      "summary": "用本轮视频补充原文字演示：已开罐指腹取霜，选一个部位接触转移并推薄，离手看清当前状态；保留额头膏痕直到真实接触，不把长片多次取用压成短片。",
+      "path": "entries/demo-legacy-cream-use-01/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-method-sheet-mask-01",
+      "title": "贴片面膜：按首帧承接展开、贴合与局部抚平",
+      "modes": [
+        "use"
+      ],
+      "category": "贴片面膜",
+      "product_name": null,
+      "product_form": "柔性膜片",
+      "container": "袋装或已取出",
+      "body_part": "面部",
+      "tags": [
+        "展开",
+        "孔位对齐",
+        "真实贴合",
+        "局部抚平"
+      ],
+      "summary": "原有品类规则迁入可检索演示条目；属于设计方法，未附对标视频，不宣称生成验证。",
+      "path": "entries/demo-method-sheet-mask-01/record.json",
+      "source_kind": "authored_method",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    }
+  ]
+}

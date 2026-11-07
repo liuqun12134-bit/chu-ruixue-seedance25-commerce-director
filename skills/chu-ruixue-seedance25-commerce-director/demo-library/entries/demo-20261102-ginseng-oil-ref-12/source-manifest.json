@@ -1,0 +1,25 @@
+{
+  "primary_source_number": 12,
+  "sources": [
+    {
+      "source_number": 12,
+      "filename": "人参油 (12).mp4",
+      "duration_seconds": 56.366667,
+      "sha256": "39a48fcbbb79fb7a3d9c9e4ce52ce816e3551ed58158b8366de1e23cf0ccf2df",
+      "source_asset": null
+    },
+    {
+      "source_number": 41,
+      "filename": "人参油 (41).mp4",
+      "duration_seconds": 56.378005,
+      "sha256": "effa3b6face39068d36c7b05c1bbb5fe2e62b8d4b672a25abac0cc47fc38efdc",
+      "source_asset": null,
+      "keyframe_asset": "assets/alias-41-start.png"
+    }
+  ],
+  "deduplication_notes": [
+    "12号与41号全时段概览一致，0、5、10、20、30、40、50、55秒同位缩略帧平均像素差约3.5–4.6/255；编码数据不同，不能称文件二进制相同，按同画面版本合并。",
+    "源人物有明显快速甩动，作为观察保存；正式导演稿只取可辨识、适合时长的小幅举放，不机械复制高速晃动。"
+  ],
+  "original_video_included": false
+}

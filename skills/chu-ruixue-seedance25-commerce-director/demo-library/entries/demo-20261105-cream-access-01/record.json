@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261105-cream-access-01",
+  "title": "罐装面霜：分离外盖、移除内片与开口展示",
+  "record_type": "demo",
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "category": "面霜",
+  "product_name": "来源批次：玻色因面霜/面霜（用户命名；跨黑罐、银罐，不认定同款）",
+  "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+  "container": "有盖罐；独立内片仅在参考确认时使用",
+  "body_part": null,
+  "tags": [
+    "开盖",
+    "盖子去向",
+    "内盖条件",
+    "开口展示",
+    "稠膏条件"
+  ],
+  "created_on": "2026-11-05",
+  "updated_on": "2026-11-05",
+  "summary": "有台面时分离外盖并明确落桌；确有白色内片时先移除再取用；开口朝镜头短暂停留。倾罐仅适合已确认不易流动的膏霜，不默认倒扣。",
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "本轮用户授权学习面霜品类演示；主片W15，其他独立来源/重复关系见source-manifest.json。原历史文字若有则保存在history，当前单元以本轮视频观察为依据。",
+    "source_url": null,
+    "source_asset": null,
+    "notes_path": "source-notes.md",
+    "analyzed_on": "2026-11-05",
+    "duration_seconds": 20.711995,
+    "time_reliability": "measured",
+    "observation_method": "ffprobe实测元信息；按时间顺序审阅全部70个文件的可读每2秒抽帧序列，关键交互加密2/4fps。W53尾部损坏单独标记并排除正式动作主来源。原分辨率关键帧直接由原片提取，未修图、生成或改色。",
+    "limitations": [
+      "本轮是覆盖可读全时段的抽帧序列视觉分析，并非实时播放或全帧连续性认证；关键交互加密至每秒2或4帧。",
+      "没有听审或转写音轨，不提供台词、词句对齐、语气及口型同步结论。",
+      "动作区间为近似；保存关键帧时间来自实际帧PTS。画外放置和被遮挡的步骤未知。",
+      "视频中的美颜、曝光、剪辑、字幕与图板不能证明成分、浓度、即时塑形或长期功效；生成可行性未验证。",
+      "各来源的黑罐/银罐、规格及膏体颜色不视为同一产品；仅归面霜品类，不登记精准产品身份。",
+      "原视频未复制入库或上传；source-manifest.json保留文件名、哈希、实测时长，重查原片仍需原文件。"
+    ]
+  },
+  "preconditions": [
+    "实际参考确认容器结构、外盖连接方式和当前开合状态。",
+    "移除内片只在本次参考确实存在独立内片时使用。",
+    "外盖/内片必须有可执行的承托或放置位置；不能占着配件又同时取霜。"
+  ],
+  "units": [
+    {
+      "id": "outer",
+      "name": "双手分离外盖并明确去向",
+      "source_time": "W15约1–6秒；W27近重复版本",
+      "start_conditions": [
+        "闭合或盖已松的真实状态可辨",
+        "有首帧可用台面或明确的持盖方案"
+      ],
+      "action": "W15双手分离黑罐与金色外盖，一手握开罐、另一手托盖内面；约5秒罐与盖分别落桌。片头未足够证明完整旋拧圈数。",
+      "transition": "把盖放稳后释放操作手，罐仍稳立或由持罐手接稳。",
+      "end_state": "罐口可接近，外盖位置明确。",
+      "expected_effect": "内容物可见，无皮肤效果。",
+      "avoid": [
+        "不猜旋开圈数",
+        "不新增台面",
+        "已开盖不重复操作"
+      ],
+      "prompt_fragment": "按参考中确认的连接方式打开外盖，先让盖子移到当前画面明确可用的位置并放稳，再释放操作手；已打开则直接承接，不重新开盖。"
+    },
+    {
+      "id": "inner",
+      "name": "仅有内片时移除独立内片",
+      "source_time": "Q08约11–18秒",
+      "start_conditions": [
+        "外盖已分离",
+        "真实存在可移除内片"
+      ],
+      "action": "一手承托银罐，另一手先移走外盖，再捏住白色内片边缘提离罐口，露出黄调内容物。约18秒操作手下移，画外安放位置未知。",
+      "transition": "新片需明确安放内片，随后操作手才能返罐取用。",
+      "end_state": "罐口无遮挡，外盖与内片各有去向。",
+      "expected_effect": "仅结构变化，不把Q08黄调质地套给其他产品。",
+      "avoid": [
+        "没有内片不得生成",
+        "不把内片当成膏体抠出",
+        "不声称观察到了画外台面"
+      ],
+      "prompt_fragment": "如果当前产品确有独立内片，保持罐体稳定，捏住内片边缘连续提起并安放到明确位置，露出本品真实内容物，再释放操作手。"
+    },
+    {
+      "id": "show-open",
+      "name": "开口轻倾展示，稠膏才考虑更大倾角",
+      "source_time": "W47约2–6秒；W24约17–19秒",
+      "start_conditions": [
+        "罐已开且握持可靠",
+        "内容物真实流动性已确认"
+      ],
+      "action": "W47罐口朝镜头后明显倾转，白色膏体没有明显流出；W24可见内壁与膏体凹痕。不能由不流出推断无水、纯度或含量。",
+      "transition": "短暂展示后恢复适合取用的稳定角度。",
+      "end_state": "罐口与真实膏体形态可辨，内容物留在原容器。",
+      "expected_effect": "只展示形态；不默认所有面霜都可倒置。",
+      "avoid": [
+        "流动性未知时仅轻倾",
+        "不摇晃甩料",
+        "不把倾罐证明成分"
+      ],
+      "prompt_fragment": "将已开的罐口轻轻朝向镜头，停稳让内壁与膏体纹理可见，再恢复稳定角度；倾角服从本品质地，未确认不流动时不倒置。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/W15-1p5.jpg",
+      "timestamp_seconds": 1.5,
+      "source_id": "W15",
+      "role": "start",
+      "observation": "双手握罐盖准备分离"
+    },
+    {
+      "path": "assets/W15-2p4.jpg",
+      "timestamp_seconds": 2.4,
+      "source_id": "W15",
+      "role": "separate",
+      "observation": "罐与外盖分离"
+    },
+    {
+      "path": "assets/W15-5p5.jpg",
+      "timestamp_seconds": 5.5,
+      "source_id": "W15",
+      "role": "destination",
+      "observation": "罐盖分别落在已有桌面"
+    },
+    {
+      "path": "assets/Q08-13.jpg",
+      "timestamp_seconds": 13.0,
+      "source_id": "Q08",
+      "role": "inner",
+      "observation": "移除外盖后可见白色内片"
+    },
+    {
+      "path": "assets/Q08-14p8.jpg",
+      "timestamp_seconds": 14.833333,
+      "source_id": "Q08",
+      "role": "separate",
+      "observation": "白色内片被捏起"
+    },
+    {
+      "path": "assets/Q08-16.jpg",
+      "timestamp_seconds": 16.0,
+      "source_id": "Q08",
+      "role": "open",
+      "observation": "内片离开后内容物可见"
+    },
+    {
+      "path": "assets/W47-3p2.jpg",
+      "timestamp_seconds": 3.2,
+      "source_id": "W47",
+      "role": "display",
+      "observation": "罐口朝镜头"
+    },
+    {
+      "path": "assets/W47-4p8.jpg",
+      "timestamp_seconds": 4.8,
+      "source_id": "W47",
+      "role": "conditional-tilt",
+      "observation": "稠膏倾转示例，非默认动作"
+    }
+  ],
+  "scope": "category",
+  "product_id": null,
+  "enabled": true
+}

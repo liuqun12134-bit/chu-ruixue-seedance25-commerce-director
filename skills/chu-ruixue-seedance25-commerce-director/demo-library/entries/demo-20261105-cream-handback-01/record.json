@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261105-cream-handback-01",
+  "title": "罐装面霜：手背落膏、推薄与同光展示",
+  "record_type": "demo",
+  "modes": [
+    "use"
+  ],
+  "category": "面霜",
+  "product_name": "来源批次：玻色因面霜/面霜（用户命名；跨黑罐、银罐，不认定同款）",
+  "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+  "container": "有盖罐；独立内片仅在参考确认时使用",
+  "body_part": "手背",
+  "tags": [
+    "手背试霜",
+    "持罐手背",
+    "膏团转薄层",
+    "过程展示",
+    "同光线"
+  ],
+  "created_on": "2026-11-05",
+  "updated_on": "2026-11-05",
+  "summary": "持罐手同时露出手背，另一手从罐内取霜后落到手背，从可见膏团逐渐推成薄层，最后离手展示；主证据为Q12，不混入粉扑、隔离类产品或胶囊混用结果。",
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "本轮用户授权学习面霜品类演示；主片Q12，其他独立来源/重复关系见source-manifest.json。原历史文字若有则保存在history，当前单元以本轮视频观察为依据。",
+    "source_url": null,
+    "source_asset": null,
+    "notes_path": "source-notes.md",
+    "analyzed_on": "2026-11-05",
+    "duration_seconds": 40.28,
+    "time_reliability": "measured",
+    "observation_method": "ffprobe实测元信息；按时间顺序审阅全部70个文件的可读每2秒抽帧序列，关键交互加密2/4fps。W53尾部损坏单独标记并排除正式动作主来源。原分辨率关键帧直接由原片提取，未修图、生成或改色。",
+    "limitations": [
+      "本轮是覆盖可读全时段的抽帧序列视觉分析，并非实时播放或全帧连续性认证；关键交互加密至每秒2或4帧。",
+      "没有听审或转写音轨，不提供台词、词句对齐、语气及口型同步结论。",
+      "动作区间为近似；保存关键帧时间来自实际帧PTS。画外放置和被遮挡的步骤未知。",
+      "视频中的美颜、曝光、剪辑、字幕与图板不能证明成分、浓度、即时塑形或长期功效；生成可行性未验证。",
+      "各来源的黑罐/银罐、规格及膏体颜色不视为同一产品；仅归面霜品类，不登记精准产品身份。",
+      "原视频未复制入库或上传；source-manifest.json保留文件名、哈希、实测时长，重查原片仍需原文件。"
+    ]
+  },
+  "preconditions": [
+    "本品是适合手背试涂的可涂膏霜，颜色和正常一次用量以本次参考为准。",
+    "持罐手背能朝镜头且保持稳握；不具备时先明确放罐再展示手背。",
+    "以单面霜演示为目标，不自动添加其他液体、胶囊或粉扑。"
+  ],
+  "units": [
+    {
+      "id": "deposit",
+      "name": "从罐内取霜落在手背",
+      "source_time": "Q12约1–5秒；W24约20–23秒",
+      "start_conditions": [
+        "罐已开",
+        "接收手背可见"
+      ],
+      "action": "操作手指腹在罐内接触并取起白色膏体；持罐手转出手背，操作指腹在手背一点接触，留下局部白色膏团。",
+      "transition": "操作指腹离开后先保留可见膏团，再开始推开。",
+      "end_state": "手背出现有真实来路的膏团，罐仍可靠握持。",
+      "expected_effect": "可见用量与质地，无肤色结论。",
+      "avoid": [
+        "不直接生成满手膏体",
+        "不让持罐手扭到不可能的角度"
+      ],
+      "prompt_fragment": "持罐手稳住罐体并露出手背，另一手从罐内取起适量面霜，指腹真正接触手背后留下小片膏体，先让来路和落点清楚可见。"
+    },
+    {
+      "id": "spread",
+      "name": "从膏团向周围连续推薄",
+      "source_time": "Q12约5–21秒；W24约23–26秒",
+      "start_conditions": [
+        "手背已有膏团",
+        "操作手指腹空闲"
+      ],
+      "action": "操作手两三指指腹在同一手背小范围短抹、打圈式推开；白色块边缘逐渐摊宽，薄层仍有残留而非瞬间消失。Q12约8秒有再次触罐，不把整段误报为仅取一次。",
+      "transition": "从有膏处逐渐向外铺开，最后减少动作并移开手。",
+      "end_state": "同一手背形成较均匀薄层，残留/反光按本品决定。",
+      "expected_effect": "厚度和覆盖面积连续变化；不证明完全吸收或不黏。",
+      "avoid": [
+        "不把16秒操作硬压成1秒",
+        "不自动多次补料",
+        "不套用白膏到未知质地"
+      ],
+      "prompt_fragment": "从手背现有膏体的中心开始，用指腹连续轻推，让边缘逐渐展开、厚度逐渐变薄；保留本品应有的残留，涂抹结束再移开手。"
+    },
+    {
+      "id": "inspect",
+      "name": "离手、轻转手背并同光观察",
+      "source_time": "Q12约28–40秒；W24约32–35秒",
+      "start_conditions": [
+        "手背涂布已完成",
+        "罐体位置与每只手的任务明确"
+      ],
+      "action": "手背靠近镜头并小幅转动，操作手移开；Q12后段两手背并列/交叠展示，视频中产品暂时出画，去向不能从静帧补全。",
+      "transition": "若需两手并列，新片先明确安置罐体；否则保持一手持罐、单手背展示。",
+      "end_state": "手背与原光线保持，能看清当前表面状态。",
+      "expected_effect": "展示薄层反光，不把两只手的天然差异当作变白证据。",
+      "avoid": [
+        "不更换光线、曝光或滤镜",
+        "不把另一只手当作严格前后对照",
+        "不凭空腾空双手"
+      ],
+      "prompt_fragment": "涂开后移开操作手，让同一手背在原光线下停留，轻微转动以看清薄层；罐体保持原有去向，不通过整体提亮制造变化。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/Q12-2.jpg",
+      "timestamp_seconds": 2.0,
+      "source_id": "Q12",
+      "role": "take",
+      "observation": "指腹从罐内接触取霜"
+    },
+    {
+      "path": "assets/Q12-4p7.jpg",
+      "timestamp_seconds": 4.72,
+      "source_id": "Q12",
+      "role": "deposit",
+      "observation": "持罐手背上出现膏团"
+    },
+    {
+      "path": "assets/Q12-5p5.jpg",
+      "timestamp_seconds": 5.52,
+      "source_id": "Q12",
+      "role": "spread",
+      "observation": "由膏团开始推开"
+    },
+    {
+      "path": "assets/Q12-10.jpg",
+      "timestamp_seconds": 10.0,
+      "source_id": "Q12",
+      "role": "spread",
+      "observation": "手背膏层被继续展开"
+    },
+    {
+      "path": "assets/Q12-20.jpg",
+      "timestamp_seconds": 20.0,
+      "source_id": "Q12",
+      "role": "thin",
+      "observation": "局部膏层较薄"
+    },
+    {
+      "path": "assets/Q12-29.jpg",
+      "timestamp_seconds": 29.0,
+      "source_id": "Q12",
+      "role": "result",
+      "observation": "手背靠近镜头展示"
+    },
+    {
+      "path": "assets/W24-22p8.jpg",
+      "timestamp_seconds": 22.8,
+      "source_id": "W24",
+      "role": "corroboration",
+      "observation": "另一来源取霜到持罐手背"
+    }
+  ],
+  "scope": "category",
+  "product_id": null,
+  "enabled": true
+}

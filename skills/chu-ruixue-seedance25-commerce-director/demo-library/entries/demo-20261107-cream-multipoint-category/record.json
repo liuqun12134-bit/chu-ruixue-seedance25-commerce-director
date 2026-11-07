@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261107-cream-multipoint-category",
+  "title": "罐装面霜：多区布膏与释放双手后的补匀",
+  "record_type": "demo",
+  "modes": [
+    "use"
+  ],
+  "category": "面霜",
+  "product_name": "B5面霜（本批次原片包装）",
+  "product_form": "可点涂、可推薄的膏霜；量与颜色以当前产品为准",
+  "container": "可取膏罐；多区涂抹不要求继承原罐颜色",
+  "body_part": "面颊、额头、下巴；鼻外部按当前产品适用范围",
+  "tags": [
+    "逐次取霜，在双颊、额头、鼻外部和下巴布膏",
+    "持罐分区推开，保留未处理区域的膏痕",
+    "放下容器后补匀残留，再离手"
+  ],
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "summary": "补足已有局部用霜演示：先多区布膏，再逐区推薄；容器放稳后释放双手继续补匀。顺序可按首帧、时长和真实用法重新编排。",
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户本轮提供 B5面霜/4.mp4；用户确认讲解者为初瑞雪本人。",
+    "source_url": null,
+    "source_asset": "source.mp4",
+    "notes_path": "source-notes.md",
+    "analyzed_on": "2026-11-07",
+    "duration_seconds": 78.6,
+    "time_reliability": "approximate",
+    "observation_method": "实测容器与音轨；全片解码；2 fps 抽帧序列及重点窗口视觉观察；本地 ASR 未听审。",
+    "limitations": [
+      "全片解码通过；视觉检查采用每秒 2 帧抽样和动作窗口序列，关键时点近似，未声称实时连续播放。",
+      "原声保留；本地机器转写未听审，台词、语气和成分/功效说法不作为本条动作结论。",
+      "未进行生成验证；现场反光不证明功效，不迁移曝光变化或整脸换肤。",
+      "眼周、配方搭配和适用人群不能仅凭演示推断；使用区域以当前产品真实说明为准。"
+    ]
+  },
+  "preconditions": [
+    "按当前首帧确定开合、已有膏体、持物与可用支撑面。",
+    "源视频时序只作证据，不强制新稿复刻全长或固定次数。",
+    "仅借与当前产品形态、容器及适用部位相容的操作，不继承原品牌、人物、配方或功效说法。"
+  ],
+  "units": [
+    {
+      "id": "multi-point",
+      "name": "逐次取霜，在双颊、额头、鼻外部和下巴布膏",
+      "source_time": "约 5.0–15.5 秒",
+      "start_conditions": [
+        "罐已打开；一手持罐，另一手指腹可取霜；当前产品允许用于相应面部部位。"
+      ],
+      "action": "指腹从罐内取膏，先落在画面右侧面颊，再补取点到另一颊；继续补取，依次在额头、鼻部外侧和下巴留下浅色膏痕。先前的膏痕在未推开前保留。",
+      "transition": "最后一处布膏后，活动手转到面颊开始推开。",
+      "end_state": "多个部位有可见膏痕；罐仍由另一手承托。",
+      "expected_effect": "把取霜、接触转移和多区布膏连成可追踪过程，不宣称即时功效。",
+      "avoid": [
+        "不让未接触部位自行变白或消膏；不强制其他产品复用原片用量。"
+      ],
+      "prompt_fragment": "一手持开罐，另一手按实际需要补取少量面霜，依次在双颊、额头和下巴点涂，未推开的膏痕保持连续。"
+    },
+    {
+      "id": "spread-zones",
+      "name": "持罐分区推开，保留未处理区域的膏痕",
+      "source_time": "约 16.5–36.0 秒",
+      "start_conditions": [
+        "脸部已有分区膏痕；一手持开罐，另一手可涂抹。"
+      ],
+      "action": "先在画面右侧面颊推开，再移向额头和另一侧面颊，随后带到鼻侧外部、下巴。白色膏痕随实际手部接触逐渐变薄；期间持罐手持续承托。",
+      "transition": "推开主要膏痕后，活动手离脸并向画面下方转移。",
+      "end_state": "主要膏痕变薄，罐仍在手中；不是取用结束后瞬间全脸换肤。",
+      "expected_effect": "展示多部位分段推开的可见过程。",
+      "avoid": [
+        "原片有手掌经过闭合眼周，不据此认定眼部适用；不将整段等比挤压进很短片段。"
+      ],
+      "prompt_fragment": "从一侧面颊开始分区推开，再照顾额头、另一侧面颊与下巴；只有实际接触到的区域逐渐推薄。"
+    },
+    {
+      "id": "free-hand-finish",
+      "name": "放下容器后补匀残留，再离手",
+      "source_time": "约 45.5–62.5 秒",
+      "start_conditions": [
+        "容器已移出手部；脸上仍有正在推开的产品。"
+      ],
+      "action": "手部重新接触面颊、下巴和额头，切换单手与双手补匀残留，随后逐渐离脸。原片的扫过眼周部分不作为通用品类推荐。",
+      "transition": "离手后进入看镜头或侧转展示。",
+      "end_state": "双手可自然回落，已涂部位保持实际薄层状态。",
+      "expected_effect": "避免一手长期锁定持品，保留真实操作后的收势。",
+      "avoid": [
+        "不无依据再次取膏；不把摩擦直接写成吸收完成或功效证明。"
+      ],
+      "prompt_fragment": "放妥面霜后，用空出的手补匀面颊、额头与下巴的残留，随后离脸并自然收手。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/key-01.jpg",
+      "timestamp_seconds": 5,
+      "role": "source_evidence",
+      "observation": "指腹进入开口罐取膏。"
+    },
+    {
+      "path": "assets/key-02.jpg",
+      "timestamp_seconds": 8,
+      "role": "source_evidence",
+      "observation": "两侧面颊已各有白色膏痕，持罐手未改变。"
+    },
+    {
+      "path": "assets/key-03.jpg",
+      "timestamp_seconds": 12,
+      "role": "source_evidence",
+      "observation": "额头与双颊留有膏痕，指腹正在接触鼻部外侧。"
+    },
+    {
+      "path": "assets/key-04.jpg",
+      "timestamp_seconds": 15,
+      "role": "source_evidence",
+      "observation": "指腹接触下巴布膏，其他区域仍有未推开的膏痕。"
+    },
+    {
+      "path": "assets/key-05.jpg",
+      "timestamp_seconds": 23,
+      "role": "source_evidence",
+      "observation": "手指推开额头膏痕，另一手继续持开罐。"
+    },
+    {
+      "path": "assets/key-06.jpg",
+      "timestamp_seconds": 34,
+      "role": "source_evidence",
+      "observation": "手在下巴附近补匀，额头与双颊的大块白痕已变薄。"
+    },
+    {
+      "path": "assets/key-07.jpg",
+      "timestamp_seconds": 50,
+      "role": "source_evidence",
+      "observation": "罐已移出手部，空出的手贴面颊补匀。"
+    },
+    {
+      "path": "assets/key-08.jpg",
+      "timestamp_seconds": 60,
+      "role": "source_evidence",
+      "observation": "空手在额头附近继续推匀，容器不在手中。"
+    }
+  ],
+  "scope": "category",
+  "product_id": null,
+  "enabled": true
+}

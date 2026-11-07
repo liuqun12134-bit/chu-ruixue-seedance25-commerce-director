@@ -1,0 +1,2151 @@
+{
+  "schema_version": 1,
+  "skill_name": "chu-ruixue-seedance25-commerce-director",
+  "skill_version": "1.1.0",
+  "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
+  "created_at": "2026-11-07T11:16:06.604419+00:00",
+  "summary": {
+    "files": 425,
+    "bytes": 811137691,
+    "demo_records": 18,
+    "demo_units": 58,
+    "demo_scopes": {
+      "product": 11,
+      "category": 7
+    },
+    "performance_records": 33,
+    "performance_status": {
+      "pending": 33
+    },
+    "performance_sources": 29,
+    "videos": 34,
+    "images": 196
+  },
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "size": 359,
+      "sha256": "3356e2e6c329d05c1bda8a9b6efc273687e3d58b43945b5e098888ad12ce3f29"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/assets/key-001.png",
+      "size": 873751,
+      "sha256": "79edc24153997dc90c6f4d618a908afd74bca84b716abaf4abda0cb7dac92991"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/assets/key-002.png",
+      "size": 881845,
+      "sha256": "053f998d4783bbe68a4b3d77420e4c10949e4f6aee9443c6235faa433669ea70"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/assets/key-003.png",
+      "size": 851441,
+      "sha256": "fcdb06ad51d630a37aa362806ba9486fe461687a9fd6b3cfee5319df1d7d9641"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/assets/key-004.png",
+      "size": 947862,
+      "sha256": "e907b56659c720531f99986cd272cd072b9959b1cc2ef6b4b54b6cd0e45c1dcc"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/assets/key-005.png",
+      "size": 800589,
+      "sha256": "28e455d4f8e5870dd4bdd179ea0a60951999fee1f80f2525a71b6a16187f2536"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/assets/key-006.png",
+      "size": 847444,
+      "sha256": "6140595d49d7d93b0794693cfab19d920aeeae53ec3459312fe3b9edcf5cbd0a"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/assets/key-007.png",
+      "size": 787111,
+      "sha256": "3aa3c01ccc03f0e8f4c86b705ccc805a16288c325d8e58b4d0a6a52705d834ac"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/record.json",
+      "size": 9294,
+      "sha256": "7e6da225ed9a2ebb44d9573d2460532dc6dd5f54b37d39ebaa5834feebe3f78a"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/source-manifest.json",
+      "size": 355,
+      "sha256": "a3c3a31de2d66724564ed6a466f59ecde5c435a5deab4fd03e61086b1e2d1a8c"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/source-notes.md",
+      "size": 3789,
+      "sha256": "1b161a439f7a430950e48d87c89b2d852479874f340ffbb1208756f98041a411"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-08/assets/key-001.png",
+      "size": 653605,
+      "sha256": "6e65e22f0508d6ca6ca0c509f22c4bc1a6321a2f6c619dbdc978c0e0ce256f26"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-08/assets/key-002.png",
+      "size": 762875,
+      "sha256": "b84636c493e34e29b9150d2f197ce011d84f7d7e99f58377a025cee6a730d64b"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-08/assets/key-003.png",
+      "size": 485981,
+      "sha256": "1b504470655d368534d8a1c381eceb2840bee61a6ff744d34bf0e244d1e32005"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-08/assets/key-004.png",
+      "size": 723926,
+      "sha256": "42e1b81006e9d67cc34cb4baa46acb14f00f3c4e1c4594faf04778c84ad28b34"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-08/record.json",
+      "size": 6657,
+      "sha256": "72ee7c509a82bf035e68d90556f8edf7eab563a161cacd658311d46da32ecd24"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-08/source-manifest.json",
+      "size": 355,
+      "sha256": "cd6851306f50c03419a1eee87bc63c82e180fb8bd31c015da423db35883361f4"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-08/source-notes.md",
+      "size": 3413,
+      "sha256": "3089b34717d21a0170f7910eef5baff12698972d033e564789bd88eec2b68217"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-09/assets/key-001.png",
+      "size": 823419,
+      "sha256": "c266cb8ebfd8cdc2015ece628bef4438111fa60f6efbe1e352b4fea69d086ab4"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-09/assets/key-002.png",
+      "size": 830465,
+      "sha256": "48332ae53a84e82c2dc3444f534a438d6b4b80c174d264ad99a2972318ec97dc"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-09/assets/key-003.png",
+      "size": 794281,
+      "sha256": "f77f9a1326687b31bccdd9dd88b21a5755b09e351826beb4dc9e0c4b5eee2791"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-09/assets/key-004.png",
+      "size": 738238,
+      "sha256": "bfb593c2fc993ec050331d6273c0ab21e0be208de01d0c588b3985ebab9aa2f2"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-09/record.json",
+      "size": 6823,
+      "sha256": "b673397fb647768390984198534b5ba0c94e7cbbef53a2c3e3198bd4ef24f7bf"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-09/source-manifest.json",
+      "size": 355,
+      "sha256": "691c2eca7f388dd0396e2bbcfd66641315bbc71c9ab2c78d92381fb7bf4cd9d3"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-09/source-notes.md",
+      "size": 3430,
+      "sha256": "7f43d62d95c09dbbb171441b284e0f10d9581d5c525c361e0b907228777e6c44"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-12/assets/alias-41-start.png",
+      "size": 508850,
+      "sha256": "8ecc20a0ee656e6a6c0559139ea7712d0a75b0a5338e6659793fdd6920fb743b"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-12/assets/key-001.png",
+      "size": 483219,
+      "sha256": "6970b522516e61b7bf21f7f82c41c1897c0f3dee13af52552a6d8caf9618b4c2"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-12/assets/key-002.png",
+      "size": 704633,
+      "sha256": "878e400cb2713ec0a77b51e164ba10923c997fc94dc287b43474989ca69102da"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-12/assets/key-003.png",
+      "size": 541788,
+      "sha256": "3913bd6e6e56f7e647114538998eaf85dc3836372b7ca4f820195713c5720a35"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-12/assets/key-004.png",
+      "size": 606001,
+      "sha256": "a93f6eb1034887e9ed3f643663a6ac3c00029da09e964fdf467781a1a871767d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-12/assets/key-005.png",
+      "size": 453777,
+      "sha256": "3c0b39a6b8bba757c1ab141ab25ae4092ff332bc2e877e8e445e01dc64b6b100"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-12/duplicate-check.json",
+      "size": 2056,
+      "sha256": "284e9f9ed98a810546d0c571d9d9cf448107a73c96010c5351cb26082bd1aa36"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-12/record.json",
+      "size": 7748,
+      "sha256": "a7512ee86e8bf27ab98be39b0dfa415dad78782bdc8c640974e5c6d63614fd80"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-12/source-manifest.json",
+      "size": 1020,
+      "sha256": "3dd8368f882bf4d2001b3f82dc31937ad1286ba6341648413920c04ccd7e9e66"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-12/source-notes.md",
+      "size": 3746,
+      "sha256": "9d1a018ceda6071855268b111fc2788022017473f126d368050a1831fc9b2c46"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-001.png",
+      "size": 742325,
+      "sha256": "691501dc66cabdde9c21663c2a5f237e3963d61af36ade2652b7fe824c9aed2f"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-002.png",
+      "size": 763106,
+      "sha256": "bf0866c6712f48a19a82b4835174d56d901c5d2063b3d5ebedb41566c6e38ba4"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-003.png",
+      "size": 661820,
+      "sha256": "f2e012e42d6aeb707630d58afd68e48005d53b4564a7bad6e02e1828e5636b11"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-004.png",
+      "size": 698995,
+      "sha256": "becb42ad87f68ae6cdc3843fca0526ac7bca17aa3d2f9a3fe3ffeb7e8f2753e1"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-005.png",
+      "size": 635895,
+      "sha256": "06e41e72c0a89a27ddc20c0174eb0b8efc6577cd32e5ccb8c537767dff1a1972"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-006.png",
+      "size": 623894,
+      "sha256": "79ec72ba3766ca52f2f801513a9881b5aab122fa5485539e8d9e33e89f71109f"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-007.png",
+      "size": 560521,
+      "sha256": "4804f5f5bc175d03dc0f82717e64ea7faced4e3d2cfb9e261f169372570cc405"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-008.png",
+      "size": 597266,
+      "sha256": "d50ee6e90e26e476c01b00849c2875156de4cbec7d51e058f43b2b829637d86f"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-009.png",
+      "size": 683914,
+      "sha256": "c200f203f9913cc3e6ef8781aab788aa93823a7c6ae2a7073ca6ed89e4686c83"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-010.png",
+      "size": 643648,
+      "sha256": "6d61580c772cb0da2835f46b8590c92f3f0a6a34027c5c6bb4d3e4aba0bb9d01"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-011.png",
+      "size": 663745,
+      "sha256": "7d5f182cac70edb738d002dc1ba2f7dd7a2f3eb1f0a0b9632645beaf51f59050"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/assets/key-012.png",
+      "size": 670849,
+      "sha256": "ff34e97c7d7a56b8e94b257c8c3c446c5441111af7ad74d60f4c3d36f689b655"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/record.json",
+      "size": 13364,
+      "sha256": "944996ec6b9485f6f3c9c640ef13c1cd989ecf4247e7ca090738f5143aed12a8"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/source-manifest.json",
+      "size": 359,
+      "sha256": "8bbd86b10366d096e1d0957b9e0fbdd3fca0198c43fa7000a3068664d529dc20"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-15/source-notes.md",
+      "size": 4650,
+      "sha256": "bbbd6180aea7f493ef2713e341c1609a98ae98b3782792da05f1d4001ddbbb60"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/alias-07-start.png",
+      "size": 543052,
+      "sha256": "4271dd817e471d8346c066977f6fcf834acdf69ebc11037c54f6fc97d4c23d84"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-001.png",
+      "size": 473404,
+      "sha256": "601daf9e83be9b6c8933b24a96bb9581c1e501ca0a6cc40e393d7fdef55ca693"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-002.png",
+      "size": 528437,
+      "sha256": "dd592d1761841f7a6b45f7aabdb6ac9e2daaf1612ae76088e30084c5943c584b"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-003.png",
+      "size": 553067,
+      "sha256": "5c5b17a4b7ad86571fb7865f0a05eeafb66c98163a6d35398dc16687ae31bf0c"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-004.png",
+      "size": 588111,
+      "sha256": "b190ed6f216aecfcaef6c3316ce7a647f1ed6185a63c6b4a9fea2b8a5375b363"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-005.png",
+      "size": 598502,
+      "sha256": "44fdfd9d8644f08f0d69edd09dcdd5975d8d7579474d413be652475d601d0870"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-006.png",
+      "size": 467269,
+      "sha256": "f43913c30085f043433eefe025c8204a772b82d2a7b02600baa5115580e66486"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-007.png",
+      "size": 469266,
+      "sha256": "f1582528f0eb6944e4897373f78a630509ec271e5b14b6f64d043aff50f87d53"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-008.png",
+      "size": 560979,
+      "sha256": "164c88da9da9095ff242a6ff59e1855daeccd29f640431967409ddfe4b11b6d1"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-009.png",
+      "size": 461720,
+      "sha256": "a9bfe7cea713635b8089bb6934369cc10b0d9c068ae21d2bdfabceb5550e1c41"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-010.png",
+      "size": 551588,
+      "sha256": "fed79565be95a4485983b073f37012f86ab531e4bf9976e18666ed9b4fc1c813"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-011.png",
+      "size": 605087,
+      "sha256": "f80b7a6e8944fcf67067b49f15c6c5b0f3af42a152ec5d2887f46eb2a0beed7c"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/assets/key-012.png",
+      "size": 692140,
+      "sha256": "0d1c8d826322346205340c4d9d61083ec27685c52444ee1aae4adfd92e3df805"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/duplicate-check.json",
+      "size": 2056,
+      "sha256": "284e9f9ed98a810546d0c571d9d9cf448107a73c96010c5351cb26082bd1aa36"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/record.json",
+      "size": 10638,
+      "sha256": "800352b09116ffa7fd27dd954bc208d6844baf9f38b88bd81fd44b25a085719f"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/source-manifest.json",
+      "size": 1058,
+      "sha256": "de4db684d52859bb0dcf3e782d34f175834c14b99892ff817db21b021bd90d69"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-20/source-notes.md",
+      "size": 4754,
+      "sha256": "64e0a18a78c1b2a1a3de01d70f02d2f7bde13e50c976bceec628cfd45a68e6c6"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-21/assets/key-001.png",
+      "size": 987647,
+      "sha256": "51d5e4e9a184e935226a15c1a5c1e1f6fc4812c33b32c7c1284a2f047557fc31"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-21/assets/key-002.png",
+      "size": 644071,
+      "sha256": "fd4f64218a2410c54477910a8f1c5a846b46defc9d7c8c9c292733f2e285cc04"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-21/assets/key-003.png",
+      "size": 726459,
+      "sha256": "03d8464036b893907b9f12d3c1ab43cc8738b3aaa2c0eaf8a979089cf9f6b9f6"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-21/assets/key-004.png",
+      "size": 861619,
+      "sha256": "2bef0ffe66b25951705ceb9982ca4ae852217b9094b5cda22e9b9ac74aab90ea"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-21/assets/key-005.png",
+      "size": 1088887,
+      "sha256": "14e225db55dd593cd9d538c39bc19514854f4404395dd8eac1fe1fc66d79ef95"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-21/record.json",
+      "size": 6780,
+      "sha256": "55472d9d2da9dea13f6b045a4b8feaacc16a01d702988e4a7241814fb0ea47f7"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-21/source-manifest.json",
+      "size": 358,
+      "sha256": "2dd1a93f3b414bd290437a5f25ced9f6ce7ad84997d2e91c2508dcd64c092ea8"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-21/source-notes.md",
+      "size": 3408,
+      "sha256": "1d302d7c3da79ba3d7bd7a4c086ab29fafd7bf0cf66431799e0ccc3efb252892"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-24/assets/key-001.png",
+      "size": 782257,
+      "sha256": "d0c79ca116f0062bdc433451ee2e997e674338b6458925a0f77db9ddf1dfcd0a"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-24/assets/key-002.png",
+      "size": 740704,
+      "sha256": "3afb6e08db786f6c17c38fa2160c87b226980f5f037c2528c32b363229af785e"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-24/assets/key-003.png",
+      "size": 793634,
+      "sha256": "7b4983f42c096ab736d725f88b6f43b404c145e5cc98b70bb9783480b298e811"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-24/assets/key-004.png",
+      "size": 705045,
+      "sha256": "054b6f281494236ec52f2ff60b58e128e1351d62a4c05f0188431085f5aab504"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-24/assets/key-005.png",
+      "size": 781415,
+      "sha256": "c7f34779b4fb4a0372bbfe77ab26247b8c52deaac3c7cd4f965aeb6711145583"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-24/record.json",
+      "size": 6735,
+      "sha256": "5b4cbceeccb7a8206f002ef947e75c543cb10236d3a79b4fcd583a709a3a8d6d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-24/source-manifest.json",
+      "size": 358,
+      "sha256": "a260d052bc2881888d52a5ccb6ba5b0ed393733ba7874716209dd803e0e4bbbe"
+    },
+    {
+      "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-24/source-notes.md",
+      "size": 3409,
+      "sha256": "3bb002aeb51fe06ec6a61b40d754343416bc4ab89032f874326f550292893d22"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/assets/Q08-13.jpg",
+      "size": 65953,
+      "sha256": "bfbbbc023068f85cba508db607f368aab7617165447ca8a96a0937b184669afc"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/assets/Q08-14p8.jpg",
+      "size": 68656,
+      "sha256": "9aa6ee68da0e93bdda799344f4cfc184f109dd46397dabdc4d518875a6975d8b"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/assets/Q08-16.jpg",
+      "size": 65070,
+      "sha256": "fe82a47f06a382874ed51dfa75d911e1c2ef10c1ea77b104ead843ff8f3b829f"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/assets/W15-1p5.jpg",
+      "size": 169597,
+      "sha256": "aea0d8a9c8187e2a09f833b536a9b23b95a5acb04d2498d15717a08996b46391"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/assets/W15-2p4.jpg",
+      "size": 175031,
+      "sha256": "82ba06dbdea455f068d2689602ba49d198cecd0221c4f98196d3db886898d727"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/assets/W15-5p5.jpg",
+      "size": 167756,
+      "sha256": "3d82ea1765b9f93064b983f1d6fc0e97beb12d33affdd790c4736eff22feabd8"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/assets/W47-3p2.jpg",
+      "size": 215996,
+      "sha256": "b5d9740049edf71ac5df9fb5bd0b2104b5eaeaeac9a6ffea20baa8e86f5359c5"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/assets/W47-4p8.jpg",
+      "size": 212370,
+      "sha256": "e25e1cee3d96c620d591a2ce7bbc0639e06cf45416c2efeb3a411c1d1300de9f"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/record.json",
+      "size": 7512,
+      "sha256": "60214eb5989897aa55bc7f97229c2160a30cba4314dcc2f83ebee1b0a0967cfe"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/source-manifest.json",
+      "size": 3271,
+      "sha256": "2b78437ac80792bd442eb8b8663862257eb9bcf483cba903d3725e5711f18977"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-access-01/source-notes.md",
+      "size": 3237,
+      "sha256": "a695eafe86183423dd7d25046bc32b5da2c498706215b0f4b83f92efdbba4504"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-handback-01/assets/Q12-10.jpg",
+      "size": 131186,
+      "sha256": "6b4bd382c0d2d780c9d626d4828f7fbee3544eeb90cc216146a6ee15c51f7bca"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-handback-01/assets/Q12-2.jpg",
+      "size": 141957,
+      "sha256": "8db7f99b55180ef8f800901ba4a9b09ac7b30419defae8f0c7c4b64d48854117"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-handback-01/assets/Q12-20.jpg",
+      "size": 120919,
+      "sha256": "609a91aaed5435c731aad08354bc721b503e3488f47b30e73bffafbf7213b9a0"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-handback-01/assets/Q12-29.jpg",
+      "size": 149533,
+      "sha256": "6a5f658ba9fec754650e814436261be6d09cb247ef1c6ec949c8d5f2ca1972b5"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-handback-01/assets/Q12-4p7.jpg",
+      "size": 136305,
+      "sha256": "b5bf152f25e99244ba3a9f4035f8129f1cb0e0f90a9679a033fdf732b9acad49"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-handback-01/assets/Q12-5p5.jpg",
+      "size": 140104,
+      "sha256": "7e80dac57674b292985e42d891ac20671b073ec5d2bd97368366537a72b0b4da"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-handback-01/assets/W24-22p8.jpg",
+      "size": 134483,
+      "sha256": "d2cba2512ec7604fc81903597872354a4335976ba0faf556c21afe1a971863db"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-handback-01/record.json",
+      "size": 7414,
+      "sha256": "1dc64e5c70672abaaedfa48444446ab0baca9edbcb8e3dd5c4830bed30925afb"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-handback-01/source-manifest.json",
+      "size": 1986,
+      "sha256": "8344b58ebab3b7f4dd0f80694c284854b3aea3918e586b59d5598b4b17261dc1"
+    },
+    {
+      "path": "demo-library/entries/demo-20261105-cream-handback-01/source-notes.md",
+      "size": 2880,
+      "sha256": "a9d67e7a134bfdc20ce646b408f55cb0319227408c7ac09141bb1531e3171bca"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-01.jpg",
+      "size": 30574,
+      "sha256": "ed023cf0d4cf276323bb1eb907d239d2533218a098927970ee93974d435a9689"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-02.jpg",
+      "size": 29227,
+      "sha256": "761cb01c9a10c643d7bb4179e638a14eba5cc821f05c2cb0ff12d939289284d8"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-03.jpg",
+      "size": 26912,
+      "sha256": "34c0b5d174ea21a20abe29cf1cb4e742517478959c87f840ef7058dd2d36e880"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-04.jpg",
+      "size": 27695,
+      "sha256": "c148dc9872cc14287a46515c151e2752ab288f9ac764a1cb1d9067f7b19495d0"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-05.jpg",
+      "size": 28840,
+      "sha256": "e13a29947650f3985ebb440ad92ef57f5c6b7a45728fd132396d900a76f88e29"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-06.jpg",
+      "size": 26567,
+      "sha256": "3124984a1d38f81a4ce5c90196b6152a05d0ac2f3da71d31a2ba1e6518ffdb03"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-07.jpg",
+      "size": 27491,
+      "sha256": "96808716235e92b7eeb47574e367de17621a40d66c3db599548c995e6bf5ad02"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-08.jpg",
+      "size": 25093,
+      "sha256": "c2424782cedc16fd91b70b9501dab5520803264fccec6217e8e540d41c602fb5"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-09.jpg",
+      "size": 27503,
+      "sha256": "1dc4b8f194a44c2039528be9bfd5aa9858d8b3834ab95beea90769ddabe3995c"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-10.jpg",
+      "size": 26324,
+      "sha256": "8bf635c487d85f169a87e3bfca7a92362a95a02c72d7a90d4c35f47877dbc756"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/assets/key-11.jpg",
+      "size": 25444,
+      "sha256": "0c3fe3f7d098623c30bde0507828fb08ab42de5de45180cd83bce2ec17cb7b55"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/record.json",
+      "size": 11263,
+      "sha256": "b04ddbc79c9f09173bb131e18b80d86637df02793bcab27d8515601f7132c1a5"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/source-manifest.json",
+      "size": 543,
+      "sha256": "a742ce00abbeb938771540971d22cf6ea5325a174fea20c8bfb9262604aff0e4"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/source-notes.md",
+      "size": 2229,
+      "sha256": "eee36647e8ad43d648e4efb1d5e9ba5c61082dad6c7961f2901ad9179f07022b"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-b5-cream-product/source.mp4",
+      "size": 21636508,
+      "sha256": "cd0dedeb528d2235a3955b12b9b5abd3669cb04f8dafed2f6e5cee915e9c8a55"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cherry-cream-product/assets/key-01.jpg",
+      "size": 19707,
+      "sha256": "24c84918e2aae4e1c5d972daaf129046c11ac07b3a06dce98112e04db842c2e1"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cherry-cream-product/assets/key-02.jpg",
+      "size": 23906,
+      "sha256": "87a92d484eb959359bc5c91c55337998176ac6d67471decac1de99556a1b3242"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cherry-cream-product/assets/key-03.jpg",
+      "size": 21793,
+      "sha256": "10dc546cd98f4f04cc6fdbd33e3a629bfd4dd855b86c1c8b4d1586d9fd68421d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cherry-cream-product/assets/key-04.jpg",
+      "size": 26117,
+      "sha256": "323f4e74ea2a1bbe8b19728923548cfa74475d5d7e3e493d4ec395d5bb36134a"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cherry-cream-product/assets/key-05.jpg",
+      "size": 26692,
+      "sha256": "be0ff68d1764ebb1ae68332f3aebbdb50f5a15599829142e780ce263122388b2"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cherry-cream-product/assets/key-06.jpg",
+      "size": 24630,
+      "sha256": "fb7f00529d761f5d3d32649d8f6ea11f503bf0fef9d68fcf00d31749b62bbf35"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cherry-cream-product/record.json",
+      "size": 5877,
+      "sha256": "f71bffbedcacfa49104d082fc67103dc6c40c14b56a16046edb9b6bb7373d3f7"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cherry-cream-product/source-manifest.json",
+      "size": 447,
+      "sha256": "498e656ffb6438913f694098e51101015b59f9cf8f1f176420f19a7a2dc57473"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cherry-cream-product/source-notes.md",
+      "size": 1230,
+      "sha256": "2297a9b12f62e5b597d7681125786dfce6c0924783b21a922c1b331118bcc8aa"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cherry-cream-product/source.mp4",
+      "size": 4521181,
+      "sha256": "cc51baddb9a5b18b6ec1d352bad0f592dcfe6ebdd339dcfdb109f0dc06a9e2d0"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/assets/key-01.jpg",
+      "size": 26912,
+      "sha256": "34c0b5d174ea21a20abe29cf1cb4e742517478959c87f840ef7058dd2d36e880"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/assets/key-02.jpg",
+      "size": 27695,
+      "sha256": "c148dc9872cc14287a46515c151e2752ab288f9ac764a1cb1d9067f7b19495d0"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/assets/key-03.jpg",
+      "size": 28840,
+      "sha256": "e13a29947650f3985ebb440ad92ef57f5c6b7a45728fd132396d900a76f88e29"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/assets/key-04.jpg",
+      "size": 26567,
+      "sha256": "3124984a1d38f81a4ce5c90196b6152a05d0ac2f3da71d31a2ba1e6518ffdb03"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/assets/key-05.jpg",
+      "size": 27491,
+      "sha256": "96808716235e92b7eeb47574e367de17621a40d66c3db599548c995e6bf5ad02"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/assets/key-06.jpg",
+      "size": 25093,
+      "sha256": "c2424782cedc16fd91b70b9501dab5520803264fccec6217e8e540d41c602fb5"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/assets/key-07.jpg",
+      "size": 26324,
+      "sha256": "8bf635c487d85f169a87e3bfca7a92362a95a02c72d7a90d4c35f47877dbc756"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/assets/key-08.jpg",
+      "size": 21269,
+      "sha256": "1258e2ad97247787cecc16a4a1fb9ef10af6841a77d269c66219923e4c6f3a1b"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/record.json",
+      "size": 7129,
+      "sha256": "879d3cc9e6ffefec177dd6bb204e757916f3afe85b07fab95a8fe899476aac98"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/source-manifest.json",
+      "size": 435,
+      "sha256": "a352e0a2d0561ea46ba5361ff51898547cacc31ed43896c30ff99bc88f56287b"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/source-notes.md",
+      "size": 1460,
+      "sha256": "39564535fa792a2ab97ef0ced9d1a3843a407173de48ea7669bcc3433d4810d8"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-multipoint-category/source.mp4",
+      "size": 21636508,
+      "sha256": "cd0dedeb528d2235a3955b12b9b5abd3669cb04f8dafed2f6e5cee915e9c8a55"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-platform-category/assets/key-01.jpg",
+      "size": 33047,
+      "sha256": "068953f34277053f4a88f3f581da8c070f7d3eb8385b17e0e5acacc52b48775e"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-platform-category/assets/key-02.jpg",
+      "size": 32371,
+      "sha256": "26e8d1507b2316b1eaa58365feb7cf8c62f160f48905807a203dd1ae78a0db4b"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-platform-category/assets/key-03.jpg",
+      "size": 32607,
+      "sha256": "e7c35394f3315a0d6c0558c785b7ceca8b563be6e28f2cf86a041c50d1a580fd"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-platform-category/assets/key-04.jpg",
+      "size": 33624,
+      "sha256": "eb145febf593bcd6e4ef032c69ce19e3631972ca0e9793a9d57a1638a296e5b7"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-platform-category/assets/key-05.jpg",
+      "size": 33159,
+      "sha256": "c5ed1da6f43f27aa91cf4c0ba7129a227dfee1a99549322262149b65dc7b7f78"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-platform-category/assets/key-06.jpg",
+      "size": 31512,
+      "sha256": "8da655a2163aa60c0c6e7b62eb74fd5baf943426ea5efe0734fcc2f29ca46918"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-platform-category/record.json",
+      "size": 5606,
+      "sha256": "e99b6d83eba7f0234f8943d615604b95c3331f07991b186ddf6e29649ef829f2"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-platform-category/source-manifest.json",
+      "size": 412,
+      "sha256": "053bf99f8cc490aa2e96c9d2b4d52265dde890e703cb09f6a137674d4d595686"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-platform-category/source-notes.md",
+      "size": 1235,
+      "sha256": "1436b6bb400361438294ec3a9ba2401fc39b4201a57b03edce59aba22e38ced4"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-cream-platform-category/source.mp4",
+      "size": 36415755,
+      "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-01.jpg",
+      "size": 33047,
+      "sha256": "068953f34277053f4a88f3f581da8c070f7d3eb8385b17e0e5acacc52b48775e"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-02.jpg",
+      "size": 32371,
+      "sha256": "26e8d1507b2316b1eaa58365feb7cf8c62f160f48905807a203dd1ae78a0db4b"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-03.jpg",
+      "size": 32607,
+      "sha256": "e7c35394f3315a0d6c0558c785b7ceca8b563be6e28f2cf86a041c50d1a580fd"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-04.jpg",
+      "size": 33627,
+      "sha256": "1c2404fdab9f062443aff24129cf600c408d52867fec218b8f4a96d79d583f14"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-05.jpg",
+      "size": 33198,
+      "sha256": "cc67a3507be46e8ed26b8adf1f30ed08c7eaae14b5f69df4a5d9ae96d9e797f4"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-06.jpg",
+      "size": 33121,
+      "sha256": "93e9404145ec9c96fad0edc21ab2dad95b0c3f9f06084c38e602e1cb8c89985c"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-07.jpg",
+      "size": 32772,
+      "sha256": "30d76361367bb8a1bb776141aff9cdeb63c67374406fb58f161ce304ed786692"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-08.jpg",
+      "size": 31184,
+      "sha256": "a07715f1156b0d22681a7cafb4413c299afc2cb4e3663e130ab6db939c73c871"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-09.jpg",
+      "size": 31880,
+      "sha256": "9151da74ff5d8bac3536eb8e236326eb5676c87216e98b8994ffc01b551afbf4"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-10.jpg",
+      "size": 33624,
+      "sha256": "eb145febf593bcd6e4ef032c69ce19e3631972ca0e9793a9d57a1638a296e5b7"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-11.jpg",
+      "size": 33159,
+      "sha256": "c5ed1da6f43f27aa91cf4c0ba7129a227dfee1a99549322262149b65dc7b7f78"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/assets/key-12.jpg",
+      "size": 31512,
+      "sha256": "8da655a2163aa60c0c6e7b62eb74fd5baf943426ea5efe0734fcc2f29ca46918"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/record.json",
+      "size": 9706,
+      "sha256": "f29952cdc00d1f2aa3066e81248d7fba820dca30a3f070ba08824f7a6a8a8d6c"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/source-manifest.json",
+      "size": 541,
+      "sha256": "589cf0758383765b58e1f1e831d7edeb9221c3a55f56e67662942fa31f71722d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/source-notes.md",
+      "size": 1988,
+      "sha256": "3f3d3620c4114a11b65f35ec122ac4e6361e12d7632cbc3e4b079b809ce969bc"
+    },
+    {
+      "path": "demo-library/entries/demo-20261107-waterglow-cream-product/source.mp4",
+      "size": 36415755,
+      "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-talk-01/assets/W52-1.jpg",
+      "size": 139484,
+      "sha256": "06c9590a6efe0fa9edc8cc00fa9bd04a539239424ccea6c5a938bec6ca346daa"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-talk-01/assets/W52-13.jpg",
+      "size": 145452,
+      "sha256": "8ba642f3cd72f050e70d7401a60840e6efe59ddc4a777f69f1f200bbea20b94e"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-talk-01/assets/W52-3p5.jpg",
+      "size": 138825,
+      "sha256": "7cdf50d954a550bda73eb75512934ddbab6f94ff2641f6c9d66163690dc7c559"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-talk-01/assets/W52-6.jpg",
+      "size": 143298,
+      "sha256": "8bd2b5155440770c1f08f58571826357a58cf5d2763ad17d2b7627fd11b4aa5c"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-talk-01/history/record-before-20261105.json",
+      "size": 3116,
+      "sha256": "f9fc36e6b945a6ae70c50e84e5e91e7f2aeb025e866b1f1038ac3d38f9d0f3cd"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-talk-01/history/source-notes-before-20261105.md",
+      "size": 434,
+      "sha256": "0bdf18f2f41fb2b207a5ed3fdcc5b95e5ae92141cf400d90210b6fe40a6e57e3"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-talk-01/record.json",
+      "size": 5895,
+      "sha256": "d9c24f41fd203ae00d4b1ddf936e5e92affebb735294815b43ef9d2289937917"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-talk-01/source-manifest.json",
+      "size": 3596,
+      "sha256": "bc74dea49fda720ffeb0ff38fbf71259620c83fcb3903201a439b5d39fa6a3f2"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-talk-01/source-notes.md",
+      "size": 3078,
+      "sha256": "413ffa55af58595bb41abb53e1058995e68ad46484b2c8c12390822345216b93"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/assets/Q11-18.jpg",
+      "size": 102734,
+      "sha256": "dadd741c004d6b1e566bc358cbab625b6d2e640ef332b96b594cb34405676ac4"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/assets/Q11-26p5.jpg",
+      "size": 83585,
+      "sha256": "8723ebd186138a19ac2d46db91c4c7991407302133688e100c6433d2e9717fd4"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/assets/Q11-29.jpg",
+      "size": 91081,
+      "sha256": "a4e801f5be0801033adff488306d47c5708e29531d32a4a9db2aad843f540a3a"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/assets/Q11-3p6.jpg",
+      "size": 106688,
+      "sha256": "afe619e4ab097eab96ae0cc54386429d4ea4e034f253365d31e26959a4f5e3f9"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/assets/Q15-77.jpg",
+      "size": 180270,
+      "sha256": "92df4696d77dcb03c0e0002b11bf7e4281304e25eaaf53e520356bd8544b7fda"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/assets/W23-1p2.jpg",
+      "size": 120700,
+      "sha256": "0fd68157fbad321933b83773495c0e56b73e9b450f058fe801852a6604190fa7"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/assets/W23-27p4.jpg",
+      "size": 105634,
+      "sha256": "5aa67c1c49317a0d60267ddb746480bf610e85517d3e29c4c95fefbc09ca16f6"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/assets/W23-28p4.jpg",
+      "size": 106770,
+      "sha256": "b129b89b9a106705efa0ee96411fd5bd865bf78c47fc4b9d1e6fd492e984376a"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/history/record-before-20261105.json",
+      "size": 4425,
+      "sha256": "71a0da7a028ad2000d3f11bd8794fd947d18c0276ca047459601a56bf7e6aaec"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/history/source-notes-before-20261105.md",
+      "size": 3339,
+      "sha256": "a2d708f2168efdcce0a8d7596ac99f318374eacd65ed13671330469f86585d0d"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/record.json",
+      "size": 10131,
+      "sha256": "8dcbbd5db0d1300f78271fdb6cadbeb88e84eb9efbd0b78c4f139b1964b55cc1"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/source-manifest.json",
+      "size": 7058,
+      "sha256": "7b012876f159f2afd668c91c86ea5e5347c4bc34ea2f00f7a6f7f69c930dbbf2"
+    },
+    {
+      "path": "demo-library/entries/demo-legacy-cream-use-01/source-notes.md",
+      "size": 4743,
+      "sha256": "1b66614eb3eabc0a1c26f73b131fb40783cb1dabfae9b0cf93c8b01ac9b141b0"
+    },
+    {
+      "path": "demo-library/entries/demo-method-sheet-mask-01/record.json",
+      "size": 3325,
+      "sha256": "623973e2f38f0097c3cd3fa6e11a4789be6ad497f56bc7945cd0679f9b0f41ac"
+    },
+    {
+      "path": "demo-library/entries/demo-method-sheet-mask-01/source-notes.md",
+      "size": 10276,
+      "sha256": "204a7c2028d24e973c05432632b0d7742be8a23ad6aab02594ef14e1c34ddaab"
+    },
+    {
+      "path": "demo-library/index.json",
+      "size": 19546,
+      "sha256": "4cc18c1009ca34ab152333e0488de87bc4a20af23a58fcd44dff6f668bb19710"
+    },
+    {
+      "path": "demo-library/products.json",
+      "size": 1808,
+      "sha256": "7cd04aaf63ff3c5ab430df1d6f323466e977ccacad865e44dddaf4ca95c220b4"
+    },
+    {
+      "path": "demo-library/reviews/20261105-cream/decode-check.json",
+      "size": 5335,
+      "sha256": "728441461899db0f076f98addd28bf8c5feb9a62cfdfe450ab9dc83ac3ecc9c0"
+    },
+    {
+      "path": "demo-library/reviews/20261105-cream/entries.json",
+      "size": 346,
+      "sha256": "5bb5350773c9b7d84f8e99f4eb71428ebc63d025e8a21815de80cb702a68585e"
+    },
+    {
+      "path": "demo-library/reviews/20261105-cream/review-notes.md",
+      "size": 1278,
+      "sha256": "33580b07c765eabbb11b3aefa9b22b3d072145962df05ebcd982a9b55367410f"
+    },
+    {
+      "path": "demo-library/reviews/20261105-cream/source-review.json",
+      "size": 43409,
+      "sha256": "39479ad4329012682ed5e2de6f589fbf13efde4d60828d71a110b61ab3afd50f"
+    },
+    {
+      "path": "demo-library/reviews/20261107-cream/decode-check.json",
+      "size": 575,
+      "sha256": "982eced1ff7398535a9b8bd900852acd8e73b0ca14c7d2a661a1e55826ec5cbb"
+    },
+    {
+      "path": "demo-library/reviews/20261107-cream/duplicate-check.json",
+      "size": 90,
+      "sha256": "e4aa63c7ca02e55c5f32e135a1dbc110fe7a2fac4a2d79c6b8c7e839824d12cb"
+    },
+    {
+      "path": "demo-library/reviews/20261107-cream/inventory.json",
+      "size": 6034,
+      "sha256": "f14a631bad10a42a4c10ed2383194bdcc43e16b7c0b49864d48aeef3440df85d"
+    },
+    {
+      "path": "demo-library/reviews/20261107-cream/overview/b5-4.jpg",
+      "size": 414904,
+      "sha256": "5363e4bce5af5129577aa0b6756ec4db4ee18e7061e97de5e52766522c487b52"
+    },
+    {
+      "path": "demo-library/reviews/20261107-cream/overview/cherry-3.jpg",
+      "size": 227212,
+      "sha256": "0c96b7859ad4dbfef75fff88c940211f3903bce6f67dd28e9a4232e69ab40479"
+    },
+    {
+      "path": "demo-library/reviews/20261107-cream/overview/silver-1.jpg",
+      "size": 420051,
+      "sha256": "0f0d05d2b08b3255c7b0c8cf0ba1ae81e8fb2f78fb989b1ba3328f4e75e85d0b"
+    },
+    {
+      "path": "demo-library/reviews/20261107-cream/overview/waterglow-8.jpg",
+      "size": 644841,
+      "sha256": "047c9c0267b4bae26f38cc985cb5f5d6a95c85ede04c86deb496749cbe8f0a7f"
+    },
+    {
+      "path": "demo-library/reviews/20261107-cream/probe.json",
+      "size": 19113,
+      "sha256": "6dc324f8135e4c97bcabf0211a0e484f03320abe50bdf8cc0cf392a64c0cb0a9"
+    },
+    {
+      "path": "demo-library/reviews/20261107-cream/review.html",
+      "size": 41555,
+      "sha256": "74006f3116810a28118ab4ae45d387fede1677aa38d66b9f64c67fdc50c3b631"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-01-open-close/history/record-v1-20261107.json",
+      "size": 3589,
+      "sha256": "916000800e544d1222530982a5ed339ca46cb7952b0d10574220f5cf3e03d742"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-01-open-close/record.json",
+      "size": 3901,
+      "sha256": "7339382c29902adda7214c5c26d90df799f7150a024d1ba68e6812e867d33841"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-02-point-recover/history/record-v1-20261107.json",
+      "size": 3252,
+      "sha256": "af6365a0078a48bf753403030bace2a9976bf04a774a7965d68c5ec7ae37f633"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-02-point-recover/record.json",
+      "size": 3564,
+      "sha256": "911ed5093e36423c616cee34b494bbdf9b4e0085cb79cf7ef2ae7e040ef6b5b6"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-03-count-hands/history/record-v1-20261107.json",
+      "size": 3324,
+      "sha256": "2bc5c02b9afbc1639cc2d9fa2535384f96403b964b0eb7c9adb7db96fccf7f10"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-03-count-hands/record.json",
+      "size": 3636,
+      "sha256": "683a37c5acaf80edd0772ee9aa7b454db9b25322ea9c94a8702ed613242ce13b"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-03-finger-rest/history/record-v1-20261107.json",
+      "size": 3353,
+      "sha256": "9fe9b46eb4672b2e503cf41f9ca30d6d72fda48e9c604f369a3397954a4e7364"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-03-finger-rest/record.json",
+      "size": 3665,
+      "sha256": "6828d8e9470cbe2edfe225488b8e8512c1d64bc57096447d05c6a9e1d6639411"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-04-v-recover/history/record-v1-20261107.json",
+      "size": 3309,
+      "sha256": "402140d5c6ac5f8806defff63ccecce9bd8a143399214e61501da66a68eed029"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-04-v-recover/record.json",
+      "size": 3621,
+      "sha256": "886aa5fd73387c6a1eed6ab0d65419280147dd3d5a035f16053a56091e899a59"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-201-free-palm/history/record-v1-20261107.json",
+      "size": 3538,
+      "sha256": "4ca0aeea4b40ed2ebdabca9bcf9c2a3be4d4e55415354d3d17f53196750c88bf"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-201-free-palm/record.json",
+      "size": 3850,
+      "sha256": "7e0b4d6c290f2010c8e8a05d8591aff816dca53fd644f6196ba6408b6bdd5a6b"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-201-two-hands/history/record-v1-20261107.json",
+      "size": 3312,
+      "sha256": "34eff853050379fe25f12b74b285d477411ce609dea96f24a0c609a1eaeab624"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-201-two-hands/record.json",
+      "size": 3624,
+      "sha256": "8695782431bb6833766a09c4b074abeb67b321d7092f692e6a57a64596547a88"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-235-lean-point/history/record-v1-20261107.json",
+      "size": 3373,
+      "sha256": "d592225bb2d8bf78cd95b4a2ad114e7dd9f87ef06d34c8020491078aff79796f"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-235-lean-point/record.json",
+      "size": 3685,
+      "sha256": "d7ae6750dce736934d21f9325b6c44f768ee20470e55dff6b9217d9e68d4e33f"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-24-smile-turn/history/record-v1-20261107.json",
+      "size": 3468,
+      "sha256": "9d8fb5fcf06f3427691cfe988ad5710665848f8b6951db54495f06598fee792e"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-24-smile-turn/record.json",
+      "size": 3780,
+      "sha256": "0305eb8dee8b19a3f7fa46b36f2802605298359563886680bf1c59c2cd086c5c"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-24-v-point/history/record-v1-20261107.json",
+      "size": 3228,
+      "sha256": "fff46068106a5f669f2925240880053e059de8205b29feef1117797d19e7d32d"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-24-v-point/record.json",
+      "size": 3540,
+      "sha256": "91c9ef1bb9d3b37e7d95f194871be24b4737f68610744dfe1f809e020450fa54"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-280-lean-back/history/record-v1-20261107.json",
+      "size": 3270,
+      "sha256": "9697e8bd3e8bc35787f0668c1170b960870a4aba1f1c65e0673e910c7c97aca2"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-280-lean-back/record.json",
+      "size": 3582,
+      "sha256": "4fd830cd118669e30bbfb6addac9b592379598b4b436cd1602f223c62fc9474e"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-282-greet-point/history/record-v1-20261107.json",
+      "size": 3223,
+      "sha256": "98c1b8796087d86a84b06baeb72852339099067ba4aa9262f4476b00a05bee8b"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-282-greet-point/record.json",
+      "size": 3535,
+      "sha256": "cd2ab707918181cc08a6955751335f3bb4683c2666e3c97fcde4a320f550a9f1"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-606-open-palm/history/record-v1-20261107.json",
+      "size": 3301,
+      "sha256": "c3646cb2166bf527a5e7afe517faa37db3af01e0ceba95539d8b272392834893"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-606-open-palm/record.json",
+      "size": 3613,
+      "sha256": "3f8c9adc79ca18e11ef7ff7149bedd5fa855ecbae0f38fc38b3a4b03ad81bc57"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-654-turn-return/history/record-v1-20261107.json",
+      "size": 3325,
+      "sha256": "f653875196653458dcc42294a800f850cea187e6e6468fb4b8b94b7ea6ff5fba"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-654-turn-return/record.json",
+      "size": 3637,
+      "sha256": "77323db3b2bc5742a1d851b4a61e0d7dedefbb66b68c412e561527a0a4c18e6c"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-657-busy-gaze/history/record-v1-20261107.json",
+      "size": 3399,
+      "sha256": "da2a89679b3d45f7093d270e982f7640889cc45b2c9d19c8316fc74a634d180e"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-657-busy-gaze/record.json",
+      "size": 3711,
+      "sha256": "f87fc37fc0ede95d5ed9b901711cc5515f4c271ddb3ed40166aeab71e92e8c37"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-845-recline-gaze/history/record-v1-20261107.json",
+      "size": 3341,
+      "sha256": "1a638380e0ad3d737495780a4df45d1c931c82531158f2863def11d5db69195a"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-845-recline-gaze/record.json",
+      "size": 3653,
+      "sha256": "4aedee99438b9c9ef102958e42169230eae839044dc8bf74b0868c114d13c1ea"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-905-side-return/history/record-v1-20261107.json",
+      "size": 3196,
+      "sha256": "e0cb94eccc4dd893dfe0f1677fe7b14823ce4937a7e9ddb2f21ade9760a979af"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-905-side-return/record.json",
+      "size": 3508,
+      "sha256": "55c6cb0bf7a924572de0e11975f3a57ab76566cab9968ab7b8b425bdf092d16a"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-918-open-body/history/record-v1-20261107.json",
+      "size": 3145,
+      "sha256": "6997ed04244ae5c49fa23c84d5fbc84ee7d68d8a3b64f8335855671089382e07"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-918-open-body/record.json",
+      "size": 3457,
+      "sha256": "17a9b42fd8f79ce5de7e42f371d6ba300e2e3c0985091b49fd3cc717248a221a"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-920-v-close/history/record-v1-20261107.json",
+      "size": 3140,
+      "sha256": "e1034be8fa5880c923ce6e19aefe60408ca45e5ba8f9b26653466cf07533b129"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-920-v-close/record.json",
+      "size": 3452,
+      "sha256": "8ec29a719406b7db30b0f654c6de83f22e81d432e46e5b79b18fd20c5e85a04d"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-940-steady-face/history/record-v1-20261107.json",
+      "size": 3187,
+      "sha256": "9f8cc084e1e45b8f30795f4bf0d0b68d47dae22c6f21824b727433f8b647a47f"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-940-steady-face/record.json",
+      "size": 3499,
+      "sha256": "54841542b2281e1c3c6fae89180fc7dd1e2b7dd007bb38726db619616ce0d3c5"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-941-point-recover/history/record-v1-20261107.json",
+      "size": 3210,
+      "sha256": "46b07e7622c849af7c7f148f3a3977be2f748fe3f1842e5f41272f81b25a0e63"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-941-point-recover/record.json",
+      "size": 3522,
+      "sha256": "18ebeff48bcada305127affb200d91a8b3998614b0bc1f0f4575b1ba258b9846"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-941-two-palms/history/record-v1-20261107.json",
+      "size": 3208,
+      "sha256": "f0cb6914873e64a7f85583a221c3bf6c553ca26fd0d506f33dfdc64571e0f8f4"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-941-two-palms/record.json",
+      "size": 3520,
+      "sha256": "82b5d87af93436d48834b50437de01e648f09ca750430e93857a596a0080aa19"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-943-close-gaze/history/record-v1-20261107.json",
+      "size": 3096,
+      "sha256": "df0f554aea48835874ca4232bd8d91e49bc1c2492f9c82e268e85df3e1937ab8"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-943-close-gaze/record.json",
+      "size": 3408,
+      "sha256": "218cda1b19ab8d9801aaa5f6f47c61fe5e3fe2d59fac196efc20d0d8d091dc1c"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-949-smile-hand/history/record-v1-20261107.json",
+      "size": 3146,
+      "sha256": "30cadb239b65b51409c63ae48e2c1c9e85b3bd869e28d71df293fc3e22ca8671"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-949-smile-hand/record.json",
+      "size": 3458,
+      "sha256": "909c7dc7348f001266925d0317351b5a0b5d3c46d2a48d0d2bec36c71cb8a0d1"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-950-walk-gaze/history/record-v1-20261107.json",
+      "size": 3205,
+      "sha256": "f8ce7288e361ad422727626e6684ea3fc9b63564b010d5e2012bc36104cff706"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-950-walk-gaze/record.json",
+      "size": 3517,
+      "sha256": "01699c272f1e497c54cc068b82931c1bdb24f015612d281c0d18a5828af70e65"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-952-walk-hand/history/record-v1-20261107.json",
+      "size": 3307,
+      "sha256": "465c32c3fe051f3ebf00b64293e6c087a2040a07076b30704bbbc72269b1b742"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-952-walk-hand/record.json",
+      "size": 3619,
+      "sha256": "a6d299cc080a756abec00e06ee4345b0af212bc2aad086a771a47950c6f2194f"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-953-smile-recover/history/record-v1-20261107.json",
+      "size": 3260,
+      "sha256": "846d001a7a6ca039cd530dd3203bb3e0940400661e82217aacfe86b3adaf801c"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-953-smile-recover/record.json",
+      "size": 3572,
+      "sha256": "fc58030e2a9ea99d5e2a1e1b477bbd99f9acd355121f10d91c3bb8d1abe04dc5"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-954-v-recover/history/record-v1-20261107.json",
+      "size": 3138,
+      "sha256": "4758e95150f41703fa5ee26bbd949be002256d7a24838f38351e5925e0939f5f"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-954-v-recover/record.json",
+      "size": 3450,
+      "sha256": "9d27ddcce7234c36c51d506ae948ac9e78541010691684c6f4f0b8412d594dc2"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-957-small-hand/history/record-v1-20261107.json",
+      "size": 3196,
+      "sha256": "276fd139649e6ff2bf8f0ecc1b02b027d3573fffbc10ff1c42f0e37c8f1d7b12"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-957-small-hand/record.json",
+      "size": 3508,
+      "sha256": "3441a7f3f0052c5f8c6e30c3844e4d107ee71bf3209cfd52cdcb3bf22d44c095"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-cream-b5-4-pairing-point/record.json",
+      "size": 3378,
+      "sha256": "f31c09d50e24bff7468c313719fb373f13525ecd012c6061e056fa91e2b57a1b"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-cream-cherry-3-recommend-hold/record.json",
+      "size": 3567,
+      "sha256": "04b88fd35f1f873998887af075d03d32841a9c873c73d8a061d4590683c1d702"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-cream-silver-1-distinctive-hand/record.json",
+      "size": 3528,
+      "sha256": "83699b7ae9d6939fa3db86cae1d8818a90424c06ca80ec51d3db1d9789b228d7"
+    },
+    {
+      "path": "performance-library/entries/perf-crx-20261107-cream-waterglow-8-purchase-down/record.json",
+      "size": 3493,
+      "sha256": "8bccf16bfec8a90ea94cfcb4a898843c959bb2b119c92f7ebbacc5a1033cbe2f"
+    },
+    {
+      "path": "performance-library/history/index-v1-20261107.json",
+      "size": 26083,
+      "sha256": "91908b6657666fef061d23172fddbffa4d22c042d63db9429ba96754d9563ce3"
+    },
+    {
+      "path": "performance-library/index.json",
+      "size": 56867,
+      "sha256": "691379b46beef3c99316a39d680ae6bc606ce80d5607d2023eb4e3e83e6cfe7f"
+    },
+    {
+      "path": "performance-library/review.html",
+      "size": 132540,
+      "sha256": "849f11fca1d1d7879080b8522b5bbe133f0a2942ab8318ae1ac1388a7f376aed"
+    },
+    {
+      "path": "performance-library/reviews/20261107-cream/asr/b5-4.json",
+      "size": 34251,
+      "sha256": "9b680c627682c4039af96edf54ad0bc2e26adcb7d7a65c844b147ef723a74d23"
+    },
+    {
+      "path": "performance-library/reviews/20261107-cream/asr/cherry-3.json",
+      "size": 13967,
+      "sha256": "ea825485fa45e5f88590c5212b1b458a88a1b1da128cd9d0d4fd33fc76015b45"
+    },
+    {
+      "path": "performance-library/reviews/20261107-cream/asr/silver-1.json",
+      "size": 23472,
+      "sha256": "baf5cf775b3b84618f5b4f82511791249081ece1eb6d3416574d25db9ed8efd6"
+    },
+    {
+      "path": "performance-library/reviews/20261107-cream/asr/waterglow-8.json",
+      "size": 71111,
+      "sha256": "443fec285a69652f6d115a40295c968fb8e4d6c303dbddf16a56cec4bcde7c62"
+    },
+    {
+      "path": "performance-library/reviews/20261107-cream/frames/b5-access.jpg",
+      "size": 451482,
+      "sha256": "9bac18b93a2d3135ca34713fd77ce6d353d135012d110f68c16999e05415a883"
+    },
+    {
+      "path": "performance-library/reviews/20261107-cream/frames/cherry-hold.jpg",
+      "size": 374325,
+      "sha256": "d9ffcc5fe11ac0b2fe3766f22d6dbad7238ebcdcaf383e0f7cb619b60eff27f4"
+    },
+    {
+      "path": "performance-library/reviews/20261107-cream/frames/silver-gesture.jpg",
+      "size": 418130,
+      "sha256": "6674db0d2bf417f539599befcbebc7c16bc573852aa03863909226e3e855c010"
+    },
+    {
+      "path": "performance-library/reviews/20261107-cream/frames/waterglow-buy.jpg",
+      "size": 470205,
+      "sha256": "b216772b4c0c6c365bdde39d297aa84ca0e40a418109c71b98172b0db77df247"
+    },
+    {
+      "path": "performance-library/reviews/20261107-cream/inventory.json",
+      "size": 6869,
+      "sha256": "123b05a61d31a4774397a47965770712232040729fee531940270227b7ef9187"
+    },
+    {
+      "path": "performance-library/reviews/20261107-cream/review.html",
+      "size": 21519,
+      "sha256": "b2b0b792703960fe00af3ea17ec99ba3f17c2b2b708f2928a730190c18244c27"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/decode-check.json",
+      "size": 3003,
+      "sha256": "c5ce29c7f555bd6b3792e46ebd29e5d9658b431e584360751a6e17a55b6568e3"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/01-open-close-1.jpg",
+      "size": 490709,
+      "sha256": "480e7cc67fc02244dca98072a417433edbcc25acf88e7e4ee26993d95db0ee02"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/02-point-recover-1.jpg",
+      "size": 541369,
+      "sha256": "afddd2f62ea645907f12c7a0010ff5b166e3eefafc98515ab90bb19f1b8e75e1"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/03-count-hands-1.jpg",
+      "size": 568667,
+      "sha256": "5a4ffa9257a09d41bdd7ddf3fea1d9742f3482c45053403673cab74dc777d863"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/03-finger-rest-1.jpg",
+      "size": 544729,
+      "sha256": "da65a276cf064039d14b9e503e3a10db68a14f3c4a7837c524741f028b4d916c"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/04-v-recover-1.jpg",
+      "size": 538754,
+      "sha256": "82693847e89457cc0adaea6f8adc628ea4f84480ac6095079072e898be96cd87"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/201-free-palm-1.jpg",
+      "size": 550109,
+      "sha256": "94596e67a748f1ef63fa4de0a7cecad73514aeb3cffdf9e410c4a073a44d2966"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/201-two-hands-1.jpg",
+      "size": 535027,
+      "sha256": "f11198a946282a14b4437ce4e0d2e5b91cdb6620eef8a6639941f34229972776"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/235-lean-point-1.jpg",
+      "size": 618909,
+      "sha256": "63c0c95361556deb6b20c04fd035ebc5368f63c827335df086663213187fba20"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/24-smile-turn-1.jpg",
+      "size": 548985,
+      "sha256": "873889aea60305c57a4eeb5c1d16bcaeea1fadeef5fa6ce02d052390d4c462c5"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/24-smile-turn-2.jpg",
+      "size": 298913,
+      "sha256": "6e803cac77f9631f062572092acdceea45c228276ca7dc4e07d139109336c454"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/24-v-point-1.jpg",
+      "size": 594446,
+      "sha256": "2a26e0c63b958016b2aa8fdd647be5295655ff780475dc867dab5f0ea579d218"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/280-lean-back-1.jpg",
+      "size": 601917,
+      "sha256": "d5e587e2e8cf4086ebe7864a0192e563efca6c100c28f4fd45a43b8aaf169ad9"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/282-greet-point-1.jpg",
+      "size": 553819,
+      "sha256": "6694d06c5d822c92372657c18b7636df87de3946d875c546c5dd3a56d95130bd"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/606-open-palm-1.jpg",
+      "size": 514802,
+      "sha256": "3a429689764d50c8527c4568a52e6fdcbf4636b8b1bdc9987bb895c22eda0ddd"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/654-turn-return-1.jpg",
+      "size": 387096,
+      "sha256": "be05219744fdf94df8c186361ce48e75b42f3991b1103299d605cc5392460351"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/657-busy-gaze-1.jpg",
+      "size": 481209,
+      "sha256": "c562314ff04da46f230ab3397f5031e5b6621718626d04d44c50b2cbce25a113"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/845-recline-gaze-1.jpg",
+      "size": 247135,
+      "sha256": "f0ade23208e41a7b0d312e99e7572f0f3247cb567a0175eb622be9f1558db603"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/905-side-return-1.jpg",
+      "size": 521147,
+      "sha256": "7298ccf2e834f32d23a6a2a1bb73d24e6bb336ab7168dda55856a0328901d775"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/918-open-body-1.jpg",
+      "size": 490630,
+      "sha256": "51e7169ca081663beb2bb887e4c9836724c09747968d744e67abbadb4a4e63c5"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/920-v-close-1.jpg",
+      "size": 465217,
+      "sha256": "fadd47db5c50d633b0f7516cd2c099af53623f92d4bafca756676260d0ef5472"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/940-steady-face-1.jpg",
+      "size": 603363,
+      "sha256": "74e19c3eb7c23270ad59b9653ec2212c9b6bbbcda3f18ac9a1eded63ef05ad9b"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/941-point-recover-1.jpg",
+      "size": 491256,
+      "sha256": "8f072edac1564eb49a9d91c12082f54b7f1961df26dce167606a154beec613b8"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/941-two-palms-1.jpg",
+      "size": 528724,
+      "sha256": "0311056000f58ae282388aca5f6117a5adad5edd299009ab7f08879d31b99800"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/943-close-gaze-1.jpg",
+      "size": 440418,
+      "sha256": "0089629e7b0bd4fd371f3474832ca2ca02dc94a9b2f2555ebf792eb9665d410e"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/949-smile-hand-1.jpg",
+      "size": 511929,
+      "sha256": "85c1e98b3d5dadd90c02495d6e37e126f35dfcd51a7402dda850cc754334e37b"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/950-walk-gaze-1.jpg",
+      "size": 465105,
+      "sha256": "99ee1cafab4d073f261eacf804a1d4fc1b97fdf35aedb82f8321dbcd56d0d45a"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/952-walk-hand-1.jpg",
+      "size": 699388,
+      "sha256": "9901f0e92ac8c563767421c0ecfc46001c65d2b78036446227bf833a2bb23a17"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/953-smile-recover-1.jpg",
+      "size": 427235,
+      "sha256": "daeaea4bb4863d622c33481c769a950289770df8289279236875342dd9fa8e98"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/954-v-recover-1.jpg",
+      "size": 496567,
+      "sha256": "4565b0cfd80198c48d1abe39fa84758a9389e007d9d2b04affa7309b06637c58"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/dense/957-small-hand-1.jpg",
+      "size": 633934,
+      "sha256": "12b20859ac6f92bfe6119059f8341bb1972b02b2306688336a88aa12050f5132"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/01-1.jpg",
+      "size": 115993,
+      "sha256": "a4498f5523b21ba26e9aa7d92b051444adc530386e207b96c15ca00561da564a"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/02-1.jpg",
+      "size": 114613,
+      "sha256": "25254ecdf4e71b942db6901828e53f21abdb6bdc0acfd01acf1fec5fcb6a235d"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/03-1.jpg",
+      "size": 372351,
+      "sha256": "8ef4108c6ab4d945ea09b4f73fc2157664a187f155b133e31dcf8c79a6c22bc6"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/03-2.jpg",
+      "size": 388635,
+      "sha256": "2e3e9771f52080ec1ee078ae75a348af8ac3d6e66be9ea3d55196fc656aa2101"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/03-3.jpg",
+      "size": 389381,
+      "sha256": "c7e8d5e482e0364535077be46059fe8fd2bb185eb2f80a70bbfd38e6f4ce15e7"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/04-1.jpg",
+      "size": 84826,
+      "sha256": "aa6248e184c7e8e9d5d33872d502ea6250b33baceb452943829bd7081daa761f"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/201-1.jpg",
+      "size": 377209,
+      "sha256": "fd1abeb67a8aa5b96752ef1870d17b6411440852a71f80079ddf455a8d44d04d"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/201-2.jpg",
+      "size": 364998,
+      "sha256": "2d44669dfe5eb8d080a48b55bafe04ea15b6978a5670c0ebc27b18455e3a654a"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/201-3.jpg",
+      "size": 53071,
+      "sha256": "bda63b2162e5e6126c29f267085d445948135d2266986e6acc34d7aa6789c93c"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/235-1.jpg",
+      "size": 439566,
+      "sha256": "08e49025ca59fb19f9dd70c7d9884280d6d3a74f487441b84f2f8de43cb565a5"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/235-2.jpg",
+      "size": 147156,
+      "sha256": "ac6e0b9e6aef482b8d0a257d27fe07885573ed9f51142b6cbbfe4ddaea605fe6"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/24-1.jpg",
+      "size": 394891,
+      "sha256": "f00b9b27b0d3c835ee3e1e33a7c310ab665380412f7d3d0d94ebdc8bf90573e4"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/24-2.jpg",
+      "size": 391371,
+      "sha256": "621b4dcaa1736aa3516d13cc4af9e55dd336e7f153e2c2591461ed3a7bc5f3e4"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/24-3.jpg",
+      "size": 67367,
+      "sha256": "ea83a1dcca9e2a99c86e4b2bfd575e23fa156e971729d08912b042978ed9543a"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/280-1.jpg",
+      "size": 135926,
+      "sha256": "69c868b6f81197b23c2bf13676d191df6f97c524c6bf898230a23ffa75bb59ae"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/282-1.jpg",
+      "size": 105773,
+      "sha256": "666440eba30d09aaf66c929099d40d650fda1b64d08e78960437b087883a2f8b"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/606-1.jpg",
+      "size": 125803,
+      "sha256": "816d802de72ee97f34d69bf820c32412cc98b27c1fd07b6bfd2d71f748334bc5"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/654-1.jpg",
+      "size": 202825,
+      "sha256": "c88c8a12af5708830c12db5501bda2eb08a6752681dd87d477bbf2db9dbcd1c3"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/657-1.jpg",
+      "size": 220368,
+      "sha256": "cbe5f54d70857aea629935db3c754468cf8927bd36bf500e2ec117a63243c4a7"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/845-1.jpg",
+      "size": 225694,
+      "sha256": "41fbdf75677cecf26b9e29305f78f104bb0e20b90b0195b95ed6691499cb4fe8"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/905-1.jpg",
+      "size": 327854,
+      "sha256": "6460ae450fca4216a27d59d98140165949764d1b699269eb2632d02ad43bb225"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/918-1.jpg",
+      "size": 199263,
+      "sha256": "1485db72544941b622de746ad6b5e73742500b81d9b158305d2a3f4b7426c093"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/920-1.jpg",
+      "size": 124384,
+      "sha256": "7bb27889fbaa1c321c1afe3d6f8a83615e67ad96dcb479bb19363b1368af0fbf"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/940-1.jpg",
+      "size": 175300,
+      "sha256": "24f68835b8832d67f9d63fb3f2c9b6cfe52d63c056c331ed4864fc874c366839"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/941-1.jpg",
+      "size": 310570,
+      "sha256": "adbb9a4102e13f1729cdfc9675d940e35990d0c98ac89ad201dd879158594939"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/943-1.jpg",
+      "size": 289022,
+      "sha256": "767bf0306c6c8c9f4411c343f37a7911a18274bbf7606c70d5a2738835ff8fc2"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/949-1.jpg",
+      "size": 143195,
+      "sha256": "9a07a4e0055555a53ba1665f156e5634f24c1f214635e7516356ffc34ddacd5f"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/950-1.jpg",
+      "size": 99307,
+      "sha256": "01fc36be38ced0479dfce5418b11d85c93ecf8c4a34aff7ad46717bb9f4a803f"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/952-1.jpg",
+      "size": 400498,
+      "sha256": "753d65147de5ab3c96c6632ab15651381750b15bb4e6b264c89d4b79322dba8d"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/953-1.jpg",
+      "size": 289843,
+      "sha256": "0bf52caa7a819b69be61aa56a8d2b7a40535968501cd6947c389b08cf5468879"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/954-1.jpg",
+      "size": 168853,
+      "sha256": "4584508d117541ac9d3cc176de03dc07f297eb2437de35b403ecfe1d6962e313"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/frames/overview/957-1.jpg",
+      "size": 247509,
+      "sha256": "bc25722a6b33d18f2880bbe7234ee86c0fa446845aa56028e4b205576aeee61f"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/installation-receipt.json",
+      "size": 1342,
+      "sha256": "3c87c1ae1a78eeb056d74e8255d09a6c329fcc7bb547be07395e31ca4398f02f"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/inventory.json",
+      "size": 32348,
+      "sha256": "d60160642ad26d1f345e52c29bff29841647f715acf77fe3c04a3e9629d9097e"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/inventory.txt",
+      "size": 18641,
+      "sha256": "4069a11d6250edccabb1f253d1c8af1f4a6b243436471fb086a10c610809e4d9"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/language-candidates.json",
+      "size": 397910,
+      "sha256": "58d65c7067a3dd7d1b2199177e066d439c31bac6f5c303b3f07470fed1f0f2f2"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/manifest.json",
+      "size": 18962,
+      "sha256": "ccfe2c2cb2a8daf07fde09f51192e561a57c133be07500eee31feb1d1e3be329"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/review-v1.html",
+      "size": 83303,
+      "sha256": "bbe3d366f59164ced2b283f2568d7699b06ef3371477021f9682079b91b296ee"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/review.html",
+      "size": 114975,
+      "sha256": "3f1a9bae8711f975c06fbefab803bc4838a9da13b9114217ff939594e8b4bd78"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/selected-spans.json",
+      "size": 978,
+      "sha256": "725012a275266badc96fa6ba89de5879ffcb4ef467ffb09a002926c804c908b5"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/01.json",
+      "size": 25117,
+      "sha256": "d319bae4996c7fd8709c9a0e94e061410da748930b4c154c1d571ecc73405c76"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/02.json",
+      "size": 17139,
+      "sha256": "3565e17eb5d8588644734ee944e81fb5e8b0647f423ba47592046be1d25939aa"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/03.json",
+      "size": 179679,
+      "sha256": "f4b0372d73b92b642ffec7582164f8d56ce762fa08f7df62746eb85332b97679"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/04.json",
+      "size": 6285,
+      "sha256": "51948bef23bb284954929caae7ee3bf62f9e99bb715205b3a77c581394c62c2e"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/201.json",
+      "size": 159079,
+      "sha256": "4352fca9e485df95314196269237d4fc8fa95d95c6c5d2d29f395a752e224c25"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/235.json",
+      "size": 111121,
+      "sha256": "fd238efc416f7c12c85d8a2a4dbc630fa9a6954b351e02d80eabddefc10fa9b1"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/24.json",
+      "size": 101696,
+      "sha256": "83f9e5f5ecfdd1e71cb652f3f4356ebd1055684984caaa641220aef32a80e3bf"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/280.json",
+      "size": 24473,
+      "sha256": "c1812a9b3388fd2d8d8f7ac3d0780dfd40c1452054de2dad9830f368cee9db4a"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/282.json",
+      "size": 19268,
+      "sha256": "04d6a3b699eb42d95769483fd4a8036f5b89da471e2aa1e1ffa778ba97092b87"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/606.json",
+      "size": 21970,
+      "sha256": "e743ed5061ff3807290e2f428d650140e21f5f4f1712843f1374677091c947ff"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/654.json",
+      "size": 34564,
+      "sha256": "99610c394fce86590ddf43c2fc99cac994d58cbb30576e96dd735c797eb01084"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/657.json",
+      "size": 35491,
+      "sha256": "30fa611413b95412e9be52d36157703d447047905288e44912ca5c2e361f557f"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/845.json",
+      "size": 29647,
+      "sha256": "3d9bfb84a39b275ae90cc50ca2de8674c8517643887a66e351658d07745b4b9f"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/905.json",
+      "size": 31084,
+      "sha256": "d46634ab79cd8609a65223fabeb94d2864a31e5eebd063a3f361ff90fd59f1b6"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/918.json",
+      "size": 25805,
+      "sha256": "6da759989be9756e36b95499a55b4dfc2a3500c8846245f803c9c00de36ae6ac"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/920.json",
+      "size": 14013,
+      "sha256": "8226e53e8a49376faaeedd619dcdd3f828d936f2667814e114b3b9bf32f8fa6b"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/940.json",
+      "size": 26817,
+      "sha256": "310e1b551aea738928c4471946d3e3d68b76cebd949047da8bc60ac061b616c3"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/941.json",
+      "size": 65418,
+      "sha256": "98c03e7abf75d0f70ce64d38743237d30f774bb3d85a7cd1952a4c32f72be81e"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/943.json",
+      "size": 48598,
+      "sha256": "6a527d9e3181780f65be84704ec580a9dba8cb09acf73b54ffd6bff6dc617ef9"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/949.json",
+      "size": 24824,
+      "sha256": "265c3d899bc7409e209171e0842ef78a7c7054296d69785f53566facbbe63da8"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/950.json",
+      "size": 16004,
+      "sha256": "8f348b409dd37ee5b524adad4a4ef8d8033a3bccf89525c1504db51220e72c81"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/952.json",
+      "size": 41933,
+      "sha256": "3ba6ab3d0f833ab8179fecf060e724ab8ad8893b05ebbedea55632c91cb6a79c"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/953.json",
+      "size": 37374,
+      "sha256": "b6489ed04235bf21a6bdee23e66a2e9b63e3a5a0037d581d9e0f0d33b09f7b00"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/954.json",
+      "size": 17858,
+      "sha256": "5b7a68e7c1675f9761ddaa0174cc0d1572af412bc27805895999d15f34000373"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/unreviewed-asr/957.json",
+      "size": 22786,
+      "sha256": "4e276ca590672b538bfdd8b72548a80e3d6bf4ad2fed73fd6707c8ad57dbfd87"
+    },
+    {
+      "path": "performance-library/reviews/20261107-talking/usable-prefixes.json",
+      "size": 857,
+      "sha256": "7a2648ed7b5782721e01a330e2134bb9e7dc1516d0e9061517e920c1a18d4ca3"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-01/source.mp4",
+      "size": 10834027,
+      "sha256": "fc1ad1e0457781a8480698ac07355a9cd660e4c34f0cfa728f26944162b3aba9"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-02/source.mp4",
+      "size": 4472834,
+      "sha256": "fd6c2266f22f3e68ae7632951cf18fb99d24e8bc63b5ae998ec94ff041941b07"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-03/source.mp4",
+      "size": 54211589,
+      "sha256": "6fb4cd4951de213d0351e60771591faffbd30f7d06e5f1ebd1b45c325e8b11bf"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-04/source.mp4",
+      "size": 4838408,
+      "sha256": "1d8b0507f7bf11a93fb51e3e2fbce3230c66211f90bcd577dcb9f2bc2e914bbe"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-201/source.mp4",
+      "size": 57115106,
+      "sha256": "626c2e0a19891fe7ef3aed9a87c2e9edaa9be20856d9890f7b7c09415e5a7f5b"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-235/source.mp4",
+      "size": 35242266,
+      "sha256": "62f3bfb376ddd4375c82c811ca0c6c1e42ec51c07a97e28d6fc18c641de74cc9"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-24/source.mp4",
+      "size": 75959928,
+      "sha256": "38d8ac5fd24fd7bd3b64647b99f1a75c8c285a25b7b70328c88960aa52bc7336"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-280/source.mp4",
+      "size": 11139911,
+      "sha256": "e4647deea467e4c2a67dfe2d8b1f8406dc94da6c0ae088d6b7128e3657b31bda"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-282/source.mp4",
+      "size": 9138498,
+      "sha256": "5f5bfd9f450f4e98825a49f99520c459493adb14952ca94af1d950e497845da5"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-606/source.mp4",
+      "size": 12151999,
+      "sha256": "cee3ca3d3b2002b5d6d70a189438198e6a62b549d33e5a6409ca012ad1c5e22b"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-654/source.mp4",
+      "size": 20957028,
+      "sha256": "46f42568c680b94f173d2a1bf5063669951e60d662fd2cf9b01b0dbd66629f88"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-657/source.mp4",
+      "size": 16337735,
+      "sha256": "b1e534742ffdb6e651bf811dae86424be5ade3da8906d1c1fb4474aaa73120d1"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-845/source.mp4",
+      "size": 7774353,
+      "sha256": "130e83b031d1c697fd8fed5806796e090662b8827eb69888a8a95ecda62c1ba5"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-905/source.mp4",
+      "size": 30671781,
+      "sha256": "f8ca46eee6c7bf514a0003c9b0d121073023b1aafa749d9f21478183c99bba94"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-918/source.mp4",
+      "size": 14096754,
+      "sha256": "fb51884a71e451943858405e18d90c3c55b1efe3de74323aaf82f99f756a048e"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-920/source.mp4",
+      "size": 12712091,
+      "sha256": "0780431e27df0f428b8c7b776b65e78d94454e460970fc4be852940bca0ad9a6"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-940/source.mp4",
+      "size": 14319981,
+      "sha256": "f3022992c3b614b805e1fb3df503232e837c7db6f92d4f991968349a1410f506"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-941/source.mp4",
+      "size": 15837776,
+      "sha256": "089b9f9e6e4d444d73b16dad4098f51299a167aea90314cf0b0718b11ef90cfe"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-943/source.mp4",
+      "size": 24660202,
+      "sha256": "078932f2a3667056b8b9170b4f116e321d8652668326cdfa7a6e5a0c83894e90"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-949/source.mp4",
+      "size": 10276933,
+      "sha256": "5a36b5b3922e3462a5bb0c35cd4071667c0b47d57ae32c9e4d66a6fea4f18135"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-950/source.mp4",
+      "size": 11122447,
+      "sha256": "ef625ee932e4357792f528a37c08975b05e9bc8b4beef21576f14fc23789b3e5"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-952/source.mp4",
+      "size": 35933493,
+      "sha256": "b9a3a4ed53e1802f39fa25482b9d665671f68b6c1b3a4496ecd845b378bff7ae"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-953/source.mp4",
+      "size": 24245648,
+      "sha256": "4c600a6431cc3fd32389de73038a48bbddd07f8028a3ae8b38af692d1ee2978b"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-954/source.mp4",
+      "size": 10949597,
+      "sha256": "b4b1b88e5c937512bf8a443e37d79c32cc73db20d0b25ff6071c4e7da964330b"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-957/source.mp4",
+      "size": 19809796,
+      "sha256": "1bf662a6a3e8d668c186699b4c0454c63d24d3524c8382bbf6b6610f7e63c448"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-cream-b5-4/source.mp4",
+      "size": 21636508,
+      "sha256": "cd0dedeb528d2235a3955b12b9b5abd3669cb04f8dafed2f6e5cee915e9c8a55"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-cream-cherry-3/source.mp4",
+      "size": 4521181,
+      "sha256": "cc51baddb9a5b18b6ec1d352bad0f592dcfe6ebdd339dcfdb109f0dc06a9e2d0"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-cream-silver-1/source.mp4",
+      "size": 10793423,
+      "sha256": "b235c8a711221ada9af69dcbf5252cdc3adf413b1ff05552c0a83ff489d08db1"
+    },
+    {
+      "path": "performance-library/sources/src-crx-20261107-cream-waterglow-8/source.mp4",
+      "size": 36415755,
+      "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82"
+    },
+    {
+      "path": "performance-library/sources.json",
+      "size": 74141,
+      "sha256": "fe06987bc4d05eb7b469cc8b1632d2770f67fd8fbb418a7417c55df46e3a2056"
+    },
+    {
+      "path": "references/audio.md",
+      "size": 4556,
+      "sha256": "b4427b8ae5575f72f2e5775fd20a6969abb98197e6cb369bb7824828327da89a"
+    },
+    {
+      "path": "references/demo-format.md",
+      "size": 4350,
+      "sha256": "f4094f6a1f9a6884aca79d16d49b359acdbc0281bd52738bf7ffd27a9fdc941b"
+    },
+    {
+      "path": "references/directing.md",
+      "size": 6692,
+      "sha256": "3d6292880304a961895e54ade1609de4ef3ce97e11beb58cfc14fef88b2ed010"
+    },
+    {
+      "path": "references/ingestion.md",
+      "size": 4077,
+      "sha256": "1c1c33c19d556972d5d0d44ccbeaeafdfd26f073cbf1b20c87c10e4547a4d882"
+    },
+    {
+      "path": "references/libraries.md",
+      "size": 3972,
+      "sha256": "493d2756b412980a486859bb80960604913cfee34282cf55f4e666896a6d937c"
+    },
+    {
+      "path": "references/methods.md",
+      "size": 1609,
+      "sha256": "66d483379110560ff73e3ccd02a3432a586a8ef6c1d3ecedc2613299c5e2da79"
+    },
+    {
+      "path": "references/output-format.md",
+      "size": 4258,
+      "sha256": "9fa78afafe64f6108c9865d41a0d774c9aa62f4ccb2beb3f931309fdb5489ea6"
+    },
+    {
+      "path": "references/performance-format.md",
+      "size": 4898,
+      "sha256": "2bec4dceddf6f9949eb1a05842e31cd80c968ccc1031100100e8bc664fe14462"
+    },
+    {
+      "path": "references/review.md",
+      "size": 1678,
+      "sha256": "c0a523e8519aa59dd942d716fc4d7e2b91e1066820ab178f164d3d46c35e416d"
+    },
+    {
+      "path": "references/runtime.md",
+      "size": 2566,
+      "sha256": "168ca477fd6d08dd94689b05924d01df706bd03201753004b7528c16694d6287"
+    },
+    {
+      "path": "scripts/audio.py",
+      "size": 11142,
+      "sha256": "d88741c63ff056af355070f65eeb09e88b8068e4f8c5a37b15ff7cf00b6ff4dc"
+    },
+    {
+      "path": "scripts/catalog.py",
+      "size": 17649,
+      "sha256": "fa2af3705416685049e2b4ecfe6f851a8a7530f118e85a2cc936398191665177"
+    },
+    {
+      "path": "scripts/library.py",
+      "size": 19442,
+      "sha256": "baa3a383b4b6b1f34f955ab6363f46c77357b6a11887f7ee94713b1e1a84a305"
+    },
+    {
+      "path": "scripts/performance_review.py",
+      "size": 12020,
+      "sha256": "145fb584398b4412e1f24f5cf29b09747b7a5240225e737c1d3638e72bb35588"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 7529,
+      "sha256": "3e929987a2fa01c17be6b0c8cb22c92a9ec7f1e1bbe1f3ce26d2c4b6a55ca4c4"
+    },
+    {
+      "path": "templates/demo-record.json",
+      "size": 1114,
+      "sha256": "01224f44a901f4f66e3d6974b4a28dd404412b752b347528f8f7fa8308d0a399"
+    },
+    {
+      "path": "templates/performance-record.json",
+      "size": 800,
+      "sha256": "829509cf78ec09f7ddb82917befc82bee422c675611bc251f3a34f2084796a3a"
+    }
+  ]
+}

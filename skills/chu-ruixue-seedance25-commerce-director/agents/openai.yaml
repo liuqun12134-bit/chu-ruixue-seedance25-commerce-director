@@ -1,0 +1,4 @@
+interface:
+  display_name: "初瑞雪seedance2.5电商口播导演"
+  short_description: "为初瑞雪编排三种口播方案，结合产品演示，按台词类别与意思匹配本人表现"
+  default_prompt: "请使用 $chu-ruixue-seedance25-commerce-director，根据我的素材先给三个简短方案，等我选择后再输出完整提示词。"

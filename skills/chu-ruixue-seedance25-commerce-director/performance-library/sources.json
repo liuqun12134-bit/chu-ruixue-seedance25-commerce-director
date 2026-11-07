@@ -1,0 +1,1142 @@
+{
+  "schema_version": 1,
+  "person_id": "chu-ruixue",
+  "sources": [
+    {
+      "id": "src-crx-20261107-01",
+      "family_id": "family-crx-20261107-01",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 01.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-01/source.mp4",
+      "sha256": "fc1ad1e0457781a8480698ac07355a9cd660e4c34f0cfa728f26944162b3aba9",
+      "duration_seconds": 28.966667,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "01.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\01.mp4",
+        "sha256": "fc1ad1e0457781a8480698ac07355a9cd660e4c34f0cfa728f26944162b3aba9",
+        "bytes": 10834027,
+        "nominal_duration_seconds": 28.966667
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\01.mp4"
+      },
+      "original_decode_check": {
+        "key": "01",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/01-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-02",
+      "family_id": "family-crx-20261107-02",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 02.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-02/source.mp4",
+      "sha256": "fd6c2266f22f3e68ae7632951cf18fb99d24e8bc63b5ae998ec94ff041941b07",
+      "duration_seconds": 25.658005,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "02.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\02.mp4",
+        "sha256": "fd6c2266f22f3e68ae7632951cf18fb99d24e8bc63b5ae998ec94ff041941b07",
+        "bytes": 4472834,
+        "nominal_duration_seconds": 25.658005
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\02.mp4"
+      },
+      "original_decode_check": {
+        "key": "02",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/02-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-03",
+      "family_id": "family-crx-20261107-03",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 03.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-03/source.mp4",
+      "sha256": "6fb4cd4951de213d0351e60771591faffbd30f7d06e5f1ebd1b45c325e8b11bf",
+      "duration_seconds": 270.791111,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。",
+        "完整解码结束，但空输出复用器出现非单调 DTS 警告；时点仅作近似索引，未证明严格逐帧时间一致。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "03.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\03.mp4",
+        "sha256": "6fb4cd4951de213d0351e60771591faffbd30f7d06e5f1ebd1b45c325e8b11bf",
+        "bytes": 54211589,
+        "nominal_duration_seconds": 270.791111
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\03.mp4"
+      },
+      "original_decode_check": {
+        "key": "03",
+        "returncode": 0,
+        "stderr": "[null @ 000001fe9cd49440] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 4527 >= 4526\r\n[null @ 000001fe9cd49440] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 4527 >= 4527\r\n"
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/03-1.jpg",
+        "reviews/20261107-talking/frames/overview/03-2.jpg",
+        "reviews/20261107-talking/frames/overview/03-3.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-04",
+      "family_id": "family-crx-20261107-04",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 04.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-04/source.mp4",
+      "sha256": "1d8b0507f7bf11a93fb51e3e2fbce3230c66211f90bcd577dcb9f2bc2e914bbe",
+      "duration_seconds": 21.85,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "04.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\04.mp4",
+        "sha256": "1d8b0507f7bf11a93fb51e3e2fbce3230c66211f90bcd577dcb9f2bc2e914bbe",
+        "bytes": 4838408,
+        "nominal_duration_seconds": 21.85
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\04.mp4"
+      },
+      "original_decode_check": {
+        "key": "04",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/04-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-24",
+      "family_id": "family-crx-20261107-24",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 24_带娃的日子是幸福，跟你们一起是快乐。能理解这个区别吗？.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-24/source.mp4",
+      "sha256": "38d8ac5fd24fd7bd3b64647b99f1a75c8c285a25b7b70328c88960aa52bc7336",
+      "duration_seconds": 193.608005,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "24_带娃的日子是幸福，跟你们一起是快乐。能理解这个区别吗？.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\24_带娃的日子是幸福，跟你们一起是快乐。能理解这个区别吗？.mp4",
+        "sha256": "38d8ac5fd24fd7bd3b64647b99f1a75c8c285a25b7b70328c88960aa52bc7336",
+        "bytes": 75959928,
+        "nominal_duration_seconds": 193.608005
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\24.mp4"
+      },
+      "original_decode_check": {
+        "key": "24",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/24-1.jpg",
+        "reviews/20261107-talking/frames/overview/24-2.jpg",
+        "reviews/20261107-talking/frames/overview/24-3.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-201",
+      "family_id": "family-crx-20261107-201",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 201_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-201/source.mp4",
+      "sha256": "626c2e0a19891fe7ef3aed9a87c2e9edaa9be20856d9890f7b7c09415e5a7f5b",
+      "duration_seconds": 192.733333,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "201_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\201_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+        "sha256": "626c2e0a19891fe7ef3aed9a87c2e9edaa9be20856d9890f7b7c09415e5a7f5b",
+        "bytes": 57115106,
+        "nominal_duration_seconds": 192.733333
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\201.mp4"
+      },
+      "original_decode_check": {
+        "key": "201",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/201-1.jpg",
+        "reviews/20261107-talking/frames/overview/201-2.jpg",
+        "reviews/20261107-talking/frames/overview/201-3.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-235",
+      "family_id": "family-crx-20261107-235",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 235_有妙招~@初瑞雪（辛巴818）(O3xxcgtnm2bj65kq).mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-235/source.mp4",
+      "sha256": "62f3bfb376ddd4375c82c811ca0c6c1e42ec51c07a97e28d6fc18c641de74cc9",
+      "duration_seconds": 117.653991,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "235_有妙招~@初瑞雪（辛巴818）(O3xxcgtnm2bj65kq).mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\235_有妙招~@初瑞雪（辛巴818）(O3xxcgtnm2bj65kq).mp4",
+        "sha256": "62f3bfb376ddd4375c82c811ca0c6c1e42ec51c07a97e28d6fc18c641de74cc9",
+        "bytes": 35242266,
+        "nominal_duration_seconds": 117.653991
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\235.mp4"
+      },
+      "original_decode_check": {
+        "key": "235",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/235-1.jpg",
+        "reviews/20261107-talking/frames/overview/235-2.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-280",
+      "family_id": "family-crx-20261107-280",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 280_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-280/source.mp4",
+      "sha256": "e4647deea467e4c2a67dfe2d8b1f8406dc94da6c0ae088d6b7128e3657b31bda",
+      "duration_seconds": 29.633333,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "280_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\280_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+        "sha256": "e4647deea467e4c2a67dfe2d8b1f8406dc94da6c0ae088d6b7128e3657b31bda",
+        "bytes": 11139911,
+        "nominal_duration_seconds": 29.633333
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\280.mp4"
+      },
+      "original_decode_check": {
+        "key": "280",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/280-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-282",
+      "family_id": "family-crx-20261107-282",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 282_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-282/source.mp4",
+      "sha256": "5f5bfd9f450f4e98825a49f99520c459493adb14952ca94af1d950e497845da5",
+      "duration_seconds": 23.406009,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "282_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\282_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+        "sha256": "5f5bfd9f450f4e98825a49f99520c459493adb14952ca94af1d950e497845da5",
+        "bytes": 9138498,
+        "nominal_duration_seconds": 23.406009
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\282.mp4"
+      },
+      "original_decode_check": {
+        "key": "282",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/282-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-606",
+      "family_id": "family-crx-20261107-606",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 606_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-606/source.mp4",
+      "sha256": "cee3ca3d3b2002b5d6d70a189438198e6a62b549d33e5a6409ca012ad1c5e22b",
+      "duration_seconds": 33.181995,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "606_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\606_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+        "sha256": "cee3ca3d3b2002b5d6d70a189438198e6a62b549d33e5a6409ca012ad1c5e22b",
+        "bytes": 12151999,
+        "nominal_duration_seconds": 33.181995
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\606.mp4"
+      },
+      "original_decode_check": {
+        "key": "606",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/606-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-654",
+      "family_id": "family-crx-20261107-654",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 654_无美颜滤镜.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-654/source.mp4",
+      "sha256": "46f42568c680b94f173d2a1bf5063669951e60d662fd2cf9b01b0dbd66629f88",
+      "duration_seconds": 60.023991,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "654_无美颜滤镜.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\654_无美颜滤镜.mp4",
+        "sha256": "46f42568c680b94f173d2a1bf5063669951e60d662fd2cf9b01b0dbd66629f88",
+        "bytes": 20957028,
+        "nominal_duration_seconds": 60.023991
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\654.mp4"
+      },
+      "original_decode_check": {
+        "key": "654",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/654-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-657",
+      "family_id": "family-crx-20261107-657",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 657_.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-657/source.mp4",
+      "sha256": "b1e534742ffdb6e651bf811dae86424be5ade3da8906d1c1fb4474aaa73120d1",
+      "duration_seconds": 57.8,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "657_.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\657_.mp4",
+        "sha256": "b1e534742ffdb6e651bf811dae86424be5ade3da8906d1c1fb4474aaa73120d1",
+        "bytes": 16337735,
+        "nominal_duration_seconds": 57.8
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\657.mp4"
+      },
+      "original_decode_check": {
+        "key": "657",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/657-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-845",
+      "family_id": "family-crx-20261107-845",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 845_我的最爱就是掏耳朵，掏完就能放心出去玩一阵了。.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-845/source.mp4",
+      "sha256": "130e83b031d1c697fd8fed5806796e090662b8827eb69888a8a95ecda62c1ba5",
+      "duration_seconds": 57.168005,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "845_我的最爱就是掏耳朵，掏完就能放心出去玩一阵了。.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\845_我的最爱就是掏耳朵，掏完就能放心出去玩一阵了。.mp4",
+        "sha256": "130e83b031d1c697fd8fed5806796e090662b8827eb69888a8a95ecda62c1ba5",
+        "bytes": 7774353,
+        "nominal_duration_seconds": 57.168005
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\845.mp4"
+      },
+      "original_decode_check": {
+        "key": "845",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/845-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-905",
+      "family_id": "family-crx-20261107-905",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 905_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-905/source.mp4",
+      "sha256": "f8ca46eee6c7bf514a0003c9b0d121073023b1aafa749d9f21478183c99bba94",
+      "duration_seconds": 86.28,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "905_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\905_@初瑞雪(O3xatfz2avk4wsau)的精彩视频.mp4",
+        "sha256": "f8ca46eee6c7bf514a0003c9b0d121073023b1aafa749d9f21478183c99bba94",
+        "bytes": 30671781,
+        "nominal_duration_seconds": 86.28
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\905.mp4"
+      },
+      "original_decode_check": {
+        "key": "905",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/905-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-918",
+      "family_id": "family-crx-20261107-918",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 918_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-918/source.mp4",
+      "sha256": "fb51884a71e451943858405e18d90c3c55b1efe3de74323aaf82f99f756a048e",
+      "duration_seconds": 51.76,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "918_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\918_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+        "sha256": "fb51884a71e451943858405e18d90c3c55b1efe3de74323aaf82f99f756a048e",
+        "bytes": 14096754,
+        "nominal_duration_seconds": 51.76
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\918.mp4"
+      },
+      "original_decode_check": {
+        "key": "918",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/918-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-920",
+      "family_id": "family-crx-20261107-920",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 920_@初瑞雪店播号(O3xmvu8fbxti6v6u)记得来哟.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-920/source.mp4",
+      "sha256": "0780431e27df0f428b8c7b776b65e78d94454e460970fc4be852940bca0ad9a6",
+      "duration_seconds": 35.76,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "920_@初瑞雪店播号(O3xmvu8fbxti6v6u)记得来哟.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\920_@初瑞雪店播号(O3xmvu8fbxti6v6u)记得来哟.mp4",
+        "sha256": "0780431e27df0f428b8c7b776b65e78d94454e460970fc4be852940bca0ad9a6",
+        "bytes": 12712091,
+        "nominal_duration_seconds": 35.76
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\920.mp4"
+      },
+      "original_decode_check": {
+        "key": "920",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/920-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-940",
+      "family_id": "family-crx-20261107-940",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 940_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-940/source.mp4",
+      "sha256": "f3022992c3b614b805e1fb3df503232e837c7db6f92d4f991968349a1410f506",
+      "duration_seconds": 36.362993,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "940_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\940_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+        "sha256": "f3022992c3b614b805e1fb3df503232e837c7db6f92d4f991968349a1410f506",
+        "bytes": 14319981,
+        "nominal_duration_seconds": 36.362993
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\940.mp4"
+      },
+      "original_decode_check": {
+        "key": "940",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/940-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-941",
+      "family_id": "family-crx-20261107-red-event",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 941_@初瑞雪店播21号(O3xcb6j3si6rn68w)新店开业觉了！夸我！火爆了！.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-941/source.mp4",
+      "sha256": "089b9f9e6e4d444d73b16dad4098f51299a167aea90314cf0b0718b11ef90cfe",
+      "duration_seconds": 76.928005,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "相近红衣、珍珠项链与活动后台情境，保守归为同一候选来源组；未证明两条独立拍摄。",
+      "original_file": {
+        "name": "941_@初瑞雪店播21号(O3xcb6j3si6rn68w)新店开业觉了！夸我！火爆了！.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\941_@初瑞雪店播21号(O3xcb6j3si6rn68w)新店开业觉了！夸我！火爆了！.mp4",
+        "sha256": "089b9f9e6e4d444d73b16dad4098f51299a167aea90314cf0b0718b11ef90cfe",
+        "bytes": 15837776,
+        "nominal_duration_seconds": 76.928005
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\941.mp4"
+      },
+      "original_decode_check": {
+        "key": "941",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/941-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-943",
+      "family_id": "family-crx-20261107-red-event",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 943_@初瑞雪店播21号(O3xcb6j3si6rn68w)开业大吉！超级成功！太开心了！来！.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-943/source.mp4",
+      "sha256": "078932f2a3667056b8b9170b4f116e321d8652668326cdfa7a6e5a0c83894e90",
+      "duration_seconds": 73.281995,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "相近红衣、珍珠项链与活动后台情境，保守归为同一候选来源组；未证明两条独立拍摄。",
+      "original_file": {
+        "name": "943_@初瑞雪店播21号(O3xcb6j3si6rn68w)开业大吉！超级成功！太开心了！来！.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\943_@初瑞雪店播21号(O3xcb6j3si6rn68w)开业大吉！超级成功！太开心了！来！.mp4",
+        "sha256": "078932f2a3667056b8b9170b4f116e321d8652668326cdfa7a6e5a0c83894e90",
+        "bytes": 24660202,
+        "nominal_duration_seconds": 73.281995
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\943.mp4"
+      },
+      "original_decode_check": {
+        "key": "943",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/943-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-949",
+      "family_id": "family-crx-20261107-949",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 949_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-949/source.mp4",
+      "sha256": "5a36b5b3922e3462a5bb0c35cd4071667c0b47d57ae32c9e4d66a6fea4f18135",
+      "duration_seconds": 37.245011,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "949_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\949_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+        "sha256": "5a36b5b3922e3462a5bb0c35cd4071667c0b47d57ae32c9e4d66a6fea4f18135",
+        "bytes": 10276933,
+        "nominal_duration_seconds": 37.245011
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\949.mp4"
+      },
+      "original_decode_check": {
+        "key": "949",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/949-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-950",
+      "family_id": "family-crx-20261107-950",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 950_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-950/source.mp4",
+      "sha256": "ef625ee932e4357792f528a37c08975b05e9bc8b4beef21576f14fc23789b3e5",
+      "duration_seconds": 26.191995,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "950_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\950_@初瑞雪店播号(O3xmvu8fbxti6v6u).mp4",
+        "sha256": "ef625ee932e4357792f528a37c08975b05e9bc8b4beef21576f14fc23789b3e5",
+        "bytes": 11122447,
+        "nominal_duration_seconds": 26.191995
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\950.mp4"
+      },
+      "original_decode_check": {
+        "key": "950",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/950-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-952",
+      "family_id": "family-crx-20261107-blue-travel",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 952_早上太早了，孩子们睡觉，带我妈去看。晚上带等等看花样游泳还是女团呢？.mp4；保留可用连续前段，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-952/source.mp4",
+      "sha256": "b9a3a4ed53e1802f39fa25482b9d665671f68b6c1b3a4496ecd845b378bff7ae",
+      "duration_seconds": 86.16,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。",
+        "原片容器标称 160.960 秒，尾部缺失并报解码错误；仅保留从0秒开始的 86.16 秒连续可用前段，前段重新封装后完整解码无错误。缺失尾部未分析。"
+      ],
+      "family_assignment_basis": "相同蓝衣旅行情境，保守归为同一候选来源组；未证明两条独立拍摄。",
+      "original_file": {
+        "name": "952_早上太早了，孩子们睡觉，带我妈去看。晚上带等等看花样游泳还是女团呢？.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\952_早上太早了，孩子们睡觉，带我妈去看。晚上带等等看花样游泳还是女团呢？.mp4",
+        "sha256": "f73d05742869c2de5f9fa174d1d2fc447c907c75459a8290009616c0506ec247",
+        "bytes": 36551960,
+        "nominal_duration_seconds": 160.96
+      },
+      "preservation": {
+        "method": "stream-copy usable prefix",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\952.mp4"
+      },
+      "original_decode_check": {
+        "key": "952",
+        "returncode": 0,
+        "stderr": "[h264 @ 000001a5c92bfb40] Invalid NAL unit size (35586 > 24834).\r\n[h264 @ 000001a5c92bfb40] missing picture in access unit with size 24838\r\n[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 000001a5c7253580] stream 1, offset 0x22de718: partial file\r\n[h264 @ 000001a5c8e6d080] Invalid NAL unit size (35586 > 24834).\r\n[h264 @ 000001a5c8e6d080] Error splitting the input into NAL units.\r\n[vist#0:0/h264 @ 000001a5c8dcebc0] [dec:h264 @ 000001a5c92cde40] Decoding error: Invalid data found when processing input\r\n"
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/952-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-953",
+      "family_id": "family-crx-20261107-blue-travel",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 953_看上瘾了。早几天来好了，多看几场。世界级比赛看起来太给力了！.mp4；保留可用连续前段，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-953/source.mp4",
+      "sha256": "4c600a6431cc3fd32389de73038a48bbddd07f8028a3ae8b38af692d1ee2978b",
+      "duration_seconds": 80.16,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。",
+        "原片容器标称 258.206 秒，尾部缺失并报解码错误；仅保留从0秒开始的 80.16 秒连续可用前段，前段重新封装后完整解码无错误。缺失尾部未分析。"
+      ],
+      "family_assignment_basis": "相同蓝衣旅行情境，保守归为同一候选来源组；未证明两条独立拍摄。",
+      "original_file": {
+        "name": "953_看上瘾了。早几天来好了，多看几场。世界级比赛看起来太给力了！.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\953_看上瘾了。早几天来好了，多看几场。世界级比赛看起来太给力了！.mp4",
+        "sha256": "05ce9945daaf4a4475ee1b73e5905c201beaf7f554d089e7e494294699ab59a8",
+        "bytes": 24790392,
+        "nominal_duration_seconds": 258.206009
+      },
+      "preservation": {
+        "method": "stream-copy usable prefix",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\953.mp4"
+      },
+      "original_decode_check": {
+        "key": "953",
+        "returncode": 0,
+        "stderr": "[h264 @ 00000292c1f3ec40] Invalid NAL unit size (14607 > 9888).\r\n[h264 @ 00000292c1f3ec40] missing picture in access unit with size 9892\r\n[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 00000292c0433b40] stream 1, offset 0x17a57e7: partial file\r\n[h264 @ 00000292c04c2380] Invalid NAL unit size (14607 > 9888).\r\n[h264 @ 00000292c04c2380] Error splitting the input into NAL units.\r\n[vist#0:0/h264 @ 00000292c1ec2100] [dec:h264 @ 00000292c23031c0] Decoding error: Invalid data found when processing input\r\n"
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/953-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-954",
+      "family_id": "family-crx-20261107-954",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 954_出门就病了，没啥体力接着走了。看看奥运会旅行就圆满了。.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-954/source.mp4",
+      "sha256": "b4b1b88e5c937512bf8a443e37d79c32cc73db20d0b25ff6071c4e7da964330b",
+      "duration_seconds": 40.92,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "954_出门就病了，没啥体力接着走了。看看奥运会旅行就圆满了。.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\954_出门就病了，没啥体力接着走了。看看奥运会旅行就圆满了。.mp4",
+        "sha256": "b4b1b88e5c937512bf8a443e37d79c32cc73db20d0b25ff6071c4e7da964330b",
+        "bytes": 10949597,
+        "nominal_duration_seconds": 40.92
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\954.mp4"
+      },
+      "original_decode_check": {
+        "key": "954",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/954-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-957",
+      "family_id": "family-crx-20261107-957",
+      "kind": "real_person",
+      "identity_basis": "用户于2026-11-07明确确认：“其余均为真人初瑞雪，359 排除”。",
+      "description": "用户提供的 957_简单发一个，度假中哈。身体第一，身体第一！.mp4；保留完整原文件，用于初瑞雪人物表现样例。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-957/source.mp4",
+      "sha256": "1bf662a6a3e8d668c186699b4c0454c63d24d3524c8382bbf6b6610f7e63c448",
+      "duration_seconds": 53.32,
+      "source_start_seconds": 0,
+      "audio_state": "original",
+      "observation_method": "已查看可解码画面的约每3秒概览抽帧，并对候选区间查看每秒4帧的图像序列；不是连续实时播放或全部视频帧审阅。原音轨保留；faster-whisper small 本地 CPU int8 转写未听审。当前模型不能接收音频感知输入，未核实原话、语气、口型或音画对应。",
+      "limitations": [
+        "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+        "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+        "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+        "未做 Seedance 成片生成、人物相似度或口型验证。",
+        "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+      ],
+      "family_assignment_basis": "暂按当前文件登记来源组；跨文件是否同一拍摄未穷尽排查，不用于反复习惯结论。",
+      "original_file": {
+        "name": "957_简单发一个，度假中哈。身体第一，身体第一！.mp4",
+        "path": "Y:\\公共素材库\\优质ai母版素材\\单纯说话\\957_简单发一个，度假中哈。身体第一，身体第一！.mp4",
+        "sha256": "1bf662a6a3e8d668c186699b4c0454c63d24d3524c8382bbf6b6610f7e63c448",
+        "bytes": 19809796,
+        "nominal_duration_seconds": 53.32
+      },
+      "preservation": {
+        "method": "byte-identical copy",
+        "original_audio_preserved": true,
+        "full_original_in_task_workspace": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\originals\\957.mp4"
+      },
+      "original_decode_check": {
+        "key": "957",
+        "returncode": 0,
+        "stderr": ""
+      },
+      "overview_sheets": [
+        "reviews/20261107-talking/frames/overview/957-1.jpg"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-cream-b5-4",
+      "family_id": "family-crx-20261107-cream-b5-4",
+      "kind": "real_person",
+      "identity_basis": "用户在本次对话明确确认提供的四段讲解者都是初瑞雪本人；不是模型身份识别。",
+      "description": "用户提供 B5面霜/4.mp4 的完整文件，保留原音轨；上游直播/拍摄起点未知。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-cream-b5-4/source.mp4",
+      "sha256": "cd0dedeb528d2235a3955b12b9b5abd3669cb04f8dafed2f6e5cee915e9c8a55",
+      "duration_seconds": 78.6,
+      "source_start_seconds": null,
+      "audio_state": "original",
+      "observation_method": "完整解码检查；2 fps 图像序列观察；faster-whisper small 本地转写，未听审原声。",
+      "limitations": [
+        "实际原声未听审；机器转写有错词，台词和语气仍需核查。",
+        "来源组暂按不同原文件登记，不据文件数断言独立拍摄或反复习惯。",
+        "抽帧时点近似，未认证连续播放自然程度。"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-cream-waterglow-8",
+      "family_id": "family-crx-20261107-cream-waterglow-8",
+      "kind": "real_person",
+      "identity_basis": "用户在本次对话明确确认提供的四段讲解者都是初瑞雪本人；不是模型身份识别。",
+      "description": "用户提供 水光霜/8.mp4 的完整文件，保留原音轨；上游直播/拍摄起点未知。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-cream-waterglow-8/source.mp4",
+      "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82",
+      "duration_seconds": 97.593991,
+      "source_start_seconds": null,
+      "audio_state": "original",
+      "observation_method": "完整解码检查；2 fps 图像序列观察；faster-whisper small 本地转写，未听审原声。",
+      "limitations": [
+        "实际原声未听审；机器转写有错词，台词和语气仍需核查。",
+        "来源组暂按不同原文件登记，不据文件数断言独立拍摄或反复习惯。",
+        "抽帧时点近似，未认证连续播放自然程度。"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-cream-cherry-3",
+      "family_id": "family-crx-20261107-cream-cherry-3",
+      "kind": "real_person",
+      "identity_basis": "用户在本次对话明确确认提供的四段讲解者都是初瑞雪本人；不是模型身份识别。",
+      "description": "用户提供 辛等等樱桃面霜/3.mp4 的完整文件，保留原音轨；上游直播/拍摄起点未知。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-cream-cherry-3/source.mp4",
+      "sha256": "cc51baddb9a5b18b6ec1d352bad0f592dcfe6ebdd339dcfdb109f0dc06a9e2d0",
+      "duration_seconds": 20.92,
+      "source_start_seconds": null,
+      "audio_state": "original",
+      "observation_method": "完整解码检查；2 fps 图像序列观察；faster-whisper small 本地转写，未听审原声。",
+      "limitations": [
+        "实际原声未听审；机器转写有错词，台词和语气仍需核查。",
+        "来源组暂按不同原文件登记，不据文件数断言独立拍摄或反复习惯。",
+        "抽帧时点近似，未认证连续播放自然程度。"
+      ]
+    },
+    {
+      "id": "src-crx-20261107-cream-silver-1",
+      "family_id": "family-crx-20261107-cream-silver-1",
+      "kind": "real_person",
+      "identity_basis": "用户在本次对话明确确认提供的四段讲解者都是初瑞雪本人；不是模型身份识别。",
+      "description": "用户提供 银霜/1.mp4 的完整文件，保留原音轨；上游直播/拍摄起点未知。",
+      "source_url": null,
+      "media_path": "sources/src-crx-20261107-cream-silver-1/source.mp4",
+      "sha256": "b235c8a711221ada9af69dcbf5252cdc3adf413b1ff05552c0a83ff489d08db1",
+      "duration_seconds": 38.29,
+      "source_start_seconds": null,
+      "audio_state": "original",
+      "observation_method": "完整解码检查；2 fps 图像序列观察；faster-whisper small 本地转写，未听审原声。",
+      "limitations": [
+        "实际原声未听审；机器转写有错词，台词和语气仍需核查。",
+        "来源组暂按不同原文件登记，不据文件数断言独立拍摄或反复习惯。",
+        "抽帧时点近似，未认证连续播放自然程度。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "id": "perf-crx-20261107-957-small-hand",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "低位小指示，松握后停在胸前",
+  "summary": "一手在胸前作小范围手指指示，随后松握，最后停在领口和胸前附近。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "低位指示",
+    "松握",
+    "胸前停留",
+    "头部微倾"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "稳定坐姿、一只空闲手，适合较低强度交流。",
+    "可借用伸指—松握—停留，领口触碰不强制。"
+  ],
+  "avoid": [
+    "不凭空加入持续摆弄衣领。",
+    "不把开头另一人的动作混入本人库。"
+  ],
+  "performance": {
+    "start_state": "活动手在低位，脸面向镜头。",
+    "movement": "一手在胸前作小范围手指指示，随后松握，最后停在领口和胸前附近。",
+    "gaze_expression": "主要看镜头，头有轻微侧倾，面部保持讲述变化。",
+    "rhythm": "约37.8–39.8秒小指示，40.2秒松握，40.9秒以后停留。",
+    "recovery": "伸指收拢，回到靠近身体的休息位置。",
+    "end_state": "约41.4秒手在胸前，脸保持可见。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-957",
+      "start_seconds": 35,
+      "end_seconds": 41.4,
+      "context": "户外坐姿、浅色花纹服装讲述；不包含视频开头另一人的表现。",
+      "observed_sequence": "活动手在低位，脸面向镜头。 一手在胸前作小范围手指指示，随后松握，最后停在领口和胸前附近。 主要看镜头，头有轻微侧倾，面部保持讲述变化。 约37.8–39.8秒小指示，40.2秒松握，40.9秒以后停留。 伸指收拢，回到靠近身体的休息位置。 约41.4秒手在胸前，脸保持可见。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      35,
+      43
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/957-small-hand-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  },
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "已保留原片及视觉动作观察；尚未核查原话、情绪语气和台词与动作的对应关系。"
+  }
+}

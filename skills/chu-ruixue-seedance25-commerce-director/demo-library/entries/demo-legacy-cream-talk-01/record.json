@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "id": "demo-legacy-cream-talk-01",
+  "title": "罐装面霜：持品、指罐与稳定展示",
+  "record_type": "demo",
+  "modes": [
+    "talk"
+  ],
+  "category": "面霜",
+  "product_name": "来源批次：玻色因面霜/面霜（用户命名；跨黑罐、银罐，不认定同款）",
+  "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+  "container": "有盖罐；独立内片仅在参考确认时使用",
+  "body_part": null,
+  "tags": [
+    "持品讲解",
+    "闭合罐",
+    "托底",
+    "指罐",
+    "视频依据已补充"
+  ],
+  "created_on": "2026-11-01",
+  "updated_on": "2026-11-05",
+  "summary": "闭合罐在脸侧或胸前稳定展示，空闲手指示包装后收回；本轮补充W52等视频依据，纯口播不转入取霜上脸。",
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "本轮用户授权学习面霜品类演示；主片W52，其他独立来源/重复关系见source-manifest.json。原历史文字若有则保存在history，当前单元以本轮视频观察为依据。",
+    "source_url": null,
+    "source_asset": null,
+    "notes_path": "source-notes.md",
+    "analyzed_on": "2026-11-05",
+    "duration_seconds": 16.3,
+    "time_reliability": "measured",
+    "observation_method": "ffprobe实测元信息；按时间顺序审阅全部70个文件的可读每2秒抽帧序列，关键交互加密2/4fps。W53尾部损坏单独标记并排除正式动作主来源。原分辨率关键帧直接由原片提取，未修图、生成或改色。",
+    "limitations": [
+      "本轮是覆盖可读全时段的抽帧序列视觉分析，并非实时播放或全帧连续性认证；关键交互加密至每秒2或4帧。",
+      "没有听审或转写音轨，不提供台词、词句对齐、语气及口型同步结论。",
+      "动作区间为近似；保存关键帧时间来自实际帧PTS。画外放置和被遮挡的步骤未知。",
+      "视频中的美颜、曝光、剪辑、字幕与图板不能证明成分、浓度、即时塑形或长期功效；生成可行性未验证。",
+      "各来源的黑罐/银罐、规格及膏体颜色不视为同一产品；仅归面霜品类，不登记精准产品身份。",
+      "原视频未复制入库或上传；source-manifest.json保留文件名、哈希、实测时长，重查原片仍需原文件。"
+    ]
+  },
+  "preconditions": [
+    "首帧与本次需求是罐装面霜纯展示；保持当前开合状态。",
+    "有一只可靠持罐手；另一手空闲时才安排指示。"
+  ],
+  "units": [
+    {
+      "id": "present",
+      "name": "持罐举至可辨位置",
+      "source_time": "W52约0–5秒；Q05多处持品片段",
+      "start_conditions": [
+        "罐体已被稳握"
+      ],
+      "action": "一手持罐在脸侧下方展示，罐正面朝镜头；小幅调整角度，目光在产品与镜头间短暂切换。",
+      "transition": "需要换为托底时先让接收手接稳再放开原手。",
+      "end_state": "同一罐持续被承托，嘴与面部主要区域可见。",
+      "expected_effect": "包装更可辨，无新增皮肤变化。",
+      "avoid": [
+        "不照搬黑/银色、品牌或对标人物",
+        "不为展示新增产品数量"
+      ],
+      "prompt_fragment": "保持首帧的同一罐和开合状态，稳稳举到脸侧下方，轻微调整罐身让包装可辨，视线自然回到镜头。"
+    },
+    {
+      "id": "point",
+      "name": "空闲手指罐后回收",
+      "source_time": "W52约0–4秒、8–12秒",
+      "start_conditions": [
+        "另一手真正空闲"
+      ],
+      "action": "空闲手食指指向罐身一处，随后回到胸前开放手势；持罐手不松开。",
+      "transition": "指示手离开产品，恢复原握持关系。",
+      "end_state": "产品仍稳定可见。",
+      "expected_effect": "只引导观看包装，不证明小字内容。",
+      "avoid": [
+        "不让两只手同时离罐",
+        "不凭手势生成字幕或标签"
+      ],
+      "prompt_fragment": "用空闲手简短指向罐身，再自然收回；持罐手始终保持可靠握持。"
+    },
+    {
+      "id": "finish",
+      "name": "展示回稳与结束设计",
+      "source_time": "W52约12–15秒为持品展示；随原声停口是本次导演设计，未听审验证",
+      "start_conditions": [
+        "当前罐体位置明确"
+      ],
+      "action": "可见来源为轻举/小转罐体并继续面对镜头交流。正式稿按新原声安排动作回稳与自然停口。",
+      "transition": "收回多余手势，保持罐体可辨。",
+      "end_state": "原有产品及人物状态连续。",
+      "expected_effect": "展示稳定；不新增使用结果。",
+      "avoid": [
+        "不复刻原片末端撤品或剪辑",
+        "不添加无声片尾"
+      ],
+      "prompt_fragment": "在原声末段保持当前罐体可辨，手势自然回稳，随本次原声结束停口。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/W52-1.jpg",
+      "timestamp_seconds": 1.0,
+      "source_id": "W52",
+      "role": "start",
+      "observation": "闭合罐脸侧展示"
+    },
+    {
+      "path": "assets/W52-3p5.jpg",
+      "timestamp_seconds": 3.5,
+      "source_id": "W52",
+      "role": "gesture",
+      "observation": "手指指示罐身"
+    },
+    {
+      "path": "assets/W52-6.jpg",
+      "timestamp_seconds": 6.0,
+      "source_id": "W52",
+      "role": "hold",
+      "observation": "托底握持"
+    },
+    {
+      "path": "assets/W52-13.jpg",
+      "timestamp_seconds": 13.0,
+      "source_id": "W52",
+      "role": "result",
+      "observation": "持罐回稳"
+    }
+  ],
+  "scope": "category",
+  "product_id": null,
+  "enabled": true
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "key": "b5-4",
+    "frames": 157,
+    "sample_fps": 2,
+    "decode_errors": "",
+    "overview": "overview/b5-4.jpg"
+  },
+  {
+    "key": "cherry-3",
+    "frames": 42,
+    "sample_fps": 2,
+    "decode_errors": "",
+    "overview": "overview/cherry-3.jpg"
+  },
+  {
+    "key": "silver-1",
+    "frames": 76,
+    "sample_fps": 2,
+    "decode_errors": "",
+    "overview": "overview/silver-1.jpg"
+  },
+  {
+    "key": "waterglow-8",
+    "frames": 195,
+    "sample_fps": 2,
+    "decode_errors": "",
+    "overview": "overview/waterglow-8.jpg"
+  }
+]

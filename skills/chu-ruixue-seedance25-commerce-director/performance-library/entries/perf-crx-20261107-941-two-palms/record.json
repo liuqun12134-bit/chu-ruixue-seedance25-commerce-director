@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "id": "perf-crx-20261107-941-two-palms",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "双掌短展开，再合握到下巴下方",
+  "summary": "双掌短展开，随后合拢交握到下巴下方，停留后降低并改变手位。 单次情境视觉样例，原声未听审。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "tags": [
+    "双掌展开",
+    "交握",
+    "下巴下方",
+    "回落"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "双手可短暂空闲，前序产品和手上状态已交代。",
+    "展开—合握不能妨碍当前产品持握。"
+  ],
+  "avoid": [
+    "不添加无依据的鼓掌声音。",
+    "不在干净手上凭空加入搓揉。"
+  ],
+  "performance": {
+    "start_state": "双手在胸前较近，延续此前接触。",
+    "movement": "双掌短展开，随后合拢交握到下巴下方，停留后降低并改变手位。",
+    "gaze_expression": "目光朝镜头，头略前倾；双手合拢不证明拍掌或发声。",
+    "rhythm": "约58.3秒展开，58.8–60秒合握停留，60.6秒以后降低。",
+    "recovery": "交握手从下巴附近向胸前降低。",
+    "end_state": "约60.8秒双手开始离开高位合握姿态。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-941",
+      "start_seconds": 58,
+      "end_seconds": 60.8,
+      "context": "同一红衣视频的产品操作后段，双手延续前序接触状态；不迁移未知产品用法。",
+      "observed_sequence": "双手在胸前较近，延续此前接触。 双掌短展开，随后合拢交握到下巴下方，停留后降低并改变手位。 目光朝镜头，头略前倾；双手合拢不证明拍掌或发声。 约58.3秒展开，58.8–60秒合握停留，60.6秒以后降低。 交握手从下巴附近向胸前降低。 约60.8秒双手开始离开高位合握姿态。",
+      "utterance": null,
+      "speech_review": "unavailable",
+      "alignment": "unavailable",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence",
+    "sample_fps": 4,
+    "reviewed_frame_window_seconds": [
+      56,
+      64
+    ],
+    "evidence_sheets": [
+      "reviews/20261107-talking/frames/dense/941-two-palms-1.jpg"
+    ],
+    "timing": "approximate",
+    "speech_status_explanation": "原声存在并保留，但本次无法听审；unavailable 指核查不可用，非来源静音。",
+    "limitations": [
+      "动作与表情描述来自抽样图像序列；区间和节奏为近似，未认证连续播放自然程度。",
+      "未听审原音频；不能据 ASR、文件名、字幕或口形推定已经核实的原话与语气。",
+      "仅为情境样例，不证明习惯频率；不同文件并不自动代表独立拍摄来源。",
+      "未做 Seedance 成片生成、人物相似度或口型验证。",
+      "用户确认适用于素材中的初瑞雪本人，不覆盖其他入镜人物；只提取本人的动作。"
+    ]
+  },
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "已保留原片及视觉动作观察；尚未核查原话、情绪语气和台词与动作的对应关系。"
+  }
+}

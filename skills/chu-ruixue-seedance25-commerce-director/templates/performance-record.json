@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "id": "performance-new-entry",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "",
+  "summary": "",
+  "created_on": "",
+  "updated_on": "",
+  "enabled": true,
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "tags": [],
+  "evidence_status": "example",
+  "preconditions": [],
+  "avoid": [],
+  "performance": {
+    "start_state": "",
+    "movement": "",
+    "gaze_expression": "",
+    "rhythm": "",
+    "recovery": "",
+    "end_state": ""
+  },
+  "observations": [],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未核对原话、语气和动作对应关系。"
+  }
+}

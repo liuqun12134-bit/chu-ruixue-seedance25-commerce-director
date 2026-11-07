@@ -1,0 +1,77 @@
+{
+  "schema_version": 2,
+  "id": "perf-crx-20261107-cream-silver-1-distinctive-hand",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待核查｜强调产品独有性—脸侧指示与开掌收握",
+  "summary": "待核查：机器文字中的排他性表达与该手势窗口重叠；不据此认可“独有”说法，也不认定真人固定习惯。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "tags": [],
+  "evidence_status": "example",
+  "preconditions": [
+    "须先核查原声、语气及动作对应区间，再用于已核实话术匹配。",
+    "持物、空闲手和姿态须与具体动作相容。"
+  ],
+  "avoid": [
+    "不将待审词句认作已核实原话；不将单次观察升级为反复习惯。"
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": "强调产品独有性",
+    "tone_tags": [],
+    "keywords": [
+      "除了咱家",
+      "还没有别人"
+    ],
+    "paraphrases": [
+      "这个特点只有我们做",
+      "这是我们这款的不同之处"
+    ],
+    "exclusions": [
+      "同词的否定、引用、反例或不同表达意图不自动适用。"
+    ],
+    "placement": "约 20–21 秒指形变化，22 秒收握，23 秒再次开掌，24–25 秒回落。",
+    "pending_reason": "类别与关键词仅由未复核机器文字形成候选；原声、情绪语气和精确对应尚未核查。"
+  },
+  "performance": {
+    "start_state": "近景面对镜头，一只空闲手在脸侧附近。",
+    "movement": "手指在脸侧作指示，随后短暂展开手掌再收回松握，手停在面颊旁的低一些位置。",
+    "gaze_expression": "视线短暂侧上看后回到镜头，讲话中眉眼有变化；未核查声音的强调程度。",
+    "rhythm": "约 20–21 秒指形变化，22 秒收握，23 秒再次开掌，24–25 秒回落。",
+    "recovery": "开掌后收回，不持续遮挡面部。",
+    "end_state": "活动手保持可自然回落的低位，继续交流。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-cream-silver-1",
+      "start_seconds": 19.5,
+      "end_seconds": 25,
+      "context": "用户确认本人；银霜/1.mp4 中的近景讲述窗口。",
+      "observed_sequence": "近景面对镜头，一只空闲手在脸侧附近。 手指在脸侧作指示，随后短暂展开手掌再收回松握，手停在面颊旁的低一些位置。 开掌后收回，不持续遮挡面部。",
+      "utterance": "咱家是国内的话就是 除了咱家 目前还没有别人给你做这叶台银",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": "待核查：机器文字中的排他性表达与该手势窗口重叠；不据此认可“独有”说法，也不认定真人固定习惯。"
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence_plus_unreviewed_local_asr",
+    "sample_fps": 2,
+    "evidence_sheets": [
+      "reviews/20261107-cream/frames/silver-gesture.jpg"
+    ],
+    "asr_path": "reviews/20261107-cream/asr/silver-1.json",
+    "limitations": [
+      "本轮工具返回不支持音频输入，未完成原声听审。",
+      "机器文字有明显误识别；不静默纠正后声称听审通过。",
+      "动作观察来自抽帧序列，节奏近似，未认证连续播放或生成效果。"
+    ]
+  }
+}

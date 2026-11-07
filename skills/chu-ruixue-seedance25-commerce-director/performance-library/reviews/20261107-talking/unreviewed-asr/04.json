@@ -1,0 +1,256 @@
+{
+  "key": "04",
+  "source_sha256": "1d8b0507f7bf11a93fb51e3e2fbce3230c66211f90bcd577dcb9f2bc2e914bbe",
+  "model": "faster-whisper small CPU int8 local",
+  "decoded_duration": 21.851375,
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "segments": [
+    {
+      "start": 1.0,
+      "end": 5.68,
+      "text": "店铺其实有卷 咱昨天就见吃饭啊 今天没错 该楼啥楼啥",
+      "avg_logprob": -0.6549470737332204,
+      "no_speech_prob": 0.09550544619560242,
+      "words": [
+        {
+          "start": 1.0,
+          "end": 1.4,
+          "text": "店",
+          "probability": 0.3734460771083832
+        },
+        {
+          "start": 1.4,
+          "end": 1.52,
+          "text": "铺",
+          "probability": 0.574313630660375
+        },
+        {
+          "start": 1.52,
+          "end": 1.68,
+          "text": "其实",
+          "probability": 0.1559690535068512
+        },
+        {
+          "start": 1.68,
+          "end": 1.84,
+          "text": "有",
+          "probability": 0.9495810866355896
+        },
+        {
+          "start": 1.84,
+          "end": 2.02,
+          "text": "卷",
+          "probability": 0.5794239565730095
+        },
+        {
+          "start": 2.22,
+          "end": 2.3,
+          "text": " 咱",
+          "probability": 0.6034605279564857
+        },
+        {
+          "start": 2.3,
+          "end": 2.46,
+          "text": "昨",
+          "probability": 0.3416227698326111
+        },
+        {
+          "start": 2.46,
+          "end": 2.56,
+          "text": "天",
+          "probability": 0.4693871736526489
+        },
+        {
+          "start": 2.56,
+          "end": 2.62,
+          "text": "就",
+          "probability": 0.6681186556816101
+        },
+        {
+          "start": 2.62,
+          "end": 2.78,
+          "text": "见",
+          "probability": 0.6581016182899475
+        },
+        {
+          "start": 2.78,
+          "end": 2.96,
+          "text": "吃",
+          "probability": 0.1042429581284523
+        },
+        {
+          "start": 2.96,
+          "end": 3.2,
+          "text": "饭",
+          "probability": 0.9406911432743073
+        },
+        {
+          "start": 3.2,
+          "end": 3.36,
+          "text": "啊",
+          "probability": 0.15923701226711273
+        },
+        {
+          "start": 3.46,
+          "end": 3.6,
+          "text": " 今天",
+          "probability": 0.37114572525024414
+        },
+        {
+          "start": 3.6,
+          "end": 3.76,
+          "text": "没",
+          "probability": 0.3818454444408417
+        },
+        {
+          "start": 3.76,
+          "end": 3.98,
+          "text": "错",
+          "probability": 0.9192572832107544
+        },
+        {
+          "start": 4.82,
+          "end": 5.0,
+          "text": " 该",
+          "probability": 0.8467178344726562
+        },
+        {
+          "start": 5.0,
+          "end": 5.14,
+          "text": "楼",
+          "probability": 0.772234171628952
+        },
+        {
+          "start": 5.14,
+          "end": 5.28,
+          "text": "啥",
+          "probability": 0.9430492222309113
+        },
+        {
+          "start": 5.28,
+          "end": 5.48,
+          "text": "楼",
+          "probability": 0.9891146719455719
+        },
+        {
+          "start": 5.48,
+          "end": 5.68,
+          "text": "啥",
+          "probability": 0.7888976633548737
+        }
+      ]
+    },
+    {
+      "start": 5.68,
+      "end": 13.96,
+      "text": "什么西方糕啊 油啊 面膜啊 这些啊 往上升了",
+      "avg_logprob": -0.6549470737332204,
+      "no_speech_prob": 0.09550544619560242,
+      "words": [
+        {
+          "start": 5.68,
+          "end": 6.44,
+          "text": "什么",
+          "probability": 0.6042462587356567
+        },
+        {
+          "start": 6.44,
+          "end": 6.64,
+          "text": "西",
+          "probability": 0.2938205897808075
+        },
+        {
+          "start": 6.64,
+          "end": 6.76,
+          "text": "方",
+          "probability": 0.541388750076294
+        },
+        {
+          "start": 6.76,
+          "end": 7.0,
+          "text": "糕",
+          "probability": 0.6781656742095947
+        },
+        {
+          "start": 7.0,
+          "end": 7.48,
+          "text": "啊",
+          "probability": 0.6571804881095886
+        },
+        {
+          "start": 8.46,
+          "end": 8.72,
+          "text": " 油",
+          "probability": 0.9942611455917358
+        },
+        {
+          "start": 8.72,
+          "end": 9.2,
+          "text": "啊",
+          "probability": 0.9644453525543213
+        },
+        {
+          "start": 9.4,
+          "end": 9.52,
+          "text": " 面",
+          "probability": 0.9948604702949524
+        },
+        {
+          "start": 9.52,
+          "end": 9.82,
+          "text": "膜",
+          "probability": 0.9786429703235626
+        },
+        {
+          "start": 9.82,
+          "end": 10.42,
+          "text": "啊",
+          "probability": 0.8292381763458252
+        },
+        {
+          "start": 10.86,
+          "end": 10.92,
+          "text": " 这",
+          "probability": 0.9389873743057251
+        },
+        {
+          "start": 10.92,
+          "end": 11.34,
+          "text": "些",
+          "probability": 0.9973520040512085
+        },
+        {
+          "start": 11.34,
+          "end": 11.62,
+          "text": "啊",
+          "probability": 0.7529816031455994
+        },
+        {
+          "start": 12.38,
+          "end": 12.56,
+          "text": " 往",
+          "probability": 0.26435837149620056
+        },
+        {
+          "start": 12.56,
+          "end": 12.92,
+          "text": "上",
+          "probability": 0.7786276340484619
+        },
+        {
+          "start": 12.92,
+          "end": 13.66,
+          "text": "升",
+          "probability": 0.141935795545578
+        },
+        {
+          "start": 13.66,
+          "end": 13.96,
+          "text": "了",
+          "probability": 0.16792315244674683
+        }
+      ]
+    }
+  ]
+}

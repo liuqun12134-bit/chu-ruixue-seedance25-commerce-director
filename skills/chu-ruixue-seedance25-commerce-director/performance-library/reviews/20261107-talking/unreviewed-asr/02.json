@@ -1,0 +1,700 @@
+{
+  "key": "02",
+  "source_sha256": "fd6c2266f22f3e68ae7632951cf18fb99d24e8bc63b5ae998ec94ff041941b07",
+  "model": "faster-whisper small CPU int8 local",
+  "decoded_duration": 25.6594375,
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "segments": [
+    {
+      "start": 0.11,
+      "end": 2.33,
+      "text": "姐妹们也跟她说一下 官方给转",
+      "avg_logprob": -0.35749810384520403,
+      "no_speech_prob": 0.02461986057460308,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.59,
+          "text": "姐",
+          "probability": 0.8493778109550476
+        },
+        {
+          "start": 0.59,
+          "end": 0.71,
+          "text": "妹",
+          "probability": 0.973336935043335
+        },
+        {
+          "start": 0.71,
+          "end": 0.79,
+          "text": "们",
+          "probability": 0.6959968209266663
+        },
+        {
+          "start": 0.79,
+          "end": 0.87,
+          "text": "也",
+          "probability": 0.12030105292797089
+        },
+        {
+          "start": 0.87,
+          "end": 0.95,
+          "text": "跟",
+          "probability": 0.5218051671981812
+        },
+        {
+          "start": 0.95,
+          "end": 1.07,
+          "text": "她",
+          "probability": 0.6351493000984192
+        },
+        {
+          "start": 1.07,
+          "end": 1.29,
+          "text": "说",
+          "probability": 0.9697234034538269
+        },
+        {
+          "start": 1.29,
+          "end": 1.45,
+          "text": "一下",
+          "probability": 0.6851911544799805
+        },
+        {
+          "start": 1.67,
+          "end": 1.85,
+          "text": " 官",
+          "probability": 0.9353371858596802
+        },
+        {
+          "start": 1.85,
+          "end": 2.01,
+          "text": "方",
+          "probability": 0.9974933862686157
+        },
+        {
+          "start": 2.01,
+          "end": 2.19,
+          "text": "给",
+          "probability": 0.9483014345169067
+        },
+        {
+          "start": 2.19,
+          "end": 2.33,
+          "text": "转",
+          "probability": 0.788630872964859
+        }
+      ]
+    },
+    {
+      "start": 2.87,
+      "end": 5.53,
+      "text": "今天晚上国内时间十二点就结束了",
+      "avg_logprob": -0.35749810384520403,
+      "no_speech_prob": 0.02461986057460308,
+      "words": [
+        {
+          "start": 2.87,
+          "end": 3.19,
+          "text": "今天",
+          "probability": 0.5185674428939819
+        },
+        {
+          "start": 3.19,
+          "end": 3.51,
+          "text": "晚上",
+          "probability": 0.9937456846237183
+        },
+        {
+          "start": 3.51,
+          "end": 3.95,
+          "text": "国",
+          "probability": 0.5089373588562012
+        },
+        {
+          "start": 3.95,
+          "end": 4.05,
+          "text": "内",
+          "probability": 0.9917717576026917
+        },
+        {
+          "start": 4.05,
+          "end": 4.31,
+          "text": "时间",
+          "probability": 0.9792520403862
+        },
+        {
+          "start": 4.31,
+          "end": 4.57,
+          "text": "十",
+          "probability": 0.40108415484428406
+        },
+        {
+          "start": 4.57,
+          "end": 4.65,
+          "text": "二",
+          "probability": 0.9113092422485352
+        },
+        {
+          "start": 4.65,
+          "end": 4.75,
+          "text": "点",
+          "probability": 0.9726366400718689
+        },
+        {
+          "start": 4.75,
+          "end": 4.89,
+          "text": "就",
+          "probability": 0.8485799431800842
+        },
+        {
+          "start": 4.89,
+          "end": 5.03,
+          "text": "结",
+          "probability": 0.9949829578399658
+        },
+        {
+          "start": 5.03,
+          "end": 5.29,
+          "text": "束",
+          "probability": 0.9995492100715637
+        },
+        {
+          "start": 5.29,
+          "end": 5.53,
+          "text": "了",
+          "probability": 0.9933329224586487
+        }
+      ]
+    },
+    {
+      "start": 6.07,
+      "end": 7.85,
+      "text": "然后呢 但仅限美装天铺",
+      "avg_logprob": -0.35749810384520403,
+      "no_speech_prob": 0.02461986057460308,
+      "words": [
+        {
+          "start": 6.07,
+          "end": 6.39,
+          "text": "然后",
+          "probability": 0.6744970083236694
+        },
+        {
+          "start": 6.39,
+          "end": 6.55,
+          "text": "呢",
+          "probability": 0.40448710322380066
+        },
+        {
+          "start": 6.61,
+          "end": 6.69,
+          "text": " 但",
+          "probability": 0.3216197192668915
+        },
+        {
+          "start": 6.69,
+          "end": 6.87,
+          "text": "仅",
+          "probability": 0.8442982733249664
+        },
+        {
+          "start": 6.87,
+          "end": 7.01,
+          "text": "限",
+          "probability": 0.6842788457870483
+        },
+        {
+          "start": 7.01,
+          "end": 7.21,
+          "text": "美",
+          "probability": 0.3737250864505768
+        },
+        {
+          "start": 7.21,
+          "end": 7.53,
+          "text": "装",
+          "probability": 0.7857417166233063
+        },
+        {
+          "start": 7.53,
+          "end": 7.69,
+          "text": "天",
+          "probability": 0.633828341960907
+        },
+        {
+          "start": 7.69,
+          "end": 7.85,
+          "text": "铺",
+          "probability": 0.847126324971517
+        }
+      ]
+    },
+    {
+      "start": 8.19,
+      "end": 10.49,
+      "text": "所以给我自己的美装天铺出了段子",
+      "avg_logprob": -0.35749810384520403,
+      "no_speech_prob": 0.02461986057460308,
+      "words": [
+        {
+          "start": 8.19,
+          "end": 8.51,
+          "text": "所以",
+          "probability": 0.6898719072341919
+        },
+        {
+          "start": 8.51,
+          "end": 8.75,
+          "text": "给我",
+          "probability": 0.8244550228118896
+        },
+        {
+          "start": 8.75,
+          "end": 8.95,
+          "text": "自己",
+          "probability": 0.9491152763366699
+        },
+        {
+          "start": 8.95,
+          "end": 9.09,
+          "text": "的",
+          "probability": 0.903771162033081
+        },
+        {
+          "start": 9.09,
+          "end": 9.19,
+          "text": "美",
+          "probability": 0.9795325398445129
+        },
+        {
+          "start": 9.19,
+          "end": 9.31,
+          "text": "装",
+          "probability": 0.9926313757896423
+        },
+        {
+          "start": 9.31,
+          "end": 9.43,
+          "text": "天",
+          "probability": 0.9780147075653076
+        },
+        {
+          "start": 9.43,
+          "end": 9.53,
+          "text": "铺",
+          "probability": 0.9243383208910624
+        },
+        {
+          "start": 9.53,
+          "end": 9.71,
+          "text": "出",
+          "probability": 0.8096170425415039
+        },
+        {
+          "start": 9.71,
+          "end": 9.81,
+          "text": "了",
+          "probability": 0.6193004846572876
+        },
+        {
+          "start": 9.81,
+          "end": 9.99,
+          "text": "段",
+          "probability": 0.9270798563957214
+        },
+        {
+          "start": 9.99,
+          "end": 10.49,
+          "text": "子",
+          "probability": 0.9994708895683289
+        }
+      ]
+    },
+    {
+      "start": 10.49,
+      "end": 12.33,
+      "text": "蓝白钱十 蓝白钱二十",
+      "avg_logprob": -0.35749810384520403,
+      "no_speech_prob": 0.02461986057460308,
+      "words": [
+        {
+          "start": 10.49,
+          "end": 10.79,
+          "text": "蓝",
+          "probability": 0.5293563902378082
+        },
+        {
+          "start": 10.79,
+          "end": 10.99,
+          "text": "白",
+          "probability": 0.7320864796638489
+        },
+        {
+          "start": 10.99,
+          "end": 11.13,
+          "text": "钱",
+          "probability": 0.35311272740364075
+        },
+        {
+          "start": 11.13,
+          "end": 11.37,
+          "text": "十",
+          "probability": 0.670692503452301
+        },
+        {
+          "start": 11.49,
+          "end": 11.55,
+          "text": " 蓝",
+          "probability": 0.9311885237693787
+        },
+        {
+          "start": 11.55,
+          "end": 11.75,
+          "text": "白",
+          "probability": 0.4240201413631439
+        },
+        {
+          "start": 11.75,
+          "end": 11.89,
+          "text": "钱",
+          "probability": 0.9948892593383789
+        },
+        {
+          "start": 11.89,
+          "end": 12.05,
+          "text": "二",
+          "probability": 0.9910759925842285
+        },
+        {
+          "start": 12.05,
+          "end": 12.33,
+          "text": "十",
+          "probability": 0.9993317723274231
+        }
+      ]
+    },
+    {
+      "start": 12.97,
+      "end": 15.17,
+      "text": "然后大家 这个千万别错过",
+      "avg_logprob": -0.35749810384520403,
+      "no_speech_prob": 0.02461986057460308,
+      "words": [
+        {
+          "start": 12.97,
+          "end": 13.29,
+          "text": "然后",
+          "probability": 0.6582426428794861
+        },
+        {
+          "start": 13.29,
+          "end": 13.51,
+          "text": "大家",
+          "probability": 0.9310026168823242
+        },
+        {
+          "start": 14.31,
+          "end": 14.41,
+          "text": " 这个",
+          "probability": 0.6329081058502197
+        },
+        {
+          "start": 14.41,
+          "end": 14.67,
+          "text": "千",
+          "probability": 0.9347421526908875
+        },
+        {
+          "start": 14.67,
+          "end": 14.73,
+          "text": "万",
+          "probability": 0.9985721111297607
+        },
+        {
+          "start": 14.73,
+          "end": 14.85,
+          "text": "别",
+          "probability": 0.9899195432662964
+        },
+        {
+          "start": 14.85,
+          "end": 14.99,
+          "text": "错",
+          "probability": 0.9844250679016113
+        },
+        {
+          "start": 14.99,
+          "end": 15.17,
+          "text": "过",
+          "probability": 0.9893218278884888
+        }
+      ]
+    },
+    {
+      "start": 16.75,
+      "end": 18.13,
+      "text": "就是 活动率都非常大",
+      "avg_logprob": -0.35749810384520403,
+      "no_speech_prob": 0.02461986057460308,
+      "words": [
+        {
+          "start": 16.75,
+          "end": 17.07,
+          "text": "就是",
+          "probability": 0.5224559903144836
+        },
+        {
+          "start": 17.07,
+          "end": 17.39,
+          "text": " 活",
+          "probability": 0.8578096628189087
+        },
+        {
+          "start": 17.39,
+          "end": 17.49,
+          "text": "动",
+          "probability": 0.9988425970077515
+        },
+        {
+          "start": 17.49,
+          "end": 17.61,
+          "text": "率",
+          "probability": 0.8078906536102295
+        },
+        {
+          "start": 17.61,
+          "end": 17.73,
+          "text": "都",
+          "probability": 0.5020846724510193
+        },
+        {
+          "start": 17.73,
+          "end": 17.87,
+          "text": "非常",
+          "probability": 0.9891418218612671
+        },
+        {
+          "start": 17.87,
+          "end": 18.13,
+          "text": "大",
+          "probability": 0.9962091445922852
+        }
+      ]
+    },
+    {
+      "start": 18.69,
+      "end": 21.09,
+      "text": "年货节 今天晚上转是最后一天了",
+      "avg_logprob": -0.35749810384520403,
+      "no_speech_prob": 0.02461986057460308,
+      "words": [
+        {
+          "start": 18.69,
+          "end": 19.01,
+          "text": "年",
+          "probability": 0.9791609644889832
+        },
+        {
+          "start": 19.01,
+          "end": 19.15,
+          "text": "货",
+          "probability": 0.7984641492366791
+        },
+        {
+          "start": 19.15,
+          "end": 19.35,
+          "text": "节",
+          "probability": 0.6095127463340759
+        },
+        {
+          "start": 19.69,
+          "end": 19.77,
+          "text": " 今天",
+          "probability": 0.6527867913246155
+        },
+        {
+          "start": 19.77,
+          "end": 19.93,
+          "text": "晚上",
+          "probability": 0.9463728070259094
+        },
+        {
+          "start": 19.93,
+          "end": 20.15,
+          "text": "转",
+          "probability": 0.9600139260292053
+        },
+        {
+          "start": 20.15,
+          "end": 20.31,
+          "text": "是",
+          "probability": 0.7792866230010986
+        },
+        {
+          "start": 20.31,
+          "end": 20.47,
+          "text": "最",
+          "probability": 0.9887288808822632
+        },
+        {
+          "start": 20.47,
+          "end": 20.59,
+          "text": "后",
+          "probability": 0.9998912811279297
+        },
+        {
+          "start": 20.59,
+          "end": 20.69,
+          "text": "一",
+          "probability": 0.9980560541152954
+        },
+        {
+          "start": 20.69,
+          "end": 20.91,
+          "text": "天",
+          "probability": 0.9993343949317932
+        },
+        {
+          "start": 20.91,
+          "end": 21.09,
+          "text": "了",
+          "probability": 0.9540655612945557
+        }
+      ]
+    },
+    {
+      "start": 21.49,
+      "end": 22.91,
+      "text": "千万别错过 有需要的",
+      "avg_logprob": -0.35749810384520403,
+      "no_speech_prob": 0.02461986057460308,
+      "words": [
+        {
+          "start": 21.49,
+          "end": 21.81,
+          "text": "千",
+          "probability": 0.97601717710495
+        },
+        {
+          "start": 21.81,
+          "end": 21.97,
+          "text": "万",
+          "probability": 0.9991846680641174
+        },
+        {
+          "start": 21.97,
+          "end": 22.09,
+          "text": "别",
+          "probability": 0.9928271174430847
+        },
+        {
+          "start": 22.09,
+          "end": 22.25,
+          "text": "错",
+          "probability": 0.9971351623535156
+        },
+        {
+          "start": 22.25,
+          "end": 22.39,
+          "text": "过",
+          "probability": 0.9972726702690125
+        },
+        {
+          "start": 22.39,
+          "end": 22.55,
+          "text": " 有",
+          "probability": 0.2994799017906189
+        },
+        {
+          "start": 22.55,
+          "end": 22.75,
+          "text": "需要",
+          "probability": 0.9884812831878662
+        },
+        {
+          "start": 22.75,
+          "end": 22.91,
+          "text": "的",
+          "probability": 0.9916301369667053
+        }
+      ]
+    },
+    {
+      "start": 22.91,
+      "end": 24.93,
+      "text": "姐妹们还抓紧到我的美装天",
+      "avg_logprob": -0.35749810384520403,
+      "no_speech_prob": 0.02461986057460308,
+      "words": [
+        {
+          "start": 22.91,
+          "end": 23.05,
+          "text": "姐",
+          "probability": 0.15873892605304718
+        },
+        {
+          "start": 23.05,
+          "end": 23.13,
+          "text": "妹",
+          "probability": 0.9537160396575928
+        },
+        {
+          "start": 23.13,
+          "end": 23.21,
+          "text": "们",
+          "probability": 0.9839321374893188
+        },
+        {
+          "start": 23.21,
+          "end": 23.29,
+          "text": "还",
+          "probability": 0.05524924024939537
+        },
+        {
+          "start": 23.29,
+          "end": 23.39,
+          "text": "抓",
+          "probability": 0.7376977801322937
+        },
+        {
+          "start": 23.39,
+          "end": 23.55,
+          "text": "紧",
+          "probability": 0.6086750999093056
+        },
+        {
+          "start": 23.55,
+          "end": 24.39,
+          "text": "到",
+          "probability": 0.7480301260948181
+        },
+        {
+          "start": 24.39,
+          "end": 24.59,
+          "text": "我的",
+          "probability": 0.6932237148284912
+        },
+        {
+          "start": 24.59,
+          "end": 24.67,
+          "text": "美",
+          "probability": 0.5293930768966675
+        },
+        {
+          "start": 24.67,
+          "end": 24.77,
+          "text": "装",
+          "probability": 0.7410422712564468
+        },
+        {
+          "start": 24.77,
+          "end": 24.93,
+          "text": "天",
+          "probability": 0.42441326379776
+        }
+      ]
+    }
+  ]
+}

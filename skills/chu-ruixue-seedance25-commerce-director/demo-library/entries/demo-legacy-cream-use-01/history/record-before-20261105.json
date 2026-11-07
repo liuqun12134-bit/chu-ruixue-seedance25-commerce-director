@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "id": "demo-legacy-cream-use-01",
+  "title": "罐装膏霜：取用、接触、推开与状态展示",
+  "record_type": "demo",
+  "modes": [
+    "use"
+  ],
+  "category": "面霜",
+  "product_name": null,
+  "product_form": "可涂膏霜",
+  "container": "有盖罐",
+  "body_part": "面部",
+  "tags": [
+    "取用",
+    "实际接触",
+    "逐渐推开",
+    "结果停留"
+  ],
+  "created_on": "2026-11-01",
+  "updated_on": "2026-11-01",
+  "summary": "迁移旧版对78.6秒用户参考视频的文字观察，选择可执行的局部演示，不等比压缩全流程。",
+  "provenance": {
+    "kind": "legacy_text",
+    "description": "来源：seedance25-commerce-use-director 1.0.5 的 reference-video-study.md。",
+    "source_url": null,
+    "source_asset": null,
+    "notes_path": "source-notes.md",
+    "analyzed_on": null,
+    "duration_seconds": 78.6,
+    "time_reliability": "approximate",
+    "observation_method": "沿用旧版约每2秒抽帧、关键段补充观察的文字研究；本次未重新读取原视频。",
+    "limitations": [
+      "原视频与截图未随当前技能包提供。",
+      "旧研究未转写台词，动作时间区间近似，不能作为词句对齐依据。",
+      "盖子画外去向、每次用量和真实功效未确认。"
+    ]
+  },
+  "preconditions": [
+    "新素材确认是适合取用后涂开的膏霜，而非仅按品名猜测。",
+    "当前手位、开合、承托与内容物外观有依据，未知处重新规划。"
+  ],
+  "units": [
+    {
+      "id": "access",
+      "name": "从包装到内容物",
+      "source_time": "旧观察约2–5秒，非精确边界",
+      "start_conditions": [
+        "按首帧判断是否已经开盖"
+      ],
+      "action": "在需要时安排双手开盖并露出真实内容物；盖子去向按新素材明确。",
+      "transition": "释放操作手后再进入取用。",
+      "end_state": "内容物可接近，操作手实际可用。",
+      "expected_effect": "仅展示当前内容物外观，不推断成分功效。",
+      "avoid": [
+        "不把旧视频看不见的画外路径当作已知",
+        "已开盖首帧不重复开盖"
+      ],
+      "prompt_fragment": "从当前包装状态连续操作；需要开启时先完成双手协作，明确盖子去向，再让内容物可见并释放操作手。"
+    },
+    {
+      "id": "transfer",
+      "name": "取用并接触转移",
+      "source_time": "旧观察约6–15秒，非精确边界",
+      "start_conditions": [
+        "内容物可取用",
+        "目标部位入画"
+      ],
+      "action": "按实际用法取正常一次使用量，指腹携带内容物沿连续路径接触目标部位并转移。",
+      "transition": "接触后指腹残留与皮肤新增相对应，再从实际落点推开。",
+      "end_state": "同一部位有经接触转移的产品。",
+      "expected_effect": "涂布从接触局部开始，不凭空长出膏点。",
+      "avoid": [
+        "不默认米粒量",
+        "不照搬对标浅色质地到未知产品"
+      ],
+      "prompt_fragment": "操作手真实接触并取起本品正常一次使用量，沿连续路径接触已入画部位，内容物随接触转移，指腹残留相应变化。"
+    },
+    {
+      "id": "spread",
+      "name": "局部推开并看清结果",
+      "source_time": "旧观察约16秒后多次操作；不按原片次数复制",
+      "start_conditions": [
+        "已有明确落点和用量"
+      ],
+      "action": "在同一部位持续接触，沿合理局部路线逐渐推开，为看清状态留停顿。",
+      "transition": "手离开主要观察区，按原声继续自然交流。",
+      "end_state": "同一部位呈现与本品质地和用法相符的涂布状态。",
+      "expected_effect": "覆盖范围与厚度逐渐变化；残留/光泽由新产品证据决定。",
+      "avoid": [
+        "不瞬间消膏",
+        "不整体提亮画面冒充润色",
+        "不证明长期改善"
+      ],
+      "prompt_fragment": "从实际涂布位置逐渐推开，接触区域的覆盖范围与厚度连续变化。操作手移开后，在同一光线和部位停留展示本品有依据的当前状态。"
+    }
+  ],
+  "keyframes": [],
+  "scope": "category",
+  "product_id": null,
+  "enabled": true
+}

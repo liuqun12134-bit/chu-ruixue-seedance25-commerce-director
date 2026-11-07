@@ -1,0 +1,25 @@
+{
+  "primary_source_number": 20,
+  "sources": [
+    {
+      "source_number": 20,
+      "filename": "人参油 (20).mp4",
+      "duration_seconds": 132.841995,
+      "sha256": "96ac8379ab00c33f12e2d8af4b28dc66ddc9a9b49b4f56c736d2e9884dc552a5",
+      "source_asset": null
+    },
+    {
+      "source_number": 7,
+      "filename": "人参油 (7).mp4",
+      "duration_seconds": 97.5,
+      "sha256": "23605a9338e41225613f4f980630a50149c893f46f1a00315b2141d024c2545b",
+      "source_asset": null,
+      "keyframe_asset": "assets/alias-07-start.png"
+    }
+  ],
+  "deduplication_notes": [
+    "7号97.500秒与20号约35.33秒至片尾对应：9组跨全段抽样帧对照及时间线相符，平均像素差约2.9–6.9/255。编码不同，未逐帧证明二进制一致；共用动作单元，不当作两次独立验证。7号时间约等于20号时间减35.33秒。",
+    "实际滴落在小图中不足以可靠计数；面膜材质、型号、敷用时长及与油搭配适配性未核实。"
+  ],
+  "original_video_included": false
+}

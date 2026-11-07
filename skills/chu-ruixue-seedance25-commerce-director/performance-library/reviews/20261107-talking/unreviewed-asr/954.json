@@ -1,0 +1,745 @@
+{
+  "key": "954",
+  "source_sha256": "b4b1b88e5c937512bf8a443e37d79c32cc73db20d0b25ff6071c4e7da964330b",
+  "model": "faster-whisper small CPU int8 local",
+  "decoded_duration": 40.89175,
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "segments": [
+    {
+      "start": 0.56,
+      "end": 2.2,
+      "text": "今天去看奧運會",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 0.56,
+          "end": 1.2,
+          "text": "今天",
+          "probability": 0.914024829864502
+        },
+        {
+          "start": 1.2,
+          "end": 1.46,
+          "text": "去",
+          "probability": 0.9726641774177551
+        },
+        {
+          "start": 1.46,
+          "end": 1.66,
+          "text": "看",
+          "probability": 0.9869595170021057
+        },
+        {
+          "start": 1.66,
+          "end": 1.82,
+          "text": "奧",
+          "probability": 0.863189309835434
+        },
+        {
+          "start": 1.82,
+          "end": 1.98,
+          "text": "運",
+          "probability": 0.5472239851951599
+        },
+        {
+          "start": 1.98,
+          "end": 2.2,
+          "text": "會",
+          "probability": 0.9898102283477783
+        }
+      ]
+    },
+    {
+      "start": 2.94,
+      "end": 3.98,
+      "text": "感冒了",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 2.94,
+          "end": 3.36,
+          "text": "感",
+          "probability": 0.8601851463317871
+        },
+        {
+          "start": 3.36,
+          "end": 3.58,
+          "text": "冒",
+          "probability": 0.9990073144435883
+        },
+        {
+          "start": 3.58,
+          "end": 3.98,
+          "text": "了",
+          "probability": 0.8204312920570374
+        }
+      ]
+    },
+    {
+      "start": 4.56,
+      "end": 6.5,
+      "text": "讓我看好多人出國",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 4.56,
+          "end": 4.78,
+          "text": "讓",
+          "probability": 0.48378604650497437
+        },
+        {
+          "start": 4.78,
+          "end": 4.86,
+          "text": "我",
+          "probability": 0.9388540387153625
+        },
+        {
+          "start": 4.86,
+          "end": 4.96,
+          "text": "看",
+          "probability": 0.8759543299674988
+        },
+        {
+          "start": 4.96,
+          "end": 5.16,
+          "text": "好",
+          "probability": 0.8695226311683655
+        },
+        {
+          "start": 5.16,
+          "end": 5.28,
+          "text": "多",
+          "probability": 0.9754709005355835
+        },
+        {
+          "start": 5.28,
+          "end": 5.42,
+          "text": "人",
+          "probability": 0.9520748853683472
+        },
+        {
+          "start": 5.42,
+          "end": 6.26,
+          "text": "出",
+          "probability": 0.7721269726753235
+        },
+        {
+          "start": 6.26,
+          "end": 6.5,
+          "text": "國",
+          "probability": 0.9975428581237793
+        }
+      ]
+    },
+    {
+      "start": 6.5,
+      "end": 7.72,
+      "text": "我感冒了",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 6.5,
+          "end": 7.18,
+          "text": "我",
+          "probability": 0.22359327971935272
+        },
+        {
+          "start": 7.18,
+          "end": 7.32,
+          "text": "感",
+          "probability": 0.9086692929267883
+        },
+        {
+          "start": 7.32,
+          "end": 7.5,
+          "text": "冒",
+          "probability": 0.9998849630355835
+        },
+        {
+          "start": 7.5,
+          "end": 7.72,
+          "text": "了",
+          "probability": 0.8543245792388916
+        }
+      ]
+    },
+    {
+      "start": 7.72,
+      "end": 9.58,
+      "text": "去看奧運會",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 7.72,
+          "end": 8.52,
+          "text": "去",
+          "probability": 0.9316851496696472
+        },
+        {
+          "start": 8.52,
+          "end": 8.66,
+          "text": "看",
+          "probability": 0.968491792678833
+        },
+        {
+          "start": 8.66,
+          "end": 8.76,
+          "text": "奧",
+          "probability": 0.9986883699893951
+        },
+        {
+          "start": 8.76,
+          "end": 8.84,
+          "text": "運",
+          "probability": 0.9965213537216187
+        },
+        {
+          "start": 8.84,
+          "end": 9.58,
+          "text": "會",
+          "probability": 0.9969382286071777
+        }
+      ]
+    },
+    {
+      "start": 10.08,
+      "end": 10.5,
+      "text": "加油",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 10.08,
+          "end": 10.5,
+          "text": "加油",
+          "probability": 0.9610328674316406
+        }
+      ]
+    },
+    {
+      "start": 10.5,
+      "end": 11.82,
+      "text": "今天看那個",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 10.5,
+          "end": 11.14,
+          "text": "今天",
+          "probability": 0.8011308312416077
+        },
+        {
+          "start": 11.14,
+          "end": 11.48,
+          "text": "看",
+          "probability": 0.970905065536499
+        },
+        {
+          "start": 11.48,
+          "end": 11.82,
+          "text": "那個",
+          "probability": 0.7109264135360718
+        }
+      ]
+    },
+    {
+      "start": 13.32,
+      "end": 14.38,
+      "text": "混合的",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 13.32,
+          "end": 13.74,
+          "text": "混",
+          "probability": 0.6133994460105896
+        },
+        {
+          "start": 13.74,
+          "end": 14.16,
+          "text": "合",
+          "probability": 0.9443582892417908
+        },
+        {
+          "start": 14.16,
+          "end": 14.38,
+          "text": "的",
+          "probability": 0.9834559559822083
+        }
+      ]
+    },
+    {
+      "start": 14.38,
+      "end": 15.22,
+      "text": "比賽",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 14.38,
+          "end": 15.08,
+          "text": "比",
+          "probability": 0.9545329213142395
+        },
+        {
+          "start": 15.08,
+          "end": 15.22,
+          "text": "賽",
+          "probability": 0.9992695450782776
+        }
+      ]
+    },
+    {
+      "start": 16.46,
+      "end": 17.34,
+      "text": "今天自己要",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 16.46,
+          "end": 16.88,
+          "text": "今天",
+          "probability": 0.9768347144126892
+        },
+        {
+          "start": 16.88,
+          "end": 17.1,
+          "text": "自己",
+          "probability": 0.9467563629150391
+        },
+        {
+          "start": 17.1,
+          "end": 17.34,
+          "text": "要",
+          "probability": 0.6121561527252197
+        }
+      ]
+    },
+    {
+      "start": 17.34,
+      "end": 18.44,
+      "text": "終於背了一個城",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 17.34,
+          "end": 17.88,
+          "text": "終",
+          "probability": 0.7950869798660278
+        },
+        {
+          "start": 17.88,
+          "end": 18.0,
+          "text": "於",
+          "probability": 0.9945295453071594
+        },
+        {
+          "start": 18.0,
+          "end": 18.14,
+          "text": "背",
+          "probability": 0.7147082686424255
+        },
+        {
+          "start": 18.14,
+          "end": 18.18,
+          "text": "了",
+          "probability": 0.4367942810058594
+        },
+        {
+          "start": 18.18,
+          "end": 18.3,
+          "text": "一個",
+          "probability": 0.4797016382217407
+        },
+        {
+          "start": 18.3,
+          "end": 18.44,
+          "text": "城",
+          "probability": 0.6268372535705566
+        }
+      ]
+    },
+    {
+      "start": 18.44,
+      "end": 19.5,
+      "text": "終於背了一次寶了",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 18.44,
+          "end": 18.6,
+          "text": "終",
+          "probability": 0.0017715414287522435
+        },
+        {
+          "start": 18.6,
+          "end": 18.86,
+          "text": "於",
+          "probability": 0.9899222254753113
+        },
+        {
+          "start": 18.86,
+          "end": 18.98,
+          "text": "背",
+          "probability": 0.9642847180366516
+        },
+        {
+          "start": 18.98,
+          "end": 19.04,
+          "text": "了",
+          "probability": 0.8239166140556335
+        },
+        {
+          "start": 19.04,
+          "end": 19.18,
+          "text": "一次",
+          "probability": 0.5894989371299744
+        },
+        {
+          "start": 19.18,
+          "end": 19.32,
+          "text": "寶",
+          "probability": 0.5625130757689476
+        },
+        {
+          "start": 19.32,
+          "end": 19.5,
+          "text": "了",
+          "probability": 0.5425705313682556
+        }
+      ]
+    },
+    {
+      "start": 19.5,
+      "end": 20.44,
+      "text": "不要怕丟臉",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 19.5,
+          "end": 19.7,
+          "text": "不要",
+          "probability": 0.26670318841934204
+        },
+        {
+          "start": 19.7,
+          "end": 19.88,
+          "text": "怕",
+          "probability": 0.9780304431915283
+        },
+        {
+          "start": 19.88,
+          "end": 20.04,
+          "text": "丟",
+          "probability": 0.9965813457965851
+        },
+        {
+          "start": 20.04,
+          "end": 20.44,
+          "text": "臉",
+          "probability": 0.9964210987091064
+        }
+      ]
+    },
+    {
+      "start": 21.5,
+      "end": 22.5,
+      "text": "帶孩子們",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 21.5,
+          "end": 21.92,
+          "text": "帶",
+          "probability": 0.7852910757064819
+        },
+        {
+          "start": 21.92,
+          "end": 22.34,
+          "text": "孩子",
+          "probability": 0.2488403171300888
+        },
+        {
+          "start": 22.34,
+          "end": 22.5,
+          "text": "們",
+          "probability": 0.5975438356399536
+        }
+      ]
+    },
+    {
+      "start": 22.5,
+      "end": 23.14,
+      "text": "感受一下",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 22.5,
+          "end": 22.74,
+          "text": "感",
+          "probability": 0.7619161009788513
+        },
+        {
+          "start": 22.74,
+          "end": 22.92,
+          "text": "受",
+          "probability": 0.9969983100891113
+        },
+        {
+          "start": 22.92,
+          "end": 23.14,
+          "text": "一下",
+          "probability": 0.9977248311042786
+        }
+      ]
+    },
+    {
+      "start": 23.56,
+      "end": 24.92,
+      "text": "奧運會的這種份",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 23.56,
+          "end": 23.98,
+          "text": "奧",
+          "probability": 0.9686509966850281
+        },
+        {
+          "start": 23.98,
+          "end": 24.14,
+          "text": "運",
+          "probability": 0.9981233477592468
+        },
+        {
+          "start": 24.14,
+          "end": 24.3,
+          "text": "會",
+          "probability": 0.998595654964447
+        },
+        {
+          "start": 24.3,
+          "end": 24.44,
+          "text": "的",
+          "probability": 0.9442318081855774
+        },
+        {
+          "start": 24.44,
+          "end": 24.62,
+          "text": "這種",
+          "probability": 0.17020469903945923
+        },
+        {
+          "start": 24.62,
+          "end": 24.92,
+          "text": "份",
+          "probability": 0.3885056674480438
+        }
+      ]
+    },
+    {
+      "start": 25.86,
+      "end": 26.28,
+      "text": "加油",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 25.86,
+          "end": 26.28,
+          "text": "加油",
+          "probability": 0.03520829603075981
+        }
+      ]
+    },
+    {
+      "start": 26.28,
+      "end": 27.56,
+      "text": "看奧運會",
+      "avg_logprob": -0.23787359480096512,
+      "no_speech_prob": 0.2591138780117035,
+      "words": [
+        {
+          "start": 26.28,
+          "end": 26.72,
+          "text": "看",
+          "probability": 0.7285580635070801
+        },
+        {
+          "start": 26.72,
+          "end": 26.88,
+          "text": "奧",
+          "probability": 0.903129905462265
+        },
+        {
+          "start": 26.88,
+          "end": 26.98,
+          "text": "運",
+          "probability": 0.9976407289505005
+        },
+        {
+          "start": 26.98,
+          "end": 27.56,
+          "text": "會",
+          "probability": 0.9979992508888245
+        }
+      ]
+    },
+    {
+      "start": 27.56,
+      "end": 29.22,
+      "text": "就算沒白看",
+      "avg_logprob": -0.7892944514751434,
+      "no_speech_prob": 0.14094537496566772,
+      "words": [
+        {
+          "start": 27.56,
+          "end": 27.68,
+          "text": "就",
+          "probability": 0.29638606309890747
+        },
+        {
+          "start": 27.68,
+          "end": 27.86,
+          "text": "算",
+          "probability": 0.9978057742118835
+        },
+        {
+          "start": 27.86,
+          "end": 28.44,
+          "text": "沒",
+          "probability": 0.5680432915687561
+        },
+        {
+          "start": 28.44,
+          "end": 28.68,
+          "text": "白",
+          "probability": 0.8913087844848633
+        },
+        {
+          "start": 28.68,
+          "end": 29.22,
+          "text": "看",
+          "probability": 0.657249927520752
+        }
+      ]
+    },
+    {
+      "start": 30.5,
+      "end": 31.02,
+      "text": "加油",
+      "avg_logprob": -0.7892944514751434,
+      "no_speech_prob": 0.14094537496566772,
+      "words": [
+        {
+          "start": 30.5,
+          "end": 31.02,
+          "text": "加油",
+          "probability": 0.04836461320519447
+        }
+      ]
+    },
+    {
+      "start": 33.04,
+      "end": 33.72,
+      "text": "看我的",
+      "avg_logprob": -0.7892944514751434,
+      "no_speech_prob": 0.14094537496566772,
+      "words": [
+        {
+          "start": 33.04,
+          "end": 33.56,
+          "text": "看",
+          "probability": 0.2462380975484848
+        },
+        {
+          "start": 33.56,
+          "end": 33.72,
+          "text": "我的",
+          "probability": 0.6167840957641602
+        }
+      ]
+    },
+    {
+      "start": 35.22,
+      "end": 37.16,
+      "text": "是不是小貼準備的很好看",
+      "avg_logprob": -0.7892944514751434,
+      "no_speech_prob": 0.14094537496566772,
+      "words": [
+        {
+          "start": 35.22,
+          "end": 35.74,
+          "text": "是不是",
+          "probability": 0.5545462965965271
+        },
+        {
+          "start": 35.74,
+          "end": 36.26,
+          "text": "小",
+          "probability": 0.9680197834968567
+        },
+        {
+          "start": 36.26,
+          "end": 36.42,
+          "text": "貼",
+          "probability": 0.958242654800415
+        },
+        {
+          "start": 36.42,
+          "end": 36.62,
+          "text": "準備",
+          "probability": 0.9366700649261475
+        },
+        {
+          "start": 36.62,
+          "end": 36.74,
+          "text": "的",
+          "probability": 0.5829082131385803
+        },
+        {
+          "start": 36.74,
+          "end": 36.88,
+          "text": "很好",
+          "probability": 0.9312088489532471
+        },
+        {
+          "start": 36.88,
+          "end": 37.16,
+          "text": "看",
+          "probability": 0.9992914199829102
+        }
+      ]
+    },
+    {
+      "start": 40.12,
+      "end": 40.38,
+      "text": "拜拜",
+      "avg_logprob": -0.7892944514751434,
+      "no_speech_prob": 0.14094537496566772,
+      "words": [
+        {
+          "start": 40.12,
+          "end": 40.38,
+          "text": "拜拜",
+          "probability": 0.7143213748931885
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "file": "cherry-3.mp4",
+  "source_sha256": "cc51baddb9a5b18b6ec1d352bad0f592dcfe6ebdd339dcfdb109f0dc06a9e2d0",
+  "model": "faster-whisper small CPU int8 local",
+  "decoded_seconds": 20.922625,
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.84,
+      "text": "然后连卖的没卖过挂链接就挂了一次链接就没了",
+      "avg_logprob": -0.27286500796195,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.14,
+          "text": "然后",
+          "probability": 0.6305906772613525
+        },
+        {
+          "start": 0.14,
+          "end": 0.56,
+          "text": "连",
+          "probability": 0.9551852941513062
+        },
+        {
+          "start": 0.56,
+          "end": 0.8,
+          "text": "卖",
+          "probability": 0.9456124603748322
+        },
+        {
+          "start": 0.8,
+          "end": 0.92,
+          "text": "的",
+          "probability": 0.5870949029922485
+        },
+        {
+          "start": 0.92,
+          "end": 1.06,
+          "text": "没",
+          "probability": 0.9434065818786621
+        },
+        {
+          "start": 1.06,
+          "end": 1.2,
+          "text": "卖",
+          "probability": 0.9972957670688629
+        },
+        {
+          "start": 1.2,
+          "end": 1.42,
+          "text": "过",
+          "probability": 0.9869979619979858
+        },
+        {
+          "start": 1.42,
+          "end": 1.7,
+          "text": "挂",
+          "probability": 0.6030395478010178
+        },
+        {
+          "start": 1.7,
+          "end": 1.88,
+          "text": "链",
+          "probability": 0.7422971924146017
+        },
+        {
+          "start": 1.88,
+          "end": 2.06,
+          "text": "接",
+          "probability": 0.9871091842651367
+        },
+        {
+          "start": 2.06,
+          "end": 2.26,
+          "text": "就",
+          "probability": 0.837057888507843
+        },
+        {
+          "start": 2.26,
+          "end": 2.76,
+          "text": "挂",
+          "probability": 0.896015077829361
+        },
+        {
+          "start": 2.76,
+          "end": 2.84,
+          "text": "了",
+          "probability": 0.9382430911064148
+        },
+        {
+          "start": 2.84,
+          "end": 2.98,
+          "text": "一次",
+          "probability": 0.9526737928390503
+        },
+        {
+          "start": 2.98,
+          "end": 3.16,
+          "text": "链",
+          "probability": 0.9933472275733948
+        },
+        {
+          "start": 3.16,
+          "end": 3.26,
+          "text": "接",
+          "probability": 0.9806579351425171
+        },
+        {
+          "start": 3.26,
+          "end": 3.36,
+          "text": "就",
+          "probability": 0.9644110202789307
+        },
+        {
+          "start": 3.36,
+          "end": 3.48,
+          "text": "没",
+          "probability": 0.9805406928062439
+        },
+        {
+          "start": 3.48,
+          "end": 3.84,
+          "text": "了",
+          "probability": 0.9968253374099731
+        }
+      ]
+    },
+    {
+      "start": 3.84,
+      "end": 10.66,
+      "text": "这是40克的他这个就是特别适合秋冬的很润的那种在这心脏的品牌的因为以前给他买的那个",
+      "avg_logprob": -0.27286500796195,
+      "words": [
+        {
+          "start": 3.84,
+          "end": 4.42,
+          "text": "这是",
+          "probability": 0.8642021417617798
+        },
+        {
+          "start": 4.42,
+          "end": 4.72,
+          "text": "40",
+          "probability": 0.7221279740333557
+        },
+        {
+          "start": 4.72,
+          "end": 4.96,
+          "text": "克",
+          "probability": 0.9580304026603699
+        },
+        {
+          "start": 4.96,
+          "end": 5.24,
+          "text": "的",
+          "probability": 0.94623863697052
+        },
+        {
+          "start": 5.24,
+          "end": 5.62,
+          "text": "他",
+          "probability": 0.17542389035224915
+        },
+        {
+          "start": 5.62,
+          "end": 5.84,
+          "text": "这个",
+          "probability": 0.9776161909103394
+        },
+        {
+          "start": 5.84,
+          "end": 6.12,
+          "text": "就是",
+          "probability": 0.994297444820404
+        },
+        {
+          "start": 6.12,
+          "end": 6.36,
+          "text": "特",
+          "probability": 0.9808173179626465
+        },
+        {
+          "start": 6.36,
+          "end": 6.46,
+          "text": "别",
+          "probability": 0.9876326322555542
+        },
+        {
+          "start": 6.46,
+          "end": 6.56,
+          "text": "适",
+          "probability": 0.7378503978252411
+        },
+        {
+          "start": 6.56,
+          "end": 6.66,
+          "text": "合",
+          "probability": 0.9914929270744324
+        },
+        {
+          "start": 6.66,
+          "end": 6.8,
+          "text": "秋",
+          "probability": 0.9606834053993225
+        },
+        {
+          "start": 6.8,
+          "end": 6.96,
+          "text": "冬",
+          "probability": 0.9986310303211212
+        },
+        {
+          "start": 6.96,
+          "end": 7.1,
+          "text": "的",
+          "probability": 0.3779139816761017
+        },
+        {
+          "start": 7.1,
+          "end": 7.24,
+          "text": "很",
+          "probability": 0.9772031307220459
+        },
+        {
+          "start": 7.24,
+          "end": 7.46,
+          "text": "润",
+          "probability": 0.9192372560501099
+        },
+        {
+          "start": 7.46,
+          "end": 7.68,
+          "text": "的",
+          "probability": 0.9707733392715454
+        },
+        {
+          "start": 7.68,
+          "end": 7.82,
+          "text": "那",
+          "probability": 0.9736731648445129
+        },
+        {
+          "start": 7.82,
+          "end": 8.04,
+          "text": "种",
+          "probability": 0.8205483555793762
+        },
+        {
+          "start": 8.04,
+          "end": 8.7,
+          "text": "在",
+          "probability": 0.9637890458106995
+        },
+        {
+          "start": 8.7,
+          "end": 8.8,
+          "text": "这",
+          "probability": 0.9486261606216431
+        },
+        {
+          "start": 8.8,
+          "end": 8.98,
+          "text": "心",
+          "probability": 0.21846428513526917
+        },
+        {
+          "start": 8.98,
+          "end": 9.08,
+          "text": "脏",
+          "probability": 0.775993138551712
+        },
+        {
+          "start": 9.08,
+          "end": 9.16,
+          "text": "的",
+          "probability": 0.8042287826538086
+        },
+        {
+          "start": 9.16,
+          "end": 9.28,
+          "text": "品",
+          "probability": 0.9905132055282593
+        },
+        {
+          "start": 9.28,
+          "end": 9.46,
+          "text": "牌",
+          "probability": 0.9994169771671295
+        },
+        {
+          "start": 9.46,
+          "end": 9.58,
+          "text": "的",
+          "probability": 0.6625901460647583
+        },
+        {
+          "start": 9.58,
+          "end": 9.7,
+          "text": "因为",
+          "probability": 0.8631799221038818
+        },
+        {
+          "start": 9.7,
+          "end": 9.94,
+          "text": "以前",
+          "probability": 0.9613545536994934
+        },
+        {
+          "start": 9.94,
+          "end": 10.04,
+          "text": "给",
+          "probability": 0.9981667995452881
+        },
+        {
+          "start": 10.04,
+          "end": 10.12,
+          "text": "他",
+          "probability": 0.8712543249130249
+        },
+        {
+          "start": 10.12,
+          "end": 10.28,
+          "text": "买",
+          "probability": 0.990132212638855
+        },
+        {
+          "start": 10.28,
+          "end": 10.42,
+          "text": "的",
+          "probability": 0.9731725454330444
+        },
+        {
+          "start": 10.42,
+          "end": 10.66,
+          "text": "那个",
+          "probability": 0.9605368971824646
+        }
+      ]
+    },
+    {
+      "start": 11.540000000000001,
+      "end": 14.32,
+      "text": "鹰汤 鹰汤面霜一个要七八百块钱",
+      "avg_logprob": -0.27286500796195,
+      "words": [
+        {
+          "start": 11.540000000000001,
+          "end": 11.9,
+          "text": "鹰",
+          "probability": 0.5207223370671272
+        },
+        {
+          "start": 11.9,
+          "end": 12.12,
+          "text": "汤",
+          "probability": 0.8799143731594086
+        },
+        {
+          "start": 12.32,
+          "end": 12.62,
+          "text": " 鹰",
+          "probability": 0.8525720238685608
+        },
+        {
+          "start": 12.62,
+          "end": 12.76,
+          "text": "汤",
+          "probability": 0.9940380156040192
+        },
+        {
+          "start": 12.76,
+          "end": 12.88,
+          "text": "面",
+          "probability": 0.9923316240310669
+        },
+        {
+          "start": 12.88,
+          "end": 13.12,
+          "text": "霜",
+          "probability": 0.8867502212524414
+        },
+        {
+          "start": 13.12,
+          "end": 13.38,
+          "text": "一个",
+          "probability": 0.8059717416763306
+        },
+        {
+          "start": 13.38,
+          "end": 13.52,
+          "text": "要",
+          "probability": 0.7447846531867981
+        },
+        {
+          "start": 13.52,
+          "end": 13.7,
+          "text": "七",
+          "probability": 0.7448284029960632
+        },
+        {
+          "start": 13.7,
+          "end": 13.82,
+          "text": "八",
+          "probability": 0.9754514098167419
+        },
+        {
+          "start": 13.82,
+          "end": 13.94,
+          "text": "百",
+          "probability": 0.9849746823310852
+        },
+        {
+          "start": 13.94,
+          "end": 14.06,
+          "text": "块",
+          "probability": 0.9853965640068054
+        },
+        {
+          "start": 14.06,
+          "end": 14.32,
+          "text": "钱",
+          "probability": 0.9987711310386658
+        }
+      ]
+    },
+    {
+      "start": 14.88,
+      "end": 19.2,
+      "text": "然后就标那个来的 但我觉得我这个更好用 这就是心脏的品牌",
+      "avg_logprob": -0.27286500796195,
+      "words": [
+        {
+          "start": 14.82,
+          "end": 15.0,
+          "text": "然后",
+          "probability": 0.9807772040367126
+        },
+        {
+          "start": 15.0,
+          "end": 15.18,
+          "text": "就",
+          "probability": 0.9928808212280273
+        },
+        {
+          "start": 15.18,
+          "end": 15.38,
+          "text": "标",
+          "probability": 0.9141433238983154
+        },
+        {
+          "start": 15.38,
+          "end": 15.66,
+          "text": "那个",
+          "probability": 0.9946120977401733
+        },
+        {
+          "start": 15.66,
+          "end": 15.88,
+          "text": "来",
+          "probability": 0.9951943755149841
+        },
+        {
+          "start": 15.88,
+          "end": 16.14,
+          "text": "的",
+          "probability": 0.9952995777130127
+        },
+        {
+          "start": 16.24,
+          "end": 16.56,
+          "text": " 但",
+          "probability": 0.6131603121757507
+        },
+        {
+          "start": 16.56,
+          "end": 16.74,
+          "text": "我觉得",
+          "probability": 0.9936448335647583
+        },
+        {
+          "start": 16.74,
+          "end": 16.92,
+          "text": "我",
+          "probability": 0.9939700365066528
+        },
+        {
+          "start": 16.92,
+          "end": 17.06,
+          "text": "这个",
+          "probability": 0.9850103259086609
+        },
+        {
+          "start": 17.06,
+          "end": 17.32,
+          "text": "更",
+          "probability": 0.9949690699577332
+        },
+        {
+          "start": 17.32,
+          "end": 17.5,
+          "text": "好",
+          "probability": 0.9973471164703369
+        },
+        {
+          "start": 17.5,
+          "end": 17.7,
+          "text": "用",
+          "probability": 0.9997071623802185
+        },
+        {
+          "start": 18.12,
+          "end": 18.3,
+          "text": " 这",
+          "probability": 0.9175258874893188
+        },
+        {
+          "start": 18.3,
+          "end": 18.42,
+          "text": "就是",
+          "probability": 0.8747572302818298
+        },
+        {
+          "start": 18.42,
+          "end": 18.64,
+          "text": "心",
+          "probability": 0.757721483707428
+        },
+        {
+          "start": 18.64,
+          "end": 18.74,
+          "text": "脏",
+          "probability": 0.9930140376091003
+        },
+        {
+          "start": 18.74,
+          "end": 18.84,
+          "text": "的",
+          "probability": 0.8693656921386719
+        },
+        {
+          "start": 18.84,
+          "end": 19.0,
+          "text": "品",
+          "probability": 0.9973486661911011
+        },
+        {
+          "start": 19.0,
+          "end": 19.2,
+          "text": "牌",
+          "probability": 0.999917209148407
+        }
+      ]
+    },
+    {
+      "start": 19.94,
+      "end": 20.3,
+      "text": "然后",
+      "avg_logprob": -0.27286500796195,
+      "words": [
+        {
+          "start": 19.94,
+          "end": 20.3,
+          "text": "然后",
+          "probability": 0.6507142782211304
+        }
+      ]
+    }
+  ]
+}

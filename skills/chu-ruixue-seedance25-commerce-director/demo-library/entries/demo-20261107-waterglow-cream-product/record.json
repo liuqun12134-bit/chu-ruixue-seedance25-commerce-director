@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261107-waterglow-cream-product",
+  "title": "水光霜：顶面取霜、局部推薄与按压出料",
+  "record_type": "demo",
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "category": "面霜",
+  "product_name": "水光霜（本批次原片包装）",
+  "product_form": "浅色膏霜，推开后呈较薄的可见反光层",
+  "container": "白色高筒容器、玫瑰金肩环、粉色按压顶面",
+  "body_part": "面颊、鼻侧外部、下巴、额头",
+  "tags": [
+    "从顶面已有膏体取霜，再接触面颊",
+    "少量补取后沿面颊、鼻侧外部和下巴推薄",
+    "容器放低后，单手和双手交替补匀",
+    "停手、侧转，看清当前面颊反光",
+    "举近顶部，双指按压后露出新增膏体"
+  ],
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "summary": "从顶面已有膏体取用、面颊局部推薄、放低容器后补匀；尾段另有顶面按压并露出新增膏体的包装演示。",
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户本轮提供 水光霜/8.mp4；用户确认讲解者为初瑞雪本人。",
+    "source_url": null,
+    "source_asset": "source.mp4",
+    "notes_path": "source-notes.md",
+    "analyzed_on": "2026-11-07",
+    "duration_seconds": 97.593991,
+    "time_reliability": "approximate",
+    "observation_method": "实测容器与音轨；全片解码；2 fps 抽帧序列及重点窗口视觉观察；本地 ASR 未听审。",
+    "limitations": [
+      "全片解码通过；视觉检查采用每秒 2 帧抽样和动作窗口序列，关键时点近似，未声称实时连续播放。",
+      "原声保留；本地机器转写未听审，台词、语气和成分/功效说法不作为本条动作结论。",
+      "未进行生成验证；现场反光不证明功效，不迁移曝光变化或整脸换肤。",
+      "眼周、配方搭配和适用人群不能仅凭演示推断；使用区域以当前产品真实说明为准。"
+    ]
+  },
+  "preconditions": [
+    "按当前首帧确定开合、已有膏体、持物与可用支撑面。",
+    "源视频时序只作证据，不强制新稿复刻全长或固定次数。"
+  ],
+  "units": [
+    {
+      "id": "take-platform",
+      "name": "从顶面已有膏体取霜，再接触面颊",
+      "source_time": "约 0.0–3.5 秒",
+      "start_conditions": [
+        "粉色顶面已有可见浅色膏体；一手持容器，另一手可取用。"
+      ],
+      "action": "将顶面朝镜头保持可见，指腹抹取其上已有膏体，然后接触画面右侧面颊并开始推开。首帧出料已完成，不能把开头写成从零开始挤出。",
+      "transition": "取霜手转为局部涂抹，容器仍由另一手持住。",
+      "end_state": "少量膏体转移到面颊，顶面留有残余。",
+      "expected_effect": "建立顶面膏体到指腹、再到皮肤的真实转移。",
+      "avoid": [
+        "不把按压顶面当作可旋开的普通盖；不忽略首帧已有膏。"
+      ],
+      "prompt_fragment": "承接顶面已有的面霜，用指腹抹取后落到面颊，再从落点逐步推开。"
+    },
+    {
+      "id": "thin-local",
+      "name": "少量补取后沿面颊、鼻侧外部和下巴推薄",
+      "source_time": "约 3.5–30.0 秒",
+      "start_conditions": [
+        "顶面可以继续承接/取用面霜；面部已有少量产品。"
+      ],
+      "action": "活动手回到顶面补取，再以指腹沿同侧面颊、鼻侧外部与下巴分段推开；中间有短暂离手、看镜头及再次接触。",
+      "transition": "处理当前局部后停手或转移到其他已涂区域。",
+      "end_state": "已接触部位形成较薄、带反光的可见层。",
+      "expected_effect": "提供与大块布膏不同的少量多次、局部推薄路线。",
+      "avoid": [
+        "不根据反光推断吸收、配方或疗效；不要把原片多次动作机械复制成固定次数。"
+      ],
+      "prompt_fragment": "每次只取当前需要的量，先在一侧面颊推开，再根据残留照顾鼻侧外部和下巴，穿插短暂停手交流。"
+    },
+    {
+      "id": "set-down-blend",
+      "name": "容器放低后，单手和双手交替补匀",
+      "source_time": "约 32.0–65.5 秒",
+      "start_conditions": [
+        "容器已降低到画外；面部保持之前已涂产品。"
+      ],
+      "action": "空出持物手后，在面颊、额头和下巴切换单手与双手推开，期间可以停下继续交流。原片有闭眼及手经过眼周，不扩大为所有面霜可上眼。",
+      "transition": "补匀后离脸，接续当前肤面展示或口播。",
+      "end_state": "容器不持续占手；面部保持已经操作后的状态。",
+      "expected_effect": "补足释放双手后的自然使用与停手节奏。",
+      "avoid": [
+        "不编造新取料；眼部适用须另有当前产品依据。"
+      ],
+      "prompt_fragment": "放稳容器后，双手按当前残留补匀面颊、额头和下巴，完成后离手交流。"
+    },
+    {
+      "id": "show-current-skin",
+      "name": "停手、侧转，看清当前面颊反光",
+      "source_time": "约 55.0–56.5 秒；约 67.5–72.5 秒（两次独立出现）",
+      "start_conditions": [
+        "相关面颊已实际接触涂抹；原光线不变。"
+      ],
+      "action": "停止遮挡面颊的涂抹，略侧转并靠近，让当前皮肤反光被看见，再回到交流。所列两段是原片不同出现，不能拼成一条无间断观察。",
+      "transition": "回正或自然降低手部。",
+      "end_state": "当前已涂部位无遮挡。",
+      "expected_effect": "展示现场可见状态，不作前后对比或功效认证。",
+      "avoid": [
+        "不让未涂处同步变化；不新增滤镜和提亮。"
+      ],
+      "prompt_fragment": "涂抹后短暂离手，保持同一光线，略侧转展示当前面颊，再恢复说话姿态。"
+    },
+    {
+      "id": "press-platform",
+      "name": "举近顶部，双指按压后露出新增膏体",
+      "source_time": "约 88.5–91.5 秒",
+      "start_conditions": [
+        "确认是原片同样的顶面按压出料容器；容器竖直，手可稳定承托。"
+      ],
+      "action": "将粉色顶面举近并朝向镜头，手指接触顶面两侧后向下按压，随后抬手；中央浅色膏体由小点变为较明显膏团。只记录可见出料变化，不推定内部真空结构和精确出料量。",
+      "transition": "抬手让顶面膏体清楚可见，之后可按当前任务取用或收回容器。",
+      "end_state": "顶面中央新增膏体，瓶身仍完整未拆开。",
+      "expected_effect": "展示该包装的按压出料与顶面承接。",
+      "avoid": [
+        "不旋拧拆开顶面；不凭空增加泵嘴；不写固定按压次数或克数。"
+      ],
+      "prompt_fragment": "持稳同款按压容器，将顶面朝向镜头，手指按压后抬起，让中央真实挤出的面霜留在承接面上。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/key-01.jpg",
+      "timestamp_seconds": 0,
+      "role": "source_evidence",
+      "observation": "粉色顶面中央已有浅色膏体，首帧并非尚未出料。"
+    },
+    {
+      "path": "assets/key-02.jpg",
+      "timestamp_seconds": 0.5,
+      "role": "source_evidence",
+      "observation": "指腹抹取顶面已有膏体。"
+    },
+    {
+      "path": "assets/key-03.jpg",
+      "timestamp_seconds": 1.5,
+      "role": "source_evidence",
+      "observation": "取霜指腹接触一侧面颊，出现浅色膏痕。"
+    },
+    {
+      "path": "assets/key-04.jpg",
+      "timestamp_seconds": 4.5,
+      "role": "source_evidence",
+      "observation": "活动手回到粉色顶面，接续少量补取。"
+    },
+    {
+      "path": "assets/key-05.jpg",
+      "timestamp_seconds": 8,
+      "role": "source_evidence",
+      "observation": "指腹沿面颊下部推开，已接触部分出现薄层反光。"
+    },
+    {
+      "path": "assets/key-06.jpg",
+      "timestamp_seconds": 17,
+      "role": "source_evidence",
+      "observation": "容器顶面再次可见，指腹接近取用位置。"
+    },
+    {
+      "path": "assets/key-07.jpg",
+      "timestamp_seconds": 32,
+      "role": "source_evidence",
+      "observation": "容器已降低，人物面对镜头交流，手部可重新安排。"
+    },
+    {
+      "path": "assets/key-08.jpg",
+      "timestamp_seconds": 56,
+      "role": "source_evidence",
+      "observation": "手离脸，略侧转使一侧面颊清楚可见。"
+    },
+    {
+      "path": "assets/key-09.jpg",
+      "timestamp_seconds": 72,
+      "role": "source_evidence",
+      "observation": "面部无遮挡，回到较正面的交流姿态。"
+    },
+    {
+      "path": "assets/key-10.jpg",
+      "timestamp_seconds": 89,
+      "role": "source_evidence",
+      "observation": "手指接触粉色顶面边缘，中央白色点较小。"
+    },
+    {
+      "path": "assets/key-11.jpg",
+      "timestamp_seconds": 90.5,
+      "role": "source_evidence",
+      "observation": "按压后抬手，中央浅色膏团较前一状态明显增加。"
+    },
+    {
+      "path": "assets/key-12.jpg",
+      "timestamp_seconds": 91,
+      "role": "source_evidence",
+      "observation": "容器举近镜头，粉色顶面上新增膏体可见。"
+    }
+  ],
+  "scope": "product",
+  "product_id": "product-cream-waterglow-20261107",
+  "enabled": true
+}

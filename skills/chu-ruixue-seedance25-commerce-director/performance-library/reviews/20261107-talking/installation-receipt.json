@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "installed_on": "2026-11-07",
+  "target": "C:\\Users\\Administrator\\.codex\\skills\\chu-ruixue-seedance25-commerce-director",
+  "included_sources": 25,
+  "added_general_records": 29,
+  "added_language_records": 0,
+  "pending_language_candidates": 29,
+  "existing_demo_records": 13,
+  "existing_demo_units": 38,
+  "old_non_performance_files_byte_unchanged": true,
+  "backups": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\11\\07\\01a1b54a-aef2-74c3-8d77-e6a78feba017\\chu-ruixue-ingestion\\installation-backup-20261107",
+  "new_files": 149,
+  "updated_files": [
+    "performance-library/index.json",
+    "performance-library/sources.json"
+  ],
+  "validations": [
+    {
+      "ok": true,
+      "command": "reindex",
+      "demo_records": 13,
+      "demo_units": 38,
+      "performance_records": 29,
+      "performance_sources": 25
+    },
+    {
+      "ok": true,
+      "command": "validate",
+      "demo_records": 13,
+      "demo_units": 38,
+      "performance_records": 29,
+      "performance_sources": 25
+    }
+  ],
+  "package_verification": {
+    "ok": true,
+    "general_records": 29,
+    "sources": 25,
+    "language_candidates": 29,
+    "formal_language_records": 0,
+    "existing_non_performance_files_unchanged": true,
+    "local_html_links_checked": 151
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 2,
+  "id": "perf-crx-20261107-cream-cherry-3-recommend-hold",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待核查｜表达个人推荐—脸侧举近包装并微调",
+  "summary": "待核查：机器转写含“我觉得我这个更好用”，与脸侧持品窗口重叠；没有据此认定固定动作或产品优劣。",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "enabled": true,
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "tags": [],
+  "evidence_status": "example",
+  "preconditions": [
+    "须先核查原声、语气及动作对应区间，再用于已核实话术匹配。",
+    "持物、空闲手和姿态须与具体动作相容。"
+  ],
+  "avoid": [
+    "不将待审词句认作已核实原话；不将单次观察升级为反复习惯。"
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": "表达个人推荐",
+    "tone_tags": [],
+    "keywords": [
+      "我觉得",
+      "更好用"
+    ],
+    "paraphrases": [
+      "我更喜欢这款",
+      "这款我更推荐"
+    ],
+    "exclusions": [
+      "同词的否定、引用、反例或不同表达意图不自动适用。"
+    ],
+    "placement": "约 13–18 秒以持稳和距离微调为主，随后产品逐渐离开画面；对应台词估计 14.88–19.20 秒。",
+    "pending_reason": "类别与关键词仅由未复核机器文字形成候选；原声、情绪语气和精确对应尚未核查。"
+  },
+  "performance": {
+    "start_state": "粉色透明外罩容器已在脸侧，手指托住下缘。",
+    "movement": "容器正面朝镜头，在脸侧略举近并调整角度，手指持续扶稳下缘，接近段末降低产品。",
+    "gaze_expression": "主要面对镜头，偶有短暂转眼，表情保持讲话变化。",
+    "rhythm": "约 13–18 秒以持稳和距离微调为主，随后产品逐渐离开画面；对应台词估计 14.88–19.20 秒。",
+    "recovery": "容器从脸侧降下，恢复无遮挡交流。",
+    "end_state": "产品逐渐离开画面，手不继续悬在脸旁。"
+  },
+  "observations": [
+    {
+      "source_id": "src-crx-20261107-cream-cherry-3",
+      "start_seconds": 12,
+      "end_seconds": 19.5,
+      "context": "用户确认本人；辛等等樱桃面霜/3.mp4 中的近景讲述窗口。",
+      "observed_sequence": "粉色透明外罩容器已在脸侧，手指托住下缘。 容器正面朝镜头，在脸侧略举近并调整角度，手指持续扶稳下缘，接近段末降低产品。 容器从脸侧降下，恢复无遮挡交流。",
+      "utterance": "然后就标那个来的 但我觉得我这个更好用 这就是心脏的品牌",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": "待核查：机器转写含“我觉得我这个更好用”，与脸侧持品窗口重叠；没有据此认定固定动作或产品优劣。"
+    }
+  ],
+  "review_notes": {
+    "method": "sampled_video_frame_sequence_plus_unreviewed_local_asr",
+    "sample_fps": 2,
+    "evidence_sheets": [
+      "reviews/20261107-cream/frames/cherry-hold.jpg"
+    ],
+    "asr_path": "reviews/20261107-cream/asr/cherry-3.json",
+    "limitations": [
+      "本轮工具返回不支持音频输入，未完成原声听审。",
+      "机器文字有明显误识别；不静默纠正后声称听审通过。",
+      "动作观察来自抽帧序列，节奏近似，未认证连续播放或生成效果。"
+    ]
+  }
+}

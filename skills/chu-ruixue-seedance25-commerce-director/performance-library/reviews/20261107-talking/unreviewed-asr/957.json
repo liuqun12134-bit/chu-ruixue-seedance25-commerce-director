@@ -1,0 +1,949 @@
+{
+  "key": "957",
+  "source_sha256": "1bf662a6a3e8d668c186699b4c0454c63d24d3524c8382bbf6b6610f7e63c448",
+  "model": "faster-whisper small CPU int8 local",
+  "decoded_duration": 53.337625,
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "segments": [
+    {
+      "start": 1.08,
+      "end": 1.76,
+      "text": "你呀",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 1.08,
+          "end": 1.52,
+          "text": "你",
+          "probability": 0.350308895111084
+        },
+        {
+          "start": 1.52,
+          "end": 1.76,
+          "text": "呀",
+          "probability": 0.44447222352027893
+        }
+      ]
+    },
+    {
+      "start": 1.76,
+      "end": 4.92,
+      "text": "其实大家吃的都不会吃得很饱",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 1.76,
+          "end": 2.34,
+          "text": "其实",
+          "probability": 0.39074304699897766
+        },
+        {
+          "start": 2.34,
+          "end": 2.74,
+          "text": "大家",
+          "probability": 0.7554289698600769
+        },
+        {
+          "start": 2.74,
+          "end": 2.94,
+          "text": "吃",
+          "probability": 0.9761231541633606
+        },
+        {
+          "start": 2.94,
+          "end": 3.06,
+          "text": "的",
+          "probability": 0.8050323128700256
+        },
+        {
+          "start": 3.06,
+          "end": 3.14,
+          "text": "都",
+          "probability": 0.9211055636405945
+        },
+        {
+          "start": 3.14,
+          "end": 4.38,
+          "text": "不会",
+          "probability": 0.46120592951774597
+        },
+        {
+          "start": 4.38,
+          "end": 4.52,
+          "text": "吃",
+          "probability": 0.9768803119659424
+        },
+        {
+          "start": 4.52,
+          "end": 4.62,
+          "text": "得",
+          "probability": 0.8079001307487488
+        },
+        {
+          "start": 4.62,
+          "end": 4.72,
+          "text": "很",
+          "probability": 0.9858777523040771
+        },
+        {
+          "start": 4.72,
+          "end": 4.92,
+          "text": "饱",
+          "probability": 0.9077505171298981
+        }
+      ]
+    },
+    {
+      "start": 4.92,
+      "end": 6.08,
+      "text": "因为人家是排独套",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 4.92,
+          "end": 5.32,
+          "text": "因为",
+          "probability": 0.4006127715110779
+        },
+        {
+          "start": 5.32,
+          "end": 5.46,
+          "text": "人",
+          "probability": 0.9919188618659973
+        },
+        {
+          "start": 5.46,
+          "end": 5.54,
+          "text": "家",
+          "probability": 0.9975951313972473
+        },
+        {
+          "start": 5.54,
+          "end": 5.64,
+          "text": "是",
+          "probability": 0.9772781729698181
+        },
+        {
+          "start": 5.64,
+          "end": 5.78,
+          "text": "排",
+          "probability": 0.884894609451294
+        },
+        {
+          "start": 5.78,
+          "end": 5.9,
+          "text": "独",
+          "probability": 0.5943131595849991
+        },
+        {
+          "start": 5.9,
+          "end": 6.08,
+          "text": "套",
+          "probability": 0.9146159589290619
+        }
+      ]
+    },
+    {
+      "start": 7.34,
+      "end": 8.56,
+      "text": "多幸福",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 7.34,
+          "end": 7.78,
+          "text": "多",
+          "probability": 0.5337508916854858
+        },
+        {
+          "start": 7.78,
+          "end": 8.22,
+          "text": "幸",
+          "probability": 0.8605464696884155
+        },
+        {
+          "start": 8.22,
+          "end": 8.56,
+          "text": "福",
+          "probability": 0.9846280813217163
+        }
+      ]
+    },
+    {
+      "start": 8.56,
+      "end": 9.5,
+      "text": "带俩嘛",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 8.56,
+          "end": 8.8,
+          "text": "带",
+          "probability": 0.7701824009418488
+        },
+        {
+          "start": 8.8,
+          "end": 8.96,
+          "text": "俩",
+          "probability": 0.9589204490184784
+        },
+        {
+          "start": 8.96,
+          "end": 9.5,
+          "text": "嘛",
+          "probability": 0.46338823437690735
+        }
+      ]
+    },
+    {
+      "start": 9.5,
+      "end": 10.4,
+      "text": "潇洒",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 9.5,
+          "end": 10.1,
+          "text": "潇",
+          "probability": 0.5895697101950645
+        },
+        {
+          "start": 10.1,
+          "end": 10.4,
+          "text": "洒",
+          "probability": 0.9827691912651062
+        }
+      ]
+    },
+    {
+      "start": 11.76,
+      "end": 12.98,
+      "text": "我负责带着玩",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 11.76,
+          "end": 12.2,
+          "text": "我",
+          "probability": 0.55597984790802
+        },
+        {
+          "start": 12.2,
+          "end": 12.42,
+          "text": "负",
+          "probability": 0.8002640306949615
+        },
+        {
+          "start": 12.42,
+          "end": 12.52,
+          "text": "责",
+          "probability": 0.9866247475147247
+        },
+        {
+          "start": 12.52,
+          "end": 12.68,
+          "text": "带",
+          "probability": 0.8939125537872314
+        },
+        {
+          "start": 12.68,
+          "end": 12.78,
+          "text": "着",
+          "probability": 0.47573351860046387
+        },
+        {
+          "start": 12.78,
+          "end": 12.98,
+          "text": "玩",
+          "probability": 0.9779049158096313
+        }
+      ]
+    },
+    {
+      "start": 14.3,
+      "end": 15.74,
+      "text": "钱我不负责花",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 14.3,
+          "end": 14.74,
+          "text": "钱",
+          "probability": 0.5240983963012695
+        },
+        {
+          "start": 14.74,
+          "end": 15.18,
+          "text": "我不",
+          "probability": 0.9389689564704895
+        },
+        {
+          "start": 15.18,
+          "end": 15.4,
+          "text": "负",
+          "probability": 0.996356725692749
+        },
+        {
+          "start": 15.4,
+          "end": 15.5,
+          "text": "责",
+          "probability": 0.9989901185035706
+        },
+        {
+          "start": 15.5,
+          "end": 15.74,
+          "text": "花",
+          "probability": 0.8066549897193909
+        }
+      ]
+    },
+    {
+      "start": 18.5,
+      "end": 19.54,
+      "text": "咱们就煮大根",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 18.5,
+          "end": 18.94,
+          "text": "咱",
+          "probability": 0.9279345870018005
+        },
+        {
+          "start": 18.94,
+          "end": 19.04,
+          "text": "们",
+          "probability": 0.998301088809967
+        },
+        {
+          "start": 19.04,
+          "end": 19.16,
+          "text": "就",
+          "probability": 0.9554440975189209
+        },
+        {
+          "start": 19.16,
+          "end": 19.28,
+          "text": "煮",
+          "probability": 0.8385571539402008
+        },
+        {
+          "start": 19.28,
+          "end": 19.44,
+          "text": "大",
+          "probability": 0.638533890247345
+        },
+        {
+          "start": 19.44,
+          "end": 19.54,
+          "text": "根",
+          "probability": 0.6769909262657166
+        }
+      ]
+    },
+    {
+      "start": 19.54,
+      "end": 20.46,
+      "text": "潇洒",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 19.54,
+          "end": 20.3,
+          "text": "潇",
+          "probability": 0.7773139178752899
+        },
+        {
+          "start": 20.3,
+          "end": 20.46,
+          "text": "洒",
+          "probability": 0.998629242181778
+        }
+      ]
+    },
+    {
+      "start": 22.88,
+      "end": 23.76,
+      "text": "潇洒",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 22.88,
+          "end": 23.32,
+          "text": "潇",
+          "probability": 0.5184197537600994
+        },
+        {
+          "start": 23.32,
+          "end": 23.76,
+          "text": "洒",
+          "probability": 0.9544349610805511
+        }
+      ]
+    },
+    {
+      "start": 24.92,
+      "end": 29.72,
+      "text": "就听他来了",
+      "avg_logprob": -0.565075737551639,
+      "no_speech_prob": 0.2420548051595688,
+      "words": [
+        {
+          "start": 24.92,
+          "end": 25.36,
+          "text": "就",
+          "probability": 0.361383855342865
+        },
+        {
+          "start": 25.36,
+          "end": 25.68,
+          "text": "听",
+          "probability": 0.8600538969039917
+        },
+        {
+          "start": 25.68,
+          "end": 25.68,
+          "text": "他",
+          "probability": 0.27767595648765564
+        },
+        {
+          "start": 25.68,
+          "end": 29.72,
+          "text": "来了",
+          "probability": 0.26654183864593506
+        }
+      ]
+    },
+    {
+      "start": 32.36,
+      "end": 33.86,
+      "text": "咋拍咱们",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 32.36,
+          "end": 32.68,
+          "text": "咋",
+          "probability": 0.7228437960147858
+        },
+        {
+          "start": 32.68,
+          "end": 32.82,
+          "text": "拍",
+          "probability": 0.968539834022522
+        },
+        {
+          "start": 32.82,
+          "end": 32.98,
+          "text": "咱",
+          "probability": 0.6537826657295227
+        },
+        {
+          "start": 32.98,
+          "end": 33.86,
+          "text": "们",
+          "probability": 0.6632280349731445
+        }
+      ]
+    },
+    {
+      "start": 33.86,
+      "end": 34.94,
+      "text": "真的就是这景",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 33.86,
+          "end": 34.42,
+          "text": "真的",
+          "probability": 0.5188475251197815
+        },
+        {
+          "start": 34.42,
+          "end": 34.64,
+          "text": "就是",
+          "probability": 0.2756800353527069
+        },
+        {
+          "start": 34.64,
+          "end": 34.82,
+          "text": "这",
+          "probability": 0.6585394740104675
+        },
+        {
+          "start": 34.82,
+          "end": 34.94,
+          "text": "景",
+          "probability": 0.7906709313392639
+        }
+      ]
+    },
+    {
+      "start": 37.0,
+      "end": 37.92,
+      "text": "在瑞士疗养",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 37.0,
+          "end": 37.32,
+          "text": "在",
+          "probability": 0.2807981073856354
+        },
+        {
+          "start": 37.32,
+          "end": 37.46,
+          "text": "瑞",
+          "probability": 0.9612118005752563
+        },
+        {
+          "start": 37.46,
+          "end": 37.58,
+          "text": "士",
+          "probability": 0.9519886374473572
+        },
+        {
+          "start": 37.58,
+          "end": 37.74,
+          "text": "疗",
+          "probability": 0.777454286813736
+        },
+        {
+          "start": 37.74,
+          "end": 37.92,
+          "text": "养",
+          "probability": 0.9624777138233185
+        }
+      ]
+    },
+    {
+      "start": 37.92,
+      "end": 39.56,
+      "text": "然后六天结束",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 37.92,
+          "end": 38.4,
+          "text": "然后",
+          "probability": 0.685928463935852
+        },
+        {
+          "start": 38.4,
+          "end": 39.0,
+          "text": "六",
+          "probability": 0.8021776080131531
+        },
+        {
+          "start": 39.0,
+          "end": 39.16,
+          "text": "天",
+          "probability": 0.9918375611305237
+        },
+        {
+          "start": 39.16,
+          "end": 39.34,
+          "text": "结",
+          "probability": 0.9723977446556091
+        },
+        {
+          "start": 39.34,
+          "end": 39.56,
+          "text": "束",
+          "probability": 0.9893608689308167
+        }
+      ]
+    },
+    {
+      "start": 39.56,
+      "end": 41.72,
+      "text": "主要是阳台素的疗养",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 39.56,
+          "end": 39.96,
+          "text": "主",
+          "probability": 0.9592265486717224
+        },
+        {
+          "start": 39.96,
+          "end": 40.06,
+          "text": "要",
+          "probability": 0.9998613595962524
+        },
+        {
+          "start": 40.06,
+          "end": 40.18,
+          "text": "是",
+          "probability": 0.9947221279144287
+        },
+        {
+          "start": 40.18,
+          "end": 40.36,
+          "text": "阳",
+          "probability": 0.7241002917289734
+        },
+        {
+          "start": 40.36,
+          "end": 40.46,
+          "text": "台",
+          "probability": 0.9089869856834412
+        },
+        {
+          "start": 40.46,
+          "end": 40.6,
+          "text": "素",
+          "probability": 0.32823944091796875
+        },
+        {
+          "start": 40.6,
+          "end": 40.72,
+          "text": "的",
+          "probability": 0.9429619908332825
+        },
+        {
+          "start": 40.72,
+          "end": 40.84,
+          "text": "疗",
+          "probability": 0.9990750253200531
+        },
+        {
+          "start": 40.84,
+          "end": 41.72,
+          "text": "养",
+          "probability": 0.9984330832958221
+        }
+      ]
+    },
+    {
+      "start": 41.72,
+      "end": 43.78,
+      "text": "就是阳台素",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 41.72,
+          "end": 42.12,
+          "text": "就是",
+          "probability": 0.74248868227005
+        },
+        {
+          "start": 42.12,
+          "end": 43.28,
+          "text": "阳",
+          "probability": 0.9772778451442719
+        },
+        {
+          "start": 43.28,
+          "end": 43.44,
+          "text": "台",
+          "probability": 0.998988926410675
+        },
+        {
+          "start": 43.44,
+          "end": 43.78,
+          "text": "素",
+          "probability": 0.9363520741462708
+        }
+      ]
+    },
+    {
+      "start": 43.78,
+      "end": 45.16,
+      "text": "就是从这个疗养员处理的",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 43.78,
+          "end": 44.1,
+          "text": "就是",
+          "probability": 0.7272564768791199
+        },
+        {
+          "start": 44.1,
+          "end": 44.26,
+          "text": "从",
+          "probability": 0.996586799621582
+        },
+        {
+          "start": 44.26,
+          "end": 44.42,
+          "text": "这个",
+          "probability": 0.8683257699012756
+        },
+        {
+          "start": 44.42,
+          "end": 44.52,
+          "text": "疗",
+          "probability": 0.9699563980102539
+        },
+        {
+          "start": 44.52,
+          "end": 44.62,
+          "text": "养",
+          "probability": 0.9955151379108429
+        },
+        {
+          "start": 44.62,
+          "end": 44.7,
+          "text": "员",
+          "probability": 0.9383901953697205
+        },
+        {
+          "start": 44.7,
+          "end": 44.86,
+          "text": "处",
+          "probability": 0.8427553176879883
+        },
+        {
+          "start": 44.86,
+          "end": 44.96,
+          "text": "理",
+          "probability": 0.8390893936157227
+        },
+        {
+          "start": 44.96,
+          "end": 45.16,
+          "text": "的",
+          "probability": 0.7276716828346252
+        }
+      ]
+    },
+    {
+      "start": 45.16,
+      "end": 46.22,
+      "text": "俩拍这疗养员",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 45.16,
+          "end": 45.24,
+          "text": "俩",
+          "probability": 0.7034635543823242
+        },
+        {
+          "start": 45.24,
+          "end": 45.34,
+          "text": "拍",
+          "probability": 0.995596706867218
+        },
+        {
+          "start": 45.34,
+          "end": 45.44,
+          "text": "这",
+          "probability": 0.32560625672340393
+        },
+        {
+          "start": 45.44,
+          "end": 45.54,
+          "text": "疗",
+          "probability": 0.7494589686393738
+        },
+        {
+          "start": 45.54,
+          "end": 45.56,
+          "text": "养",
+          "probability": 0.9640578627586365
+        },
+        {
+          "start": 45.56,
+          "end": 46.22,
+          "text": "员",
+          "probability": 0.9982800781726837
+        }
+      ]
+    },
+    {
+      "start": 46.22,
+      "end": 46.7,
+      "text": "好了吧",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 46.22,
+          "end": 46.5,
+          "text": "好了",
+          "probability": 0.9330589771270752
+        },
+        {
+          "start": 46.5,
+          "end": 46.7,
+          "text": "吧",
+          "probability": 0.22559137642383575
+        }
+      ]
+    },
+    {
+      "start": 46.7,
+      "end": 47.6,
+      "text": "我们回报一下",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 46.7,
+          "end": 46.82,
+          "text": "我们",
+          "probability": 0.18362291157245636
+        },
+        {
+          "start": 46.82,
+          "end": 47.28,
+          "text": "回",
+          "probability": 0.9479787349700928
+        },
+        {
+          "start": 47.28,
+          "end": 47.42,
+          "text": "报",
+          "probability": 0.9733147025108337
+        },
+        {
+          "start": 47.42,
+          "end": 47.6,
+          "text": "一下",
+          "probability": 0.9954478144645691
+        }
+      ]
+    },
+    {
+      "start": 47.6,
+      "end": 49.24,
+      "text": "我没啥拍的",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 47.6,
+          "end": 47.98,
+          "text": "我",
+          "probability": 0.035652630031108856
+        },
+        {
+          "start": 47.98,
+          "end": 48.8,
+          "text": "没",
+          "probability": 0.6654444336891174
+        },
+        {
+          "start": 48.8,
+          "end": 48.94,
+          "text": "啥",
+          "probability": 0.9973828792572021
+        },
+        {
+          "start": 48.94,
+          "end": 49.12,
+          "text": "拍",
+          "probability": 0.9944062232971191
+        },
+        {
+          "start": 49.12,
+          "end": 49.24,
+          "text": "的",
+          "probability": 0.6834046244621277
+        }
+      ]
+    },
+    {
+      "start": 49.24,
+      "end": 50.02,
+      "text": "你们让我拍长一点",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 49.24,
+          "end": 49.38,
+          "text": "你们",
+          "probability": 0.9738445281982422
+        },
+        {
+          "start": 49.38,
+          "end": 49.5,
+          "text": "让",
+          "probability": 0.9779278039932251
+        },
+        {
+          "start": 49.5,
+          "end": 49.56,
+          "text": "我",
+          "probability": 0.9867621064186096
+        },
+        {
+          "start": 49.56,
+          "end": 49.64,
+          "text": "拍",
+          "probability": 0.9933957457542419
+        },
+        {
+          "start": 49.64,
+          "end": 49.84,
+          "text": "长",
+          "probability": 0.9773409366607666
+        },
+        {
+          "start": 49.84,
+          "end": 50.02,
+          "text": "一点",
+          "probability": 0.9732937812805176
+        }
+      ]
+    },
+    {
+      "start": 50.6,
+      "end": 51.42,
+      "text": "都尽量长",
+      "avg_logprob": -0.2658866992038963,
+      "no_speech_prob": 0.4935092031955719,
+      "words": [
+        {
+          "start": 50.6,
+          "end": 50.92,
+          "text": "都",
+          "probability": 0.9323864579200745
+        },
+        {
+          "start": 50.92,
+          "end": 51.08,
+          "text": "尽",
+          "probability": 0.9921628832817078
+        },
+        {
+          "start": 51.08,
+          "end": 51.2,
+          "text": "量",
+          "probability": 0.9971244931221008
+        },
+        {
+          "start": 51.2,
+          "end": 51.42,
+          "text": "长",
+          "probability": 0.545710563659668
+        }
+      ]
+    }
+  ]
+}

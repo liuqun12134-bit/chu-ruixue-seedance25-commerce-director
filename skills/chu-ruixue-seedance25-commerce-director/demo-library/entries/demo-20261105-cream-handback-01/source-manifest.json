@@ -1,0 +1,44 @@
+[
+  {
+    "source_id": "Q12",
+    "filename": "12.mp4",
+    "batch": "秦营",
+    "sha256": "dce5771f580b70129f794af615eab02c2e837be9e8a90a01c797036e32f53e85",
+    "size_bytes": 10671525,
+    "duration_seconds": 40.28,
+    "width": 720,
+    "height": 1408,
+    "source_asset": null,
+    "observation": "秦营12：约1–4秒持开罐取霜，4–5秒落在持罐手背，5–21秒反复小幅推开，约22秒转罐、28秒后两手背展示。最清楚的单面霜手背链；不从两手比较证明肤色功效。",
+    "review_method": "覆盖可读时段的每2秒抽帧视觉分析；选中关键交互另加密至每秒2或4帧",
+    "integrity": "video_decode_no_error"
+  },
+  {
+    "source_id": "W24",
+    "filename": "玻色因面霜 (24).mp4",
+    "batch": "王玉钊",
+    "sha256": "94ff28e7b87a033bf0a4c7085da797bc198561785cc783250d3e8ddcb1984b46",
+    "size_bytes": 16342815,
+    "duration_seconds": 56.833333,
+    "width": 720,
+    "height": 1408,
+    "source_asset": null,
+    "observation": "前段持罐及开口展示，约20–26秒罐内取霜至持罐手背并推开；后持罐讲解。手背主证据的辅助，不另建同动作。",
+    "review_method": "覆盖可读时段的每2秒抽帧视觉分析；选中关键交互另加密至每秒2或4帧",
+    "integrity": "video_decode_no_error"
+  },
+  {
+    "source_id": "W04",
+    "filename": "玻色因面霜 (4).mp4",
+    "batch": "王玉钊",
+    "sha256": "83db9b2ae329dfb3eced17fd082ec5e040b9f14b30f9c367d816ef3f19f3abf8",
+    "size_bytes": 6661861,
+    "duration_seconds": 23.568005,
+    "width": 720,
+    "height": 1280,
+    "source_asset": null,
+    "observation": "前段手势/举开罐，约11–23秒手背白色膏团推开，含再次近罐动作；仅作手背单元辅助来源。",
+    "review_method": "覆盖可读时段的每2秒抽帧视觉分析；选中关键交互另加密至每秒2或4帧",
+    "integrity": "video_decode_no_error"
+  }
+]

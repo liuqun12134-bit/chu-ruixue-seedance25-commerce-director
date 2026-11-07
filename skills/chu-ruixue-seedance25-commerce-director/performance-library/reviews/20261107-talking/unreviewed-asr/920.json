@@ -1,0 +1,580 @@
+{
+  "key": "920",
+  "source_sha256": "0780431e27df0f428b8c7b776b65e78d94454e460970fc4be852940bca0ad9a6",
+  "model": "faster-whisper small CPU int8 local",
+  "decoded_duration": 35.783375,
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "segments": [
+    {
+      "start": 0.43,
+      "end": 4.27,
+      "text": "回廣州了明天雙十二",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 0.43,
+          "end": 0.93,
+          "text": "回",
+          "probability": 0.9575306177139282
+        },
+        {
+          "start": 0.93,
+          "end": 1.15,
+          "text": "廣",
+          "probability": 0.9390062987804413
+        },
+        {
+          "start": 1.15,
+          "end": 1.37,
+          "text": "州",
+          "probability": 0.9949265718460083
+        },
+        {
+          "start": 1.37,
+          "end": 1.55,
+          "text": "了",
+          "probability": 0.7763441205024719
+        },
+        {
+          "start": 1.55,
+          "end": 1.71,
+          "text": "明",
+          "probability": 0.7682832479476929
+        },
+        {
+          "start": 1.71,
+          "end": 1.99,
+          "text": "天",
+          "probability": 0.9994157552719116
+        },
+        {
+          "start": 1.99,
+          "end": 3.89,
+          "text": "雙",
+          "probability": 0.5629560723900795
+        },
+        {
+          "start": 3.89,
+          "end": 4.07,
+          "text": "十",
+          "probability": 0.931877851486206
+        },
+        {
+          "start": 4.07,
+          "end": 4.27,
+          "text": "二",
+          "probability": 0.9957066178321838
+        }
+      ]
+    },
+    {
+      "start": 4.63,
+      "end": 6.23,
+      "text": "咱雙十二也得開啟了",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 4.63,
+          "end": 4.99,
+          "text": "咱",
+          "probability": 0.4874844439327717
+        },
+        {
+          "start": 4.99,
+          "end": 5.27,
+          "text": "雙",
+          "probability": 0.8930899202823639
+        },
+        {
+          "start": 5.27,
+          "end": 5.41,
+          "text": "十",
+          "probability": 0.9973125457763672
+        },
+        {
+          "start": 5.41,
+          "end": 5.51,
+          "text": "二",
+          "probability": 0.9955044388771057
+        },
+        {
+          "start": 5.51,
+          "end": 5.59,
+          "text": "也",
+          "probability": 0.7677802443504333
+        },
+        {
+          "start": 5.59,
+          "end": 5.67,
+          "text": "得",
+          "probability": 0.9940728545188904
+        },
+        {
+          "start": 5.67,
+          "end": 5.85,
+          "text": "開",
+          "probability": 0.949753999710083
+        },
+        {
+          "start": 5.85,
+          "end": 6.03,
+          "text": "啟",
+          "probability": 0.6437279582023621
+        },
+        {
+          "start": 6.03,
+          "end": 6.23,
+          "text": "了",
+          "probability": 0.9493638277053833
+        }
+      ]
+    },
+    {
+      "start": 6.71,
+      "end": 7.61,
+      "text": "回廣州了",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 6.71,
+          "end": 7.07,
+          "text": "回",
+          "probability": 0.9761921167373657
+        },
+        {
+          "start": 7.07,
+          "end": 7.21,
+          "text": "廣",
+          "probability": 0.9994012117385864
+        },
+        {
+          "start": 7.21,
+          "end": 7.37,
+          "text": "州",
+          "probability": 0.9995129108428955
+        },
+        {
+          "start": 7.37,
+          "end": 7.61,
+          "text": "了",
+          "probability": 0.9803531169891357
+        }
+      ]
+    },
+    {
+      "start": 7.97,
+      "end": 10.23,
+      "text": "你們明天中午就來看我",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 7.97,
+          "end": 8.33,
+          "text": "你們",
+          "probability": 0.8759239315986633
+        },
+        {
+          "start": 8.33,
+          "end": 8.51,
+          "text": "明",
+          "probability": 0.997696578502655
+        },
+        {
+          "start": 8.51,
+          "end": 8.65,
+          "text": "天",
+          "probability": 0.9982757568359375
+        },
+        {
+          "start": 8.65,
+          "end": 8.79,
+          "text": "中",
+          "probability": 0.8387941718101501
+        },
+        {
+          "start": 8.79,
+          "end": 8.87,
+          "text": "午",
+          "probability": 0.9997747540473938
+        },
+        {
+          "start": 8.87,
+          "end": 8.99,
+          "text": "就",
+          "probability": 0.6825342774391174
+        },
+        {
+          "start": 8.99,
+          "end": 9.21,
+          "text": "來",
+          "probability": 0.9692668318748474
+        },
+        {
+          "start": 9.21,
+          "end": 10.01,
+          "text": "看",
+          "probability": 0.3964456021785736
+        },
+        {
+          "start": 10.01,
+          "end": 10.23,
+          "text": "我",
+          "probability": 0.9420678019523621
+        }
+      ]
+    },
+    {
+      "start": 10.23,
+      "end": 12.39,
+      "text": "終於需要的",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 10.23,
+          "end": 10.89,
+          "text": "終",
+          "probability": 0.15003302693367004
+        },
+        {
+          "start": 10.89,
+          "end": 11.91,
+          "text": "於",
+          "probability": 0.9443280696868896
+        },
+        {
+          "start": 11.91,
+          "end": 12.23,
+          "text": "需要",
+          "probability": 0.9851474165916443
+        },
+        {
+          "start": 12.23,
+          "end": 12.39,
+          "text": "的",
+          "probability": 0.7924395203590393
+        }
+      ]
+    },
+    {
+      "start": 12.39,
+      "end": 14.63,
+      "text": "總是雙十二有點",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 12.39,
+          "end": 12.73,
+          "text": "總",
+          "probability": 0.02027716487646103
+        },
+        {
+          "start": 12.73,
+          "end": 14.11,
+          "text": "是",
+          "probability": 0.2969237267971039
+        },
+        {
+          "start": 14.11,
+          "end": 14.25,
+          "text": "雙",
+          "probability": 0.5879602655768394
+        },
+        {
+          "start": 14.25,
+          "end": 14.25,
+          "text": "十",
+          "probability": 0.9802060127258301
+        },
+        {
+          "start": 14.25,
+          "end": 14.35,
+          "text": "二",
+          "probability": 0.9944262504577637
+        },
+        {
+          "start": 14.35,
+          "end": 14.63,
+          "text": "有點",
+          "probability": 0.6545077562332153
+        }
+      ]
+    },
+    {
+      "start": 15.79,
+      "end": 16.71,
+      "text": "明天中午見",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 15.79,
+          "end": 16.15,
+          "text": "明",
+          "probability": 0.5637171864509583
+        },
+        {
+          "start": 16.15,
+          "end": 16.23,
+          "text": "天",
+          "probability": 0.9043983221054077
+        },
+        {
+          "start": 16.23,
+          "end": 16.39,
+          "text": "中",
+          "probability": 0.9875869750976562
+        },
+        {
+          "start": 16.39,
+          "end": 16.49,
+          "text": "午",
+          "probability": 0.9997836947441101
+        },
+        {
+          "start": 16.49,
+          "end": 16.71,
+          "text": "見",
+          "probability": 0.9742675423622131
+        }
+      ]
+    },
+    {
+      "start": 17.17,
+      "end": 17.99,
+      "text": "趕飛機了",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 17.17,
+          "end": 17.53,
+          "text": "趕",
+          "probability": 0.9395574331283569
+        },
+        {
+          "start": 17.53,
+          "end": 17.67,
+          "text": "飛",
+          "probability": 0.6364045739173889
+        },
+        {
+          "start": 17.67,
+          "end": 17.85,
+          "text": "機",
+          "probability": 0.9990516304969788
+        },
+        {
+          "start": 17.85,
+          "end": 17.99,
+          "text": "了",
+          "probability": 0.4358530044555664
+        }
+      ]
+    },
+    {
+      "start": 20.12,
+      "end": 21.38,
+      "text": "咱們中午不見不散",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 20.12,
+          "end": 20.48,
+          "text": "咱",
+          "probability": 0.983931303024292
+        },
+        {
+          "start": 20.48,
+          "end": 20.6,
+          "text": "們",
+          "probability": 0.9948531985282898
+        },
+        {
+          "start": 20.6,
+          "end": 20.72,
+          "text": "中",
+          "probability": 0.9946202039718628
+        },
+        {
+          "start": 20.72,
+          "end": 20.84,
+          "text": "午",
+          "probability": 0.999833345413208
+        },
+        {
+          "start": 20.84,
+          "end": 20.94,
+          "text": "不",
+          "probability": 0.9559621214866638
+        },
+        {
+          "start": 20.94,
+          "end": 21.02,
+          "text": "見",
+          "probability": 0.9990342855453491
+        },
+        {
+          "start": 21.02,
+          "end": 21.16,
+          "text": "不",
+          "probability": 0.9793686866760254
+        },
+        {
+          "start": 21.16,
+          "end": 21.38,
+          "text": "散",
+          "probability": 0.9973390996456146
+        }
+      ]
+    },
+    {
+      "start": 24.12,
+      "end": 24.88,
+      "text": "雙十二",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 24.12,
+          "end": 24.48,
+          "text": "雙",
+          "probability": 0.8991739153862
+        },
+        {
+          "start": 24.48,
+          "end": 24.64,
+          "text": "十",
+          "probability": 0.9988327622413635
+        },
+        {
+          "start": 24.64,
+          "end": 24.88,
+          "text": "二",
+          "probability": 0.9987720847129822
+        }
+      ]
+    },
+    {
+      "start": 25.26,
+      "end": 27.94,
+      "text": "咱們是不是也得播一播了",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 25.26,
+          "end": 25.62,
+          "text": "咱",
+          "probability": 0.9883575141429901
+        },
+        {
+          "start": 25.62,
+          "end": 25.74,
+          "text": "們",
+          "probability": 0.9921104311943054
+        },
+        {
+          "start": 25.74,
+          "end": 25.9,
+          "text": "是不是",
+          "probability": 0.953597903251648
+        },
+        {
+          "start": 25.9,
+          "end": 26.06,
+          "text": "也",
+          "probability": 0.9971411228179932
+        },
+        {
+          "start": 26.06,
+          "end": 26.56,
+          "text": "得",
+          "probability": 0.9988399147987366
+        },
+        {
+          "start": 26.56,
+          "end": 27.46,
+          "text": "播",
+          "probability": 0.4155731201171875
+        },
+        {
+          "start": 27.46,
+          "end": 27.62,
+          "text": "一",
+          "probability": 0.995053231716156
+        },
+        {
+          "start": 27.62,
+          "end": 27.76,
+          "text": "播",
+          "probability": 0.947849690914154
+        },
+        {
+          "start": 27.76,
+          "end": 27.94,
+          "text": "了",
+          "probability": 0.8824294209480286
+        }
+      ]
+    },
+    {
+      "start": 30.15,
+      "end": 31.27,
+      "text": "點擊下方的號碼",
+      "avg_logprob": -0.255696771974149,
+      "no_speech_prob": 0.07038578391075134,
+      "words": [
+        {
+          "start": 30.15,
+          "end": 30.51,
+          "text": "點",
+          "probability": 0.9037399291992188
+        },
+        {
+          "start": 30.51,
+          "end": 30.63,
+          "text": "擊",
+          "probability": 0.2604631781578064
+        },
+        {
+          "start": 30.63,
+          "end": 30.77,
+          "text": "下",
+          "probability": 0.8287811875343323
+        },
+        {
+          "start": 30.77,
+          "end": 30.87,
+          "text": "方",
+          "probability": 0.6700615882873535
+        },
+        {
+          "start": 30.87,
+          "end": 30.95,
+          "text": "的",
+          "probability": 0.937600314617157
+        },
+        {
+          "start": 30.95,
+          "end": 31.09,
+          "text": "號",
+          "probability": 0.9171653389930725
+        },
+        {
+          "start": 31.09,
+          "end": 31.27,
+          "text": "碼",
+          "probability": 0.9177229106426239
+        }
+      ]
+    }
+  ]
+}
