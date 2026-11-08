@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-legacy-cream-use-01-transfer",
+  "title": "罐内接触取霜并送至皮肤",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-05",
+  "updated_on": "2026-11-05",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-legacy-cream-use-01/record.json"
+    ],
+    "limitations": [
+      "本轮是覆盖可读全时段的抽帧序列视觉分析，并非实时播放或全帧连续性认证；关键交互加密至每秒2或4帧。",
+      "没有听审或转写音轨，不提供台词、词句对齐、语气及口型同步结论。",
+      "动作区间为近似；保存关键帧时间来自实际帧PTS。画外放置和被遮挡的步骤未知。",
+      "视频中的美颜、曝光、剪辑、字幕与图板不能证明成分、浓度、即时塑形或长期功效；生成可行性未验证。",
+      "各来源的黑罐/银罐、规格及膏体颜色不视为同一产品；仅归面霜品类，不登记精准产品身份。",
+      "原视频未复制入库或上传；source-manifest.json保留文件名、哈希、实测时长，重查原片仍需原文件。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "开罐中真实内容物可见",
+      "操作手指腹可接近罐口"
+    ],
+    "action": "持罐手承托罐体，操作手指腹进入内口接触膏体，取起后移向目标部位；在接触后留下对应膏痕。W23开头含短重复剪辑，不据此认证单镜头。",
+    "transition": "指腹离开罐口后再接近面部，目标部位保持可见。",
+    "end_state": "皮肤出现来自指腹接触的膏点/短痕，指腹相应减少。",
+    "expected_effect": "只确认接触转移，不估算克数。",
+    "avoid": [
+      "不凭空长膏",
+      "不让持罐手同时抹脸",
+      "不复制每次反复挖取"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-legacy-cream-use-01/record.json",
+    "unit_id": "transfer"
+  },
+  "legacy_context": {
+    "category": "面霜",
+    "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+    "container": "有盖罐；独立内片仅在参考确认时使用",
+    "body_part": "额头、面颊、鼻侧外部、下巴",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "W23约0.3–3秒、27–29秒；Q11约1–4秒",
+  "migration_source_sha256": "8dcbbd5db0d1300f78271fdb6cadbeb88e84eb9efbd0b78c4f139b1964b55cc1"
+}

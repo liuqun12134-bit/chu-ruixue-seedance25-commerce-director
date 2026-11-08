@@ -129,7 +129,7 @@ th{{background:#eaf0f8;text-align:left;font-size:14px;padding:14px 16px}}td{{pad
 .detail-cell{{padding-top:0;padding-bottom:16px}}summary{{cursor:pointer;color:#2a5da0;font-weight:600;padding:5px 0}}details[open]>summary{{margin-bottom:14px}}dl{{display:grid;grid-template-columns:160px 1fr;gap:10px 18px}}dt{{font-weight:600}}dd{{margin:0}}.observation{{background:#f5f8fc;border-radius:10px;padding:16px;margin:16px 0}}h4{{margin:0 0 10px}}
 video{{display:block;width:min(100%,520px);max-height:540px;margin-top:14px;background:#102039;border-radius:8px}}a{{color:#285fac}}img{{max-width:100%;height:auto;margin:12px 0}}footer{{margin-top:32px;color:#687b91;font-size:13px}}[hidden]{{display:none!important}}
 @media(max-width:760px){{main{{padding:16px 12px 32px}}header{{padding:20px}}h1{{font-size:24px}}thead,colgroup{{display:none}}table,tbody,tr,td{{display:block;width:100%}}.mapping{{padding:12px 16px}}.mapping td{{padding:8px 0;border:0!important}}.mapping td::before{{content:attr(data-label);display:block;font-size:12px;color:#74859b;margin-bottom:4px}}tbody+tbody{{border-top:1px solid #dce4ee}}.detail-cell{{padding:0 16px 16px}}dl{{grid-template-columns:1fr;gap:3px}}dd{{margin-bottom:10px}}}}
-</style></head><body><main><header><p class="eyebrow">产品专属演示 · 品类演示 · 初瑞雪通用表现</p>
+</style></head><body><main><header><p class="eyebrow">产品规则 · 完整脚本 · 共用动作 · 初瑞雪表现</p>
 <h1>初瑞雪通用表现库</h1><p>表达类别 → 情绪与语气 → 关键词／相近说法 → 对应动作与表情</p>
 <p class="muted">按整句意思查找表现，再结合当前持物和节奏安排动作。原话与视频证据保留在每条详情里。</p>
 <div class="stats"><span>已核实可用关联 {ready_count}</span><span>待补全 {pending_count}</span><span>来源视频 {len(sources)}</span></div>

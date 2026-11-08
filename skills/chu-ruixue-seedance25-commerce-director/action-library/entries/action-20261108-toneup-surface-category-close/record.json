@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261108-toneup-surface-category-close",
+  "title": "离手后举近手背并微转腕部",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261108-toneup-surface-category/record.json"
+    ],
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。",
+      "S03约17–18秒切换到紫色服装场景，按两个画面来源段登记；图板、字幕及原声中的宣传结论不作为功效证据。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "素颜霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "推抹已经停下",
+      "试用区无遮挡"
+    ],
+    "action": "把手背举到镜头近处，微转手腕，让肤面纹理及反光方向可见；操作手不再遮住整片区域。",
+    "transition": "停稳短暂展示后退回自然交流距离。",
+    "end_state": "当前薄层和纹理可见。",
+    "expected_effect": "展示当前状态，不量化提亮几个色号。",
+    "avoid": [
+      "不近镜同时调曝光",
+      "不凭美颜后的画面宣称细纹消失"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261108-toneup-surface-category/record.json",
+    "unit_id": "close"
+  },
+  "legacy_context": {
+    "category": "素颜霜",
+    "product_form": "已有试涂状态，具体底色与覆盖以当前画面为准",
+    "container": "此时持物可有可无，保持真实手位",
+    "body_part": "手背、前臂",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "S14约12–16秒",
+  "migration_source_sha256": "4ddf7d32e594c08879fe408d71c143360c8ae12169772739a1a81d22b3f0fdb0"
+}

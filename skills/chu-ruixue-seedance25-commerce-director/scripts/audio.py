@@ -9,6 +9,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from runtime_config import read_config
 
 sys.dont_write_bytecode = True
 
@@ -155,7 +156,7 @@ def mute_reference(path, args):
 def transcribe(path, args):
     require(args.output is not None and args.output.suffix.lower() == '.json', 'transcribe needs a new .json --output.')
     output = destination(args.output, path)
-    require(args.model_dir is not None and args.model_dir.is_dir(), 'Use --model-dir with an existing local faster-whisper model.')
+    require(args.model_dir is not None and args.model_dir.is_dir(), 'No usable local model configured. Run scripts/initialize.ps1, or pass --model-dir with an existing local model.')
     index, _ = choose_audio(probe(path, args), args.audio_index)
     if args.dependency_dir:
         require(args.dependency_dir.is_dir(), '--dependency-dir does not exist.')
@@ -197,13 +198,24 @@ def main():
     parser.add_argument('--output', type=Path)
     parser.add_argument('--duration', type=float)
     parser.add_argument('--audio-index', type=int)
-    parser.add_argument('--ffmpeg', default='ffmpeg')
-    parser.add_argument('--ffprobe', default='ffprobe')
+    parser.add_argument('--ffmpeg')
+    parser.add_argument('--ffprobe')
+    parser.add_argument('--runtime-config', type=Path, help='Optional machine-local runtime.json override.')
     parser.add_argument('--model-dir', type=Path)
     parser.add_argument('--dependency-dir', type=Path)
     parser.add_argument('--language', default='zh')
     args = parser.parse_args()
     try:
+        config = read_config(args.runtime_config)
+        args.ffmpeg = args.ffmpeg or config.get('ffmpeg') or 'ffmpeg'
+        args.ffprobe = args.ffprobe or config.get('ffprobe') or 'ffprobe'
+        if args.model_dir is None and config.get('model_dir'):
+            args.model_dir = Path(config['model_dir'])
+        if args.command == 'transcribe' and config.get('python') and not args.dependency_dir:
+            configured_python = Path(config['python']).resolve()
+            require(configured_python.is_file(), 'Saved Python path is unavailable; rerun initialization on this computer.')
+            if configured_python != Path(sys.executable).resolve():
+                return subprocess.call([str(configured_python), str(Path(__file__).resolve()), *sys.argv[1:]])
         path = args.input.resolve()
         require(path.is_file(), 'Input must be an existing local media file.')
         command = {'inspect': inspect, 'pad-tail': pad_tail, 'mute-reference': mute_reference, 'transcribe': transcribe}[args.command]

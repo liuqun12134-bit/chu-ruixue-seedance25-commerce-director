@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261107-cream-platform-category-take-platform",
+  "title": "从顶面已有膏体取霜，再接触面颊",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261107-cream-platform-category/record.json"
+    ],
+    "limitations": [
+      "全片解码通过；视觉检查采用每秒 2 帧抽样和动作窗口序列，关键时点近似，未声称实时连续播放。",
+      "原声保留；本地机器转写未听审，台词、语气和成分/功效说法不作为本条动作结论。",
+      "未进行生成验证；现场反光不证明功效，不迁移曝光变化或整脸换肤。",
+      "眼周、配方搭配和适用人群不能仅凭演示推断；使用区域以当前产品真实说明为准。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "粉色顶面已有可见浅色膏体；一手持容器，另一手可取用。"
+    ],
+    "action": "将顶面朝镜头保持可见，指腹抹取其上已有膏体，然后接触画面右侧面颊并开始推开。首帧出料已完成，不能把开头写成从零开始挤出。",
+    "transition": "取霜手转为局部涂抹，容器仍由另一手持住。",
+    "end_state": "少量膏体转移到面颊，顶面留有残余。",
+    "expected_effect": "建立顶面膏体到指腹、再到皮肤的真实转移。",
+    "avoid": [
+      "不把按压顶面当作可旋开的普通盖；不忽略首帧已有膏。"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261107-cream-platform-category/record.json",
+    "unit_id": "take-platform"
+  },
+  "legacy_context": {
+    "category": "面霜",
+    "product_form": "可由确认的顶部出料结构转移的膏霜",
+    "container": "中央出料、顶面承接的按压容器；须按当前产品参考确认",
+    "body_part": "面颊",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "约 0.0–3.5 秒",
+  "migration_source_sha256": "e99b6d83eba7f0234f8943d615604b95c3331f07991b186ddf6e29649ef829f2"
+}

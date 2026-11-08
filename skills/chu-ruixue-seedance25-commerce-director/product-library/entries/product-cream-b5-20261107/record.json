@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "record_type": "product",
+  "id": "product-cream-b5-20261107",
+  "title": "B5面霜（本批次原片包装）",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "旧对标产品登记，不自动视为用户新品。",
+    "source_refs": [
+      "demo-library/products.json"
+    ],
+    "limitations": [
+      "需主动采访确认目标产品身份与规则。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "role": "reference_only",
+  "aliases": [],
+  "reference_hashes": [
+    "ed023cf0d4cf276323bb1eb907d239d2533218a098927970ee93974d435a9689"
+  ],
+  "category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "facts": {
+    "packaging": {
+      "value": "白色矮圆罐、浅紫色旋盖；开盖后可见浅色膏霜。产品称呼来自用户提供的目录，品牌、规格与配方未另行核实。",
+      "status": "observed",
+      "basis": "旧来源登记，非本次重新观察"
+    },
+    "net_content": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "dimensions": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "contents": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "texture": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "usage": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "body_parts": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "finish": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "selling_points": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    }
+  },
+  "match_fields": {
+    "texture": null,
+    "packaging": null,
+    "body_part": null
+  },
+  "rules": [],
+  "interview": {
+    "asked": [],
+    "missing_core": [
+      "目标产品身份",
+      "品类确认",
+      "用法与效果",
+      "包装规格"
+    ],
+    "supplement_answer": null,
+    "complete": false
+  },
+  "migration_source_sha256": "7cd04aaf63ff3c5ab430df1d6f323466e977ccacad865e44dddaf4ca95c220b4"
+}

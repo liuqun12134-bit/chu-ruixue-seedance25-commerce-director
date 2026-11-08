@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "library": "script",
+  "entries": [
+    {
+      "schema_version": 1,
+      "record_type": "script",
+      "id": "script-ginseng-oil-show-use",
+      "title": "人参油：看清人参、试用、展示光泽",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-08",
+      "updated_on": "2026-11-08",
+      "provenance": {
+        "kind": "user_authored",
+        "basis": "本次用户确认的脚本构思，整理为可重排路线。",
+        "source_refs": [
+          "script-library/sources/user-design-20261108.txt"
+        ],
+        "limitations": [
+          "不是本次重新观看的视频流程；动作引用待按具体产品、首帧和音频选择；未生成验证。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "categories": [
+        "面部护理油"
+      ],
+      "product_ids": [],
+      "source_category": {
+        "value": "面部护理油",
+        "basis": "user_confirmed"
+      },
+      "goal": "看清瓶内人参和实际使用后的适当光泽",
+      "adaptation_notes": "按实际原声调整可换序环节；卖点展示不强制绑定成分词；保留操作依赖与结果。",
+      "source_sequence": [
+        "show-root",
+        "apply",
+        "show-finish",
+        "close"
+      ],
+      "initial_state_satisfies": [
+        "首帧已经完成试用时，可承接show-finish；不能伪造新的取用过程"
+      ],
+      "maintained_states": [
+        "人参始终位于同一瓶内；是否可晃动以实际结构为准",
+        "涂后表面状态在后续动作中持续，光泽变化符合角度与光线"
+      ],
+      "effect_required": true,
+      "effect_stage_ids": [
+        "show-finish"
+      ],
+      "stages": [
+        {
+          "id": "show-root",
+          "goal": "展示瓶内人参",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "产品介绍",
+            "人参卖点",
+            "推荐"
+          ],
+          "entry_state": "本品确有可见人参，持瓶稳定",
+          "action_options": [],
+          "exit_state": "人参被看清",
+          "carry_forward": [
+            "瓶内人参与产品结构持续一致"
+          ],
+          "acceptance": [
+            "人参被看清"
+          ]
+        },
+        {
+          "id": "apply",
+          "goal": "完成所选部位的真实试用",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "使用方法",
+            "肤感体验"
+          ],
+          "entry_state": "已确认包装用法和适用部位",
+          "action_options": [],
+          "exit_state": "实际接触部位形成符合本品的涂后状态",
+          "carry_forward": [],
+          "acceptance": [
+            "实际接触部位形成符合本品的涂后状态"
+          ]
+        },
+        {
+          "id": "show-finish",
+          "goal": "离手展示实际光泽",
+          "required": true,
+          "depends_on": [
+            "apply"
+          ],
+          "audio_intents": [
+            "肤感",
+            "效果",
+            "推荐"
+          ],
+          "entry_state": "所选部位已完成使用",
+          "action_options": [],
+          "exit_state": "原光线下看清适当光泽",
+          "carry_forward": [
+            "已涂状态保持到后续镜头"
+          ],
+          "acceptance": [
+            "原光线下看清适当光泽"
+          ]
+        },
+        {
+          "id": "close",
+          "goal": "推荐收尾",
+          "required": true,
+          "depends_on": [
+            "show-root",
+            "show-finish"
+          ],
+          "audio_intents": [
+            "推荐",
+            "购买引导"
+          ],
+          "entry_state": "核心演示完成",
+          "action_options": [],
+          "exit_state": "产品与已涂状态连续保留",
+          "carry_forward": [],
+          "acceptance": [
+            "产品与已涂状态连续保留"
+          ]
+        }
+      ],
+      "path": "script-library/entries/script-ginseng-oil-show-use/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "script",
+      "id": "script-toneup-face",
+      "title": "素颜霜：面部使用与妆效展示",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-08",
+      "updated_on": "2026-11-08",
+      "provenance": {
+        "kind": "user_authored",
+        "basis": "本次用户确认的脚本构思，整理为可重排路线。",
+        "source_refs": [
+          "script-library/sources/user-design-20261108.txt"
+        ],
+        "limitations": [
+          "不是本次重新观看的视频流程；动作引用待按具体产品、首帧和音频选择；未生成验证。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "categories": [
+        "素颜霜"
+      ],
+      "product_ids": [],
+      "source_category": {
+        "value": "素颜霜",
+        "basis": "user_confirmed"
+      },
+      "goal": "真实完成面颊试用，并展示自然白亮妆效",
+      "adaptation_notes": "按实际原声调整可换序环节；卖点展示不强制绑定成分词；保留操作依赖与结果。",
+      "source_sequence": [
+        "baseline",
+        "apply",
+        "show-finish",
+        "close"
+      ],
+      "initial_state_satisfies": [
+        "首帧已涂好时可直接承接效果展示，记录已满足apply；不能重置首帧"
+      ],
+      "maintained_states": [
+        "膏痕可以变薄消散，妆效不能一起消失",
+        "转头/转手、遮挡、离手及收尾仍保持已涂区域的妆效",
+        "未接触区域不随曝光或换肤同步变白"
+      ],
+      "effect_required": true,
+      "effect_stage_ids": [
+        "show-finish"
+      ],
+      "stages": [
+        {
+          "id": "baseline",
+          "goal": "看清原始肤感",
+          "required": false,
+          "depends_on": [],
+          "audio_intents": [
+            "肤感",
+            "使用前状态"
+          ],
+          "entry_state": "面颊处于真实首帧状态",
+          "action_options": [],
+          "exit_state": "原始状态与试用位置清楚",
+          "carry_forward": [],
+          "acceptance": [
+            "原始状态与试用位置清楚"
+          ]
+        },
+        {
+          "id": "apply",
+          "goal": "少量取用并推匀",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "使用方法",
+            "自然白亮",
+            "肤感"
+          ],
+          "entry_state": "本品适用该部位；包装和手位允许取用",
+          "action_options": [],
+          "exit_state": "面颊厚膏痕逐步推薄，形成符合本品的妆效",
+          "carry_forward": [],
+          "acceptance": [
+            "面颊厚膏痕逐步推薄，形成符合本品的妆效"
+          ]
+        },
+        {
+          "id": "show-finish",
+          "goal": "离手展示涂后效果",
+          "required": true,
+          "depends_on": [
+            "apply"
+          ],
+          "audio_intents": [
+            "妆效",
+            "肤感",
+            "推荐"
+          ],
+          "entry_state": "所选区域已完成推匀",
+          "action_options": [],
+          "exit_state": "看清自然白亮，未涂区域保持原状",
+          "carry_forward": [
+            "转动角度或遮挡后，已涂妆效仍然存在"
+          ],
+          "acceptance": [
+            "看清自然白亮，未涂区域保持原状"
+          ]
+        },
+        {
+          "id": "close",
+          "goal": "持品交流收尾",
+          "required": true,
+          "depends_on": [
+            "show-finish"
+          ],
+          "audio_intents": [
+            "推荐",
+            "购买引导"
+          ],
+          "entry_state": "必需展示完成",
+          "action_options": [],
+          "exit_state": "保持妆效与真实肤质，不退回涂前状态",
+          "carry_forward": [],
+          "acceptance": [
+            "保持妆效与真实肤质，不退回涂前状态"
+          ]
+        }
+      ],
+      "path": "script-library/entries/script-toneup-face/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "script",
+      "id": "script-toneup-handback",
+      "title": "素颜霜：手背试涂与白亮展示",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-08",
+      "updated_on": "2026-11-08",
+      "provenance": {
+        "kind": "user_authored",
+        "basis": "本次用户确认的脚本构思，整理为可重排路线。",
+        "source_refs": [
+          "script-library/sources/user-design-20261108.txt"
+        ],
+        "limitations": [
+          "不是本次重新观看的视频流程；动作引用待按具体产品、首帧和音频选择；未生成验证。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "categories": [
+        "素颜霜"
+      ],
+      "product_ids": [],
+      "source_category": {
+        "value": "素颜霜",
+        "basis": "user_confirmed"
+      },
+      "goal": "真实完成手背试用，并展示自然白亮妆效",
+      "adaptation_notes": "按实际原声调整可换序环节；卖点展示不强制绑定成分词；保留操作依赖与结果。",
+      "source_sequence": [
+        "baseline",
+        "apply",
+        "show-finish",
+        "close"
+      ],
+      "initial_state_satisfies": [
+        "首帧已涂好时可直接承接效果展示，记录已满足apply；不能重置首帧"
+      ],
+      "maintained_states": [
+        "膏痕可以变薄消散，妆效不能一起消失",
+        "转头/转手、遮挡、离手及收尾仍保持已涂区域的妆效",
+        "未接触区域不随曝光或换肤同步变白"
+      ],
+      "effect_required": true,
+      "effect_stage_ids": [
+        "show-finish"
+      ],
+      "stages": [
+        {
+          "id": "baseline",
+          "goal": "看清原始肤感",
+          "required": false,
+          "depends_on": [],
+          "audio_intents": [
+            "肤感",
+            "使用前状态"
+          ],
+          "entry_state": "手背处于真实首帧状态",
+          "action_options": [],
+          "exit_state": "原始状态与试用位置清楚",
+          "carry_forward": [],
+          "acceptance": [
+            "原始状态与试用位置清楚"
+          ]
+        },
+        {
+          "id": "apply",
+          "goal": "少量取用并推匀",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "使用方法",
+            "自然白亮",
+            "肤感"
+          ],
+          "entry_state": "本品适用该部位；包装和手位允许取用",
+          "action_options": [],
+          "exit_state": "手背厚膏痕逐步推薄，形成符合本品的妆效",
+          "carry_forward": [],
+          "acceptance": [
+            "手背厚膏痕逐步推薄，形成符合本品的妆效"
+          ]
+        },
+        {
+          "id": "show-finish",
+          "goal": "离手展示涂后效果",
+          "required": true,
+          "depends_on": [
+            "apply"
+          ],
+          "audio_intents": [
+            "妆效",
+            "肤感",
+            "推荐"
+          ],
+          "entry_state": "所选区域已完成推匀",
+          "action_options": [],
+          "exit_state": "看清自然白亮，未涂区域保持原状",
+          "carry_forward": [
+            "转动角度或遮挡后，已涂妆效仍然存在"
+          ],
+          "acceptance": [
+            "看清自然白亮，未涂区域保持原状"
+          ]
+        },
+        {
+          "id": "close",
+          "goal": "持品交流收尾",
+          "required": true,
+          "depends_on": [
+            "show-finish"
+          ],
+          "audio_intents": [
+            "推荐",
+            "购买引导"
+          ],
+          "entry_state": "必需展示完成",
+          "action_options": [],
+          "exit_state": "保持妆效与真实肤质，不退回涂前状态",
+          "carry_forward": [],
+          "acceptance": [
+            "保持妆效与真实肤质，不退回涂前状态"
+          ]
+        }
+      ],
+      "path": "script-library/entries/script-toneup-handback/record.json"
+    }
+  ]
+}

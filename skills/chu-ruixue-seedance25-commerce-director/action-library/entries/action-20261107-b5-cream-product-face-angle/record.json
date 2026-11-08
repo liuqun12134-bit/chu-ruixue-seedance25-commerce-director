@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261107-b5-cream-product-face-angle",
+  "title": "离手后略侧转靠近，展示当前肤面",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261107-b5-cream-product/record.json"
+    ],
+    "limitations": [
+      "全片解码通过；视觉检查采用每秒 2 帧抽样和动作窗口序列，关键时点近似，未声称实时连续播放。",
+      "原声保留；本地机器转写未听审，台词、语气和成分/功效说法不作为本条动作结论。",
+      "未进行生成验证；现场反光不证明功效，不迁移曝光变化或整脸换肤。",
+      "眼周、配方搭配和适用人群不能仅凭演示推断；使用区域以当前产品真实说明为准。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "已完成前述涂抹；镜头和照明基本保持。"
+    ],
+    "action": "活动手离开下颌附近，头部略侧转并靠近镜头，短暂露出一侧面颊，再恢复交流。",
+    "transition": "由肤面展示回到正常说话姿态。",
+    "end_state": "脸部可见，手不遮挡。",
+    "expected_effect": "看清当时的肤面与反光，不证明护肤功效或对比结果。",
+    "avoid": [
+      "不通过加亮曝光、更换皮肤或改变脸型夸大结果。"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261107-b5-cream-product/record.json",
+    "unit_id": "face-angle"
+  },
+  "legacy_context": {
+    "category": "面霜",
+    "product_form": "浅色膏霜；在取用与点涂阶段保持可见膏痕",
+    "container": "浅紫旋盖白色矮圆罐",
+    "body_part": "面颊、额头、鼻侧外部、下巴",
+    "product_id": "product-cream-b5-20261107",
+    "scope": "product"
+  },
+  "source_time": "约 64.0–71.5 秒",
+  "migration_source_sha256": "b04ddbc79c9f09173bb131e18b80d86637df02793bcab27d8515601f7132c1a5"
+}

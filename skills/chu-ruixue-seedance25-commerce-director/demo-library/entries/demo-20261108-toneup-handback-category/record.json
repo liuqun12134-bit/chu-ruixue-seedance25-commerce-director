@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261108-toneup-handback-category",
+  "title": "素颜霜手背：膏团推薄、持罐试涂与结束清理",
+  "record_type": "demo",
+  "modes": [
+    "use"
+  ],
+  "category": "素颜霜",
+  "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+  "product_form": "可从局部膏团推成较薄覆盖层的膏体",
+  "container": "罐装或软管；先安排容器与盖子",
+  "body_part": "手背、手腕",
+  "tags": [
+    "指腹接触膏团，逐段从手背推向腕侧",
+    "持罐手同时露出手背，另一手推开试样",
+    "结束时用已有纸巾擦拭试用区"
+  ],
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "summary": "从已落下的膏团逐步推开；保留容器放稳后试涂与持罐手背直接试涂两种条件。结束擦拭仅记录清理动作，不当作防蹭或持色测试。",
+  "scope": "category",
+  "product_id": null,
+  "enabled": true,
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户明确要求素颜霜品类入库；首批15条和补充6条共21个文件，来源及重复关系见source-manifest.json。",
+    "source_url": null,
+    "source_asset": "assets/sources/S02.mp4",
+    "notes_path": "source-notes.txt",
+    "analyzed_on": "2026-11-08",
+    "duration_seconds": 47.636364,
+    "time_reliability": "approximate",
+    "observation_method": "ffprobe测量；每2秒覆盖全时段抽帧审阅，关键交互2/4fps加密，选定原分辨率帧检查；精确重复T05复用T04视觉分析。",
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。",
+      "S11前段为已有膏体状态的手背补匀，未保留完整初次取样；后段纸巾接触不作为性能测试。"
+    ]
+  },
+  "preconditions": [
+    "手背上已有可见膏体或可靠的取样衔接。",
+    "先确定容器由谁持握、另一手是否空闲。"
+  ],
+  "units": [
+    {
+      "id": "spread",
+      "name": "指腹接触膏团，逐段从手背推向腕侧",
+      "source_time": "S01约14.5–24.5秒；S09约17.8–23.5秒；S02约3.5–8.5秒",
+      "observations": [
+        {
+          "source_id": "S01",
+          "start_seconds": 14.5,
+          "end_seconds": 24.5,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S01-12-27.mp4",
+          "media_start_offset_seconds": 12
+        },
+        {
+          "source_id": "S09",
+          "start_seconds": 17.8,
+          "end_seconds": 23.5,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S09-15.5-23.5.mp4",
+          "media_start_offset_seconds": 15.5
+        },
+        {
+          "source_id": "S02",
+          "start_seconds": 3.5,
+          "end_seconds": 8.5,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S02.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "膏团已在手背",
+        "另一手空闲且可覆盖试用区"
+      ],
+      "action": "操作手指腹接触局部膏团，以短程往返逐渐铺开；S09膏团先成为条状白痕，再逐渐变薄，手腕方向随实际接触补匀。",
+      "transition": "随着薄层分布调整手背角度，未触及的位置保留原状。",
+      "end_state": "试用区覆盖更薄，操作手离开后能看见纹理与残留。",
+      "expected_effect": "展示铺展过程；颜色和遮盖变化只随真实接触发生。",
+      "avoid": [
+        "不一碰就全手或全脸变白",
+        "不把重叠剪辑当持续揉搓",
+        "不统一限定揉几次"
+      ],
+      "prompt_fragment": "用空闲手指腹接触手背已有膏团，沿局部短程推开，再按实际残留补匀；膏痕由集中逐渐变薄，未接触位置保持原状。"
+    },
+    {
+      "id": "holding-jar",
+      "name": "持罐手同时露出手背，另一手推开试样",
+      "source_time": "T01约10.8–16.8秒",
+      "observations": [
+        {
+          "source_id": "T01",
+          "start_seconds": 10.8,
+          "end_seconds": 16.8,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/T01-10.5-17.mp4",
+          "media_start_offset_seconds": 10.5
+        }
+      ],
+      "start_conditions": [
+        "罐能由受试手稳握且罐口不向下",
+        "手背试用区可见且不影响持物"
+      ],
+      "action": "手掌继续握着圆罐，手背朝上；另一手将手背几处膏痕短程推匀。抬高手背时罐仍在同手中，没有释放该手。",
+      "transition": "维持握持再略抬手背展示，不让试涂变成换手或抛罐。",
+      "end_state": "同手持罐与手背薄层同时可见。",
+      "expected_effect": "展示手背铺展，也保留持品关系。",
+      "avoid": [
+        "不把膏体抹到罐壁",
+        "不让持罐手伸展成完全张掌",
+        "不称为已验证乳化"
+      ],
+      "prompt_fragment": "在握持可靠的前提下，让持罐手露出手背，用另一手推开已有试样；始终保留真实握罐接触和罐口朝向。"
+    },
+    {
+      "id": "cleanup",
+      "name": "结束时用已有纸巾擦拭试用区",
+      "source_time": "S14约36.3–38.5秒",
+      "observations": [
+        {
+          "source_id": "S14",
+          "start_seconds": 36.3,
+          "end_seconds": 38.5,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S14-35.5-38.52.mp4",
+          "media_start_offset_seconds": 35.5
+        }
+      ],
+      "start_conditions": [
+        "当前场景确有纸巾且本段需要结束试涂",
+        "容器已安放"
+      ],
+      "action": "拿起白色纸巾，贴住手背并短程擦过；片尾结束时仍在清理，后续纸巾颜色和皮肤残留没有完整展示。",
+      "transition": "保持纸巾与手背接触关系，结束后自然停手。",
+      "end_state": "记录到的终点是擦拭中，不预设完全擦净。",
+      "expected_effect": "只表示清理，不证明不掉色、防水或不沾衣。",
+      "avoid": [
+        "不新增纸巾做无依据性能测试",
+        "不瞬间清空残留"
+      ],
+      "prompt_fragment": "需要结束试涂且纸巾已在场时，用纸巾贴着试用区短程擦拭，按实际残留收尾，不额外展示未经证实的防蹭效果。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/keyframes/S01-14.75.jpg",
+      "timestamp_seconds": 14.75,
+      "source_id": "S01",
+      "role": "observed-evidence",
+      "observation": "可见膏团"
+    },
+    {
+      "path": "assets/keyframes/S09-18.133.jpg",
+      "timestamp_seconds": 18.133333,
+      "source_id": "S09",
+      "role": "observed-evidence",
+      "observation": "膏团推成局部白痕"
+    },
+    {
+      "path": "assets/keyframes/S02-6.jpg",
+      "timestamp_seconds": 6.0,
+      "source_id": "S02",
+      "role": "observed-evidence",
+      "observation": "另一手指腹在手背推匀"
+    },
+    {
+      "path": "assets/keyframes/T01-11.jpg",
+      "timestamp_seconds": 11.0,
+      "source_id": "T01",
+      "role": "observed-evidence",
+      "observation": "持罐手背有多处膏痕"
+    },
+    {
+      "path": "assets/keyframes/T01-14.jpg",
+      "timestamp_seconds": 14.0,
+      "source_id": "T01",
+      "role": "observed-evidence",
+      "observation": "持罐手背上短程推匀"
+    },
+    {
+      "path": "assets/keyframes/S14-38.jpg",
+      "timestamp_seconds": 38.0,
+      "source_id": "S14",
+      "role": "observed-evidence",
+      "observation": "纸巾接触手背清理"
+    }
+  ],
+  "source_manifest": "source-manifest.json",
+  "evidence_media": [
+    {
+      "source_id": "S02",
+      "media_path": "assets/sources/S02.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 47.636364,
+      "duration_seconds": 47.636364,
+      "sha256": "566db22c4c408115076fd0539b1112e5b9c0dda06520b94e245bf6ee61cb51b9",
+      "audio_state": "original"
+    },
+    {
+      "source_id": "S11",
+      "media_path": "assets/sources/S11.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 17.321995,
+      "duration_seconds": 17.321995,
+      "sha256": "3c7db92932ab8aca53662ba051ce686f34ab4b5b7d8fc6e65f54e837c8d62a3b",
+      "audio_state": "original"
+    },
+    {
+      "source_id": "S01",
+      "media_path": "assets/sources/S01-12-27.mp4",
+      "kind": "continuous_clip_reencoded",
+      "source_start_seconds": 12,
+      "source_end_seconds": 27,
+      "duration_seconds": 15.0,
+      "sha256": "4ff4b78af315f1065c237d830cbd7106511856deb8e881880f8ed7b424160277",
+      "audio_state": "original_content_reencoded",
+      "timing_note": "输入精确寻址后截取，边缘精度受帧间隔限制；动作时间仍引用原文件。"
+    },
+    {
+      "source_id": "S09",
+      "media_path": "assets/sources/S09-15.5-23.5.mp4",
+      "kind": "continuous_clip_reencoded",
+      "source_start_seconds": 15.5,
+      "source_end_seconds": 23.5,
+      "duration_seconds": 8.0,
+      "sha256": "4ce9ac88cdbfd85e6eea36d604aadb3240be51bdeb5beab0ba7a66e4d1eede29",
+      "audio_state": "original_content_reencoded",
+      "timing_note": "输入精确寻址后截取，边缘精度受帧间隔限制；动作时间仍引用原文件。"
+    },
+    {
+      "source_id": "S14",
+      "media_path": "assets/sources/S14-35.5-38.52.mp4",
+      "kind": "continuous_clip_reencoded",
+      "source_start_seconds": 35.5,
+      "source_end_seconds": 38.52,
+      "duration_seconds": 3.022727,
+      "sha256": "705a032b379ec78c8780d9fed875e0f02102282e841c88ec939882443f493608",
+      "audio_state": "original_content_reencoded",
+      "timing_note": "输入精确寻址后截取，边缘精度受帧间隔限制；动作时间仍引用原文件。"
+    },
+    {
+      "source_id": "T01",
+      "media_path": "assets/sources/T01-10.5-17.mp4",
+      "kind": "continuous_clip_reencoded",
+      "source_start_seconds": 10.5,
+      "source_end_seconds": 17,
+      "duration_seconds": 6.5,
+      "sha256": "563b68e6a2e5a6e4b76f1b04b01d6745541afeef2e43dc2f78be41127045156d",
+      "audio_state": "original_content_reencoded",
+      "timing_note": "输入精确寻址后截取，边缘精度受帧间隔限制；动作时间仍引用原文件。"
+    }
+  ],
+  "batch_id": "20261108-toneup-cream"
+}

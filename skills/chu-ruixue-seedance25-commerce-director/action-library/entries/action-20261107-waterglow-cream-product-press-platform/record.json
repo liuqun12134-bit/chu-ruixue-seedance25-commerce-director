@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261107-waterglow-cream-product-press-platform",
+  "title": "举近顶部，双指按压后露出新增膏体",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261107-waterglow-cream-product/record.json"
+    ],
+    "limitations": [
+      "全片解码通过；视觉检查采用每秒 2 帧抽样和动作窗口序列，关键时点近似，未声称实时连续播放。",
+      "原声保留；本地机器转写未听审，台词、语气和成分/功效说法不作为本条动作结论。",
+      "未进行生成验证；现场反光不证明功效，不迁移曝光变化或整脸换肤。",
+      "眼周、配方搭配和适用人群不能仅凭演示推断；使用区域以当前产品真实说明为准。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "确认是原片同样的顶面按压出料容器；容器竖直，手可稳定承托。"
+    ],
+    "action": "将粉色顶面举近并朝向镜头，手指接触顶面两侧后向下按压，随后抬手；中央浅色膏体由小点变为较明显膏团。只记录可见出料变化，不推定内部真空结构和精确出料量。",
+    "transition": "抬手让顶面膏体清楚可见，之后可按当前任务取用或收回容器。",
+    "end_state": "顶面中央新增膏体，瓶身仍完整未拆开。",
+    "expected_effect": "展示该包装的按压出料与顶面承接。",
+    "avoid": [
+      "不旋拧拆开顶面；不凭空增加泵嘴；不写固定按压次数或克数。"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261107-waterglow-cream-product/record.json",
+    "unit_id": "press-platform"
+  },
+  "legacy_context": {
+    "category": "面霜",
+    "product_form": "浅色膏霜，推开后呈较薄的可见反光层",
+    "container": "白色高筒容器、玫瑰金肩环、粉色按压顶面",
+    "body_part": "面颊、鼻侧外部、下巴、额头",
+    "product_id": "product-cream-waterglow-20261107",
+    "scope": "product"
+  },
+  "source_time": "约 88.5–91.5 秒",
+  "migration_source_sha256": "f29952cdc00d1f2aa3066e81248d7fba820dca30a3f070ba08824f7a6a8a8d6c"
+}

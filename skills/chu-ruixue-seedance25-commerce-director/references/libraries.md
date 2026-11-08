@@ -1,36 +1,63 @@
-# 三类库与匹配规则
+# 四库与数据格式
 
-| 库 | 保存位置 | 解决什么 | 选择依据 |
-| --- | --- | --- | --- |
-| 产品专属演示库 | demo-library，scope=product | 具体商品能怎样展示、使用 | 确认同款、结构和当前条件相容 |
-| 品类演示库 | demo-library，scope=category | 某类产品能怎样展示、使用 | 形态、包装、部位、当前手位和时长 |
-| 初瑞雪通用表现库 | performance-library | 她表达某类意思时怎样动、怎样交流 | 表达类别、关键词/相近说法、情绪/语气、本人证据与当前条件 |
+## 存放
 
-三个逻辑库存于两个目录。人物库不再区分 general/language；一条记录同时保存话术归类和连续动作，多条观察共用来源视频。产品/品类独立副本的证据及限制不变，不从其中身份未确认的人物推导初瑞雪习惯。
+- product-library/entries/PRODUCT/record.json：产品；该目录failures/CASE.json为失败记录。
+- script-library/entries/SCRIPT/record.json：完整脚本。
+- action-library/entries/ACTION/record.json：一个共用动作。
+- performance-library：原v2真人库，见[人物格式](performance-format.md)。
+- demo-library只保留旧来源资产和兼容索引，不是第五个编排库。
 
-## 从台词匹配本人表现
+index.json由记录派生，不是另一套事实。source_refs、媒体引用使用技能根相对路径，不含盘符、URL、..。新媒体存所属库sources或记录assets；引用同源，不复制成独立证据。
 
-1. 理解本次原声各语义段的表达意图和语气，例如引导购买、强调提醒、解释原因、反问互动。类别来自实际内容，不是固定穷举表；“提醒”是意图，“认真/调侃”是语气，两者分开。
-2. 读人物索引，按类别、已观察关键词和推扩的相近说法召回已核实关联。`python scripts/catalog.py performances --mode talk --intent 引导购买 --text "喜欢的可以拍了"` 返回该类全部候选和词面命中；不确定类别时省略 `--intent`，查看全部可用候选再判断语义。命令不替代 AI 理解整句，也不自动决定最终动作。
-3. 没有字面关键词但表达同类意思，也可匹配；否定、引用、反例或不同意图不能照搬。“先别下单，听我讲完”不能仅因“下单”命中购买引导。
-4. 核对情绪/语气、持物、姿态、前后状态，选择适用表现，安排在这一段的重音、意思落点或过渡处。同类可有多种表现；连续同类说法可共用一组完整动作，不逐词触发或每句必做。
-5. 无相容记录允许零条，必要交流与收势明示为设计补充。待补全记录不进入默认编排候选，不以“通用库兜底”将未确认的关系写成真人习惯。
+## 新记录格式
 
-“赶紧拍、快下单、挂上车了 → 引导购买 → 向下指”是用户说明目标结构的例子，须从本人原片验证后才成为正式记录。真实出现的关键词和推扩的近义表达分列。
+三个新库schema_version=1，稳定ASCII id，record_type，title，enabled，status(draft/ready)，created_on/updated_on，provenance。模板见[产品](../templates/product-record.json)、[脚本](../templates/script-record.json)、[动作](../templates/action-record.json)、[失败](../templates/failure-record.json)。模板不进索引，空项需补齐。
 
-## 状态与证据
+provenance含kind(user_interview/user_authored/video_analysis/authored_method/legacy_migration)、basis、source_refs、limitations。generation_status=untested/tested；tested需generation_evidence文件依据，不能由结构验证升级。
 
-- `expression.status=ready`：类别、原话、语气、动作对应关系及区间已核查，可用于编排。`example` 是一次样例；`repeated_observation` 至少有两个独立来源家族，并说明一致点与差异，不代表无条件习惯。
-- `expression.status=pending`：保留已观察动作和来源，列明欠缺的核查。可保留待审线索，未知字段留空，清单显示“待核查”；不猜类别填表。`--include-pending` 仅用于查看库存，输出仍标记不可作为已核实关联编排。
+### 产品
 
-待补全是同一人物库的工作状态，不是第四类库。
+role=target/reference_only；旧对标迁移为reference_only，不可自动识别为用户新品。aliases、reference_hashes用于精确识别，重复绑定阻止；重新导出图片不能靠旧hash认同款。
 
-## 产品/品类选择与维护
+category={value,basis}，basis为user_confirmed/document_confirmed/legacy/unknown。facts包含packaging、net_content、dimensions、contents、texture、usage、body_parts、finish、selling_points，各项{value,basis,status}，未知null。match_fields为texture/packaging/body_part检索标签列表，未知null；不把空列表当不限。
 
-先判断适用性，再比较相关性。适用同款优先，缺的环节用同品类补足；同款不适用不能硬用。用 `catalog.py units` 展开全部单元，不只看标题或第一条面颊动作。
+rules各项id/text/status(confirmed/pending)/modes/trigger/basis。规则写条件和目标，不把每个卖点都变成每条必演。interview有asked、missing_core、supplement_answer、complete；ready目标需要已确认分类、关键用法、用户对最后补充问题已有回答。history保存更新依据与旧值。
 
-产品适用部位、真实结构、持物、承托、接触转移和配件去向是事实条件；“只选一个局部、固定次数、小幅、始终举品”等是旧导演取舍，可以重编排。不能丢掉事实，也不能把新设计写成原片已有观察。
+### 动作
 
-`catalog.py reindex` 重建两个索引，`validate` 检查记录、来源、资产、哈希与关联状态，`review` 生成按表达类别组织的清单。`scripts/library.py` 仍只管理本技能产品/品类库，其记录级筛选不替代导演判断。
+applicability固定五项category/texture/packaging/body_part/purpose，每项{mode,values,basis}：constrained有非空values；unrestricted空values且解释为什么与动作无关；unknown空values，未知不能当不限。
 
-只维护用户指定目标；整个技能独立迁移，不共享旧版可写目录，不因读取外部参考而覆盖旧版本。
+source_category记录来源分类，不等于所有适用品类。approved_product_ids为有依据的适用关联，不能覆盖包装等硬条件。sequence保存start_conditions/action/transition/end_state/expected_effect/avoid。legacy_ref={record_path,unit_id}追溯旧单元；迁移标签未核实保持draft和migration_needs_review。
+
+### 脚本
+
+categories为分类，product_ids为空可共享。source_category保存来源分类依据，source_sequence保存原顺序。stages各项id/goal/required/depends_on/audio_intents/entry_state/action_options/exit_state/carry_forward/acceptance。depends_on仅写因果，不能锁死原片所有顺序；initial_state_satisfies说明已完成前置条件的首帧。
+
+effect_required=true时effect_stage_ids必须指向必需展示环节；maintained_states写转头/遮挡/收尾仍需保持的状态。完整脚本可user_authored且untested；来源片段不足则draft。
+
+### 失败
+
+record_type=failure、product_id和目录一致。input_files项为role/path/sha256，缺资料列unknowns。user_problem、observations、hypotheses、proposed_changes分开。findings项为classification/evidence/confidence。rule_updates只能以user_requirement/verified_product_fact为reason_kind，引用已存在的正式rule_id；原因假设不得晋升规则。attempts保存测试变化、结果、证据、适用范围。
+
+## 工具
+
+```text
+python scripts/studio.py products
+python scripts/studio.py resolve-product --product-id PRODUCT
+python scripts/studio.py resolve-product --image IMAGE
+python scripts/studio.py bind-product --product-id PRODUCT --image IMAGE
+python scripts/studio.py actions --product-id PRODUCT --mode use --body-part 手背 --purpose 涂后展示
+python scripts/studio.py scripts --product-id PRODUCT --mode use
+python scripts/catalog.py performances --mode talk --intent 引导购买 --text "喜欢的可以拍了"
+```
+
+动作返回candidates/excluded及reasons/needs_review。产品标签与明确限制冲突排除；未知只作为待核查候选，不能当通过。跨品类可经已记录产品适用关联召回，但其他维度仍检查。标签采用如油状/膏霜、滴管瓶/旋盖罐、手背/面颊、涂后展示的短词；近义标签由导演阅读原记录判断，不把词不相等直接等同物理冲突。
+
+脚本召回后仍由导演按音频、时长、首帧重排。只用ready人物关联，pending不是可用习惯。
+
+## 迁移与维护
+
+studio.py migrate仅新增缺失迁移记录，重跑不覆盖修改；来源变更报告冲突。旧产品→reference_only，旧单元→有legacy_ref的共用动作，旧标签未核实不伪装ready。不会自动把单元串成已观察完整脚本。
+
+维护后catalog.py reindex、validate、review；所有记录通过才生成索引。legacy library.py用于旧资产检查；新增目标产品和图片绑定用studio.py，避免写回旧产品表。

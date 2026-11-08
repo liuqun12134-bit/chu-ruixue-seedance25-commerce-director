@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-legacy-cream-talk-01-finish",
+  "title": "展示回稳与结束设计",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-05",
+  "updated_on": "2026-11-05",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-legacy-cream-talk-01/record.json"
+    ],
+    "limitations": [
+      "本轮是覆盖可读全时段的抽帧序列视觉分析，并非实时播放或全帧连续性认证；关键交互加密至每秒2或4帧。",
+      "没有听审或转写音轨，不提供台词、词句对齐、语气及口型同步结论。",
+      "动作区间为近似；保存关键帧时间来自实际帧PTS。画外放置和被遮挡的步骤未知。",
+      "视频中的美颜、曝光、剪辑、字幕与图板不能证明成分、浓度、即时塑形或长期功效；生成可行性未验证。",
+      "各来源的黑罐/银罐、规格及膏体颜色不视为同一产品；仅归面霜品类，不登记精准产品身份。",
+      "原视频未复制入库或上传；source-manifest.json保留文件名、哈希、实测时长，重查原片仍需原文件。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "当前罐体位置明确"
+    ],
+    "action": "可见来源为轻举/小转罐体并继续面对镜头交流。正式稿按新原声安排动作回稳与自然停口。",
+    "transition": "收回多余手势，保持罐体可辨。",
+    "end_state": "原有产品及人物状态连续。",
+    "expected_effect": "展示稳定；不新增使用结果。",
+    "avoid": [
+      "不复刻原片末端撤品或剪辑",
+      "不添加无声片尾"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-legacy-cream-talk-01/record.json",
+    "unit_id": "finish"
+  },
+  "legacy_context": {
+    "category": "面霜",
+    "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+    "container": "有盖罐；独立内片仅在参考确认时使用",
+    "body_part": null,
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "W52约12–15秒为持品展示；随原声停口是本次导演设计，未听审验证",
+  "migration_source_sha256": "d9c24f41fd203ae00d4b1ddf936e5e92affebb735294815b43ef9d2289937917"
+}

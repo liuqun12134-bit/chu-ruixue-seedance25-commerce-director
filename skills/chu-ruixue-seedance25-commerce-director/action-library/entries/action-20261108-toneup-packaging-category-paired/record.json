@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261108-toneup-packaging-category-paired",
+  "title": "两件已确认包装并列展示",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261108-toneup-packaging-category/record.json"
+    ],
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。",
+      "T06可见可拆外壳与内罐，但本条不把拆胆、复装结构收为通用动作；需当前产品结构另行确认。",
+      "T03与T01/T04属于同场剪辑家族；T06与S06按相同场景归同组，不计独立人物习惯。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk"
+  ],
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "素颜霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "本次确有两件指定包装",
+      "双手各能持稳一件"
+    ],
+    "action": "先举一件，再把另一件移到旁边；圆罐与软管同时可见，略错开避免互相挡住。",
+    "transition": "停稳后按当前场景安排放回；原片剪辑不提供完整的放回链。",
+    "end_state": "两件仍分别有明确持手。",
+    "expected_effect": "展示包装关系，不自行宣布两件配方、容量或用途相同。",
+    "avoid": [
+      "不由单件首帧复制第二件",
+      "不把双品操作默认加入单品任务"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261108-toneup-packaging-category/record.json",
+    "unit_id": "paired"
+  },
+  "legacy_context": {
+    "category": "素颜霜",
+    "product_form": "内容物未展示时不推定质地",
+    "container": "软管或圆罐；双包装必须事先确认",
+    "body_part": null,
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "S06约4.8–6.3秒；S12约3–7秒",
+  "migration_source_sha256": "3cf18cc6ab68641a05b311fbf049c7b44821b8f1c8c9430722338de35f4952ee"
+}

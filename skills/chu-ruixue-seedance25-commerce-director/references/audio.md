@@ -7,7 +7,7 @@
 ## 生成前
 
 1. **锁定唯一版本**：读实际输入，记录文件哈希、音轨数、容器长度和解码后的音频长度。多份同名/剪辑音频不要按名字猜。用户确认实际上传文件后保留该映射。
-2. **理解内容**：使用可用本地 ASR/可靠听取，按语义分句，核对可疑重复、断句、尾句。逐句时间和词时间默认是估计；未听审就标“机器转写未复核”。有用户稿时对照，不能自动用机器稿覆盖用户原词。
+2. **理解内容**：优先复用初始化配置的本地 ASR/可靠听取，按语义分句，核对可疑重复、断句、尾句。逐句时间和词时间默认是估计；未听审就标“机器转写未复核”。有用户稿时对照，不能自动用机器稿覆盖用户原词。
 3. **安排行为**：主要动作服从原声长度，最后一句说完停口收势。不为凑视频整数秒拉长语速、复读尾词或增加新的无声产品尾镜。
 4. **隔离其他音轨**：人物参考原件保留声音用于分析。实际上传动作视频且不需要其声音时，另存无声副本；只用确认后的口播音频作为声音来源。只在提示词说“忽略参考声音”不能代替真正检查文件音轨。
 5. **有必要才补尾部静音**：先查当前入口是否支持音频的实际时长。若确需更长的视频参数，可另存到允许时长的静音补尾版本，不改语速、不循环、不截掉原话。这是待验证的预防措施，不能承诺解决复读。明确原话结束点，额外时长自然停口。
@@ -20,12 +20,13 @@ Python 3.10+、ffmpeg/ffprobe 可用时，`scripts/audio.py` 提供以下本地�
 
 ```text
 python scripts/audio.py inspect INPUT
+python scripts/audio.py transcribe INPUT --output OUTPUT.json
 python scripts/audio.py transcribe INPUT --model-dir LOCAL_MODEL --output OUTPUT.json
 python scripts/audio.py pad-tail INPUT --duration SECONDS --output OUTPUT.wav
 python scripts/audio.py mute-reference INPUT.mp4 --output OUTPUT.mp4
 ```
 
-`inspect` 同时报容器/音轨长度与 PCM 解码长度；不能检测复读或认证口型。`transcribe` 用本地 faster-whisper，支持 `--dependency-dir` 指向已有 Python 包目录；模型必须已在本地，不自动下载、安装或上传。输出保留输入哈希、估计词时间和未听审状态。原模型的词概率不是词句正确性的保证。
+`inspect` 同时报容器/音轨长度与 PCM 解码长度；不能检测复读或认证口型。`transcribe` 用本地 faster-whisper，默认从机器初始化配置读取 Python、FFmpeg 和模型路径；未配置时仍可显式指定 `--model-dir`、`--dependency-dir`。音频处理命令不下载、安装或上传；用户启动[初始化](initialization.md)后由初始化脚本统一补齐缺项。输出保留输入哈希、估计词时间和未听审状态。原模型的词概率不是词句正确性的保证。
 
 脚本不提供“一键删重复词”或自动换轨，因为它不能判断强调、原话或口型。无可用 ASR 时说明能力缺口，先依据用户稿/语义做方案；关键的最终时序不能伪装为已经核对。
 

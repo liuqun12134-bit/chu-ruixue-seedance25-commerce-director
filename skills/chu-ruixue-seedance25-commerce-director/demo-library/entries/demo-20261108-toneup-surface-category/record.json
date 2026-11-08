@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261108-toneup-surface-category",
+  "title": "素颜霜涂后：近镜、同光并列与指示局部",
+  "record_type": "demo",
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "category": "素颜霜",
+  "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+  "product_form": "已有试涂状态，具体底色与覆盖以当前画面为准",
+  "container": "此时持物可有可无，保持真实手位",
+  "body_part": "手背、前臂",
+  "tags": [
+    "离手后举近手背并微转腕部",
+    "两处肤面放在相近平面并列",
+    "指尖指示试用区边缘后撤开"
+  ],
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "summary": "离手后举近当前试用区、把两处肤面放到相近光线和景深中，或用指尖指示局部边缘。不同部位的色差不作为严格前后对照。",
+  "scope": "category",
+  "product_id": null,
+  "enabled": true,
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户明确要求素颜霜品类入库；首批15条和补充6条共21个文件，来源及重复关系见source-manifest.json。",
+    "source_url": null,
+    "source_asset": "assets/sources/S03.mp4",
+    "notes_path": "source-notes.txt",
+    "analyzed_on": "2026-11-08",
+    "duration_seconds": 46.666667,
+    "time_reliability": "approximate",
+    "observation_method": "ffprobe测量；每2秒覆盖全时段抽帧审阅，关键交互2/4fps加密，选定原分辨率帧检查；精确重复T05复用T04视觉分析。",
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。",
+      "S03约17–18秒切换到紫色服装场景，按两个画面来源段登记；图板、字幕及原声中的宣传结论不作为功效证据。"
+    ]
+  },
+  "preconditions": [
+    "展示部位的当前试涂状态有来源，不能把未知状态称为使用前。",
+    "光线、曝光、滤镜和拍摄距离保持稳定。"
+  ],
+  "units": [
+    {
+      "id": "close",
+      "name": "离手后举近手背并微转腕部",
+      "source_time": "S14约12–16秒",
+      "observations": [
+        {
+          "source_id": "S14",
+          "start_seconds": 12,
+          "end_seconds": 16,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S14-11.5-20.5.mp4",
+          "media_start_offset_seconds": 11.5
+        }
+      ],
+      "start_conditions": [
+        "推抹已经停下",
+        "试用区无遮挡"
+      ],
+      "action": "把手背举到镜头近处，微转手腕，让肤面纹理及反光方向可见；操作手不再遮住整片区域。",
+      "transition": "停稳短暂展示后退回自然交流距离。",
+      "end_state": "当前薄层和纹理可见。",
+      "expected_effect": "展示当前状态，不量化提亮几个色号。",
+      "avoid": [
+        "不近镜同时调曝光",
+        "不凭美颜后的画面宣称细纹消失"
+      ],
+      "prompt_fragment": "停止推抹，露出试用区，举近并轻转手腕，让真实纹理和反光可见；保持原有光线与曝光。"
+    },
+    {
+      "id": "paired-surfaces",
+      "name": "两处肤面放在相近平面并列",
+      "source_time": "S02约8.5–13秒；S03约0.5–3秒；S13约6–9秒",
+      "observations": [
+        {
+          "source_id": "S02",
+          "start_seconds": 8.5,
+          "end_seconds": 13,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S02-8-13.5.mp4",
+          "media_start_offset_seconds": 8
+        },
+        {
+          "source_id": "S03",
+          "start_seconds": 0.5,
+          "end_seconds": 3,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S03.mp4",
+          "media_start_offset_seconds": 0
+        },
+        {
+          "source_id": "S13",
+          "start_seconds": 6,
+          "end_seconds": 9,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S13-6-9.5.mp4",
+          "media_start_offset_seconds": 6
+        }
+      ],
+      "start_conditions": [
+        "两处部位的试涂状态已知或明确标为未知",
+        "不能借距离/阴影制造色差"
+      ],
+      "action": "将一只手背和另一手背或前臂并列/交叠，尽量露出两片肤面；S03开头和后半段属于不同拍摄画面，不串成同一次试涂。",
+      "transition": "停稳看清后分开回落。",
+      "end_state": "两片当前肤面同时可见。",
+      "expected_effect": "只提供同框观察；不同解剖部位与未知底妆不是严格对照实验。",
+      "avoid": [
+        "不把原本色差当功效",
+        "不把另一部位标为未涂却无证据",
+        "不增加肤色改变"
+      ],
+      "prompt_fragment": "让两处已有状态的肤面在相近距离和光线下同时可见，短暂停稳；保留本来的纹理、色差与覆盖，不用曝光变化制造结果。"
+    },
+    {
+      "id": "point-edge",
+      "name": "指尖指示试用区边缘后撤开",
+      "source_time": "S14约15–19秒",
+      "observations": [
+        {
+          "source_id": "S14",
+          "start_seconds": 15,
+          "end_seconds": 19,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S14-11.5-20.5.mp4",
+          "media_start_offset_seconds": 11.5
+        }
+      ],
+      "start_conditions": [
+        "试用区边缘或腕侧位置可见",
+        "指示手空闲"
+      ],
+      "action": "另一手指尖靠近腕侧或手背边缘指示位置，再撤开，让对应位置仍可见；这不是新的大量涂抹。",
+      "transition": "退回指示手，保持受试手角度。",
+      "end_state": "展示区不被遮挡。",
+      "expected_effect": "帮助看清位置，不据此断言遮血管、抗皱等功效。",
+      "avoid": [
+        "不让指尖触碰触发全区换肤",
+        "不把指示写成重新取料"
+      ],
+      "prompt_fragment": "用空闲手指尖短暂指示当前试用区边缘，然后撤开，让同一位置在相同光线下保持可见。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/keyframes/S03-2.jpg",
+      "timestamp_seconds": 2.0,
+      "source_id": "S03",
+      "role": "observed-evidence",
+      "observation": "一处手背与另一前臂同框"
+    },
+    {
+      "path": "assets/keyframes/S14-14.jpg",
+      "timestamp_seconds": 14.0,
+      "source_id": "S14",
+      "role": "observed-evidence",
+      "observation": "手背举近"
+    },
+    {
+      "path": "assets/keyframes/S14-18.jpg",
+      "timestamp_seconds": 18.0,
+      "source_id": "S14",
+      "role": "observed-evidence",
+      "observation": "指尖指示腕侧局部"
+    },
+    {
+      "path": "assets/keyframes/S02-10.jpg",
+      "timestamp_seconds": 10.0,
+      "source_id": "S02",
+      "role": "observed-evidence",
+      "observation": "两处肤面在近似平面同框"
+    },
+    {
+      "path": "assets/keyframes/S13-8.jpg",
+      "timestamp_seconds": 8.0,
+      "source_id": "S13",
+      "role": "observed-evidence",
+      "observation": "手背与另一前臂并列"
+    }
+  ],
+  "source_manifest": "source-manifest.json",
+  "evidence_media": [
+    {
+      "source_id": "S03",
+      "media_path": "assets/sources/S03.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 46.666667,
+      "duration_seconds": 46.666667,
+      "sha256": "47abcd4820c8473eb88963e52608498bea2be78c949b5e070f54b638775894b1",
+      "audio_state": "original"
+    },
+    {
+      "source_id": "S14",
+      "media_path": "assets/sources/S14-11.5-20.5.mp4",
+      "kind": "continuous_clip_reencoded",
+      "source_start_seconds": 11.5,
+      "source_end_seconds": 20.5,
+      "duration_seconds": 9.0,
+      "sha256": "7e6f9b82a6d9d4933f375e8317c58798bce009da452f7865a69bd95bab10a7f3",
+      "audio_state": "original_content_reencoded",
+      "timing_note": "输入精确寻址后截取，边缘精度受帧间隔限制；动作时间仍引用原文件。"
+    },
+    {
+      "source_id": "S02",
+      "media_path": "assets/sources/S02-8-13.5.mp4",
+      "kind": "continuous_clip_reencoded",
+      "source_start_seconds": 8,
+      "source_end_seconds": 13.5,
+      "duration_seconds": 5.5,
+      "sha256": "a8cbfa06929a9f3751221e8ad97994b74790a2ad106ac33d9f7214be8e5544a9",
+      "audio_state": "original_content_reencoded",
+      "timing_note": "输入精确寻址后截取，边缘精度受帧间隔限制；动作时间仍引用原文件。"
+    },
+    {
+      "source_id": "S13",
+      "media_path": "assets/sources/S13-6-9.5.mp4",
+      "kind": "continuous_clip_reencoded",
+      "source_start_seconds": 6,
+      "source_end_seconds": 9.5,
+      "duration_seconds": 3.5,
+      "sha256": "69b95c83c91eb8fc715f2e22930826ca68c863420894286ab42fa9e4d929737d",
+      "audio_state": "original_content_reencoded",
+      "timing_note": "输入精确寻址后截取，边缘精度受帧间隔限制；动作时间仍引用原文件。"
+    }
+  ],
+  "batch_id": "20261108-toneup-cream"
+}

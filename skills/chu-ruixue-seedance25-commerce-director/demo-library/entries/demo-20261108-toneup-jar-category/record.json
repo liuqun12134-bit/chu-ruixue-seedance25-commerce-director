@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261108-toneup-jar-category",
+  "title": "素颜霜罐装：内片、膏面展示与指腹取样",
+  "record_type": "demo",
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "category": "素颜霜",
+  "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+  "product_form": "可点取或轻刮的白色/浅黄调膏体，按当前产品确认",
+  "container": "已打开外盖的罐；独立内片仅在确实存在时采用",
+  "body_part": "手背",
+  "tags": [
+    "已有外盖分离时提起独立内片",
+    "罐口轻倾，让膏面纹理可见",
+    "桌上开罐取膏，转移到另一手背",
+    "偏稠膏面用指腹轻刮取样"
+  ],
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "summary": "拆开观察内片、轻倾罐口、台面稳定取膏与偏稠膏面轻刮。内片残膏、罐内膏体和外盖分别记录，不迁移具体罐色与膏体颜色。",
+  "scope": "category",
+  "product_id": null,
+  "enabled": true,
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户明确要求素颜霜品类入库；首批15条和补充6条共21个文件，来源及重复关系见source-manifest.json。",
+    "source_url": null,
+    "source_asset": "assets/sources/S01.mp4",
+    "notes_path": "source-notes.txt",
+    "analyzed_on": "2026-11-08",
+    "duration_seconds": 50.333333,
+    "time_reliability": "approximate",
+    "observation_method": "ffprobe测量；每2秒覆盖全时段抽帧审阅，关键交互2/4fps加密，选定原分辨率帧检查；精确重复T05复用T04视觉分析。",
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。",
+      "S01与S04为约4秒偏移的重叠剪辑，合并来源；S08同场但动作段不同。",
+      "T01/T03/T04为同场不同剪辑，T05与T04字节完全相同。",
+      "S14约3秒取样处可见内片残膏且受遮挡，不用它证明标准罐内挖取。"
+    ]
+  },
+  "preconditions": [
+    "当前罐口、外盖、内片与内容物状态已辨明。",
+    "配件有明确承托或放置位置；不能拿着内片同时假装空手取用。"
+  ],
+  "units": [
+    {
+      "id": "inner",
+      "name": "已有外盖分离时提起独立内片",
+      "source_time": "S14约0.4–1.8秒",
+      "observations": [
+        {
+          "source_id": "S14",
+          "start_seconds": 0.4,
+          "end_seconds": 1.8,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S14.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "外盖已分离",
+        "本品确有独立内片"
+      ],
+      "action": "一手稳住罐，另一手捏住白色内片边缘并连续提离；约1.5秒内片在罐口侧上方。片头0秒是提前插入的展示画面，不与开片动作直接拼成同一时间。",
+      "transition": "为内片安排明确去向，再释放操作手；原片后续安放受遮挡。",
+      "end_state": "罐口无遮挡，内片仍有可追踪去向。",
+      "expected_effect": "露出内容物，不改变膏量。",
+      "avoid": [
+        "无内片不得新增",
+        "不虚构撕膜、旋拧圈数或画外落桌"
+      ],
+      "prompt_fragment": "若当前产品确有独立内片，稳住已开外盖的罐，捏住内片边缘提离并安放到明确位置，随后再取膏。"
+    },
+    {
+      "id": "open-display",
+      "name": "罐口轻倾，让膏面纹理可见",
+      "source_time": "S14约1.8–2.6秒；T01约29–36秒",
+      "observations": [
+        {
+          "source_id": "S14",
+          "start_seconds": 1.8,
+          "end_seconds": 2.6,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S14.mp4",
+          "media_start_offset_seconds": 0
+        },
+        {
+          "source_id": "T01",
+          "start_seconds": 29,
+          "end_seconds": 36,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/T01.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "罐已打开",
+        "膏体流动性和握持方向允许轻倾"
+      ],
+      "action": "举近开口并轻倾向镜头，露出内壁和膏面凹痕；T01末段多个剪辑展示不证明连续不流动实验。",
+      "transition": "退回便于稳定取用的角度。",
+      "end_state": "膏体留在罐内，罐口保持开放。",
+      "expected_effect": "展示真实纹理与剩余状态。",
+      "avoid": [
+        "不以倾罐证明无水配方",
+        "不把浅黄膏体套成所有素颜霜的颜色",
+        "不默认倒置"
+      ],
+      "prompt_fragment": "将已开罐口轻倾向镜头，停稳露出真实膏面纹理，然后恢复便于取用的角度。"
+    },
+    {
+      "id": "table-sample",
+      "name": "桌上开罐取膏，转移到另一手背",
+      "source_time": "S01约12–14.9秒",
+      "observations": [
+        {
+          "source_id": "S01",
+          "start_seconds": 12,
+          "end_seconds": 14.9,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S01.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "罐稳放在已有台面",
+        "操作手空闲，受试手背可接近"
+      ],
+      "action": "指腹落入桌上开罐的膏面，随后抬离；同一操作手触到另一手背，留下可见白色膏团。两手随后开始接触推开。",
+      "transition": "先完成接触转移，再举起手背；罐留在台面。",
+      "end_state": "膏团位于实际接触处，指腹保留合理残留。",
+      "expected_effect": "明确展示从罐到指腹再到手背的转移。",
+      "avoid": [
+        "不隔空出现膏团",
+        "不从盖上取用却写成从罐内取用",
+        "不规定来源膏量为所有产品标准用量"
+      ],
+      "prompt_fragment": "让开罐稳放在已有台面，用指腹取适量膏体，再把同一指腹移到另一手背接触落膏；膏团出现后再开始推开。"
+    },
+    {
+      "id": "firm-surface",
+      "name": "偏稠膏面用指腹轻刮取样",
+      "source_time": "T01约7–11秒",
+      "observations": [
+        {
+          "source_id": "T01",
+          "start_seconds": 7,
+          "end_seconds": 11,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/T01.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "本品质地确实适合指腹轻刮",
+        "开罐由另一手稳定承托"
+      ],
+      "action": "持罐举近，指腹在浅黄膏面作短程接触/轻刮，留下局部取样痕迹；随后手背可见数处膏痕。",
+      "transition": "保持产品与指腹同一条路径，把已有取样转移到可见试用区；具体取样量不量化。",
+      "end_state": "膏面有局部痕迹，指腹/试用区有相应膏体。",
+      "expected_effect": "看清膏体表面被接触的变化，不把触感写成已验证性能。",
+      "avoid": [
+        "不深挖或挖空",
+        "不凭手背推抹宣称乳化完成",
+        "软质乳液不硬套轻刮"
+      ],
+      "prompt_fragment": "稳住已开的罐，让指腹短程接触膏面取少量，保留真实取样痕迹，再把取到的膏体转移到指定试用部位。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/keyframes/S14-1.jpg",
+      "timestamp_seconds": 1.0,
+      "source_id": "S14",
+      "role": "observed-evidence",
+      "observation": "内片提离罐口"
+    },
+    {
+      "path": "assets/keyframes/S14-2.jpg",
+      "timestamp_seconds": 2.0,
+      "source_id": "S14",
+      "role": "observed-evidence",
+      "observation": "已开罐口轻倾展示"
+    },
+    {
+      "path": "assets/keyframes/S01-13.jpg",
+      "timestamp_seconds": 13.0,
+      "source_id": "S01",
+      "role": "observed-evidence",
+      "observation": "桌上开罐，指腹接触膏体"
+    },
+    {
+      "path": "assets/keyframes/S01-14.75.jpg",
+      "timestamp_seconds": 14.75,
+      "source_id": "S01",
+      "role": "observed-evidence",
+      "observation": "指腹向另一手背转移膏体"
+    },
+    {
+      "path": "assets/keyframes/T01-10.jpg",
+      "timestamp_seconds": 10.0,
+      "source_id": "T01",
+      "role": "observed-evidence",
+      "observation": "近镜指腹接触偏稠膏面"
+    },
+    {
+      "path": "assets/keyframes/T04-0.jpg",
+      "timestamp_seconds": 0.0,
+      "source_id": "T04",
+      "role": "observed-evidence",
+      "observation": "来源剪辑片头的开口展示，不作为连续起点"
+    }
+  ],
+  "source_manifest": "source-manifest.json",
+  "evidence_media": [
+    {
+      "source_id": "S01",
+      "media_path": "assets/sources/S01.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 50.333333,
+      "duration_seconds": 50.333333,
+      "sha256": "94e25ecbeca88b6505929ef0a5e63f8c37544e47ff354d805333c24474837610",
+      "audio_state": "original"
+    },
+    {
+      "source_id": "S14",
+      "media_path": "assets/sources/S14.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 38.522727,
+      "duration_seconds": 38.522727,
+      "sha256": "3a89775206720e19adff81128f2b4f33726507d3bdd94164483c6b25d84ec90d",
+      "audio_state": "original"
+    },
+    {
+      "source_id": "T01",
+      "media_path": "assets/sources/T01.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 42.47,
+      "duration_seconds": 42.47,
+      "sha256": "22a7163a6a70672673c1c720863cc40019ecd81ed231eb8adeefa9f30e7f353e",
+      "audio_state": "original"
+    },
+    {
+      "source_id": "T04",
+      "media_path": "assets/sources/T04.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 24.380998,
+      "duration_seconds": 24.380998,
+      "sha256": "8a4222369d72a276d7159611a717cf9c8807c89832368215663f66cecb0f982e",
+      "audio_state": "original"
+    }
+  ],
+  "batch_id": "20261108-toneup-cream"
+}

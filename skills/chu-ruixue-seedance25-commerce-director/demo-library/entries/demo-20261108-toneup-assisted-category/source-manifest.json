@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "batch_id": "20261108-toneup-cream",
+  "sources": [
+    {
+      "source_id": "S01",
+      "original_filename": "1.mp4",
+      "sha256": "94e25ecbeca88b6505929ef0a5e63f8c37544e47ff354d805333c24474837610",
+      "bytes": 10059376,
+      "duration_seconds": 50.333333,
+      "width": 572,
+      "height": 1280,
+      "fps": "1509999985/31458333",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-floral-halter-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "桌上取膏→手背落膏；手臂延展。与S04重叠，和S08同场。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S02",
+      "original_filename": "2.mp4",
+      "sha256": "566db22c4c408115076fd0539b1112e5b9c0dda06520b94e245bf6ee61cb51b9",
+      "bytes": 10037422,
+      "duration_seconds": 47.636364,
+      "width": 720,
+      "height": 1280,
+      "fps": "44/1",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-red-dress-fringe-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "手背补匀与并列展示；开头已在使用中，不补写之前取料。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S03",
+      "original_filename": "3.mp4",
+      "sha256": "47abcd4820c8473eb88963e52608498bea2be78c949b5e070f54b638775894b1",
+      "bytes": 11157969,
+      "duration_seconds": 46.666667,
+      "width": 720,
+      "height": 1556,
+      "fps": "30/1",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-pink-floral-top-live",
+        "family-purple-turtleneck-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "同光同框展示；约17–18秒换场，分两个来源段，不拼成同次效果。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S04",
+      "original_filename": "4.mp4",
+      "sha256": "80fbd2b46fdcf582236917b341da181e20b58764c92b223d8701b4fa719a8d94",
+      "bytes": 9372918,
+      "duration_seconds": 46.666667,
+      "width": 572,
+      "height": 1280,
+      "fps": "2100000003/43750000",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-floral-halter-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "合并近重复",
+      "notes": "与S01约4秒偏移重叠；保留哈希、时长及核查表，不新增独立动作或视频副本。",
+      "audio_review": "not_performed",
+      "duplicate_of": "S01",
+      "duplicate_kind": "overlapping_edit"
+    },
+    {
+      "source_id": "S05",
+      "original_filename": "5.mp4",
+      "sha256": "28873fb3c33ce54f2a8f54ec4c71caa01314a4e86bbc0c3429281e7f1b9deed5",
+      "bytes": 8631038,
+      "duration_seconds": 48.72,
+      "width": 652,
+      "height": 1280,
+      "fps": "25/1",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-red-lace-dressing-room"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入·条件受限",
+      "notes": "他人承托手臂并辅助推匀；仅供明确双人任务，不自动新增人物。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S06",
+      "original_filename": "6.mp4",
+      "sha256": "eb8ae5fde942c906a6b2a6e3f87cc21465dabd239a51db3322c03a8bdb112ca7",
+      "bytes": 10148257,
+      "duration_seconds": 23.233333,
+      "width": 720,
+      "height": 1280,
+      "fps": "60/1",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-pink-gold-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "软管转向与双包装并列。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S07",
+      "original_filename": "7.mp4",
+      "sha256": "9163f23df09c83ebebb7017d8b8a19de33491cd10ee57582d79fd3f6ba05aaef",
+      "bytes": 4457046,
+      "duration_seconds": 20.733333,
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-green-window"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "上臂与肩头推匀；初次取料未知，饮水与理发等不入操作单元。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S08",
+      "original_filename": "8.mp4",
+      "sha256": "a092dabb5261443b910de67d80f4b5c3a58fbcce13e243752c0de3ec5628ed27",
+      "bytes": 5812670,
+      "duration_seconds": 27.166667,
+      "width": 720,
+      "height": 1280,
+      "fps": "1222500003/40750000",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-floral-halter-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入·同场",
+      "notes": "采用画面右侧示范者前臂补匀；不归给主讲者，不计为新拍摄家族。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S09",
+      "original_filename": "9.mp4",
+      "sha256": "6890c2f7d47cd1c7a2629beb4225d801ec4b80173ebc939936bc1cf29e619048",
+      "bytes": 9291370,
+      "duration_seconds": 33.0,
+      "width": 720,
+      "height": 1280,
+      "fps": "330000001/11000000",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-red-knit-flower-wall"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "软管开盖、落膏、回盖立放与手背推薄。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S10",
+      "original_filename": "10.mp4",
+      "sha256": "c7c1da30f8e1ac6de42bc11d84470ee950d673d784e2ff967970d3bd21ee261f",
+      "bytes": 7484462,
+      "duration_seconds": 23.733333,
+      "width": 720,
+      "height": 1280,
+      "fps": "2136000003/71200000",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-light-pink-purple-stage"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "纯包装展示；没有确认的上脸取用链。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S11",
+      "original_filename": "11.mp4",
+      "sha256": "3c7db92932ab8aca53662ba051ce686f34ab4b5b7d8fc6e65f54e837c8d62a3b",
+      "bytes": 6707480,
+      "duration_seconds": 17.321995,
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-purple-flower-wall"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "补充证据",
+      "notes": "已有试样的手背补匀；纸巾动作不作为耐擦性能证据。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S12",
+      "original_filename": "12.mp4",
+      "sha256": "88ed30132d954dbe5dc820250729eba786c6ed7a2649ba734966d21d30cfeb60",
+      "bytes": 4277406,
+      "duration_seconds": 29.171429,
+      "width": 580,
+      "height": 1280,
+      "fps": "35/1",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-mustard-top"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "罐与软管并列；后半手背补匀作为背景观察，未新增同义单元。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S13",
+      "original_filename": "13.mp4",
+      "sha256": "98b4f649c774dd40e66de509e77362b51472bb3f03a40cd96effc4209232db76",
+      "bytes": 4453072,
+      "duration_seconds": 18.576009,
+      "width": 720,
+      "height": 1280,
+      "fps": "1949499997/64983333",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-pink-vest-red-stage"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "软管定点接近手背、挤压及近镜展示；约2秒剪辑省略放管过程。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S14",
+      "original_filename": "14.mp4",
+      "sha256": "3a89775206720e19adff81128f2b4f33726507d3bdd94164483c6b25d84ec90d",
+      "bytes": 5036699,
+      "duration_seconds": 38.522727,
+      "width": 720,
+      "height": 1280,
+      "fps": "44/1",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-satin-pajama"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "内片移除、罐口纹理、手背展示和清理；约3秒取料细节受内片遮挡。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "S15",
+      "original_filename": "15.mp4",
+      "sha256": "19bdee9de5f58f755601fd78ea83f79943a94666bb77ac6d0a39febeff6d8572",
+      "bytes": 10681179,
+      "duration_seconds": 35.32,
+      "width": 720,
+      "height": 1556,
+      "fps": "25/1",
+      "audio_present": true,
+      "batch": "首批角鲨烷素颜霜",
+      "family_ids": [
+        "family-pink-blazer-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "右侧人物前臂已有点条膏痕推匀；不伪造画外每次落膏。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "T01",
+      "original_filename": "1.mp4",
+      "sha256": "22a7163a6a70672673c1c720863cc40019ecd81ed231eb8adeefa9f30e7f353e",
+      "bytes": 14129433,
+      "duration_seconds": 42.47,
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1",
+      "audio_present": true,
+      "batch": "补充贵妇膏（用户明确同属素颜霜）",
+      "family_ids": [
+        "family-gold-jar-newyear-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入·同场",
+      "notes": "偏稠膏面轻刮与持罐手背试涂；额头指触不替代完整取膏上脸证据。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "T02",
+      "original_filename": "video_1768803288_0.mp4",
+      "sha256": "e7a4c38dbd929b36d34c82461681ecb319797dce528521b221f0689a4e5b2375",
+      "bytes": 24262632,
+      "duration_seconds": 60.000998,
+      "width": 720,
+      "height": 1408,
+      "fps": "30/1",
+      "audio_present": true,
+      "batch": "补充贵妇膏（用户明确同属素颜霜）",
+      "family_ids": [
+        "family-pink-knit-dressing-room"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入",
+      "notes": "多区点涂、放低容器后分区推匀、离手与回盖；本批完整上脸主来源。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "T03",
+      "original_filename": "video_1768803295_1.mp4",
+      "sha256": "870a9e2816943d77e655e2d0db8bfaba0e8af6275a6c73bfeba836b48fb16b52",
+      "bytes": 6409918,
+      "duration_seconds": 19.783991,
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1",
+      "audio_present": true,
+      "batch": "补充贵妇膏（用户明确同属素颜霜）",
+      "family_ids": [
+        "family-gold-jar-newyear-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入·同场",
+      "notes": "圆罐持品与近镜展示；与T01/T04同场剪辑合并来源家族。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "T04",
+      "original_filename": "video_1768803297_2.mp4",
+      "sha256": "8a4222369d72a276d7159611a717cf9c8807c89832368215663f66cecb0f982e",
+      "bytes": 8828331,
+      "duration_seconds": 24.380998,
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1",
+      "audio_present": true,
+      "batch": "补充贵妇膏（用户明确同属素颜霜）",
+      "family_ids": [
+        "family-gold-jar-newyear-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "补充证据·重叠剪辑",
+      "notes": "部分手背及指触画面与T01重叠，另有右侧人物罐口展示；不重复新增同义单元。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    },
+    {
+      "source_id": "T05",
+      "original_filename": "video_1768803300_3.mp4",
+      "sha256": "8a4222369d72a276d7159611a717cf9c8807c89832368215663f66cecb0f982e",
+      "bytes": 8828331,
+      "duration_seconds": 24.380998,
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1",
+      "audio_present": true,
+      "batch": "补充贵妇膏（用户明确同属素颜霜）",
+      "family_ids": [
+        "family-gold-jar-newyear-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "合并完全重复",
+      "notes": "SHA256与T04一致，复用T04分析；不复制媒体或重复计数。",
+      "audio_review": "not_performed",
+      "duplicate_of": "T04",
+      "duplicate_kind": "exact_file"
+    },
+    {
+      "source_id": "T06",
+      "original_filename": "video_1768803301_4.mp4",
+      "sha256": "d226b33a59a143c77fafe156f5b3bc5e1fe8031e93b60a8171c3810260c6aa16",
+      "bytes": 5793450,
+      "duration_seconds": 21.501995,
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1",
+      "audio_present": true,
+      "batch": "补充贵妇膏（用户明确同属素颜霜）",
+      "family_ids": [
+        "family-pink-gold-live"
+      ],
+      "family_basis": "画面、造型、背景、重叠动作保守归组；并未认证独立拍摄日期。",
+      "status": "纳入·结构受限",
+      "notes": "使用开口/闭合罐展示；可拆外壳与内胆不迁移成通用品类操作。与S06同场。",
+      "audio_review": "not_performed",
+      "duplicate_of": null,
+      "duplicate_kind": null
+    }
+  ],
+  "entry_media": [
+    {
+      "source_id": "S05",
+      "media_path": "assets/sources/S05.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 48.72,
+      "duration_seconds": 48.72,
+      "sha256": "28873fb3c33ce54f2a8f54ec4c71caa01314a4e86bbc0c3429281e7f1b9deed5",
+      "audio_state": "original"
+    }
+  ],
+  "composite_source_segments": [
+    {
+      "source_id": "S03",
+      "segment": "约0–17秒",
+      "family_id": "family-pink-floral-top-live"
+    },
+    {
+      "source_id": "S03",
+      "segment": "约18秒–片尾",
+      "family_id": "family-purple-turtleneck-live"
+    }
+  ]
+}

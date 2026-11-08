@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261105-cream-handback-01-spread",
+  "title": "从膏团向周围连续推薄",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-05",
+  "updated_on": "2026-11-05",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261105-cream-handback-01/record.json"
+    ],
+    "limitations": [
+      "本轮是覆盖可读全时段的抽帧序列视觉分析，并非实时播放或全帧连续性认证；关键交互加密至每秒2或4帧。",
+      "没有听审或转写音轨，不提供台词、词句对齐、语气及口型同步结论。",
+      "动作区间为近似；保存关键帧时间来自实际帧PTS。画外放置和被遮挡的步骤未知。",
+      "视频中的美颜、曝光、剪辑、字幕与图板不能证明成分、浓度、即时塑形或长期功效；生成可行性未验证。",
+      "各来源的黑罐/银罐、规格及膏体颜色不视为同一产品；仅归面霜品类，不登记精准产品身份。",
+      "原视频未复制入库或上传；source-manifest.json保留文件名、哈希、实测时长，重查原片仍需原文件。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "手背已有膏团",
+      "操作手指腹空闲"
+    ],
+    "action": "操作手两三指指腹在同一手背小范围短抹、打圈式推开；白色块边缘逐渐摊宽，薄层仍有残留而非瞬间消失。Q12约8秒有再次触罐，不把整段误报为仅取一次。",
+    "transition": "从有膏处逐渐向外铺开，最后减少动作并移开手。",
+    "end_state": "同一手背形成较均匀薄层，残留/反光按本品决定。",
+    "expected_effect": "厚度和覆盖面积连续变化；不证明完全吸收或不黏。",
+    "avoid": [
+      "不把16秒操作硬压成1秒",
+      "不自动多次补料",
+      "不套用白膏到未知质地"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261105-cream-handback-01/record.json",
+    "unit_id": "spread"
+  },
+  "legacy_context": {
+    "category": "面霜",
+    "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+    "container": "有盖罐；独立内片仅在参考确认时使用",
+    "body_part": "手背",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "Q12约5–21秒；W24约23–26秒",
+  "migration_source_sha256": "1dc64e5c70672abaaedfa48444446ab0baca9edbcb8e3dd5c4830bed30925afb"
+}

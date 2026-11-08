@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "record_type": "product",
+  "id": "product-cream-waterglow-20261107",
+  "title": "水光霜（本批次原片包装）",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "旧对标产品登记，不自动视为用户新品。",
+    "source_refs": [
+      "demo-library/products.json"
+    ],
+    "limitations": [
+      "需主动采访确认目标产品身份与规则。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "role": "reference_only",
+  "aliases": [],
+  "reference_hashes": [
+    "068953f34277053f4a88f3f581da8c070f7d3eb8385b17e0e5acacc52b48775e"
+  ],
+  "category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "facts": {
+    "packaging": {
+      "value": "白色高筒容器、玫瑰金色肩环、粉色顶面中央出料结构。保留用户目录称呼；机器转写提到玫瑰面霜但未听审，不据此重命名。",
+      "status": "observed",
+      "basis": "旧来源登记，非本次重新观察"
+    },
+    "net_content": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "dimensions": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "contents": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "texture": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "usage": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "body_parts": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "finish": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "selling_points": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    }
+  },
+  "match_fields": {
+    "texture": null,
+    "packaging": null,
+    "body_part": null
+  },
+  "rules": [],
+  "interview": {
+    "asked": [],
+    "missing_core": [
+      "目标产品身份",
+      "品类确认",
+      "用法与效果",
+      "包装规格"
+    ],
+    "supplement_answer": null,
+    "complete": false
+  },
+  "migration_source_sha256": "7cd04aaf63ff3c5ab430df1d6f323466e977ccacad865e44dddaf4ca95c220b4"
+}

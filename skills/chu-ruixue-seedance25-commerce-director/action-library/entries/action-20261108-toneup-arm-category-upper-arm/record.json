@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261108-toneup-arm-category-upper-arm",
+  "title": "够到上臂和肩头，沿同一手臂往返推匀",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261108-toneup-arm-category/record.json"
+    ],
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "素颜霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "本品适用上臂/肩头",
+      "已有试样或接触转移已另行成立",
+      "衣物不会挡住操作区"
+    ],
+    "action": "一只手臂自然伸出或屈肘，另一手掌沿可触及的上臂到肩头连续推抹，并回到较低部位；S07片头已在涂抹中，初次取料未知。",
+    "transition": "完成当前一段再调整肘位，保留肩、肘和掌心的接触关系。",
+    "end_state": "操作手回落，手臂仍保持真实肤面。",
+    "expected_effect": "展示身体局部均匀铺展。",
+    "avoid": [
+      "不凭字幕新增颈部或全身涂抹",
+      "不让手穿过衣物",
+      "不推定原片没有示出的取料"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261108-toneup-arm-category/record.json",
+    "unit_id": "upper-arm"
+  },
+  "legacy_context": {
+    "category": "素颜霜",
+    "product_form": "可分区推薄的膏体；不将身体使用范围推广到未确认产品",
+    "container": "先放稳容器或由明确持手控制",
+    "body_part": "手背、前臂、上臂、肩头",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "S07约5.5–9.3秒；S01约28–39秒",
+  "migration_source_sha256": "6981419197e3aec49c4970fca2a763a6f6ebb990cc4e0f682892b2261ed80d37"
+}

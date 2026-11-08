@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "record_type": "product",
+  "id": "product-new",
+  "title": "新产品",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "user_interview",
+    "basis": "记录用户回答与图片依据",
+    "source_refs": [],
+    "limitations": []
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "role": "target",
+  "aliases": [],
+  "reference_hashes": [],
+  "category": {
+    "value": null,
+    "basis": "unknown"
+  },
+  "facts": {
+    "packaging": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "net_content": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "dimensions": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "contents": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "texture": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "usage": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "body_parts": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "finish": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "selling_points": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    }
+  },
+  "match_fields": {
+    "texture": null,
+    "packaging": null,
+    "body_part": null
+  },
+  "rules": [],
+  "interview": {
+    "asked": [],
+    "missing_core": [
+      "品类",
+      "实际用法",
+      "展示效果"
+    ],
+    "supplement_answer": null,
+    "complete": false
+  }
+}

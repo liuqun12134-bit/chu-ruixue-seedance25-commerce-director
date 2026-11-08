@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261108-toneup-tube-category",
+  "title": "素颜霜软管：开盖、定点挤膏与回盖放稳",
+  "record_type": "demo",
+  "modes": [
+    "use"
+  ],
+  "category": "素颜霜",
+  "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+  "product_form": "可由软管口挤出的膏霜",
+  "container": "可挤压软管及独立管盖",
+  "body_part": "手背",
+  "tags": [
+    "握管身与管盖，分离后明确持盖手",
+    "管口接近手背，挤出局部膏点后离开",
+    "手背留膏时回盖并立放软管"
+  ],
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "summary": "区分软管开盖、管口接近手背定点出膏，以及回盖立放后释放操作手。剪辑缺失的换手和放管过程不当作已经看见。",
+  "scope": "category",
+  "product_id": null,
+  "enabled": true,
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户明确要求素颜霜品类入库；首批15条和补充6条共21个文件，来源及重复关系见source-manifest.json。",
+    "source_url": null,
+    "source_asset": "assets/sources/S09.mp4",
+    "notes_path": "source-notes.txt",
+    "analyzed_on": "2026-11-08",
+    "duration_seconds": 33.0,
+    "time_reliability": "approximate",
+    "observation_method": "ffprobe测量；每2秒覆盖全时段抽帧审阅，关键交互2/4fps加密，选定原分辨率帧检查；精确重复T05复用T04视觉分析。",
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。"
+    ]
+  },
+  "preconditions": [
+    "本次产品确为可挤压软管，盖子与出料口明确。",
+    "有接料手背和真实可用的放管位置。"
+  ],
+  "units": [
+    {
+      "id": "uncap",
+      "name": "握管身与管盖，分离后明确持盖手",
+      "source_time": "S09约12–13.8秒",
+      "observations": [
+        {
+          "source_id": "S09",
+          "start_seconds": 12,
+          "end_seconds": 13.8,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S09.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "管盖尚未分离",
+        "双手可以分别稳定握管与盖"
+      ],
+      "action": "双手分别控制管身与蓝色盖，转动后分离；操作转至手背上方时，受试手一侧仍控制盖子。",
+      "transition": "管口移向手背，管盖不得突然消失。",
+      "end_state": "出料口开放，盖子与持手有对应。",
+      "expected_effect": "形成可出料状态，无皮肤效果。",
+      "avoid": [
+        "不猜旋转圈数",
+        "不把开盖写为撕封",
+        "已开盖不重演"
+      ],
+      "prompt_fragment": "按实际结构打开软管盖，让盖留在明确的持手或放置位置，再将管口移向手背。"
+    },
+    {
+      "id": "deposit",
+      "name": "管口接近手背，挤出局部膏点后离开",
+      "source_time": "S13约1.1–1.95秒；S09约13.8–14.2秒",
+      "observations": [
+        {
+          "source_id": "S13",
+          "start_seconds": 1.1,
+          "end_seconds": 1.95,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S13.mp4",
+          "media_start_offset_seconds": 0
+        },
+        {
+          "source_id": "S09",
+          "start_seconds": 13.8,
+          "end_seconds": 14.2,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S09.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "管已开，受试手背稳定",
+        "管口朝向指定落膏点"
+      ],
+      "action": "S13管口低位朝向手背，手指挤压管体；S09对应步骤后手背出现独立白色膏点。S13约2秒有剪辑，后续放管与换手未完整保留。",
+      "transition": "停止挤压后抬离管口，先处理管与盖，再用空闲手推开。",
+      "end_state": "膏体只落在管口实际接近的位置。",
+      "expected_effect": "可见出料与点状落膏。",
+      "avoid": [
+        "不用细流代替真实稠度",
+        "不连续无限出膏",
+        "不把S13剪辑压成瞬时放管"
+      ],
+      "prompt_fragment": "稳住手背，让已开的管口靠近指定位置，轻挤出适量膏体；停止挤压再移开管口，保持膏点的位置和数量连续。"
+    },
+    {
+      "id": "recap",
+      "name": "手背留膏时回盖并立放软管",
+      "source_time": "S09约14.1–15.4秒",
+      "observations": [
+        {
+          "source_id": "S09",
+          "start_seconds": 14.1,
+          "end_seconds": 15.4,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S09.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "手背已接到膏体",
+        "盖子仍可被控制，台面位置真实存在"
+      ],
+      "action": "手背保留膏点，双手将盖与管口对齐并闭合，再把管体以蓝盖为底立在桌面。",
+      "transition": "确认站稳后松手，转入手背推匀。",
+      "end_state": "软管在桌上，双手可用于试涂。",
+      "expected_effect": "解决双手占用，膏点不因放管消失。",
+      "avoid": [
+        "不捏擦手背膏点",
+        "无稳定底部不强迫立放"
+      ],
+      "prompt_fragment": "保留手背已落下的膏点，把软管盖合并放稳在当前可用位置；松开管体后再让操作手接触膏点。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/keyframes/S09-13.6.jpg",
+      "timestamp_seconds": 13.6,
+      "source_id": "S09",
+      "role": "observed-evidence",
+      "observation": "盖与管身分离的过渡"
+    },
+    {
+      "path": "assets/keyframes/S13-1.8.jpg",
+      "timestamp_seconds": 1.833333,
+      "source_id": "S13",
+      "role": "observed-evidence",
+      "observation": "管口朝向手背，受试手握蓝盖"
+    },
+    {
+      "path": "assets/keyframes/S09-14.133.jpg",
+      "timestamp_seconds": 14.133333,
+      "source_id": "S09",
+      "role": "observed-evidence",
+      "observation": "手背已有膏点，准备回盖"
+    },
+    {
+      "path": "assets/keyframes/S09-15.2.jpg",
+      "timestamp_seconds": 15.2,
+      "source_id": "S09",
+      "role": "observed-evidence",
+      "observation": "软管回盖后立放"
+    },
+    {
+      "path": "assets/keyframes/S09-16.8.jpg",
+      "timestamp_seconds": 16.8,
+      "source_id": "S09",
+      "role": "observed-evidence",
+      "observation": "手背膏点举近"
+    }
+  ],
+  "source_manifest": "source-manifest.json",
+  "evidence_media": [
+    {
+      "source_id": "S09",
+      "media_path": "assets/sources/S09.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 33.0,
+      "duration_seconds": 33.0,
+      "sha256": "6890c2f7d47cd1c7a2629beb4225d801ec4b80173ebc939936bc1cf29e619048",
+      "audio_state": "original"
+    },
+    {
+      "source_id": "S13",
+      "media_path": "assets/sources/S13.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 18.576009,
+      "duration_seconds": 18.576009,
+      "sha256": "98b4f649c774dd40e66de509e77362b51472bb3f03a40cd96effc4209232db76",
+      "audio_state": "original"
+    }
+  ],
+  "batch_id": "20261108-toneup-cream"
+}

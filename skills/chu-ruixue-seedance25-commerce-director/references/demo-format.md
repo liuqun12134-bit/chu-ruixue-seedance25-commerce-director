@@ -1,4 +1,6 @@
-# 库记录与索引
+# 历史演示记录格式（兼容与溯源）
+
+本文仅用于读取旧demo-library证据，不是新版入库入口。新动作、脚本和目标产品使用[四库格式](libraries.md)；不要继续新增两套产品专属/品类动作副本。下面的scope与products.json仅描述旧格式，不限制新版跨商品借鉴。
 
 记录是 UTF-8 JSON 文字文件，可由不同 agent 直接读写；复杂观察可附 Markdown 和图片。使用 [demo-record.json](../templates/demo-record.json) 模板；模板是结构样例，不是已入库证据，复制后必须填入本次事实。
 
@@ -28,6 +30,6 @@ products.json 格式为 schema_version=1、products 列表。每项含 id、name
 
 demo-library/index.json 从记录与产品关联派生，包含 ID、标题、模式、品类、形态、包装、部位、产品名、标签、摘要、来源类型、适用范围、启用状态和产品 ID与相对路径。先读索引再读取匹配记录；索引不是另一套事实来源。
 
-本技能写入条目后使用 `python scripts/catalog.py reindex` 和 `python scripts/catalog.py validate`，同时检查两个实体库。保留的 `library.py` 只管理产品/品类部分。校验检查记录、资产、相对路径、引用关系和索引是否过期，不判断视频质量、反馈真假或模型能力。
+维护后用 `python scripts/catalog.py reindex` 和 `python scripts/catalog.py validate` 同时检查四库与历史来源。`library.py` 保留旧资产兼容检查；新增产品与图片绑定使用studio.py，不写回旧产品表。校验不判断视频质量、反馈真假或模型能力。
 
 维护同一份可写目录；并发修改同一条目前先读最新文件，合并本轮变更，不回写过期副本。同步或升级保留用户记录；同 ID 不同内容需要合并，不静默选远程版本。用户授权保存本地不自动等于授权公开传播原素材。

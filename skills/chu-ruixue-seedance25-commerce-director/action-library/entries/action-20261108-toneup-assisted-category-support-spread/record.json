@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261108-toneup-assisted-category-support-spread",
+  "title": "受试者伸臂，操作者承托后推匀",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261108-toneup-assisted-category/record.json"
+    ],
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "素颜霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "双人演示已经成立",
+      "手臂上已有试样；初次取料需另有依据"
+    ],
+    "action": "受试者把手臂伸向旁边，操作者一手控制腕/前臂位置，另一手沿前臂、上臂来回推抹。原片部分时间手臂被头发或画面边缘遮住，取膏与初次落膏未完整看到。",
+    "transition": "受试者保持自然关节角度，操作者在换区前调整承托，不突然松开或交叉穿手。",
+    "end_state": "记录到的手臂保持伸出，操作者仍在补匀；不补写已经离手展示。",
+    "expected_effect": "展示辅助涂抹关系，不推导结果优于单人用法。",
+    "avoid": [
+      "不凭此给单人稿新增助手",
+      "不把理发、手臂护理混为同一个动作链",
+      "不伪造画外落膏"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261108-toneup-assisted-category/record.json",
+    "unit_id": "support-spread"
+  },
+  "legacy_context": {
+    "category": "素颜霜",
+    "product_form": "已在身体试用区形成薄层的膏体",
+    "container": "操作人使用的容器有明确去向",
+    "body_part": "前臂、上臂",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "S05约4.5–27秒",
+  "migration_source_sha256": "f13ab71065f72996e35dc0a46408abeac693594e40f46861873cf8da5cdc7771"
+}

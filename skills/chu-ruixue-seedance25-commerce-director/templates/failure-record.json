@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "record_type": "failure",
+  "id": "failure-new",
+  "product_id": "product-new",
+  "created_on": "2026-11-08",
+  "user_problem": "填写用户指出的问题",
+  "input_files": [],
+  "observations": [],
+  "hypotheses": [],
+  "proposed_changes": [],
+  "unknowns": [],
+  "related_script_ids": [],
+  "related_action_ids": [],
+  "findings": [],
+  "rule_updates": [],
+  "attempts": [],
+  "history": []
+}

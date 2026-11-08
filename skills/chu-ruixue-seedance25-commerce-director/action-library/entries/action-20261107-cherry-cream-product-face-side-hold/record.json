@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261107-cherry-cream-product-face-side-hold",
+  "title": "脸侧正面持品，指腹扶稳下缘",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261107-cherry-cream-product/record.json"
+    ],
+    "limitations": [
+      "全片解码通过；视觉检查采用每秒 2 帧抽样和动作窗口序列，关键时点近似，未声称实时连续播放。",
+      "原声保留；本地机器转写未听审，台词、语气和成分/功效说法不作为本条动作结论。",
+      "未进行生成验证；现场反光不证明功效，不迁移曝光变化或整脸换肤。",
+      "眼周、配方搭配和适用人群不能仅凭演示推断；使用区域以当前产品真实说明为准。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "容器正面已朝向镜头；手可自然扶住瓶身与下缘。"
+    ],
+    "action": "把容器停在脸侧，指腹扶稳下缘及瓶身，随讲话做有限的距离和角度调整；接近结尾将产品移出画面。",
+    "transition": "从持品展示回到无持物交流。",
+    "end_state": "产品最后离开镜头，脸部保持可见。",
+    "expected_effect": "纯口播展示路线，不引入使用教程。",
+    "avoid": [
+      "不把托瓶手指误写成向下购买指示；不新增上脸动作。"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261107-cherry-cream-product/record.json",
+    "unit_id": "face-side-hold"
+  },
+  "legacy_context": {
+    "category": "面霜",
+    "product_form": "内容物未展示，不据外壳推断质地",
+    "container": "透明圆筒外罩、粉色内部容器和顶部结构",
+    "body_part": "无接触使用",
+    "product_id": "product-cream-cherry-20261107",
+    "scope": "product"
+  },
+  "source_time": "约 12.0–19.0 秒",
+  "migration_source_sha256": "f71bffbedcacfa49104d082fc67103dc6c40c14b56a16046edb9b6bb7373d3f7"
+}

@@ -1,0 +1,9 @@
+# Windows x64 / Python 3.12 reference environment, verified locally 2026-11-08.
+# Reuse compatible working environments; these pins apply only to a managed install.
+faster-whisper==1.2.1
+ctranslate2==4.8.4
+numpy==2.5.4
+huggingface-hub==2.3.0
+av==19.0.2
+onnxruntime==1.31.1
+tokenizers==0.23.3

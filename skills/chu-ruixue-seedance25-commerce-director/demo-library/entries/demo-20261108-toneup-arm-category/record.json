@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261108-toneup-arm-category",
+  "title": "素颜霜手臂：已有点条承接、前臂推匀与肩臂延展",
+  "record_type": "demo",
+  "modes": [
+    "use"
+  ],
+  "category": "素颜霜",
+  "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+  "product_form": "可分区推薄的膏体；不将身体使用范围推广到未确认产品",
+  "container": "先放稳容器或由明确持手控制",
+  "body_part": "手背、前臂、上臂、肩头",
+  "tags": [
+    "从前臂已有点条膏痕承接分区推薄",
+    "抬起前臂，另一手沿腕肘之间补匀",
+    "够到上臂和肩头，沿同一手臂往返推匀"
+  ],
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "summary": "保留前臂已有点条膏痕逐段推薄、前臂举起补匀与单人肩臂往返三个动作单元。每种部位必须符合当前产品实际用途。",
+  "scope": "category",
+  "product_id": null,
+  "enabled": true,
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户明确要求素颜霜品类入库；首批15条和补充6条共21个文件，来源及重复关系见source-manifest.json。",
+    "source_url": null,
+    "source_asset": "assets/sources/S07.mp4",
+    "notes_path": "source-notes.txt",
+    "analyzed_on": "2026-11-08",
+    "duration_seconds": 20.733333,
+    "time_reliability": "approximate",
+    "observation_method": "ffprobe测量；每2秒覆盖全时段抽帧审阅，关键交互2/4fps加密，选定原分辨率帧检查；精确重复T05复用T04视觉分析。",
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。"
+    ]
+  },
+  "preconditions": [
+    "当前产品已确认适用于计划接触的身体部位。",
+    "皮肤区域暴露且手能自然够到；无须为了丰富动作新增裸露区域。"
+  ],
+  "units": [
+    {
+      "id": "existing-lines",
+      "name": "从前臂已有点条膏痕承接分区推薄",
+      "source_time": "S15约27.2–30秒",
+      "observations": [
+        {
+          "source_id": "S15",
+          "start_seconds": 27.2,
+          "end_seconds": 30,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S15.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "前臂已有点状或条状膏体",
+        "手背到前臂之间可连续触及"
+      ],
+      "action": "画面右侧人物抬起已布有多处白色点条的前臂，另一手从手背/腕侧逐段推开；先触及区域变成片状薄层，未触及的点条仍可见。此前出料有遮挡，不补写每一点的落膏来源。",
+      "transition": "沿实际残留向下补匀，再离手。",
+      "end_state": "各段残留按接触顺序改变。",
+      "expected_effect": "展示区域化铺展，不全臂同步换色。",
+      "avoid": [
+        "不从无膏首帧直接跳到满臂点条",
+        "不把镜头外挤膏写成已观察"
+      ],
+      "prompt_fragment": "承接前臂已经存在的点条膏痕，从手背和腕侧开始逐段推开；保留尚未触及的膏痕，接触到哪里才改变哪里的覆盖层。"
+    },
+    {
+      "id": "forearm",
+      "name": "抬起前臂，另一手沿腕肘之间补匀",
+      "source_time": "S08约9–24秒",
+      "observations": [
+        {
+          "source_id": "S08",
+          "start_seconds": 9,
+          "end_seconds": 24,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S08.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "前臂已有试用状态",
+        "两手不同时占有产品和配件"
+      ],
+      "action": "画面右侧人物屈肘举起前臂，另一手在腕至肘侧之间接触、推抹并短暂承托；主讲者此段没有对应涂抹，动作归实际示范者。",
+      "transition": "停手时让前臂保持可见，再降低手位。",
+      "end_state": "前臂薄层/原有状态可观察。",
+      "expected_effect": "呈现前臂局部使用，不证明全身功效。",
+      "avoid": [
+        "不把助手动作归给主讲者",
+        "不自动新增第二人"
+      ],
+      "prompt_fragment": "在当前人物自己的前臂上承接已有试样，屈肘举起，以另一手沿腕至肘侧逐段补匀，停手后保持试用区可见。"
+    },
+    {
+      "id": "upper-arm",
+      "name": "够到上臂和肩头，沿同一手臂往返推匀",
+      "source_time": "S07约5.5–9.3秒；S01约28–39秒",
+      "observations": [
+        {
+          "source_id": "S07",
+          "start_seconds": 5.5,
+          "end_seconds": 9.3,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S07.mp4",
+          "media_start_offset_seconds": 0
+        },
+        {
+          "source_id": "S01",
+          "start_seconds": 28,
+          "end_seconds": 39,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S01-27-39.5.mp4",
+          "media_start_offset_seconds": 27
+        }
+      ],
+      "start_conditions": [
+        "本品适用上臂/肩头",
+        "已有试样或接触转移已另行成立",
+        "衣物不会挡住操作区"
+      ],
+      "action": "一只手臂自然伸出或屈肘，另一手掌沿可触及的上臂到肩头连续推抹，并回到较低部位；S07片头已在涂抹中，初次取料未知。",
+      "transition": "完成当前一段再调整肘位，保留肩、肘和掌心的接触关系。",
+      "end_state": "操作手回落，手臂仍保持真实肤面。",
+      "expected_effect": "展示身体局部均匀铺展。",
+      "avoid": [
+        "不凭字幕新增颈部或全身涂抹",
+        "不让手穿过衣物",
+        "不推定原片没有示出的取料"
+      ],
+      "prompt_fragment": "在产品适用且已经有试样的手臂上，用另一手掌沿上臂到肩头自然推匀，再顺着手臂回收；动作范围服从当前衣物和关节可达性。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/keyframes/S15-27.24.jpg",
+      "timestamp_seconds": 27.24,
+      "source_id": "S15",
+      "role": "observed-evidence",
+      "observation": "画面右侧人物前臂已有点条膏痕"
+    },
+    {
+      "path": "assets/keyframes/S15-28.8.jpg",
+      "timestamp_seconds": 28.8,
+      "source_id": "S15",
+      "role": "observed-evidence",
+      "observation": "从手背和腕侧推开点条"
+    },
+    {
+      "path": "assets/keyframes/S08-12.jpg",
+      "timestamp_seconds": 12.0,
+      "source_id": "S08",
+      "role": "observed-evidence",
+      "observation": "前臂举起，另一手接触腕肘区域"
+    },
+    {
+      "path": "assets/keyframes/S07-6.jpg",
+      "timestamp_seconds": 6.0,
+      "source_id": "S07",
+      "role": "observed-evidence",
+      "observation": "手掌触及上臂"
+    },
+    {
+      "path": "assets/keyframes/S01-34.jpg",
+      "timestamp_seconds": 34.0,
+      "source_id": "S01",
+      "role": "observed-evidence",
+      "observation": "另一手在上臂推匀"
+    }
+  ],
+  "source_manifest": "source-manifest.json",
+  "evidence_media": [
+    {
+      "source_id": "S07",
+      "media_path": "assets/sources/S07.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 20.733333,
+      "duration_seconds": 20.733333,
+      "sha256": "9163f23df09c83ebebb7017d8b8a19de33491cd10ee57582d79fd3f6ba05aaef",
+      "audio_state": "original"
+    },
+    {
+      "source_id": "S08",
+      "media_path": "assets/sources/S08.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 27.166667,
+      "duration_seconds": 27.166667,
+      "sha256": "a092dabb5261443b910de67d80f4b5c3a58fbcce13e243752c0de3ec5628ed27",
+      "audio_state": "original"
+    },
+    {
+      "source_id": "S15",
+      "media_path": "assets/sources/S15.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 35.32,
+      "duration_seconds": 35.32,
+      "sha256": "19bdee9de5f58f755601fd78ea83f79943a94666bb77ac6d0a39febeff6d8572",
+      "audio_state": "original"
+    },
+    {
+      "source_id": "S01",
+      "media_path": "assets/sources/S01-27-39.5.mp4",
+      "kind": "continuous_clip_reencoded",
+      "source_start_seconds": 27,
+      "source_end_seconds": 39.5,
+      "duration_seconds": 12.5,
+      "sha256": "4ad8cd8a0bf7f4f030c92f3a4ef9a22b04b8b79286241bb0e6727355e99fc364",
+      "audio_state": "original_content_reencoded",
+      "timing_note": "输入精确寻址后截取，边缘精度受帧间隔限制；动作时间仍引用原文件。"
+    }
+  ],
+  "batch_id": "20261108-toneup-cream"
+}

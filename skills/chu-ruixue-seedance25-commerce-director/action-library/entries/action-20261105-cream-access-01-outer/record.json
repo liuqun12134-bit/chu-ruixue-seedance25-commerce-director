@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261105-cream-access-01-outer",
+  "title": "双手分离外盖并明确去向",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-05",
+  "updated_on": "2026-11-05",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261105-cream-access-01/record.json"
+    ],
+    "limitations": [
+      "本轮是覆盖可读全时段的抽帧序列视觉分析，并非实时播放或全帧连续性认证；关键交互加密至每秒2或4帧。",
+      "没有听审或转写音轨，不提供台词、词句对齐、语气及口型同步结论。",
+      "动作区间为近似；保存关键帧时间来自实际帧PTS。画外放置和被遮挡的步骤未知。",
+      "视频中的美颜、曝光、剪辑、字幕与图板不能证明成分、浓度、即时塑形或长期功效；生成可行性未验证。",
+      "各来源的黑罐/银罐、规格及膏体颜色不视为同一产品；仅归面霜品类，不登记精准产品身份。",
+      "原视频未复制入库或上传；source-manifest.json保留文件名、哈希、实测时长，重查原片仍需原文件。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "闭合或盖已松的真实状态可辨",
+      "有首帧可用台面或明确的持盖方案"
+    ],
+    "action": "W15双手分离黑罐与金色外盖，一手握开罐、另一手托盖内面；约5秒罐与盖分别落桌。片头未足够证明完整旋拧圈数。",
+    "transition": "把盖放稳后释放操作手，罐仍稳立或由持罐手接稳。",
+    "end_state": "罐口可接近，外盖位置明确。",
+    "expected_effect": "内容物可见，无皮肤效果。",
+    "avoid": [
+      "不猜旋开圈数",
+      "不新增台面",
+      "已开盖不重复操作"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261105-cream-access-01/record.json",
+    "unit_id": "outer"
+  },
+  "legacy_context": {
+    "category": "面霜",
+    "product_form": "可涂膏霜；颜色与流动性以本次产品为准",
+    "container": "有盖罐；独立内片仅在参考确认时使用",
+    "body_part": null,
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "W15约1–6秒；W27近重复版本",
+  "migration_source_sha256": "60214eb5989897aa55bc7f97229c2160a30cba4314dcc2f83ebee1b0a0967cfe"
+}

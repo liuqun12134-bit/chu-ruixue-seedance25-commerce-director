@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261108-toneup-assisted-category",
+  "title": "素颜霜双人条件：承托手臂与另一人辅助推匀",
+  "record_type": "demo",
+  "modes": [
+    "use"
+  ],
+  "category": "素颜霜",
+  "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+  "product_form": "已在身体试用区形成薄层的膏体",
+  "container": "操作人使用的容器有明确去向",
+  "body_part": "前臂、上臂",
+  "tags": [
+    "受试者伸臂，操作者承托后推匀"
+  ],
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "summary": "仅供本次已明确双人辅助演示时使用：受试者伸臂，操作者承托手臂并沿皮肤推匀。理发动作与产品演示分开，不移植其他人物习惯。",
+  "scope": "category",
+  "product_id": null,
+  "enabled": true,
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户明确要求素颜霜品类入库；首批15条和补充6条共21个文件，来源及重复关系见source-manifest.json。",
+    "source_url": null,
+    "source_asset": "assets/sources/S05.mp4",
+    "notes_path": "source-notes.txt",
+    "analyzed_on": "2026-11-08",
+    "duration_seconds": 48.72,
+    "time_reliability": "approximate",
+    "observation_method": "ffprobe测量；每2秒覆盖全时段抽帧审阅，关键交互2/4fps加密，选定原分辨率帧检查；精确重复T05复用T04视觉分析。",
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。"
+    ]
+  },
+  "preconditions": [
+    "本次用户已要求且画面确有受试者和操作者两人；单人首帧不得调用。",
+    "当前产品适用计划接触的手臂区域。",
+    "操作者双手职责明确，第三名造型人员不是必要参与者。"
+  ],
+  "units": [
+    {
+      "id": "support-spread",
+      "name": "受试者伸臂，操作者承托后推匀",
+      "source_time": "S05约4.5–27秒",
+      "observations": [
+        {
+          "source_id": "S05",
+          "start_seconds": 4.5,
+          "end_seconds": 27,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/S05.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "双人演示已经成立",
+        "手臂上已有试样；初次取料需另有依据"
+      ],
+      "action": "受试者把手臂伸向旁边，操作者一手控制腕/前臂位置，另一手沿前臂、上臂来回推抹。原片部分时间手臂被头发或画面边缘遮住，取膏与初次落膏未完整看到。",
+      "transition": "受试者保持自然关节角度，操作者在换区前调整承托，不突然松开或交叉穿手。",
+      "end_state": "记录到的手臂保持伸出，操作者仍在补匀；不补写已经离手展示。",
+      "expected_effect": "展示辅助涂抹关系，不推导结果优于单人用法。",
+      "avoid": [
+        "不凭此给单人稿新增助手",
+        "不把理发、手臂护理混为同一个动作链",
+        "不伪造画外落膏"
+      ],
+      "prompt_fragment": "仅在双人辅助演示已确认时，让受试者自然伸臂，操作者一手承托、另一手顺着已有试样逐段推匀，保持手臂和掌心连续接触。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/keyframes/S05-4.jpg",
+      "timestamp_seconds": 4.0,
+      "source_id": "S05",
+      "role": "observed-evidence",
+      "observation": "操作者举罐，受试者伸臂"
+    },
+    {
+      "path": "assets/keyframes/S05-6.jpg",
+      "timestamp_seconds": 6.0,
+      "source_id": "S05",
+      "role": "observed-evidence",
+      "observation": "操作者一手承托另一手推抹"
+    },
+    {
+      "path": "assets/keyframes/S05-12.jpg",
+      "timestamp_seconds": 12.0,
+      "source_id": "S05",
+      "role": "observed-evidence",
+      "observation": "在手臂局部连续推匀"
+    }
+  ],
+  "source_manifest": "source-manifest.json",
+  "evidence_media": [
+    {
+      "source_id": "S05",
+      "media_path": "assets/sources/S05.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 48.72,
+      "duration_seconds": 48.72,
+      "sha256": "28873fb3c33ce54f2a8f54ec4c71caa01314a4e86bbc0c3429281e7f1b9deed5",
+      "audio_state": "original"
+    }
+  ],
+  "batch_id": "20261108-toneup-cream"
+}

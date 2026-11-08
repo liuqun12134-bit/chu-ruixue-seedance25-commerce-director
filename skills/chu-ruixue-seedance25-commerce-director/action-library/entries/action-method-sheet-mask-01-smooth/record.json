@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-method-sheet-mask-01-smooth",
+  "title": "已有膜片的局部抚平",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-01",
+  "updated_on": "2026-11-01",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-method-sheet-mask-01/record.json"
+    ],
+    "limitations": [
+      "不是从本次新视频提取的演示。",
+      "无生成验证与用户成功反馈。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "贴片面膜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "贴片面膜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "首帧或上一步已经贴好同一片膜布"
+    ],
+    "action": "对实际可见翘边或褶皱进行一条短路径的轻压抚平，没有问题则直接展示。",
+    "transition": "手离开后保留真实边缘、孔位和必要褶皱。",
+    "end_state": "同一片膜布仍在脸上，局部更贴合。",
+    "expected_effect": "贴合状态改善，不涂化、不瞬间美白。",
+    "avoid": [
+      "不把膜布按摩吸收",
+      "不为制造动作先凭空出现翘边"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-method-sheet-mask-01/record.json",
+    "unit_id": "smooth"
+  },
+  "legacy_context": {
+    "category": "贴片面膜",
+    "product_form": "柔性膜片",
+    "container": "袋装或已取出",
+    "body_part": "面部",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": null,
+  "migration_source_sha256": "623973e2f38f0097c3cd3fa6e11a4789be6ad497f56bc7945cd0679f9b0f41ac"
+}

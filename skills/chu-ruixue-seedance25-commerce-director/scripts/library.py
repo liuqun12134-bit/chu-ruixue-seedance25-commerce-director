@@ -366,7 +366,11 @@ def main():
     try:
         if args.command == 'bind-product':
             require(args.product_id and args.image, 'bind-product requires PRODUCT_ID IMAGE_PATH')
-            result = bind_product(args.root, args.product_id, args.image)
+            if (args.root / 'product-library').is_dir():
+                import studio
+                result = studio.bind(args.root, args.product_id, args.image)
+            else:
+                result = bind_product(args.root, args.product_id, args.image)
         else:
             result = run(args.root, args.command)
         print(json.dumps({'ok': True, 'command': args.command, 'records': result}, ensure_ascii=False))

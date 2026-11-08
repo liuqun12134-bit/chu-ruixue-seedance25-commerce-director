@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "record_type": "product",
+  "id": "product-cream-cherry-20261107",
+  "title": "辛等等樱桃面霜（本批次原片包装）",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "旧对标产品登记，不自动视为用户新品。",
+    "source_refs": [
+      "demo-library/products.json"
+    ],
+    "limitations": [
+      "需主动采访确认目标产品身份与规则。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "role": "reference_only",
+  "aliases": [],
+  "reference_hashes": [
+    "be0ff68d1764ebb1ae68332f3aebbdb50f5a15599829142e780ce263122388b2"
+  ],
+  "category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "facts": {
+    "packaging": {
+      "value": "透明圆筒外罩、粉色内胆及顶部结构，瓶身有樱桃/花朵图案。本片未演示开盖、出料或上脸，不从外观推断完整使用方式。",
+      "status": "observed",
+      "basis": "旧来源登记，非本次重新观察"
+    },
+    "net_content": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "dimensions": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "contents": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "texture": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "usage": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "body_parts": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "finish": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    },
+    "selling_points": {
+      "value": null,
+      "status": "unknown",
+      "basis": "尚未采访"
+    }
+  },
+  "match_fields": {
+    "texture": null,
+    "packaging": null,
+    "body_part": null
+  },
+  "rules": [],
+  "interview": {
+    "asked": [],
+    "missing_core": [
+      "目标产品身份",
+      "品类确认",
+      "用法与效果",
+      "包装规格"
+    ],
+    "supplement_answer": null,
+    "complete": false
+  },
+  "migration_source_sha256": "7cd04aaf63ff3c5ab430df1d6f323466e977ccacad865e44dddaf4ca95c220b4"
+}

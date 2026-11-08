@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-new",
+  "title": "新脚本",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "user_authored",
+    "basis": "记录用户口述",
+    "source_refs": [],
+    "limitations": []
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "categories": [],
+  "product_ids": [],
+  "source_category": {
+    "value": null,
+    "basis": "unknown"
+  },
+  "goal": "填写本次展示目标",
+  "adaptation_notes": "按音频调整可换序环节，保留真实因果",
+  "source_sequence": [],
+  "initial_state_satisfies": [],
+  "maintained_states": [],
+  "effect_required": false,
+  "effect_stage_ids": [],
+  "stages": [
+    {
+      "id": "start",
+      "goal": "填写环节目的",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [],
+      "entry_state": "填写进入状态",
+      "action_options": [],
+      "exit_state": "填写完成状态",
+      "carry_forward": [],
+      "acceptance": [
+        "填写完成状态"
+      ]
+    }
+  ]
+}

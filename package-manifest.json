@@ -1,31 +1,455 @@
 {
   "schema_version": 1,
   "skill_name": "chu-ruixue-seedance25-commerce-director",
-  "skill_version": "1.1.0",
+  "skill_version": "2.1.0",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-07T11:16:06.604419+00:00",
+  "created_at": "2026-11-08T10:16:53.344530+00:00",
   "summary": {
-    "files": 425,
-    "bytes": 811137691,
-    "demo_records": 18,
-    "demo_units": 58,
-    "demo_scopes": {
-      "product": 11,
-      "category": 7
-    },
+    "demo_records": 26,
+    "demo_units": 81,
     "performance_records": 33,
-    "performance_status": {
-      "pending": 33
-    },
     "performance_sources": 29,
-    "videos": 34,
-    "images": 196
+    "ready_mappings": 0,
+    "pending_mappings": 33,
+    "product_records": 4,
+    "script_records": 3,
+    "action_records": 81,
+    "failure_records": 0,
+    "files": 634,
+    "bytes": 1009359275,
+    "videos": 61,
+    "images": 241
   },
   "files": [
     {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-backlight/record.json",
+      "size": 3818,
+      "sha256": "b0a76849f49c78fcb2779db7eca31bafa269596658e300758e856cd2e106362d"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-handback/record.json",
+      "size": 3794,
+      "sha256": "87a8eedf6336c74e3b8615492b74810f8548d750aed14cfcc3e09d797dd7709c"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-palm-cheek/record.json",
+      "size": 3756,
+      "sha256": "470727723c42439034c0aeb3a63bbac6a6e4f5cc9605a30da98d8c71cc3359f9"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-talk-close/record.json",
+      "size": 3637,
+      "sha256": "69db0ed88464b8de249a5f7b8c1af99db51b6f74be587760f7d90d94a0fd3e98"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-08-face-side-bottle/record.json",
+      "size": 3702,
+      "sha256": "69db24474f3d3eb86e886e3e479fdc04c9978331f9aa3e952fed26e8b95371cd"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-08-skin-indication/record.json",
+      "size": 3678,
+      "sha256": "9ef179e7e63f3174f8f54f7f3aef137b214ce5529b94ca54733a1a98af734c61"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-09-lit-to-label/record.json",
+      "size": 3657,
+      "sha256": "a45b6c86af00e2d2d0bc547dd7e225ea04bd3a99702915c4b14319fa0c72555b"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-09-two-bottle/record.json",
+      "size": 3708,
+      "sha256": "9840c6f6eecc674ed82767e146d779f1da2cb24bf6f339678aabc3eb5cc49e8f"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-12-face-side-pause/record.json",
+      "size": 3570,
+      "sha256": "a5a794371ca328801b66f96c52093a1aa857d1b0285912a482ff87d090cc135d"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-12-lift-tilt/record.json",
+      "size": 4342,
+      "sha256": "faf48d251bd7e9775e9c22eac876b78618bf826bb84941087887f299eee6cb06"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-15-mask-support/record.json",
+      "size": 4125,
+      "sha256": "b8af3422a05c650504928c33b193d528c3891a5ae880f8d38f6ef8f9db800c76"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-15-oil-over-mask/record.json",
+      "size": 4055,
+      "sha256": "bcddb024aa517c24abbbdbe23befe7245db39d9e4c8927097eb21ccc76a6b7ab"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-15-palm-press/record.json",
+      "size": 3913,
+      "sha256": "32486ebc170e9bc8702f93acd5e650cabdef35242ff62f282a9bdcbdee536d43"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-15-pouch-add/record.json",
+      "size": 4108,
+      "sha256": "d1eaa755d972a133909fa453efe9f930892c5db9952b4a15d2bc56476ae81500"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-15-pouch-liquid/record.json",
+      "size": 4004,
+      "sha256": "fe058df0fffd74cff537bf69f51200194db96ca5539bc57e71aa034e7c684f94"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-20-mask-finish/record.json",
+      "size": 4043,
+      "sha256": "9bc8cb8f66702c9b06c68b0110632bfeecc713886eaad6cf1a080059aab808dc"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-20-mask-fit/record.json",
+      "size": 4153,
+      "sha256": "fc65072cc38b0ad6c6c217af9fdc1fd3417063a9b1089e0e069da30be3b50b04"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-20-palm-oil/record.json",
+      "size": 3984,
+      "sha256": "63f4862f2483f6d48d4d5defc7138c55cdde68f728097b98bbd97a7a918e7e90"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-21-alternate/record.json",
+      "size": 3651,
+      "sha256": "887ea2b0c13e9003cb69cc63eb729c87008bd24d2fb986508d6e21f8d77096a1"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-21-close-return/record.json",
+      "size": 3563,
+      "sha256": "15714c47bbdc9cf331e16e0ce9ff8050bb46c0596f499fa1f239a82a7b215f03"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-24-near-display/record.json",
+      "size": 3633,
+      "sha256": "42ab7239b41844b42887aceb9b823a6461ffabc5f315d189d2024cc91d707418"
+    },
+    {
+      "path": "action-library/entries/action-20261102-ginseng-oil-ref-24-point-bottle/record.json",
+      "size": 3703,
+      "sha256": "0b0f964c02d135d9fcd6f468a5fe796f05837a0002a5b68927dabe21f1cec3fa"
+    },
+    {
+      "path": "action-library/entries/action-20261105-cream-access-01-inner/record.json",
+      "size": 3593,
+      "sha256": "264419811d1fa11c83384547a5f037c45fb74b58b9f67db959c02cb36714050f"
+    },
+    {
+      "path": "action-library/entries/action-20261105-cream-access-01-outer/record.json",
+      "size": 3581,
+      "sha256": "6923c6aa2f3151ddf905e99aa317f2137932374d5d040036dfd3462b84425346"
+    },
+    {
+      "path": "action-library/entries/action-20261105-cream-access-01-show-open/record.json",
+      "size": 3607,
+      "sha256": "02a6f8d5d655079852e4cf826c36bc795aa87e85f08e0a0d4feb55771731ae6e"
+    },
+    {
+      "path": "action-library/entries/action-20261105-cream-handback-01-deposit/record.json",
+      "size": 3525,
+      "sha256": "614241b9a69be690d0086a6eebed3edba68db56f7d0ad0f9b7ecb2d3ef5e77f4"
+    },
+    {
+      "path": "action-library/entries/action-20261105-cream-handback-01-inspect/record.json",
+      "size": 3682,
+      "sha256": "6637c17061f70be6d91348bfbf0e83eaca4ef8fceaab902dcd247aa0b41f104a"
+    },
+    {
+      "path": "action-library/entries/action-20261105-cream-handback-01-spread/record.json",
+      "size": 3668,
+      "sha256": "fe0a55acdeb66400caa0415aa7ae82402a4b87645c006ad2ca48ff68eb335f1a"
+    },
+    {
+      "path": "action-library/entries/action-20261107-b5-cream-product-close-and-set-aside/record.json",
+      "size": 3366,
+      "sha256": "b66d855e45d7373efc2caeee97d4e856063a089e4ceaa015632c52720d5bddb9"
+    },
+    {
+      "path": "action-library/entries/action-20261107-b5-cream-product-closed-display/record.json",
+      "size": 3186,
+      "sha256": "2e3bc1e4b4c36334571fce5d9cacce6fc502e41bde638e21570cc20a24117250"
+    },
+    {
+      "path": "action-library/entries/action-20261107-b5-cream-product-face-angle/record.json",
+      "size": 3222,
+      "sha256": "83567f28a42e5a59bd6397ade42b89bb8358fcf7ad4d04a93ddb79eaf6f737cc"
+    },
+    {
+      "path": "action-library/entries/action-20261107-b5-cream-product-free-hand-finish/record.json",
+      "size": 3327,
+      "sha256": "8acce381012c603d81653e2cd318a100677e839d7e624deef935edab37153b45"
+    },
+    {
+      "path": "action-library/entries/action-20261107-b5-cream-product-multi-point/record.json",
+      "size": 3454,
+      "sha256": "b97d1d0d2ade69486693e5f0a573acd1e109ea527fde65de7467bdc5f1604be3"
+    },
+    {
+      "path": "action-library/entries/action-20261107-b5-cream-product-open-jar/record.json",
+      "size": 3315,
+      "sha256": "48f37bd0a9a6ce598d8ceff57fc8708875dc6ff83b7bf58d09066e8f0c70fe30"
+    },
+    {
+      "path": "action-library/entries/action-20261107-b5-cream-product-spread-zones/record.json",
+      "size": 3409,
+      "sha256": "8f8bfb9e2885baf5b19b62202506a412979cdf1259afadedb1209334ba43b290"
+    },
+    {
+      "path": "action-library/entries/action-20261107-cherry-cream-product-bring-in/record.json",
+      "size": 3167,
+      "sha256": "cd8d4664cf68ae520067b8b5ee0ac8699b82a0796821fa1e5662d1565078f17f"
+    },
+    {
+      "path": "action-library/entries/action-20261107-cherry-cream-product-face-side-hold/record.json",
+      "size": 3256,
+      "sha256": "bdc0bcd7ed3febe649456599dbcd62739b7c47f847f961a61f06a4b7d554096b"
+    },
+    {
+      "path": "action-library/entries/action-20261107-cherry-cream-product-turn-container/record.json",
+      "size": 3174,
+      "sha256": "65fe39dc835ac1d8053bb2a4586d67fd7cccfca8b3d1cfdb1e0b9464f4bb4b25"
+    },
+    {
+      "path": "action-library/entries/action-20261107-cream-multipoint-category-free-hand-finish/record.json",
+      "size": 3380,
+      "sha256": "18dc9c1a70aaba0d2947c717bdf48210a701c080ba5b6321d7697dea5cce386e"
+    },
+    {
+      "path": "action-library/entries/action-20261107-cream-multipoint-category-multi-point/record.json",
+      "size": 3507,
+      "sha256": "e275f8dee01dd0dd92c961c7a52010135fc559641f05a306cec55219f26ec5c7"
+    },
+    {
+      "path": "action-library/entries/action-20261107-cream-multipoint-category-spread-zones/record.json",
+      "size": 3462,
+      "sha256": "84639850372d69aea57e9a18cf952c825938e9e8d2a55b4c9685af1c0557045c"
+    },
+    {
+      "path": "action-library/entries/action-20261107-cream-platform-category-press-platform/record.json",
+      "size": 3469,
+      "sha256": "06a00e2fbe9c8a45361e907e8db8d390e067445f759b29ddec982b2db97ecb86"
+    },
+    {
+      "path": "action-library/entries/action-20261107-cream-platform-category-take-platform/record.json",
+      "size": 3363,
+      "sha256": "8032483b349b322121da8d1e8ba4ddbcd1b9f66afc4101d8c0e885008d2e68fa"
+    },
+    {
+      "path": "action-library/entries/action-20261107-waterglow-cream-product-press-platform/record.json",
+      "size": 3495,
+      "sha256": "00e85dc4e11fe81da051e1f1b8413861e16b202a9bfbb8a8ce1c82447ad5e104"
+    },
+    {
+      "path": "action-library/entries/action-20261107-waterglow-cream-product-set-down-blend/record.json",
+      "size": 3387,
+      "sha256": "7696dcfe4403e3b1cbc36233b1e6d5b78b8d2b4c6403904e90ae9d4c9aae0e24"
+    },
+    {
+      "path": "action-library/entries/action-20261107-waterglow-cream-product-show-current-skin/record.json",
+      "size": 3367,
+      "sha256": "3d7e9b95b3955af1c3af36e96a33ffe1202265fec6df26ae5f5135ecd39c207b"
+    },
+    {
+      "path": "action-library/entries/action-20261107-waterglow-cream-product-take-platform/record.json",
+      "size": 3410,
+      "sha256": "bf2c3cdcd0ec7c0cd2e13c10ff8a026a369d7bcdaf468c87c3254865e83830cc"
+    },
+    {
+      "path": "action-library/entries/action-20261107-waterglow-cream-product-thin-local/record.json",
+      "size": 3409,
+      "sha256": "ddd2c54b321dbb8b52e5d7fe966b565afbae56e1aed27b38f132a6eaf6415896"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-arm-category-existing-lines/record.json",
+      "size": 3890,
+      "sha256": "e373c814ccb890c6c1a988b9b7e25d7752cfbbc72ae7c4fd6ed71dcf2540ddcb"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-arm-category-forearm/record.json",
+      "size": 3792,
+      "sha256": "7f138fb148137916fd22b13eb832fd194a8b1b15df90c06925ee4e50078b225d"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-arm-category-upper-arm/record.json",
+      "size": 3937,
+      "sha256": "b86094fd806e5b611f92bc90febf2aa69b6c228a54a26a2df3ba97ccf41c06ea"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-assisted-category-support-spread/record.json",
+      "size": 4004,
+      "sha256": "6d841b44cc2c5ce593524bba40f26f796156a686a8f1e86714847a1a0dc08ba8"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-face-category-dot/record.json",
+      "size": 4190,
+      "sha256": "906cd3250b3237161e6336d8732d7df848ade71f576d8b5bb26881b5922107ad"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-face-category-finish/record.json",
+      "size": 4113,
+      "sha256": "ebedf5d1569a93f84e73a22315966cf508fed9f2269b49ae0e7dcc75c1bc2bb7"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-face-category-residue/record.json",
+      "size": 4146,
+      "sha256": "0bf4909261542511891dc8a435aafbe7b7daf390d76cb70c33e07c7a7002a45d"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-face-category-spread-zones/record.json",
+      "size": 4237,
+      "sha256": "67a713aca3fe508b5402343057be63c44f04f24e1f4a382fa378e7783f48b415"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-handback-category-cleanup/record.json",
+      "size": 3911,
+      "sha256": "317352da7ae97a825a336b47609849be713dedb0ffd8f61bdf95539fd57b52dd"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-handback-category-holding-jar/record.json",
+      "size": 3971,
+      "sha256": "aa231d97ee8b5f16531ffc9bb21df0f8db2212d0ce7f7a88fba52615f252dff0"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-handback-category-spread/record.json",
+      "size": 4041,
+      "sha256": "c039c24d9c9bffb5ab86fc11282aa3797e14aa03acecbac84130664aaee16551"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-jar-category-firm-surface/record.json",
+      "size": 4160,
+      "sha256": "5a6af802b549787ae0baa549b360c3c08b3bfcd9385cc15dc982c9daa90fa3f4"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-jar-category-inner/record.json",
+      "size": 4099,
+      "sha256": "2d38814cc52a250dddb04b5e0296627ad961bc5f6b12b70fd48abda7f047bca6"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-jar-category-open-display/record.json",
+      "size": 4060,
+      "sha256": "35f34921a6e2e2130e8ffafc899d134f19bce3eb7a0365596b01d1ae7bc51a8d"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-jar-category-table-sample/record.json",
+      "size": 4152,
+      "sha256": "9edbf85ebb17d14ecdd646859c8923750cf26adc2f3b82f91ebda634326553e9"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-packaging-category-paired/record.json",
+      "size": 4004,
+      "sha256": "826d0a19cc5da34cada4999fdb6e207e0524931b28a7269dda8d2650a95ad805"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-packaging-category-single/record.json",
+      "size": 4057,
+      "sha256": "1a4b9b337f73365750ef09db8182c2b0a9cf78f60cda68704dfa5114ab5340a0"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-surface-category-close/record.json",
+      "size": 3865,
+      "sha256": "dd1382560b8fb01016bd2212407fd75ffdc5e1f331f3bb75fbd6cf97932a5462"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-surface-category-paired-surfaces/record.json",
+      "size": 4063,
+      "sha256": "7c7c325dfb788a9678784f095ba4fecad888c1e7da81557ab49cc2c1c5278fa3"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-surface-category-point-edge/record.json",
+      "size": 3899,
+      "sha256": "f0e827eacd8ad632b252ef280e0d4984ebba3c38a0857e2b2bd4e09f1e7a28bf"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-tube-category-deposit/record.json",
+      "size": 3787,
+      "sha256": "dae18246ed7db9908a7557dc27cac3687f3798e292daca3c2cfb9db409cb79bb"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-tube-category-recap/record.json",
+      "size": 3642,
+      "sha256": "538363c597005f8e98318b7260bb83fafc79e805464eaf6d110f22754dfbfeb1"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-tube-category-uncap/record.json",
+      "size": 3671,
+      "sha256": "ade68b87a28afe69ea56259c81ade634585c62c0e27225727ddefa3892306bb8"
+    },
+    {
+      "path": "action-library/entries/action-legacy-cream-talk-01-finish/record.json",
+      "size": 3467,
+      "sha256": "668eff29e10ede99a1014f170c11b575e6d8c892c5b2d68729a00e07df65ee85"
+    },
+    {
+      "path": "action-library/entries/action-legacy-cream-talk-01-point/record.json",
+      "size": 3372,
+      "sha256": "38d3fbfcbf8ed193433516557c41b7aa801f89e9c722346aeceb8deb3a03f1e7"
+    },
+    {
+      "path": "action-library/entries/action-legacy-cream-talk-01-present/record.json",
+      "size": 3470,
+      "sha256": "5dc58f1df11660615888a4a26221eefe8d7feab20cfbffeec5cbcf5824f5893c"
+    },
+    {
+      "path": "action-library/entries/action-legacy-cream-use-01-cheek/record.json",
+      "size": 3678,
+      "sha256": "6fc5a03f7f217f7131514ff939037d376ca753285cf92795ccd0135800c798ef"
+    },
+    {
+      "path": "action-library/entries/action-legacy-cream-use-01-forehead/record.json",
+      "size": 3731,
+      "sha256": "4f8ba6182d97a504413f96287c65b8454a2df96b10184283cc769d256dab5ec3"
+    },
+    {
+      "path": "action-library/entries/action-legacy-cream-use-01-nose-chin/record.json",
+      "size": 3602,
+      "sha256": "aebe2e333a7b58ed91b579c89e95c34c225ba75023b54e128a0ba1d379bf8a88"
+    },
+    {
+      "path": "action-library/entries/action-legacy-cream-use-01-spread/record.json",
+      "size": 3758,
+      "sha256": "c2e63feb6dc6f69a0fb1be6429dc52dc2ccde4a9a79534b07ec5af591d8c5396"
+    },
+    {
+      "path": "action-library/entries/action-legacy-cream-use-01-transfer/record.json",
+      "size": 3662,
+      "sha256": "dacc3b9de29201008a2f5665be8adfa23e59cd5673635e9a362726643166045a"
+    },
+    {
+      "path": "action-library/entries/action-method-sheet-mask-01-place/record.json",
+      "size": 2706,
+      "sha256": "a209c99d7cb2f2ba1211d27cf57daa9d78c9ce9e83784a84fda9a9c7dd01b9f7"
+    },
+    {
+      "path": "action-library/entries/action-method-sheet-mask-01-smooth/record.json",
+      "size": 2675,
+      "sha256": "68fb102071cbdedb62ea5a381dc1231c39fd5dc4dfd27ddfa049732ff11d0497"
+    },
+    {
+      "path": "action-library/index.json",
+      "size": 337660,
+      "sha256": "99fae1767736d800fc1382091d286a43f5ffdf3cdc55bcb5f32200bcee334a06"
+    },
+    {
       "path": "agents/openai.yaml",
-      "size": 359,
-      "sha256": "3356e2e6c329d05c1bda8a9b6efc273687e3d58b43945b5e098888ad12ce3f29"
+      "size": 364,
+      "sha256": "e2e82016796ec5bd8055d2be66f7bd063cf230c9ed1052dccc7f8f19fea918a0"
+    },
+    {
+      "path": "demo-library/batches/20261108-toneup-cream/import-summary.json",
+      "size": 790,
+      "sha256": "510f2d7d96240874da320f173f73f147d3bc17556beb96d9d01216ea91f24a4d"
+    },
+    {
+      "path": "demo-library/batches/20261108-toneup-cream/review.html",
+      "size": 53801,
+      "sha256": "94f140e3d2b4780c3844b442070cd05b3bd16c44c0991330d2d59c5b4afd9709"
+    },
+    {
+      "path": "demo-library/batches/20261108-toneup-cream/source-manifest.json",
+      "size": 16986,
+      "sha256": "e4affba24e2b6c070fd10c6e4f3eddb57f5bdffcb995bbfc9333e1ee07471360"
     },
     {
       "path": "demo-library/entries/demo-20261102-ginseng-oil-ref-03/assets/key-001.png",
@@ -858,6 +1282,486 @@
       "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82"
     },
     {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/assets/keyframes/S01-34.jpg",
+      "size": 118081,
+      "sha256": "667fe90e4d895fe11803bcbab793a13c8b9349ee9e537c1b5353cbc5f4d76129"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/assets/keyframes/S07-6.jpg",
+      "size": 103367,
+      "sha256": "4e074a0684b8a9cb04757267d506bd66aa226d4d3842b70090fd497d8734eec6"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/assets/keyframes/S08-12.jpg",
+      "size": 174369,
+      "sha256": "358d63fb54ec1acff9cabf36db9c7052ae0b875080335851524e1f7668268088"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/assets/keyframes/S15-27.24.jpg",
+      "size": 161121,
+      "sha256": "46e5370d33c9bca64addbabe9bbdbba8c7ce222179be35b8d023a1809639bd1c"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/assets/keyframes/S15-28.8.jpg",
+      "size": 164005,
+      "sha256": "8653e5ea1451d730d1977eda796124036124df336d396d65282e415f2cb8a6d3"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/assets/sources/S01-27-39.5.mp4",
+      "size": 4294517,
+      "sha256": "4ad8cd8a0bf7f4f030c92f3a4ef9a22b04b8b79286241bb0e6727355e99fc364"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/assets/sources/S07.mp4",
+      "size": 4457046,
+      "sha256": "9163f23df09c83ebebb7017d8b8a19de33491cd10ee57582d79fd3f6ba05aaef"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/assets/sources/S08.mp4",
+      "size": 5812670,
+      "sha256": "a092dabb5261443b910de67d80f4b5c3a58fbcce13e243752c0de3ec5628ed27"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/assets/sources/S15.mp4",
+      "size": 10681179,
+      "sha256": "19bdee9de5f58f755601fd78ea83f79943a94666bb77ac6d0a39febeff6d8572"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/record.json",
+      "size": 9954,
+      "sha256": "6981419197e3aec49c4970fca2a763a6f6ebb990cc4e0f682892b2261ed80d37"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/source-manifest.json",
+      "size": 18764,
+      "sha256": "9369a57f8047e180421fc56b7da3dba65403396d917a2cc016c8b0a2f410257d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-arm-category/source-notes.txt",
+      "size": 2672,
+      "sha256": "7a428cae712c6198145082a2570cc0cc4717f21c7bd1d4cdd67d8761d1fee8f3"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-assisted-category/assets/keyframes/S05-12.jpg",
+      "size": 80986,
+      "sha256": "a0ccdccd3d776753f178b08a17b2abc2d17749b11cae57cdafa2912f636c8a7e"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-assisted-category/assets/keyframes/S05-4.jpg",
+      "size": 80436,
+      "sha256": "a8ff520ec658dccea5820bb656f2279ed31a85cf585ee154774d43810ba5989e"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-assisted-category/assets/keyframes/S05-6.jpg",
+      "size": 83344,
+      "sha256": "fd7bfbb95902fb4773ff57771f3060000922934463978727b7205c6c98c33301"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-assisted-category/assets/sources/S05.mp4",
+      "size": 8631038,
+      "sha256": "28873fb3c33ce54f2a8f54ec4c71caa01314a4e86bbc0c3429281e7f1b9deed5"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-assisted-category/record.json",
+      "size": 5474,
+      "sha256": "f13ab71065f72996e35dc0a46408abeac693594e40f46861873cf8da5cdc7771"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-assisted-category/source-manifest.json",
+      "size": 17560,
+      "sha256": "292d2092dcd84086627792fb08065aaaebfe6732299c74666905f2902df41f11"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-assisted-category/source-notes.txt",
+      "size": 1809,
+      "sha256": "62398c66fdff5ba7abae4416729b6fb43336f22d230f9c4e299f454ce4a30aa5"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/assets/keyframes/T02-1.jpg",
+      "size": 172790,
+      "sha256": "e22c940fb4ebed0c261091ba576224bee5ad3c1a257e74b4bb601fc8d4379cee"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/assets/keyframes/T02-10.jpg",
+      "size": 145842,
+      "sha256": "6aef5977ceb0c180fb7b74a9f672e21a0b84c7be6fb24f10a000e3b74df1d17d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/assets/keyframes/T02-2.jpg",
+      "size": 161255,
+      "sha256": "755deba46c5ad7788caf5a5037e4d1d956d761088f11ae0fc3066c20292a7429"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/assets/keyframes/T02-20.jpg",
+      "size": 153809,
+      "sha256": "0b0b8bb7ed79c6f3bc0321106fc69fe5bc2855cbeed02c048973bcef6dd4c378"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/assets/keyframes/T02-4.jpg",
+      "size": 159868,
+      "sha256": "9d20e357341c92018965c0c53d4c5c8501e40f93267b5e0a7e11dd9f969752e7"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/assets/keyframes/T02-46.jpg",
+      "size": 149659,
+      "sha256": "202eac869e3dd7b2d481e40a55d56d24ee64627aabd4eb9fba6673dd827a5509"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/assets/keyframes/T02-54.jpg",
+      "size": 193246,
+      "sha256": "9b04380d8d6896d309a455e1cf642ca5748895508e31c7839b2464c4c4c354d7"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/assets/keyframes/T02-6.jpg",
+      "size": 158698,
+      "sha256": "4a4a4a64b8d93c0039727efbd4d14790a2eb7aac5be57dd5e7baaa8400f9bf2d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/assets/keyframes/T02-8.jpg",
+      "size": 172356,
+      "sha256": "e373eb3f8cd8a8b086752af542bbd0646e1e9abf9782888500e6dbef0ab52aeb"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/assets/sources/T02.mp4",
+      "size": 24262632,
+      "sha256": "e7a4c38dbd929b36d34c82461681ecb319797dce528521b221f0689a4e5b2375"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/record.json",
+      "size": 11281,
+      "sha256": "79d85357c4a68bc966b0b1bbd9451bfc410d9fbeb64c3bd7887cc1e3b5f36a90"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/source-manifest.json",
+      "size": 17568,
+      "sha256": "73f919f5ca0241ce62a419647884012b3db00cd80ac5cfd85d947a0339582d44"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-face-category/source-notes.txt",
+      "size": 3386,
+      "sha256": "4da2765d92e183126f02005b8379fd1a1c3e01cbf1f9d72c9e00e152fce4e9dd"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/keyframes/S01-14.75.jpg",
+      "size": 127754,
+      "sha256": "b14434884831462238d6b157d442b3cd1649c347053d4da57d5cee06680b2429"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/keyframes/S02-6.jpg",
+      "size": 134615,
+      "sha256": "78cd39f2b8a3d78e7bc217d8b0eb1194e0de94948c57850734559804103d9af7"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/keyframes/S09-18.133.jpg",
+      "size": 165811,
+      "sha256": "7ca9ef87399cb72e53c078095ab890d183f2ceebfc79eb62b02251cd7e2de15c"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/keyframes/S14-38.jpg",
+      "size": 64449,
+      "sha256": "94c9d24dfeeb881d3d6927cf8c3f71d37041235985513d8e1ddcd74d3ea91221"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/keyframes/T01-11.jpg",
+      "size": 129429,
+      "sha256": "dee4631526085e8444ed6bd5145c0e1d3d28257293a69f2a78cb49c23ce5237d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/keyframes/T01-14.jpg",
+      "size": 150380,
+      "sha256": "a0c4991cbbe7b239026b27f4cb298eed9fe81be340ff813f360746cc13639baf"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/sources/S01-12-27.mp4",
+      "size": 4703031,
+      "sha256": "4ff4b78af315f1065c237d830cbd7106511856deb8e881880f8ed7b424160277"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/sources/S02.mp4",
+      "size": 10037422,
+      "sha256": "566db22c4c408115076fd0539b1112e5b9c0dda06520b94e245bf6ee61cb51b9"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/sources/S09-15.5-23.5.mp4",
+      "size": 3720942,
+      "sha256": "4ce9ac88cdbfd85e6eea36d604aadb3240be51bdeb5beab0ba7a66e4d1eede29"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/sources/S11.mp4",
+      "size": 6707480,
+      "sha256": "3c7db92932ab8aca53662ba051ce686f34ab4b5b7d8fc6e65f54e837c8d62a3b"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/sources/S14-35.5-38.52.mp4",
+      "size": 807833,
+      "sha256": "705a032b379ec78c8780d9fed875e0f02102282e841c88ec939882443f493608"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/assets/sources/T01-10.5-17.mp4",
+      "size": 3738773,
+      "sha256": "563b68e6a2e5a6e4b76f1b04b01d6745541afeef2e43dc2f78be41127045156d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/record.json",
+      "size": 11648,
+      "sha256": "394ba89b6709a089e60f61b86b17592219f47a41adf9d6e241bfdc5c2bcc6acc"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/source-manifest.json",
+      "size": 19935,
+      "sha256": "9fad913dd2c2cecba3a71c7e8642abf1c875e2f483951cf27048060db00ffa42"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-handback-category/source-notes.txt",
+      "size": 2747,
+      "sha256": "9bddc65901fa3ddba713eb662b19589b61006559007530e755030a7a0c4053aa"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/assets/keyframes/S01-13.jpg",
+      "size": 129075,
+      "sha256": "46631346905f7b1f7d4b504b9abcbc1352a02d06cf367a56e3ceaf09504d45f3"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/assets/keyframes/S01-14.75.jpg",
+      "size": 127754,
+      "sha256": "b14434884831462238d6b157d442b3cd1649c347053d4da57d5cee06680b2429"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/assets/keyframes/S14-1.jpg",
+      "size": 78264,
+      "sha256": "a6efd68108af99380bd865896ec15f7559fdb8a9551f7de0dffec6811cd83b19"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/assets/keyframes/S14-2.jpg",
+      "size": 61098,
+      "sha256": "2fa8c7d60398ffa4fc6fd4f771ba728c6114858cd059b56054264341fe4c5776"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/assets/keyframes/T01-10.jpg",
+      "size": 105271,
+      "sha256": "56d3afe0ba7e7bc70da12b028470e87549de2ed58276209942635d6c311b23bc"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/assets/keyframes/T04-0.jpg",
+      "size": 164595,
+      "sha256": "d767f775b067d85c0fa04974db4c9f3b3436fb44452d6fc95a793b188c7c5289"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/assets/sources/S01.mp4",
+      "size": 10059376,
+      "sha256": "94e25ecbeca88b6505929ef0a5e63f8c37544e47ff354d805333c24474837610"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/assets/sources/S14.mp4",
+      "size": 5036699,
+      "sha256": "3a89775206720e19adff81128f2b4f33726507d3bdd94164483c6b25d84ec90d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/assets/sources/T01.mp4",
+      "size": 14129433,
+      "sha256": "22a7163a6a70672673c1c720863cc40019ecd81ed231eb8adeefa9f30e7f353e"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/assets/sources/T04.mp4",
+      "size": 8828331,
+      "sha256": "8a4222369d72a276d7159611a717cf9c8807c89832368215663f66cecb0f982e"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/record.json",
+      "size": 11420,
+      "sha256": "4cd5f9d7517d958638e7b65d1698aab32e798dff35a09d1a9fc9426cda006b5e"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/source-manifest.json",
+      "size": 18613,
+      "sha256": "45cb092e9c205fe8321001882988ae289c2394d089afcc8bdd1f53124f0c96de"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-jar-category/source-notes.txt",
+      "size": 3206,
+      "sha256": "4129bfda20a3debfab883af1733b261f2fdb4c25511dc324cf8144af874492a3"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/keyframes/S06-4.jpg",
+      "size": 229471,
+      "sha256": "e09628415706d76d442fbe710c1acd47491b31dc5be3d60e4a0a0e17cd03a550"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/keyframes/S06-6.jpg",
+      "size": 218638,
+      "sha256": "7b41cfde6ad04b9033960579a13644592b7ef3c838de1528c5e12b957860a935"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/keyframes/S10-2.jpg",
+      "size": 211853,
+      "sha256": "3cb4701fb8009607024165056e0fc2dbf6817284258a53c38431274a0c8716de"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/keyframes/S12-4.jpg",
+      "size": 105664,
+      "sha256": "77ba3625d17f2e022f071aabb199c5c3d179c3e7aa4cea2e8853cf8a789fc958"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/keyframes/T03-12.jpg",
+      "size": 172636,
+      "sha256": "da3c79467590c5420d461cb9aa0585fb71c60fa7ed72e6f7b638da77b7aa612c"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/keyframes/T06-4.jpg",
+      "size": 155084,
+      "sha256": "40e69749d220a9f9faaabfe535ddcd6b5ee22865f4db97f2fcc4cf1dab0248b9"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/sources/S06.mp4",
+      "size": 10148257,
+      "sha256": "eb8ae5fde942c906a6b2a6e3f87cc21465dabd239a51db3322c03a8bdb112ca7"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/sources/S10.mp4",
+      "size": 7484462,
+      "sha256": "c7c1da30f8e1ac6de42bc11d84470ee950d673d784e2ff967970d3bd21ee261f"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/sources/S12.mp4",
+      "size": 4277406,
+      "sha256": "88ed30132d954dbe5dc820250729eba786c6ed7a2649ba734966d21d30cfeb60"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/sources/T03.mp4",
+      "size": 6409918,
+      "sha256": "870a9e2816943d77e655e2d0db8bfaba0e8af6275a6c73bfeba836b48fb16b52"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/assets/sources/T06.mp4",
+      "size": 5793450,
+      "sha256": "d226b33a59a143c77fafe156f5b3bc5e1fe8031e93b60a8171c3810260c6aa16"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/record.json",
+      "size": 9365,
+      "sha256": "3cf18cc6ab68641a05b311fbf049c7b44821b8f1c8c9430722338de35f4952ee"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/source-manifest.json",
+      "size": 18972,
+      "sha256": "ab0006cbfb77d728057b6762dc78645829c1b200df72d85e791549bab0b69085"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-packaging-category/source-notes.txt",
+      "size": 2320,
+      "sha256": "9110137bb539ab73266008e50ebdd3d3cb09c9db681f5c2d1211bcebd6cc4374"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/assets/keyframes/S02-10.jpg",
+      "size": 120622,
+      "sha256": "f79661adbdaf81fc00fdddb62adf113efaf68bfc69a6d96122b96236b0186470"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/assets/keyframes/S03-2.jpg",
+      "size": 92870,
+      "sha256": "bbb962b5b664c327771a0c6fc70ea53369933767bd354963f4661137a5d58f79"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/assets/keyframes/S13-8.jpg",
+      "size": 119615,
+      "sha256": "626f815ba8310f03c1b169b391b33f54ebb567bc646c0435a0f0bc646ea4a534"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/assets/keyframes/S14-14.jpg",
+      "size": 67976,
+      "sha256": "b0f61297ce3b6bc83e11e141ac3d2f108fd00f62f01812a943c6d1ed11b74697"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/assets/keyframes/S14-18.jpg",
+      "size": 64199,
+      "sha256": "f99251488a03b7e2c4d8da79cacfc7e598c676c615b2111c95880bb52916dc50"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/assets/sources/S02-8-13.5.mp4",
+      "size": 2287579,
+      "sha256": "a8cbfa06929a9f3751221e8ad97994b74790a2ad106ac33d9f7214be8e5544a9"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/assets/sources/S03.mp4",
+      "size": 11157969,
+      "sha256": "47abcd4820c8473eb88963e52608498bea2be78c949b5e070f54b638775894b1"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/assets/sources/S13-6-9.5.mp4",
+      "size": 1240067,
+      "sha256": "69b95c83c91eb8fc715f2e22930826ca68c863420894286ab42fa9e4d929737d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/assets/sources/S14-11.5-20.5.mp4",
+      "size": 2339367,
+      "sha256": "7e6f9b82a6d9d4933f375e8317c58798bce009da452f7865a69bd95bab10a7f3"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/record.json",
+      "size": 10278,
+      "sha256": "4ddf7d32e594c08879fe408d71c143360c8ae12169772739a1a81d22b3f0fdb0"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/source-manifest.json",
+      "size": 19069,
+      "sha256": "eb9b0aaa48ba2fd2ec9386cf5e89daca7d2f63f5851937d64d1615e1cd23bd2a"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-surface-category/source-notes.txt",
+      "size": 2497,
+      "sha256": "9ffdeb64044ecd7aad24c6b1842b011fc9d1f5b59ead37aebbd840fb432dd51f"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-tube-category/assets/keyframes/S09-13.6.jpg",
+      "size": 166379,
+      "sha256": "4511dbd60bcb214a7f72bf7466253b41857f5bcd310584f61c61c755067e8dc3"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-tube-category/assets/keyframes/S09-14.133.jpg",
+      "size": 186000,
+      "sha256": "6106b8c12701b1f3c18a9494dcabbfd190cda8005c7d75c23debc20a770ed4d8"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-tube-category/assets/keyframes/S09-15.2.jpg",
+      "size": 192570,
+      "sha256": "392fcd07fa1a023a4571275d4c01cb9d4fa5c8c26d4bb7be4737716052b7db78"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-tube-category/assets/keyframes/S09-16.8.jpg",
+      "size": 152563,
+      "sha256": "4ebc39d0bdb694b330e007f650f471ef88b720e6efccd6d790fb99739602635d"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-tube-category/assets/keyframes/S13-1.8.jpg",
+      "size": 162683,
+      "sha256": "e6f5421bd11080098da39f7f49e7b2d4210e038423f88b3fa6ea0b5d20982c6a"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-tube-category/assets/sources/S09.mp4",
+      "size": 9291370,
+      "sha256": "6890c2f7d47cd1c7a2629beb4225d801ec4b80173ebc939936bc1cf29e619048"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-tube-category/assets/sources/S13.mp4",
+      "size": 4453072,
+      "sha256": "98b4f649c774dd40e66de509e77362b51472bb3f03a40cd96effc4209232db76"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-tube-category/record.json",
+      "size": 8585,
+      "sha256": "60936be1639e66ee988666a471e0630031732db57e1913ce0222cbe7cac089c5"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-tube-category/source-manifest.json",
+      "size": 17909,
+      "sha256": "8b7c0b1887170c57f50bb3ce373c7f05534efd7e0608b3f51e714c350f9171c9"
+    },
+    {
+      "path": "demo-library/entries/demo-20261108-toneup-tube-category/source-notes.txt",
+      "size": 2446,
+      "sha256": "802a8745c72e89de0fb679bba5f05aa08c9da1512788a2bebc3a820800ec0661"
+    },
+    {
       "path": "demo-library/entries/demo-legacy-cream-talk-01/assets/W52-1.jpg",
       "size": 139484,
       "sha256": "06c9590a6efe0fa9edc8cc00fa9bd04a539239424ccea6c5a938bec6ca346daa"
@@ -979,8 +1883,8 @@
     },
     {
       "path": "demo-library/index.json",
-      "size": 19546,
-      "sha256": "4cc18c1009ca34ab152333e0488de87bc4a20af23a58fcd44dff6f668bb19710"
+      "size": 28255,
+      "sha256": "a5be1c4856b3dd2ddb0dec38926b5b58dfc6d3ba216dfd2f3a8d73a9365155f6"
     },
     {
       "path": "demo-library/products.json",
@@ -1051,6 +1955,11 @@
       "path": "demo-library/reviews/20261107-cream/review.html",
       "size": 41555,
       "sha256": "74006f3116810a28118ab4ae45d387fede1677aa38d66b9f64c67fdc50c3b631"
+    },
+    {
+      "path": "library-review.html",
+      "size": 17817,
+      "sha256": "3d382773d978e7cd99900b5ac6c0b224f49a2c856cf2cea4b9854bee5be5f099"
     },
     {
       "path": "performance-library/entries/perf-crx-20261107-01-open-close/history/record-v1-20261107.json",
@@ -1374,8 +2283,8 @@
     },
     {
       "path": "performance-library/review.html",
-      "size": 132540,
-      "sha256": "849f11fca1d1d7879080b8522b5bbe133f0a2942ab8318ae1ac1388a7f376aed"
+      "size": 132544,
+      "sha256": "6d5b9283e069b82fd4662efbc2e8edffaf90c7865e4dc5c04738cdd9bdf0a9e9"
     },
     {
       "path": "performance-library/reviews/20261107-cream/asr/b5-4.json",
@@ -2063,39 +2972,69 @@
       "sha256": "fe06987bc4d05eb7b469cc8b1632d2770f67fd8fbb418a7417c55df46e3a2056"
     },
     {
+      "path": "product-library/entries/product-cream-b5-20261107/record.json",
+      "size": 2357,
+      "sha256": "805f94d40fa060788aaf8fd6b65218b9c3055494095dd6d3eee059354cb602e0"
+    },
+    {
+      "path": "product-library/entries/product-cream-cherry-20261107/record.json",
+      "size": 2387,
+      "sha256": "1f338903fb97858c2cac117185164709a9a829e95ac300aeedb3d35903697dfe"
+    },
+    {
+      "path": "product-library/entries/product-cream-waterglow-20261107/record.json",
+      "size": 2383,
+      "sha256": "df8b076abb036c91095704dd55aae5f30992e4cc8a468334cdd2cb2c73b99e73"
+    },
+    {
+      "path": "product-library/entries/product-ginseng-oil-legacy/record.json",
+      "size": 2252,
+      "sha256": "f678bbbd3b5068386b97bea7c376d7774788e91503771e606f0f056c45651034"
+    },
+    {
+      "path": "product-library/index.json",
+      "size": 11432,
+      "sha256": "8367a1c46a264c97a36b7ccb200987870e37a34034c545627a55929c6ea8e6f6"
+    },
+    {
       "path": "references/audio.md",
-      "size": 4556,
-      "sha256": "b4427b8ae5575f72f2e5775fd20a6969abb98197e6cb369bb7824828327da89a"
+      "size": 4786,
+      "sha256": "e14353a41eecf656d1936016cbf7a66c6f24ec5718b833c1f42a870624108dbe"
     },
     {
       "path": "references/demo-format.md",
-      "size": 4350,
-      "sha256": "f4094f6a1f9a6884aca79d16d49b359acdbc0281bd52738bf7ffd27a9fdc941b"
+      "size": 4634,
+      "sha256": "bd6b591c147b0f01bd4e3bf13530a42568afd9d71835d5915e9df9ca44818b63"
     },
     {
       "path": "references/directing.md",
-      "size": 6692,
-      "sha256": "3d6292880304a961895e54ade1609de4ef3ce97e11beb58cfc14fef88b2ed010"
+      "size": 2219,
+      "sha256": "2b615666ca98a7de1bc89ff3acf831164a4bb58e012082b37cca11f6b39c60f9"
     },
     {
       "path": "references/ingestion.md",
-      "size": 4077,
-      "sha256": "1c1c33c19d556972d5d0d44ccbeaeafdfd26f073cbf1b20c87c10e4547a4d882"
+      "size": 2219,
+      "sha256": "78841076dfa4661b58e418c2e775df668c520b7ab6e73aae4f0348e6203a8c43"
+    },
+    {
+      "path": "references/initialization.md",
+      "size": 5207,
+      "sha256": "bdbecaae75138954f903eb0088344852185b10e7a5ed008658820fc172c471af"
     },
     {
       "path": "references/libraries.md",
-      "size": 3972,
-      "sha256": "493d2756b412980a486859bb80960604913cfee34282cf55f4e666896a6d937c"
+      "size": 5427,
+      "sha256": "435bf77eead96cfd3023f9ee8bff227d1f32a79f128076d88ab1459bee807242"
     },
     {
       "path": "references/methods.md",
-      "size": 1609,
-      "sha256": "66d483379110560ff73e3ccd02a3432a586a8ef6c1d3ecedc2613299c5e2da79"
+      "size": 1624,
+      "sha256": "54b1bf158d46e7b7b016c765de853e44a5ca98b540cc1459ba440f40735b6613"
     },
     {
       "path": "references/output-format.md",
-      "size": 4258,
-      "sha256": "9fa78afafe64f6108c9865d41a0d774c9aa62f4ccb2beb3f931309fdb5489ea6"
+      "size": 4748,
+      "sha256": "b4e463ee18e23c5ed173d0b20cfec4b2805206f249d1b7486a877ffd3c9e2a71"
     },
     {
       "path": "references/performance-format.md",
@@ -2103,39 +3042,114 @@
       "sha256": "2bec4dceddf6f9949eb1a05842e31cd80c968ccc1031100100e8bc664fe14462"
     },
     {
+      "path": "references/product-interview.md",
+      "size": 1924,
+      "sha256": "3b2bdd02161087692bd56b7b0ee8e7e5bd80333a749dfadbe18cb7928c119d0b"
+    },
+    {
       "path": "references/review.md",
-      "size": 1678,
-      "sha256": "c0a523e8519aa59dd942d716fc4d7e2b91e1066820ab178f164d3d46c35e416d"
+      "size": 2395,
+      "sha256": "5a0bb19c07474a2794a7e5e890e2c8f45369ed273dbc64191e7df2a3018e5d80"
     },
     {
       "path": "references/runtime.md",
-      "size": 2566,
-      "sha256": "168ca477fd6d08dd94689b05924d01df706bd03201753004b7528c16694d6287"
+      "size": 4182,
+      "sha256": "7394f5308fa6432fef0a1977a01e27243adb4eead8a454cd01c981a5c6237ee9"
+    },
+    {
+      "path": "references/script-maintenance.md",
+      "size": 1787,
+      "sha256": "37605e2f7fd6b1330c92e5f2f04657b3407f3adceb128a309401c9e467f74bd8"
+    },
+    {
+      "path": "references/updating.md",
+      "size": 5079,
+      "sha256": "93b266d786555cac3e7349ef5e6d0c59f95ffcafe37e1c40f5096be6d88502cd"
+    },
+    {
+      "path": "script-library/entries/script-ginseng-oil-show-use/record.json",
+      "size": 3699,
+      "sha256": "0e9bf4b0a69e8ef826ffe74cf3bf193bdeb4cee7bd4973520d8fa35fb45fcf9f"
+    },
+    {
+      "path": "script-library/entries/script-toneup-face/record.json",
+      "size": 3756,
+      "sha256": "615fe7be2e2d92536aadde99d71fa80883de2d2fb421bbff2c9306e303a863e7"
+    },
+    {
+      "path": "script-library/entries/script-toneup-handback/record.json",
+      "size": 3760,
+      "sha256": "9b57378f32a7a344260bf75759300e817bbfa5b8ffcc0df0ca814d823e045e05"
+    },
+    {
+      "path": "script-library/index.json",
+      "size": 12706,
+      "sha256": "524d66d6280bcd00b69306691575a55f62bc7dc90462fd7cef2687c73781220e"
+    },
+    {
+      "path": "script-library/sources/user-design-20261108.txt",
+      "size": 706,
+      "sha256": "7773edf12539f5172dad871f437189b425c43825d7b0130acc9bb2bd73742205"
     },
     {
       "path": "scripts/audio.py",
-      "size": 11142,
-      "sha256": "d88741c63ff056af355070f65eeb09e88b8068e4f8c5a37b15ff7cf00b6ff4dc"
+      "size": 12079,
+      "sha256": "f7029cdbb7df00f4ef871f8bd52f684fa3aba0d952085c2083491d14df32382c"
     },
     {
       "path": "scripts/catalog.py",
-      "size": 17649,
-      "sha256": "fa2af3705416685049e2b4ecfe6f851a8a7530f118e85a2cc936398191665177"
+      "size": 17005,
+      "sha256": "54868361fe615da4131e507cf71b285a7903115f2585604114bbb4a662ccd916"
+    },
+    {
+      "path": "scripts/initialize.ps1",
+      "size": 5107,
+      "sha256": "18a494107def88efe09f1b1256ed27d16b98cf77da867d350a85db9dfa7f10c4"
+    },
+    {
+      "path": "scripts/initialize.py",
+      "size": 14801,
+      "sha256": "127035acb638e03818484cd698814d343ca8d8d703bf055c1c8f077fced1f609"
     },
     {
       "path": "scripts/library.py",
-      "size": 19442,
-      "sha256": "baa3a383b4b6b1f34f955ab6363f46c77357b6a11887f7ee94713b1e1a84a305"
+      "size": 19628,
+      "sha256": "76ea6327feb80102ef91ce84b87bae23012c7a9c0cf7776144602872b9791650"
     },
     {
       "path": "scripts/performance_review.py",
-      "size": 12020,
-      "sha256": "145fb584398b4412e1f24f5cf29b09747b7a5240225e737c1d3638e72bb35588"
+      "size": 12024,
+      "sha256": "b169f8baeaad0d68ac4907ba954f787286b24aba52b2eb15a859e4f356530f79"
+    },
+    {
+      "path": "scripts/runtime-requirements.txt",
+      "size": 292,
+      "sha256": "53ef35408379c6a957f20665ed1fb8fdead856c8be19b2e9c427d886af355092"
+    },
+    {
+      "path": "scripts/runtime_config.py",
+      "size": 1218,
+      "sha256": "6de7baaecd03d1da890c4cca5e137507646a2ec9e9ef197e2acfc55a002c5734"
+    },
+    {
+      "path": "scripts/studio.py",
+      "size": 28154,
+      "sha256": "01ab75a1067274aa9ff00c37bd38e5f595fe49de73ede22a92217c45052cbae1"
+    },
+    {
+      "path": "scripts/update.py",
+      "size": 14526,
+      "sha256": "e2e6785eafcdd9f69ea819081faed55fef32d1dca7ece2387558935f4baa8dd3"
     },
     {
       "path": "SKILL.md",
-      "size": 7529,
-      "sha256": "3e929987a2fa01c17be6b0c8cb22c92a9ec7f1e1bbe1f3ce26d2c4b6a55ca4c4"
+      "size": 5768,
+      "sha256": "0c1660add33d5c6ebd32d8fbc5efaae09442e585d0e2d732a2c3eb9b2a11d0fa"
+    },
+    {
+      "path": "templates/action-record.json",
+      "size": 1433,
+      "sha256": "e8823a5613845b9cbbb3b035337dc3b63fd8bed3283a8c2f5b0f9baa6b866216"
     },
     {
       "path": "templates/demo-record.json",
@@ -2143,9 +3157,39 @@
       "sha256": "01224f44a901f4f66e3d6974b4a28dd404412b752b347528f8f7fa8308d0a399"
     },
     {
+      "path": "templates/failure-record.json",
+      "size": 444,
+      "sha256": "801e3c145056bd3a131c42bcba3f131f23b2690976d3757790da030fc364e47b"
+    },
+    {
       "path": "templates/performance-record.json",
       "size": 800,
       "sha256": "829509cf78ec09f7ddb82917befc82bee422c675611bc251f3a34f2084796a3a"
+    },
+    {
+      "path": "templates/product-record.json",
+      "size": 1991,
+      "sha256": "01c03393e473444a9ad2b8600bfe09e81ea22d4784b3604199f95c91447e3b56"
+    },
+    {
+      "path": "templates/script-record.json",
+      "size": 1218,
+      "sha256": "9d05b0f5767e67174500e28e5800da02c0f5beb58bafff1b3b1bfaac1c737c43"
+    },
+    {
+      "path": "tests/test_initialize.py",
+      "size": 8300,
+      "sha256": "ec7efe3cf9dc8e1034c05184798ddea70609c36de0202776e541793d2b9bf868"
+    },
+    {
+      "path": "tests/test_studio.py",
+      "size": 12975,
+      "sha256": "d37738cd56fa17e91c8cf129f74fda6ec78bd854b6563c4b005917af3e98368a"
+    },
+    {
+      "path": "tests/test_update.py",
+      "size": 10183,
+      "sha256": "1f592764bbdf0bf92dd66ac27899014f957133290a624adf13cb9fbfaa5d6aad"
     }
   ]
 }

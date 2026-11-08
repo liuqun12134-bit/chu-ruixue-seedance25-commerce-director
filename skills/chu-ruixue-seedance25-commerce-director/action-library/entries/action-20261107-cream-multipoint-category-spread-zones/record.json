@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261107-cream-multipoint-category-spread-zones",
+  "title": "持罐分区推开，保留未处理区域的膏痕",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261107-cream-multipoint-category/record.json"
+    ],
+    "limitations": [
+      "全片解码通过；视觉检查采用每秒 2 帧抽样和动作窗口序列，关键时点近似，未声称实时连续播放。",
+      "原声保留；本地机器转写未听审，台词、语气和成分/功效说法不作为本条动作结论。",
+      "未进行生成验证；现场反光不证明功效，不迁移曝光变化或整脸换肤。",
+      "眼周、配方搭配和适用人群不能仅凭演示推断；使用区域以当前产品真实说明为准。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "脸部已有分区膏痕；一手持开罐，另一手可涂抹。"
+    ],
+    "action": "先在画面右侧面颊推开，再移向额头和另一侧面颊，随后带到鼻侧外部、下巴。白色膏痕随实际手部接触逐渐变薄；期间持罐手持续承托。",
+    "transition": "推开主要膏痕后，活动手离脸并向画面下方转移。",
+    "end_state": "主要膏痕变薄，罐仍在手中；不是取用结束后瞬间全脸换肤。",
+    "expected_effect": "展示多部位分段推开的可见过程。",
+    "avoid": [
+      "原片有手掌经过闭合眼周，不据此认定眼部适用；不将整段等比挤压进很短片段。"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261107-cream-multipoint-category/record.json",
+    "unit_id": "spread-zones"
+  },
+  "legacy_context": {
+    "category": "面霜",
+    "product_form": "可点涂、可推薄的膏霜；量与颜色以当前产品为准",
+    "container": "可取膏罐；多区涂抹不要求继承原罐颜色",
+    "body_part": "面颊、额头、下巴；鼻外部按当前产品适用范围",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "约 16.5–36.0 秒",
+  "migration_source_sha256": "879d3cc9e6ffefec177dd6bb204e757916f3afe85b07fab95a8fe899476aac98"
+}

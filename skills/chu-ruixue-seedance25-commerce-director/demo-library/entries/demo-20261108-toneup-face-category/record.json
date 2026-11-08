@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "id": "demo-20261108-toneup-face-category",
+  "title": "素颜霜上脸：多区点涂、放罐后分区推匀与收罐",
+  "record_type": "demo",
+  "modes": [
+    "use"
+  ],
+  "category": "素颜霜",
+  "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+  "product_form": "可点涂并逐渐推薄的浅色膏霜；颜色按当前产品",
+  "container": "已开口可取膏罐；具体灰色瓶罐不作为同款绑定",
+  "body_part": "额头、双颊、鼻外部、下巴",
+  "tags": [
+    "逐次取膏，额头与面部多区接触点涂",
+    "持罐时先推一侧，再放低容器分区推匀",
+    "按可见残留补匀面颊、额头和下巴",
+    "离手展示，重新拿罐并回盖"
+  ],
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "summary": "补充批次T02提供真实的取膏—额头、鼻外部、双颊与下巴点涂—容器下移—分区推匀—离手与回盖流程。动作按局部连续性拆分，不把约一分钟压成几秒。",
+  "scope": "category",
+  "product_id": null,
+  "enabled": true,
+  "provenance": {
+    "kind": "video_analysis",
+    "description": "用户明确要求素颜霜品类入库；首批15条和补充6条共21个文件，来源及重复关系见source-manifest.json。",
+    "source_url": null,
+    "source_asset": "assets/sources/T02.mp4",
+    "notes_path": "source-notes.txt",
+    "analyzed_on": "2026-11-08",
+    "duration_seconds": 60.000998,
+    "time_reliability": "approximate",
+    "observation_method": "ffprobe测量；每2秒覆盖全时段抽帧审阅，关键交互2/4fps加密，选定原分辨率帧检查；精确重复T05复用T04视觉分析。",
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。",
+      "T02原片约60秒，完整流程不可机械压缩至短片；按首帧状态和时长选单元。",
+      "本条是品类使用示例，不确认视频人物身份，也不认定其与金色罐或其他品牌是同款。"
+    ]
+  },
+  "preconditions": [
+    "当前产品已确认适用于面部和所选部位。",
+    "首帧若已经有膏点则直接承接，不重置。",
+    "放低容器需要现有可用承托位置；画外落点须在新稿中交代。"
+  ],
+  "units": [
+    {
+      "id": "dot",
+      "name": "逐次取膏，额头与面部多区接触点涂",
+      "source_time": "T02约0.5–6.3秒",
+      "observations": [
+        {
+          "source_id": "T02",
+          "start_seconds": 0.5,
+          "end_seconds": 6.3,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/T02.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "罐已开，持罐手稳定",
+        "操作手可从罐到面部连续移动"
+      ],
+      "action": "同一指腹触及罐内膏体后点到额头，随后数次回罐补取；鼻外部、一侧面颊、下巴及另一侧面颊陆续出现膏点。尚未推开的点保持独立。",
+      "transition": "操作手先从取样位置到目标部位接触，再离开；点涂完成后转入局部推匀。",
+      "end_state": "多个部位有先后形成的膏点，罐仍由原持罐手掌握。",
+      "expected_effect": "建立可追踪的膏体转移与区域起点。",
+      "avoid": [
+        "不一取就全脸同时长出膏点",
+        "不默认涉及眼睑或嘴唇",
+        "不把来源膏量当统一用量"
+      ],
+      "prompt_fragment": "按当前产品的真实用量，以同一操作手逐次取膏并接触点到所选面部区域；每次接触后才出现对应膏点，尚未推开的区域保留原状。"
+    },
+    {
+      "id": "spread-zones",
+      "name": "持罐时先推一侧，再放低容器分区推匀",
+      "source_time": "T02约6.3–19秒",
+      "observations": [
+        {
+          "source_id": "T02",
+          "start_seconds": 6.3,
+          "end_seconds": 19,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/T02.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "面部已有膏点",
+        "放罐位置可实现且不会挡住后续双手"
+      ],
+      "action": "先在持罐状态下推开一侧面颊；约7–8秒容器下移出画面，随后单手/双手交替处理额头、双颊和鼻外部。未接触膏点在前期仍可见。原片画外落点未知。",
+      "transition": "新稿需先交代容器放稳，再释放持罐手加入补匀；不要复制原片画外省略。",
+      "end_state": "各区域膏点逐步成薄层，双手可用。",
+      "expected_effect": "表现有顺序的铺展，不靠全脸曝光提升。",
+      "avoid": [
+        "不突然让罐消失",
+        "不等比压缩整段导致手速失真",
+        "原片掠过闭眼周围不代表当前产品可用于眼睑"
+      ],
+      "prompt_fragment": "先推开当前接触的一侧面颊；需要双手时，把罐放到明确位置并放稳，再逐区处理额头、双颊和鼻外部。未接触区域保留膏痕，脸部纹理和曝光保持稳定。"
+    },
+    {
+      "id": "residue",
+      "name": "按可见残留补匀面颊、额头和下巴",
+      "source_time": "T02约19–45.5秒",
+      "observations": [
+        {
+          "source_id": "T02",
+          "start_seconds": 19,
+          "end_seconds": 45.5,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/T02.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "膏体已形成局部薄层",
+        "容器已安放，双手可自然交替"
+      ],
+      "action": "指腹或掌面围绕下巴、面颊、额头及鼻外侧轮流补匀，短暂抬手后再按剩余区域接触；并非每个部位固定次数。",
+      "transition": "保留停顿与换区路径，完成当前残留后自然离手。",
+      "end_state": "约46秒双手离开面部，当前肤面保留。",
+      "expected_effect": "残留随实际接触变薄；不据来源美颜断言祛斑、抗皱或永久美白。",
+      "avoid": [
+        "不越过当前产品适用范围",
+        "不重复新增膏体填满时长",
+        "不让未触区域同步改变"
+      ],
+      "prompt_fragment": "按实际可见的残留选择需要补匀的部位，手指或掌面自然交替接触；处理完成就离手，不为了填时间持续揉同一处。"
+    },
+    {
+      "id": "finish",
+      "name": "离手展示，重新拿罐并回盖",
+      "source_time": "T02约45.5–58.5秒",
+      "observations": [
+        {
+          "source_id": "T02",
+          "start_seconds": 45.5,
+          "end_seconds": 58.5,
+          "time_reliability": "approximate",
+          "media_path": "assets/sources/T02.mp4",
+          "media_start_offset_seconds": 0
+        }
+      ],
+      "start_conditions": [
+        "面部推匀已完成",
+        "原罐与原盖仍在明确位置"
+      ],
+      "action": "约46秒离手，后续短暂整理头发不列为必要动作；约51秒重新举起开罐展示，53–57秒对合并转动盖子完成闭合，随后放低。",
+      "transition": "新稿衔接离手与取回容器，省略与任务无关的头发动作。",
+      "end_state": "肤面展示结束，罐已回盖。",
+      "expected_effect": "完成实用收尾，不认证生成相似度或口型。",
+      "avoid": [
+        "不把捋头发强制当人物习惯",
+        "不在膏痕尚明显时瞬间完成",
+        "不凭盖回动作猜旋拧圈数"
+      ],
+      "prompt_fragment": "完成补匀后自然离手，短暂展示当前肤面；需要收罐时取回原罐与原盖，对合后按实际结构盖好，再自然放低。"
+    }
+  ],
+  "keyframes": [
+    {
+      "path": "assets/keyframes/T02-1.jpg",
+      "timestamp_seconds": 1.0,
+      "source_id": "T02",
+      "role": "observed-evidence",
+      "observation": "指腹取膏"
+    },
+    {
+      "path": "assets/keyframes/T02-2.jpg",
+      "timestamp_seconds": 2.0,
+      "source_id": "T02",
+      "role": "observed-evidence",
+      "observation": "额头单点先形成"
+    },
+    {
+      "path": "assets/keyframes/T02-4.jpg",
+      "timestamp_seconds": 4.0,
+      "source_id": "T02",
+      "role": "observed-evidence",
+      "observation": "鼻外部和一侧面颊已有膏点"
+    },
+    {
+      "path": "assets/keyframes/T02-6.jpg",
+      "timestamp_seconds": 6.0,
+      "source_id": "T02",
+      "role": "observed-evidence",
+      "observation": "多区膏点仍独立可见"
+    },
+    {
+      "path": "assets/keyframes/T02-8.jpg",
+      "timestamp_seconds": 8.0,
+      "source_id": "T02",
+      "role": "observed-evidence",
+      "observation": "额头开始推开，其他区保留残留"
+    },
+    {
+      "path": "assets/keyframes/T02-10.jpg",
+      "timestamp_seconds": 10.0,
+      "source_id": "T02",
+      "role": "observed-evidence",
+      "observation": "面颊推匀"
+    },
+    {
+      "path": "assets/keyframes/T02-20.jpg",
+      "timestamp_seconds": 20.0,
+      "source_id": "T02",
+      "role": "observed-evidence",
+      "observation": "下巴与口周外侧补匀"
+    },
+    {
+      "path": "assets/keyframes/T02-46.jpg",
+      "timestamp_seconds": 46.0,
+      "source_id": "T02",
+      "role": "observed-evidence",
+      "observation": "离手后当前肤面"
+    },
+    {
+      "path": "assets/keyframes/T02-54.jpg",
+      "timestamp_seconds": 54.0,
+      "source_id": "T02",
+      "role": "observed-evidence",
+      "observation": "重新拿起罐并对合外盖"
+    }
+  ],
+  "source_manifest": "source-manifest.json",
+  "evidence_media": [
+    {
+      "source_id": "T02",
+      "media_path": "assets/sources/T02.mp4",
+      "kind": "original_file",
+      "source_start_seconds": 0,
+      "source_end_seconds": 60.000998,
+      "duration_seconds": 60.000998,
+      "sha256": "e7a4c38dbd929b36d34c82461681ecb319797dce528521b221f0689a4e5b2375",
+      "audio_state": "original"
+    }
+  ],
+  "batch_id": "20261108-toneup-cream"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261107-cream-multipoint-category-multi-point",
+  "title": "逐次取霜，在双颊、额头、鼻外部和下巴布膏",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-07",
+  "updated_on": "2026-11-07",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261107-cream-multipoint-category/record.json"
+    ],
+    "limitations": [
+      "全片解码通过；视觉检查采用每秒 2 帧抽样和动作窗口序列，关键时点近似，未声称实时连续播放。",
+      "原声保留；本地机器转写未听审，台词、语气和成分/功效说法不作为本条动作结论。",
+      "未进行生成验证；现场反光不证明功效，不迁移曝光变化或整脸换肤。",
+      "眼周、配方搭配和适用人群不能仅凭演示推断；使用区域以当前产品真实说明为准。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "罐已打开；一手持罐，另一手指腹可取霜；当前产品允许用于相应面部部位。"
+    ],
+    "action": "指腹从罐内取膏，先落在画面右侧面颊，再补取点到另一颊；继续补取，依次在额头、鼻部外侧和下巴留下浅色膏痕。先前的膏痕在未推开前保留。",
+    "transition": "最后一处布膏后，活动手转到面颊开始推开。",
+    "end_state": "多个部位有可见膏痕；罐仍由另一手承托。",
+    "expected_effect": "把取霜、接触转移和多区布膏连成可追踪过程，不宣称即时功效。",
+    "avoid": [
+      "不让未接触部位自行变白或消膏；不强制其他产品复用原片用量。"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261107-cream-multipoint-category/record.json",
+    "unit_id": "multi-point"
+  },
+  "legacy_context": {
+    "category": "面霜",
+    "product_form": "可点涂、可推薄的膏霜；量与颜色以当前产品为准",
+    "container": "可取膏罐；多区涂抹不要求继承原罐颜色",
+    "body_part": "面颊、额头、下巴；鼻外部按当前产品适用范围",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "约 5.0–15.5 秒",
+  "migration_source_sha256": "879d3cc9e6ffefec177dd6bb204e757916f3afe85b07fab95a8fe899476aac98"
+}

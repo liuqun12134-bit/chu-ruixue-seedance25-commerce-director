@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261102-ginseng-oil-ref-09-lit-to-label",
+  "title": "透光细节转正面标签",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-02",
+  "updated_on": "2026-11-02",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261102-ginseng-oil-ref-09/record.json"
+    ],
+    "limitations": [
+      "本次通过覆盖全时段的约每2秒抽帧序列分析，关键操作加密至约每秒1帧，部分取用/薄膜边缘片段加密至每秒4帧；不是实时全帧视频播放或逐帧连续性认证。",
+      "未听审或转写原音频，不保存逐字台词、声音评价、音画同步结论；包装微字、具体成分、品牌真伪及产品规格未核实。",
+      "总时长由ffprobe实测；动作边界为近似，概览抽帧可能有约1秒采样偏移；保存的独立关键帧时间来自原视频帧时间戳。",
+      "仅保存来源观察与关键帧，原视频未复制入skill、未上传。原件仍由用户原有文件管理；包内没有原电脑绝对路径。",
+      "实际参考视频动作不等于Seedance生成已验证；美颜、曝光和剪辑可能影响肤感，不能证明长期功效。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk"
+  ],
+  "source_category": {
+    "value": "面部护理油",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面部护理油"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "透明闭合瓶及原场景可用光源"
+    ],
+    "action": "一手托持瓶身近下方光源，小幅转动；随后提离光源，转正瓶面，空闲手轻指瓶身。",
+    "transition": "透射光强调内部根状物，移离后呈现常规光下的标签。",
+    "end_state": "闭合瓶正面位于脸侧。",
+    "expected_effect": "同一包装的内部细节与外观展示。",
+    "avoid": [
+      "不要把亮度变化写成内容物变色",
+      "不能编造可读包装微字"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261102-ginseng-oil-ref-09/record.json",
+    "unit_id": "lit-to-label"
+  },
+  "legacy_context": {
+    "category": "面部护理油",
+    "product_form": "黄色透明油状液体，瓶内可见根状物；具体成分未核实",
+    "container": "透明玻璃瓶、金色长盖；使用片段可见按压式滴管结构，纯展示片段不推定已开盖",
+    "body_part": null,
+    "product_id": "product-ginseng-oil-legacy",
+    "scope": "product"
+  },
+  "source_time": "约0–22秒",
+  "migration_source_sha256": "b673397fb647768390984198534b5ba0c94e7cbbef53a2c3e3198bd4ef24f7bf"
+}

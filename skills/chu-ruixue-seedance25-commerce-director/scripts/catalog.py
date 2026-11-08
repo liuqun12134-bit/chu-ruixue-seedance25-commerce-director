@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Maintain three logical libraries and retrieve verified speech-to-performance candidates."""
+"""Validate four active libraries, legacy evidence and verified performance mappings."""
 import argparse
 import hashlib
 import json
@@ -10,6 +10,7 @@ import sys
 
 sys.dont_write_bytecode = True
 import library as demo
+import studio
 
 PERSON = 'chu-ruixue'
 
@@ -205,9 +206,10 @@ def run(root, command):
     # Validate all content before rebuilding either index.
     records = demo.collect(root)
     performance, sources = collect_performance(root)
+    new_pairs, new_stats = studio.indexes(root)
     demo.check_links(root, rebuilding=command == 'reindex')
     pairs = [(root / 'demo-library/index.json', demo.index_data(root, 'demo', records['demo'])),
-             (root / 'performance-library/index.json', performance)]
+             (root / 'performance-library/index.json', performance), *new_pairs]
     for path, expected in pairs:
         if command == 'reindex':
             demo.atomic_json(path, expected)
@@ -216,7 +218,7 @@ def run(root, command):
     return {'demo_records': len(records['demo']), 'demo_units': sum(len(r['units']) for _, r in records['demo']),
             'performance_records': len(performance['entries']), 'performance_sources': sources,
             'ready_mappings': sum(r['eligible_for_arrangement'] for r in performance['entries']),
-            'pending_mappings': sum(r['expression']['status'] == 'pending' for r in performance['entries'])}
+            'pending_mappings': sum(r['expression']['status'] == 'pending' for r in performance['entries']), **new_stats}
 
 
 def performances(root, mode=None, intent=None, query=None, include_pending=False):
@@ -252,26 +254,14 @@ def review(root, output):
     sources = {s['id']: s for s in demo.load(base / 'sources.json')['sources']}
     records = [(row, demo.load(base / row['path'])) for row in index['entries']]
     performance_review.render(base, output, records, sources)
-    return {'output': str(output), 'records': len(records), 'sources': source_count,
+    return {'output': str(output), **studio.review(root), 'records': len(records), 'sources': source_count,
             'ready_mappings': sum(row['eligible_for_arrangement'] for row in index['entries'])}
 
 
 def units(root, mode, category, product_id):
-    records = demo.collect(root)['demo']
-    product = demo.resolve_product(demo.products(root), explicit=product_id) if product_id else None
-    rows = []
-    for path, record in records:
-        if not demo.candidates([record], mode, product):
-            continue
-        if category and record['category'] != category:
-            continue
-        for unit in record['units']:
-            rows.append({'key': record['id'] + '/' + unit['id'], 'scope': demo.scope(record),
-                         'product_id': record.get('product_id'), 'category': record['category'],
-                         'record_modes': record['modes'], 'record_preconditions': record['preconditions'],
-                         'evidence_kind': record['provenance']['kind'], 'limitations': record['provenance']['limitations'],
-                         'record_path': path.relative_to(root).as_posix(), 'unit': unit})
-    return {'units': rows, 'count': len(rows), 'note': 'Candidates only; evaluate individual mode, physical and semantic compatibility. No ranking or truncation.'}
+    result = studio.actions(root, product_id=product_id, mode=mode, category_filter=category)
+    return {**result, 'units': result['candidates'], 'count': len(result['candidates']),
+            'note': 'Compatibility entrypoint now uses the shared action library. Drafts and unknown fields require review.'}
 
 
 def main():

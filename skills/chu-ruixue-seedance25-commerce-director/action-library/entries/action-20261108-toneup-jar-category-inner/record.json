@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261108-toneup-jar-category-inner",
+  "title": "已有外盖分离时提起独立内片",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261108-toneup-jar-category/record.json"
+    ],
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。",
+      "S01与S04为约4秒偏移的重叠剪辑，合并来源；S08同场但动作段不同。",
+      "T01/T03/T04为同场不同剪辑，T05与T04字节完全相同。",
+      "S14约3秒取样处可见内片残膏且受遮挡，不用它证明标准罐内挖取。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "素颜霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "外盖已分离",
+      "本品确有独立内片"
+    ],
+    "action": "一手稳住罐，另一手捏住白色内片边缘并连续提离；约1.5秒内片在罐口侧上方。片头0秒是提前插入的展示画面，不与开片动作直接拼成同一时间。",
+    "transition": "为内片安排明确去向，再释放操作手；原片后续安放受遮挡。",
+    "end_state": "罐口无遮挡，内片仍有可追踪去向。",
+    "expected_effect": "露出内容物，不改变膏量。",
+    "avoid": [
+      "无内片不得新增",
+      "不虚构撕膜、旋拧圈数或画外落桌"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261108-toneup-jar-category/record.json",
+    "unit_id": "inner"
+  },
+  "legacy_context": {
+    "category": "素颜霜",
+    "product_form": "可点取或轻刮的白色/浅黄调膏体，按当前产品确认",
+    "container": "已打开外盖的罐；独立内片仅在确实存在时采用",
+    "body_part": "手背",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "S14约0.4–1.8秒",
+  "migration_source_sha256": "4cd5f9d7517d958638e7b65d1698aab32e798dff35a09d1a9fc9426cda006b5e"
+}

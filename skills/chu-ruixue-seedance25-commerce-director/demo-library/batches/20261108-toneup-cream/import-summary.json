@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "batch_id": "20261108-toneup-cream",
+  "scope": "category",
+  "category": "素颜霜",
+  "input_files": 21,
+  "unique_file_hashes": 20,
+  "new_records": 8,
+  "new_units": 23,
+  "keyframes": 45,
+  "product_specific_added": 0,
+  "performance_mappings_added": 0,
+  "record_ids": [
+    "demo-20261108-toneup-packaging-category",
+    "demo-20261108-toneup-jar-category",
+    "demo-20261108-toneup-tube-category",
+    "demo-20261108-toneup-handback-category",
+    "demo-20261108-toneup-arm-category",
+    "demo-20261108-toneup-surface-category",
+    "demo-20261108-toneup-assisted-category",
+    "demo-20261108-toneup-face-category"
+  ],
+  "speech_review": "not_performed",
+  "generation_validation": "not_performed"
+}

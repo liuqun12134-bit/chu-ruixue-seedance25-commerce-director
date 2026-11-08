@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261108-toneup-face-category-dot",
+  "title": "逐次取膏，额头与面部多区接触点涂",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261108-toneup-face-category/record.json"
+    ],
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。",
+      "T02原片约60秒，完整流程不可机械压缩至短片；按首帧状态和时长选单元。",
+      "本条是品类使用示例，不确认视频人物身份，也不认定其与金色罐或其他品牌是同款。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "素颜霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "罐已开，持罐手稳定",
+      "操作手可从罐到面部连续移动"
+    ],
+    "action": "同一指腹触及罐内膏体后点到额头，随后数次回罐补取；鼻外部、一侧面颊、下巴及另一侧面颊陆续出现膏点。尚未推开的点保持独立。",
+    "transition": "操作手先从取样位置到目标部位接触，再离开；点涂完成后转入局部推匀。",
+    "end_state": "多个部位有先后形成的膏点，罐仍由原持罐手掌握。",
+    "expected_effect": "建立可追踪的膏体转移与区域起点。",
+    "avoid": [
+      "不一取就全脸同时长出膏点",
+      "不默认涉及眼睑或嘴唇",
+      "不把来源膏量当统一用量"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261108-toneup-face-category/record.json",
+    "unit_id": "dot"
+  },
+  "legacy_context": {
+    "category": "素颜霜",
+    "product_form": "可点涂并逐渐推薄的浅色膏霜；颜色按当前产品",
+    "container": "已开口可取膏罐；具体灰色瓶罐不作为同款绑定",
+    "body_part": "额头、双颊、鼻外部、下巴",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "T02约0.5–6.3秒",
+  "migration_source_sha256": "79d85357c4a68bc966b0b1bbd9451bfc410d9fbeb64c3bd7887cc1e3b5f36a90"
+}

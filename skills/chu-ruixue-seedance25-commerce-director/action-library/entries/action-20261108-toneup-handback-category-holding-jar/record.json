@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261108-toneup-handback-category-holding-jar",
+  "title": "持罐手同时露出手背，另一手推开试样",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "legacy_migration",
+    "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
+    "source_refs": [
+      "demo-library/entries/demo-20261108-toneup-handback-category/record.json"
+    ],
+    "limitations": [
+      "实际方法为ffprobe元信息、全时段每2秒抽帧审阅、关键区间每秒2或4帧加密及部分原分辨率帧检查；不等于实时播放或全帧连续性认证。",
+      "未听审或转写音轨，未核实台词、语气、词句动作关系或口型；画面字幕只作背景，不作为已核实原话或功效。",
+      "动作区间为近似，关键帧时间来自原片帧PTS；镜像未知，动作使用画面位置或持物职责描述，不强指定解剖左右手。",
+      "宣传字幕、图板、滤镜、曝光与不同部位的底色不能证明成分、浓度、即时抗皱、提亮色号或长期功效；没有生成验证。",
+      "只更新素颜霜品类。来源包装及人物不作精确产品身份绑定或初瑞雪个人表达习惯证据。",
+      "包内主要来源为原文件副本，保留原音轨；补充连续片段为本地重编码截取，画音未听审。原始绝对路径仅保存在本次任务私有清单。",
+      "S11前段为已有膏体状态的手背补匀，未保留完整初次取样；后段纸巾接触不作为性能测试。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "legacy"
+  },
+  "approved_product_ids": [],
+  "migration_needs_review": true,
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "素颜霜"
+      ],
+      "basis": "沿用旧分类，仅召回候选；新增入库按用户确认分类。"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "迁移后需根据动作核查；不把未知当不限。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "罐能由受试手稳握且罐口不向下",
+      "手背试用区可见且不影响持物"
+    ],
+    "action": "手掌继续握着圆罐，手背朝上；另一手将手背几处膏痕短程推匀。抬高手背时罐仍在同手中，没有释放该手。",
+    "transition": "维持握持再略抬手背展示，不让试涂变成换手或抛罐。",
+    "end_state": "同手持罐与手背薄层同时可见。",
+    "expected_effect": "展示手背铺展，也保留持品关系。",
+    "avoid": [
+      "不把膏体抹到罐壁",
+      "不让持罐手伸展成完全张掌",
+      "不称为已验证乳化"
+    ]
+  },
+  "legacy_ref": {
+    "record_path": "demo-library/entries/demo-20261108-toneup-handback-category/record.json",
+    "unit_id": "holding-jar"
+  },
+  "legacy_context": {
+    "category": "素颜霜",
+    "product_form": "可从局部膏团推成较薄覆盖层的膏体",
+    "container": "罐装或软管；先安排容器与盖子",
+    "body_part": "手背、手腕",
+    "product_id": null,
+    "scope": "category"
+  },
+  "source_time": "T01约10.8–16.8秒",
+  "migration_source_sha256": "394ba89b6709a089e60f61b86b17592219f47a41adf9d6e241bfdc5c2bcc6acc"
+}

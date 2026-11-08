@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-new",
+  "title": "新动作",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "authored_method",
+    "basis": "填写实际来源；无视频不标video_analysis",
+    "source_refs": [],
+    "limitations": []
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": null,
+    "basis": "unknown"
+  },
+  "approved_product_ids": [],
+  "applicability": {
+    "category": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "待按实际动作核查"
+    },
+    "texture": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "待按实际动作核查"
+    },
+    "packaging": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "待按实际动作核查"
+    },
+    "body_part": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "待按实际动作核查"
+    },
+    "purpose": {
+      "mode": "unknown",
+      "values": [],
+      "basis": "待按实际动作核查"
+    }
+  },
+  "sequence": {
+    "start_conditions": [],
+    "action": "",
+    "transition": "",
+    "end_state": "",
+    "expected_effect": "",
+    "avoid": []
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false
+}

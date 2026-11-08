@@ -379,6 +379,191 @@
       "enabled": true
     },
     {
+      "id": "demo-20261108-toneup-arm-category",
+      "title": "素颜霜手臂：已有点条承接、前臂推匀与肩臂延展",
+      "modes": [
+        "use"
+      ],
+      "category": "素颜霜",
+      "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+      "product_form": "可分区推薄的膏体；不将身体使用范围推广到未确认产品",
+      "container": "先放稳容器或由明确持手控制",
+      "body_part": "手背、前臂、上臂、肩头",
+      "tags": [
+        "从前臂已有点条膏痕承接分区推薄",
+        "抬起前臂，另一手沿腕肘之间补匀",
+        "够到上臂和肩头，沿同一手臂往返推匀"
+      ],
+      "summary": "保留前臂已有点条膏痕逐段推薄、前臂举起补匀与单人肩臂往返三个动作单元。每种部位必须符合当前产品实际用途。",
+      "path": "entries/demo-20261108-toneup-arm-category/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261108-toneup-assisted-category",
+      "title": "素颜霜双人条件：承托手臂与另一人辅助推匀",
+      "modes": [
+        "use"
+      ],
+      "category": "素颜霜",
+      "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+      "product_form": "已在身体试用区形成薄层的膏体",
+      "container": "操作人使用的容器有明确去向",
+      "body_part": "前臂、上臂",
+      "tags": [
+        "受试者伸臂，操作者承托后推匀"
+      ],
+      "summary": "仅供本次已明确双人辅助演示时使用：受试者伸臂，操作者承托手臂并沿皮肤推匀。理发动作与产品演示分开，不移植其他人物习惯。",
+      "path": "entries/demo-20261108-toneup-assisted-category/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261108-toneup-face-category",
+      "title": "素颜霜上脸：多区点涂、放罐后分区推匀与收罐",
+      "modes": [
+        "use"
+      ],
+      "category": "素颜霜",
+      "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+      "product_form": "可点涂并逐渐推薄的浅色膏霜；颜色按当前产品",
+      "container": "已开口可取膏罐；具体灰色瓶罐不作为同款绑定",
+      "body_part": "额头、双颊、鼻外部、下巴",
+      "tags": [
+        "逐次取膏，额头与面部多区接触点涂",
+        "持罐时先推一侧，再放低容器分区推匀",
+        "按可见残留补匀面颊、额头和下巴",
+        "离手展示，重新拿罐并回盖"
+      ],
+      "summary": "补充批次T02提供真实的取膏—额头、鼻外部、双颊与下巴点涂—容器下移—分区推匀—离手与回盖流程。动作按局部连续性拆分，不把约一分钟压成几秒。",
+      "path": "entries/demo-20261108-toneup-face-category/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261108-toneup-handback-category",
+      "title": "素颜霜手背：膏团推薄、持罐试涂与结束清理",
+      "modes": [
+        "use"
+      ],
+      "category": "素颜霜",
+      "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+      "product_form": "可从局部膏团推成较薄覆盖层的膏体",
+      "container": "罐装或软管；先安排容器与盖子",
+      "body_part": "手背、手腕",
+      "tags": [
+        "指腹接触膏团，逐段从手背推向腕侧",
+        "持罐手同时露出手背，另一手推开试样",
+        "结束时用已有纸巾擦拭试用区"
+      ],
+      "summary": "从已落下的膏团逐步推开；保留容器放稳后试涂与持罐手背直接试涂两种条件。结束擦拭仅记录清理动作，不当作防蹭或持色测试。",
+      "path": "entries/demo-20261108-toneup-handback-category/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261108-toneup-jar-category",
+      "title": "素颜霜罐装：内片、膏面展示与指腹取样",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "category": "素颜霜",
+      "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+      "product_form": "可点取或轻刮的白色/浅黄调膏体，按当前产品确认",
+      "container": "已打开外盖的罐；独立内片仅在确实存在时采用",
+      "body_part": "手背",
+      "tags": [
+        "已有外盖分离时提起独立内片",
+        "罐口轻倾，让膏面纹理可见",
+        "桌上开罐取膏，转移到另一手背",
+        "偏稠膏面用指腹轻刮取样"
+      ],
+      "summary": "拆开观察内片、轻倾罐口、台面稳定取膏与偏稠膏面轻刮。内片残膏、罐内膏体和外盖分别记录，不迁移具体罐色与膏体颜色。",
+      "path": "entries/demo-20261108-toneup-jar-category/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261108-toneup-packaging-category",
+      "title": "素颜霜：单件持品、转向与双包装并列",
+      "modes": [
+        "talk"
+      ],
+      "category": "素颜霜",
+      "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+      "product_form": "内容物未展示时不推定质地",
+      "container": "软管或圆罐；双包装必须事先确认",
+      "body_part": null,
+      "tags": [
+        "持单件包装转向并停稳",
+        "两件已确认包装并列展示"
+      ],
+      "summary": "把纯展示与取用分开：单件正面/背面转向、短暂举近，以及已确认的两种包装并列。不同颜色、容量和可拆外壳不自动视为同款。",
+      "path": "entries/demo-20261108-toneup-packaging-category/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261108-toneup-surface-category",
+      "title": "素颜霜涂后：近镜、同光并列与指示局部",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "category": "素颜霜",
+      "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+      "product_form": "已有试涂状态，具体底色与覆盖以当前画面为准",
+      "container": "此时持物可有可无，保持真实手位",
+      "body_part": "手背、前臂",
+      "tags": [
+        "离手后举近手背并微转腕部",
+        "两处肤面放在相近平面并列",
+        "指尖指示试用区边缘后撤开"
+      ],
+      "summary": "离手后举近当前试用区、把两处肤面放到相近光线和景深中，或用指尖指示局部边缘。不同部位的色差不作为严格前后对照。",
+      "path": "entries/demo-20261108-toneup-surface-category/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
+      "id": "demo-20261108-toneup-tube-category",
+      "title": "素颜霜软管：开盖、定点挤膏与回盖放稳",
+      "modes": [
+        "use"
+      ],
+      "category": "素颜霜",
+      "product_name": "来源批次：角鲨烷素颜霜、贵妇膏（用户归为素颜霜；不同包装不认定同款）",
+      "product_form": "可由软管口挤出的膏霜",
+      "container": "可挤压软管及独立管盖",
+      "body_part": "手背",
+      "tags": [
+        "握管身与管盖，分离后明确持盖手",
+        "管口接近手背，挤出局部膏点后离开",
+        "手背留膏时回盖并立放软管"
+      ],
+      "summary": "区分软管开盖、管口接近手背定点出膏，以及回盖立放后释放操作手。剪辑缺失的换手和放管过程不当作已经看见。",
+      "path": "entries/demo-20261108-toneup-tube-category/record.json",
+      "source_kind": "video_analysis",
+      "scope": "category",
+      "product_id": null,
+      "enabled": true
+    },
+    {
       "id": "demo-legacy-cream-talk-01",
       "title": "罐装面霜：持品、指罐与稳定展示",
       "modes": [
