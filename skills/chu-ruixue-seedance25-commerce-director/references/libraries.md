@@ -28,6 +28,8 @@ rules各项id/text/status(confirmed/pending)/modes/trigger/basis。规则写条�
 
 applicability固定五项category/texture/packaging/body_part/purpose，每项{mode,values,basis}：constrained有非空values；unrestricted空values且解释为什么与动作无关；unknown空values，未知不能当不限。
 
+用途标签可跨来源品类检索：购买引导、产品暂放、产品取回。标签写入applicability.purpose.values，保留已有用途；具体条件见[通用编排规则](directing.md#通用编排规则)。只补当前动作实际包含的用途，不以补标签解除其他维度限制或升级证据状态。
+
 source_category记录来源分类，不等于所有适用品类。approved_product_ids为有依据的适用关联，不能覆盖包装等硬条件。sequence保存start_conditions/action/transition/end_state/expected_effect/avoid。legacy_ref={record_path,unit_id}追溯旧单元；迁移标签未核实保持draft和migration_needs_review。
 
 ### 脚本

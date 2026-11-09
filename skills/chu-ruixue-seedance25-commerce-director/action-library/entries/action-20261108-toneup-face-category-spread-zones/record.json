@@ -6,7 +6,7 @@
   "enabled": true,
   "status": "draft",
   "created_on": "2026-11-08",
-  "updated_on": "2026-11-08",
+  "updated_on": "2026-11-09",
   "provenance": {
     "kind": "legacy_migration",
     "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
@@ -26,7 +26,21 @@
   },
   "generation_status": "untested",
   "generation_evidence": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "add-purpose-tags",
+      "basis": "用户确认购买引导、产品暂放、产品取回三个用途标签；本条仅补与现有动作相符的标签，原动作、来源、状态与生成证据不变。",
+      "previous_purpose": {
+        "mode": "unknown",
+        "values": [],
+        "basis": "迁移后需根据动作核查；不把未知当不限。"
+      },
+      "added_tags": [
+        "产品暂放"
+      ]
+    }
+  ],
   "modes": [
     "use"
   ],
@@ -60,9 +74,11 @@
       "basis": "迁移后需根据动作核查；不把未知当不限。"
     },
     "purpose": {
-      "mode": "unknown",
-      "values": [],
-      "basis": "迁移后需根据动作核查；不把未知当不限。"
+      "mode": "constrained",
+      "values": [
+        "产品暂放"
+      ],
+      "basis": "依既有sequence中明确的取放过程补充用途；用户2026-11-09要求按用途调用。不补全原片未知承托位置，不扩大包装适用范围。原依据：迁移后需根据动作核查；不把未知当不限。"
     }
   },
   "sequence": {

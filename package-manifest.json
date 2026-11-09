@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "skill_name": "chu-ruixue-seedance25-commerce-director",
-  "skill_version": "2.1.1",
+  "skill_version": "2.1.2",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-09T05:31:35.141263+00:00",
+  "created_at": "2026-11-09T08:06:12.118965+00:00",
   "summary": {
     "demo_records": 26,
     "demo_units": 81,
@@ -13,18 +13,18 @@
     "pending_mappings": 76,
     "product_records": 5,
     "script_records": 49,
-    "action_records": 121,
+    "action_records": 122,
     "failure_records": 0,
-    "files": 1040,
-    "bytes": 2455346009,
+    "files": 1041,
+    "bytes": 2455367879,
     "videos": 116,
     "images": 343
   },
   "files": [
     {
       "path": "SKILL.md",
-      "size": 5768,
-      "sha256": "812c2247911003b38d0a18ab0b0f6de3e94fc4117fb3c553355019baf8e4013a"
+      "size": 6007,
+      "sha256": "f2dc37539290f6f6fb9fdcd78bb15844808c763de1519aeab9a8f51d410448c3"
     },
     {
       "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-backlight/record.json",
@@ -168,8 +168,8 @@
     },
     {
       "path": "action-library/entries/action-20261107-b5-cream-product-close-and-set-aside/record.json",
-      "size": 3366,
-      "sha256": "b66d855e45d7373efc2caeee97d4e856063a089e4ceaa015632c52720d5bddb9"
+      "size": 4059,
+      "sha256": "8ccb06ee1f23cbe0801ca59dba35f97461318b300fada56e5e801cf925ce8e12"
     },
     {
       "path": "action-library/entries/action-20261107-b5-cream-product-closed-display/record.json",
@@ -203,8 +203,8 @@
     },
     {
       "path": "action-library/entries/action-20261107-cherry-cream-product-bring-in/record.json",
-      "size": 3167,
-      "sha256": "cd8d4664cf68ae520067b8b5ee0ac8699b82a0796821fa1e5662d1565078f17f"
+      "size": 3860,
+      "sha256": "9fa352b93c6f282102315b486bd5351f5ebdf1cae67cc982e9ef12a74776a5a6"
     },
     {
       "path": "action-library/entries/action-20261107-cherry-cream-product-face-side-hold/record.json",
@@ -293,8 +293,8 @@
     },
     {
       "path": "action-library/entries/action-20261108-toneup-face-category-finish/record.json",
-      "size": 4113,
-      "sha256": "ebedf5d1569a93f84e73a22315966cf508fed9f2269b49ae0e7dcc75c1bc2bb7"
+      "size": 4806,
+      "sha256": "590a92186c096132f31fa47bc045254df15db0c2e6f82b638b1d66e0ae8175ae"
     },
     {
       "path": "action-library/entries/action-20261108-toneup-face-category-residue/record.json",
@@ -303,8 +303,8 @@
     },
     {
       "path": "action-library/entries/action-20261108-toneup-face-category-spread-zones/record.json",
-      "size": 4237,
-      "sha256": "67a713aca3fe508b5402343057be63c44f04f24e1f4a382fa378e7783f48b415"
+      "size": 4930,
+      "sha256": "ad1c6b4639eb71d0b21517dbd43ab2015555cf85e7010610bfa6a938be4b3792"
     },
     {
       "path": "action-library/entries/action-20261108-toneup-generated-closed-hold/record.json",
@@ -328,8 +328,8 @@
     },
     {
       "path": "action-library/entries/action-20261108-toneup-generated-set-down/record.json",
-      "size": 3781,
-      "sha256": "40950985e0616244a487fe594bb9528bab2c452dc4840bd4b9317884667ddaed"
+      "size": 4516,
+      "sha256": "04beaac335c6c4f975e16e51d0f94bab6af22f8eb2377a60dfe05c3cb732c3d8"
     },
     {
       "path": "action-library/entries/action-20261108-toneup-generated-spread/record.json",
@@ -403,8 +403,8 @@
     },
     {
       "path": "action-library/entries/action-20261108-toneup-tube-category-recap/record.json",
-      "size": 3642,
-      "sha256": "538363c597005f8e98318b7260bb83fafc79e805464eaf6d110f22754dfbfeb1"
+      "size": 4335,
+      "sha256": "de7a62060e5dcd74af32110d08b8b5ea8fbbef43e0f1d314ece0ef2c11dd8ec0"
     },
     {
       "path": "action-library/entries/action-20261108-toneup-tube-category-uncap/record.json",
@@ -463,8 +463,8 @@
     },
     {
       "path": "action-library/entries/action-20261109-ginseng-real-mask-hold/record.json",
-      "size": 3438,
-      "sha256": "b4ec191fd8b3801b0b2567a24e31c17f6a2ebf498c78632a2b8b18ad2d5a6d3f"
+      "size": 4179,
+      "sha256": "cb735b9edada1aa5762c3fa3c9c3c939b0cb5a8e6d72801b1272904f2402cbc4"
     },
     {
       "path": "action-library/entries/action-20261109-ginseng-real-mask-open/record.json",
@@ -538,8 +538,8 @@
     },
     {
       "path": "action-library/entries/action-20261109-ginseng-xiaoai-lift/record.json",
-      "size": 4178,
-      "sha256": "c9e2518222b6998b638e5854cb4cc65bb7c221c0f0b166638f55c10998dcc1a1"
+      "size": 4930,
+      "sha256": "655b19ae589496ae313f4978ac4693e8e1c6d4cb4ba1039e42f2301ddf112412"
     },
     {
       "path": "action-library/entries/action-20261109-ginseng-xiaoai-open-dropper/record.json",
@@ -580,6 +580,11 @@
       "path": "action-library/entries/action-20261109-ginseng-xiaoai-turn-bottle/record.json",
       "size": 4399,
       "sha256": "9f16ce8c2f54bc0417a967350c1b86823b42840d2d9fb89bb7ba95ba7d880544"
+    },
+    {
+      "path": "action-library/entries/action-20261109-purchase-guide-lower-left/record.json",
+      "size": 3257,
+      "sha256": "1f4ce07ce5988adce47e6c1d01172e929afd9cf98771c8f3a478fb710c6eb01c"
     },
     {
       "path": "action-library/entries/action-legacy-cream-talk-01-finish/record.json",
@@ -633,8 +638,8 @@
     },
     {
       "path": "action-library/index.json",
-      "size": 523987,
-      "sha256": "b48aa033b61fdd84a76245883b1eb3d7d826165d06cdda5da420b143260a173d"
+      "size": 533857,
+      "sha256": "334457cbc268ffcd7decf8526e91668e0f7eefd58a821143a1973a0116d60944"
     },
     {
       "path": "agents/openai.yaml",
@@ -2163,8 +2168,8 @@
     },
     {
       "path": "library-review.html",
-      "size": 33666,
-      "sha256": "ccb95df7497a2b7398657802c9daeb4d9f7ef12a00496080e5a9cc1608fb2c14"
+      "size": 33858,
+      "sha256": "525f34d20a6d8b6c9d27f32ee02ff3583d8a5d02948e247d52f4e2c92225acb9"
     },
     {
       "path": "performance-library/entries/perf-crx-20261107-01-open-close/history/record-v1-20261107.json",
@@ -4638,8 +4643,8 @@
     },
     {
       "path": "references/directing.md",
-      "size": 2219,
-      "sha256": "2b615666ca98a7de1bc89ff3acf831164a4bb58e012082b37cca11f6b39c60f9"
+      "size": 4510,
+      "sha256": "905479ef7400826d472afca647abf4ee20c97fca700a28fef66b661839a12b96"
     },
     {
       "path": "references/ingestion.md",
@@ -4653,8 +4658,8 @@
     },
     {
       "path": "references/libraries.md",
-      "size": 5427,
-      "sha256": "435bf77eead96cfd3023f9ee8bff227d1f32a79f128076d88ab1459bee807242"
+      "size": 5755,
+      "sha256": "b9cc75ea063298787b1431d2e75452291e1bd50301d3b642ea1731eb45e3943a"
     },
     {
       "path": "references/methods.md",

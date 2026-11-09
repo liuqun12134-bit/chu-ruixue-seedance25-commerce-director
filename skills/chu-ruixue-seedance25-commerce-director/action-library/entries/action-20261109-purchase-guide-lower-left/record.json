@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261109-purchase-guide-lower-left",
+  "title": "购买引导时向画面左下角简短指引",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "user_authored",
+    "basis": "用户提出：说有需要自己拍吧、赶紧拍吧、抓紧搂吧等购买引导时，方便可指向视频左下角，并明确授权按本轮方案入库。",
+    "source_refs": [
+      "references/directing.md"
+    ],
+    "limitations": [
+      "设计补充，不是视频观察或初瑞雪本人习惯证据。",
+      "未进行生成测试；ready仅表示设计与适用条件完整，可供编排选用。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "按用户确认的可选购买指引设计入库；未做生成测试。"
+    }
+  ],
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "source_category": {
+    "value": null,
+    "basis": "unknown"
+  },
+  "approved_product_ids": [],
+  "applicability": {
+    "category": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "购买指引不依赖商品品类，不由来源分类限制。"
+    },
+    "texture": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "指引过程不接触内容物，与质地无关。"
+    },
+    "packaging": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "用空闲手完成，不操作包装；持品手可继续可靠承托。"
+    },
+    "body_part": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "该指引不在皮肤使用区域执行，与产品涂抹部位无关；需有可用手及自然动作路径。"
+    },
+    "purpose": {
+      "mode": "constrained",
+      "values": [
+        "购买引导"
+      ],
+      "basis": "用户明确指定购买引导语义下的可选动作。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "实际原声处于明确购买引导语义段或相邻适合的衔接位置。",
+      "至少一只手能自然腾出，手势路径可达；不打断取用、推匀或必要效果展示。",
+      "以观众视角确定画面左下角，人物、产品、肤面当前状态已明确。"
+    ],
+    "action": "保持与镜头交流，用空闲手朝观众看到的画面左下角轻指一下或做简短指引，随后自然收回。",
+    "transition": "手回到自然交流位置，或衔接下一项必要操作；没有合适空当则不编排本动作。",
+    "end_state": "手已收回，产品仍由原手或承托处可靠支撑，已完成的肤面状态保持。",
+    "expected_effect": "让购买引导与自然手势呼应；不新增画面图标，不承诺实际平台入口位置。",
+    "avoid": [
+      "不把画面左下角误写成人物自身左侧。",
+      "不每句催单重复指、不逐关键词强触发。",
+      "不新增小黄车图标、贴纸或字幕。",
+      "不为腾手让产品消失或省略放稳过程。",
+      "不改词、补说、复读或用手势遮住必要展示。"
+    ]
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false
+}

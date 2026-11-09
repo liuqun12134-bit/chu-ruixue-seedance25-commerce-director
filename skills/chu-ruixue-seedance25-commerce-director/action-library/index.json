@@ -2668,7 +2668,7 @@
       "enabled": true,
       "status": "draft",
       "created_on": "2026-11-07",
-      "updated_on": "2026-11-07",
+      "updated_on": "2026-11-09",
       "provenance": {
         "kind": "legacy_migration",
         "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
@@ -2684,7 +2684,21 @@
       },
       "generation_status": "untested",
       "generation_evidence": [],
-      "history": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "add-purpose-tags",
+          "basis": "用户确认购买引导、产品暂放、产品取回三个用途标签；本条仅补与现有动作相符的标签，原动作、来源、状态与生成证据不变。",
+          "previous_purpose": {
+            "mode": "unknown",
+            "values": [],
+            "basis": "迁移后需根据动作核查；不把未知当不限。"
+          },
+          "added_tags": [
+            "产品暂放"
+          ]
+        }
+      ],
       "modes": [
         "talk",
         "use"
@@ -2719,9 +2733,11 @@
           "basis": "迁移后需根据动作核查；不把未知当不限。"
         },
         "purpose": {
-          "mode": "unknown",
-          "values": [],
-          "basis": "迁移后需根据动作核查；不把未知当不限。"
+          "mode": "constrained",
+          "values": [
+            "产品暂放"
+          ],
+          "basis": "依既有sequence中明确的取放过程补充用途；用户2026-11-09要求按用途调用。不补全原片未知承托位置，不扩大包装适用范围。原依据：迁移后需根据动作核查；不把未知当不限。"
         }
       },
       "sequence": {
@@ -3312,7 +3328,7 @@
       "enabled": true,
       "status": "draft",
       "created_on": "2026-11-07",
-      "updated_on": "2026-11-07",
+      "updated_on": "2026-11-09",
       "provenance": {
         "kind": "legacy_migration",
         "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
@@ -3328,7 +3344,21 @@
       },
       "generation_status": "untested",
       "generation_evidence": [],
-      "history": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "add-purpose-tags",
+          "basis": "用户确认购买引导、产品暂放、产品取回三个用途标签；本条仅补与现有动作相符的标签，原动作、来源、状态与生成证据不变。",
+          "previous_purpose": {
+            "mode": "unknown",
+            "values": [],
+            "basis": "迁移后需根据动作核查；不把未知当不限。"
+          },
+          "added_tags": [
+            "产品取回"
+          ]
+        }
+      ],
       "modes": [
         "talk"
       ],
@@ -3362,9 +3392,11 @@
           "basis": "迁移后需根据动作核查；不把未知当不限。"
         },
         "purpose": {
-          "mode": "unknown",
-          "values": [],
-          "basis": "迁移后需根据动作核查；不把未知当不限。"
+          "mode": "constrained",
+          "values": [
+            "产品取回"
+          ],
+          "basis": "依既有sequence中明确的取放过程补充用途；用户2026-11-09要求按用途调用。不补全原片未知承托位置，不扩大包装适用范围。原依据：迁移后需根据动作核查；不把未知当不限。"
         }
       },
       "sequence": {
@@ -4983,7 +5015,7 @@
       "enabled": true,
       "status": "draft",
       "created_on": "2026-11-08",
-      "updated_on": "2026-11-08",
+      "updated_on": "2026-11-09",
       "provenance": {
         "kind": "legacy_migration",
         "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
@@ -5003,7 +5035,21 @@
       },
       "generation_status": "untested",
       "generation_evidence": [],
-      "history": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "add-purpose-tags",
+          "basis": "用户确认购买引导、产品暂放、产品取回三个用途标签；本条仅补与现有动作相符的标签，原动作、来源、状态与生成证据不变。",
+          "previous_purpose": {
+            "mode": "unknown",
+            "values": [],
+            "basis": "迁移后需根据动作核查；不把未知当不限。"
+          },
+          "added_tags": [
+            "产品取回"
+          ]
+        }
+      ],
       "modes": [
         "use"
       ],
@@ -5037,9 +5083,11 @@
           "basis": "迁移后需根据动作核查；不把未知当不限。"
         },
         "purpose": {
-          "mode": "unknown",
-          "values": [],
-          "basis": "迁移后需根据动作核查；不把未知当不限。"
+          "mode": "constrained",
+          "values": [
+            "产品取回"
+          ],
+          "basis": "依既有sequence中明确的取放过程补充用途；用户2026-11-09要求按用途调用。不补全原片未知承托位置，不扩大包装适用范围。原依据：迁移后需根据动作核查；不把未知当不限。"
         }
       },
       "sequence": {
@@ -5179,7 +5227,7 @@
       "enabled": true,
       "status": "draft",
       "created_on": "2026-11-08",
-      "updated_on": "2026-11-08",
+      "updated_on": "2026-11-09",
       "provenance": {
         "kind": "legacy_migration",
         "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
@@ -5199,7 +5247,21 @@
       },
       "generation_status": "untested",
       "generation_evidence": [],
-      "history": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "add-purpose-tags",
+          "basis": "用户确认购买引导、产品暂放、产品取回三个用途标签；本条仅补与现有动作相符的标签，原动作、来源、状态与生成证据不变。",
+          "previous_purpose": {
+            "mode": "unknown",
+            "values": [],
+            "basis": "迁移后需根据动作核查；不把未知当不限。"
+          },
+          "added_tags": [
+            "产品暂放"
+          ]
+        }
+      ],
       "modes": [
         "use"
       ],
@@ -5233,9 +5295,11 @@
           "basis": "迁移后需根据动作核查；不把未知当不限。"
         },
         "purpose": {
-          "mode": "unknown",
-          "values": [],
-          "basis": "迁移后需根据动作核查；不把未知当不限。"
+          "mode": "constrained",
+          "values": [
+            "产品暂放"
+          ],
+          "basis": "依既有sequence中明确的取放过程补充用途；用户2026-11-09要求按用途调用。不补全原片未知承托位置，不扩大包装适用范围。原依据：迁移后需根据动作核查；不把未知当不限。"
         }
       },
       "sequence": {
@@ -5706,7 +5770,7 @@
       "enabled": true,
       "status": "ready",
       "created_on": "2026-11-08",
-      "updated_on": "2026-11-08",
+      "updated_on": "2026-11-09",
       "provenance": {
         "kind": "video_analysis",
         "basis": "用户明确新增素颜霜视频参考；对该29.056秒生成成片全时段抽帧观察。",
@@ -5733,6 +5797,22 @@
           "date": "2026-11-08",
           "action": "create",
           "basis": "用户要求素颜霜新增视频参考；保存实际观察与限制，不改既有产品事实。"
+        },
+        {
+          "date": "2026-11-09",
+          "action": "add-purpose-tags",
+          "basis": "用户确认购买引导、产品暂放、产品取回三个用途标签；本条仅补与现有动作相符的标签，原动作、来源、状态与生成证据不变。",
+          "previous_purpose": {
+            "mode": "constrained",
+            "values": [
+              "放置产品",
+              "腾出双手"
+            ],
+            "basis": "按本动作可观察目的。"
+          },
+          "added_tags": [
+            "产品暂放"
+          ]
         }
       ],
       "modes": [
@@ -5777,9 +5857,10 @@
           "mode": "constrained",
           "values": [
             "放置产品",
-            "腾出双手"
+            "腾出双手",
+            "产品暂放"
           ],
-          "basis": "按本动作可观察目的。"
+          "basis": "依既有sequence中明确的取放过程补充用途；用户2026-11-09要求按用途调用。不补全原片未知承托位置，不扩大包装适用范围。原依据：按本动作可观察目的。"
         }
       },
       "sequence": {
@@ -7191,7 +7272,7 @@
       "enabled": true,
       "status": "draft",
       "created_on": "2026-11-08",
-      "updated_on": "2026-11-08",
+      "updated_on": "2026-11-09",
       "provenance": {
         "kind": "legacy_migration",
         "basis": "迁移旧动作事实与来源；未重新观看或验证五类适用标签。",
@@ -7209,7 +7290,21 @@
       },
       "generation_status": "untested",
       "generation_evidence": [],
-      "history": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "add-purpose-tags",
+          "basis": "用户确认购买引导、产品暂放、产品取回三个用途标签；本条仅补与现有动作相符的标签，原动作、来源、状态与生成证据不变。",
+          "previous_purpose": {
+            "mode": "unknown",
+            "values": [],
+            "basis": "迁移后需根据动作核查；不把未知当不限。"
+          },
+          "added_tags": [
+            "产品暂放"
+          ]
+        }
+      ],
       "modes": [
         "use"
       ],
@@ -7243,9 +7338,11 @@
           "basis": "迁移后需根据动作核查；不把未知当不限。"
         },
         "purpose": {
-          "mode": "unknown",
-          "values": [],
-          "basis": "迁移后需根据动作核查；不把未知当不限。"
+          "mode": "constrained",
+          "values": [
+            "产品暂放"
+          ],
+          "basis": "依既有sequence中明确的取放过程补充用途；用户2026-11-09要求按用途调用。不补全原片未知承托位置，不扩大包装适用范围。原依据：迁移后需根据动作核查；不把未知当不限。"
         }
       },
       "sequence": {
@@ -8566,6 +8663,21 @@
           "date": "2026-11-09",
           "action": "create",
           "basis": "真人原片可观察动作，未进行生成测试。"
+        },
+        {
+          "date": "2026-11-09",
+          "action": "add-purpose-tags",
+          "basis": "用户确认购买引导、产品暂放、产品取回三个用途标签；本条仅补与现有动作相符的标签，原动作、来源、状态与生成证据不变。",
+          "previous_purpose": {
+            "mode": "constrained",
+            "values": [
+              "保留面膜状态回到举瓶讲解"
+            ],
+            "basis": "仅迁移此可观察的动作目的。"
+          },
+          "added_tags": [
+            "产品取回"
+          ]
         }
       ],
       "modes": [
@@ -8608,9 +8720,10 @@
         "purpose": {
           "mode": "constrained",
           "values": [
-            "保留面膜状态回到举瓶讲解"
+            "保留面膜状态回到举瓶讲解",
+            "产品取回"
           ],
-          "basis": "仅迁移此可观察的动作目的。"
+          "basis": "依既有sequence中明确的取放过程补充用途；用户2026-11-09要求按用途调用。不补全原片未知承托位置，不扩大包装适用范围。原依据：仅迁移此可观察的动作目的。"
         }
       },
       "sequence": {
@@ -10353,6 +10466,22 @@
           "date": "2026-11-09",
           "action": "create",
           "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        },
+        {
+          "date": "2026-11-09",
+          "action": "add-purpose-tags",
+          "basis": "用户确认购买引导、产品暂放、产品取回三个用途标签；本条仅补与现有动作相符的标签，原动作、来源、状态与生成证据不变。",
+          "previous_purpose": {
+            "mode": "constrained",
+            "values": [
+              "持品展示"
+            ],
+            "basis": "按实际动作目的。"
+          },
+          "added_tags": [
+            "产品暂放",
+            "产品取回"
+          ]
         }
       ],
       "modes": [
@@ -10397,9 +10526,11 @@
         "purpose": {
           "mode": "constrained",
           "values": [
-            "持品展示"
+            "持品展示",
+            "产品暂放",
+            "产品取回"
           ],
-          "basis": "按实际动作目的。"
+          "basis": "依既有sequence中明确的取放过程补充用途；用户2026-11-09要求按用途调用。不补全原片未知承托位置，不扩大包装适用范围。原依据：按实际动作目的。"
         }
       },
       "sequence": {
@@ -11529,6 +11660,95 @@
       ],
       "acceptance_status": "scoped_method_reference",
       "path": "action-library/entries/action-20261109-ginseng-xiaoai-turn-bottle/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-purchase-guide-lower-left",
+      "title": "购买引导时向画面左下角简短指引",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "user_authored",
+        "basis": "用户提出：说有需要自己拍吧、赶紧拍吧、抓紧搂吧等购买引导时，方便可指向视频左下角，并明确授权按本轮方案入库。",
+        "source_refs": [
+          "references/directing.md"
+        ],
+        "limitations": [
+          "设计补充，不是视频观察或初瑞雪本人习惯证据。",
+          "未进行生成测试；ready仅表示设计与适用条件完整，可供编排选用。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "按用户确认的可选购买指引设计入库；未做生成测试。"
+        }
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "source_category": {
+        "value": null,
+        "basis": "unknown"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "购买指引不依赖商品品类，不由来源分类限制。"
+        },
+        "texture": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "指引过程不接触内容物，与质地无关。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "用空闲手完成，不操作包装；持品手可继续可靠承托。"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "该指引不在皮肤使用区域执行，与产品涂抹部位无关；需有可用手及自然动作路径。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "购买引导"
+          ],
+          "basis": "用户明确指定购买引导语义下的可选动作。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "实际原声处于明确购买引导语义段或相邻适合的衔接位置。",
+          "至少一只手能自然腾出，手势路径可达；不打断取用、推匀或必要效果展示。",
+          "以观众视角确定画面左下角，人物、产品、肤面当前状态已明确。"
+        ],
+        "action": "保持与镜头交流，用空闲手朝观众看到的画面左下角轻指一下或做简短指引，随后自然收回。",
+        "transition": "手回到自然交流位置，或衔接下一项必要操作；没有合适空当则不编排本动作。",
+        "end_state": "手已收回，产品仍由原手或承托处可靠支撑，已完成的肤面状态保持。",
+        "expected_effect": "让购买引导与自然手势呼应；不新增画面图标，不承诺实际平台入口位置。",
+        "avoid": [
+          "不把画面左下角误写成人物自身左侧。",
+          "不每句催单重复指、不逐关键词强触发。",
+          "不新增小黄车图标、贴纸或字幕。",
+          "不为腾手让产品消失或省略放稳过程。",
+          "不改词、补说、复读或用手势遮住必要展示。"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "path": "action-library/entries/action-20261109-purchase-guide-lower-left/record.json"
     },
     {
       "schema_version": 1,
