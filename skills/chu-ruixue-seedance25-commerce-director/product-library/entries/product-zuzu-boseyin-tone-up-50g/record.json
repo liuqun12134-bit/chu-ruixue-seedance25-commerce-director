@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "record_type": "product",
+  "id": "product-zuzu-boseyin-tone-up-50g",
+  "title": "ZUZU 玻色因素颜霜（50g）",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "user_interview",
+    "basis": "2026-11-08 用户明确指定产品并提供包装、用量、用法及妆效；外观来自同次上传参考图。 同日用户更正为无内片，以最新更正为准。",
+    "source_refs": [
+      "product-library/entries/product-zuzu-boseyin-tone-up-50g/assets/product-reference.png",
+      "product-library/entries/product-zuzu-boseyin-tone-up-50g/assets/user-interview.json"
+    ],
+    "limitations": [
+      "卖点与妆效为用户陈述，未独立测试或验证生成结果。",
+      "参考图标签无可读品牌文字；未从图片推断配方、尺寸或材质。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-08",
+      "action": "create",
+      "old_value": null,
+      "basis": "用户要求导入并完成首轮产品采访；待最后补充问题回答。"
+    },
+    {
+      "date": "2026-11-08",
+      "action": "complete_interview",
+      "old_value": {
+        "status": "draft",
+        "interview": {
+          "asked": [
+            "名称与规格",
+            "包装材质与内片",
+            "质地、用量、部位与用法",
+            "卖点、涂后妆效与不准确表现",
+            "还有没有特殊用法、必须展示的细节或其他补充？没有补充也可以。"
+          ],
+          "missing_core": [
+            "最后补充问题待回答"
+          ],
+          "supplement_answer": null,
+          "complete": false
+        },
+        "limitations": [
+          "卖点与妆效为用户陈述，未独立测试或验证生成结果。",
+          "最终补充问题尚未回答，产品档案暂为 draft。",
+          "参考图标签无可读品牌文字；未从图片推断配方、尺寸或材质。"
+        ]
+      },
+      "basis": "用户回答最后补充问题：没什么其他特殊补充了。仅完成产品采访，generation_status 仍为 untested。"
+    },
+    {
+      "date": "2026-11-08",
+      "action": "correct_packaging_no_inner_disc",
+      "old_value": {
+        "packaging": {
+          "value": "50g 圆罐包装；罐身为玻璃，盖为塑料，盖下有内片。参考图呈透明感罐身、银色镜面外观盖、粉蓝渐变白色描边标签及螺纹罐口；银色反光外观不代表盖为金属。",
+          "status": "confirmed",
+          "basis": "材质与内片：用户确认；颜色、形状、标签、螺纹：上传图观察。"
+        },
+        "packaging_tags": [
+          "旋盖罐",
+          "玻璃罐",
+          "塑料盖",
+          "内片"
+        ],
+        "rules": [
+          {
+            "id": "packaging-identity",
+            "text": "保持玻璃罐身、塑料盖及参考图银色镜面盖外观；有盖下内片。不可因银色反光将塑料盖描述为金属盖。",
+            "status": "confirmed",
+            "modes": [
+              "talk",
+              "use"
+            ],
+            "trigger": "产品入镜或描述包装时",
+            "basis": "用户确认材质与内片；上传图提供外观。"
+          },
+          {
+            "id": "inner-disc-continuity",
+            "text": "取膏前罐口须可接触膏体；首帧若有内片则先移开，若已移开则承接。盖和内片的去向需符合手位与场景，不凭空消失，也不强制每条重演开盖。",
+            "status": "confirmed",
+            "modes": [
+              "use"
+            ],
+            "trigger": "出现开罐取膏动作时",
+            "basis": "用户确认有内片；技能要求包装状态与物理连续性。"
+          }
+        ]
+      },
+      "basis": "2026-11-08 用户最新更正：这样吧，调整下规则，素颜霜没有内片。覆盖此前有内片的口述。"
+    }
+  ],
+  "role": "target",
+  "aliases": [
+    "zuzu玻色因素颜霜",
+    "ZUZU玻色因素颜霜",
+    "玻色因素颜霜"
+  ],
+  "reference_hashes": [
+    "2206b6a9976efd32a5d5eadc3d620789f298821eaa27b017c253a35bd9c428a4"
+  ],
+  "category": {
+    "value": "素颜霜",
+    "basis": "user_confirmed"
+  },
+  "facts": {
+    "packaging": {
+      "value": "50g 圆罐包装；罐身为玻璃，盖为塑料，盖下无内片。参考图呈透明感罐身、银色镜面外观盖、粉蓝渐变白色描边标签及螺纹罐口；银色反光外观不代表盖为金属。",
+      "status": "confirmed",
+      "basis": "2026-11-08 用户最新更正：这样吧，调整下规则，素颜霜没有内片。覆盖此前有内片的口述。材质沿用用户确认；颜色、形状、标签、螺纹来自上传图观察。"
+    },
+    "net_content": {
+      "value": "50g/罐",
+      "status": "confirmed",
+      "basis": "2026-11-08 用户口述确认"
+    },
+    "dimensions": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "contents": {
+      "value": "参考图中为乳白色膏体。",
+      "status": "observed",
+      "basis": "用户上传产品参考图；未确认成分或浓度。"
+    },
+    "texture": {
+      "value": "偏水润，好推开；流动性未说明。",
+      "status": "confirmed",
+      "basis": "2026-11-08 用户口述确认"
+    },
+    "usage": {
+      "value": "每次取约一元硬币大小的量，可涂半边脸；直接用手抹开。硬币大小为用户用量描述，未换算克数或厚度，未推断其他部位用量。",
+      "status": "confirmed",
+      "basis": "2026-11-08 用户口述确认"
+    },
+    "body_parts": {
+      "value": [
+        "脸",
+        "手",
+        "胳膊",
+        "腿"
+      ],
+      "status": "confirmed",
+      "basis": "2026-11-08 用户口述确认"
+    },
+    "finish": {
+      "value": "涂后遮瑕、均匀肤色，增白提亮约一个色号，呈自然、不假白的妆效。",
+      "status": "confirmed",
+      "basis": "2026-11-08 用户口述确认"
+    },
+    "selling_points": {
+      "value": [
+        "遮瑕",
+        "均匀肤色",
+        "增白提亮一个色号",
+        "水润",
+        "容易推开",
+        "不假白"
+      ],
+      "status": "confirmed",
+      "basis": "2026-11-08 用户口述确认"
+    }
+  },
+  "match_fields": {
+    "texture": [
+      "膏霜",
+      "水润"
+    ],
+    "packaging": [
+      "旋盖罐",
+      "玻璃罐",
+      "塑料盖",
+      "无内片"
+    ],
+    "body_part": [
+      "面部",
+      "面颊",
+      "手",
+      "手背",
+      "胳膊",
+      "腿"
+    ]
+  },
+  "rules": [
+    {
+      "id": "packaging-identity",
+      "text": "保持玻璃罐身、塑料盖及参考图银色镜面盖外观；本品没有内片，不新增内片。不可因银色反光将塑料盖描述为金属盖。",
+      "status": "confirmed",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "trigger": "产品入镜或描述包装时",
+      "basis": "2026-11-08 用户最新更正：这样吧，调整下规则，素颜霜没有内片。覆盖此前有内片的口述。上传图提供外观。"
+    },
+    {
+      "id": "inner-disc-continuity",
+      "text": "本品无内片，打开外盖后可直接取膏，不安排提起、移开或放回内片的动作；首帧已开盖则承接。外盖去向须符合手位与场景，不凭空消失，也不强制每条重演开盖。共用动作库中要求存在内片的动作不适用于本品。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "出现开罐取膏动作时",
+      "basis": "2026-11-08 用户最新更正：这样吧，调整下规则，素颜霜没有内片。覆盖此前有内片的口述。技能要求包装状态与物理连续性。"
+    },
+    {
+      "id": "dose-and-spread",
+      "text": "半边脸使用示范可按约一元硬币大小的用量，直接用手抹开，表现水润易推开的质地；不换算为未经确认的克数或其他部位固定用量。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "取膏及涂抹半边脸时",
+      "basis": "用户确认用量、用法和质地。"
+    },
+    {
+      "id": "application-areas",
+      "text": "允许脸、手、胳膊、腿的使用演示；按当次首帧和脚本选择部位，不要求每条全部展示。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "选择使用演示部位时",
+      "basis": "用户确认可使用部位。"
+    },
+    {
+      "id": "natural-tone-up-finish",
+      "text": "实际涂抹区域推开后呈遮瑕、肤色均匀、增白提亮约一个色号的自然妆效，避免假白；不据此夸大为完全遮盖所有瑕疵。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "实际涂抹完成并展示效果时",
+      "basis": "用户确认卖点和妆效。"
+    },
+    {
+      "id": "finish-persistence",
+      "text": "膏痕随推开逐渐变薄，已完成区域的自然妆效在后续转头、遮挡、离手和举品后持续保持；保留真实肤质，不用全脸换肤、改变五官或提升全局曝光伪造效果。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "使用完成后的同条视频后续镜头",
+      "basis": "用户确认自然提亮、不假白；技能要求妆效与状态连续性。"
+    },
+    {
+      "id": "no-unapplied-tone-up",
+      "text": "纯口播或尚未实际涂抹的区域不凭空变白；首帧已经有妆效则承接原状态，不重复制造涂前涂后变化。",
+      "status": "confirmed",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "trigger": "纯口播、局部使用或首帧已有妆效时",
+      "basis": "技能对素颜霜 use 与 talk 的适用条件和物理连续性要求。"
+    }
+  ],
+  "interview": {
+    "asked": [
+      "名称与规格",
+      "包装材质与内片",
+      "质地、用量、部位与用法",
+      "卖点、涂后妆效与不准确表现",
+      "还有没有特殊用法、必须展示的细节或其他补充？没有补充也可以。"
+    ],
+    "missing_core": [],
+    "supplement_answer": "没什么其他特殊补充了",
+    "complete": true
+  }
+}

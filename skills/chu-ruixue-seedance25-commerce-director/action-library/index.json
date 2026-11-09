@@ -5272,6 +5272,649 @@
     {
       "schema_version": 1,
       "record_type": "action",
+      "id": "action-20261108-toneup-generated-closed-hold",
+      "title": "闭盖产品举至脸侧收尾",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-08",
+      "updated_on": "2026-11-08",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户明确新增素颜霜视频参考；对该29.056秒生成成片全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+          "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+        ],
+        "limitations": [
+          "文件名标示 FishAudio / Seedance 2.5，按 AI 生成参考处理；未核验原始提交稿、任务ID或模型执行参数。",
+          "本次为全时段每秒4帧抽帧检查（116帧），另有每秒1帧概览；不是实时播放、逐原始帧检查或听审。时间为约值，边界精度约0.25秒。",
+          "本地 faster-whisper-small 转写未经听审，台词、口型与语气对应均未认证；不进入真人表现库。",
+          "用户确认来源品类为素颜霜；具体品牌/型号未单独确认，包装相似不用于自动绑定产品。",
+          "生成片的肤色和膏体变化只能作画面观察，不能证明真实产品功效、准确用量或真人习惯。",
+          "tested只表示已有该生成参考文件，不表示当前提炼脚本重新生成过或整体验收通过。"
+        ]
+      },
+      "generation_status": "tested",
+      "generation_evidence": [
+        "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+        "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+      ],
+      "history": [
+        {
+          "date": "2026-11-08",
+          "action": "create",
+          "basis": "用户要求素颜霜新增视频参考；保存实际观察与限制，不改既有产品事实。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "素颜霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "素颜霜"
+          ],
+          "basis": "用户确认来源品类；本次按同品类参考收录。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "膏霜"
+          ],
+          "basis": "来源可见白色膏状内容物；不推断真实流动性。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "旋盖罐"
+          ],
+          "basis": "该动作涉及持罐或旋盖条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手",
+            "面部"
+          ],
+          "basis": "按源视频可见操作部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "持品收尾"
+          ],
+          "basis": "按本动作可观察目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "罐已闭盖；必须由首帧或可核查前序满足",
+          "面部示范完成"
+        ],
+        "action": "把已闭盖产品举至脸侧，保持人脸与产品可见，面向镜头交流。",
+        "transition": "持稳产品完成收尾。",
+        "end_state": "闭盖罐仍在手中，面部不被罐体遮住。",
+        "expected_effect": "让产品与使用后的面部同框。",
+        "avoid": [
+          "本片下缘的合盖过程未看清，不能声称已验证旋紧动作",
+          "不以收尾画面证明包装微字准确或口型通过"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_time_range_seconds": [
+        24.25,
+        29.056
+      ],
+      "time_reliability": "approximate_4fps_sampled_review",
+      "acceptance_status": "scoped_reference_only",
+      "path": "action-library/entries/action-20261108-toneup-generated-closed-hold/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261108-toneup-generated-lean-turn",
+      "title": "离手前倾并左右转脸展示",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-08",
+      "updated_on": "2026-11-08",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户明确新增素颜霜视频参考；对该29.056秒生成成片全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+          "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+        ],
+        "limitations": [
+          "文件名标示 FishAudio / Seedance 2.5，按 AI 生成参考处理；未核验原始提交稿、任务ID或模型执行参数。",
+          "本次为全时段每秒4帧抽帧检查（116帧），另有每秒1帧概览；不是实时播放、逐原始帧检查或听审。时间为约值，边界精度约0.25秒。",
+          "本地 faster-whisper-small 转写未经听审，台词、口型与语气对应均未认证；不进入真人表现库。",
+          "用户确认来源品类为素颜霜；具体品牌/型号未单独确认，包装相似不用于自动绑定产品。",
+          "生成片的肤色和膏体变化只能作画面观察，不能证明真实产品功效、准确用量或真人习惯。",
+          "tested只表示已有该生成参考文件，不表示当前提炼脚本重新生成过或整体验收通过。"
+        ]
+      },
+      "generation_status": "tested",
+      "generation_evidence": [
+        "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+        "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+      ],
+      "history": [
+        {
+          "date": "2026-11-08",
+          "action": "create",
+          "basis": "用户要求素颜霜新增视频参考；保存实际观察与限制，不改既有产品事实。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "素颜霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "素颜霜"
+          ],
+          "basis": "用户确认来源品类；本次按同品类参考收录。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "膏霜"
+          ],
+          "basis": "来源可见白色膏状内容物；不推断真实流动性。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "该单元开始时产品已稳定放置，面部动作不依赖容器形态；前序取用条件另核。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部",
+            "面颊"
+          ],
+          "basis": "按源视频可见操作部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "涂后展示"
+          ],
+          "basis": "按本动作可观察目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "实际已完成面部推匀",
+          "双手离面且不挡展示部位"
+        ],
+        "action": "靠近镜头，分别轻转向两侧展示面颊，再回正短暂停留。",
+        "transition": "后撤回到持品交流位置。",
+        "end_state": "所查帧未见厚白膏点回现；面部处于可见展示状态。",
+        "expected_effect": "借用近镜与角度变化的展示方式；不承诺亮度差等同真实提亮一个色号。",
+        "avoid": [
+          "首帧已涂好则直接承接",
+          "不得靠全局曝光变亮或改变五官伪造妆效",
+          "不得将AI表情转为初瑞雪真人习惯"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_time_range_seconds": [
+        17,
+        22.75
+      ],
+      "time_reliability": "approximate_4fps_sampled_review",
+      "acceptance_status": "scoped_reference_only",
+      "path": "action-library/entries/action-20261108-toneup-generated-lean-turn/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261108-toneup-generated-open-show",
+      "title": "旋开外盖并倾罐展示膏面",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-08",
+      "updated_on": "2026-11-08",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户明确新增素颜霜视频参考；对该29.056秒生成成片全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+          "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+        ],
+        "limitations": [
+          "文件名标示 FishAudio / Seedance 2.5，按 AI 生成参考处理；未核验原始提交稿、任务ID或模型执行参数。",
+          "本次为全时段每秒4帧抽帧检查（116帧），另有每秒1帧概览；不是实时播放、逐原始帧检查或听审。时间为约值，边界精度约0.25秒。",
+          "本地 faster-whisper-small 转写未经听审，台词、口型与语气对应均未认证；不进入真人表现库。",
+          "用户确认来源品类为素颜霜；具体品牌/型号未单独确认，包装相似不用于自动绑定产品。",
+          "生成片的肤色和膏体变化只能作画面观察，不能证明真实产品功效、准确用量或真人习惯。",
+          "tested只表示已有该生成参考文件，不表示当前提炼脚本重新生成过或整体验收通过。"
+        ]
+      },
+      "generation_status": "tested",
+      "generation_evidence": [
+        "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+        "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+      ],
+      "history": [
+        {
+          "date": "2026-11-08",
+          "action": "create",
+          "basis": "用户要求素颜霜新增视频参考；保存实际观察与限制，不改既有产品事实。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "素颜霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "素颜霜"
+          ],
+          "basis": "用户确认来源品类；本次按同品类参考收录。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "膏霜"
+          ],
+          "basis": "来源可见白色膏状内容物；不推断真实流动性。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "旋盖罐"
+          ],
+          "basis": "该动作涉及持罐或旋盖条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手"
+          ],
+          "basis": "按源视频可见操作部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "包装展示",
+            "质地展示"
+          ],
+          "basis": "按本动作可观察目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "闭盖罐可双手稳定持握",
+          "桌面有可放外盖的位置"
+        ],
+        "action": "扶稳罐身，另一手旋开外盖并放桌面，倾斜罐口朝镜头展示膏面。",
+        "transition": "展示后罐口回到可取用角度。",
+        "end_state": "开罐在手，外盖在桌面，有可接触膏面。",
+        "expected_effect": "让观众看清开口与内容物，不证明任何质地功效。",
+        "avoid": [
+          "不凭空新增内片",
+          "不把外盖消失当放置完成"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_time_range_seconds": [
+        0,
+        5.5
+      ],
+      "time_reliability": "approximate_4fps_sampled_review",
+      "acceptance_status": "scoped_reference_only",
+      "path": "action-library/entries/action-20261108-toneup-generated-open-show/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261108-toneup-generated-sample-dot",
+      "title": "持开罐取膏并在面部多点点涂",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-08",
+      "updated_on": "2026-11-08",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户明确新增素颜霜视频参考；对该29.056秒生成成片全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+          "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+        ],
+        "limitations": [
+          "文件名标示 FishAudio / Seedance 2.5，按 AI 生成参考处理；未核验原始提交稿、任务ID或模型执行参数。",
+          "本次为全时段每秒4帧抽帧检查（116帧），另有每秒1帧概览；不是实时播放、逐原始帧检查或听审。时间为约值，边界精度约0.25秒。",
+          "本地 faster-whisper-small 转写未经听审，台词、口型与语气对应均未认证；不进入真人表现库。",
+          "用户确认来源品类为素颜霜；具体品牌/型号未单独确认，包装相似不用于自动绑定产品。",
+          "生成片的肤色和膏体变化只能作画面观察，不能证明真实产品功效、准确用量或真人习惯。",
+          "tested只表示已有该生成参考文件，不表示当前提炼脚本重新生成过或整体验收通过。"
+        ]
+      },
+      "generation_status": "tested",
+      "generation_evidence": [
+        "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+        "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+      ],
+      "history": [
+        {
+          "date": "2026-11-08",
+          "action": "create",
+          "basis": "用户要求素颜霜新增视频参考；保存实际观察与限制，不改既有产品事实。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "素颜霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "素颜霜"
+          ],
+          "basis": "用户确认来源品类；本次按同品类参考收录。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "膏霜"
+          ],
+          "basis": "来源可见白色膏状内容物；不推断真实流动性。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "旋盖罐"
+          ],
+          "basis": "该动作涉及持罐或旋盖条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部",
+            "面颊"
+          ],
+          "basis": "按源视频可见操作部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "取膏",
+            "点涂"
+          ],
+          "basis": "按本动作可观察目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "罐已打开且膏体可接触",
+          "面部保持首帧状态"
+        ],
+        "action": "一手持罐，另一手指腹接触膏面，再在双颊、额头、下巴依次点涂。",
+        "transition": "完成点涂后准备放下罐子。",
+        "end_state": "可见各处分散白膏点，罐仍在手中。",
+        "expected_effect": "展示分配膏体的位置和顺序；不代表该产品标准用量。",
+        "avoid": [
+          "不把未接触区域提前变白",
+          "不照搬视频估算全脸剂量",
+          "改编用量须读目标产品规则"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_time_range_seconds": [
+        5.5,
+        11.75
+      ],
+      "time_reliability": "approximate_4fps_sampled_review",
+      "acceptance_status": "scoped_reference_only",
+      "path": "action-library/entries/action-20261108-toneup-generated-sample-dot/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261108-toneup-generated-set-down",
+      "title": "放稳开罐后腾出双手",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-08",
+      "updated_on": "2026-11-08",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户明确新增素颜霜视频参考；对该29.056秒生成成片全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+          "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+        ],
+        "limitations": [
+          "文件名标示 FishAudio / Seedance 2.5，按 AI 生成参考处理；未核验原始提交稿、任务ID或模型执行参数。",
+          "本次为全时段每秒4帧抽帧检查（116帧），另有每秒1帧概览；不是实时播放、逐原始帧检查或听审。时间为约值，边界精度约0.25秒。",
+          "本地 faster-whisper-small 转写未经听审，台词、口型与语气对应均未认证；不进入真人表现库。",
+          "用户确认来源品类为素颜霜；具体品牌/型号未单独确认，包装相似不用于自动绑定产品。",
+          "生成片的肤色和膏体变化只能作画面观察，不能证明真实产品功效、准确用量或真人习惯。",
+          "tested只表示已有该生成参考文件，不表示当前提炼脚本重新生成过或整体验收通过。"
+        ]
+      },
+      "generation_status": "tested",
+      "generation_evidence": [
+        "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+        "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+      ],
+      "history": [
+        {
+          "date": "2026-11-08",
+          "action": "create",
+          "basis": "用户要求素颜霜新增视频参考；保存实际观察与限制，不改既有产品事实。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "素颜霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "素颜霜"
+          ],
+          "basis": "用户确认来源品类；本次按同品类参考收录。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "膏霜"
+          ],
+          "basis": "来源可见白色膏状内容物；不推断真实流动性。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "旋盖罐"
+          ],
+          "basis": "该动作涉及持罐或旋盖条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手",
+            "面部"
+          ],
+          "basis": "按源视频可见操作部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "放置产品",
+            "腾出双手"
+          ],
+          "basis": "按本动作可观察目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "罐在手中且面部已点涂",
+          "桌面可安全承托开罐"
+        ],
+        "action": "将开罐平放在前方桌面，确认承托后撤开持罐手，双手抬向脸部。",
+        "transition": "双手进入面部涂抹，罐与盖留在桌面。",
+        "end_state": "双手空出，开罐直立，盖仍在旁边。",
+        "expected_effect": "形成可追溯的放置与双手操作衔接。",
+        "avoid": [
+          "桌面无位置时不能强行套用",
+          "不在悬空时直接松手"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_time_range_seconds": [
+        11.75,
+        12.75
+      ],
+      "time_reliability": "approximate_4fps_sampled_review",
+      "acceptance_status": "scoped_reference_only",
+      "path": "action-library/entries/action-20261108-toneup-generated-set-down/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261108-toneup-generated-spread",
+      "title": "双手分区推抹：膏点消退待复核",
+      "enabled": true,
+      "status": "draft",
+      "created_on": "2026-11-08",
+      "updated_on": "2026-11-08",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户明确新增素颜霜视频参考；对该29.056秒生成成片全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+          "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+        ],
+        "limitations": [
+          "文件名标示 FishAudio / Seedance 2.5，按 AI 生成参考处理；未核验原始提交稿、任务ID或模型执行参数。",
+          "本次为全时段每秒4帧抽帧检查（116帧），另有每秒1帧概览；不是实时播放、逐原始帧检查或听审。时间为约值，边界精度约0.25秒。",
+          "本地 faster-whisper-small 转写未经听审，台词、口型与语气对应均未认证；不进入真人表现库。",
+          "用户确认来源品类为素颜霜；具体品牌/型号未单独确认，包装相似不用于自动绑定产品。",
+          "生成片的肤色和膏体变化只能作画面观察，不能证明真实产品功效、准确用量或真人习惯。",
+          "tested只表示已有该生成参考文件，不表示当前提炼脚本重新生成过或整体验收通过。"
+        ]
+      },
+      "generation_status": "tested",
+      "generation_evidence": [
+        "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+        "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+      ],
+      "history": [
+        {
+          "date": "2026-11-08",
+          "action": "create",
+          "basis": "用户要求素颜霜新增视频参考；保存实际观察与限制，不改既有产品事实。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "素颜霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "素颜霜"
+          ],
+          "basis": "用户确认来源品类；本次按同品类参考收录。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "膏霜"
+          ],
+          "basis": "来源可见白色膏状内容物；不推断真实流动性。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "该单元开始时产品已稳定放置，面部动作不依赖容器形态；前序取用条件另核。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部",
+            "面颊"
+          ],
+          "basis": "按源视频可见操作部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "推匀膏体"
+          ],
+          "basis": "按本动作可观察目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "面部已点膏",
+          "双手空出且产品有稳定承托"
+        ],
+        "action": "双手先沿两颊和鼻侧推抹，再接触下巴、额头；原片膏点主要在末段遮挡前后减少。",
+        "transition": "约17秒双手离面，进入展示。",
+        "end_state": "抽帧中厚白膏点消退，但逐区自然推薄过程尚未认证。",
+        "expected_effect": "仅提供双手分区路线参考；不能视为推匀质量已通过。",
+        "avoid": [
+          "不可照搬遮挡后突然消除膏点",
+          "不得用全脸换肤替代接触推匀",
+          "待核的原片表现不写成产品规则"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_time_range_seconds": [
+        12.75,
+        17
+      ],
+      "time_reliability": "approximate_4fps_sampled_review",
+      "acceptance_status": "pending_continuity_review",
+      "path": "action-library/entries/action-20261108-toneup-generated-spread/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
       "id": "action-20261108-toneup-handback-category-cleanup",
       "title": "结束时用已有纸巾擦拭试用区",
       "enabled": true,

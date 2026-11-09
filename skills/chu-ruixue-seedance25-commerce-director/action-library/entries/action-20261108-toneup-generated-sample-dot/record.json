@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261108-toneup-generated-sample-dot",
+  "title": "持开罐取膏并在面部多点点涂",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "用户明确新增素颜霜视频参考；对该29.056秒生成成片全时段抽帧观察。",
+    "source_refs": [
+      "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+      "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+    ],
+    "limitations": [
+      "文件名标示 FishAudio / Seedance 2.5，按 AI 生成参考处理；未核验原始提交稿、任务ID或模型执行参数。",
+      "本次为全时段每秒4帧抽帧检查（116帧），另有每秒1帧概览；不是实时播放、逐原始帧检查或听审。时间为约值，边界精度约0.25秒。",
+      "本地 faster-whisper-small 转写未经听审，台词、口型与语气对应均未认证；不进入真人表现库。",
+      "用户确认来源品类为素颜霜；具体品牌/型号未单独确认，包装相似不用于自动绑定产品。",
+      "生成片的肤色和膏体变化只能作画面观察，不能证明真实产品功效、准确用量或真人习惯。",
+      "tested只表示已有该生成参考文件，不表示当前提炼脚本重新生成过或整体验收通过。"
+    ]
+  },
+  "generation_status": "tested",
+  "generation_evidence": [
+    "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+    "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+  ],
+  "history": [
+    {
+      "date": "2026-11-08",
+      "action": "create",
+      "basis": "用户要求素颜霜新增视频参考；保存实际观察与限制，不改既有产品事实。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "user_confirmed"
+  },
+  "approved_product_ids": [],
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "素颜霜"
+      ],
+      "basis": "用户确认来源品类；本次按同品类参考收录。"
+    },
+    "texture": {
+      "mode": "constrained",
+      "values": [
+        "膏霜"
+      ],
+      "basis": "来源可见白色膏状内容物；不推断真实流动性。"
+    },
+    "packaging": {
+      "mode": "constrained",
+      "values": [
+        "旋盖罐"
+      ],
+      "basis": "该动作涉及持罐或旋盖条件。"
+    },
+    "body_part": {
+      "mode": "constrained",
+      "values": [
+        "面部",
+        "面颊"
+      ],
+      "basis": "按源视频可见操作部位。"
+    },
+    "purpose": {
+      "mode": "constrained",
+      "values": [
+        "取膏",
+        "点涂"
+      ],
+      "basis": "按本动作可观察目的。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "罐已打开且膏体可接触",
+      "面部保持首帧状态"
+    ],
+    "action": "一手持罐，另一手指腹接触膏面，再在双颊、额头、下巴依次点涂。",
+    "transition": "完成点涂后准备放下罐子。",
+    "end_state": "可见各处分散白膏点，罐仍在手中。",
+    "expected_effect": "展示分配膏体的位置和顺序；不代表该产品标准用量。",
+    "avoid": [
+      "不把未接触区域提前变白",
+      "不照搬视频估算全脸剂量",
+      "改编用量须读目标产品规则"
+    ]
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false,
+  "source_time_range_seconds": [
+    5.5,
+    11.75
+  ],
+  "time_reliability": "approximate_4fps_sampled_review",
+  "acceptance_status": "scoped_reference_only"
+}

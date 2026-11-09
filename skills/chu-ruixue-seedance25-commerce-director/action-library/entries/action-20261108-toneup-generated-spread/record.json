@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261108-toneup-generated-spread",
+  "title": "双手分区推抹：膏点消退待复核",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "用户明确新增素颜霜视频参考；对该29.056秒生成成片全时段抽帧观察。",
+    "source_refs": [
+      "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+      "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+    ],
+    "limitations": [
+      "文件名标示 FishAudio / Seedance 2.5，按 AI 生成参考处理；未核验原始提交稿、任务ID或模型执行参数。",
+      "本次为全时段每秒4帧抽帧检查（116帧），另有每秒1帧概览；不是实时播放、逐原始帧检查或听审。时间为约值，边界精度约0.25秒。",
+      "本地 faster-whisper-small 转写未经听审，台词、口型与语气对应均未认证；不进入真人表现库。",
+      "用户确认来源品类为素颜霜；具体品牌/型号未单独确认，包装相似不用于自动绑定产品。",
+      "生成片的肤色和膏体变化只能作画面观察，不能证明真实产品功效、准确用量或真人习惯。",
+      "tested只表示已有该生成参考文件，不表示当前提炼脚本重新生成过或整体验收通过。"
+    ]
+  },
+  "generation_status": "tested",
+  "generation_evidence": [
+    "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+    "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+  ],
+  "history": [
+    {
+      "date": "2026-11-08",
+      "action": "create",
+      "basis": "用户要求素颜霜新增视频参考；保存实际观察与限制，不改既有产品事实。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "user_confirmed"
+  },
+  "approved_product_ids": [],
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "素颜霜"
+      ],
+      "basis": "用户确认来源品类；本次按同品类参考收录。"
+    },
+    "texture": {
+      "mode": "constrained",
+      "values": [
+        "膏霜"
+      ],
+      "basis": "来源可见白色膏状内容物；不推断真实流动性。"
+    },
+    "packaging": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "该单元开始时产品已稳定放置，面部动作不依赖容器形态；前序取用条件另核。"
+    },
+    "body_part": {
+      "mode": "constrained",
+      "values": [
+        "面部",
+        "面颊"
+      ],
+      "basis": "按源视频可见操作部位。"
+    },
+    "purpose": {
+      "mode": "constrained",
+      "values": [
+        "推匀膏体"
+      ],
+      "basis": "按本动作可观察目的。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "面部已点膏",
+      "双手空出且产品有稳定承托"
+    ],
+    "action": "双手先沿两颊和鼻侧推抹，再接触下巴、额头；原片膏点主要在末段遮挡前后减少。",
+    "transition": "约17秒双手离面，进入展示。",
+    "end_state": "抽帧中厚白膏点消退，但逐区自然推薄过程尚未认证。",
+    "expected_effect": "仅提供双手分区路线参考；不能视为推匀质量已通过。",
+    "avoid": [
+      "不可照搬遮挡后突然消除膏点",
+      "不得用全脸换肤替代接触推匀",
+      "待核的原片表现不写成产品规则"
+    ]
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false,
+  "source_time_range_seconds": [
+    12.75,
+    17
+  ],
+  "time_reliability": "approximate_4fps_sampled_review",
+  "acceptance_status": "pending_continuity_review"
+}

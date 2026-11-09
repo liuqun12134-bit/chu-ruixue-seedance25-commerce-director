@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-20261108-toneup-generated-full-face",
+  "title": "素颜霜：开罐多点全脸使用、双手推匀与近镜展示（生成参考）",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-08",
+  "updated_on": "2026-11-08",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "用户明确新增素颜霜视频参考；对该29.056秒生成成片全时段抽帧观察。",
+    "source_refs": [
+      "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+      "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+    ],
+    "limitations": [
+      "文件名标示 FishAudio / Seedance 2.5，按 AI 生成参考处理；未核验原始提交稿、任务ID或模型执行参数。",
+      "本次为全时段每秒4帧抽帧检查（116帧），另有每秒1帧概览；不是实时播放、逐原始帧检查或听审。时间为约值，边界精度约0.25秒。",
+      "本地 faster-whisper-small 转写未经听审，台词、口型与语气对应均未认证；不进入真人表现库。",
+      "用户确认来源品类为素颜霜；具体品牌/型号未单独确认，包装相似不用于自动绑定产品。",
+      "生成片的肤色和膏体变化只能作画面观察，不能证明真实产品功效、准确用量或真人习惯。",
+      "tested只表示已有该生成参考文件，不表示当前提炼脚本重新生成过或整体验收通过。"
+    ]
+  },
+  "generation_status": "tested",
+  "generation_evidence": [
+    "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+    "script-library/sources/toneup-generated-20261108-a9859ced/review.json"
+  ],
+  "history": [
+    {
+      "date": "2026-11-08",
+      "action": "create",
+      "basis": "用户要求素颜霜新增视频参考；保存实际观察与限制，不改既有产品事实。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "user_confirmed"
+  },
+  "categories": [
+    "素颜霜"
+  ],
+  "product_ids": [],
+  "goal": "保存该片从开罐、点涂、腾出双手、推抹、近镜展示到持品收尾的完整观察路线，供后续改编。",
+  "adaptation_notes": "使用量和妆效必须读取目标产品规则。本片全脸流程不能自动套用半脸用量；按音频重排可选开罐展示，保留先点涂再推匀再展示的因果。原声仅有未听审ASR，不作为核实台词。",
+  "source_sequence": [
+    "open-show",
+    "sample-dot",
+    "set-down",
+    "spread",
+    "show-finish",
+    "unseen-closure",
+    "close"
+  ],
+  "initial_state_satisfies": [
+    "首帧已开罐可省开盖；首帧已点膏可承接推匀；首帧已完成妆效可直接展示。",
+    "收尾若首帧并非闭盖，需安排并核查真实合盖，不能从本片下缘遮挡推断已完成。"
+  ],
+  "maintained_states": [
+    "已涂区域完成后的妆效在离手、前倾、转脸与收尾应持续保持；这是迁移验收要求，不代表本片已完全通过。",
+    "膏痕逐渐推薄与妆效保持分开检验；未涂区域不能被全局换肤带亮。",
+    "开罐落桌后留在原位，盖有明确去向；闭盖衔接必须可追溯。"
+  ],
+  "effect_required": true,
+  "effect_stage_ids": [
+    "show-finish"
+  ],
+  "stages": [
+    {
+      "id": "open-show",
+      "goal": "展示包装与膏面",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "产品介绍",
+        "质地介绍"
+      ],
+      "entry_state": "闭盖罐可操作",
+      "action_options": [
+        "action-20261108-toneup-generated-open-show"
+      ],
+      "exit_state": "开罐可取膏，盖在桌面",
+      "carry_forward": [
+        "保持产品承托与开合状态可追溯"
+      ],
+      "acceptance": [
+        "外盖分离和放置有连续依据"
+      ]
+    },
+    {
+      "id": "sample-dot",
+      "goal": "将膏体分配到演示区域",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "使用方法"
+      ],
+      "entry_state": "罐口可接触，面部状态明确",
+      "action_options": [
+        "action-20261108-toneup-generated-sample-dot"
+      ],
+      "exit_state": "目标区域留下膏点",
+      "carry_forward": [
+        "保持产品承托与开合状态可追溯"
+      ],
+      "acceptance": [
+        "取膏与接触位置清楚，用量按目标产品确认"
+      ]
+    },
+    {
+      "id": "set-down",
+      "goal": "为双手推匀提供条件",
+      "required": true,
+      "depends_on": [
+        "sample-dot"
+      ],
+      "audio_intents": [
+        "使用方法"
+      ],
+      "entry_state": "点涂完成且仍持罐",
+      "action_options": [
+        "action-20261108-toneup-generated-set-down"
+      ],
+      "exit_state": "产品有承托，双手空出",
+      "carry_forward": [
+        "保持产品承托与开合状态可追溯"
+      ],
+      "acceptance": [
+        "罐放稳再放手，盖位置可追溯"
+      ]
+    },
+    {
+      "id": "spread",
+      "goal": "实际完成各区推匀",
+      "required": true,
+      "depends_on": [
+        "set-down"
+      ],
+      "audio_intents": [
+        "推开方法",
+        "肤感"
+      ],
+      "entry_state": "双手空出且膏点可见",
+      "action_options": [
+        "action-20261108-toneup-generated-spread"
+      ],
+      "exit_state": "膏痕逐渐变薄，形成目标产品允许的妆效",
+      "carry_forward": [
+        "保持产品承托与开合状态可追溯",
+        "保持已完成区域的妆效与肤质"
+      ],
+      "acceptance": [
+        "每区接触后逐渐推薄，不能在遮挡后瞬变；本片该项待核"
+      ]
+    },
+    {
+      "id": "show-finish",
+      "goal": "离手近镜展示使用结果",
+      "required": true,
+      "depends_on": [
+        "spread"
+      ],
+      "audio_intents": [
+        "妆效",
+        "肤感"
+      ],
+      "entry_state": "实际已推匀",
+      "action_options": [
+        "action-20261108-toneup-generated-lean-turn"
+      ],
+      "exit_state": "近镜转脸并回正展示",
+      "carry_forward": [
+        "保持产品承托与开合状态可追溯",
+        "保持已完成区域的妆效与肤质"
+      ],
+      "acceptance": [
+        "转脸、前倾后仍保持真实肤质和已涂妆效；不靠曝光制造效果"
+      ]
+    },
+    {
+      "id": "unseen-closure",
+      "goal": "补全可核查的包装闭合衔接",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [],
+      "entry_state": "罐与盖可接触",
+      "action_options": [],
+      "exit_state": "闭盖状态有可靠来源",
+      "carry_forward": [
+        "保持产品承托与开合状态可追溯"
+      ],
+      "acceptance": [
+        "原片该段位于画面下缘，未见完整操作；改编中若需闭盖收尾须显式满足"
+      ]
+    },
+    {
+      "id": "close",
+      "goal": "人脸与产品同框收尾",
+      "required": true,
+      "depends_on": [
+        "show-finish"
+      ],
+      "audio_intents": [
+        "推荐",
+        "购买引导"
+      ],
+      "entry_state": "产品已闭盖且演示完成；闭合须由可核查前序或首帧满足",
+      "action_options": [
+        "action-20261108-toneup-generated-closed-hold"
+      ],
+      "exit_state": "产品持稳，使用后的面部状态延续",
+      "carry_forward": [
+        "保持产品承托与开合状态可追溯",
+        "保持已完成区域的妆效与肤质"
+      ],
+      "acceptance": [
+        "产品不挡脸，膏点不回现，合盖过程不能凭空省略"
+      ]
+    }
+  ],
+  "acceptance_status": "pending_spread_and_closure_continuity",
+  "source_scope": "observed_complete_route_with_partially_obscured_operation"
+}

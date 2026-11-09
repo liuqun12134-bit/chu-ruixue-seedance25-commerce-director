@@ -3,7 +3,7 @@
   "skill_name": "chu-ruixue-seedance25-commerce-director",
   "skill_version": "2.1.0",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-08T10:16:53.344530+00:00",
+  "created_at": "2026-11-09T02:19:49.203778+00:00",
   "summary": {
     "demo_records": 26,
     "demo_units": 81,
@@ -11,14 +11,14 @@
     "performance_sources": 29,
     "ready_mappings": 0,
     "pending_mappings": 33,
-    "product_records": 4,
-    "script_records": 3,
-    "action_records": 81,
+    "product_records": 5,
+    "script_records": 4,
+    "action_records": 87,
     "failure_records": 0,
-    "files": 634,
-    "bytes": 1009359275,
-    "videos": 61,
-    "images": 241
+    "files": 653,
+    "bytes": 1052292750,
+    "videos": 62,
+    "images": 248
   },
   "files": [
     {
@@ -302,6 +302,36 @@
       "sha256": "67a713aca3fe508b5402343057be63c44f04f24e1f4a382fa378e7783f48b415"
     },
     {
+      "path": "action-library/entries/action-20261108-toneup-generated-closed-hold/record.json",
+      "size": 3811,
+      "sha256": "d9bcdecf5e8ff5a8943382c2f4b6b28249c036e2ba5c8a63308e9abb43bcf82e"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-generated-lean-turn/record.json",
+      "size": 3919,
+      "sha256": "08b89e515b2e30ffb7874e8fb1b8f2499294bdd4289445ec00bcca17058849cf"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-generated-open-show/record.json",
+      "size": 3769,
+      "sha256": "1399295541778c93d7df80707025d166e2f5f4f1fcd20b96938bf2cdcf83c4ae"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-generated-sample-dot/record.json",
+      "size": 3843,
+      "sha256": "54e6c7c1f594ca375b8ecce53d3a54becff96ffa69f68a09301fa61f466dee66"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-generated-set-down/record.json",
+      "size": 3781,
+      "sha256": "40950985e0616244a487fe594bb9528bab2c452dc4840bd4b9317884667ddaed"
+    },
+    {
+      "path": "action-library/entries/action-20261108-toneup-generated-spread/record.json",
+      "size": 3932,
+      "sha256": "7bce6172a9417652f239c73dd24c77f7ac8517bae7024c4ba0d3147330e4f221"
+    },
+    {
       "path": "action-library/entries/action-20261108-toneup-handback-category-cleanup/record.json",
       "size": 3911,
       "sha256": "317352da7ae97a825a336b47609849be713dedb0ffd8f61bdf95539fd57b52dd"
@@ -428,8 +458,8 @@
     },
     {
       "path": "action-library/index.json",
-      "size": 337660,
-      "sha256": "99fae1767736d800fc1382091d286a43f5ffdf3cdc55bcb5f32200bcee334a06"
+      "size": 363201,
+      "sha256": "d5ee13b9b01caeced729ee68146b311ea7dde826521fe1717c3ad07849743004"
     },
     {
       "path": "agents/openai.yaml",
@@ -1958,8 +1988,8 @@
     },
     {
       "path": "library-review.html",
-      "size": 17817,
-      "sha256": "3d382773d978e7cd99900b5ac6c0b224f49a2c856cf2cea4b9854bee5be5f099"
+      "size": 19311,
+      "sha256": "fdccf7683c2ecf15b1755ff6fb89cbb4dafedf6c37a59c625e17eba8c4f49915"
     },
     {
       "path": "performance-library/entries/perf-crx-20261107-01-open-close/history/record-v1-20261107.json",
@@ -2992,9 +3022,24 @@
       "sha256": "f678bbbd3b5068386b97bea7c376d7774788e91503771e606f0f056c45651034"
     },
     {
+      "path": "product-library/entries/product-zuzu-boseyin-tone-up-50g/assets/product-reference.png",
+      "size": 1739210,
+      "sha256": "2206b6a9976efd32a5d5eadc3d620789f298821eaa27b017c253a35bd9c428a4"
+    },
+    {
+      "path": "product-library/entries/product-zuzu-boseyin-tone-up-50g/assets/user-interview.json",
+      "size": 1095,
+      "sha256": "4d229a6619cb76b71dd88ee45ed2722b66655a9f6188ba1e4a0d4834a6d4d861"
+    },
+    {
+      "path": "product-library/entries/product-zuzu-boseyin-tone-up-50g/record.json",
+      "size": 10444,
+      "sha256": "bc5c183d8e11917d56e0ff7593e54e866be381a8f2e3fcf5273ba9c68d7692bf"
+    },
+    {
       "path": "product-library/index.json",
-      "size": 11432,
-      "sha256": "8367a1c46a264c97a36b7ccb200987870e37a34034c545627a55929c6ea8e6f6"
+      "size": 23102,
+      "sha256": "a952ec0fccb11785f5e7b44e8a7ed16fac315e5a2a2cc08f35d7c1f1696dbde1"
     },
     {
       "path": "references/audio.md",
@@ -3067,6 +3112,11 @@
       "sha256": "93b266d786555cac3e7349ef5e6d0c59f95ffcafe37e1c40f5096be6d88502cd"
     },
     {
+      "path": "script-library/entries/script-20261108-toneup-generated-full-face/record.json",
+      "size": 8063,
+      "sha256": "ed29cb79ceb231c9a981ff6c3fba259742bc3e406ed7a0d742cd84d4fff436eb"
+    },
+    {
       "path": "script-library/entries/script-ginseng-oil-show-use/record.json",
       "size": 3699,
       "sha256": "0e9bf4b0a69e8ef826ffe74cf3bf193bdeb4cee7bd4973520d8fa35fb45fcf9f"
@@ -3083,8 +3133,53 @@
     },
     {
       "path": "script-library/index.json",
-      "size": 12706,
-      "sha256": "524d66d6280bcd00b69306691575a55f62bc7dc90462fd7cef2687c73781220e"
+      "size": 21549,
+      "sha256": "b47f960e559e263d835ef012238c5de4603bcab7e80cd71b083a7fc61dc126bb"
+    },
+    {
+      "path": "script-library/sources/toneup-generated-20261108-a9859ced/asr-unreviewed.json",
+      "size": 16240,
+      "sha256": "81d3458ad0933f39b877ba3e633a0c3e4b52ecb2bc0266bd20d6a7c4dbbc57c3"
+    },
+    {
+      "path": "script-library/sources/toneup-generated-20261108-a9859ced/contact-sheet.jpg",
+      "size": 154189,
+      "sha256": "fd28ecafdd18723617219f515e6d2814cc128119ca9333634feb597fc137a85a"
+    },
+    {
+      "path": "script-library/sources/toneup-generated-20261108-a9859ced/detail-1.jpg",
+      "size": 347226,
+      "sha256": "70343d11ae8d6c514f2a41d0a78aa943a16fee86fedc0f2e1953ced6d5cbd25a"
+    },
+    {
+      "path": "script-library/sources/toneup-generated-20261108-a9859ced/detail-2.jpg",
+      "size": 271102,
+      "sha256": "3c9fc6109edba7a5129f98da9d98a8bd12e10c20a476e5f0c488ee62c25b694f"
+    },
+    {
+      "path": "script-library/sources/toneup-generated-20261108-a9859ced/detail-3.jpg",
+      "size": 244163,
+      "sha256": "d227ba9e1ae06d745af3b09baf41885c9d614e7c2043ee644e3dea990d0ae932"
+    },
+    {
+      "path": "script-library/sources/toneup-generated-20261108-a9859ced/detail-4.jpg",
+      "size": 219767,
+      "sha256": "940e646d9982740a43aa8e0acf810b27077e5be86f1fd82ec098ff1d240995a8"
+    },
+    {
+      "path": "script-library/sources/toneup-generated-20261108-a9859ced/detail-5.jpg",
+      "size": 204676,
+      "sha256": "03b642179bc545dc365e0e6c0cc316e7bd4ce0a400fd277bedd3e3902093fffb"
+    },
+    {
+      "path": "script-library/sources/toneup-generated-20261108-a9859ced/review.json",
+      "size": 4865,
+      "sha256": "c5535fc1d228faa2646ec615f64b17e59bb99a94b0a60f2c29aa6b0277d01b3b"
+    },
+    {
+      "path": "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+      "size": 39641832,
+      "sha256": "a9859cedabf83ce929ed622f06ab4b7ec86a1d9d34a47945d4d8438084e62406"
     },
     {
       "path": "script-library/sources/user-design-20261108.txt",

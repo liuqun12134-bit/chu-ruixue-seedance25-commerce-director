@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "source_id": "toneup-generated-20261108-a9859ced",
+  "source_file": "script-library/sources/toneup-generated-20261108-a9859ced/source.mp4",
+  "original_basename": "FishAudio_video_seedance-2.5_一_素材映射_图_1_2026-11-08T11_46_26_0.mp4",
+  "sha256": "a9859cedabf83ce929ed622f06ab4b7ec86a1d9d34a47945d4d8438084e62406",
+  "bytes": 39641832,
+  "duration_seconds": 29.056,
+  "video": {
+    "width": 720,
+    "height": 1280,
+    "fps": 24
+  },
+  "source_category": {
+    "value": "素颜霜",
+    "basis": "user_confirmed"
+  },
+  "source_type": "ai_generated_reference_inferred_from_filename",
+  "review_method": "full-duration sampled frame review at 4fps plus 1fps overview; local ASR unreviewed",
+  "observations": [
+    {
+      "time": [
+        0,
+        5.5
+      ],
+      "observation": "闭盖持罐开场，约1.25—2.75秒旋开外盖；盖移到桌面左侧，罐口倾向镜头展示乳白内容物。未观察到独立移除内片。",
+      "assessment": "开盖与展示演法可参考；不能凭白色平面判定内片。"
+    },
+    {
+      "time": [
+        5.5,
+        11.75
+      ],
+      "observation": "单手持开罐，另一手指腹接触膏面并抬手，依次在两颊、额头和下巴留下白色膏点。",
+      "assessment": "可参考多点分配流程；取出重量、每次指腹余量未可靠确认。"
+    },
+    {
+      "time": [
+        11.75,
+        12.75
+      ],
+      "observation": "开罐落到前方桌面，外盖仍在左侧，双手抬向面部。",
+      "assessment": "放稳后腾出双手的衔接可参考。"
+    },
+    {
+      "time": [
+        12.75,
+        17
+      ],
+      "observation": "双手在面颊、鼻侧、下巴与额头接触推抹；约13—15秒仍见明显白膏点，约15.5—16.75秒遮挡、往返推抹后膏点大幅减少，约17秒离手。",
+      "assessment": "操作路线可借鉴，但消退过程偏集中，逐区连续推薄是否自然待核；不当作合格涂抹范例。"
+    },
+    {
+      "time": [
+        17,
+        22.75
+      ],
+      "observation": "离手后前倾靠近镜头，分别转向两侧再回正；可见面部整体较均匀明亮，所查帧没有厚白膏点重新出现。",
+      "assessment": "近镜转脸展示方式可参考；前倾与光线影响使精确提亮幅度和局部妆效持久性无法认证。"
+    },
+    {
+      "time": [
+        22.75,
+        24.25
+      ],
+      "observation": "身体后撤，双手与产品下移到画面下缘；约24.25秒再次举起时罐已闭盖。",
+      "assessment": "合盖动作未完整呈现，不能提炼为已观察到的旋紧外盖动作。"
+    },
+    {
+      "time": [
+        24.25,
+        29.056
+      ],
+      "observation": "闭盖产品举至脸侧，面向镜头口播收尾；所查帧保持无厚白膏点状态。",
+      "assessment": "可参考闭盖后举品位置与收尾；未验证包装微字、嘴形或精确妆效保持。"
+    }
+  ],
+  "limitations": [
+    "文件名标示 FishAudio / Seedance 2.5，按 AI 生成参考处理；未核验原始提交稿、任务ID或模型执行参数。",
+    "本次为全时段每秒4帧抽帧检查（116帧），另有每秒1帧概览；不是实时播放、逐原始帧检查或听审。时间为约值，边界精度约0.25秒。",
+    "本地 faster-whisper-small 转写未经听审，台词、口型与语气对应均未认证；不进入真人表现库。",
+    "用户确认来源品类为素颜霜；具体品牌/型号未单独确认，包装相似不用于自动绑定产品。",
+    "生成片的肤色和膏体变化只能作画面观察，不能证明真实产品功效、准确用量或真人习惯。",
+    "tested只表示已有该生成参考文件，不表示当前提炼脚本重新生成过或整体验收通过。"
+  ],
+  "duplicate_check": {
+    "exact_hash_match": false,
+    "method": "searched recorded hash/name and hashed existing same-size mp4 files in this skill",
+    "transcode_or_reedit_match": "not_exhaustively_checked"
+  },
+  "library_decisions": {
+    "product": "existing product facts unchanged; category reference only",
+    "script": "one complete observed route stored as draft with unresolved continuity checks",
+    "actions": "six records; five ready as scoped reference methods, spreading draft",
+    "performance": "excluded: AI generated material is not evidence of real person habits"
+  },
+  "overall_acceptance": "not_certified",
+  "future_acceptance": [
+    "检查每个膏点是否随实际接触逐渐推薄，而不是遮挡后重置",
+    "清楚安排合盖动作或明确以已闭盖状态开始收尾",
+    "在稳定光线和角度下验证已涂区域妆效保持，禁止把参考片亮度当成功效证明"
+  ]
+}
