@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v24",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜指瓶底与捏指讲解、近脸定格",
+  "summary": "捏指、指示与产品距离变化形成讲解层次。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "人参油",
+    "浅灰蓝上衣衣帽间",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "手势不能直接解释为具体用量",
+    "无使用效果",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "持瓶并指示瓶底/内容物",
+    "movement": "持瓶并指示瓶底/内容物 → 双手指尖捏合示意后收回 → 瓶留脸侧，张掌和捏指交替讲解 → 瓶向前展示再靠脸侧停留",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "瓶向前展示再靠脸侧停留",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v24",
+      "start_seconds": 0,
+      "end_seconds": 4,
+      "context": "浅灰蓝上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "持瓶并指示瓶底/内容物",
+      "utterance": "你眼乾啊 上面大概平常用這個人身油就行了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v24",
+      "start_seconds": 4,
+      "end_seconds": 8,
+      "context": "浅灰蓝上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "双手指尖捏合示意后收回",
+      "utterance": "上面大概平常用這個人身油就行了 嗓啞了吃個糖 這三日沒有的",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v24",
+      "start_seconds": 8,
+      "end_seconds": 22,
+      "context": "浅灰蓝上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "瓶留脸侧，张掌和捏指交替讲解",
+      "utterance": "這三日沒有的 你可以搶的粉底液你會發現你的粉底液超刺花超潤 然後呢如果你 搶的面膜裡面你會發現你的面膜全都舊過了 平常買個10塊的10代塊面膜不滋潤你說用的幹嘛 眼睛下面乾味細微的 平常買個眼油的話大幾百塊錢",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v24",
+      "start_seconds": 22,
+      "end_seconds": 33.785011,
+      "context": "浅灰蓝上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "瓶向前展示再靠脸侧停留",
+      "utterance": "平常買個眼油的話大幾百塊錢 我這個油全裏露過它沒問題 而且裏邊真有一個小人身 啊 他们家真正食料好玩意 有需要你们点击上自己楼",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v24/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

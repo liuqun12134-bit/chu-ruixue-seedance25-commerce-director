@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-20261109-ginseng-daily-v50",
+  "title": "手机透光展示后两瓶比较",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "真人原片全时段抽帧及未听审ASR提炼；完整保留可见原始流程，不补造缺失环节。",
+    "source_refs": [
+      "performance-library/sources/20261109-ginseng-daily-v50/source.mp4",
+      "performance-library/sources/20261109-ginseng-daily-v50/review.json"
+    ],
+    "limitations": [
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+      "蓝瓶身份和属性需核实",
+      "两瓶不互相借用功效"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确要求整文件夹分析入库。"
+    }
+  ],
+  "modes": [
+    "talk"
+  ],
+  "categories": [
+    "人参油"
+  ],
+  "product_ids": [],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "goal": "透光结构、正常外观、两产品比较三层次",
+  "adaptation_notes": "本条是完整原片路线档案，非逐字核准台词。哪款更润的问题 → 手机打光看参 → 粉丝问瓶内参的互动 → 搭配面霜面膜话题 → 展示另一清爽款并比较 → 干燥类比收尾。展示/讲解段可跨句、可按音频换序；depends_on只约束物理前提，不把原始顺序当唯一模板。多产品和面膜段须先确认适配；时长不足拆段，不能等比压缩。",
+  "source_sequence": [
+    "0–12秒：手机底光照瓶转动",
+    "12–24秒：撤光，正常光持瓶近脸",
+    "24–32秒：另举蓝色渐变瓶，与人参油交替或同框",
+    "32–41.448秒：放瓶后竖指讲解"
+  ],
+  "initial_state_satisfies": [
+    "若首帧已完成取用、涂抹或贴膜，可承接已存在状态；不得重复取用或让膜布重生。"
+  ],
+  "maintained_states": [
+    "已实际接触区域的表面状态保持；瓶盖和滴管位置连续；膜布若仍在脸上，回到持品时继续保留。"
+  ],
+  "effect_required": false,
+  "effect_stage_ids": [],
+  "stages": [
+    {
+      "id": "stage-01",
+      "goal": "手机底光照瓶转动",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：哪款更润的问题 → 手机打光看参 → 粉丝问瓶内参的互动 → 搭配面霜面膜话题 → 展示另一清爽款并比较 → 干燥类比收尾"
+      ],
+      "entry_state": "瓶盖已旋紧，一手持瓶、一手持亮灯手机；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-phone-light"
+      ],
+      "exit_state": "瓶内根状物被透光展示；撤光后恢复正常外观",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的手机底光照瓶转动相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        0,
+        12
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-phone-light"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-02",
+      "goal": "撤光，正常光持瓶近脸",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：哪款更润的问题 → 手机打光看参 → 粉丝问瓶内参的互动 → 搭配面霜面膜话题 → 展示另一清爽款并比较 → 干燥类比收尾"
+      ],
+      "entry_state": "闭盖瓶可稳握，桌面可承托；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "exit_state": "瓶直立于桌面，双手可继续动作。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的撤光，正常光持瓶近脸相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        12,
+        24
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-03",
+      "goal": "另举蓝色渐变瓶，与人参油交替或同框",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：哪款更润的问题 → 手机打光看参 → 粉丝问瓶内参的互动 → 搭配面霜面膜话题 → 展示另一清爽款并比较 → 干燥类比收尾"
+      ],
+      "entry_state": "两款产品身份已区分且盖好；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-switch-products"
+      ],
+      "exit_state": "两瓶位置清楚，观众能区分对象",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的另举蓝色渐变瓶，与人参油交替或同框相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        24,
+        32
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-switch-products"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-04",
+      "goal": "放瓶后竖指讲解",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：哪款更润的问题 → 手机打光看参 → 粉丝问瓶内参的互动 → 搭配面霜面膜话题 → 展示另一清爽款并比较 → 干燥类比收尾"
+      ],
+      "entry_state": "产品稳定在桌面，空手可动；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "exit_state": "产品仍原位，完成完整语义段。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的放瓶后竖指讲解相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        32,
+        41.448
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    }
+  ],
+  "source_key": "v50",
+  "variant_keys": [],
+  "scene": "浅蓝上衣衣帽间",
+  "semantic_outline": {
+    "title": "透光看参与两款区分",
+    "outline": "哪款更润的问题 → 手机打光看参 → 粉丝问瓶内参的互动 → 搭配面霜面膜话题 → 展示另一清爽款并比较 → 干燥类比收尾",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "draft_reason": "台词与声音语气未听审；剂量/搭配/局部省略须按目标产品和具体选段核对。",
+  "family_id": "20261109-ginseng-daily-v50"
+}

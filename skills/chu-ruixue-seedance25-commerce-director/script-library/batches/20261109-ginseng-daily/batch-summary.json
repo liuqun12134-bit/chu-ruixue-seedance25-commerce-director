@@ -1,0 +1,18 @@
+{
+  "input_files": 55,
+  "byte_unique": 54,
+  "previous_ai_unique": 2,
+  "exact_duplicate_aliases": 1,
+  "new_real_files": 52,
+  "near_duplicate_or_truncated_variants": 9,
+  "script_routes": 43,
+  "new_actions": 23,
+  "updated_actions": 6,
+  "new_ready_actions": 17,
+  "new_draft_actions": 6,
+  "new_pending_performances": 43,
+  "corrupt_sources": [
+    "v39"
+  ],
+  "product_rules_changed": 0
+}

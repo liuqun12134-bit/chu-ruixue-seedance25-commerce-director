@@ -1,0 +1,79 @@
+{
+  "source_key": "v02",
+  "original_name": "6.mp4",
+  "sha256": "f86ddfec696511bbe27f3bcaf292ef46c957d2aad36fc614294376f6064c8ec6",
+  "declared_duration_seconds": 79.922993,
+  "decoded_audio_seconds": 79.94775,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v02",
+  "family_id": "20261109-ginseng-daily-v02",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 40,
+    "sheets": [
+      "sheet-1.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [],
+  "original_timeline": [
+    [
+      0,
+      4,
+      "近镜托瓶展示根状物"
+    ],
+    [
+      4,
+      20,
+      "放瓶讲解、双掌贴颊并操作台面物品"
+    ],
+    [
+      20,
+      28,
+      "滴管指向掌心，收工具并搓掌"
+    ],
+    [
+      28,
+      34,
+      "双手上脸推抹"
+    ],
+    [
+      34,
+      44,
+      "低头操作、重新举瓶"
+    ],
+    [
+      44,
+      68,
+      "额头鼻侧两颊轮流推抹，双掌沿下颌/颈侧停留"
+    ],
+    [
+      68,
+      79.922993,
+      "补充讲解，举白色瓶和人参油同框"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "日常干燥场景示范",
+    "outline": "展示参 → 生活干燥困扰与用油类比 → 边操作边聊天 → 搭配另一瓶收尾；多段识别失真",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "前段另用产品及具体取油量待核",
+    "末段配套白瓶身份未知，不能移作本品标准用法"
+  ]
+}

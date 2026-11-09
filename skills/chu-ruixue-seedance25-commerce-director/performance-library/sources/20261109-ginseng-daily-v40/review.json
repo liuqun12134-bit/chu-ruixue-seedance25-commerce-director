@@ -1,0 +1,103 @@
+{
+  "source_key": "v40",
+  "original_name": "人参油 (50).mp4",
+  "sha256": "442fc3bc7505b1644d128917cc1c0da17a6439e97786f2408ca0db94cf217dc1",
+  "declared_duration_seconds": 147.377007,
+  "decoded_audio_seconds": 147.3785,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v40",
+  "family_id": "20261109-ginseng-daily-v40",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 74,
+    "sheets": [
+      "sheet-1.jpg",
+      "sheet-2.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [
+    {
+      "path": "detail-50.jpg",
+      "start_seconds": 50,
+      "end_seconds": 58,
+      "fps": 4
+    }
+  ],
+  "original_timeline": [
+    [
+      0,
+      8,
+      "举瓶、滴管朝掌心、搓掌"
+    ],
+    [
+      8,
+      22,
+      "上脸推抹、间隔举瓶"
+    ],
+    [
+      22,
+      34,
+      "打开蓝白面膜袋"
+    ],
+    [
+      34,
+      50,
+      "滴管朝袋口，回瓶后重复"
+    ],
+    [
+      50,
+      68,
+      "揉拍袋外并取膜"
+    ],
+    [
+      68,
+      88,
+      "展开面膜并贴上"
+    ],
+    [
+      88,
+      124,
+      "沿额头鼻翼面颊下巴整理膜布"
+    ],
+    [
+      124,
+      134,
+      "手掌和颈部手势"
+    ],
+    [
+      134,
+      144,
+      "保留面膜，举瓶近镜"
+    ],
+    [
+      144,
+      147.377,
+      "伸手移镜头，末尾突变角度"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "出门前用油贴膜",
+    "outline": "打球前护理 → 用人参油打底 → 打开面膜加油 → 取膜贴合 → 干皮用油和局部话题 → 推荐后出门；多段识别不可靠",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "混用适配未确认",
+    "省略咬袋开包动作，不推荐复用",
+    "剪辑时长不是敷膜时长"
+  ]
+}

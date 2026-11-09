@@ -1,0 +1,92 @@
+{
+  "source_key": "v48",
+  "original_name": "人参油 (7).mp4",
+  "sha256": "23605a9338e41225613f4f980630a50149c893f46f1a00315b2141d024c2545b",
+  "declared_duration_seconds": 97.5,
+  "decoded_audio_seconds": 97.4555625,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v48",
+  "family_id": "20261109-ginseng-daily-v14",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 49,
+    "sheets": [
+      "sheet-1.jpg",
+      "sheet-2.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [
+    {
+      "path": "detail-40.jpg",
+      "start_seconds": 40,
+      "end_seconds": 48,
+      "fps": 4
+    }
+  ],
+  "original_timeline": [
+    [
+      0,
+      8,
+      "举瓶、掌心取用、搓开"
+    ],
+    [
+      8,
+      18,
+      "双手全脸推抹"
+    ],
+    [
+      18,
+      32,
+      "开袋准备并继续触脸"
+    ],
+    [
+      32,
+      40,
+      "展开面膜贴到脸上"
+    ],
+    [
+      40,
+      48,
+      "揭去外层承托片并整理"
+    ],
+    [
+      48,
+      74,
+      "沿下巴鼻侧面颊按压整理"
+    ],
+    [
+      74,
+      84,
+      "取纸巾擦手"
+    ],
+    [
+      84,
+      97.5,
+      "继续局部触脸、纸巾手势，瓶回桌面"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "油打底后贴膜",
+    "outline": "掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "后段膜布去留不够清楚",
+    "不按剪辑长度制定敷膜时间"
+  ]
+}

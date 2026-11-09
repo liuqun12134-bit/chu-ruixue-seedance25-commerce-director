@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-20261109-ginseng-xiaoai-route-1",
+  "title": "人参油：浴后毛巾引入、单颊到全脸使用（AI参考）",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。",
+    "source_refs": [
+      "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+      "script-library/sources/20261109-ginseng-xiaoai-1/review.json"
+    ],
+    "limitations": [
+      "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+      "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+      "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+      "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+      "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+      "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "source_generation_type": "ai_generated_user_confirmed",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "categories": [
+    "人参油",
+    "面部护理油"
+  ],
+  "product_ids": [],
+  "goal": "复用边讲解边推进使用的完整成片结构，保留产品展示、实际接触及离手展示。",
+  "adaptation_notes": "先借用话术功能与动作衔接，原台词是未听审ASR。价格赠品、缺油解释及紧致等宣称不成为产品事实；按实际音频、产品和活动重排。小爱2匹配剪辑可作后期参考，单镜头生成时需改为同一服装机位并重新验证。",
+  "source_sequence": [
+    "lift",
+    "towel",
+    "point",
+    "talk-gesture",
+    "turn-bottle",
+    "open-dropper",
+    "cheek",
+    "palm-dose",
+    "rub",
+    "face",
+    "show-palm"
+  ],
+  "initial_state_satisfies": [
+    "首帧已闭盖持品可从举瓶承接；首帧已开瓶可跳过开盖。",
+    "首帧已确认油在掌心可直接搓开；已完成涂抹可直接展示，不重复加油。",
+    "原片首帧已有面部高光，不能将它记为本轮新增效果。"
+  ],
+  "maintained_states": [
+    "开瓶、滴管、瓶盖和落桌位置可追踪，双手操作前完成工具安置。",
+    "使用后保留真实肤质与已形成的光泽状态，不靠曝光、五官变化或换场制造效果。",
+    "小爱2跨服装/机位的效果连续性无证据，改编须另验。"
+  ],
+  "effect_required": true,
+  "effect_stage_ids": [
+    "show-palm"
+  ],
+  "stages": [
+    {
+      "id": "lift",
+      "goal": "闭盖举瓶近镜并落桌",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优惠开场"
+      ],
+      "entry_state": "闭盖瓶可稳握，桌面可承托",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "exit_state": "瓶直立于桌面，双手可继续动作。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "让观众快速识别产品。",
+        "不遮住人脸和瓶内主体",
+        "不用悬空松手代替落桌"
+      ]
+    },
+    {
+      "id": "towel",
+      "goal": "毛巾轻触面部建立洗护场景",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "日常护理情境"
+      ],
+      "entry_state": "毛巾在手边，产品放稳",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-towel"
+      ],
+      "exit_state": "脸重新露出，毛巾退出主要展示区域。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "营造日常护理场景；不证明已完成清洁。",
+        "非必需环节",
+        "不把轻触解释为标准用法或吸干全部水分"
+      ]
+    },
+    {
+      "id": "point",
+      "goal": "前倾指示鼻侧与面颊局部",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "局部肌肤指示"
+      ],
+      "entry_state": "未取油或局部状态已明确，手指可见",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-point"
+      ],
+      "exit_state": "局部皮肤不再被手指遮挡。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "使讨论部位具体可见；这是用前指示，不是涂后验证。",
+        "不声称指示已证明细纹减少",
+        "不改变五官或提亮未涂区域"
+      ]
+    },
+    {
+      "id": "talk-gesture",
+      "goal": "产品留桌的张掌竖指讲解",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "个人推荐",
+        "季节需求"
+      ],
+      "entry_state": "产品稳定在桌面，空手可动",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "exit_state": "产品仍原位，完成完整语义段。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "给讲解留空间并维持交流感。",
+        "不是初瑞雪真人习惯",
+        "不按每个词机械比划"
+      ]
+    },
+    {
+      "id": "turn-bottle",
+      "goal": "近镜轻转透明瓶展示瓶内根状物",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "问题讲解",
+        "产品介绍"
+      ],
+      "entry_state": "瓶已闭合，根状内容物可见，手指不挡主体",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-turn-bottle"
+      ],
+      "exit_state": "瓶保持闭合、可控制，内容物可见。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "展示瓶内内容物；不据此核实人参种类、质量或油液本色。",
+        "不强制大幅摇晃",
+        "其他不含根状物产品不能虚构人参",
+        "不以瓶内金黄色直接推定滴管内液体颜色"
+      ]
+    },
+    {
+      "id": "open-dropper",
+      "goal": "扶稳瓶身旋开并提起滴管展示",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "用油解释",
+        "质地介绍"
+      ],
+      "entry_state": "瓶身可由桌面或另一只手稳定承托",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-open-dropper"
+      ],
+      "exit_state": "开瓶和滴管分离，瓶仍有承托。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "看清取用工具和瓶口；不证明滴数。",
+        "不凭空变盖或断管",
+        "液滴体积与油色需目标产品依据"
+      ]
+    },
+    {
+      "id": "cheek",
+      "goal": "持滴管旁侧的单颊推抹（取油衔接待核）",
+      "required": false,
+      "depends_on": [
+        "open-dropper"
+      ],
+      "audio_intents": [
+        "肤感描述"
+      ],
+      "entry_state": "改编时必须已确认油已到指腹或面颊；原片此项待核；开瓶安全承托",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-cheek"
+      ],
+      "exit_state": "单侧脸颊完成可见接触，滴管仍可追踪。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "仅借用单手推抹路线；原片落油链条不足，不当完整滴油上脸示范。",
+        "不得把滴管悬停等同落油",
+        "不能省略取油原因",
+        "不得把近眼操作自动当适宜用法"
+      ]
+    },
+    {
+      "id": "palm-dose",
+      "goal": "滴管对准掌心并回瓶（落滴与旋紧待核）",
+      "required": true,
+      "depends_on": [
+        "open-dropper"
+      ],
+      "audio_intents": [
+        "肤感描述"
+      ],
+      "entry_state": "滴管已取出，另一手掌心朝上，瓶可稳定承托",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-palm-dose"
+      ],
+      "exit_state": "原片可见顶盖就位；实际滴数、落液与旋紧尚未认证。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "提供取油到双手操作的衔接意图，完整执行需补清。",
+        "不凭空给出几滴用量",
+        "不把盖就位当旋紧已经验证",
+        "双手搓开前须确认实际有油"
+      ]
+    },
+    {
+      "id": "rub",
+      "goal": "双掌相贴往返搓开",
+      "required": true,
+      "depends_on": [
+        "palm-dose"
+      ],
+      "audio_intents": [
+        "使用感与结果描述"
+      ],
+      "entry_state": "改编时掌心已有依据充分的油量，滴管已安全回瓶",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-rub"
+      ],
+      "exit_state": "双手空出、掌面可用于后续接触。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "展示油在掌间分布的动作，不推断温度或吸收。",
+        "未取油不能空搓假装完成使用",
+        "不为对词把搓掌拆碎"
+      ]
+    },
+    {
+      "id": "face",
+      "goal": "双手额头鼻侧两颊分区推抹按压",
+      "required": true,
+      "depends_on": [
+        "rub"
+      ],
+      "audio_intents": [
+        "需求回扣",
+        "推荐"
+      ],
+      "entry_state": "双掌已有油且产品安全放置；第二条区间从剪辑后的片段开始",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-face"
+      ],
+      "exit_state": "面部无遮挡，双手离脸，产品仍在桌面。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "保存分区路线和操作节奏，不证明即时紧致或去皱。",
+        "眼周适用范围按真实产品规则",
+        "不可把小爱2换装剪辑当连续使用",
+        "不能以全脸换肤替代接触过程"
+      ]
+    },
+    {
+      "id": "show-palm",
+      "goal": "离手露出面部并近镜亮掌收尾",
+      "required": true,
+      "depends_on": [
+        "face"
+      ],
+      "audio_intents": [
+        "推荐",
+        "老粉复购"
+      ],
+      "entry_state": "已完成本轮示范，双手可离脸",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-show-palm"
+      ],
+      "exit_state": "面部与掌心可见，产品留在桌面。",
+      "carry_forward": [
+        "产品、工具及皮肤状态连续可追踪"
+      ],
+      "acceptance": [
+        "给观众观察空档；亮掌只说明展示了掌面，不能证明不油腻。",
+        "反光不等于吸收速度",
+        "保持首帧真实肤质和已有高光，不做前后伪对比"
+      ]
+    }
+  ],
+  "verbal_structure": [
+    "优惠/限时开场",
+    "季节需求与个人推荐",
+    "干燥等问题与用油解释",
+    "举瓶与滴管展示",
+    "肤感话术配合单颊/掌心操作",
+    "掌间搓开与面部使用",
+    "人群回扣与老粉复购收尾"
+  ],
+  "verbal_evidence_ref": "script-library/sources/20261109-ginseng-xiaoai-1/asr-unreviewed.json",
+  "verbal_status": "semantic_outline_from_unreviewed_asr_and_visible_subtitles",
+  "acceptance_status": "draft_pending_oil_transfer_and_audio_review",
+  "source_scope": "complete_observed_route_with_uncertain_transfer",
+  "reorderable_stages": [
+    "lift",
+    "point",
+    "talk-gesture",
+    "turn-bottle",
+    "towel"
+  ],
+  "causal_constraints": [
+    "真实取油先于相应部位推抹；掌心已有油先于搓掌；使用先于使用后展示。",
+    "单颊试用与掌心全脸流程为两种可选展开，时长紧张可择一；保留核心展示结果。",
+    "语义段不按关键词逐秒触发，一个动作可跨相邻句。"
+  ]
+}

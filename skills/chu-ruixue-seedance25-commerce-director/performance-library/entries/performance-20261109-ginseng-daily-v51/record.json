@@ -1,0 +1,165 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v51",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜直播透光、手部质地演示与多瓶讲解",
+  "summary": "瓶内展示到手部演示再回持品的长直播结构 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "黑西装红色直播背景",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "旁人台词动作须分开",
+    "多瓶促销内容不迁移为当前活动",
+    "手背浅色膏液与油混合，ASR提示粉底液，另一产品包装身份和混用适配未核实。",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "近镜举瓶转瓶",
+    "movement": "近镜举瓶转瓶 → 手机底光照瓶 → 开瓶、滴管朝掌心并搓抹 → 另一黑色泵头瓶朝手背取浅色膏液，随后举近手背推抹；不是已确认喷雾 → 纸巾擦手、回收工具 → 多瓶摆桌，转头互动和展示印刷卡 → 旁人举瓶讲解，初瑞雪转头或听 → 本人举指和持瓶讲解 → 旁人再次举瓶，本人桌前交流 → 本人举两瓶、手机底光再展示 → 持瓶互动收尾",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "持瓶互动收尾",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v51",
+      "start_seconds": 0,
+      "end_seconds": 16,
+      "context": "黑西装红色直播背景；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "近镜举瓶转瓶",
+      "utterance": "还有那个给他带一个我是我我我这个油来人真有 看到吗你们冒着个白不含了但含真不一样那个人生状态一下就来了还就是环节疲劳的啊 这个油你们带人生的就一个人生的咱们说多少钱一个人是网上说几百块钱得要吧",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v51",
+      "start_seconds": 16,
+      "end_seconds": 24,
+      "context": "黑西装红色直播背景；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "手机底光照瓶",
+      "utterance": "这个油你们带人生的就一个人生的咱们说多少钱一个人是网上说几百块钱得要吧 看不呢人身泡里边请问你看这个来火性满满哦看不见营养足足的平时你问我脸干",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v51",
+      "start_seconds": 24,
+      "end_seconds": 38,
+      "context": "黑西装红色直播背景；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "开瓶、滴管朝掌心并搓抹",
+      "utterance": "看不呢人身泡里边请问你看这个来火性满满哦看不见营养足足的平时你问我脸干 深圳肝,怎么办你们,你可以挑你的分底液 那分底液拿来,万物皆可调,你加上这一个油 眼睛下面干了细纹的,所有你们我都说了,给大家放过福利啊,江大云 油这如果你肝来,明白吗",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v51",
+      "start_seconds": 38,
+      "end_seconds": 50,
+      "context": "黑西装红色直播背景；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "另一黑色泵头瓶朝手背取浅色膏液，随后举近手背推抹；不是已确认喷雾",
+      "utterance": "什么叫肝皮的分底液,还有油皮的分底液 你们不能够拿一个暗好的吗 这个肝皮你们是不是都搓不开,揉不开 你如果平常有油呢,能懂吗 好用拿好用来回锅炸,回购",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v51",
+      "start_seconds": 50,
+      "end_seconds": 58,
+      "context": "黑西装红色直播背景；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "纸巾擦手、回收工具",
+      "utterance": "好用拿好用来回锅炸,回购 我看有多少姐妹想要,我快来给大家上下来,直接 这一瓶 我原来租租你们买个码罩的 一个罩我卖你108的话",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v51",
+      "start_seconds": 58,
+      "end_seconds": 108,
+      "context": "黑西装红色直播背景；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "多瓶摆桌，转头互动和展示印刷卡",
+      "utterance": "一个罩我卖你108的话 你们我给你卖一个 这个油收你130吧 没毛病吗 没毛病 那这是三支拼货你们手组 现货多少上多少 多一单不加 好吗 现货多少 好 现货一共有7000个 7000个 你这有这个链接 就卖了100万瓶了 其实不对 电波 电波卖的价格 99都卖了100万瓶了 记得吗 老百姓 看 我没有给你对着这支 总盲会对几个人 这么多人对几个人 总盲会没见过你 你进尺难 定不准 改台来八九块钱 到手三平 八九三分钱 再送一个人来 八九到四个人 什么点了吗 改价 七九四平上升 七九 什么 十年这是精华油 精华油三十毫升",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v51",
+      "start_seconds": 128,
+      "end_seconds": 148,
+      "context": "黑西装红色直播背景；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "本人举指和持瓶讲解",
+      "utterance": "我是拿我的租租的东西 再拉人气 以为我不是拿来卖的 我现在没有空卖租租 但是租租确实没有什么货了 所有买货的姐们都知道 我日常卖多少钱 所以我自己的铁板 知道七十九块钱 我给你们四个 我就是一分钟的肤利 那能比租租更更猛的 因为租租卖多少年的都知道多少钱 拿租租来破的话那才叫实力",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v51",
+      "start_seconds": 158,
+      "end_seconds": 170,
+      "context": "黑西装红色直播背景；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "本人举两瓶、手机底光再展示",
+      "utterance": "太给力了 黑了没有 第一个就是精华油 哇 全是活性油 我以后你们我再说一遍 美妆这一块我竟然没有空卖 但最近的话都需要了 因为昏过年了 来自己看了活性来 里边给大家每一个里面都加一颗人身",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v51",
+      "start_seconds": 170,
+      "end_seconds": 182.648,
+      "context": "黑西装红色直播背景；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "持瓶互动收尾",
+      "utterance": "里边给大家每一个里面都加一颗人身 最后 人生根 没有了 我就告诉你们 你们真的是拿不到货 你真的抢不到 因为准则多少钱 徐杰亚 我昨晚睡觉我没有看到我设计几个小时",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v51/sheet-1.jpg",
+      "sources/20261109-ginseng-daily-v51/sheet-2.jpg",
+      "sources/20261109-ginseng-daily-v51/sheet-3.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v52",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜灯座透瓶、手背混合膏液推抹与纸巾收尾",
+  "summary": "独立灯座底光与手背底妆搭配演示的组合；包装身份待核。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "白礼服珍珠项链直播",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "另一浅色膏液ASR提示粉底液，具体身份和混用适配未核实",
+    "手背光泽不能直接等同妆效、吸收或配方相容",
+    "背景其他人不计入本人证据",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "近镜举瓶",
+    "movement": "近镜举瓶 → 瓶悬在圆形灯座上方照亮 → 手背已有浅色膏液，开瓶并将滴管朝手背取油，推抹展示 → 再次提滴管朝手背，回瓶后举近并推开浅色混合物 → 拿纸巾擦手 → 关瓶转瓶近镜 → 灯座透瓶，撤手短暂展示 → 灯座与瓶举起放下轮换 → 放下工具，空手手势结束",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "放下工具，空手手势结束",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v52",
+      "start_seconds": 0,
+      "end_seconds": 8,
+      "context": "白礼服珍珠项链直播；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "近镜举瓶",
+      "utterance": "那个我给大家上一个人参游 人参游 对 这里面是真的有一个人参的 能看到吗 那么一整颗人参",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v52",
+      "start_seconds": 8,
+      "end_seconds": 16,
+      "context": "白礼服珍珠项链直播；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "瓶悬在圆形灯座上方照亮",
+      "utterance": "就是你们觉得我暖暖的 我也觉得你们暖暖的 那你要你打灯的话 那我还得装个屁了 看完的人参泡过的精华 看到了吗 有没有脸干的 眼睛上面干了气泡多的",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v52",
+      "start_seconds": 16,
+      "end_seconds": 26,
+      "context": "白礼服珍珠项链直播；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "手背已有浅色膏液，开瓶并将滴管朝手背取油，推抹展示",
+      "utterance": "眼睛上面干了气泡多的 有 然后包括用分体液的卡粉的 分体液拿来 嗯 分体 不要久都给你卖货 我来给你放福利了 你说得没错 姐姐给我收楼感受到你",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v52",
+      "start_seconds": 26,
+      "end_seconds": 42,
+      "context": "白礼服珍珠项链直播；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "再次提滴管朝手背，回瓶后举近并推开浅色混合物",
+      "utterance": "这个油 我们可以调整面膜 分贴拿来来 9块9 傻板呀 傻板呀 一个人卖不到价钱 我在 我都说了今天 我给你们乘的没有用的东西 就来看看了吗 是不是直接就顺滑开了 对",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v52",
+      "start_seconds": 42,
+      "end_seconds": 50,
+      "context": "白礼服珍珠项链直播；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "拿纸巾擦手",
+      "utterance": "对 我今天就是感谢你 就是非常非常谢你 所以今天某一个人找的多 我的生活其实是妈妈嘛 就围着孩子 9块9 一只人设有",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v52",
+      "start_seconds": 50,
+      "end_seconds": 64,
+      "context": "白礼服珍珠项链直播；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "关瓶转瓶近镜",
+      "utterance": "一只人设有 怎么样了吗 咱就背着我店里外多少钱了 你将我顶铺 好吧 我家一瓶水的话 都没有100多块钱的 有更不用说了 有这个还加了一颗人身的 也没有几百块钱出不来 但没关系",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v52",
+      "start_seconds": 64,
+      "end_seconds": 78,
+      "context": "白礼服珍珠项链直播；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "灯座透瓶，撤手短暂展示",
+      "utterance": "但没关系 还没有用过有肉节目的 今天人身油 人身泡过油全都是营养 改价就快走上车 我只能限量两万单 我不能忍受一单 天哪 上车来 谢谢 能想到算 今天是最合心的 几百块钱两万单",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v52",
+      "start_seconds": 78,
+      "end_seconds": 90,
+      "context": "白礼服珍珠项链直播；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "灯座与瓶举起放下轮换",
+      "utterance": "几百块钱两万单 几百块钱 一整颗人身 一整颗人身 我们公司最合心的品 我现在是 不卖了 他就给你们拿出来 赶紧 一秒没齐",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v52",
+      "start_seconds": 90,
+      "end_seconds": 93.669,
+      "context": "白礼服珍珠项链直播；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "放下工具，空手手势结束",
+      "utterance": "一秒没齐 我不能在手里打 但是我 我想一",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v52/sheet-1.jpg",
+      "sources/20261109-ginseng-daily-v52/sheet-2.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

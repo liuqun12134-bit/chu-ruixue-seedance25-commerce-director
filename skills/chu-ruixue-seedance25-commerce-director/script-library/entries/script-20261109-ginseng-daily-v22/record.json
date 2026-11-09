@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-20261109-ginseng-daily-v22",
+  "title": "造型中透光看参、脸侧持瓶说明",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "真人原片全时段抽帧及未听审ASR提炼；完整保留可见原始流程，不补造缺失环节。",
+    "source_refs": [
+      "performance-library/sources/20261109-ginseng-daily-v22/source.mp4",
+      "performance-library/sources/20261109-ginseng-daily-v22/review.json"
+    ],
+    "limitations": [
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+      "身后整理头发者不属于本人动作",
+      "不自动在后续成片加入其他人"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确要求整文件夹分析入库。"
+    },
+    {
+      "date": "2026-11-09",
+      "action": "correct_action_reference",
+      "basis": "将指瓶/瓶内根状物与指鼻侧面颊分开；指瓶使用已有对应动作候选，仍为draft。"
+    }
+  ],
+  "modes": [
+    "talk"
+  ],
+  "categories": [
+    "人参油"
+  ],
+  "product_ids": [],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "goal": "透光结构展示与正常光线包装展示分开。",
+  "adaptation_notes": "本条是完整原片路线档案，非逐字核准台词。透光展示参 → 干皮推荐 → 晚间使用和另一款白天用的个人建议 → 出行告别。展示/讲解段可跨句、可按音频换序；depends_on只约束物理前提，不把原始顺序当唯一模板。多产品和面膜段须先确认适配；时长不足拆段，不能等比压缩。",
+  "source_sequence": [
+    "0–10秒：手机底光照瓶，转动、短幅摇瓶",
+    "10–24秒：撤底光后托瓶指参、脸侧持稳",
+    "24–30.07秒：放低瓶继续讲解"
+  ],
+  "initial_state_satisfies": [
+    "若首帧已完成取用、涂抹或贴膜，可承接已存在状态；不得重复取用或让膜布重生。"
+  ],
+  "maintained_states": [
+    "已实际接触区域的表面状态保持；瓶盖和滴管位置连续；膜布若仍在脸上，回到持品时继续保留。"
+  ],
+  "effect_required": false,
+  "effect_stage_ids": [],
+  "stages": [
+    {
+      "id": "stage-01",
+      "goal": "手机底光照瓶，转动、短幅摇瓶",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：透光展示参 → 干皮推荐 → 晚间使用和另一款白天用的个人建议 → 出行告别"
+      ],
+      "entry_state": "瓶盖已旋紧，一手持瓶、一手持亮灯手机；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-phone-light"
+      ],
+      "exit_state": "瓶内根状物被透光展示；撤光后恢复正常外观",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的手机底光照瓶，转动、短幅摇瓶相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        0,
+        10
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-phone-light"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-02",
+      "goal": "撤底光后托瓶指参、脸侧持稳",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：透光展示参 → 干皮推荐 → 晚间使用和另一款白天用的个人建议 → 出行告别"
+      ],
+      "entry_state": "闭合瓶稳定可见且另一手空闲；段内其余操作保持连续。",
+      "action_options": [
+        "action-20261102-ginseng-oil-ref-24-point-bottle"
+      ],
+      "exit_state": "闭合瓶继续位于胸前或脸侧。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的撤底光后托瓶指参、脸侧持稳相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        10,
+        24
+      ],
+      "observed_action_chain": [
+        "action-20261102-ginseng-oil-ref-24-point-bottle"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-03",
+      "goal": "放低瓶继续讲解",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：透光展示参 → 干皮推荐 → 晚间使用和另一款白天用的个人建议 → 出行告别"
+      ],
+      "entry_state": "产品稳定在桌面，空手可动；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "exit_state": "产品仍原位，完成完整语义段。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的放低瓶继续讲解相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        24,
+        30.07
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    }
+  ],
+  "source_key": "v22",
+  "variant_keys": [],
+  "scene": "白字母毛衣、他人整理头发",
+  "semantic_outline": {
+    "title": "造型间隙短推荐",
+    "outline": "透光展示参 → 干皮推荐 → 晚间使用和另一款白天用的个人建议 → 出行告别",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "draft_reason": "台词与声音语气未听审；剂量/搭配/局部省略须按目标产品和具体选段核对。",
+  "family_id": "20261109-ginseng-daily-v22"
+}

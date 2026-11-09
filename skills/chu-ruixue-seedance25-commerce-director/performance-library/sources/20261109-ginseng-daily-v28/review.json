@@ -1,0 +1,71 @@
+{
+  "source_key": "v28",
+  "original_name": "人参油 (34).mp4",
+  "sha256": "b39a4e74fddc054a7ca40724541d4dac8da8b99efd52a85fb75a0c737f7d90e8",
+  "declared_duration_seconds": 33.933333,
+  "decoded_audio_seconds": 33.92575,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v28",
+  "family_id": "20261109-ginseng-daily-v28",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 17,
+    "sheets": [
+      "sheet-1.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [],
+  "original_timeline": [
+    [
+      0,
+      8,
+      "举蓝白喷雾瓶、指额头"
+    ],
+    [
+      8,
+      18,
+      "人参油举瓶、指面颊"
+    ],
+    [
+      18,
+      24,
+      "展示皮肤照片并回喷雾讲解"
+    ],
+    [
+      24,
+      28,
+      "打开人参油"
+    ],
+    [
+      28,
+      33.933,
+      "持滴管，指尖在眼下附近操作，片段结束"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "空调干燥与前置顺序",
+    "outline": "空调房干燥提问 → 喷雾打底后用油的个人顺序 → 皮肤照片与局部干燥话题 → 价值对比 → 片段在操作中结束",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "未见完整使用和收尾",
+    "照片不是经核验的功效证据",
+    "眼周适用性未确认",
+    "身后其他人不计本人"
+  ]
+}

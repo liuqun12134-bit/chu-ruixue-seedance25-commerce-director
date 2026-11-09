@@ -1,6 +1,6 @@
 # 初瑞雪 Seedance 2.5 电商口播导演
 
-版本 **2.1.0**，公开仓库。技能、四库和素材作为整体安装与更新，无需 GitHub 账号即可下载。
+版本 **2.1.1**，公开仓库。技能、四库和素材作为整体安装与更新，无需 GitHub 账号即可下载。
 
 技能入口：[SKILL.md](skills/chu-ruixue-seedance25-commerce-director/SKILL.md)。独立于旧版 seedance25-commerce-director。
 
@@ -11,13 +11,15 @@
 | 库 | 内容 | 当前数量 |
 | --- | --- | --- |
 | product-library | 产品身份、包装、用法、卖点与失败记录 | 5 条 |
-| script-library | 完整脚本、顺序依赖、必需/可选环节 | 4 条 |
-| action-library | 动作适用信息、起点、操作、结束与证据 | 87 条 |
-| performance-library | 台词、语气和本人表情/动作关联 | 33 条，29 个来源 |
+| script-library | 完整脚本、顺序依赖、必需/可选环节 | 49 条 |
+| action-library | 动作适用信息、起点、操作、结束与证据 | 121 条 |
+| performance-library | 台词、语气和本人表情/动作关联 | 76 条，81 个来源 |
 
 历史 demo-library 保留 26 条来源记录、81 个动作单元。人物表现目前全部 pending，ready 关联为 0；安装、更新和结构校验不会把候选资料变成已听审证据。
 
-2026-11-09 同步：新增 ZUZU 玻色因素颜霜产品档案、全脸使用脚本、6 条配套动作及引用素材。技能版本保持 2.1.0，库更新通过提交与文件哈希识别。
+2026-11-09 人参油整批同步（2.1.1）：包含此前小爱 AI 参考的 2 条路线、11 条动作，以及本批 52 份真人来源、43 条路线草稿、23 条新动作、6 条已有动作证据补充和 43 条待听审人物记录。55 个文件含小爱1/3完全重复；真人近重复及截损版本归组保存。人参油 (5) 仅前约14秒可解码，记录已关联完整版本。全部保留证据状态，未新增产品用法或功效规则。此前素颜霜更新继续保留。
+
+本批清单：[逐视频脚本、动作、原片与待核项](skills/chu-ruixue-seedance25-commerce-director/script-library/batches/20261109-ginseng-daily/review.html)。
 
 逐文件大小及 SHA-256 见 [package-manifest.json](package-manifest.json)。机器环境、ASR 模型和凭据不在包内。
 

@@ -1,0 +1,90 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v22",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜造型中透光看参、脸侧持瓶说明",
+  "summary": "透光结构展示与正常光线包装展示分开。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "人参油",
+    "白字母毛衣、他人整理头发",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "身后整理头发者不属于本人动作",
+    "不自动在后续成片加入其他人",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "手机底光照瓶，转动、短幅摇瓶",
+    "movement": "手机底光照瓶，转动、短幅摇瓶 → 撤底光后托瓶指参、脸侧持稳 → 放低瓶继续讲解",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "放低瓶继续讲解",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v22",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "context": "白字母毛衣、他人整理头发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "手机底光照瓶，转动、短幅摇瓶",
+      "utterance": "姐妹们真正给大家带人参饮容里边满满的营养 满满的活性 里边泡了个小人参 看了见的东西咱们一起奉行对不对 这款是个干皮啊",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v22",
+      "start_seconds": 10,
+      "end_seconds": 24,
+      "context": "白字母毛衣、他人整理头发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "撤底光后托瓶指参、脸侧持稳",
+      "utterance": "这款是个干皮啊 咱们大家脸干的话 就给大家推荐这款人参饮容 有需要的自己去拍啊 然后这款可以是晚上来用 这款因为很润 白的你可以用 另外一款是油平衡的 你们自己去搭 有这个选项",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v22",
+      "start_seconds": 24,
+      "end_seconds": 30.07,
+      "context": "白字母毛衣、他人整理头发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "放低瓶继续讲解",
+      "utterance": "然后给大家播个套盒 呃 去机场了 拜拜 出去留了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v22/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

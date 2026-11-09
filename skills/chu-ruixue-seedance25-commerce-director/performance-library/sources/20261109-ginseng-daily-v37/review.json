@@ -1,0 +1,45 @@
+{
+  "source_key": "v37",
+  "original_name": "人参油 (48).mp4",
+  "sha256": "1b9a3ee492c26481248d4c78c8c738950ce3c7da758f5afeb7458e6530613363",
+  "declared_duration_seconds": 110.199333,
+  "decoded_audio_seconds": 110.180125,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v07",
+  "family_id": "20261109-ginseng-daily-v07",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 55,
+    "sheets": [
+      "sheet-1.jpg",
+      "sheet-2.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [],
+  "original_timeline": null,
+  "variant_note": "版本只做代表帧对照与ASR文本比较，完整路线取canonical；v39仅可读前段。",
+  "semantic_outline": {
+    "title": "前置护理后用油",
+    "outline": "前期护理后觉得干 → 说明个人先用水的顺序 → 透光展示参 → 掌心搓开及上脸 → 个人感受 → 活动提示",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "喷雾身份及搭配条件待确认",
+    "透光改变颜色，不能作为油液本色",
+    "与v07为相同内容或截损版本；保留文件版本，不新增独立脚本。"
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "source_sha256": "58f0547472e23d05f43948929cbb0725a607ecd0ffcca4f2cc0ffdc788184e21",
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "model": "faster-whisper-small-local-int8",
+  "decoded_seconds": 14.7925,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.34,
+      "text": "給大家看看 咱家人生有",
+      "avg_logprob": -0.4589005613492595,
+      "no_speech_prob": 0.1718127727508545,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.64,
+          "text": "給",
+          "probability": 0.648347020149231
+        },
+        {
+          "start": 0.64,
+          "end": 0.78,
+          "text": "大家",
+          "probability": 0.9894327521324158
+        },
+        {
+          "start": 0.78,
+          "end": 1.42,
+          "text": "看看",
+          "probability": 0.6489365696907043
+        },
+        {
+          "start": 1.76,
+          "end": 1.84,
+          "text": " 咱",
+          "probability": 0.748994767665863
+        },
+        {
+          "start": 1.84,
+          "end": 1.94,
+          "text": "家",
+          "probability": 0.5768386721611023
+        },
+        {
+          "start": 1.94,
+          "end": 2.04,
+          "text": "人",
+          "probability": 0.9707356095314026
+        },
+        {
+          "start": 2.04,
+          "end": 2.16,
+          "text": "生",
+          "probability": 0.6356536149978638
+        },
+        {
+          "start": 2.16,
+          "end": 2.34,
+          "text": "有",
+          "probability": 0.8034763932228088
+        }
+      ]
+    },
+    {
+      "start": 2.34,
+      "end": 4.86,
+      "text": "直播是昨天剛給大家賣 今天就要端貨了",
+      "avg_logprob": -0.4589005613492595,
+      "no_speech_prob": 0.1718127727508545,
+      "words": [
+        {
+          "start": 2.34,
+          "end": 3.0,
+          "text": "直",
+          "probability": 0.3061622381210327
+        },
+        {
+          "start": 3.0,
+          "end": 3.1,
+          "text": "播",
+          "probability": 0.9988331198692322
+        },
+        {
+          "start": 3.1,
+          "end": 3.2,
+          "text": "是",
+          "probability": 0.8014393448829651
+        },
+        {
+          "start": 3.2,
+          "end": 3.34,
+          "text": "昨",
+          "probability": 0.9914816617965698
+        },
+        {
+          "start": 3.34,
+          "end": 3.48,
+          "text": "天",
+          "probability": 0.998666524887085
+        },
+        {
+          "start": 3.48,
+          "end": 3.58,
+          "text": "剛",
+          "probability": 0.9331333041191101
+        },
+        {
+          "start": 3.58,
+          "end": 3.68,
+          "text": "給",
+          "probability": 0.8113952279090881
+        },
+        {
+          "start": 3.68,
+          "end": 3.78,
+          "text": "大家",
+          "probability": 0.9101881384849548
+        },
+        {
+          "start": 3.78,
+          "end": 3.94,
+          "text": "賣",
+          "probability": 0.9858362972736359
+        },
+        {
+          "start": 4.06,
+          "end": 4.18,
+          "text": " 今天",
+          "probability": 0.9712423086166382
+        },
+        {
+          "start": 4.18,
+          "end": 4.32,
+          "text": "就",
+          "probability": 0.8568634986877441
+        },
+        {
+          "start": 4.32,
+          "end": 4.46,
+          "text": "要",
+          "probability": 0.978190541267395
+        },
+        {
+          "start": 4.46,
+          "end": 4.5,
+          "text": "端",
+          "probability": 0.8111049234867096
+        },
+        {
+          "start": 4.5,
+          "end": 4.68,
+          "text": "貨",
+          "probability": 0.7255304604768753
+        },
+        {
+          "start": 4.68,
+          "end": 4.86,
+          "text": "了",
+          "probability": 0.9089314937591553
+        }
+      ]
+    },
+    {
+      "start": 4.86,
+      "end": 5.78,
+      "text": "有需要自己拍吧",
+      "avg_logprob": -0.4589005613492595,
+      "no_speech_prob": 0.1718127727508545,
+      "words": [
+        {
+          "start": 4.86,
+          "end": 5.0,
+          "text": "有",
+          "probability": 0.7055038213729858
+        },
+        {
+          "start": 5.0,
+          "end": 5.18,
+          "text": "需要",
+          "probability": 0.9929076433181763
+        },
+        {
+          "start": 5.18,
+          "end": 5.34,
+          "text": "自己",
+          "probability": 0.9749099612236023
+        },
+        {
+          "start": 5.34,
+          "end": 5.56,
+          "text": "拍",
+          "probability": 0.9946164488792419
+        },
+        {
+          "start": 5.56,
+          "end": 5.78,
+          "text": "吧",
+          "probability": 0.4631001949310303
+        }
+      ]
+    },
+    {
+      "start": 5.78,
+      "end": 7.68,
+      "text": "不給大家直播的時候叫",
+      "avg_logprob": -0.4589005613492595,
+      "no_speech_prob": 0.1718127727508545,
+      "words": [
+        {
+          "start": 5.78,
+          "end": 6.26,
+          "text": "不",
+          "probability": 0.41977742314338684
+        },
+        {
+          "start": 6.26,
+          "end": 6.36,
+          "text": "給",
+          "probability": 0.9969443678855896
+        },
+        {
+          "start": 6.36,
+          "end": 6.52,
+          "text": "大家",
+          "probability": 0.9977757334709167
+        },
+        {
+          "start": 6.52,
+          "end": 7.14,
+          "text": "直",
+          "probability": 0.567948043346405
+        },
+        {
+          "start": 7.14,
+          "end": 7.34,
+          "text": "播",
+          "probability": 0.9992349147796631
+        },
+        {
+          "start": 7.34,
+          "end": 7.48,
+          "text": "的時候",
+          "probability": 0.8362758755683899
+        },
+        {
+          "start": 7.48,
+          "end": 7.68,
+          "text": "叫",
+          "probability": 0.9051982760429382
+        }
+      ]
+    },
+    {
+      "start": 9.88,
+      "end": 12.2,
+      "text": "這個是很油的那種 很潤的",
+      "avg_logprob": -0.4589005613492595,
+      "no_speech_prob": 0.1718127727508545,
+      "words": [
+        {
+          "start": 9.88,
+          "end": 10.24,
+          "text": "這個是",
+          "probability": 0.4827241897583008
+        },
+        {
+          "start": 10.24,
+          "end": 10.6,
+          "text": "很",
+          "probability": 0.8479867577552795
+        },
+        {
+          "start": 10.6,
+          "end": 10.8,
+          "text": "油",
+          "probability": 0.8625525236129761
+        },
+        {
+          "start": 10.8,
+          "end": 10.98,
+          "text": "的",
+          "probability": 0.9825573563575745
+        },
+        {
+          "start": 10.98,
+          "end": 11.1,
+          "text": "那",
+          "probability": 0.5125565528869629
+        },
+        {
+          "start": 11.1,
+          "end": 11.28,
+          "text": "種",
+          "probability": 0.9778198599815369
+        },
+        {
+          "start": 11.28,
+          "end": 11.62,
+          "text": " 很",
+          "probability": 0.6616742014884949
+        },
+        {
+          "start": 11.62,
+          "end": 11.88,
+          "text": "潤",
+          "probability": 0.9753992557525635
+        },
+        {
+          "start": 11.88,
+          "end": 12.2,
+          "text": "的",
+          "probability": 0.9857402443885803
+        }
+      ]
+    },
+    {
+      "start": 12.620000000000001,
+      "end": 14.38,
+      "text": "小青好像拍到第二個一間",
+      "avg_logprob": -0.4589005613492595,
+      "no_speech_prob": 0.1718127727508545,
+      "words": [
+        {
+          "start": 12.620000000000001,
+          "end": 12.98,
+          "text": "小",
+          "probability": 0.26297491788864136
+        },
+        {
+          "start": 12.98,
+          "end": 13.2,
+          "text": "青",
+          "probability": 0.5172426104545593
+        },
+        {
+          "start": 13.2,
+          "end": 13.44,
+          "text": "好像",
+          "probability": 0.8907312154769897
+        },
+        {
+          "start": 13.44,
+          "end": 13.7,
+          "text": "拍",
+          "probability": 0.5052472949028015
+        },
+        {
+          "start": 13.7,
+          "end": 13.82,
+          "text": "到",
+          "probability": 0.5352411866188049
+        },
+        {
+          "start": 13.82,
+          "end": 14.02,
+          "text": "第二個",
+          "probability": 0.44158700108528137
+        },
+        {
+          "start": 14.02,
+          "end": 14.26,
+          "text": "一",
+          "probability": 0.3656080365180969
+        },
+        {
+          "start": 14.26,
+          "end": 14.38,
+          "text": "間",
+          "probability": 0.592811644077301
+        }
+      ]
+    }
+  ]
+}

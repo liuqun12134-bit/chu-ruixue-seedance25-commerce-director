@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-20261109-ginseng-daily-v17",
+  "title": "油打底、面膜袋内加油、贴膜和余液展示",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "真人原片全时段抽帧及未听审ASR提炼；完整保留可见原始流程，不补造缺失环节。",
+    "source_refs": [
+      "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+      "performance-library/sources/20261109-ginseng-daily-v17/review.json",
+      "performance-library/sources/20261109-ginseng-daily-v19/review.json"
+    ],
+    "limitations": [
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+      "油与面膜混用适配性未经产品确认",
+      "液体数量和膜布去留存在遮挡/省略",
+      "不是三分钟等比压缩成短片的模板"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确要求整文件夹分析入库。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "categories": [
+    "人参油"
+  ],
+  "product_ids": [],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "goal": "面膜打开、加油、揉袋、展开、揭外层等因果可独立检索。",
+  "adaptation_notes": "本条是完整原片路线档案，非逐字核准台词。生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示。展示/讲解段可跨句、可按音频换序；depends_on只约束物理前提，不把原始顺序当唯一模板。多产品和面膜段须先确认适配；时长不足拆段，不能等比压缩。",
+  "source_sequence": [
+    "0–8秒：倒持/倾斜透明瓶展示内容物",
+    "8–16秒：已有油的手掌搓开并近镜展示",
+    "16–40秒：额头、两颊、鼻侧推抹",
+    "40–54秒：打开面膜袋、举瓶说明",
+    "54–66秒：滴管伸向打开的面膜袋，随后回瓶/收工具",
+    "66–82秒：手在袋外揉按后单手触脸",
+    "82–100秒：取出展开面膜并举到脸前贴上",
+    "100–122秒：揭下外层承托片，沿额头鼻翼下巴抚平",
+    "122–154秒：整理膜布、取用余液并局部按压；实际状态需细查",
+    "154–174秒：袋口倒向掌心、展示余液并触脸",
+    "174–198.647秒：滴管对掌心，继续额头鼻侧面颊操作"
+  ],
+  "initial_state_satisfies": [
+    "若首帧已完成取用、涂抹或贴膜，可承接已存在状态；不得重复取用或让膜布重生。"
+  ],
+  "maintained_states": [
+    "已实际接触区域的表面状态保持；瓶盖和滴管位置连续；膜布若仍在脸上，回到持品时继续保留。"
+  ],
+  "effect_required": false,
+  "effect_stage_ids": [],
+  "stages": [
+    {
+      "id": "stage-01",
+      "goal": "倒持/倾斜透明瓶展示内容物",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "瓶盖已确认旋紧，手掌可靠握住瓶身；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-invert"
+      ],
+      "exit_state": "回到直立并可靠握持",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的倒持/倾斜透明瓶展示内容物相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        0,
+        8
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-invert"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-02",
+      "goal": "已有油的手掌搓开并近镜展示",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "改编时掌心已有依据充分的油量，滴管已安全回瓶；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-rub"
+      ],
+      "exit_state": "双手空出、掌面可用于后续接触。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的已有油的手掌搓开并近镜展示相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        8,
+        16
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-rub"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-03",
+      "goal": "额头、两颊、鼻侧推抹",
+      "required": true,
+      "depends_on": [
+        "stage-02"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "双掌已有油且产品安全放置；第二条区间从剪辑后的片段开始；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-face"
+      ],
+      "exit_state": "面部无遮挡，双手离脸，产品仍在桌面。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的额头、两颊、鼻侧推抹相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        16,
+        40
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-face"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-04",
+      "goal": "打开面膜袋、举瓶说明",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "袋在两手之间，开口位置清楚；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mask-open"
+      ],
+      "exit_state": "面膜袋已开，内容物未凭空离袋",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的打开面膜袋、举瓶说明相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        40,
+        54
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mask-open"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-05",
+      "goal": "滴管伸向打开的面膜袋，随后回瓶/收工具",
+      "required": true,
+      "depends_on": [
+        "stage-04"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "油与面膜的混用许可和用量已另行确认，袋已开口；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mask-dose"
+      ],
+      "exit_state": "袋中是否混入和具体量需结合连续视频确认",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的滴管伸向打开的面膜袋，随后回瓶/收工具相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        54,
+        66
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mask-dose"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-06",
+      "goal": "手在袋外揉按后单手触脸",
+      "required": true,
+      "depends_on": [
+        "stage-05"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "开口袋内容不外溢；若已加油需先确认混用许可；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mask-rub"
+      ],
+      "exit_state": "袋仍在手中，液体未洒出",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的手在袋外揉按后单手触脸相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        66,
+        82
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mask-rub"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-07",
+      "goal": "取出展开面膜并举到脸前贴上",
+      "required": true,
+      "depends_on": [
+        "stage-04"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "膜布已可取出，脸部护理准备完成；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mask-apply"
+      ],
+      "exit_state": "膜布已落在脸上，边缘仍待整理",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的取出展开面膜并举到脸前贴上相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        82,
+        100
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mask-apply"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-08",
+      "goal": "揭下外层承托片，沿额头鼻翼下巴抚平",
+      "required": true,
+      "depends_on": [
+        "stage-07"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "双层膜布已贴脸且明确哪层需要保留；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mask-peel",
+        "action-20261109-ginseng-real-mask-adjust"
+      ],
+      "exit_state": "膜布贴合主要轮廓并持续保留",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的揭下外层承托片，沿额头鼻翼下巴抚平相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        100,
+        122
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mask-peel",
+        "action-20261109-ginseng-real-mask-adjust"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-09",
+      "goal": "整理膜布、取用余液并局部按压；实际状态需细查",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "承接原片当前持物和皮肤状态；此段无足够证据绑定共用动作。",
+      "action_options": [],
+      "exit_state": "按原片所见结束：整理膜布、取用余液并局部按压；实际状态需细查；缺失动作不补成已观察事实。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的整理膜布、取用余液并局部按压；实际状态需细查相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        122,
+        154
+      ],
+      "observed_action_chain": [],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-10",
+      "goal": "袋口倒向掌心、展示余液并触脸",
+      "required": true,
+      "depends_on": [
+        "stage-04"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "袋内仍有余液，是否继续用于面部已确认；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mask-extra"
+      ],
+      "exit_state": "余液在掌心的具体量未知",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的袋口倒向掌心、展示余液并触脸相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        154,
+        174
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mask-extra"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-11",
+      "goal": "滴管对掌心，继续额头鼻侧面颊操作",
+      "required": true,
+      "depends_on": [
+        "stage-02"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示"
+      ],
+      "entry_state": "滴管已取出，另一手掌心朝上，瓶可稳定承托；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-palm-dose",
+        "action-20261109-ginseng-real-single-face"
+      ],
+      "exit_state": "各实际接触区完成推开，手离脸时不重置肤面",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的滴管对掌心，继续额头鼻侧面颊操作相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        174,
+        198.647007
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-palm-dose",
+        "action-20261109-ginseng-real-single-face"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    }
+  ],
+  "source_key": "v17",
+  "variant_keys": [
+    "v19"
+  ],
+  "scene": "粉白蕾丝袖湿发",
+  "semantic_outline": {
+    "title": "油泡面膜长流程",
+    "outline": "生活聊天穿插 → 先涂油 → 说明油泡面膜 → 打开袋并加油 → 揉袋贴膜揭外片 → 余液展示 → 预售提示",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "draft_reason": "台词与声音语气未听审；剂量/搭配/局部省略须按目标产品和具体选段核对。",
+  "family_id": "20261109-ginseng-daily-v17"
+}

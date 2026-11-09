@@ -7377,6 +7377,4162 @@
     {
       "schema_version": 1,
       "record_type": "action",
+      "id": "action-20261109-ginseng-real-face-show",
+      "title": "用后离手近镜、轻转脸展示",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v04/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v04/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v45/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v45/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "光线变化不能当肤色变化",
+          "禁止突然全脸变白、磨皮换肤"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "仅在取用护理油的条件下复用。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "产品已取出或工具已放置，动作不依赖瓶形。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "用后离手近镜、轻转脸展示"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "本片已有真实面部接触完成，工具不遮脸"
+        ],
+        "action": "手离脸后靠近镜头或轻转脸，并指示刚接触区域",
+        "transition": "后续举瓶或转头仍保持相同表面状态",
+        "end_state": "面部可看清，保留实际表面状态",
+        "expected_effect": "让观众看清用后离手近镜、轻转脸展示的过程；不是功效证明。",
+        "avoid": [
+          "光线变化不能当肤色变化",
+          "禁止突然全脸变白、磨皮换肤"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v04/source.mp4",
+          "time_range_seconds": [
+            34,
+            52
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v45/source.mp4",
+          "time_range_seconds": [
+            72,
+            82
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-face-show/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-fingertip-face",
+      "title": "掌心承接后指尖局部带开",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v30/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v30/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不凭捏指动作定量",
+          "眼周适用需另核"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "仅在取用护理油的条件下复用。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "滴管瓶"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面颊",
+            "鼻侧",
+            "下巴"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "掌心承接后指尖局部带开"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "掌心已承接油，指尖可从掌心取少量"
+        ],
+        "action": "指尖由掌心转向局部面颊和鼻侧，短程推开，再回掌心或离脸",
+        "transition": "放下工具后继续局部护理或展示",
+        "end_state": "局部接触完成，瓶和滴管仍由另一手可靠安置",
+        "expected_effect": "让观众看清掌心承接后指尖局部带开的过程；不是功效证明。",
+        "avoid": [
+          "不凭捏指动作定量",
+          "眼周适用需另核"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v30/source.mp4",
+          "time_range_seconds": [
+            19,
+            22
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v30/source.mp4",
+          "time_range_seconds": [
+            22,
+            34
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-fingertip-face/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-handback-dose",
+      "title": "滴管对准手背后回瓶",
+      "enabled": true,
+      "status": "draft",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v12/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v12/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v52/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v52/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不猜滴数",
+          "不能把靠近等同每一滴已确认"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "仅在取用护理油的条件下复用。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "滴管瓶"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手背"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "滴管对准手背后回瓶"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "瓶已打开且手背朝上，滴管内有可用液体"
+        ],
+        "action": "滴管下移至手背上方，完成取用动作后回瓶收好",
+        "transition": "先安置滴管，再用另一手指腹推开",
+        "end_state": "手背承接油；实际剂量和旋紧细节仍需核实",
+        "expected_effect": "让观众看清滴管对准手背后回瓶的过程；不是功效证明。",
+        "avoid": [
+          "不猜滴数",
+          "不能把靠近等同每一滴已确认"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v12/source.mp4",
+          "time_range_seconds": [
+            18,
+            20.5
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v52/source.mp4",
+          "time_range_seconds": [
+            19,
+            21.5
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "pending_product_conditions_or_transfer",
+      "path": "action-library/entries/action-20261109-ginseng-real-handback-dose/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-handback-spread",
+      "title": "指腹推匀手背并举近展示",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v10/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v10/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v12/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v12/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不把反光解释为即时去纹或渗透",
+          "比较时固定照明与角度"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "仅在取用护理油的条件下复用。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "产品已取出或工具已放置，动作不依赖瓶形。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手背"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "指腹推匀手背并举近展示"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "手背已有护理油，滴管已安置"
+        ],
+        "action": "另一手指腹在同一手背区域推开，转动手腕并举近镜头停留",
+        "transition": "放回手背或转入持品",
+        "end_state": "原涂抹部位露出，油膜反光随角度变化",
+        "expected_effect": "让观众看清指腹推匀手背并举近展示的过程；不是功效证明。",
+        "avoid": [
+          "不把反光解释为即时去纹或渗透",
+          "比较时固定照明与角度"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v12/source.mp4",
+          "time_range_seconds": [
+            20.5,
+            24
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v10/source.mp4",
+          "time_range_seconds": [
+            16,
+            22
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-handback-spread/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-invert",
+      "title": "闭盖横转、倒持看瓶内结构",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v35/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v35/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v38/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v38/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "未旋紧不能倒持",
+          "不推断为使用前必须摇匀"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "talk"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "此动作仅处理持物、构图或擦手，不依赖液体质地。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "透明闭盖瓶"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "不接触皮肤，展示结构或容器。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "闭盖横转、倒持看瓶内结构"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "瓶盖已确认旋紧，手掌可靠握住瓶身"
+        ],
+        "action": "在直立、横向和倒持之间缓慢改变角度，停留看内容物",
+        "transition": "继续持品或将瓶放稳后开盖",
+        "end_state": "回到直立并可靠握持",
+        "expected_effect": "让观众看清闭盖横转、倒持看瓶内结构的过程；不是功效证明。",
+        "avoid": [
+          "未旋紧不能倒持",
+          "不推断为使用前必须摇匀"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v38/source.mp4",
+          "time_range_seconds": [
+            6,
+            30
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v35/source.mp4",
+          "time_range_seconds": [
+            12,
+            28
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-invert/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-lying-hold",
+      "title": "半躺持瓶到空手交流",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v49/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v49/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "仅复用姿态变化",
+          "已有光泽不能当本轮用后效果"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "talk"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "此动作仅处理持物、构图或擦手，不依赖液体质地。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "闭盖可手持瓶"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "不接触皮肤，展示结构或容器。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "半躺持瓶到空手交流"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "半躺姿势，闭盖瓶在手中"
+        ],
+        "action": "瓶在脸侧与镜头前变化距离，放低瓶后整理发顶并继续交流",
+        "transition": "空手手势后可重新举瓶",
+        "end_state": "产品已放低，脸部无遮挡",
+        "expected_effect": "让观众看清半躺持瓶到空手交流的过程；不是功效证明。",
+        "avoid": [
+          "仅复用姿态变化",
+          "已有光泽不能当本轮用后效果"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v49/source.mp4",
+          "time_range_seconds": [
+            0,
+            32
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-lying-hold/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-mask-adjust",
+      "title": "沿鼻翼下巴与面颊整理膜布",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v40/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v40/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v48/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v48/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不能把面膜透明化当已吸收",
+          "不按剪辑长度设定敷膜时长"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unknown",
+          "values": [],
+          "basis": "配套护理产品质地未核实。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "膜布"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "沿鼻翼下巴与面颊整理膜布"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "贴肤膜已在脸上，外层已按产品需要处理"
+        ],
+        "action": "指腹沿鼻侧和下巴调整，掌面在两颊轻按，最后离手",
+        "transition": "维持膜布状态进入交流或持品",
+        "end_state": "膜布贴合主要轮廓并持续保留",
+        "expected_effect": "让观众看清沿鼻翼下巴与面颊整理膜布的过程；不是功效证明。",
+        "avoid": [
+          "不能把面膜透明化当已吸收",
+          "不按剪辑长度设定敷膜时长"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v48/source.mp4",
+          "time_range_seconds": [
+            46,
+            74
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v40/source.mp4",
+          "time_range_seconds": [
+            88,
+            124
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-adjust/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-mask-apply",
+      "title": "抽出展开面膜并对齐贴脸",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v40/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v40/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v48/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v48/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不能省掉展开瞬变成贴好",
+          "使用条件按真实面膜说明"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unknown",
+          "values": [],
+          "basis": "配套护理产品质地未核实。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "面膜袋",
+            "膜布"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "抽出展开面膜并对齐贴脸"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "膜布已可取出，脸部护理准备完成"
+        ],
+        "action": "取出折叠膜布，双手展开，眼鼻口位置对齐后贴合",
+        "transition": "确认产品层结构后揭承托片或直接按压",
+        "end_state": "膜布已落在脸上，边缘仍待整理",
+        "expected_effect": "让观众看清抽出展开面膜并对齐贴脸的过程；不是功效证明。",
+        "avoid": [
+          "不能省掉展开瞬变成贴好",
+          "使用条件按真实面膜说明"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v48/source.mp4",
+          "time_range_seconds": [
+            32,
+            40
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v40/source.mp4",
+          "time_range_seconds": [
+            68,
+            88
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-apply/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-mask-dose",
+      "title": "滴管伸向面膜袋口的加油参考",
+      "enabled": true,
+      "status": "draft",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v17/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v40/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v40/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "未确认混用不得直接安排",
+          "不能以遮挡推断滴数"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "仅在取用护理油的条件下复用。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "滴管瓶",
+            "面膜袋"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "不接触皮肤，展示结构或容器。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "滴管伸向面膜袋口的加油参考"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "油与面膜的混用许可和用量已另行确认，袋已开口"
+        ],
+        "action": "持袋口，滴管从瓶中取出移至袋口，动作后回瓶",
+        "transition": "收好滴管，再处理袋外或取膜",
+        "end_state": "袋中是否混入和具体量需结合连续视频确认",
+        "expected_effect": "让观众看清滴管伸向面膜袋口的加油参考的过程；不是功效证明。",
+        "avoid": [
+          "未确认混用不得直接安排",
+          "不能以遮挡推断滴数"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+          "time_range_seconds": [
+            54,
+            64
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v40/source.mp4",
+          "time_range_seconds": [
+            34,
+            50
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "pending_product_conditions_or_transfer",
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-dose/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-mask-extra",
+      "title": "面膜袋余液倾向掌心的参考",
+      "enabled": true,
+      "status": "draft",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v17/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v17/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不默认余液可随意混用",
+          "不推定膜布已经取下"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unknown",
+          "values": [],
+          "basis": "配套护理产品质地未核实。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "面膜袋"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "掌心"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "面膜袋余液倾向掌心的参考"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "袋内仍有余液，是否继续用于面部已确认"
+        ],
+        "action": "袋口朝掌心倾倒后放下袋，掌心展示并衔接局部护理",
+        "transition": "先收袋再上脸，膜布状态须核清",
+        "end_state": "余液在掌心的具体量未知",
+        "expected_effect": "让观众看清面膜袋余液倾向掌心的参考的过程；不是功效证明。",
+        "avoid": [
+          "不默认余液可随意混用",
+          "不推定膜布已经取下"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+          "time_range_seconds": [
+            154,
+            174
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "pending_product_conditions_or_transfer",
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-extra/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-mask-hold",
+      "title": "保留面膜状态回到举瓶讲解",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v40/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v40/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "转头和遮挡不能让膜布消失",
+          "不推断敷膜效果强度"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unknown",
+          "values": [],
+          "basis": "配套护理产品质地未核实。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "膜布",
+            "闭盖瓶"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "保留面膜状态回到举瓶讲解"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "面膜已贴合，瓶可可靠闭盖持握"
+        ],
+        "action": "双手离开膜布，拿起闭盖瓶在脸侧或镜头前展示",
+        "transition": "继续讲解后放下产品",
+        "end_state": "膜布保持在脸上，产品清楚可见",
+        "expected_effect": "让观众看清保留面膜状态回到举瓶讲解的过程；不是功效证明。",
+        "avoid": [
+          "转头和遮挡不能让膜布消失",
+          "不推断敷膜效果强度"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v40/source.mp4",
+          "time_range_seconds": [
+            134,
+            144
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-hold/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-mask-open",
+      "title": "手撕开面膜袋并保持袋口",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v17/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v48/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v48/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不用牙齿咬袋",
+          "不默认任何面膜可混油"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unknown",
+          "values": [],
+          "basis": "配套护理产品质地未核实。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "面膜袋"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "不接触皮肤，展示结构或容器。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "手撕开面膜袋并保持袋口"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "袋在两手之间，开口位置清楚"
+        ],
+        "action": "两手沿包装开口撕开，保持袋口朝上便于取出",
+        "transition": "取出展开；加料只有产品条件确认后可做",
+        "end_state": "面膜袋已开，内容物未凭空离袋",
+        "expected_effect": "让观众看清手撕开面膜袋并保持袋口的过程；不是功效证明。",
+        "avoid": [
+          "不用牙齿咬袋",
+          "不默认任何面膜可混油"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+          "time_range_seconds": [
+            40,
+            54
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v48/source.mp4",
+          "time_range_seconds": [
+            18,
+            36
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-open/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-mask-peel",
+      "title": "固定内层并揭下外层承托片",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v17/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v48/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v48/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不可把揭外层写成揭掉全部面膜",
+          "单层面膜不套用"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unknown",
+          "values": [],
+          "basis": "配套护理产品质地未核实。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "双层面膜"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "固定内层并揭下外层承托片"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "双层膜布已贴脸且明确哪层需要保留"
+        ],
+        "action": "一手固定贴肤层边缘，另一手沿侧脸揭去外层，手持外片移离",
+        "transition": "沿额头鼻翼下巴整理贴肤层",
+        "end_state": "贴肤层仍在脸上，外层已被拿走",
+        "expected_effect": "让观众看清固定内层并揭下外层承托片的过程；不是功效证明。",
+        "avoid": [
+          "不可把揭外层写成揭掉全部面膜",
+          "单层面膜不套用"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v48/source.mp4",
+          "time_range_seconds": [
+            40,
+            46
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+          "time_range_seconds": [
+            100,
+            108
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-peel/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-mask-rub",
+      "title": "袋外揉按后准备取膜",
+      "enabled": true,
+      "status": "draft",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v17/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v40/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v40/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "混合均匀性不能由袋外动作证明",
+          "不得默认产品都适用"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unknown",
+          "values": [],
+          "basis": "配套护理产品质地未核实。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "面膜袋"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "不接触皮肤，展示结构或容器。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "袋外揉按后准备取膜"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "开口袋内容不外溢；若已加油需先确认混用许可"
+        ],
+        "action": "两掌夹住袋外揉按和轻拍，手从袋上移开后准备取膜",
+        "transition": "保持袋口向上再抽出膜布",
+        "end_state": "袋仍在手中，液体未洒出",
+        "expected_effect": "让观众看清袋外揉按后准备取膜的过程；不是功效证明。",
+        "avoid": [
+          "混合均匀性不能由袋外动作证明",
+          "不得默认产品都适用"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v40/source.mp4",
+          "time_range_seconds": [
+            50,
+            54
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+          "time_range_seconds": [
+            66,
+            82
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "pending_product_conditions_or_transfer",
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-rub/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-mix-handback",
+      "title": "手背浅色膏液与油的混合推抹参考",
+      "enabled": true,
+      "status": "draft",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v51/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v51/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v52/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v52/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "ASR提示粉底液但具体另一产品身份未核实",
+          "不是喷雾水珠演示",
+          "不得由此确认所有粉底液可加油"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unknown",
+          "values": [],
+          "basis": "配套护理产品质地未核实。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "滴管瓶",
+            "泵头瓶或预先取出的膏液"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手背"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "手背浅色膏液与油的混合推抹参考"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "手背已有另一浅色膏液；具体品名、混用适配及用量需另行确认"
+        ],
+        "action": "手背保留浅色膏液，滴管靠近手背取用后回瓶，另一手指腹将同一区域推开并举近展示",
+        "transition": "擦手收工具后回到瓶身展示",
+        "end_state": "手背浅色膏液已被推薄，表面有光泽；不证明配方兼容或妆效保持",
+        "expected_effect": "让观众看清手背浅色膏液与油的混合推抹参考的过程；不是功效证明。",
+        "avoid": [
+          "ASR提示粉底液但具体另一产品身份未核实",
+          "不是喷雾水珠演示",
+          "不得由此确认所有粉底液可加油"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v52/source.mp4",
+          "time_range_seconds": [
+            19,
+            42
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v51/source.mp4",
+          "time_range_seconds": [
+            38,
+            50
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "pending_product_conditions_or_transfer",
+      "path": "action-library/entries/action-20261109-ginseng-real-mix-handback/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-mobile-hold",
+      "title": "行走口播时脸侧持瓶",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v36/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v36/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v42/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v42/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "移动光线不作效果对照",
+          "不要强加机场场景"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "talk"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "此动作仅处理持物、构图或擦手，不依赖液体质地。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "闭盖可手持瓶"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "不接触皮肤，展示结构或容器。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "行走口播时脸侧持瓶"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "行走环境允许安全拍摄，瓶已闭盖"
+        ],
+        "action": "瓶在脸侧或胸前保持同框，间隔微转或放低再举起",
+        "transition": "停稳再进行细小取用动作",
+        "end_state": "瓶仍闭盖，人物继续行走或停步",
+        "expected_effect": "让观众看清行走口播时脸侧持瓶的过程；不是功效证明。",
+        "avoid": [
+          "移动光线不作效果对照",
+          "不要强加机场场景"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v36/source.mp4",
+          "time_range_seconds": [
+            0,
+            30
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v42/source.mp4",
+          "time_range_seconds": [
+            0,
+            32
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-mobile-hold/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-neck",
+      "title": "面部操作延伸至下颌颈侧",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v02/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v02/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v47/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v47/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "颈部适用性不是从视频确认的产品规则",
+          "不以提拉动作宣称提拉功效"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "仅在取用护理油的条件下复用。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "产品已取出或工具已放置，动作不依赖瓶形。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "下颌",
+            "颈侧"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "面部操作延伸至下颌颈侧"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "手上仍有可用余量且目标产品允许用于颈侧"
+        ],
+        "action": "手从下颌过渡到颈侧推抹，随后离开",
+        "transition": "回到脸部或持品交流",
+        "end_state": "下颌和实际颈侧区域完成接触",
+        "expected_effect": "让观众看清面部操作延伸至下颌颈侧的过程；不是功效证明。",
+        "avoid": [
+          "颈部适用性不是从视频确认的产品规则",
+          "不以提拉动作宣称提拉功效"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v02/source.mp4",
+          "time_range_seconds": [
+            44,
+            68
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v47/source.mp4",
+          "time_range_seconds": [
+            54,
+            64
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-neck/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-phone-light",
+      "title": "手机灯托底透光看参",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v10/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v10/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v50/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v50/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不能把黄色透光当油液本色",
+          "不是每条视频必需摇瓶"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "talk"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "此动作仅处理持物、构图或擦手，不依赖液体质地。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "透明闭盖瓶"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "不接触皮肤，展示结构或容器。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "手机灯托底透光看参"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "瓶盖已旋紧，一手持瓶、一手持亮灯手机"
+        ],
+        "action": "将瓶底移到手机灯上方，转瓶后停稳，再撤去底光",
+        "transition": "回到正常光脸侧持瓶；开瓶前放下手机",
+        "end_state": "瓶内根状物被透光展示；撤光后恢复正常外观",
+        "expected_effect": "让观众看清手机灯托底透光看参的过程；不是功效证明。",
+        "avoid": [
+          "不能把黄色透光当油液本色",
+          "不是每条视频必需摇瓶"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v10/source.mp4",
+          "time_range_seconds": [
+            0,
+            9.5
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v50/source.mp4",
+          "time_range_seconds": [
+            0,
+            12
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-phone-light/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-single-face",
+      "title": "单手面颊额头鼻侧分区推抹",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v26/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v26/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v45/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v45/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "用量按目标产品",
+          "不要求触及眼睑、唇部"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "仅在取用护理油的条件下复用。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "产品已取出或工具已放置，动作不依赖瓶形。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面颊",
+            "额头",
+            "鼻侧",
+            "下巴"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "单手面颊额头鼻侧分区推抹"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "手上已有油，另一手可持已收好的瓶"
+        ],
+        "action": "单手依次接触面颊、鼻侧、额头和下巴，推抹与短暂停留交替",
+        "transition": "回到正常交流或进一步局部演示",
+        "end_state": "各实际接触区完成推开，手离脸时不重置肤面",
+        "expected_effect": "让观众看清单手面颊额头鼻侧分区推抹的过程；不是功效证明。",
+        "avoid": [
+          "用量按目标产品",
+          "不要求触及眼睑、唇部"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v45/source.mp4",
+          "time_range_seconds": [
+            24,
+            60
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v26/source.mp4",
+          "time_range_seconds": [
+            16,
+            46
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-single-face/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-spray-prep",
+      "title": "另拿喷雾作前置护理的转场",
+      "enabled": true,
+      "status": "draft",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v07/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v07/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v18/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v18/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "喷雾不是人参油",
+          "保持厂家要求的眼部距离和范围"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unknown",
+          "values": [],
+          "basis": "配套护理产品质地未核实。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "喷雾瓶"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "另拿喷雾作前置护理的转场"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "喷雾身份、用法及与油的搭配已确认"
+        ],
+        "action": "闭眼持喷雾朝面部操作，放稳喷雾瓶，再拿油瓶",
+        "transition": "按产品要求衔接油的使用",
+        "end_state": "喷雾已放回，人参油准备取用",
+        "expected_effect": "让观众看清另拿喷雾作前置护理的转场的过程；不是功效证明。",
+        "avoid": [
+          "喷雾不是人参油",
+          "保持厂家要求的眼部距离和范围"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v18/source.mp4",
+          "time_range_seconds": [
+            8,
+            18
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v07/source.mp4",
+          "time_range_seconds": [
+            10,
+            18
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "pending_product_conditions_or_transfer",
+      "path": "action-library/entries/action-20261109-ginseng-real-spray-prep/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-stand-light",
+      "title": "独立灯座底光展示与撤手停留",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v52/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v52/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不得让瓶悬空",
+          "灯座不是产品附件事实"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "talk"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "此动作仅处理持物、构图或擦手，不依赖液体质地。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "透明闭盖瓶"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "不接触皮肤，展示结构或容器。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "独立灯座底光展示与撤手停留"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "闭盖瓶和灯座可稳定承托"
+        ],
+        "action": "将瓶移到圆灯座上方，调整位置后短暂撤去上方持瓶手，再取回",
+        "transition": "取回瓶并正常光展示",
+        "end_state": "瓶在灯座上稳定，内部结构清楚",
+        "expected_effect": "让观众看清独立灯座底光展示与撤手停留的过程；不是功效证明。",
+        "avoid": [
+          "不得让瓶悬空",
+          "灯座不是产品附件事实"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v52/source.mp4",
+          "time_range_seconds": [
+            64,
+            78
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-stand-light/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-switch-products",
+      "title": "两瓶轮换与同框比较",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v21/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v21/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v50/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v50/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "不得互借两款功效",
+          "仅复用比较形式"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "talk"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "此动作仅处理持物、构图或擦手，不依赖液体质地。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "可手持瓶"
+          ],
+          "basis": "持物动作需匹配此包装条件。"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "不接触皮肤，展示结构或容器。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "两瓶轮换与同框比较"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "两款产品身份已区分且盖好"
+        ],
+        "action": "先展示一瓶，再举另一瓶或让两瓶并列，指向所讲的那一瓶",
+        "transition": "放下一瓶，回当前主品",
+        "end_state": "两瓶位置清楚，观众能区分对象",
+        "expected_effect": "让观众看清两瓶轮换与同框比较的过程；不是功效证明。",
+        "avoid": [
+          "不得互借两款功效",
+          "仅复用比较形式"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v21/source.mp4",
+          "time_range_seconds": [
+            0,
+            30
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v50/source.mp4",
+          "time_range_seconds": [
+            24,
+            32
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-switch-products/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-real-tissue-hands",
+      "title": "操作后用纸巾擦手再回口播",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+        "source_refs": [
+          "performance-library/sources/20261109-ginseng-daily-v18/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v18/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v48/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v48/source.mp4"
+        ],
+        "limitations": [
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+          "擦手不证明产品已被皮肤吸收",
+          "不是纸巾擦脸"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "真人原片可观察动作，未进行生成测试。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类由用户确认；迁移按目标产品评估。"
+        },
+        "texture": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "此动作仅处理持物、构图或擦手，不依赖液体质地。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "产品已取出或工具已放置，动作不依赖瓶形。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手掌",
+            "手指"
+          ],
+          "basis": "按实际接触部位限定。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "操作后用纸巾擦手再回口播"
+          ],
+          "basis": "仅迁移此可观察的动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "手上有护理残液，纸巾可取"
+        ],
+        "action": "拿起纸巾擦掌面和手指，擦手中或结束后回看镜头",
+        "transition": "举瓶或空手交流",
+        "end_state": "纸巾留手中或放低，手可再次持品",
+        "expected_effect": "让观众看清操作后用纸巾擦手再回口播的过程；不是功效证明。",
+        "avoid": [
+          "擦手不证明产品已被皮肤吸收",
+          "不是纸巾擦脸"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v18/source.mp4",
+          "time_range_seconds": [
+            40,
+            46
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v48/source.mp4",
+          "time_range_seconds": [
+            74,
+            84
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-real-tissue-hands/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-cheek",
+      "title": "持滴管旁侧的单颊推抹（取油衔接待核）",
+      "enabled": true,
+      "status": "draft",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+          "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-2/review.json"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "ai_generated_user_confirmed",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "滴管瓶"
+          ],
+          "basis": "持瓶/取用需匹配包装。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面颊",
+            "下颌"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "局部涂抹"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "改编时必须已确认油已到指腹或面颊；原片此项待核",
+          "开瓶安全承托"
+        ],
+        "action": "一手保留滴管于旁侧，另一手指腹沿面颊和下颌推抹。",
+        "transition": "手从面部移开，准备掌心取油。",
+        "end_state": "单侧脸颊完成可见接触，滴管仍可追踪。",
+        "expected_effect": "仅借用单手推抹路线；原片落油链条不足，不当完整滴油上脸示范。",
+        "avoid": [
+          "不得把滴管悬停等同落油",
+          "不能省略取油原因",
+          "不得把近眼操作自动当适宜用法"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            12.25,
+            15
+          ],
+          "timing_status": "approximate_4fps_sampled_review"
+        },
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "time_range_seconds": [
+            14.25,
+            15.25
+          ],
+          "timing_status": "approximate_4fps_sampled_review"
+        }
+      ],
+      "acceptance_status": "pending_transfer_continuity",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-cheek/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-face",
+      "title": "双手额头鼻侧两颊分区推抹按压",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。 另补充本批用户确认的真人原片参考，见source_evidence各项source_kind。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+          "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-2/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v03/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v03/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v09/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v09/source.mp4"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。",
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "mixed_ai_and_real_reference",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        },
+        {
+          "date": "2026-11-09",
+          "action": "add_real_source_evidence",
+          "basis": "整批真人入库补充观察；原AI来源和原有适用限制保留，未升级未核实的落滴/语气关系。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "本动作在产品已稳定放置或取用完成后执行，不依赖容器形态。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部",
+            "额头",
+            "面颊",
+            "鼻侧"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "全脸涂抹",
+            "按压展示"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "双掌已有油且产品安全放置；第二条区间从剪辑后的片段开始"
+        ],
+        "action": "双手分区接触额头、鼻侧和两颊，推抹与停留按压交替，最后回到两颊并离手。",
+        "transition": "一个操作跨多句，完成后自然进入离手展示。",
+        "end_state": "面部无遮挡，双手离脸，产品仍在桌面。",
+        "expected_effect": "保存分区路线和操作节奏，不证明即时紧致或去皱。",
+        "avoid": [
+          "眼周适用范围按真实产品规则",
+          "不可把小爱2换装剪辑当连续使用",
+          "不能以全脸换肤替代接触过程"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            16.75,
+            21.25
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "time_range_seconds": [
+            20,
+            23.75
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v09/source.mp4",
+          "time_range_seconds": [
+            40,
+            58
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v03/source.mp4",
+          "time_range_seconds": [
+            18,
+            46
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-face/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-lift",
+      "title": "闭盖举瓶近镜并落桌",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+          "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-2/review.json"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "ai_generated_user_confirmed",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        }
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "滴管瓶"
+          ],
+          "basis": "持瓶/取用需匹配包装。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "持品展示"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "闭盖瓶可稳握，桌面可承托"
+        ],
+        "action": "从桌面提起瓶身至脸侧或镜头前，停留后落回桌面。",
+        "transition": "落稳再松手，进入空手讲解。",
+        "end_state": "瓶直立于桌面，双手可继续动作。",
+        "expected_effect": "让观众快速识别产品。",
+        "avoid": [
+          "不遮住人脸和瓶内主体",
+          "不用悬空松手代替落桌"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            0,
+            1.25
+          ],
+          "timing_status": "approximate_4fps_sampled_review"
+        },
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "time_range_seconds": [
+            0,
+            1.5
+          ],
+          "timing_status": "approximate_4fps_sampled_review"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-lift/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-open-dropper",
+      "title": "扶稳瓶身旋开并提起滴管展示",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。 另补充本批用户确认的真人原片参考，见source_evidence各项source_kind。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+          "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-2/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v30/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v30/source.mp4"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。",
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "mixed_ai_and_real_reference",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        },
+        {
+          "date": "2026-11-09",
+          "action": "add_real_source_evidence",
+          "basis": "整批真人入库补充观察；原AI来源和原有适用限制保留，未升级未核实的落滴/语气关系。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "滴管瓶"
+          ],
+          "basis": "持瓶/取用需匹配包装。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "开盖",
+            "取用展示"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "瓶身可由桌面或另一只手稳定承托"
+        ],
+        "action": "扶稳瓶身，另一手旋开顶盖并提起滴管，在瓶口上方或脸侧短暂停留。",
+        "transition": "保留滴管与瓶口位置，准备后续取用。",
+        "end_state": "开瓶和滴管分离，瓶仍有承托。",
+        "expected_effect": "看清取用工具和瓶口；不证明滴数。",
+        "avoid": [
+          "不凭空变盖或断管",
+          "液滴体积与油色需目标产品依据"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            9.5,
+            12.25
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "time_range_seconds": [
+            12,
+            14.25
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v30/source.mp4",
+          "time_range_seconds": [
+            14,
+            19
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-open-dropper/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-palm-dose",
+      "title": "滴管对准掌心并回瓶（落滴与旋紧待核）",
+      "enabled": true,
+      "status": "draft",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。 另补充本批用户确认的真人原片参考，见source_evidence各项source_kind。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+          "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-2/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v09/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v09/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v30/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v30/source.mp4"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。",
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "mixed_ai_and_real_reference",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        },
+        {
+          "date": "2026-11-09",
+          "action": "add_real_source_evidence",
+          "basis": "整批真人入库补充观察；原AI来源和原有适用限制保留，未升级未核实的落滴/语气关系。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "滴管瓶"
+          ],
+          "basis": "持瓶/取用需匹配包装。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "掌心"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "掌心取油",
+            "收回滴管"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "滴管已取出，另一手掌心朝上，瓶可稳定承托"
+        ],
+        "action": "把滴管降到掌心上方，随后收回至瓶口并使顶盖就位。",
+        "transition": "滴管不再占手后，双掌相合。",
+        "end_state": "原片可见顶盖就位；实际滴数、落液与旋紧尚未认证。",
+        "expected_effect": "提供取油到双手操作的衔接意图，完整执行需补清。",
+        "avoid": [
+          "不凭空给出几滴用量",
+          "不把盖就位当旋紧已经验证",
+          "双手搓开前须确认实际有油"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            15,
+            15.75
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "time_range_seconds": [
+            15.25,
+            16.5
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v30/source.mp4",
+          "time_range_seconds": [
+            19,
+            21
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v09/source.mp4",
+          "time_range_seconds": [
+            6,
+            14
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "pending_transfer_continuity",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-palm-dose/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-point",
+      "title": "前倾指示鼻侧与面颊局部",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。 另补充本批用户确认的真人原片参考，见source_evidence各项source_kind。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+          "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-2/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v04/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v04/review.json"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。",
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "mixed_ai_and_real_reference",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        },
+        {
+          "date": "2026-11-09",
+          "action": "add_real_source_evidence",
+          "basis": "整批真人入库补充观察；原AI来源和原有适用限制保留，未升级未核实的落滴/语气关系。"
+        },
+        {
+          "date": "2026-11-09",
+          "action": "correct_real_source_interval",
+          "basis": "原v01/v24为指瓶，改为已细查v04 5–6.5秒前倾指示鼻侧面颊的真人区间。"
+        }
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "本动作在产品已稳定放置或取用完成后执行，不依赖容器形态。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面颊",
+            "鼻侧"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "局部指示"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "未取油或局部状态已明确，手指可见"
+        ],
+        "action": "前倾靠近镜头，以指尖指示鼻侧/面颊后撤开。",
+        "transition": "回到正常交流距离。",
+        "end_state": "局部皮肤不再被手指遮挡。",
+        "expected_effect": "使讨论部位具体可见；这是用前指示，不是涂后验证。",
+        "avoid": [
+          "不声称指示已证明细纹减少",
+          "不改变五官或提亮未涂区域"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            2.75,
+            3.75
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "time_range_seconds": [
+            1.5,
+            3.5
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v04/source.mp4",
+          "time_range_seconds": [
+            5,
+            6.5
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-point/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-rub",
+      "title": "双掌相贴往返搓开",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。 另补充本批用户确认的真人原片参考，见source_evidence各项source_kind。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+          "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-2/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v09/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v09/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v48/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v48/source.mp4"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。",
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "mixed_ai_and_real_reference",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        },
+        {
+          "date": "2026-11-09",
+          "action": "add_real_source_evidence",
+          "basis": "整批真人入库补充观察；原AI来源和原有适用限制保留，未升级未核实的落滴/语气关系。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "本动作在产品已稳定放置或取用完成后执行，不依赖容器形态。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "掌心"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "掌间分布"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "改编时掌心已有依据充分的油量，滴管已安全回瓶"
+        ],
+        "action": "双掌相贴做短幅往返，结束后一起抬向脸部。",
+        "transition": "搓掌跨相邻语义句，抬手衔接脸部。",
+        "end_state": "双手空出、掌面可用于后续接触。",
+        "expected_effect": "展示油在掌间分布的动作，不推断温度或吸收。",
+        "avoid": [
+          "未取油不能空搓假装完成使用",
+          "不为对词把搓掌拆碎"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            15.75,
+            16.75
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "time_range_seconds": [
+            16.5,
+            19.5
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v09/source.mp4",
+          "time_range_seconds": [
+            10,
+            14
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v48/source.mp4",
+          "time_range_seconds": [
+            4,
+            8
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-rub/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-show-palm",
+      "title": "离手露出面部并近镜亮掌收尾",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+          "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-2/review.json"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "ai_generated_user_confirmed",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "本动作在产品已稳定放置或取用完成后执行，不依赖容器形态。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "掌心",
+            "面部"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "使用后展示",
+            "收尾"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "已完成本轮示范，双手可离脸"
+        ],
+        "action": "从面颊撤手，举掌心向镜头短停，保持脸与产品可见，再自然收势。",
+        "transition": "承接推荐或复购语义，不强行新增末尾句。",
+        "end_state": "面部与掌心可见，产品留在桌面。",
+        "expected_effect": "给观众观察空档；亮掌只说明展示了掌面，不能证明不油腻。",
+        "avoid": [
+          "反光不等于吸收速度",
+          "保持首帧真实肤质和已有高光，不做前后伪对比"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            21.25,
+            22.871995
+          ],
+          "timing_status": "approximate_4fps_sampled_review"
+        },
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "time_range_seconds": [
+            23.75,
+            25.773991
+          ],
+          "timing_status": "approximate_4fps_sampled_review"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-show-palm/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-talk-gesture",
+      "title": "产品留桌的张掌竖指讲解",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。 另补充本批用户确认的真人原片参考，见source_evidence各项source_kind。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+          "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-2/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v23/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v23/source.mp4",
+          "performance-library/sources/20261109-ginseng-daily-v29/review.json",
+          "performance-library/sources/20261109-ginseng-daily-v29/source.mp4"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。",
+          "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+          "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+          "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+          "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "mixed_ai_and_real_reference",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        },
+        {
+          "date": "2026-11-09",
+          "action": "add_real_source_evidence",
+          "basis": "整批真人入库补充观察；原AI来源和原有适用限制保留，未升级未核实的落滴/语气关系。"
+        }
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "本动作在产品已稳定放置或取用完成后执行，不依赖容器形态。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "口播强调"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "产品稳定在桌面，空手可动"
+        ],
+        "action": "面向镜头，张掌、竖食指及短暂收手形成轻重变化。",
+        "transition": "视线转向产品，手靠近瓶身。",
+        "end_state": "产品仍原位，完成完整语义段。",
+        "expected_effect": "给讲解留空间并维持交流感。",
+        "avoid": [
+          "不是初瑞雪真人习惯",
+          "不按每个词机械比划"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            3.75,
+            6.75
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "time_range_seconds": [
+            4.5,
+            9.5
+          ],
+          "timing_status": "approximate_4fps_sampled_review",
+          "source_kind": "ai_generated_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v29/source.mp4",
+          "time_range_seconds": [
+            8,
+            16.5
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        },
+        {
+          "source_ref": "performance-library/sources/20261109-ginseng-daily-v23/source.mp4",
+          "time_range_seconds": [
+            20,
+            29
+          ],
+          "timing_status": "approximate_2second_sampled_review",
+          "source_kind": "real_person_user_confirmed"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-talk-gesture/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-towel",
+      "title": "毛巾轻触面部建立洗护场景",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "ai_generated_user_confirmed",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        }
+      ],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "本动作在产品已稳定放置或取用完成后执行，不依赖容器形态。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "面部"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "场景建立"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "毛巾在手边，产品放稳"
+        ],
+        "action": "拿起毛巾接触额头/脸颊并向一侧移开。",
+        "transition": "毛巾放低后前倾指示面部。",
+        "end_state": "脸重新露出，毛巾退出主要展示区域。",
+        "expected_effect": "营造日常护理场景；不证明已完成清洁。",
+        "avoid": [
+          "非必需环节",
+          "不把轻触解释为标准用法或吸干全部水分"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            1.25,
+            2.75
+          ],
+          "timing_status": "approximate_4fps_sampled_review"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-towel/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-20261109-ginseng-xiaoai-turn-bottle",
+      "title": "近镜轻转透明瓶展示瓶内根状物",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-09",
+      "updated_on": "2026-11-09",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。",
+        "source_refs": [
+          "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+          "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "script-library/sources/20261109-ginseng-xiaoai-2/review.json"
+        ],
+        "limitations": [
+          "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+          "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+          "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+          "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+          "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+          "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "source_generation_type": "ai_generated_user_confirmed",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "action": "create",
+          "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+        }
+      ],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "source_category": {
+        "value": "人参油",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "人参油",
+            "面部护理油"
+          ],
+          "basis": "来源品类用户确认；其他品类需另评适配。"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "油状"
+          ],
+          "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "滴管瓶",
+            "透明瓶"
+          ],
+          "basis": "持瓶/取用需匹配包装。"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手"
+          ],
+          "basis": "按抽帧可见部位。"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "内容物展示",
+            "包装展示"
+          ],
+          "basis": "按实际动作目的。"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "瓶已闭合，根状内容物可见，手指不挡主体"
+        ],
+        "action": "举瓶靠近镜头并缓慢变换角度，让瓶内根状物与液体进入视线。",
+        "transition": "收瓶准备扶稳开盖。",
+        "end_state": "瓶保持闭合、可控制，内容物可见。",
+        "expected_effect": "展示瓶内内容物；不据此核实人参种类、质量或油液本色。",
+        "avoid": [
+          "不强制大幅摇晃",
+          "其他不含根状物产品不能虚构人参",
+          "不以瓶内金黄色直接推定滴管内液体颜色"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "source_evidence": [
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+          "time_range_seconds": [
+            6.75,
+            9.5
+          ],
+          "timing_status": "approximate_4fps_sampled_review"
+        },
+        {
+          "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+          "time_range_seconds": [
+            9.5,
+            12
+          ],
+          "timing_status": "approximate_4fps_sampled_review"
+        }
+      ],
+      "acceptance_status": "scoped_method_reference",
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-turn-bottle/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
       "id": "action-legacy-cream-talk-01-finish",
       "title": "展示回稳与结束设计",
       "enabled": true,

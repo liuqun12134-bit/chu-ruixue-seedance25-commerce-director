@@ -1,0 +1,98 @@
+{
+  "source_key": "v52",
+  "original_name": "人参油2.mp4",
+  "sha256": "b5b05c466eb25713177da3c68f249ab97aacd3929aed53a947ef8481f414d9e8",
+  "declared_duration_seconds": 93.669002,
+  "decoded_audio_seconds": 93.6693125,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v52",
+  "family_id": "20261109-ginseng-daily-v52",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 47,
+    "sheets": [
+      "sheet-1.jpg",
+      "sheet-2.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [
+    {
+      "path": "detail-16.jpg",
+      "start_seconds": 16,
+      "end_seconds": 24,
+      "fps": 4
+    }
+  ],
+  "original_timeline": [
+    [
+      0,
+      8,
+      "近镜举瓶"
+    ],
+    [
+      8,
+      16,
+      "瓶悬在圆形灯座上方照亮"
+    ],
+    [
+      16,
+      26,
+      "手背已有浅色膏液，开瓶并将滴管朝手背取油，推抹展示"
+    ],
+    [
+      26,
+      42,
+      "再次提滴管朝手背，回瓶后举近并推开浅色混合物"
+    ],
+    [
+      42,
+      50,
+      "拿纸巾擦手"
+    ],
+    [
+      50,
+      64,
+      "关瓶转瓶近镜"
+    ],
+    [
+      64,
+      78,
+      "灯座透瓶，撤手短暂展示"
+    ],
+    [
+      78,
+      90,
+      "灯座与瓶举起放下轮换"
+    ],
+    [
+      90,
+      93.669,
+      "放下工具，空手手势结束"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "灯座与手背混合质地展示",
+    "outline": "近镜举瓶和灯座看参 → 干燥卡粉问题 → 手背已有浅色膏液，加油后推开 → 擦手 → 原声福利价格库存话题 → 正常光与灯座展示交替；ASR提示粉底液，包装身份未核实",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "另一浅色膏液ASR提示粉底液，具体身份和混用适配未核实",
+    "手背光泽不能直接等同妆效、吸收或配方相容",
+    "背景其他人不计入本人证据"
+  ]
+}

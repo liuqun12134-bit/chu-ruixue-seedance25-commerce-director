@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v26",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜重复掌心取油与单手分区推抹",
+  "summary": "单手持工具与分区接触的衔接 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "黑T灰墙",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "与v04同场景剪辑，不作为独立习惯证据",
+    "用量不清",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "摇转举瓶并开盖",
+    "movement": "摇转举瓶并开盖 → 滴管朝掌心后单手触颊，再次取用 → 单手在两颊、下巴、鼻侧和额头推抹 → 收工具后继续触脸、指示收尾",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "收工具后继续触脸、指示收尾",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v26",
+      "start_seconds": 0,
+      "end_seconds": 8,
+      "context": "黑T灰墙；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "摇转举瓶并开盖",
+      "utterance": "今天啊 山梅刷了 嗯 这样刷了呢 三四四梅 整个脸真的受不了 山梅不能总刷了 一周我觉得大家刷两次",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v26",
+      "start_seconds": 8,
+      "end_seconds": 16,
+      "context": "黑T灰墙；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "滴管朝掌心后单手触颊，再次取用",
+      "utterance": "山梅不能总刷了 一周我觉得大家刷两次 多点 于是 山梅的话 她还是 虽然说她不是去角质 她也不给吊藏皮",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v26",
+      "start_seconds": 16,
+      "end_seconds": 46,
+      "context": "黑T灰墙；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "单手在两颊、下巴、鼻侧和额头推抹",
+      "utterance": "但是她毕竟会让你这个脸 自生生成的这些东西 帮助我们把这个 回去脚抹质给她吃掉 我这个脸的话 现在就刷了几次 每次因为给她卖货 都涂了没有四十分 嗯 给大家两个鲜的话 四五次就好多 会弄 这个油我给大家画上 我自己皮肤 我要觉得有点 就是 过度使弄了 我就会拿油去急救一下 你用其他这种东西都没有弄的 就需要这个油 起来泡一个人身 背份非常好闻",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v26",
+      "start_seconds": 46,
+      "end_seconds": 56.146,
+      "context": "黑T灰墙；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "收工具后继续触脸、指示收尾",
+      "utterance": "背份非常好闻 秋冬的话我会喜欢你不要油 有点油 给它敷一酒 天天早上起来 皮肤就好了 好好好 这角色",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v26/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

@@ -1468,6 +1468,1863 @@
       "movement": "身体略前探，活动手抬起并以食指向画面下方作短指示，随后降低退出脸前。",
       "gaze_expression": "主要看镜头，落手后嘴角略带笑，视线继续与镜头交流。",
       "recovery": "手落回画面下方，身体回到自然近景交流距离。"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v01",
+      "title": "待听审｜持瓶指参、近脸讲解",
+      "summary": "以指示瓶内实物代替只报成分名；产品与脸保持同框。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "绿黑旗袍单人",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "无取油或涂抹，不是使用效果脚本",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v01/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v01"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "双手托瓶、指向瓶内根状物并轻转 → 瓶留脸侧，空手张掌、捏指配合讲解 → 继续持瓶，手指向镜头或下方后收回",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "继续持瓶，手指向镜头或下方后收回"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v02",
+      "title": "待听审｜衣帽间掌心取油、全脸按摩与颈部延伸",
+      "summary": "完整日常护理节奏与下颌颈部衔接；中间容许低头取放。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "白长袖衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "前段另用产品及具体取油量待核",
+        "末段配套白瓶身份未知，不能移作本品标准用法",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v02/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v02"
+      ],
+      "independent_families": 1,
+      "observation_count": 7,
+      "eligible_for_arrangement": false,
+      "movement": "近镜托瓶展示根状物 → 放瓶讲解、双掌贴颊并操作台面物品 → 滴管指向掌心，收工具并搓掌 → 双手上脸推抹 → 低头操作、重新举瓶 → 额头鼻侧两颊轮流推抹，双掌沿下颌/颈侧停留 → 补充讲解，举白色瓶和人参油同框",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "补充讲解，举白色瓶和人参油同框"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v03",
+      "title": "待听审｜侧坐多轮取油与面部分区慢推",
+      "summary": "单手局部与双手分区交替，不全程机械拍脸。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "紫色睡衣桌边侧坐",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "眼周实际适用性需目标产品确认",
+        "多次取油不能推导标准剂量",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v03/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v03"
+      ],
+      "independent_families": 1,
+      "observation_count": 6,
+      "eligible_for_arrangement": false,
+      "movement": "托瓶近镜、转瓶看根状物 → 旋开提管至掌心，回瓶 → 双手额头两颊推抹，单手沿鼻侧和下颌细推 → 再次取油至掌心并搓开 → 继续面颊额头局部推抹，近镜停留 → 再次举瓶后放低，露出面部收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "再次举瓶后放低，露出面部收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v04",
+      "title": "待听审｜掌心落油、单手全脸与近镜展示",
+      "summary": "单手跨区域连续涂抹，后段侧脸留出观察时间。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "黑T恤灰墙",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "中间剪辑/构图变化，不当固定光线前后对照",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v04/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v04"
+      ],
+      "independent_families": 1,
+      "observation_count": 5,
+      "eligible_for_arrangement": false,
+      "movement": "闭盖托瓶近镜 → 开瓶并提管至掌心 → 单手面颊鼻侧额头下巴推抹 → 回瓶、再举瓶展示 → 画面构图变化后近镜侧脸、触颊和指腹局部推抹",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "画面构图变化后近镜侧脸、触颊和指腹局部推抹"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v05",
+      "title": "待听审｜脸侧持瓶与前后距离变化",
+      "summary": "持品口播通过远近与视线变化丰富画面。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "绿黑旗袍单人",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "无实际使用",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v05/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v05"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "从空手进入举瓶、转动瓶身 → 瓶在脸侧升降前后移动，交替看瓶与镜头 → 收瓶、前倾面向镜头讲解",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "收瓶、前倾面向镜头讲解"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v06",
+      "title": "待听审｜半躺持瓶、局部指示与额头推抹",
+      "summary": "生活化半躺视角、额头局部操作。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "紫睡衣床上半躺",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "实际滴落与滴管安置不全",
+        "此段无全脸完整用法",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v06/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v06"
+      ],
+      "independent_families": 1,
+      "observation_count": 4,
+      "eligible_for_arrangement": false,
+      "movement": "瓶在脸侧讲解，轻转展示 → 指尖触鼻侧、滴管靠额头，随后放低 → 手指横向推抹额头并接触面颊 → 近镜指示鼻侧和额头，继续交流",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "近镜指示鼻侧和额头，继续交流"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v07",
+      "title": "待听审｜喷雾准备、透光看参和全脸推抹",
+      "summary": "内容物展示与实际使用分成两段；手部操作跨多句。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "卡通睡衣衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "喷雾身份及搭配条件待确认",
+        "透光改变颜色，不能作为油液本色",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v07/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v07"
+      ],
+      "independent_families": 1,
+      "observation_count": 6,
+      "eligible_for_arrangement": false,
+      "movement": "持瓶触颊开场，托底转瓶 → 另拿喷雾对面部喷洒、双手轻按 → 举人参油并用手机灯从瓶底照亮 → 放手机、提管取用、搓掌 → 两颊鼻侧额头持续推抹与按压，穿插离手 → 放低双手讲解、捏指和指示面颊鼻侧，指向下方收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "放低双手讲解、捏指和指示面颊鼻侧，指向下方收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v08",
+      "title": "待听审｜摇转瓶后手机底光展示人参",
+      "summary": "通过透光展示瓶内结构，给产品介绍一个可见依据。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "红花旗袍衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "无使用",
+        "亮度和油色受手机补光影响",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v08/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v08"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "托瓶指参、转瓶和短幅摇动 → 手机灯置瓶底，前后轻移展示根状物 → 看向桌面并继续持瓶讲解",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "看向桌面并继续持瓶讲解"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v09",
+      "title": "待听审｜掌心取油、全脸按压和脸侧持品",
+      "summary": "先完成操作，再让瓶与皮肤展示同框。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "白雏菊睡衣红发夹衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "蓝盒不是本品，作用未确认",
+        "重复按摩不证明吸收速度",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v09/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v09"
+      ],
+      "independent_families": 1,
+      "observation_count": 7,
+      "eligible_for_arrangement": false,
+      "movement": "举瓶展示后放低 → 滴管至掌心、放工具、搓掌 → 单手额头起步转双手全脸；期间出现蓝色配套盒 → 举瓶后放下继续讲解 → 再次双手额头两颊鼻侧推抹按压 → 单手面颊、下巴和鼻侧展示 → 瓶举到脸侧，另一手指示鼻侧面颊收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "瓶举到脸侧，另一手指示鼻侧面颊收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v10",
+      "title": "待听审｜手机底光展示后手背试油",
+      "summary": "手背试油给穿妆出镜提供替代面部操作的路线。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "浅金旗袍衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "落滴数量待核",
+        "光泽不等于真实吸收或改善",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v10/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v10"
+      ],
+      "independent_families": 1,
+      "observation_count": 5,
+      "eligible_for_arrangement": false,
+      "movement": "手机底光照瓶、翻转观察根状物 → 开瓶提管对准手背 → 指腹在手背推匀，举近手背展示 → 合掌、竖指和空手讲解 → 举瓶脸侧后手指向镜头收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "举瓶脸侧后手指向镜头收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v11",
+      "title": "待听审｜油与面膜组合演示、分层贴合及局部按摩",
+      "summary": "长流程可分为油前打底、贴膜与后续按摩；展示完成状态。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "卡通睡衣衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "约84秒后面膜状态和剪辑省略待细查",
+        "不确认油膜搭配为目标产品用法",
+        "眼周操作适用性待确认",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v11/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v11"
+      ],
+      "independent_families": 1,
+      "observation_count": 8,
+      "eligible_for_arrangement": false,
+      "movement": "手机照瓶，油与粉色面膜袋同框 → 放下工具、讲解、开面膜袋和台面取用 → 先单手推抹面颊额头下巴 → 从袋中取出展开面膜，贴到脸上并揭去外层网状/承托片 → 沿鼻翼下巴面颊抚平贴合 → 低头拿袋/取用，手指在面部局部操作 → 指尖眼下鼻侧及双掌面部按压 → 离手讲解、侧看、指向镜头或下方",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "离手讲解、侧看、指向镜头或下方"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v12",
+      "title": "待听审｜透光人参展示、手背与掌心双部位试用",
+      "summary": "手背展示与掌心肤感讲解并用，收尾回产品。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "浅金旗袍衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "双部位示范并非剂量标准",
+        "实际取油与面部接触的衔接待核",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v12/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v12"
+      ],
+      "independent_families": 1,
+      "observation_count": 6,
+      "eligible_for_arrangement": false,
+      "movement": "手机底光照瓶、转瓶或短摇 → 提滴管到手背并推抹，手背举近 → 提管至掌心，搓掌 → 触颊和空手讲解 → 再次闭盖转瓶透光展示 → 脸侧持瓶，指唇侧与手指强调收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "脸侧持瓶，指唇侧与手指强调收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v13",
+      "title": "待听审｜双人场景中的手机透光持瓶讲解",
+      "summary": "只提取前景初瑞雪的托瓶、指示与看镜头过程。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "绿黑旗袍、后方另一女性",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "身后人物不登记为初瑞雪表现",
+        "同场多人声未分离",
+        "无取油使用",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v13/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v13"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "托瓶近镜，与身后人短暂交流 → 手机底光照瓶，转瓶和前后移动展示根状物 → 放瓶后面向镜头交流收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "放瓶后面向镜头交流收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v14",
+      "title": "待听审｜喷雾精华后用油并贴膜的完整护理",
+      "summary": "多产品流程中把人参油的取用与完成状态独立标明。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "白雏菊长袖白桌",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "前段其他瓶不能误认人参油",
+        "取下面膜与实际停留时长不全",
+        "不作为目标产品搭配规则",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v14/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v14"
+      ],
+      "independent_families": 1,
+      "observation_count": 7,
+      "eligible_for_arrangement": false,
+      "movement": "双掌触脸、喷蓝色喷雾 → 使用另一透明滴管瓶、搓掌和全脸推抹 → 人参油举瓶、提管至掌心、搓开 → 双手全脸按压与讲解交替 → 展开并贴合面膜，沿边缘整理 → 面膜上调整下巴鼻翼额头并按压 → 面膜已不明显，拿纸巾擦手、局部触脸和讲解",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "面膜已不明显，拿纸巾擦手、局部触脸和讲解"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v15",
+      "title": "待听审｜床上半躺持瓶轻摇与脸侧讲解",
+      "summary": "同一持品条件下通过距离和角度区分讲解层次。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "浅紫上衣软包床头",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "全程闭盖，无使用结果",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v15/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v15"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "近镜悬提瓶、轻摇和转瓶 → 收至脸侧或胸前，指脸并继续交流 → 再次举瓶靠近镜头，远近升降变化，末尾手指朝下",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "再次举瓶靠近镜头，远近升降变化，末尾手指朝下"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v16",
+      "title": "待听审｜两轮掌心取油、全脸使用与换光线展示",
+      "summary": "使用后换视角展示的构图方式。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "白卡通皇冠T恤",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "移动镜头导致光线改变，不能当真实肤色前后比较",
+        "第一轮取油量不清",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v16/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v16"
+      ],
+      "independent_families": 1,
+      "observation_count": 6,
+      "eligible_for_arrangement": false,
+      "movement": "持瓶介绍并摇转 → 放低取用、搓掌、双手上脸 → 提管至掌心，回瓶后全脸推抹 → 局部推抹与空手讲解、重新举瓶 → 放下产品，面对镜头交流 → 拿起摄像设备移至另一光线环境，转脸近镜展示",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "拿起摄像设备移至另一光线环境，转脸近镜展示"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v17",
+      "title": "待听审｜油打底、面膜袋内加油、贴膜和余液展示",
+      "summary": "面膜打开、加油、揉袋、展开、揭外层等因果可独立检索。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "粉白蕾丝袖湿发",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "油与面膜混用适配性未经产品确认",
+        "液体数量和膜布去留存在遮挡/省略",
+        "不是三分钟等比压缩成短片的模板",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v17/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v17"
+      ],
+      "independent_families": 1,
+      "observation_count": 11,
+      "eligible_for_arrangement": false,
+      "movement": "倒持/倾斜透明瓶展示内容物 → 已有油的手掌搓开并近镜展示 → 额头、两颊、鼻侧推抹 → 打开面膜袋、举瓶说明 → 滴管伸向打开的面膜袋，随后回瓶/收工具 → 手在袋外揉按后单手触脸 → 取出展开面膜并举到脸前贴上 → 揭下外层承托片，沿额头鼻翼下巴抚平 → 整理膜布、取用余液并局部按压；实际状态需细查 → 袋口倒向掌心、展示余液并触脸 → 滴管对掌心，继续额头鼻侧面颊操作",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "滴管对掌心，继续额头鼻侧面颊操作"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v18",
+      "title": "待听审｜浴室喷雾准备、用油、纸巾擦手收尾",
+      "summary": "用后擦手再持品的自然收尾，站姿可用。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "白雏菊长袖浴室站姿",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "喷雾身份未知",
+        "眼周话术不能代替实际适用性",
+        "擦手不证明完全吸收",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v18/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v18"
+      ],
+      "independent_families": 1,
+      "observation_count": 7,
+      "eligible_for_arrangement": false,
+      "movement": "举瓶、空手讲解 → 另拿喷雾闭眼喷洒并放下 → 拿人参油取用到掌心，搓掌 → 双手两颊鼻侧全脸推抹 → 拿纸巾擦手，继续讲解 → 再次举瓶展示后放低 → 手指指示眼周/面颊、张掌和擦手讲解",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "手指指示眼周/面颊、张掌和擦手讲解"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v21",
+      "title": "待听审｜两款瓶轮换对照讲解后回人参油",
+      "summary": "实体轮换辅助区分两种产品。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "黑上衣长发山水墙",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "另一瓶身份/事实未核实，不借用其卖点",
+        "无使用过程",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v21/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v21"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "人参油瓶脸侧开场 → 换成深色方形瓶介绍 → 回到人参油，近镜转瓶与脸侧停留",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "回到人参油，近镜转瓶与脸侧停留"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v22",
+      "title": "待听审｜造型中透光看参、脸侧持瓶说明",
+      "summary": "透光结构展示与正常光线包装展示分开。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "白字母毛衣、他人整理头发",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "身后整理头发者不属于本人动作",
+        "不自动在后续成片加入其他人",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v22/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v22"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "手机底光照瓶，转动、短幅摇瓶 → 撤底光后托瓶指参、脸侧持稳 → 放低瓶继续讲解",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "放低瓶继续讲解"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v23",
+      "title": "待听审｜横持瓶展示后空手脸侧交流",
+      "summary": "横向转瓶是直立举品之外的展示变体。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "绿黑旗袍造型中",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "无取用",
+        "造型师动作和声音不属于初瑞雪本人证据",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v23/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v23"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "两手横持闭盖瓶，缓慢滚转看内部 → 放瓶，手背托近下巴、侧看后回镜头 → 张开五指、收手、脸侧小幅手势收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "张开五指、收手、脸侧小幅手势收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v24",
+      "title": "待听审｜指瓶底与捏指讲解、近脸定格",
+      "summary": "捏指、指示与产品距离变化形成讲解层次。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "浅灰蓝上衣衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "手势不能直接解释为具体用量",
+        "无使用效果",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v24/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v24"
+      ],
+      "independent_families": 1,
+      "observation_count": 4,
+      "eligible_for_arrangement": false,
+      "movement": "持瓶并指示瓶底/内容物 → 双手指尖捏合示意后收回 → 瓶留脸侧，张掌和捏指交替讲解 → 瓶向前展示再靠脸侧停留",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "瓶向前展示再靠脸侧停留"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v26",
+      "title": "待听审｜重复掌心取油与单手分区推抹",
+      "summary": "单手持工具与分区接触的衔接 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "黑T灰墙",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "与v04同场景剪辑，不作为独立习惯证据",
+        "用量不清",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v26/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v26"
+      ],
+      "independent_families": 1,
+      "observation_count": 4,
+      "eligible_for_arrangement": false,
+      "movement": "摇转举瓶并开盖 → 滴管朝掌心后单手触颊，再次取用 → 单手在两颊、下巴、鼻侧和额头推抹 → 收工具后继续触脸、指示收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "收工具后继续触脸、指示收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v28",
+      "title": "待听审｜喷雾话题转人参油的局部演示片段",
+      "summary": "多产品讲解如何转入演示 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "白蝴蝶T活动现场",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "未见完整使用和收尾",
+        "照片不是经核验的功效证据",
+        "眼周适用性未确认",
+        "身后其他人不计本人",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v28/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v28"
+      ],
+      "independent_families": 1,
+      "observation_count": 5,
+      "eligible_for_arrangement": false,
+      "movement": "举蓝白喷雾瓶、指额头 → 人参油举瓶、指面颊 → 展示皮肤照片并回喷雾讲解 → 打开人参油 → 持滴管，指尖在眼下附近操作，片段结束",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "持滴管，指尖在眼下附近操作，片段结束"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v29",
+      "title": "待听审｜飞机座位空手口播与竖指强调",
+      "summary": "无产品时的生活场景口播动作 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "白卡通T飞机座位",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "无产品和使用过程",
+        "台词语气未听审",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v29/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v29"
+      ],
+      "independent_families": 1,
+      "observation_count": 2,
+      "eligible_for_arrangement": false,
+      "movement": "整理头发、手移至后脑 → 向镜头竖食指后下指、回收",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "向镜头竖食指后下指、回收"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v30",
+      "title": "待听审｜指尖小区域取用与面部推抹",
+      "summary": "小区域指尖演示 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "灰针织上衣置物架",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "实际滴落及滴数不能从抽帧确定",
+        "不可推导眼部适用",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v30/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v30"
+      ],
+      "independent_families": 1,
+      "observation_count": 5,
+      "eligible_for_arrangement": false,
+      "movement": "脸侧举瓶、指瓶底和鼻侧 → 打开瓶，滴管靠近手掌或指尖 → 指尖在面颊鼻侧下巴涂抹，间隔取用 → 放低工具继续局部推抹 → 空手讲解收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "空手讲解收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v31",
+      "title": "待听审｜其他护理液上脸后转人参油搭配讲解",
+      "summary": "区分前段护理液与末尾人参油 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "紫雏菊上衣衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "粉瓶身份未知，不是已确认的人参油取用",
+        "人参油使用路线不完整",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v31/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v31"
+      ],
+      "independent_families": 1,
+      "observation_count": 4,
+      "eligible_for_arrangement": false,
+      "movement": "粉色长瓶倒向掌心 → 搓掌和双手全脸推抹 → 再次展示粉色长瓶并触脸 → 空手交流，人参油在末尾入镜",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "空手交流，人参油在末尾入镜"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v33",
+      "title": "待听审｜机场行走中指脸与捏指讲解",
+      "summary": "移动生活场景口播 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "白卡通T机场大厅",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "无持品使用",
+        "镜头光线变化不作效果比较",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v33/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v33"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "竖指和指示鼻侧眼下 → 边走边侧看、捏指朝镜头 → 换大厅角度继续指脸和手势",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "换大厅角度继续指脸和手势"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v35",
+      "title": "待听审｜闭盖倒持展示与指脸讲解",
+      "summary": "闭盖倒持看内容物 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "白字母毛衣红顶",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "旁人动作排除",
+        "必须确认闭盖",
+        "无使用",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v35/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v35"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "斜持或倒持瓶、指眼下鼻侧 → 直立和倒持瓶交替靠脸 → 放低产品",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "放低产品"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v36",
+      "title": "待听审｜机场行走脸侧持瓶口播",
+      "summary": "移动口播中的持品稳定 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "白字母毛衣机场",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "无使用过程",
+        "移动曝光不作效果证据",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v36/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v36"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "举瓶脸侧、竖指后放低 → 边走边在脸侧倾斜和改变瓶距离 → 放低瓶并侧看",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "放低瓶并侧看"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v38",
+      "title": "待听审｜近脸横转倒持展示瓶内结构",
+      "summary": "闭盖瓶多角度展示 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "紫睡衣衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "不开盖、不上脸",
+        "转瓶与其他同场片段不算独立习惯",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v38/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v38"
+      ],
+      "independent_families": 1,
+      "observation_count": 4,
+      "eligible_for_arrangement": false,
+      "movement": "瓶近镜，指瓶底 → 脸侧直立与倒持交替 → 横向纵向转瓶 → 脸侧持续持瓶和小幅转角",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "脸侧持续持瓶和小幅转角"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v40",
+      "title": "待听审｜用油打底、袋内加油、贴膜后持品",
+      "summary": "贴膜后的状态保持与回到产品 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "白长袖深色柜架",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "混用适配未确认",
+        "省略咬袋开包动作，不推荐复用",
+        "剪辑时长不是敷膜时长",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v40/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v40"
+      ],
+      "independent_families": 1,
+      "observation_count": 10,
+      "eligible_for_arrangement": false,
+      "movement": "举瓶、滴管朝掌心、搓掌 → 上脸推抹、间隔举瓶 → 打开蓝白面膜袋 → 滴管朝袋口，回瓶后重复 → 揉拍袋外并取膜 → 展开面膜并贴上 → 沿额头鼻翼面颊下巴整理膜布 → 手掌和颈部手势 → 保留面膜，举瓶近镜 → 伸手移镜头，末尾突变角度",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "伸手移镜头，末尾突变角度"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v41",
+      "title": "待听审｜底光透瓶的直播短讲解",
+      "summary": "底光衬托瓶内结构 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "黑白条纹开衫花卉背景",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "光源工具身份不明",
+        "无使用",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v41/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v41"
+      ],
+      "independent_families": 1,
+      "observation_count": 2,
+      "eligible_for_arrangement": false,
+      "movement": "底部照亮瓶，摇转 → 脸侧持瓶持续交流",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "脸侧持瓶持续交流"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v42",
+      "title": "待听审｜机场移动持瓶与横转说明",
+      "summary": "移动场景的展示距离变化 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "白字母毛衣机场",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "与同造型机场素材可能同拍摄",
+        "无使用",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v42/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v42"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "脸侧斜持横转瓶 → 行走中持瓶讲解 → 地点视角变化，瓶在胸前脸侧轮换",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "地点视角变化，瓶在胸前脸侧轮换"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v43",
+      "title": "待听审｜机场彩光环境近脸持瓶",
+      "summary": "厚外套出行场景持品 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "白羊羔绒外套机场",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "彩光变化不能当肤色效果",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v43/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v43"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "瓶移至脸前近镜 → 边走边脸侧持品 → 近镜举瓶和轻微转头",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "近镜举瓶和轻微转头"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v44",
+      "title": "待听审｜候机场景举瓶轻摇与视线回转",
+      "summary": "口播中自然收放产品 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "粉开衫机场候机区",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "无使用",
+        "语言动作对应待听审",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v44/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v44"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "脸侧举瓶短幅上下摇 → 放低举起交替，视线朝旁边 → 再次举瓶停在脸侧",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "再次举瓶停在脸侧"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v45",
+      "title": "待听审｜多轮单手全脸推抹与近镜指颊",
+      "summary": "完整单手分区演示及近镜收尾 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "黑T灰墙湿发",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "与v04/v26同场景，不作为独立习惯",
+        "重复用量未知",
+        "皮肤反光不证明吸收",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v45/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v45"
+      ],
+      "independent_families": 1,
+      "observation_count": 6,
+      "eligible_for_arrangement": false,
+      "movement": "近镜举瓶转瓶后开盖 → 滴管朝掌心和单手触颊交替 → 单手面颊鼻侧额头推开 → 指腹沿口周下巴和面颊推抹 → 再举瓶取用后触颊口周 → 放低工具、靠近镜头指面颊",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "放低工具、靠近镜头指面颊"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v47",
+      "title": "待听审｜机场直接持滴管靠脸演示与举瓶",
+      "summary": "出行现场的单手使用节奏 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "白字母毛衣机场候机",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "滴管实际接触/滴落需细查",
+        "不默认推荐滴管直接碰脸",
+        "眼周安全范围未确认",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v47/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v47"
+      ],
+      "independent_families": 1,
+      "observation_count": 6,
+      "eligible_for_arrangement": false,
+      "movement": "滴管靠近额头和面颊 → 单手上脸后举瓶，再次提管 → 单手面颊额头鼻侧推抹 → 持瓶与单手触脸交替 → 脸颊和下巴颈侧推抹 → 举瓶至脸侧收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "举瓶至脸侧收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v48",
+      "title": "待听审｜全脸用油、贴膜揭外层与擦手收尾",
+      "summary": "揭外层的动作次序和擦手收尾 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "白雏菊短袖白桌",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "后段膜布去留不够清楚",
+        "不按剪辑长度制定敷膜时间",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v48/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v48"
+      ],
+      "independent_families": 1,
+      "observation_count": 8,
+      "eligible_for_arrangement": false,
+      "movement": "举瓶、掌心取用、搓开 → 双手全脸推抹 → 开袋准备并继续触脸 → 展开面膜贴到脸上 → 揭去外层承托片并整理 → 沿下巴鼻侧面颊按压整理 → 取纸巾擦手 → 继续局部触脸、纸巾手势，瓶回桌面",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "继续局部触脸、纸巾手势，瓶回桌面"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v49",
+      "title": "待听审｜卧床持瓶转为空手交流",
+      "summary": "卧床产品展示到空手的过渡 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "白睡衣软包床头",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "无取用上脸",
+        "已有光泽不是本片前后效果",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v49/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v49"
+      ],
+      "independent_families": 1,
+      "observation_count": 3,
+      "eligible_for_arrangement": false,
+      "movement": "躺姿瓶在脸侧和眼前倾斜停留 → 放低瓶、抬手整理发顶 → 空手口播、手放发顶和短暂竖指",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "空手口播、手放发顶和短暂竖指"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v50",
+      "title": "待听审｜手机透光展示后两瓶比较",
+      "summary": "透光结构、正常外观、两产品比较三层次 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "talk"
+      ],
+      "tags": [
+        "人参油",
+        "浅蓝上衣衣帽间",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "蓝瓶身份和属性需核实",
+        "两瓶不互相借用功效",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v50/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v50"
+      ],
+      "independent_families": 1,
+      "observation_count": 4,
+      "eligible_for_arrangement": false,
+      "movement": "手机底光照瓶转动 → 撤光，正常光持瓶近脸 → 另举蓝色渐变瓶，与人参油交替或同框 → 放瓶后竖指讲解",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "放瓶后竖指讲解"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v51",
+      "title": "待听审｜直播透光、手部质地演示与多瓶讲解",
+      "summary": "瓶内展示到手部演示再回持品的长直播结构 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "黑西装红色直播背景",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "旁人台词动作须分开",
+        "多瓶促销内容不迁移为当前活动",
+        "手背浅色膏液与油混合，ASR提示粉底液，另一产品包装身份和混用适配未核实。",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v51/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v51"
+      ],
+      "independent_families": 1,
+      "observation_count": 9,
+      "eligible_for_arrangement": false,
+      "movement": "近镜举瓶转瓶 → 手机底光照瓶 → 开瓶、滴管朝掌心并搓抹 → 另一黑色泵头瓶朝手背取浅色膏液，随后举近手背推抹；不是已确认喷雾 → 纸巾擦手、回收工具 → 多瓶摆桌，转头互动和展示印刷卡 → 旁人举瓶讲解，初瑞雪转头或听 → 本人举指和持瓶讲解 → 旁人再次举瓶，本人桌前交流 → 本人举两瓶、手机底光再展示 → 持瓶互动收尾",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "持瓶互动收尾"
+    },
+    {
+      "id": "performance-20261109-ginseng-daily-v52",
+      "title": "待听审｜灯座透瓶、手背混合膏液推抹与纸巾收尾",
+      "summary": "独立灯座底光与手背底妆搭配演示的组合；包装身份待核。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+      "enabled": true,
+      "modes": [
+        "use"
+      ],
+      "tags": [
+        "人参油",
+        "白礼服珍珠项链直播",
+        "抽帧观察"
+      ],
+      "expression": {
+        "status": "pending",
+        "intent": null,
+        "tone_tags": [],
+        "keywords": [],
+        "paraphrases": [],
+        "exclusions": [],
+        "placement": null,
+        "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+      },
+      "evidence_status": "example",
+      "preconditions": [
+        "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+      ],
+      "avoid": [
+        "另一浅色膏液ASR提示粉底液，具体身份和混用适配未核实",
+        "手背光泽不能直接等同妆效、吸收或配方相容",
+        "背景其他人不计入本人证据",
+        "不得把待听审候选当核实的人物习惯。"
+      ],
+      "path": "entries/performance-20261109-ginseng-daily-v52/record.json",
+      "source_ids": [
+        "20261109-ginseng-daily-v52"
+      ],
+      "independent_families": 1,
+      "observation_count": 9,
+      "eligible_for_arrangement": false,
+      "movement": "近镜举瓶 → 瓶悬在圆形灯座上方照亮 → 手背已有浅色膏液，开瓶并将滴管朝手背取油，推抹展示 → 再次提滴管朝手背，回瓶后举近并推开浅色混合物 → 拿纸巾擦手 → 关瓶转瓶近镜 → 灯座透瓶，撤手短暂展示 → 灯座与瓶举起放下轮换 → 放下工具，空手手势结束",
+      "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+      "recovery": "放下工具，空手手势结束"
     }
   ]
 }

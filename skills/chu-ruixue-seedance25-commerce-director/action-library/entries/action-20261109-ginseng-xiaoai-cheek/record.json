@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261109-ginseng-xiaoai-cheek",
+  "title": "持滴管旁侧的单颊推抹（取油衔接待核）",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。",
+    "source_refs": [
+      "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+      "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+      "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+      "script-library/sources/20261109-ginseng-xiaoai-2/review.json"
+    ],
+    "limitations": [
+      "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+      "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+      "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+      "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+      "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+      "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "source_generation_type": "ai_generated_user_confirmed",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "approved_product_ids": [],
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "人参油",
+        "面部护理油"
+      ],
+      "basis": "来源品类用户确认；其他品类需另评适配。"
+    },
+    "texture": {
+      "mode": "constrained",
+      "values": [
+        "油状"
+      ],
+      "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+    },
+    "packaging": {
+      "mode": "constrained",
+      "values": [
+        "滴管瓶"
+      ],
+      "basis": "持瓶/取用需匹配包装。"
+    },
+    "body_part": {
+      "mode": "constrained",
+      "values": [
+        "面颊",
+        "下颌"
+      ],
+      "basis": "按抽帧可见部位。"
+    },
+    "purpose": {
+      "mode": "constrained",
+      "values": [
+        "局部涂抹"
+      ],
+      "basis": "按实际动作目的。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "改编时必须已确认油已到指腹或面颊；原片此项待核",
+      "开瓶安全承托"
+    ],
+    "action": "一手保留滴管于旁侧，另一手指腹沿面颊和下颌推抹。",
+    "transition": "手从面部移开，准备掌心取油。",
+    "end_state": "单侧脸颊完成可见接触，滴管仍可追踪。",
+    "expected_effect": "仅借用单手推抹路线；原片落油链条不足，不当完整滴油上脸示范。",
+    "avoid": [
+      "不得把滴管悬停等同落油",
+      "不能省略取油原因",
+      "不得把近眼操作自动当适宜用法"
+    ]
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false,
+  "source_evidence": [
+    {
+      "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+      "time_range_seconds": [
+        12.25,
+        15
+      ],
+      "timing_status": "approximate_4fps_sampled_review"
+    },
+    {
+      "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+      "time_range_seconds": [
+        14.25,
+        15.25
+      ],
+      "timing_status": "approximate_4fps_sampled_review"
+    }
+  ],
+  "acceptance_status": "pending_transfer_continuity"
+}

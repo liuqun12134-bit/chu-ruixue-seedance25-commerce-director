@@ -1,0 +1,633 @@
+{
+  "source_sha256": "224ed12a2477a420cd3da8a65d1120fb97d4acb669f29e4b3e7d33124ad0e695",
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "model": "faster-whisper-small-local-int8",
+  "decoded_seconds": 27.5170625,
+  "segments": [
+    {
+      "start": 0.5000000000000001,
+      "end": 2.44,
+      "text": "人家强烈推荐咱家人身有",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 0.5000000000000001,
+          "end": 0.84,
+          "text": "人",
+          "probability": 0.24100372195243835
+        },
+        {
+          "start": 0.84,
+          "end": 0.94,
+          "text": "家",
+          "probability": 0.8818396329879761
+        },
+        {
+          "start": 0.94,
+          "end": 1.12,
+          "text": "强",
+          "probability": 0.6804632842540741
+        },
+        {
+          "start": 1.12,
+          "end": 1.26,
+          "text": "烈",
+          "probability": 0.8174839317798615
+        },
+        {
+          "start": 1.26,
+          "end": 1.42,
+          "text": "推",
+          "probability": 0.9424691796302795
+        },
+        {
+          "start": 1.42,
+          "end": 1.58,
+          "text": "荐",
+          "probability": 0.9106460809707642
+        },
+        {
+          "start": 1.58,
+          "end": 1.82,
+          "text": "咱",
+          "probability": 0.5697811394929886
+        },
+        {
+          "start": 1.82,
+          "end": 1.96,
+          "text": "家",
+          "probability": 0.9874423146247864
+        },
+        {
+          "start": 1.96,
+          "end": 2.1,
+          "text": "人",
+          "probability": 0.991992712020874
+        },
+        {
+          "start": 2.1,
+          "end": 2.26,
+          "text": "身",
+          "probability": 0.5714673399925232
+        },
+        {
+          "start": 2.26,
+          "end": 2.44,
+          "text": "有",
+          "probability": 0.8360325694084167
+        }
+      ]
+    },
+    {
+      "start": 3.2,
+      "end": 5.12,
+      "text": "人家有代犯的脸干嘛",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 3.2,
+          "end": 3.54,
+          "text": "人",
+          "probability": 0.4158705472946167
+        },
+        {
+          "start": 3.54,
+          "end": 3.72,
+          "text": "家",
+          "probability": 0.3223764896392822
+        },
+        {
+          "start": 3.72,
+          "end": 3.8,
+          "text": "有",
+          "probability": 0.8768506050109863
+        },
+        {
+          "start": 3.8,
+          "end": 3.94,
+          "text": "代",
+          "probability": 0.255842000246048
+        },
+        {
+          "start": 3.94,
+          "end": 4.08,
+          "text": "犯",
+          "probability": 0.6482864618301392
+        },
+        {
+          "start": 4.08,
+          "end": 4.24,
+          "text": "的",
+          "probability": 0.953789234161377
+        },
+        {
+          "start": 4.24,
+          "end": 4.38,
+          "text": "脸",
+          "probability": 0.9786502122879028
+        },
+        {
+          "start": 4.38,
+          "end": 4.58,
+          "text": "干",
+          "probability": 0.779538631439209
+        },
+        {
+          "start": 4.58,
+          "end": 5.12,
+          "text": "嘛",
+          "probability": 0.49530690908432007
+        }
+      ]
+    },
+    {
+      "start": 5.12,
+      "end": 6.46,
+      "text": "干皮的最爱",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 5.12,
+          "end": 5.76,
+          "text": "干",
+          "probability": 0.5959498286247253
+        },
+        {
+          "start": 5.76,
+          "end": 5.94,
+          "text": "皮",
+          "probability": 0.7907930016517639
+        },
+        {
+          "start": 5.94,
+          "end": 6.1,
+          "text": "的",
+          "probability": 0.5400554537773132
+        },
+        {
+          "start": 6.1,
+          "end": 6.24,
+          "text": "最",
+          "probability": 0.9767892956733704
+        },
+        {
+          "start": 6.24,
+          "end": 6.46,
+          "text": "爱",
+          "probability": 0.953629195690155
+        }
+      ]
+    },
+    {
+      "start": 7.16,
+      "end": 8.76,
+      "text": "刚才采耳朵睡了一觉",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 7.16,
+          "end": 7.5,
+          "text": "刚",
+          "probability": 0.7847428321838379
+        },
+        {
+          "start": 7.5,
+          "end": 7.7,
+          "text": "才",
+          "probability": 0.9381659626960754
+        },
+        {
+          "start": 7.7,
+          "end": 8.04,
+          "text": "采",
+          "probability": 0.6294658929109573
+        },
+        {
+          "start": 8.04,
+          "end": 8.16,
+          "text": "耳",
+          "probability": 0.8027637302875519
+        },
+        {
+          "start": 8.16,
+          "end": 8.36,
+          "text": "朵",
+          "probability": 0.2609521225094795
+        },
+        {
+          "start": 8.36,
+          "end": 8.48,
+          "text": "睡",
+          "probability": 0.026657693088054657
+        },
+        {
+          "start": 8.48,
+          "end": 8.54,
+          "text": "了",
+          "probability": 0.92454594373703
+        },
+        {
+          "start": 8.54,
+          "end": 8.62,
+          "text": "一",
+          "probability": 0.6283848881721497
+        },
+        {
+          "start": 8.62,
+          "end": 8.76,
+          "text": "觉",
+          "probability": 0.700151264667511
+        }
+      ]
+    },
+    {
+      "start": 9.48,
+      "end": 11.96,
+      "text": "在我自己公司办公室采耳朵过来",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 9.48,
+          "end": 9.82,
+          "text": "在",
+          "probability": 0.5743907690048218
+        },
+        {
+          "start": 9.82,
+          "end": 9.9,
+          "text": "我",
+          "probability": 0.9960756897926331
+        },
+        {
+          "start": 9.9,
+          "end": 10.04,
+          "text": "自己",
+          "probability": 0.9896880984306335
+        },
+        {
+          "start": 10.04,
+          "end": 10.26,
+          "text": "公",
+          "probability": 0.9032737016677856
+        },
+        {
+          "start": 10.26,
+          "end": 10.42,
+          "text": "司",
+          "probability": 0.9915984869003296
+        },
+        {
+          "start": 10.42,
+          "end": 10.58,
+          "text": "办",
+          "probability": 0.9168192148208618
+        },
+        {
+          "start": 10.58,
+          "end": 10.72,
+          "text": "公",
+          "probability": 0.9692844152450562
+        },
+        {
+          "start": 10.72,
+          "end": 10.92,
+          "text": "室",
+          "probability": 0.9988297820091248
+        },
+        {
+          "start": 10.92,
+          "end": 11.24,
+          "text": "采",
+          "probability": 0.9082742929458618
+        },
+        {
+          "start": 11.24,
+          "end": 11.38,
+          "text": "耳",
+          "probability": 0.9712675511837006
+        },
+        {
+          "start": 11.38,
+          "end": 11.48,
+          "text": "朵",
+          "probability": 0.9761471152305603
+        },
+        {
+          "start": 11.48,
+          "end": 11.64,
+          "text": "过",
+          "probability": 0.9865602254867554
+        },
+        {
+          "start": 11.64,
+          "end": 11.96,
+          "text": "来",
+          "probability": 0.9736735820770264
+        }
+      ]
+    },
+    {
+      "start": 12.82,
+      "end": 14.46,
+      "text": "这看到人生了吗",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 12.82,
+          "end": 13.16,
+          "text": "这",
+          "probability": 0.3944562077522278
+        },
+        {
+          "start": 13.16,
+          "end": 13.4,
+          "text": "看到",
+          "probability": 0.6877070069313049
+        },
+        {
+          "start": 13.4,
+          "end": 13.64,
+          "text": "人",
+          "probability": 0.9468495845794678
+        },
+        {
+          "start": 13.64,
+          "end": 13.94,
+          "text": "生",
+          "probability": 0.5425582528114319
+        },
+        {
+          "start": 13.94,
+          "end": 14.24,
+          "text": "了",
+          "probability": 0.40517768263816833
+        },
+        {
+          "start": 14.24,
+          "end": 14.46,
+          "text": "吗",
+          "probability": 0.7042652368545532
+        }
+      ]
+    },
+    {
+      "start": 15.64,
+      "end": 18.1,
+      "text": "带人身的有女婉的小脸老",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 15.64,
+          "end": 15.98,
+          "text": "带",
+          "probability": 0.6543661653995514
+        },
+        {
+          "start": 15.98,
+          "end": 16.12,
+          "text": "人",
+          "probability": 0.9968998432159424
+        },
+        {
+          "start": 16.12,
+          "end": 16.28,
+          "text": "身",
+          "probability": 0.6657381057739258
+        },
+        {
+          "start": 16.28,
+          "end": 16.44,
+          "text": "的",
+          "probability": 0.8951779007911682
+        },
+        {
+          "start": 16.44,
+          "end": 16.6,
+          "text": "有",
+          "probability": 0.6994626522064209
+        },
+        {
+          "start": 16.6,
+          "end": 17.12,
+          "text": "女",
+          "probability": 0.8909550309181213
+        },
+        {
+          "start": 17.12,
+          "end": 17.28,
+          "text": "婉",
+          "probability": 0.5530495569109917
+        },
+        {
+          "start": 17.28,
+          "end": 17.46,
+          "text": "的",
+          "probability": 0.7824283242225647
+        },
+        {
+          "start": 17.46,
+          "end": 17.64,
+          "text": "小",
+          "probability": 0.9880936741828918
+        },
+        {
+          "start": 17.64,
+          "end": 17.8,
+          "text": "脸",
+          "probability": 0.9905772507190704
+        },
+        {
+          "start": 17.8,
+          "end": 18.1,
+          "text": "老",
+          "probability": 0.21425887942314148
+        }
+      ]
+    },
+    {
+      "start": 18.1,
+      "end": 19.08,
+      "text": "嫩了",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 18.1,
+          "end": 18.7,
+          "text": "嫩",
+          "probability": 0.5007550977170467
+        },
+        {
+          "start": 18.7,
+          "end": 19.08,
+          "text": "了",
+          "probability": 0.6821960806846619
+        }
+      ]
+    },
+    {
+      "start": 19.44,
+      "end": 20.36,
+      "text": "调面膜脸",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 19.44,
+          "end": 19.78,
+          "text": "调",
+          "probability": 0.627003625035286
+        },
+        {
+          "start": 19.78,
+          "end": 19.94,
+          "text": "面",
+          "probability": 0.9968744516372681
+        },
+        {
+          "start": 19.94,
+          "end": 20.08,
+          "text": "膜",
+          "probability": 0.9843320846557617
+        },
+        {
+          "start": 20.08,
+          "end": 20.36,
+          "text": "脸",
+          "probability": 0.9398475587368011
+        }
+      ]
+    },
+    {
+      "start": 21.16,
+      "end": 22.400000000000002,
+      "text": "嘎嘎嘀嘀嘀",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 21.16,
+          "end": 21.5,
+          "text": "嘎",
+          "probability": 0.6941385865211487
+        },
+        {
+          "start": 21.5,
+          "end": 21.84,
+          "text": "嘎",
+          "probability": 0.9941985011100769
+        },
+        {
+          "start": 21.84,
+          "end": 21.98,
+          "text": "嘀",
+          "probability": 0.4366358071565628
+        },
+        {
+          "start": 21.98,
+          "end": 22.12,
+          "text": "嘀",
+          "probability": 0.8741626441478729
+        },
+        {
+          "start": 22.12,
+          "end": 22.400000000000002,
+          "text": "嘀",
+          "probability": 0.5513013079762459
+        }
+      ]
+    },
+    {
+      "start": 23.7,
+      "end": 25.08,
+      "text": "有消息不点心希望自己拍",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 23.7,
+          "end": 23.9,
+          "text": "有",
+          "probability": 0.7208601236343384
+        },
+        {
+          "start": 23.9,
+          "end": 24.06,
+          "text": "消",
+          "probability": 0.8427104949951172
+        },
+        {
+          "start": 24.06,
+          "end": 24.18,
+          "text": "息",
+          "probability": 0.8789481520652771
+        },
+        {
+          "start": 24.18,
+          "end": 24.3,
+          "text": "不",
+          "probability": 0.2741153836250305
+        },
+        {
+          "start": 24.3,
+          "end": 24.42,
+          "text": "点",
+          "probability": 0.929598867893219
+        },
+        {
+          "start": 24.42,
+          "end": 24.54,
+          "text": "心",
+          "probability": 0.13821032643318176
+        },
+        {
+          "start": 24.54,
+          "end": 24.68,
+          "text": "希望",
+          "probability": 0.689893901348114
+        },
+        {
+          "start": 24.68,
+          "end": 24.86,
+          "text": "自己",
+          "probability": 0.9877843260765076
+        },
+        {
+          "start": 24.86,
+          "end": 25.08,
+          "text": "拍",
+          "probability": 0.9951914548873901
+        }
+      ]
+    },
+    {
+      "start": 25.8,
+      "end": 26.36,
+      "text": "陈希",
+      "avg_logprob": -0.5312401778506537,
+      "no_speech_prob": 0.34251707792282104,
+      "words": [
+        {
+          "start": 25.8,
+          "end": 26.14,
+          "text": "陈",
+          "probability": 0.4897458404302597
+        },
+        {
+          "start": 26.14,
+          "end": 26.36,
+          "text": "希",
+          "probability": 0.27501869201660156
+        }
+      ]
+    }
+  ]
+}

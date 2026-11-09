@@ -1,0 +1,44 @@
+{
+  "source_key": "v27",
+  "original_name": "人参油 (3).mp4",
+  "sha256": "066ce85f88e6315ccd383bfd894855240f5b5675c54bf947a79ceaea51abb33c",
+  "declared_duration_seconds": 64.933333,
+  "decoded_audio_seconds": 64.947625,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v12",
+  "family_id": "20261109-ginseng-daily-v10",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 32,
+    "sheets": [
+      "sheet-1.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [],
+  "original_timeline": null,
+  "variant_note": "版本只做代表帧对照与ASR文本比较，完整路线取canonical；v39仅可读前段。",
+  "semantic_outline": {
+    "title": "瓶内参到多种搭配",
+    "outline": "见过吗引入 → 每瓶有参 → 面膜/面霜/底妆搭配话题 → 手背和掌心演示 → 干燥类比 → 回到参；泡越久越好只是主观猜想",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "双部位示范并非剂量标准",
+    "实际取油与面部接触的衔接待核",
+    "与v12为相同内容或截损版本；保留文件版本，不新增独立脚本。"
+  ]
+}

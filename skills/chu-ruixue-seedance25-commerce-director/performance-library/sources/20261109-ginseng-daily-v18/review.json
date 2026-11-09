@@ -1,0 +1,88 @@
+{
+  "source_key": "v18",
+  "original_name": "人参油 (16).mp4",
+  "sha256": "cb47660422fc0e7e48a1ada8daa5754ce0600ac92f50ddc15e740eb93130e5cc",
+  "declared_duration_seconds": 90.133333,
+  "decoded_audio_seconds": 90.1180625,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v18",
+  "family_id": "20261109-ginseng-daily-v18",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 45,
+    "sheets": [
+      "sheet-1.jpg",
+      "sheet-2.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [
+    {
+      "path": "detail-40.jpg",
+      "start_seconds": 40,
+      "end_seconds": 46,
+      "fps": 4
+    }
+  ],
+  "original_timeline": [
+    [
+      0,
+      8,
+      "举瓶、空手讲解"
+    ],
+    [
+      8,
+      18,
+      "另拿喷雾闭眼喷洒并放下"
+    ],
+    [
+      18,
+      28,
+      "拿人参油取用到掌心，搓掌"
+    ],
+    [
+      28,
+      40,
+      "双手两颊鼻侧全脸推抹"
+    ],
+    [
+      40,
+      58,
+      "拿纸巾擦手，继续讲解"
+    ],
+    [
+      58,
+      66,
+      "再次举瓶展示后放低"
+    ],
+    [
+      66,
+      90.133333,
+      "手指指示眼周/面颊、张掌和擦手讲解"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "先水后油个人习惯",
+    "outline": "日常爱用油 → 先水后油 → 掌心和上脸 → 描述个人水油搭配感受 → 局部干纹话题 → 面霜/底妆搭配话题",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "喷雾身份未知",
+    "眼周话术不能代替实际适用性",
+    "擦手不证明完全吸收"
+  ]
+}

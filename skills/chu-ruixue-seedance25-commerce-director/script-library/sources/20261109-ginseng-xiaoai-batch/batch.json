@@ -1,0 +1,19 @@
+{
+  "original_file_count": 3,
+  "unique_sources": 2,
+  "duplicate_aliases": {
+    "小爱3.mp4": "小爱1.mp4"
+  },
+  "scripts_added": 2,
+  "scripts_status": "draft",
+  "actions_added": 11,
+  "actions_ready": 9,
+  "actions_draft": 2,
+  "performance_added": 0,
+  "product_facts_changed": false,
+  "github_synced": false,
+  "source_refs": [
+    "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+    "script-library/sources/20261109-ginseng-xiaoai-2/review.json"
+  ]
+}

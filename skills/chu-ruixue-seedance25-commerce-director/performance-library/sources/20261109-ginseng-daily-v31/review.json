@@ -1,0 +1,64 @@
+{
+  "source_key": "v31",
+  "original_name": "人参油 (39).mp4",
+  "sha256": "34b8ea40c1bc9f13817f1c7a1219f13e9f28509e86059d3e2556347255686a6a",
+  "declared_duration_seconds": 48.266667,
+  "decoded_audio_seconds": 48.2756875,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v31",
+  "family_id": "20261109-ginseng-daily-v31",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 24,
+    "sheets": [
+      "sheet-1.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [],
+  "original_timeline": [
+    [
+      0,
+      8,
+      "粉色长瓶倒向掌心"
+    ],
+    [
+      8,
+      32,
+      "搓掌和双手全脸推抹"
+    ],
+    [
+      32,
+      42,
+      "再次展示粉色长瓶并触脸"
+    ],
+    [
+      42,
+      48.267,
+      "空手交流，人参油在末尾入镜"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "前置护理水说明",
+    "outline": "提出油前搭配水 → 展示粉色瓶并使用 → 描述水的薄厚与个人选择 → 最后引出人参油；主体是另一产品",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "粉瓶身份未知，不是已确认的人参油取用",
+    "人参油使用路线不完整"
+  ]
+}

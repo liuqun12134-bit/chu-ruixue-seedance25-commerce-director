@@ -1,27 +1,21 @@
 # 给同事的完整安装提示词
 
-将以下内容交给目标电脑的 agent。仓库公开，无需 GitHub 账号或令牌。
+公开仓库，无需 GitHub 账号或令牌。将下面整段交给目标电脑的 agent。
 
 ```text
-请完整安装「初瑞雪 Seedance 2.5 电商口播导演」技能、所有库及素材，并实际验证。
+请直接完整安装并初始化「初瑞雪 Seedance 2.5 电商口播导演」技能，不要只提供教程。
 
-仓库：https://github.com/liuqun12134-bit/chu-ruixue-seedance25-commerce-director
+公开仓库：https://github.com/liuqun12134-bit/chu-ruixue-seedance25-commerce-director
 分支：main
-包内技能目录：skills/chu-ruixue-seedance25-commerce-director
+技能目录：skills/chu-ruixue-seedance25-commerce-director
 
-检查本机 Git、Git LFS 和 Python 3.10+，补齐实际缺少的工具。使用 git clone 获取完整仓库，再执行 git lfs pull；不把 LFS 指针或不含视频的 ZIP 当作安装完成。
+检查并补齐 Git、Git LFS 和可用的 Python。克隆仓库并执行 git lfs pull，完整安装技能、产品库、脚本库、动作库、人物表现库、历史 demo-library 及所有引用的视频、图片、转写、索引和历史；不能只复制 SKILL.md 或保留 LFS 指针。
 
-在仓库根目录执行：
-python tools/verify_package.py
-python skills/chu-ruixue-seedance25-commerce-director/scripts/catalog.py validate
+在仓库根目录执行 python tools/verify_package.py 和 python skills/chu-ruixue-seedance25-commerce-director/scripts/catalog.py validate，确认文件大小、SHA-256 和库结构正确，再安装到本机实际用户级技能目录。Codex 优先使用 CODEX_HOME/skills；未设置时使用用户目录下的 .codex/skills。
 
-验证通过后，复制整个技能文件夹到当前 agent 实际支持的用户级技能目录。保留 SKILL.md、agents、references、scripts、templates、tests、product-library、script-library、action-library、performance-library、历史 demo-library，以及所有媒体、转写、记录、索引与历史。
+已有同名技能先完整备份，保留本地新增资料，同路径内容不同先比较处理，不静默覆盖，不改旧版 seedance25-commerce-director。
 
-已有同名技能先完整备份；保留本地新增资料，同路径或同 ID 有不同内容先比较处理，不静默覆盖，不删除用户资料。不修改独立旧版 seedance25-commerce-director。
+在实际安装目录运行 scripts/catalog.py validate、scripts/update.py，建立该安装的更新基线。Windows x64 再按 references/initialization.md 执行 scripts/initialize.ps1，复用已有依赖并补齐缺项，等待完成后报告真实状态；其他系统按技能支持范围说明。
 
-安装后运行实际安装目录的 scripts/catalog.py validate，再运行 scripts/update.py 建立该安装的升级基线。首次接入报告冲突时列出差异并处理，不强制覆盖。不要在临时克隆副本运行后声称实际安装已接入。
-
-报告安装位置、版本、各库记录数、待核对状态与校验结果。必要时新开对话重新加载技能。以后我说“更新初瑞雪技能和所有库”就运行该技能的更新入口；说“检查更新”就使用 --check。
-
-本次不提交付费生成任务。音频环境需要时再运行初始化，不把安装或更新当作完成听审。
+报告实际安装路径、版本、提交、各库数量和验证结果。当前发布为2.1.1，含5条产品、49条脚本、121条动作、76条人物记录及81个人物来源；人物记录全部待听审，以实际最新发布清单为准。保留draft/pending状态，不把安装当作完成听审。本次不生成图片或提交付费视频。以后我说“更新初瑞雪技能和所有库”时，使用已安装技能的更新入口。
 ```

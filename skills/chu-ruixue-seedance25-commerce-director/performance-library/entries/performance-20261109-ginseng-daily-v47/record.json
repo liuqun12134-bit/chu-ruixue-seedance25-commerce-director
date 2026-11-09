@@ -1,0 +1,127 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v47",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜机场直接持滴管靠脸演示与举瓶",
+  "summary": "出行现场的单手使用节奏 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "白字母毛衣机场候机",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "滴管实际接触/滴落需细查",
+    "不默认推荐滴管直接碰脸",
+    "眼周安全范围未确认",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "滴管靠近额头和面颊",
+    "movement": "滴管靠近额头和面颊 → 单手上脸后举瓶，再次提管 → 单手面颊额头鼻侧推抹 → 持瓶与单手触脸交替 → 脸颊和下巴颈侧推抹 → 举瓶至脸侧收尾",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "举瓶至脸侧收尾",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v47",
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "context": "白字母毛衣机场候机；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "滴管靠近额头和面颊",
+      "utterance": "刚才在机场卸了个妆啊 然后现在 我要护个敷",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v47",
+      "start_seconds": 6,
+      "end_seconds": 14,
+      "context": "白字母毛衣机场候机；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "单手上脸后举瓶，再次提管",
+      "utterance": "能用油都可以了 一个油 人质有几么 这个人油给他挂下房 我啥也不带 我就带个油都可以了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v47",
+      "start_seconds": 14,
+      "end_seconds": 30,
+      "context": "白字母毛衣机场候机；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "单手面颊额头鼻侧推抹",
+      "utterance": "我啥也不带 我就带个油都可以了 人干 不是水也有用的 你脚护跟他干 你天天泡脚有用吗 没有用 你嘴干 你抹一千块钱的护护水有用吗 没有用 你得抹油是几么 所以啥也不戴 像飞机飞十几个小时 我就戴一瓶油就可以了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v47",
+      "start_seconds": 30,
+      "end_seconds": 46,
+      "context": "白字母毛衣机场候机；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "持瓶与单手触脸交替",
+      "utterance": "我就戴一瓶油就可以了 叫人参油 这人参油具好用啊 很润 而且气王效果很明显 里边真的有一颗人参啊",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v47",
+      "start_seconds": 46,
+      "end_seconds": 64,
+      "context": "白字母毛衣机场候机；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "脸颊和下巴颈侧推抹",
+      "utterance": "看到了吗 真的一大颗人参 不能洗脸啥也不涂 就某个油 安心放腻子一手在飞机上 咋吹我都不在干吗的 干了就不油 嘴干的话我也抹点油 没事 我都干了 抹点油 万物几个图",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v47",
+      "start_seconds": 64,
+      "end_seconds": 72.075,
+      "context": "白字母毛衣机场候机；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "举瓶至脸侧收尾",
+      "utterance": "万物几个图 脚后跟内也能抹油 就在这有 飞机掌护肤结束 稍微再睡觉",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v47/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

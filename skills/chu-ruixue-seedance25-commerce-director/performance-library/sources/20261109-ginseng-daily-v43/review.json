@@ -1,0 +1,58 @@
+{
+  "source_key": "v43",
+  "original_name": "人参油 (54).mp4",
+  "sha256": "d486103cda82b70d0b17fdbde2d4d4b7d33c1f934be671acfd89d8a534bd8a7f",
+  "declared_duration_seconds": 32.670998,
+  "decoded_audio_seconds": 32.671875,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v43",
+  "family_id": "20261109-ginseng-daily-v43",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 16,
+    "sheets": [
+      "sheet-1.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [],
+  "original_timeline": [
+    [
+      0,
+      8,
+      "瓶移至脸前近镜"
+    ],
+    [
+      8,
+      24,
+      "边走边脸侧持品"
+    ],
+    [
+      24,
+      32.671,
+      "近镜举瓶和轻微转头"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "旅行中的使用回顾",
+    "outline": "抵达目的地 → 回顾前晚敷膜不适及加油经历 → 主观润感 → 嘴手干类比 → 回到瓶内参；不是临床建议",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "彩光变化不能当肤色效果"
+  ]
+}

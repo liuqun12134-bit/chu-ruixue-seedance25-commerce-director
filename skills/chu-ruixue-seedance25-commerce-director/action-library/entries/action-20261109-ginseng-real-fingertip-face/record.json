@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261109-ginseng-real-fingertip-face",
+  "title": "掌心承接后指尖局部带开",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+    "source_refs": [
+      "performance-library/sources/20261109-ginseng-daily-v30/review.json",
+      "performance-library/sources/20261109-ginseng-daily-v30/source.mp4"
+    ],
+    "limitations": [
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+      "不凭捏指动作定量",
+      "眼周适用需另核"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "真人原片可观察动作，未进行生成测试。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "approved_product_ids": [],
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "人参油",
+        "面部护理油"
+      ],
+      "basis": "来源品类由用户确认；迁移按目标产品评估。"
+    },
+    "texture": {
+      "mode": "constrained",
+      "values": [
+        "油状"
+      ],
+      "basis": "仅在取用护理油的条件下复用。"
+    },
+    "packaging": {
+      "mode": "constrained",
+      "values": [
+        "滴管瓶"
+      ],
+      "basis": "持物动作需匹配此包装条件。"
+    },
+    "body_part": {
+      "mode": "constrained",
+      "values": [
+        "面颊",
+        "鼻侧",
+        "下巴"
+      ],
+      "basis": "按实际接触部位限定。"
+    },
+    "purpose": {
+      "mode": "constrained",
+      "values": [
+        "掌心承接后指尖局部带开"
+      ],
+      "basis": "仅迁移此可观察的动作目的。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "掌心已承接油，指尖可从掌心取少量"
+    ],
+    "action": "指尖由掌心转向局部面颊和鼻侧，短程推开，再回掌心或离脸",
+    "transition": "放下工具后继续局部护理或展示",
+    "end_state": "局部接触完成，瓶和滴管仍由另一手可靠安置",
+    "expected_effect": "让观众看清掌心承接后指尖局部带开的过程；不是功效证明。",
+    "avoid": [
+      "不凭捏指动作定量",
+      "眼周适用需另核"
+    ]
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false,
+  "source_evidence": [
+    {
+      "source_ref": "performance-library/sources/20261109-ginseng-daily-v30/source.mp4",
+      "time_range_seconds": [
+        19,
+        22
+      ],
+      "timing_status": "approximate_4fps_sampled_review",
+      "source_kind": "real_person_user_confirmed"
+    },
+    {
+      "source_ref": "performance-library/sources/20261109-ginseng-daily-v30/source.mp4",
+      "time_range_seconds": [
+        22,
+        34
+      ],
+      "timing_status": "approximate_2second_sampled_review",
+      "source_kind": "real_person_user_confirmed"
+    }
+  ],
+  "acceptance_status": "scoped_method_reference"
+}

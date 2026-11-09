@@ -1,0 +1,138 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v02",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜衣帽间掌心取油、全脸按摩与颈部延伸",
+  "summary": "完整日常护理节奏与下颌颈部衔接；中间容许低头取放。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "白长袖衣帽间",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "前段另用产品及具体取油量待核",
+    "末段配套白瓶身份未知，不能移作本品标准用法",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "近镜托瓶展示根状物",
+    "movement": "近镜托瓶展示根状物 → 放瓶讲解、双掌贴颊并操作台面物品 → 滴管指向掌心，收工具并搓掌 → 双手上脸推抹 → 低头操作、重新举瓶 → 额头鼻侧两颊轮流推抹，双掌沿下颌/颈侧停留 → 补充讲解，举白色瓶和人参油同框",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "补充讲解，举白色瓶和人参油同框",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v02",
+      "start_seconds": 0,
+      "end_seconds": 4,
+      "context": "白长袖衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "近镜托瓶展示根状物",
+      "utterance": "看到没有,有一个人生,真的一个大人生",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v02",
+      "start_seconds": 4,
+      "end_seconds": 20,
+      "context": "白长袖衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "放瓶讲解、双掌贴颊并操作台面物品",
+      "utterance": "看到没有,有一个人生,真的一个大人生 然后,真的,就出通话,你啥也没有,你有一个人生有点够了 有点人生有点深深感,我也要了,我也要了,深深感太干了 你就用油润最好的办法 你嘴干的时候行吗,你不把油润用吗",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v02",
+      "start_seconds": 20,
+      "end_seconds": 28,
+      "context": "白长袖衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "滴管指向掌心，收工具并搓掌",
+      "utterance": "你嘴干的时候行吗,你不把油润用吗 有点麻烦 太尴尬了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v02",
+      "start_seconds": 28,
+      "end_seconds": 34,
+      "context": "白长袖衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "双手上脸推抹",
+      "utterance": "有点麻烦 太尴尬了 到处都需要游泳了 行吗 泡完脚也没有感觉就是泡脚 你怎么沾水干的",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v02",
+      "start_seconds": 34,
+      "end_seconds": 44,
+      "context": "白长袖衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "低头操作、重新举瓶",
+      "utterance": "你怎么沾水干的 你还是赶 这游泳划算了 就这瓶全身漏了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v02",
+      "start_seconds": 44,
+      "end_seconds": 68,
+      "context": "白长袖衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "额头鼻侧两颊轮流推抹，双掌沿下颌/颈侧停留",
+      "utterance": "再来一瓶 眼睛上的肛瑞修的地方一定要太抖 這個肝皮用了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v02",
+      "start_seconds": 68,
+      "end_seconds": 79.922993,
+      "context": "白长袖衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "补充讲解，举白色瓶和人参油同框",
+      "utterance": "好 可以了 這個打開這個水 它倆能這樣",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v02/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

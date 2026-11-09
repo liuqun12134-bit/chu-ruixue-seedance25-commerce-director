@@ -1,0 +1,76 @@
+{
+  "source_key": "v10",
+  "original_name": "dn7pxdb26i_x43dFLk9RhnrAgs0iP2HqP3439D_4f2FuEi1BPDMzRK6wiE4Hr9w4BigJw72jKM48q6x8x74HGJ0sl9XlnyHpD3jz-nWTDD9VKtGJIhc7mjH6XDCDI54ADi11igdvNzaA5mwqT0X0rkWYZWLiXcrL3InsSREFvhF7GuhjyTcXTqMvWxp8dQey.mp4",
+  "sha256": "d1c9cea6b875f21e3ae2dc4d0ff512fd9c0ad2a57db42a4ddeb342d9977bb5c4",
+  "declared_duration_seconds": 40.798005,
+  "decoded_audio_seconds": 40.798875,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v10",
+  "family_id": "20261109-ginseng-daily-v10",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 20,
+    "sheets": [
+      "sheet-1.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [
+    {
+      "path": "detail-0.jpg",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "fps": 4
+    }
+  ],
+  "original_timeline": [
+    [
+      0,
+      10,
+      "手机底光照瓶、翻转观察根状物"
+    ],
+    [
+      10,
+      16,
+      "开瓶提管对准手背"
+    ],
+    [
+      16,
+      22,
+      "指腹在手背推匀，举近手背展示"
+    ],
+    [
+      22,
+      32,
+      "合掌、竖指和空手讲解"
+    ],
+    [
+      32,
+      40.798005,
+      "举瓶脸侧后手指向镜头收尾"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "问答类比加手背示范",
+    "outline": "提问这是什么 → 干燥缺油的个人论述 → 干皮/油皮分流 → 手背演示 → 嘴干/脚后跟类比 → 回产品",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "落滴数量待核",
+    "光泽不等于真实吸收或改善"
+  ]
+}

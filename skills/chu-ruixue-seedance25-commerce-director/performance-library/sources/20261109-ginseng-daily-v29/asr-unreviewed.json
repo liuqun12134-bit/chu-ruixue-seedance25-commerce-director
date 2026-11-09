@@ -1,0 +1,609 @@
+{
+  "source_sha256": "e2de2077ff55d854f8605d04aec7e8339b14ba6c64b583bea43a948f41b514a2",
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "model": "faster-whisper-small-local-int8",
+  "decoded_seconds": 16.8823125,
+  "segments": [
+    {
+      "start": 0.45999999999999885,
+      "end": 2.84,
+      "text": "今天我家阿姨说我脸一样了好多",
+      "avg_logprob": -0.2809434894282939,
+      "no_speech_prob": 0.1441165655851364,
+      "words": [
+        {
+          "start": 0.45999999999999885,
+          "end": 0.74,
+          "text": "今天",
+          "probability": 0.843391478061676
+        },
+        {
+          "start": 0.74,
+          "end": 1.0,
+          "text": "我",
+          "probability": 0.9138650894165039
+        },
+        {
+          "start": 1.0,
+          "end": 1.18,
+          "text": "家",
+          "probability": 0.9738575220108032
+        },
+        {
+          "start": 1.18,
+          "end": 1.44,
+          "text": "阿",
+          "probability": 0.39130911231040955
+        },
+        {
+          "start": 1.44,
+          "end": 1.64,
+          "text": "姨",
+          "probability": 0.6231502443552017
+        },
+        {
+          "start": 1.64,
+          "end": 1.86,
+          "text": "说",
+          "probability": 0.539610743522644
+        },
+        {
+          "start": 1.86,
+          "end": 1.96,
+          "text": "我",
+          "probability": 0.7001777291297913
+        },
+        {
+          "start": 1.96,
+          "end": 2.06,
+          "text": "脸",
+          "probability": 0.9722809493541718
+        },
+        {
+          "start": 2.06,
+          "end": 2.2,
+          "text": "一",
+          "probability": 0.7016621232032776
+        },
+        {
+          "start": 2.2,
+          "end": 2.36,
+          "text": "样",
+          "probability": 0.9944018721580505
+        },
+        {
+          "start": 2.36,
+          "end": 2.48,
+          "text": "了",
+          "probability": 0.774621307849884
+        },
+        {
+          "start": 2.48,
+          "end": 2.62,
+          "text": "好",
+          "probability": 0.8238517642021179
+        },
+        {
+          "start": 2.62,
+          "end": 2.84,
+          "text": "多",
+          "probability": 0.9996362924575806
+        }
+      ]
+    },
+    {
+      "start": 3.439999999999999,
+      "end": 4.68,
+      "text": "我说我用了人身油",
+      "avg_logprob": -0.2809434894282939,
+      "no_speech_prob": 0.1441165655851364,
+      "words": [
+        {
+          "start": 3.439999999999999,
+          "end": 3.72,
+          "text": "我",
+          "probability": 0.4375814199447632
+        },
+        {
+          "start": 3.72,
+          "end": 3.84,
+          "text": "说",
+          "probability": 0.831021785736084
+        },
+        {
+          "start": 3.84,
+          "end": 3.92,
+          "text": "我",
+          "probability": 0.9643759727478027
+        },
+        {
+          "start": 3.92,
+          "end": 4.04,
+          "text": "用",
+          "probability": 0.986193835735321
+        },
+        {
+          "start": 4.04,
+          "end": 4.14,
+          "text": "了",
+          "probability": 0.898527979850769
+        },
+        {
+          "start": 4.14,
+          "end": 4.28,
+          "text": "人",
+          "probability": 0.981765627861023
+        },
+        {
+          "start": 4.28,
+          "end": 4.48,
+          "text": "身",
+          "probability": 0.4879578948020935
+        },
+        {
+          "start": 4.48,
+          "end": 4.68,
+          "text": "油",
+          "probability": 0.8906540274620056
+        }
+      ]
+    },
+    {
+      "start": 5.019999999999999,
+      "end": 6.34,
+      "text": "但人身油的断货呢",
+      "avg_logprob": -0.2809434894282939,
+      "no_speech_prob": 0.1441165655851364,
+      "words": [
+        {
+          "start": 5.019999999999999,
+          "end": 5.3,
+          "text": "但",
+          "probability": 0.12236300110816956
+        },
+        {
+          "start": 5.3,
+          "end": 5.5,
+          "text": "人",
+          "probability": 0.9885467290878296
+        },
+        {
+          "start": 5.5,
+          "end": 5.58,
+          "text": "身",
+          "probability": 0.7995449304580688
+        },
+        {
+          "start": 5.58,
+          "end": 5.7,
+          "text": "油",
+          "probability": 0.9169280529022217
+        },
+        {
+          "start": 5.7,
+          "end": 5.8,
+          "text": "的",
+          "probability": 0.7323462963104248
+        },
+        {
+          "start": 5.8,
+          "end": 5.94,
+          "text": "断",
+          "probability": 0.5582566633820534
+        },
+        {
+          "start": 5.94,
+          "end": 6.14,
+          "text": "货",
+          "probability": 0.8129881322383881
+        },
+        {
+          "start": 6.14,
+          "end": 6.34,
+          "text": "呢",
+          "probability": 0.6102116703987122
+        }
+      ]
+    },
+    {
+      "start": 6.8199999999999985,
+      "end": 8.26,
+      "text": "我跟你们说断货了就断货了",
+      "avg_logprob": -0.2809434894282939,
+      "no_speech_prob": 0.1441165655851364,
+      "words": [
+        {
+          "start": 6.8199999999999985,
+          "end": 7.1,
+          "text": "我跟你",
+          "probability": 0.687494158744812
+        },
+        {
+          "start": 7.1,
+          "end": 7.28,
+          "text": "们",
+          "probability": 0.977051317691803
+        },
+        {
+          "start": 7.28,
+          "end": 7.4,
+          "text": "说",
+          "probability": 0.9962639212608337
+        },
+        {
+          "start": 7.4,
+          "end": 7.6,
+          "text": "断",
+          "probability": 0.986355721950531
+        },
+        {
+          "start": 7.6,
+          "end": 7.68,
+          "text": "货",
+          "probability": 0.9973129630088806
+        },
+        {
+          "start": 7.68,
+          "end": 7.78,
+          "text": "了",
+          "probability": 0.28410574793815613
+        },
+        {
+          "start": 7.78,
+          "end": 7.88,
+          "text": "就",
+          "probability": 0.9536830186843872
+        },
+        {
+          "start": 7.88,
+          "end": 8.0,
+          "text": "断",
+          "probability": 0.9892663359642029
+        },
+        {
+          "start": 8.0,
+          "end": 8.14,
+          "text": "货",
+          "probability": 0.9982223212718964
+        },
+        {
+          "start": 8.14,
+          "end": 8.26,
+          "text": "了",
+          "probability": 0.9561517238616943
+        }
+      ]
+    },
+    {
+      "start": 8.26,
+      "end": 9.06,
+      "text": "你们能看得到的",
+      "avg_logprob": -0.2809434894282939,
+      "no_speech_prob": 0.1441165655851364,
+      "words": [
+        {
+          "start": 8.26,
+          "end": 8.34,
+          "text": "你们",
+          "probability": 0.21927054226398468
+        },
+        {
+          "start": 8.34,
+          "end": 8.44,
+          "text": "能",
+          "probability": 0.9418121576309204
+        },
+        {
+          "start": 8.44,
+          "end": 8.6,
+          "text": "看",
+          "probability": 0.92023104429245
+        },
+        {
+          "start": 8.6,
+          "end": 8.7,
+          "text": "得",
+          "probability": 0.8706085085868835
+        },
+        {
+          "start": 8.7,
+          "end": 8.86,
+          "text": "到",
+          "probability": 0.9476504325866699
+        },
+        {
+          "start": 8.86,
+          "end": 9.06,
+          "text": "的",
+          "probability": 0.9170908331871033
+        }
+      ]
+    },
+    {
+      "start": 9.06,
+      "end": 11.06,
+      "text": "销量从昨天开始",
+      "avg_logprob": -0.2809434894282939,
+      "no_speech_prob": 0.1441165655851364,
+      "words": [
+        {
+          "start": 9.06,
+          "end": 9.54,
+          "text": "销",
+          "probability": 0.6206568256020546
+        },
+        {
+          "start": 9.54,
+          "end": 9.7,
+          "text": "量",
+          "probability": 0.97421795129776
+        },
+        {
+          "start": 9.7,
+          "end": 9.92,
+          "text": "从",
+          "probability": 0.9931997656822205
+        },
+        {
+          "start": 9.92,
+          "end": 10.52,
+          "text": "昨",
+          "probability": 0.7758590579032898
+        },
+        {
+          "start": 10.52,
+          "end": 10.76,
+          "text": "天",
+          "probability": 0.9989262223243713
+        },
+        {
+          "start": 10.76,
+          "end": 11.06,
+          "text": "开始",
+          "probability": 0.9942375421524048
+        }
+      ]
+    },
+    {
+      "start": 11.06,
+      "end": 12.58,
+      "text": "到今天的话就三天两万单",
+      "avg_logprob": -0.2809434894282939,
+      "no_speech_prob": 0.1441165655851364,
+      "words": [
+        {
+          "start": 11.06,
+          "end": 11.34,
+          "text": "到",
+          "probability": 0.4282269775867462
+        },
+        {
+          "start": 11.34,
+          "end": 11.58,
+          "text": "今天",
+          "probability": 0.982347846031189
+        },
+        {
+          "start": 11.58,
+          "end": 11.8,
+          "text": "的话",
+          "probability": 0.9825512766838074
+        },
+        {
+          "start": 11.8,
+          "end": 11.92,
+          "text": "就",
+          "probability": 0.7321242094039917
+        },
+        {
+          "start": 11.92,
+          "end": 12.04,
+          "text": "三",
+          "probability": 0.27297335863113403
+        },
+        {
+          "start": 12.04,
+          "end": 12.12,
+          "text": "天",
+          "probability": 0.6443331241607666
+        },
+        {
+          "start": 12.12,
+          "end": 12.26,
+          "text": "两",
+          "probability": 0.8977094292640686
+        },
+        {
+          "start": 12.26,
+          "end": 12.42,
+          "text": "万",
+          "probability": 0.9964780211448669
+        },
+        {
+          "start": 12.42,
+          "end": 12.58,
+          "text": "单",
+          "probability": 0.7327661514282227
+        }
+      ]
+    },
+    {
+      "start": 12.58,
+      "end": 14.06,
+      "text": "两万单才能卖白了",
+      "avg_logprob": -0.2809434894282939,
+      "no_speech_prob": 0.1441165655851364,
+      "words": [
+        {
+          "start": 12.58,
+          "end": 12.92,
+          "text": "两",
+          "probability": 0.9184962511062622
+        },
+        {
+          "start": 12.92,
+          "end": 13.14,
+          "text": "万",
+          "probability": 0.9927448034286499
+        },
+        {
+          "start": 13.14,
+          "end": 13.34,
+          "text": "单",
+          "probability": 0.9647120237350464
+        },
+        {
+          "start": 13.34,
+          "end": 13.48,
+          "text": "才",
+          "probability": 0.45373424887657166
+        },
+        {
+          "start": 13.48,
+          "end": 13.58,
+          "text": "能",
+          "probability": 0.9657984972000122
+        },
+        {
+          "start": 13.58,
+          "end": 13.7,
+          "text": "卖",
+          "probability": 0.991322934627533
+        },
+        {
+          "start": 13.7,
+          "end": 13.84,
+          "text": "白",
+          "probability": 0.1475321501493454
+        },
+        {
+          "start": 13.84,
+          "end": 14.06,
+          "text": "了",
+          "probability": 0.5854943990707397
+        }
+      ]
+    },
+    {
+      "start": 14.06,
+      "end": 15.6,
+      "text": "现在已经一万多个销量了",
+      "avg_logprob": -0.2809434894282939,
+      "no_speech_prob": 0.1441165655851364,
+      "words": [
+        {
+          "start": 14.06,
+          "end": 14.58,
+          "text": "现在",
+          "probability": 0.6704229116439819
+        },
+        {
+          "start": 14.58,
+          "end": 14.72,
+          "text": "已经",
+          "probability": 0.8715313076972961
+        },
+        {
+          "start": 14.72,
+          "end": 14.84,
+          "text": "一",
+          "probability": 0.9787067174911499
+        },
+        {
+          "start": 14.84,
+          "end": 14.94,
+          "text": "万",
+          "probability": 0.9943215847015381
+        },
+        {
+          "start": 14.94,
+          "end": 15.04,
+          "text": "多",
+          "probability": 0.9598886370658875
+        },
+        {
+          "start": 15.04,
+          "end": 15.14,
+          "text": "个",
+          "probability": 0.9775731563568115
+        },
+        {
+          "start": 15.14,
+          "end": 15.26,
+          "text": "销",
+          "probability": 0.9714751243591309
+        },
+        {
+          "start": 15.26,
+          "end": 15.4,
+          "text": "量",
+          "probability": 0.9955366849899292
+        },
+        {
+          "start": 15.4,
+          "end": 15.6,
+          "text": "了",
+          "probability": 0.9920101165771484
+        }
+      ]
+    },
+    {
+      "start": 15.6,
+      "end": 16.66,
+      "text": "而这个很多人买了四单",
+      "avg_logprob": -0.2809434894282939,
+      "no_speech_prob": 0.1441165655851364,
+      "words": [
+        {
+          "start": 15.6,
+          "end": 15.68,
+          "text": "而",
+          "probability": 0.3132920265197754
+        },
+        {
+          "start": 15.68,
+          "end": 15.8,
+          "text": "这个",
+          "probability": 0.6553782820701599
+        },
+        {
+          "start": 15.8,
+          "end": 16.02,
+          "text": "很多",
+          "probability": 0.9304859638214111
+        },
+        {
+          "start": 16.02,
+          "end": 16.18,
+          "text": "人",
+          "probability": 0.9811546206474304
+        },
+        {
+          "start": 16.18,
+          "end": 16.32,
+          "text": "买",
+          "probability": 0.9923712015151978
+        },
+        {
+          "start": 16.32,
+          "end": 16.4,
+          "text": "了",
+          "probability": 0.6576886773109436
+        },
+        {
+          "start": 16.4,
+          "end": 16.54,
+          "text": "四",
+          "probability": 0.8940067291259766
+        },
+        {
+          "start": 16.54,
+          "end": 16.66,
+          "text": "单",
+          "probability": 0.3073860704898834
+        }
+      ]
+    }
+  ]
+}

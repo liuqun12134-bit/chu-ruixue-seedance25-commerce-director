@@ -1,0 +1,127 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v03",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜侧坐多轮取油与面部分区慢推",
+  "summary": "单手局部与双手分区交替，不全程机械拍脸。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "紫色睡衣桌边侧坐",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "眼周实际适用性需目标产品确认",
+    "多次取油不能推导标准剂量",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "托瓶近镜、转瓶看根状物",
+    "movement": "托瓶近镜、转瓶看根状物 → 旋开提管至掌心，回瓶 → 双手额头两颊推抹，单手沿鼻侧和下颌细推 → 再次取油至掌心并搓开 → 继续面颊额头局部推抹，近镜停留 → 再次举瓶后放低，露出面部收尾",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "再次举瓶后放低，露出面部收尾",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v03",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "context": "紫色睡衣桌边侧坐；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "托瓶近镜、转瓶看根状物",
+      "utterance": "搭配一唇就好就用这个人参有了 里边真的有一个人参的 好玩吗 看",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v03",
+      "start_seconds": 10,
+      "end_seconds": 18,
+      "context": "紫色睡衣桌边侧坐；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "旋开提管至掌心，回瓶",
+      "utterance": "这也是在最后一口音乐 唱一首 人参味道",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v03",
+      "start_seconds": 18,
+      "end_seconds": 46,
+      "context": "紫色睡衣桌边侧坐；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "双手额头两颊推抹，单手沿鼻侧和下颌细推",
+      "utterance": "出来吧 上车来吧 宝宝 卖走到妈妈这儿来 人呢 月圆",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v03",
+      "start_seconds": 46,
+      "end_seconds": 52,
+      "context": "紫色睡衣桌边侧坐；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "再次取油至掌心并搓开",
+      "utterance": "人呢 月圆 妈呀 我不知道 找了半天没找到",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v03",
+      "start_seconds": 52,
+      "end_seconds": 76,
+      "context": "紫色睡衣桌边侧坐；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "继续面颊额头局部推抹，近镜停留",
+      "utterance": "找了半天没找到 房间也没有 太复复复复复复复复复复复复复复复复复复复复复复复复复复复复复复复复 快出来 大姑抱紧了 抱紧了 大姑抱紧了 大姑吓死了 大姑在哭啊 找不着了 找不着了 找不着了 这家里边浮夸的眼镜 怎么找不着了 老外书 好了 人生有 有需要自己拍",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v03",
+      "start_seconds": 76,
+      "end_seconds": 82.57,
+      "context": "紫色睡衣桌边侧坐；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "再次举瓶后放低，露出面部收尾",
+      "utterance": "有需要自己拍",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v03/sheet-1.jpg",
+      "sources/20261109-ginseng-daily-v03/sheet-2.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

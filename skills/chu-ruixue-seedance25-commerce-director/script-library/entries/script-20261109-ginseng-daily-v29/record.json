@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-20261109-ginseng-daily-v29",
+  "title": "飞机座位空手口播与竖指强调",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "真人原片全时段抽帧及未听审ASR提炼；完整保留可见原始流程，不补造缺失环节。",
+    "source_refs": [
+      "performance-library/sources/20261109-ginseng-daily-v29/source.mp4",
+      "performance-library/sources/20261109-ginseng-daily-v29/review.json"
+    ],
+    "limitations": [
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+      "无产品和使用过程",
+      "台词语气未听审"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确要求整文件夹分析入库。"
+    }
+  ],
+  "modes": [
+    "talk"
+  ],
+  "categories": [
+    "人参油"
+  ],
+  "product_ids": [],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "goal": "无产品时的生活场景口播动作",
+  "adaptation_notes": "本条是完整原片路线档案，非逐字核准台词。身边人评价 → 提到用过人参油 → 缺货与当时销量 → 竖指讲述；不是本片实际试用。展示/讲解段可跨句、可按音频换序；depends_on只约束物理前提，不把原始顺序当唯一模板。多产品和面膜段须先确认适配；时长不足拆段，不能等比压缩。",
+  "source_sequence": [
+    "0–8秒：整理头发、手移至后脑",
+    "8–16.9秒：向镜头竖食指后下指、回收"
+  ],
+  "initial_state_satisfies": [
+    "若首帧已完成取用、涂抹或贴膜，可承接已存在状态；不得重复取用或让膜布重生。"
+  ],
+  "maintained_states": [
+    "已实际接触区域的表面状态保持；瓶盖和滴管位置连续；膜布若仍在脸上，回到持品时继续保留。"
+  ],
+  "effect_required": false,
+  "effect_stage_ids": [],
+  "stages": [
+    {
+      "id": "stage-01",
+      "goal": "整理头发、手移至后脑",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：身边人评价 → 提到用过人参油 → 缺货与当时销量 → 竖指讲述；不是本片实际试用"
+      ],
+      "entry_state": "承接原片当前持物和皮肤状态；此段无足够证据绑定共用动作。",
+      "action_options": [],
+      "exit_state": "按原片所见结束：整理头发、手移至后脑；缺失动作不补成已观察事实。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的整理头发、手移至后脑相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        0,
+        8
+      ],
+      "observed_action_chain": [],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-02",
+      "goal": "向镜头竖食指后下指、回收",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：身边人评价 → 提到用过人参油 → 缺货与当时销量 → 竖指讲述；不是本片实际试用"
+      ],
+      "entry_state": "产品稳定在桌面，空手可动；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "exit_state": "产品仍原位，完成完整语义段。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的向镜头竖食指后下指、回收相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        8,
+        16.9
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    }
+  ],
+  "source_key": "v29",
+  "variant_keys": [],
+  "scene": "白卡通T飞机座位",
+  "semantic_outline": {
+    "title": "生活反馈与销量话题",
+    "outline": "身边人评价 → 提到用过人参油 → 缺货与当时销量 → 竖指讲述；不是本片实际试用",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "draft_reason": "台词与声音语气未听审；剂量/搭配/局部省略须按目标产品和具体选段核对。",
+  "family_id": "20261109-ginseng-daily-v29"
+}

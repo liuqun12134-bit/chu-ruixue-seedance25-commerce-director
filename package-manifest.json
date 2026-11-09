@@ -1,26 +1,31 @@
 {
   "schema_version": 1,
   "skill_name": "chu-ruixue-seedance25-commerce-director",
-  "skill_version": "2.1.0",
+  "skill_version": "2.1.1",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-09T02:19:49.203778+00:00",
+  "created_at": "2026-11-09T05:31:35.141263+00:00",
   "summary": {
     "demo_records": 26,
     "demo_units": 81,
-    "performance_records": 33,
-    "performance_sources": 29,
+    "performance_records": 76,
+    "performance_sources": 81,
     "ready_mappings": 0,
-    "pending_mappings": 33,
+    "pending_mappings": 76,
     "product_records": 5,
-    "script_records": 4,
-    "action_records": 87,
+    "script_records": 49,
+    "action_records": 121,
     "failure_records": 0,
-    "files": 653,
-    "bytes": 1052292750,
-    "videos": 62,
-    "images": 248
+    "files": 1040,
+    "bytes": 2455346009,
+    "videos": 116,
+    "images": 343
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5768,
+      "sha256": "812c2247911003b38d0a18ab0b0f6de3e94fc4117fb3c553355019baf8e4013a"
+    },
     {
       "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-backlight/record.json",
       "size": 3818,
@@ -407,6 +412,176 @@
       "sha256": "ade68b87a28afe69ea56259c81ade634585c62c0e27225727ddefa3892306bb8"
     },
     {
+      "path": "action-library/entries/action-20261109-ginseng-real-face-show/record.json",
+      "size": 3934,
+      "sha256": "ad0b9d8707cb9613dd4fa88f4bbed34dc32aabda5a53fbbdf021b786fd225cc4"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-fingertip-face/record.json",
+      "size": 3789,
+      "sha256": "f289eadf86aa65dcd107132fdc04341f50f8f497bfcd55e80f6c74a10d12deeb"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-handback-dose/record.json",
+      "size": 3901,
+      "sha256": "176ad9a0554753606be678f1058b4490f11e831223e6a4c4c85b859101c7449e"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-handback-spread/record.json",
+      "size": 3918,
+      "sha256": "fd1b35f76e1f7908099963da37c4393b94dcfb36b07439722653b353511bbb1f"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-invert/record.json",
+      "size": 3873,
+      "sha256": "29da8deb2addec7551c0bb68b8fcfd8f72b5e63fd7ccccdcdea850e2ecc91f26"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-lying-hold/record.json",
+      "size": 3419,
+      "sha256": "dcd4486d4cbee7405cf3f2b151993f049fb2c44d3b4fb879be0865d348954175"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-adjust/record.json",
+      "size": 3899,
+      "sha256": "be62872da9a3432103b1f537de179b95c5dba6bcdbfe788d50325759113b3bca"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-apply/record.json",
+      "size": 3901,
+      "sha256": "90544fe7ce3d4ed0af8a1364f001ff3556c1246b274e492ebd34faaf431cea79"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-dose/record.json",
+      "size": 3965,
+      "sha256": "d86a067743187af93a430dd454fd9cf9a730c3133afea8caf4646977df341f99"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-extra/record.json",
+      "size": 3447,
+      "sha256": "babfcff918e094a4b91b7e24450e2e9b19255d9244c2602865f7fa214f3cf903"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-hold/record.json",
+      "size": 3438,
+      "sha256": "b4ec191fd8b3801b0b2567a24e31c17f6a2ebf498c78632a2b8b18ad2d5a6d3f"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-open/record.json",
+      "size": 3823,
+      "sha256": "cd7f580d1fc33e39f8f9729ab6389f9c504df2e430c171bd3eee36f536c125c0"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-peel/record.json",
+      "size": 3886,
+      "sha256": "d8d7d429ea18e7c8addc3118a2626077034c42a4a29b43862a2101085ca2b719"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-mask-rub/record.json",
+      "size": 3861,
+      "sha256": "2f9c626f0d9788b8ba4001cc64218b0e305b53e9319041bd5043be711bc4c778"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-mix-handback/record.json",
+      "size": 4228,
+      "sha256": "aa6e32c08c4a7c59978645494e116dc907d6d76b2d7a4cab225191f5f1333d64"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-mobile-hold/record.json",
+      "size": 3856,
+      "sha256": "34a6eadab6b65afcbf8c79c9db2112ac140029d08de2dea4c225dcda37bb326a"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-neck/record.json",
+      "size": 3933,
+      "sha256": "19233262788655b352e6bb6b0843489dc480cb83702dc4e0c9e21aa683992c9c"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-phone-light/record.json",
+      "size": 3920,
+      "sha256": "f3b469afd01bd4b2586ef97a81ccc0522e07732c1170018b5776d90c43ea21fa"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-single-face/record.json",
+      "size": 3975,
+      "sha256": "d8d42f01e7fcda4002bbf9ce34a85497566c2a9202c1e3a50c85a1f3725cf222"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-spray-prep/record.json",
+      "size": 3878,
+      "sha256": "5c6b6953b0e4a145f77f7642253c6c862602aadf5d86123d97d1cc70c3486320"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-stand-light/record.json",
+      "size": 3442,
+      "sha256": "11e2dadece9b5d3ba430dae9b408e7bcf324653f8e71980b2bee868fa7b68391"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-switch-products/record.json",
+      "size": 3837,
+      "sha256": "dd882bdf08ab80cdc0b8cf2a1d377de03f5ac39c3c8d8b7820ea8342c50207e0"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-real-tissue-hands/record.json",
+      "size": 3886,
+      "sha256": "6b9892b1495e5cb917f844e6b613d744c3446cf9c1b3967b2863d13694ea4841"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-cheek/record.json",
+      "size": 4414,
+      "sha256": "fe53668b576bdcb3c874bbaf496a1f57af69133114e5c1046f681695de3e2517"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-face/record.json",
+      "size": 6312,
+      "sha256": "081a7cea4c14c090fad647c48231af26c4040610e519dd57a6c779af12cff670"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-lift/record.json",
+      "size": 4178,
+      "sha256": "c9e2518222b6998b638e5854cb4cc65bb7c221c0f0b166638f55c10998dcc1a1"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-open-dropper/record.json",
+      "size": 5628,
+      "sha256": "c24f9883a408e921b3b7789ea1f73c84131a039cb70334164781a0a0fa0bdbf6"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-palm-dose/record.json",
+      "size": 6167,
+      "sha256": "991b58ad1b754ba32b4715549152764a58ac4f359d9b5823da22357f03942ab5"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-point/record.json",
+      "size": 5831,
+      "sha256": "67a9a41840aa4cf8638245e2c565bca557b7ddf335d9611646a2d7a041af74eb"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-rub/record.json",
+      "size": 6057,
+      "sha256": "9c60873d66643064763a0bfd1fad0cf70de5209df8f4e22395ef10f4af070b0d"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-show-palm/record.json",
+      "size": 4393,
+      "sha256": "c7235d0eda8f76699f34ea30901cf3892d73676a38c3769b25ce91f528c63415"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-talk-gesture/record.json",
+      "size": 6015,
+      "sha256": "c1756b01ef3e2bfe46638f2bfafe175afc8ea15326ef22e8105c2a7b4dcfcb88"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-towel/record.json",
+      "size": 3855,
+      "sha256": "b4f7a384d513b4cabb54c7f8ca54da599f6591846f467892c5bbca24d99339be"
+    },
+    {
+      "path": "action-library/entries/action-20261109-ginseng-xiaoai-turn-bottle/record.json",
+      "size": 4399,
+      "sha256": "9f16ce8c2f54bc0417a967350c1b86823b42840d2d9fb89bb7ba95ba7d880544"
+    },
+    {
       "path": "action-library/entries/action-legacy-cream-talk-01-finish/record.json",
       "size": 3467,
       "sha256": "668eff29e10ede99a1014f170c11b575e6d8c892c5b2d68729a00e07df65ee85"
@@ -458,8 +633,8 @@
     },
     {
       "path": "action-library/index.json",
-      "size": 363201,
-      "sha256": "d5ee13b9b01caeced729ee68146b311ea7dde826521fe1717c3ad07849743004"
+      "size": 523987,
+      "sha256": "b48aa033b61fdd84a76245883b1eb3d7d826165d06cdda5da420b143260a173d"
     },
     {
       "path": "agents/openai.yaml",
@@ -1988,8 +2163,8 @@
     },
     {
       "path": "library-review.html",
-      "size": 19311,
-      "sha256": "fdccf7683c2ecf15b1755ff6fb89cbb4dafedf6c37a59c625e17eba8c4f49915"
+      "size": 33666,
+      "sha256": "ccb95df7497a2b7398657802c9daeb4d9f7ef12a00496080e5a9cc1608fb2c14"
     },
     {
       "path": "performance-library/entries/perf-crx-20261107-01-open-close/history/record-v1-20261107.json",
@@ -2302,19 +2477,234 @@
       "sha256": "8bccf16bfec8a90ea94cfcb4a898843c959bb2b119c92f7ebbacc5a1033cbe2f"
     },
     {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v01/record.json",
+      "size": 4293,
+      "sha256": "a5be3c7ccceba31a90e825fff14e127dfc44066e577772834c84542ed4d2c7be"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v02/record.json",
+      "size": 6313,
+      "sha256": "83cb8994ca02fd348dc93db52e7faa49c6eed5780273fb811bad518fd8ad3b9d"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v03/record.json",
+      "size": 5800,
+      "sha256": "5a042326400c11468e3f3167a6d426be67712999d284b694bbb8b34780dd21ed"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v04/record.json",
+      "size": 5178,
+      "sha256": "5761399cc01fca34982893e96c2fc7b76da7a1a4e74db46d9e72440ff4b9696d"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v05/record.json",
+      "size": 3812,
+      "sha256": "4f52f4fa4959e40e214eca52a1d010e15a0e94b68d9dc7d81c432c1651791d5d"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v06/record.json",
+      "size": 4503,
+      "sha256": "0b7d3608a296dae6514f13e8feb03401caa656064b506d47f5828ce542765db3"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v07/record.json",
+      "size": 7075,
+      "sha256": "970973f4cf61c61d3ddd7998ff4d85da4c7299d15c46585d539879e2dd356d49"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v08/record.json",
+      "size": 4021,
+      "sha256": "c02932d2ed8ce9060848a7a1c31b33e80ea40897572dfe00d73791c1e35caacb"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v09/record.json",
+      "size": 6933,
+      "sha256": "a7244ca519199bc2e12d9a4531a822b5c1e0a8eb60c7dbca4ee4611b99f6c5ca"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v10/record.json",
+      "size": 5234,
+      "sha256": "428db83c462f2760bc4b70981e077aa391674d40344e53f1718978b8aa14692c"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v11/record.json",
+      "size": 8282,
+      "sha256": "268b4419feff13896e94c8d8284f4405a3bba801fce22593878a4403b83cc88e"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v12/record.json",
+      "size": 6056,
+      "sha256": "4b9e531c8db4f7525ec03e84f414dd5de300d7707b2284c87f9647b49fed23a0"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v13/record.json",
+      "size": 4359,
+      "sha256": "612d2f9359803eb113aa3de0483ce5d2bfd144744051457fb4742aa121aa5304"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v14/record.json",
+      "size": 7207,
+      "sha256": "71a794802969ae4c717038029c41d6601cba50d1dfe9bae1a7eeda3895c7fa54"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v15/record.json",
+      "size": 4607,
+      "sha256": "1ebd0f12353a2dffd0922aef43ac39e5ed5b73a74db8f64e1fd4fd27185d2b20"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v16/record.json",
+      "size": 5678,
+      "sha256": "8f06f53f0cb03dc552c5703c24670c73cd8281edf40940995742bd5e4ef0c0b5"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v17/record.json",
+      "size": 9457,
+      "sha256": "1cc2b744adca63201d30385f40fb5f7e1221c67055eb545d4eab5446633992dc"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v18/record.json",
+      "size": 7028,
+      "sha256": "f156787f0814ec5b18de8230307bf49d8ec9eb809d4ecb804b3775b9d0507759"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v21/record.json",
+      "size": 3928,
+      "sha256": "fc09f68a71f7bcd7d0186ffed8f9443f7fc4d6c52d5a553f559b1ff563f03019"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v22/record.json",
+      "size": 4074,
+      "sha256": "ea60cdc505f70799d152fad5a4cd73a8a958b136b4f23e9fd094098d9cb1f28c"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v23/record.json",
+      "size": 4092,
+      "sha256": "2407104c15d812a4ea3bd711cf440f6b60525a1ebcb213ae442032274e20c36c"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v24/record.json",
+      "size": 4634,
+      "sha256": "4013e3df02d6d69661f5f18fd34185f8650044f35f15c5b06160981be93b9dcb"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v26/record.json",
+      "size": 4847,
+      "sha256": "8f5386228afe8dd630f24163f74355b0a4266222c0a3ce6665d4b9373989c1dd"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v28/record.json",
+      "size": 5402,
+      "sha256": "38bd2fb5456ca3a2e9aafeda2456e108ed951e9d7102b1dddb776a30d1b1decf"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v29/record.json",
+      "size": 3321,
+      "sha256": "d7954f79fffa4df7fb439c79687f0f5792bfc5c4e508f13d50cc022f39489d36"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v30/record.json",
+      "size": 5127,
+      "sha256": "4ef74dcf26c3e6a7e7ef4c2c44ac16b6b8ed54dcd40a91ea154e3d580943472b"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v31/record.json",
+      "size": 4684,
+      "sha256": "ca5b96b8a660b3e0809116ea04b7bd4e25de5d42bc334404792e2043e0495880"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v33/record.json",
+      "size": 4484,
+      "sha256": "a7a2bff90286115136694008a167db74f103f239b2b72c4879cddffc1bb7bc04"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v35/record.json",
+      "size": 3818,
+      "sha256": "376d190d550a7eaa77b61b096f78d32d4ef6c3c71c99657d09f99a67973ae112"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v36/record.json",
+      "size": 3958,
+      "sha256": "1e2fa6f567c7506f214b37037a7029220b77cbf75b4715a4cf00b3bcfbccc992"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v38/record.json",
+      "size": 4850,
+      "sha256": "fba36cfa2f62f44e40420ee2535dd5899c5cc502f21f3b6d028afbce99a98a6e"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v40/record.json",
+      "size": 8184,
+      "sha256": "671595bb3a5a1922dbc8802d50a9cdb21a93083b42d1cb6a1205a5a30a712c25"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v41/record.json",
+      "size": 3180,
+      "sha256": "36fc62d602324a8715c8386e9873506c040b8d8d13562f8226a950a1ace8070d"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v42/record.json",
+      "size": 4237,
+      "sha256": "6f5117934ca6dc0b439c0800e9e695920e30814ec0dcb438ec94e5329602e02c"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v43/record.json",
+      "size": 3825,
+      "sha256": "06720095b9c139be0232348fdd6fd74b385de7284db9cc1c193a304870728064"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v44/record.json",
+      "size": 4169,
+      "sha256": "78f837990c8d55c99cd83e46a640f976c14b51444f72d158dfb8a8d1a167b144"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v45/record.json",
+      "size": 6135,
+      "sha256": "593dc03f8a41700e084d5c2b1f50cff99479b38bcee78b156e5af0d8c8d87f0e"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v47/record.json",
+      "size": 5878,
+      "sha256": "7d17984ef7cad7b844a7b8da2aeee012a3c5f7f10a6e9108a9cb3b8b0c209ce4"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v48/record.json",
+      "size": 6833,
+      "sha256": "08189757f896247e7dbbbe1cea9d39a7ba3f2fc25a0b01d062abd436b80c11f6"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v49/record.json",
+      "size": 4227,
+      "sha256": "24cddb92b7d8323016a5db130b6cf3cc8a3c72a806cc0b8ad71421c82bd5a0e6"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v50/record.json",
+      "size": 4570,
+      "sha256": "d8b1ea7660105bdb5c099a8976069ad8200efe54357c7ca7206745cc6309d0dc"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v51/record.json",
+      "size": 9627,
+      "sha256": "f391d61fadc09042264899b9aa4bc23a51e8dba71708dc7cdef69f37cf0eb9b1"
+    },
+    {
+      "path": "performance-library/entries/performance-20261109-ginseng-daily-v52/record.json",
+      "size": 8321,
+      "sha256": "5bebee79d995edf6fc3f50e487fe69bc5e06a06d146255e0c4644bcbcc52d8c1"
+    },
+    {
       "path": "performance-library/history/index-v1-20261107.json",
       "size": 26083,
       "sha256": "91908b6657666fef061d23172fddbffa4d22c042d63db9429ba96754d9563ce3"
     },
     {
       "path": "performance-library/index.json",
-      "size": 56867,
-      "sha256": "691379b46beef3c99316a39d680ae6bc606ce80d5607d2023eb4e3e83e6cfe7f"
+      "size": 137356,
+      "sha256": "153cccc275a7150c771d70b69147afe616a26081303b208042806b260a72fc90"
     },
     {
       "path": "performance-library/review.html",
-      "size": 132544,
-      "sha256": "6d5b9283e069b82fd4662efbc2e8edffaf90c7865e4dc5c04738cdd9bdf0a9e9"
+      "size": 429147,
+      "sha256": "4cd8434d2128f771f06e9ec301382a5b16d5d52b6358cc32a5c011cb7887c9a7"
     },
     {
       "path": "performance-library/reviews/20261107-cream/asr/b5-4.json",
@@ -2852,6 +3242,1206 @@
       "sha256": "7a2648ed7b5782721e01a330e2134bb9e7dc1516d0e9061517e920c1a18d4ca3"
     },
     {
+      "path": "performance-library/sources.json",
+      "size": 156339,
+      "sha256": "d839371ad0b6bae97f1118e726fbccb68c1d0b947649b92fdf316bf0edfaff34"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v01/asr-unreviewed.json",
+      "size": 24636,
+      "sha256": "45b9d3c6d125045dfdbcf5d4f871eacd3f236932fb3c21cba8def883b0c37047"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v01/review.json",
+      "size": 2193,
+      "sha256": "df39c34fa634f81fe582ce6a3c844100637f41f0d3b26d65bd35270aab3d02d6"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v01/sheet-1.jpg",
+      "size": 437570,
+      "sha256": "4057ff371587a8edbeda351c6ae4ca8128fc2539ee6095a02e4fb61017297406"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v01/source.mp4",
+      "size": 10205878,
+      "sha256": "9f5b125e9d3b956ff6de1c17513ff3ef22a81561caf571d7b951793a0efa9d14"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v02/asr-unreviewed.json",
+      "size": 26871,
+      "sha256": "f380a27f46e9b80084568f66a6d123f6d9f11d4a744af935d30a77928940155e"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v02/review.json",
+      "size": 2578,
+      "sha256": "bd7caa89838a02a77c9b388500a44dc9354b724dc4a22ec8b78a9bfe038edade"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v02/sheet-1.jpg",
+      "size": 954633,
+      "sha256": "c00adc7c51de9e8eac0134b53165e04ef0116f58d8fe88a848fd5967ac05f5c5"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v02/source.mp4",
+      "size": 25054554,
+      "sha256": "f86ddfec696511bbe27f3bcaf292ef46c957d2aad36fc614294376f6064c8ec6"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v03/asr-unreviewed.json",
+      "size": 31394,
+      "sha256": "0c7ae717fa3ed438d3b622fa0f44b6b7154e2c437210759abe22261d3c8ed446"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v03/review.json",
+      "size": 2697,
+      "sha256": "fcdfef695fc57d5def44152b09850faacc0394cf9fc334d510cb7a0f5abb9e3f"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v03/sheet-1.jpg",
+      "size": 815475,
+      "sha256": "9d51d05e288f643866b256ee0748f579f8bd151236d49fa6e9e3211ec345c4c8"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v03/sheet-2.jpg",
+      "size": 31690,
+      "sha256": "406b3e166f19fa82b849aeba401d5af923e742821bd7f5c9f3e22407f4bb6f76"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v03/source.mp4",
+      "size": 24819526,
+      "sha256": "65060ba2189afa6df9709f38778cd90a7ddac649145a18c1b2b68c033aedde96"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v04/asr-unreviewed.json",
+      "size": 31039,
+      "sha256": "b7cc469ba8ecaafe6877f861efa016a96c2d649c275277b13bf68070b56335c8"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v04/detail-0.jpg",
+      "size": 444602,
+      "sha256": "7765fa2669bf060ecb1e2b2d5058ec722975428fc3bb63bd7ea240599df752ff"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v04/review.json",
+      "size": 2643,
+      "sha256": "341d02c4643adc25044b08f3e1882bf541bea349111826736ee3879684c4820f"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v04/sheet-1.jpg",
+      "size": 449070,
+      "sha256": "c4f3457c2f941bf9393e992892262108028f73050ec96a5e1a3a982e1ba4f0c5"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v04/source.mp4",
+      "size": 19166245,
+      "sha256": "0aa2a9dca8e6a130667552a66d0ef5fb2d295e53386e64f1fccefd282d3df10f"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v05/asr-unreviewed.json",
+      "size": 15352,
+      "sha256": "f9a7bab34d60e5ed67838c98d8b385ef174c8d1ff51a12f855902c6129a4b05c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v05/review.json",
+      "size": 2340,
+      "sha256": "22f3bdb1ac12e23e78c52268c7e3e23091e7a1fe2772db19bc946c4201f78da8"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v05/sheet-1.jpg",
+      "size": 306908,
+      "sha256": "d5c8e9414ec704a99cb3f13035058bb6abda528b64255781fda7d34f7a447675"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v05/source.mp4",
+      "size": 8235838,
+      "sha256": "224ed12a2477a420cd3da8a65d1120fb97d4acb669f29e4b3e7d33124ad0e695"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v06/asr-unreviewed.json",
+      "size": 19099,
+      "sha256": "87332288c5e782dc7bd271971f36fa0e3e2bfe2da2e1da174cca7194211e9b6c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v06/review.json",
+      "size": 2468,
+      "sha256": "040d9e60b370ad7ade2c400f869df4a6aba066e230f07a8aeea4b4755b5450e0"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v06/sheet-1.jpg",
+      "size": 422838,
+      "sha256": "0501e9fff6cff78ccce80e9e8a078b5e4920e738f3eeb77a004ca77e862ec20b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v06/source.mp4",
+      "size": 13891379,
+      "sha256": "7e61fc0c31859032b1d01db3ecad4bb1a0ea55e21804f04be6dab91ea66f6571"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v07/asr-unreviewed.json",
+      "size": 79680,
+      "sha256": "50880eb0dc09f8294ec92b23186edf0f2dbe14123be4e1bc541b908576672eb4"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v07/review.json",
+      "size": 2750,
+      "sha256": "ac3f21d746151d7eac8d670ed467c5ad5b4d2bf3e7ce9c0eca21ea3cd0fd966b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v07/sheet-1.jpg",
+      "size": 958276,
+      "sha256": "7167d1295ae85da2eaa4e70ab809b256fbd002089ef933a793d1781423a278f6"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v07/sheet-2.jpg",
+      "size": 362501,
+      "sha256": "3a311ec2a4a6fc5f7a92b23c16c54c4286f984f55b7c6afdcc15018253994c80"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v07/source.mp4",
+      "size": 43615150,
+      "sha256": "debb65fcfbb9c1276217826e94c72f9f00d69452c40c8327ecd298cf180bc122"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v08/asr-unreviewed.json",
+      "size": 19956,
+      "sha256": "813907e8bf785274213662f7b3a48192bd20dc9ff8cb496e03bde8f960c52a1d"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v08/review.json",
+      "size": 2370,
+      "sha256": "8b8f9610477a1f5c82cc2956b1d87acab0fd1d5647abe93313fc6572732aeaa7"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v08/sheet-1.jpg",
+      "size": 404411,
+      "sha256": "8a4998786ebcd7f23fe5926f6f1be2c0cf382b177fad83610c3ccb0cc4a77e5e"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v08/source.mp4",
+      "size": 10861271,
+      "sha256": "4b45b2cef18badf64154a0ef110a2c6f66650c660334ad34855864c4384030e2"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v09/asr-unreviewed.json",
+      "size": 54137,
+      "sha256": "5f7cf9e02c16fcb63a15496fd07d4d60ebb4adb62efddb2419dd0fc0c2d173f9"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v09/review.json",
+      "size": 2790,
+      "sha256": "6e39ec447b2a920ed5e323ec58aa4e678e4df1f81d1b1bea8e17cb923d06633a"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v09/sheet-1.jpg",
+      "size": 929298,
+      "sha256": "d5881f8163217f5e2a400a0200a0bd2ff08c7cbb508ee8b22a816110d55d8811"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v09/sheet-2.jpg",
+      "size": 99638,
+      "sha256": "d1874d48e97fc42fa07fa6b022e3e00cf3290fb739fad69d0060abd50eb44a36"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v09/source.mp4",
+      "size": 32544403,
+      "sha256": "e39a28c220dd4d601894a5f2894539d51324bbf00bcd4d7a955ad36744f1b1c4"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v10/asr-unreviewed.json",
+      "size": 32731,
+      "sha256": "5371d93f738fb93aa88469d501f1b50fa540bd4c68c7064c58f8992fd3331431"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v10/detail-0.jpg",
+      "size": 742257,
+      "sha256": "28b12b991c3f0f264f201a9d7c77eeac8a850bddcfbaa8ddac57ada5e063bef6"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v10/review.json",
+      "size": 2672,
+      "sha256": "fd93753645abf6d42b2ef9149cb8abfa02e80982a05ca6f4ae5d6790276ca5a6"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v10/sheet-1.jpg",
+      "size": 483147,
+      "sha256": "250aaa6ddb6bc8c17dea770a41a641408ca2bfafd5a400974ff06e56322088be"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v10/source.mp4",
+      "size": 16683464,
+      "sha256": "d1c9cea6b875f21e3ae2dc4d0ff512fd9c0ad2a57db42a4ddeb342d9977bb5c4"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v11/asr-unreviewed.json",
+      "size": 81594,
+      "sha256": "d32dad119b80c032fe4e9212b1a2d3db4865049314fa60bc8c2ef6980de66c0a"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v11/review.json",
+      "size": 3003,
+      "sha256": "5aa9354bb8c491620d8c0b1dfbb5deaab11c4ade791178a6bcfa37d6d4284cb6"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v11/sheet-1.jpg",
+      "size": 972505,
+      "sha256": "10d6028987b2133da254db78405f05582159def3ea27beef3887dabfc8621e5c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v11/sheet-2.jpg",
+      "size": 827662,
+      "sha256": "13828c037ae66accc7f18a587ed6d9217927de0f518448330bde570cf159ebc3"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v11/source.mp4",
+      "size": 52269525,
+      "sha256": "7a7271bf9194e81bcce0e239b4de9d8d9d326a8a60258285ef954e74aba969fa"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v12/asr-unreviewed.json",
+      "size": 45143,
+      "sha256": "d14f1b0e7551d762ae0c45faf2b15c33f2116f66d772a17b4b0183694db45639"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v12/detail-16.jpg",
+      "size": 581954,
+      "sha256": "a13534cb85c2030e6a28027b3c4ed1e386888260eb12d10b05abadfb9ed2e815"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v12/review.json",
+      "size": 2786,
+      "sha256": "89c5d0da1322cd44c7d5e233f2ab84a50f9298e27c37287b42c150436f7ad208"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v12/sheet-1.jpg",
+      "size": 758432,
+      "sha256": "ea41337c804a8ae8d46b723eea0631c9ce3af85d1626dbe230759a1a992388a7"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v12/source.mp4",
+      "size": 25816971,
+      "sha256": "658a740044a210022b6d13d577a02a281ddf5b49da41e490be590188248b3852"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v13/asr-unreviewed.json",
+      "size": 30428,
+      "sha256": "6bdd06bded3c44f21d8c39dbb5550378a2f7421efff86c29d0d5090c615f2124"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v13/review.json",
+      "size": 2247,
+      "sha256": "cd0df3b863bddd360923a6b2ec624c4182ee1e6f7426f81cb05d2596fe7c78a4"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v13/sheet-1.jpg",
+      "size": 560346,
+      "sha256": "d29b149833d50653bf57d63610222c4adc4cf792eb7529c790644f30795679c5"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v13/source.mp4",
+      "size": 14709642,
+      "sha256": "b40540b760845c724deb3d549c955a028175b3ee80ab29a0d8117ef1327154a9"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v14/asr-unreviewed.json",
+      "size": 59095,
+      "sha256": "9add2e1746b7f3b9b47e2fc2f9c06e6389bc76e2915ed0c2963b93e6750288e2"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v14/review.json",
+      "size": 2677,
+      "sha256": "b88460ad6b03117fc879f9007a77cbf0865aa413012fdf478d14c413230e2163"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v14/sheet-1.jpg",
+      "size": 679370,
+      "sha256": "42b2bcbe89e2d4425d78f47aee2cbf23e0c5463bc5c631fa92d445788bd58ba4"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v14/sheet-2.jpg",
+      "size": 477152,
+      "sha256": "f695a41543a1288d593f372ef3bb01f6cc763a7bbce3135f92b4c7c8770679c6"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v14/source.mp4",
+      "size": 29253980,
+      "sha256": "4d9157910d14caf20e118dc05ea48bd4ec902011e03b1d43653525fe49df79a3"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v15/asr-unreviewed.json",
+      "size": 42190,
+      "sha256": "1a13e3ef6b2b57667bc113b17b65bd4535592c0cacd2c745c3dceb91c0b8523d"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v15/review.json",
+      "size": 2237,
+      "sha256": "0bb366e1c9951fa960c8777c9ae086285b640795e092461d7f7b9a2cd535b885"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v15/sheet-1.jpg",
+      "size": 503015,
+      "sha256": "a17e6ed29d9387e58c9692346068bb4c08ae704d06eff9eeb4d538104b40dece"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v15/source.mp4",
+      "size": 14591728,
+      "sha256": "39a48fcbbb79fb7a3d9c9e4ce52ce816e3551ed58158b8366de1e23cf0ccf2df"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v16/asr-unreviewed.json",
+      "size": 29263,
+      "sha256": "6a3861abf13b30213a20d8f8b35e948a781fa22aeaabac385a22f4708cf9cf45"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v16/review.json",
+      "size": 2504,
+      "sha256": "91674453cae2b83cc05a1429177b7a3d38c072549a86359edf8d65015b21da21"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v16/sheet-1.jpg",
+      "size": 644456,
+      "sha256": "aed48d0059889fe526763360b6c25233025baa7ed7fd16afd3729c1d5370a395"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v16/source.mp4",
+      "size": 22785692,
+      "sha256": "4b47bb5dd36a92700129aa8da897e0c2af30b7f5e8585544e71c25fe314e3b44"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v17/asr-unreviewed.json",
+      "size": 74461,
+      "sha256": "8cfd25580b91e98b1033dadbe3f1bc3bb51a17d858b1a5a69c90a7add01b6d07"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v17/detail-100.jpg",
+      "size": 495863,
+      "sha256": "1d58a21ad2afd49ff7e835168409a7c5665d77377a4ad2ca4adbd14b2787fcbb"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v17/detail-54.jpg",
+      "size": 595017,
+      "sha256": "c1fb449a1b5f845881a042eff669a8ebc3cca6a056e723dda9d4f6a5ea464c74"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v17/review.json",
+      "size": 3338,
+      "sha256": "7e435a559a2af9e59897bbacb8d4f7d89fcf476ece54eca97f5aee8cde230628"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v17/sheet-1.jpg",
+      "size": 728092,
+      "sha256": "d75a446cb7ed04a5e40fc018db09a3f44d48bbece915f4139fbdf57515e4b570"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v17/sheet-2.jpg",
+      "size": 737470,
+      "sha256": "43fcdaf35b4ab58edbdc94c0dd4a0441575e5e20f984e0c82e39e10c134c0d4d"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v17/sheet-3.jpg",
+      "size": 360456,
+      "sha256": "474096009ec85d03b9c6c09337105b8301ddca69e487d3859f9e88238c573af9"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v17/source.mp4",
+      "size": 52039318,
+      "sha256": "36776243ebc6901e894054ee51d70b7acb6f47e4338b1a38d84827a72e340f56"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v18/asr-unreviewed.json",
+      "size": 60471,
+      "sha256": "dc46ded44f77fcd8c29fd3b62337a162360544038dbae424a5b981369873c52e"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v18/detail-40.jpg",
+      "size": 325111,
+      "sha256": "83664f297bfe3bf4cccf60a7ce5fc59bfb1242bb6b252aea8a908979fb11057a"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v18/review.json",
+      "size": 2707,
+      "sha256": "c1cbf660794867fa4f98e727674087bf883b69c37162fd5e232071a96742d73b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v18/sheet-1.jpg",
+      "size": 677707,
+      "sha256": "abf9fdd8937a0682a0ca31a39907bbb469d92a7b6d3ea158dfb630acc815ad20"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v18/sheet-2.jpg",
+      "size": 85821,
+      "sha256": "fbca401bbe34551f5da8daf374a5dc0e7bb0eff1b72871a843095d61a222a3cf"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v18/source.mp4",
+      "size": 28239104,
+      "sha256": "cb47660422fc0e7e48a1ada8daa5754ce0600ac92f50ddc15e740eb93130e5cc"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v19/asr-unreviewed.json",
+      "size": 70367,
+      "sha256": "dc93e0972e08fbe49e94e040d9e9cb42e37ce50d6e3c293b24730dac0bf3c860"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v19/review.json",
+      "size": 2284,
+      "sha256": "61a0965a7156781305d2cd543157d954c37e96882a188e3058968bc738827d3c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v19/sheet-1.jpg",
+      "size": 735730,
+      "sha256": "38ab7800aae84c0d4706f48aac473d4ff81bde67db527c0ca46f09b0073e7bcc"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v19/sheet-2.jpg",
+      "size": 745288,
+      "sha256": "67c5de03494f52775dc449f7af2c1cd4bd9c767ac624960de75da36f7ff3ed75"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v19/sheet-3.jpg",
+      "size": 364000,
+      "sha256": "af695b3e1f2c08f6da63c752a9d9a933c570f611bc9e1c0547fb697c0e421572"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v19/source.mp4",
+      "size": 52052086,
+      "sha256": "5bf032b267bd1c24c1cd63dd2c8079aaafb0ae20e68bb05ee3c27dc59efb470c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v20/asr-unreviewed.json",
+      "size": 60942,
+      "sha256": "4d4fda7407ad4f7be1efe2996f46ade2c8b7e84658ae5839ca22c5ff10d44f5a"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v20/review.json",
+      "size": 2228,
+      "sha256": "d219ce20df22479d130aa765c506e60ba599b9fd604e0d75b0205ffc3a19391c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v20/sheet-1.jpg",
+      "size": 670238,
+      "sha256": "a66465155c35f47c8de0378d69827d3d9bca9701a70dbd1320e491ee3edd0ace"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v20/sheet-2.jpg",
+      "size": 471323,
+      "sha256": "beaf172a1175ad7f6d31180727e528a8cab27790d5e2249c3a601194d53d6560"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v20/source.mp4",
+      "size": 31211496,
+      "sha256": "96ac8379ab00c33f12e2d8af4b28dc66ddc9a9b49b4f56c736d2e9884dc552a5"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v21/asr-unreviewed.json",
+      "size": 20344,
+      "sha256": "94c14c578bd93b97dfe1c0060881e3f8c00b23608aa42b662a24f96dc521cde7"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v21/review.json",
+      "size": 2214,
+      "sha256": "d9302e3d7fa5300e6b803f21c3719d7bf36265433b7714d35b2e16dcfdcfc58d"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v21/sheet-1.jpg",
+      "size": 388628,
+      "sha256": "1cfb7f92f3c7faf170668c77090f04e7908b9a1044311cff4ba75108e986ccdd"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v21/source.mp4",
+      "size": 14754352,
+      "sha256": "48c2393f7614db186bca8d749b78f22e6dcde3e5fd3bbe30eec31d11c12c0a4f"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v22/asr-unreviewed.json",
+      "size": 22555,
+      "sha256": "8f07f2520d6a1926c2233e2e2bfd9a88cdaa3e9660d90c3206cd4213080d3de5"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v22/review.json",
+      "size": 2192,
+      "sha256": "1008b295bd173afeb81ba09ba0a8d400ec60f8d0f6608b90746c0cb302064831"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v22/sheet-1.jpg",
+      "size": 381832,
+      "sha256": "c8aaeac46ab178dfee47435bed9a67dedd330cd87095e8fc5f63aa55c31c05ba"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v22/source.mp4",
+      "size": 11764875,
+      "sha256": "403d6f4f24b95494c3893ef79613c0647bce380992fba347008048b5493dcc13"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v23/asr-unreviewed.json",
+      "size": 20453,
+      "sha256": "8db23c47ad8ae3161ae049ab86f0317f6cd65dbed18c0c455176ca8e65258bd5"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v23/review.json",
+      "size": 2259,
+      "sha256": "98ca5705ce8fbc66567431498b61267197d9c81958709cd41a4f526f58674d7a"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v23/sheet-1.jpg",
+      "size": 425513,
+      "sha256": "72f55258354eb9c21a30cc52daf0c76291b393df7842d5ff92e5a9244cb3e8c2"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v23/source.mp4",
+      "size": 9816865,
+      "sha256": "396aab139c0010a782e73d9d6f525fabcd8713e55bc4fb790ba6ff7dab7fb383"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v24/asr-unreviewed.json",
+      "size": 23964,
+      "sha256": "04650d587b3f6e6bd77ca7a336e4fe26d11c5f99abba10262824fd44c8dea483"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v24/review.json",
+      "size": 2287,
+      "sha256": "e357727b35c03d07affd333c83965c1a9daa75560040be77a1f26690df8690df"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v24/sheet-1.jpg",
+      "size": 375575,
+      "sha256": "8150c4a39b2b39a4cdfac73b441c126f7a2e8b4459a9299ef12abff63f057954"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v24/source.mp4",
+      "size": 10369627,
+      "sha256": "d153e9b804f8c34ff34224282edea22f07bd62f52e8910365ee15d883b952c3f"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v25/asr-unreviewed.json",
+      "size": 79143,
+      "sha256": "992d065bb05bdb5c6cca003567a11219882c7f1f7dca88579962423ab4bdc072"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v25/review.json",
+      "size": 2257,
+      "sha256": "148bf52e76c595d8d448c802e936e812506b573e29f58ec82107350dfb6497f1"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v25/sheet-1.jpg",
+      "size": 948708,
+      "sha256": "78ca4ce07e2abb656b5bffa8f17df19a9d6d37e3ec7975e5e16ea8f540d15d3a"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v25/sheet-2.jpg",
+      "size": 806818,
+      "sha256": "f83c0d3a0a37aa6619a7feaa6f5315951860f6a5aac96f6cb4d93458910dd133"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v25/source.mp4",
+      "size": 52514905,
+      "sha256": "3230af76ab2031fd85ceca3f475161cf3a937a811e230ad8e04b4651d6d3cce8"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v26/asr-unreviewed.json",
+      "size": 38908,
+      "sha256": "0b568ffe28b039963c18bc8ceb92d34523a578a8c9bd214ba215e589c91f8f78"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v26/review.json",
+      "size": 2313,
+      "sha256": "7fc33354df23c744c351c5db9fae23377e442f9051e4f9fb8b91ceea629a97e1"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v26/sheet-1.jpg",
+      "size": 411396,
+      "sha256": "70d1bc4770332155914c6205dcebd5b6e1a6f8b64a7cfa4068f28388ebd2ec39"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v26/source.mp4",
+      "size": 11043183,
+      "sha256": "96f9a783cb880ead665b9731fca64fbb1d5c72596d35a3d4c9f532413d0424bf"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v27/asr-unreviewed.json",
+      "size": 42528,
+      "sha256": "e7b981bb158afe334d82de7e51a424a21c5efdccef7ebebf41fa3ed15705a196"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v27/review.json",
+      "size": 2194,
+      "sha256": "e1b426cceb90a4310b491e05ec5aa7ddeab417dc6495034d91a7c50c94abd568"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v27/sheet-1.jpg",
+      "size": 779696,
+      "sha256": "c273f77205bc2f430d8f5d75b9d4b01a794de4deb1af837a1dadfe4e8058990d"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v27/source.mp4",
+      "size": 26822443,
+      "sha256": "066ce85f88e6315ccd383bfd894855240f5b5675c54bf947a79ceaea51abb33c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v28/asr-unreviewed.json",
+      "size": 34431,
+      "sha256": "5a75d24620f463f798e0096cdf3ee8fab2c1574b7908ad6e834b4bdfeb6a2007"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v28/review.json",
+      "size": 2450,
+      "sha256": "7762778ea61c3e715e80b13ae58bee8e64c2ce9c8414d2190f29e92f5bb62b81"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v28/sheet-1.jpg",
+      "size": 475136,
+      "sha256": "babd68b3ce394be8783521db340ac32f8c999b0bc4ccccc9c9fa986b7493f1c5"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v28/source.mp4",
+      "size": 10046184,
+      "sha256": "b39a4e74fddc054a7ca40724541d4dac8da8b99efd52a85fb75a0c737f7d90e8"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v29/asr-unreviewed.json",
+      "size": 14868,
+      "sha256": "67127f3329e300f6300e2b98f4120a1930dd935e8a85f6df8f2400d19d265f52"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v29/review.json",
+      "size": 2085,
+      "sha256": "4324b26028f454dd552c694457e738198b032c9dc7e7c61323941c94a62ff13f"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v29/sheet-1.jpg",
+      "size": 156104,
+      "sha256": "3d3159b4609fd66cc0e16ab3e8fe217b808c8b907bd75f28ca1483ab48c4af90"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v29/source.mp4",
+      "size": 5737223,
+      "sha256": "e2de2077ff55d854f8605d04aec7e8339b14ba6c64b583bea43a948f41b514a2"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v30/asr-unreviewed.json",
+      "size": 26882,
+      "sha256": "7673f807a0df0e4e572fe772c65a4a347134a30c11db3ca4db1ef1f463f8dc60"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v30/detail-14.jpg",
+      "size": 618479,
+      "sha256": "2ca9046a9122c357cf0da7a6fed50abe8cf451b4880a2b86288852573e80fbe2"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v30/review.json",
+      "size": 2463,
+      "sha256": "af0f8d356df8fd8a75f828f93ef0eefb43b9c41822b1a8543a8a71043045f600"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v30/sheet-1.jpg",
+      "size": 649124,
+      "sha256": "359c97288e2b8b1a84f9a408136c21f7b4002561aefb3b2f2907c2c7aebd9275"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v30/source.mp4",
+      "size": 17669566,
+      "sha256": "bd3a39dba75ebba404cee025d9404cfa584c43ac391814eb9d4b370ac246c903"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v31/asr-unreviewed.json",
+      "size": 29371,
+      "sha256": "5be204b3d518ad4587d5b17e5596bf1d38ac59afce415e90a89a433ea4cbe3f9"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v31/review.json",
+      "size": 2304,
+      "sha256": "3c71a2610e8a272a521e1c6733a4a8af065ca633b4f37c4e3d9d0888d15b4b7e"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v31/sheet-1.jpg",
+      "size": 549402,
+      "sha256": "388824cdaad1e2778cad37bb2e53fdd3b1f822aaeddb3dc2549f24136dc0c473"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v31/source.mp4",
+      "size": 19579986,
+      "sha256": "34b8ea40c1bc9f13817f1c7a1219f13e9f28509e86059d3e2556347255686a6a"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v32/asr-unreviewed.json",
+      "size": 55975,
+      "sha256": "a310488b7b401997d92a85b030a87fd1addb9e203b8199d52638f3a37c3cf694"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v32/review.json",
+      "size": 2188,
+      "sha256": "e26638d898299fa6d9ed64859117c8a402b1dc5d4ff5247ffe915c6daf6e08e3"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v32/sheet-1.jpg",
+      "size": 900996,
+      "sha256": "2dee2d8ea779a69f4ea61a2f9d7e37116b72e4a5fb832a8f09796a777228cd7d"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v32/sheet-2.jpg",
+      "size": 97030,
+      "sha256": "ff622a90033d32b65c398e1961393573bfa6837389e88c7535e8b1795ac9cbc0"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v32/source.mp4",
+      "size": 32837909,
+      "sha256": "a9f287c9b0d66ac40f1cbb7912ac463a46ba811be4ba021f1716a0a1ac9f0277"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v33/asr-unreviewed.json",
+      "size": 45316,
+      "sha256": "d9cd47be5ccb3b859c27540e68f69ff7a2d9c0a010c7272b46cd147a68329068"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v33/review.json",
+      "size": 2209,
+      "sha256": "a7b3bf12d6aa94e77d053ebdf5082b2801316e438f4cfd1e63e2fd8670c55ecf"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v33/sheet-1.jpg",
+      "size": 516723,
+      "sha256": "c07a102d57d6fdbaab40df3a8b58302fece0f714576186fb67ae075bc40fbed8"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v33/source.mp4",
+      "size": 16387910,
+      "sha256": "3da60d19fc43803b573e64891be9838cd646ef985f786ba37c686c654f7dbf11"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v34/asr-unreviewed.json",
+      "size": 42694,
+      "sha256": "ae1321cc2e0467f63b3b575cc77050b59a8044dc72274b57a8bd5c9930504522"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v34/review.json",
+      "size": 2134,
+      "sha256": "3d6847496a4f896d05f2b211f0edc663e1a4b6eafba5ff53c2cb2c9a7015e1dd"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v34/sheet-1.jpg",
+      "size": 494494,
+      "sha256": "24465ec49a007f69d3df865ef17e1a4608174f92c3bc7243a8197a9920716d9c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v34/source.mp4",
+      "size": 15076137,
+      "sha256": "effa3b6face39068d36c7b05c1bbb5fe2e62b8d4b672a25abac0cc47fc38efdc"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v35/asr-unreviewed.json",
+      "size": 20332,
+      "sha256": "7145460408bcf4d50b6034ff323aff3ae249e0d4484cf55bc937c33025f33b6c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v35/review.json",
+      "size": 2171,
+      "sha256": "545347aaf51d414d4bf108e7f7e0268fcdecb93e82ea2a7a3bfdca4e2be5e57f"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v35/sheet-1.jpg",
+      "size": 393037,
+      "sha256": "7dfe8f05936510fa7d3e9f512ebe4c8f5ea097451507f93a47eae979c2f64085"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v35/source.mp4",
+      "size": 12047327,
+      "sha256": "8933a544d53453195bde8ca9ddeafc032f1d4e851f58f08b3cab1ebf31ee4c85"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v36/asr-unreviewed.json",
+      "size": 24377,
+      "sha256": "52ba37b148f8e14dc162d4396925e841911650ec8e0c22d895608d6b1543d376"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v36/review.json",
+      "size": 2188,
+      "sha256": "a7b207c16f44d08a3d73d9a1488ac132b77ce2a6155fdc34ab77f125168d7047"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v36/sheet-1.jpg",
+      "size": 397144,
+      "sha256": "48a7ff7d926b2224a11f8d809c2c01a452d55fc24d765f71d882013d392523e7"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v36/source.mp4",
+      "size": 13885621,
+      "sha256": "b834f85721e16720efa42cd6414197becd088664207008e626bbabd91b5476f8"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v37/asr-unreviewed.json",
+      "size": 76681,
+      "sha256": "84208d6b730ea7792e7967655b0fe5aa457fc7a0e2aa8280e7d3b7f550aae10b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v37/review.json",
+      "size": 2199,
+      "sha256": "d9dc968bc203dd7fc1bcd0a36b748702e1dddee91803bb0e948e922f3b4339e2"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v37/sheet-1.jpg",
+      "size": 983289,
+      "sha256": "25c383fbb66c43a0eeca0946b50568a11d7f1ab41fa1855ddeb4dfc50b02c703"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v37/sheet-2.jpg",
+      "size": 375460,
+      "sha256": "e13981e5d649a705941ddb3c3fcd7df51209fb43ff420cd85677cbe0330d4da4"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v37/source.mp4",
+      "size": 42260499,
+      "sha256": "1b9a3ee492c26481248d4c78c8c738950ce3c7da758f5afeb7458e6530613363"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v38/asr-unreviewed.json",
+      "size": 33024,
+      "sha256": "fd296faa31d30e059834538b8b407a8e2bdd50dfde7aa4688fdcc5a65c400c9b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v38/review.json",
+      "size": 2255,
+      "sha256": "0928818ab93787ced3ea7396f250509731948348a2a8e00be7233a5da90d779a"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v38/sheet-1.jpg",
+      "size": 556771,
+      "sha256": "1442afa7571a8c136b8d96fece7b263e8a818b435eb06e4bfa223ab2cd111cae"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v38/source.mp4",
+      "size": 19453255,
+      "sha256": "0f1f396179218fb703485856ad66c50ba4620c919c683c7d7c379e2d5c6d7007"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v39/asr-unreviewed.json",
+      "size": 8530,
+      "sha256": "be0a9a65e9b4d2c93001c6e395e89613b1c87fb002a9731f8ebe28fb8405ac0d"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v39/review.json",
+      "size": 2724,
+      "sha256": "3c92191235fbe5e551059d061c73892a2b0388aef0aeb66921e37e74dec51561"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v39/sheet-1.jpg",
+      "size": 140945,
+      "sha256": "afdf20823075957bfa26c62b53b754b03aed2ef9e6e4283b15d0099584701787"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v39/source.mp4",
+      "size": 4718592,
+      "sha256": "0805048faef5654acf4af362c4a977cd17d0e67b5599843f55c9235886e157ea"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v40/asr-unreviewed.json",
+      "size": 54968,
+      "sha256": "0f83b1403396bbdf5066c8cc7cd8830bb3186940c699b649a5e2cff4ceacaf8d"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v40/detail-50.jpg",
+      "size": 541871,
+      "sha256": "0f64b7ba2d78001337722a59849a5968175d82f4213922fdb63e3aaf81e5ff07"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v40/review.json",
+      "size": 2924,
+      "sha256": "5686e02f7d2cbb73c8ca083d3376d94d5c9742001dd68658e42c16110d6ab0b8"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v40/sheet-1.jpg",
+      "size": 856120,
+      "sha256": "8584971b1a7d4aade970f332b97b7ad163b19b4182a3e11398b8dee5ffbb9374"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v40/sheet-2.jpg",
+      "size": 695521,
+      "sha256": "ba253e3a18cf2aab2c6b11962e98ed1f709340fd311f3b68b221423c7824d1ac"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v40/source.mp4",
+      "size": 44271078,
+      "sha256": "442fc3bc7505b1644d128917cc1c0da17a6439e97786f2408ca0db94cf217dc1"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v41/asr-unreviewed.json",
+      "size": 9171,
+      "sha256": "e01a902783758bdf8ee3d6319d58c00a737693e348cb182042873f9ea80217d9"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v41/review.json",
+      "size": 2007,
+      "sha256": "95be6079bd54a4e2ae0c5e887cd27dfc889ee8bf064cbdbd3f708dd2eda4f60c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v41/sheet-1.jpg",
+      "size": 215343,
+      "sha256": "c2e8c452590ff44e4c8bba6149c3c7565b29a644c22dceebe82de01fee8ccf6b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v41/source.mp4",
+      "size": 6170510,
+      "sha256": "58f0547472e23d05f43948929cbb0725a607ecd0ffcca4f2cc0ffdc788184e21"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v42/asr-unreviewed.json",
+      "size": 37393,
+      "sha256": "7946108ca8949a050dbb15e32d4145606ccabdea04751c02808c7881390bf9be"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v42/review.json",
+      "size": 2170,
+      "sha256": "dde083f1e3f37280d4f154cb79b955b50c90fcb65eb3853daa317b37aa259384"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v42/sheet-1.jpg",
+      "size": 508455,
+      "sha256": "09a81b2e6ae594c57f47430969b1e00e9eae4a6a26e8e233a8f07aad1ce40dc0"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v42/source.mp4",
+      "size": 18891437,
+      "sha256": "9a922c4688115bb6e684ca3e9d77ab1af02742542e610d679b6fbcf6ba63f38d"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v43/asr-unreviewed.json",
+      "size": 20932,
+      "sha256": "40fffc99f701ee9c5cda95a8d76ecefcefaa65398a9b4450751067b2106f28fd"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v43/review.json",
+      "size": 2144,
+      "sha256": "352283a3d1f5a4ef2820b2abad1317da0441ff2bc201840cf97b50fba6df7bbe"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v43/sheet-1.jpg",
+      "size": 337358,
+      "sha256": "2080b12dc0a5bbd80575efcd80c4193625756390f04692eb97d2baad43d7728c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v43/source.mp4",
+      "size": 13289028,
+      "sha256": "d486103cda82b70d0b17fdbde2d4d4b7d33c1f934be671acfd89d8a534bd8a7f"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v44/asr-unreviewed.json",
+      "size": 23338,
+      "sha256": "350af94c30f1f0e85aa913218a0c6f244d1c345ebe23074a5572b5cddc081ced"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v44/review.json",
+      "size": 2153,
+      "sha256": "a26b5cb971431e5c6a99f29c7250620dacef2dfd7dcd2b42b5b6ca17b2dcc517"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v44/sheet-1.jpg",
+      "size": 395908,
+      "sha256": "ee030e8c571c2ab5b4edd27d63b3466f2972160b3fd76267dbd6a80273926a7e"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v44/source.mp4",
+      "size": 12486632,
+      "sha256": "aa284386d2bbaba2935230a327e54fb8d1679e21f997477f68edec4f7272a637"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v45/asr-unreviewed.json",
+      "size": 41860,
+      "sha256": "54b97b68dd727fc507b3d7aad814ebaf7f36c31bf48fd656db16e03bdb888081"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v45/review.json",
+      "size": 2576,
+      "sha256": "a7118d3ffd76a035b25cd42e2f1ed681459fd471ffa43550e392de4a06f0587a"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v45/sheet-1.jpg",
+      "size": 650532,
+      "sha256": "348e8407b15cd7adbeb4688899993065e4b057ab4a81c72e799426f20465ebbb"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v45/sheet-2.jpg",
+      "size": 25437,
+      "sha256": "0acd2c98c100a896560d70d1ab6a548458cf1fdb6e4bd474c3e152925c96df6b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v45/source.mp4",
+      "size": 28143742,
+      "sha256": "23f039ae70e6a5c12a3e3aadcd09959d28c9053e3dde88ddcd85e980f81b36ce"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v46/asr-unreviewed.json",
+      "size": 10497,
+      "sha256": "d86e35f11ffa7f27a3215f89d2bc17b03bdc59d5a25547e4c8a9fdb9b4557235"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v46/review.json",
+      "size": 2060,
+      "sha256": "4a5d479fcfdc4de1e40cbc46e76ce66dcd211ddfa1238e11e64ca726f6ef2f00"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v46/sheet-1.jpg",
+      "size": 212803,
+      "sha256": "2c3ff0e17d8bf807981fab4dc7192e120137478171d3dbcbe883a3d3a2a59c77"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v46/source.mp4",
+      "size": 6200349,
+      "sha256": "1eeec5eca9cf04a47b0dbb326ed86668742ca31cd9590d71f8466386699a45e4"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v47/asr-unreviewed.json",
+      "size": 42348,
+      "sha256": "589a7cbef521cd53d0d3c6723b16a388f29c649253e3372671cdfa3ee08da54b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v47/detail-0.jpg",
+      "size": 467122,
+      "sha256": "a63489fcdae9583d83adae1ba66f38ce8707f1a1ec71458f340c7bdc3a1fe5ba"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v47/review.json",
+      "size": 2638,
+      "sha256": "3e484fd16d6eedf4152799fe07823344355c71c3ff41db6c9d307508d755f903"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v47/sheet-1.jpg",
+      "size": 764222,
+      "sha256": "e4c69f8cfe8e455fb999d0a6db36b96ae3186bacb3c1055832c3baefc107c38f"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v47/source.mp4",
+      "size": 29960436,
+      "sha256": "e53a3281842a66fe30070b5824d9d25ca5db963cce8d42f9f45f199d282081e9"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v48/asr-unreviewed.json",
+      "size": 36435,
+      "sha256": "eb6fdbede2881d3c7dc30e983e3a0ddbcc7422c645c743ba50123b688f215f9d"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v48/detail-40.jpg",
+      "size": 446710,
+      "sha256": "3ea611a1dad8a06ece2924b6791138ae16940cc4128874cbc75850d5e402f894"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v48/review.json",
+      "size": 2703,
+      "sha256": "538c1e0e4c77a4583bcb96b635924dbd3f3e3a30957c7b21ea80228af76e1b5c"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v48/sheet-1.jpg",
+      "size": 689569,
+      "sha256": "5f621bbceacf2910c94719aaff5ec52111883a3c624b6b0a3f8b68f25cbf3bce"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v48/sheet-2.jpg",
+      "size": 172989,
+      "sha256": "be8cfdfdc3f6f2af408656e5be06ccad0d3a24a3caa77fd3cc80286e6c51ca52"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v48/source.mp4",
+      "size": 20631829,
+      "sha256": "23605a9338e41225613f4f980630a50149c893f46f1a00315b2141d024c2545b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v49/asr-unreviewed.json",
+      "size": 28860,
+      "sha256": "844a3eee585130e2d8b871c83748e1398099a92a5000a24f75c3c7a3f20affca"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v49/review.json",
+      "size": 2234,
+      "sha256": "60347f0deba7259e40e9a7ed44eb7ad21f2381304f0056d5dd9da9546e92696b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v49/sheet-1.jpg",
+      "size": 454423,
+      "sha256": "c2e214105dd20f130c10717d73b29d52adf255908fe2f3ea68ef2cc77926e78b"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v49/source.mp4",
+      "size": 14662352,
+      "sha256": "9261fc8b09dc8b370fd6db0074bb63b698d5f7be29c34e33485ced00f3d0e7f9"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v50/asr-unreviewed.json",
+      "size": 28898,
+      "sha256": "443ee4a7b524f47dbdc384f4989ad96df71082c784a8c0632564667696c09ba3"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v50/review.json",
+      "size": 2312,
+      "sha256": "71fdd13c1e960bd8b0476011b3688ec24ddc69bd59520bd88b0a0de61de1a169"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v50/sheet-1.jpg",
+      "size": 469036,
+      "sha256": "c8861901f46fc58f2f092a863db436a56ef5f965dac5e044d06077862a969b89"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v50/source.mp4",
+      "size": 13348087,
+      "sha256": "5ed639426366de35813fe8b116a96b1da04258e38cbc3d0109508142dfa795b1"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v51/asr-unreviewed.json",
+      "size": 142265,
+      "sha256": "d98f49e0db0ce0eb52f02a20e214b179c0ecc188767db89a7c347b5144b4fe24"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v51/review.json",
+      "size": 3129,
+      "sha256": "b367828ee9557e48f4d523dff1b525165f3a1e7ad03c693214699f08f7450ae3"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v51/sheet-1.jpg",
+      "size": 881045,
+      "sha256": "487aa398fac6d30d238ccac2d496f0416405901d89208ef0a5c14904f222b6c0"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v51/sheet-2.jpg",
+      "size": 943151,
+      "sha256": "377b5f5780590000944e759d92e6911949bc559b224508a3759274f01263b01a"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v51/sheet-3.jpg",
+      "size": 259530,
+      "sha256": "1451a12581b0ac806166559856fbd41b74afa5bfebe1f8fa56a049ff61facb03"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v51/source.mp4",
+      "size": 169173260,
+      "sha256": "27348780046ec15ce8e792450ea1e2f0567e3085b1b16b8dad31c5abcda4ba24"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v52/asr-unreviewed.json",
+      "size": 75652,
+      "sha256": "fb0b7f87657fd48edcd1935cafd82b6e2bccb292105f39736933475f6f210479"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v52/detail-16.jpg",
+      "size": 583560,
+      "sha256": "644adffdba3e7dc0099b8e9faac4bbfd53e4f7466de5c8b3efd99102f7f02621"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v52/review.json",
+      "size": 3062,
+      "sha256": "ff1faf901f1b7c31525813f02a33e11fa51e95b463e6998174b21ffbe1f19973"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v52/sheet-1.jpg",
+      "size": 953766,
+      "sha256": "a95e31eac3fdf593c61ab7eabc6c329788ca56a295324de746f16fefc3bc9a13"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v52/sheet-2.jpg",
+      "size": 167673,
+      "sha256": "9abc9f5dad85f91f6771258a0935b4b18671e4c898db39ea69328469c015ffe5"
+    },
+    {
+      "path": "performance-library/sources/20261109-ginseng-daily-v52/source.mp4",
+      "size": 86989184,
+      "sha256": "b5b05c466eb25713177da3c68f249ab97aacd3929aed53a947ef8481f414d9e8"
+    },
+    {
       "path": "performance-library/sources/src-crx-20261107-01/source.mp4",
       "size": 10834027,
       "sha256": "fc1ad1e0457781a8480698ac07355a9cd660e4c34f0cfa728f26944162b3aba9"
@@ -2997,11 +4587,6 @@
       "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82"
     },
     {
-      "path": "performance-library/sources.json",
-      "size": 74141,
-      "sha256": "fe06987bc4d05eb7b469cc8b1632d2770f67fd8fbb418a7417c55df46e3a2056"
-    },
-    {
       "path": "product-library/entries/product-cream-b5-20261107/record.json",
       "size": 2357,
       "sha256": "805f94d40fa060788aaf8fd6b65218b9c3055494095dd6d3eee059354cb602e0"
@@ -3112,9 +4697,269 @@
       "sha256": "93b266d786555cac3e7349ef5e6d0c59f95ffcafe37e1c40f5096be6d88502cd"
     },
     {
+      "path": "script-library/batches/20261109-ginseng-daily/analysis-notes.json",
+      "size": 34926,
+      "sha256": "37f68b77b7849578d1ce25cd04784d4ec1c96c05a0a4eef4031a1f6a10cf5eef"
+    },
+    {
+      "path": "script-library/batches/20261109-ginseng-daily/batch-summary.json",
+      "size": 414,
+      "sha256": "352b6454f86c1e9274ed6ca042b4662097ee6547100d0d212713a760f024fd00"
+    },
+    {
+      "path": "script-library/batches/20261109-ginseng-daily/family-map.json",
+      "size": 2541,
+      "sha256": "d646d0d17f9601c0569bc26cf61729f2a4ecaf10bb1de4204d350d7ebd75aad9"
+    },
+    {
+      "path": "script-library/batches/20261109-ginseng-daily/followup-corrections.json",
+      "size": 317,
+      "sha256": "fd0511ebb259786b1b166ae04f18e29fdcb9b04859f705674512f067dcba5b0d"
+    },
+    {
+      "path": "script-library/batches/20261109-ginseng-daily/handback-products-review.jpg",
+      "size": 150982,
+      "sha256": "10ca1d577a1a7bc5af3d76895396d4f8360000e68e64c6e28ecb686c130ffc71"
+    },
+    {
+      "path": "script-library/batches/20261109-ginseng-daily/inventory.json",
+      "size": 43359,
+      "sha256": "c14eb7f4bc1b46ec5a520d698d845bda3f8e97f6bb49256d781e4340006e6bb8"
+    },
+    {
+      "path": "script-library/batches/20261109-ginseng-daily/review.html",
+      "size": 152868,
+      "sha256": "8e66b98ca5bd96a274459ad748636c0765b11d8aa42ca5505f07bed8342f2e9a"
+    },
+    {
       "path": "script-library/entries/script-20261108-toneup-generated-full-face/record.json",
       "size": 8063,
       "sha256": "ed29cb79ceb231c9a981ff6c3fba259742bc3e406ed7a0d742cd84d4fff436eb"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v01/record.json",
+      "size": 7283,
+      "sha256": "a3cfdc9b1a8cbb627003caedda2dcca64085111ca293347e4321e162a2412d13"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v02/record.json",
+      "size": 12779,
+      "sha256": "2413996d598b42e966d870481196d3bb6b132cba255397705e4159baaeee2ca9"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v03/record.json",
+      "size": 12031,
+      "sha256": "e92f42a6e9e65cbc652ec054f5dd02d25881b4cc7934f5d9b75572a84e67a66d"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v04/record.json",
+      "size": 9959,
+      "sha256": "6c789685bfb9472ddc6c9cf41545c8f85e346837d67a3106093db5229816545c"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v05/record.json",
+      "size": 7035,
+      "sha256": "c2d9123d3c7912c6036d8580ea56b6d228749ac3c87e29790d6ef520f33d3871"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v06/record.json",
+      "size": 8308,
+      "sha256": "037ac88df59e52e009f7094b29ac0fc864c6446c9db0d8d99cf9289d8ceb2a37"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v07/record.json",
+      "size": 11725,
+      "sha256": "ad079407dc51d890fcc2b5ca39dfe203a973bc4739c910a609347ebfa2d0b471"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v08/record.json",
+      "size": 7292,
+      "sha256": "40f1055b2f603baa8fbe9384d278bb45c2ee2d244ef0dbf877c2b471a02efdfc"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v09/record.json",
+      "size": 12960,
+      "sha256": "c4e26eb6af47f38b2efac53eb2a1b49aaf3e0d52405bc9e9f17c90eff9dfa26d"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v10/record.json",
+      "size": 10148,
+      "sha256": "12cad5bf912c5d1e952437dbb060d474152059afa2861943e0fb1dbd5f028b4b"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v11/record.json",
+      "size": 14504,
+      "sha256": "d9ebb4fc1cdbaba9c0c706ca7d73f1b46c7cbcfd9782448b38922e5726256fe6"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v12/record.json",
+      "size": 12075,
+      "sha256": "d7ae05612bca99a54eb369ecde68e0fb98d0aa0b4e2a48ddd74e54c68ff0aa81"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v13/record.json",
+      "size": 7147,
+      "sha256": "609fac23d321d46976e5fa97fd7cbac5e1bea099527ca1578af9db8e0a7369a5"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v14/record.json",
+      "size": 12876,
+      "sha256": "ee6735b0931dad2bd264a3d15ec050e1b5679cdfa1122e96e7a161713c2aedeb"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v15/record.json",
+      "size": 7314,
+      "sha256": "eb0931b107c5d46ded27650df658393d86f0348c8671e950ed44952b3b817bee"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v16/record.json",
+      "size": 11538,
+      "sha256": "9fd920e6017d206571d974b497f91ef58f889cc4e2fe535e00c271d1669e5d72"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v17/record.json",
+      "size": 18708,
+      "sha256": "36e8d5b656466507885449d17b0c1104d85977abf6b4e9c843dfaf7d1ea42554"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v18/record.json",
+      "size": 12596,
+      "sha256": "56a08cfd3aef85d2be9ffae0154efb574896570a6fa0a4386f9e6c1cf67e08db"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v21/record.json",
+      "size": 7253,
+      "sha256": "24e446746676607aad854c34a3985d7041b4307449cbeafd2185274fcbb58803"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v22/record.json",
+      "size": 7177,
+      "sha256": "55428d097f76331dbbc922fe1eab82e0076604d06a852b93996ae3959131294b"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v23/record.json",
+      "size": 7174,
+      "sha256": "c242c8ec25314e34d919ecfad29cddc18e3b14882070c2afe0df41dab13bf050"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v24/record.json",
+      "size": 8586,
+      "sha256": "c7d370857cc4148493891f16bc7d84bb7f18fd7b7f0316da5f70be37acf44624"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v26/record.json",
+      "size": 8767,
+      "sha256": "dcd57af77db5768c1b34746f1a107d6d9e8bfe9e59bbb814bcb77f3acf0ad7b5"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v28/record.json",
+      "size": 9840,
+      "sha256": "08588dd0845c6685219bf8065fed82d648e7a874760b28a29b683a7cecbb8e9c"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v29/record.json",
+      "size": 5535,
+      "sha256": "e3f8f80c12b366517bd8c8dc1efb51860c71c75438a9e1c0a7b74923f6ee9ecd"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v30/record.json",
+      "size": 9768,
+      "sha256": "f14a27f5e49dd6867239d824bfafb89c75cc5cd613c4e7bc028117b16f85da6e"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v31/record.json",
+      "size": 8155,
+      "sha256": "9a7b87e8ea3a6247cc0de634e6455ce2d1f9cb16f93fc5918459df5713ca986a"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v33/record.json",
+      "size": 7069,
+      "sha256": "40e0d46cdb554bd02f560a45e9f963eba6d4b246436914dde2f9281b5f351f60"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v35/record.json",
+      "size": 6887,
+      "sha256": "2fb4682c082b7e5c1d488aabf79031af1ad1019e57a551fc7926cc8ec28b2595"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v36/record.json",
+      "size": 7032,
+      "sha256": "47c2a39b4e0328b4a293dbd4a6dda5285f55d0caa4cd7b780e43371796bcd331"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v38/record.json",
+      "size": 8351,
+      "sha256": "7a990a768379fb09879ee0e34a3fa2bf36a64d22c7fc36ad64e6231bdedde017"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v40/record.json",
+      "size": 16773,
+      "sha256": "736ed3fc4f6e6c218700f26a888fd6e510231b9643985bcd69442e8bd6dae815"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v41/record.json",
+      "size": 5485,
+      "sha256": "1d7e58481d644eb2b77729a7ec8ec711e95b3822d42792ea127ea78743112886"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v42/record.json",
+      "size": 6947,
+      "sha256": "524f717f9ff7c0a7ee7df162e8885fc20367f4aed89e8c20ba2f99d7277ad476"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v43/record.json",
+      "size": 6894,
+      "sha256": "59e41737e303e21bb8a72a0904a5e18db092177c97a870d0cede421f3ed0ba18"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v44/record.json",
+      "size": 6891,
+      "sha256": "92954abb4835fe98a082dc7dbf5e29c893dbc531c6b7e7a3afc7042c2f254fdd"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v45/record.json",
+      "size": 12384,
+      "sha256": "6eb5438e1b4fefbaac5ab16961ebeaafb6bb01844b8e74a4db4b782fa56bdb20"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v47/record.json",
+      "size": 12222,
+      "sha256": "eceadc740243259ec78fcd8966382ea922907f61fc62e6b011eb7e3b785d9165"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v48/record.json",
+      "size": 13793,
+      "sha256": "556d1b5fcfc63e07995384316b99fece2c06ff10b8c74cf08d26794462b7d3fa"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v49/record.json",
+      "size": 7171,
+      "sha256": "fc49572057285059a207780bb0b51a8799d38ea1ba20beb9e688ab3fe933a1ac"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v50/record.json",
+      "size": 8555,
+      "sha256": "f7c30e56006413345ef49bc58dfba0470d76464c003121f665bb9d6927e2c562"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v51/record.json",
+      "size": 19171,
+      "sha256": "67e10e4ffdd9de5128c923824328d6531c8a2814cbe50484951b9a1ec16e3de7"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-daily-v52/record.json",
+      "size": 16336,
+      "sha256": "d61d44ef5c7bd9008ba138f18fddc663df19c512cb75ac4200f4ef0a5d3e5559"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-xiaoai-route-1/record.json",
+      "size": 13252,
+      "sha256": "24f29ac2901632474c18de0b8f61332514c9d15a209016977d1001d522ebe872"
+    },
+    {
+      "path": "script-library/entries/script-20261109-ginseng-xiaoai-route-2/record.json",
+      "size": 13099,
+      "sha256": "86a3ca0dbf9af7856d19c4707868e130b5c65c7e188133e33a3611f6aba2c266"
     },
     {
       "path": "script-library/entries/script-ginseng-oil-show-use/record.json",
@@ -3133,8 +4978,103 @@
     },
     {
       "path": "script-library/index.json",
-      "size": 21549,
-      "sha256": "b47f960e559e263d835ef012238c5de4603bcab7e80cd71b083a7fc61dc126bb"
+      "size": 513504,
+      "sha256": "3b3198898628e9acba22c21b37014366ee22fc17b68a3dcb5fb1bd8701129673"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-1/asr-unreviewed.json",
+      "size": 21640,
+      "sha256": "2156e53561ebc09c5611550f869ef80dedb7c03aa2bd3d17cde9c198a818cf55"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-1/detail-1-1.jpg",
+      "size": 625022,
+      "sha256": "f3ba3d3f406920192af45c55367fef439f645cbe6f9fb0b2ce247fc71b747605"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-1/detail-1-2.jpg",
+      "size": 657242,
+      "sha256": "cef1250b4918b703384bb4e2387b071abf0dd61456016b006eda3c9f7867599f"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-1/detail-1-3.jpg",
+      "size": 642478,
+      "sha256": "898b7ca145b29b29d40064c84da3be5385489ba7a7075c63534907051b238e81"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-1/detail-1-4.jpg",
+      "size": 523018,
+      "sha256": "01f2bb3a940961e3e3f9ba3650b15024a203f5449c5fa4debabc8645b2972740"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-1/overview-1.jpg",
+      "size": 615205,
+      "sha256": "eb6fdecaf45c831253d46af5f088c1052e27504377ba5c20543229a13d5d51eb"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+      "size": 5359,
+      "sha256": "dbf7088b8c3914dc6f0b8f7cba09d04795c8ee1cc7cc1d84eadcc21deadb7ece"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+      "size": 4052754,
+      "sha256": "2a359ca29c5772c33f90d1775f10317a327179bf0ab2c218ba890387b5106c7d"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-2/asr-unreviewed.json",
+      "size": 20157,
+      "sha256": "b8d313e8623d465f7ec7277723787274666825efd41090b0830fe3ab629ede1b"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-2/detail-2-1.jpg",
+      "size": 762188,
+      "sha256": "acec9ab6e5bbe62f76f4a5a3d0b25dfa91c2da90dc162f1f4bd1ec60cfd940e6"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-2/detail-2-2.jpg",
+      "size": 676432,
+      "sha256": "28074ed8216005af04808cb0745a4b370f53afcda2f3b453daa7dce6851c9cd4"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-2/detail-2-3.jpg",
+      "size": 678692,
+      "sha256": "47ff753c78c7862331340a07df667ab67f0ff34cd1046ca3faa3ddfd8172e85c"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-2/detail-2-4.jpg",
+      "size": 678007,
+      "sha256": "beaf9ac91409ad43a22c3ce8485964fb3a9bf511e0a73720c852a9a0559ce2ff"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-2/detail-2-5.jpg",
+      "size": 203768,
+      "sha256": "25371c98298cf6c222b01fdbf04677f92e2d8709a4fef5ce717c9d74e9743f4f"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-2/overview-2.jpg",
+      "size": 761625,
+      "sha256": "e0eb9c67120a15e6116b7e7b7a671c5aa17c8389a5da336dfc4fcb83cce716fc"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-2/review.json",
+      "size": 5556,
+      "sha256": "3bcef9bb6a9f90fe68cf49b0abf506fa29749aa4af59323d25451fdfb438a5e1"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+      "size": 4129723,
+      "sha256": "35fb2bfe8ab48e769555ec0deac5b0e3d6f1eba71c008f375333668a4cf8a56e"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-batch/batch.json",
+      "size": 499,
+      "sha256": "4de2a84b7f7bab7eb27806d08e14345a060269bdaec2b0a1dfdc444a77fe379b"
+    },
+    {
+      "path": "script-library/sources/20261109-ginseng-xiaoai-batch/review.html",
+      "size": 13806,
+      "sha256": "2e1ccbf9430cb665770cf553c3b0d1c584e25a9951b75364ac411ed5a5dba11a"
     },
     {
       "path": "script-library/sources/toneup-generated-20261108-a9859ced/asr-unreviewed.json",
@@ -3235,11 +5175,6 @@
       "path": "scripts/update.py",
       "size": 14526,
       "sha256": "e2e6785eafcdd9f69ea819081faed55fef32d1dca7ece2387558935f4baa8dd3"
-    },
-    {
-      "path": "SKILL.md",
-      "size": 5768,
-      "sha256": "0c1660add33d5c6ebd32d8fbc5efaae09442e585d0e2d732a2c3eb9b2a11d0fa"
     },
     {
       "path": "templates/action-record.json",

@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v17",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜油打底、面膜袋内加油、贴膜和余液展示",
+  "summary": "面膜打开、加油、揉袋、展开、揭外层等因果可独立检索。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "粉白蕾丝袖湿发",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "油与面膜混用适配性未经产品确认",
+    "液体数量和膜布去留存在遮挡/省略",
+    "不是三分钟等比压缩成短片的模板",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "倒持/倾斜透明瓶展示内容物",
+    "movement": "倒持/倾斜透明瓶展示内容物 → 已有油的手掌搓开并近镜展示 → 额头、两颊、鼻侧推抹 → 打开面膜袋、举瓶说明 → 滴管伸向打开的面膜袋，随后回瓶/收工具 → 手在袋外揉按后单手触脸 → 取出展开面膜并举到脸前贴上 → 揭下外层承托片，沿额头鼻翼下巴抚平 → 整理膜布、取用余液并局部按压；实际状态需细查 → 袋口倒向掌心、展示余液并触脸 → 滴管对掌心，继续额头鼻侧面颊操作",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "滴管对掌心，继续额头鼻侧面颊操作",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 0,
+      "end_seconds": 8,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "倒持/倾斜透明瓶展示内容物",
+      "utterance": "叫你个女巨牛茶 我想要有胶的东西 油泡面膜 什么叫 老伯 太感人了 只要有胶可以把这两块",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 8,
+      "end_seconds": 16,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "已有油的手掌搓开并近镜展示",
+      "utterance": "只要有胶可以把这两块 站在一起就好了 谁有胶啊 月月找一找 先拿这个油 托在脸上",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 16,
+      "end_seconds": 40,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "额头、两颊、鼻侧推抹",
+      "utterance": "先拿这个油 托在脸上 月月 你过来想个办法的 虽然我没有胶 但是可以想个其他方法 急救啊 刚刚写了个草 只要你敢,就醉了 但是人生有緣斷貨了 這塊醉了那塊有沒有質疑了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 40,
+      "end_seconds": 54,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "打开面膜袋、举瓶说明",
+      "utterance": "然後拿面膜 用油 這邊泡了一顆蒸蒸的那個人生 把這個旁面膜裏面 用六十餐面膜 那边大小可不可",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 54,
+      "end_seconds": 66,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "滴管伸向打开的面膜袋，随后回瓶/收工具",
+      "utterance": "那边大小可不可 拆亮开面膜 卡在哪里 你这样啊 可以 是我刚才 我刚才做的方法",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 66,
+      "end_seconds": 82,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "手在袋外揉按后单手触脸",
+      "utterance": "我刚才做的方法 就用奏效了吗 月圆 相当奏效 你能这样 我目前都想 面膜是有的 调好 老龙的脸 太干了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 82,
+      "end_seconds": 100,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "取出展开面膜并举到脸前贴上",
+      "utterance": "油溢醇去肉的過程的話,臉可以乾 油溢醇的臉又緊又涼又透 毛孔又很小,都沒了 油溢醇過程的臉特別乾 就是,每次睡都睡",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 100,
+      "end_seconds": 122,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "揭下外层承托片，沿额头鼻翼下巴抚平",
+      "utterance": "就是,每次睡都睡 那有可能會掉 我們小時候拿大米飯粒去捏 我这样虽然可以了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 122,
+      "end_seconds": 154,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "整理膜布、取用余液并局部按压；实际状态需细查",
+      "utterance": "你热死了刚刚都冷死了 我现在全屋都暖了吗 我在家也经常累着 我俩冷了我就把那个浴缸打开 去泡酒 泡了那个浴缸的水 就这么 就这么 又冷 这个油热的蒙着腿 又开始了 好酷 这水够了呀",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 154,
+      "end_seconds": 174,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "袋口倒向掌心、展示余液并触脸",
+      "utterance": "剩的面膜和油 有缸子的时候可以放在脸上挤 还有好多面膜和油 就一定 我昨晚肝肺炸麵的時候臉老疼了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v17",
+      "start_seconds": 174,
+      "end_seconds": 198.647007,
+      "context": "粉白蕾丝袖湿发；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "滴管对掌心，继续额头鼻侧面颊操作",
+      "utterance": "誰啊 你也叫什麼人啊這一排 但是得預受了 我再用给你们上去",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v17/sheet-1.jpg",
+      "sources/20261109-ginseng-daily-v17/sheet-2.jpg",
+      "sources/20261109-ginseng-daily-v17/sheet-3.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

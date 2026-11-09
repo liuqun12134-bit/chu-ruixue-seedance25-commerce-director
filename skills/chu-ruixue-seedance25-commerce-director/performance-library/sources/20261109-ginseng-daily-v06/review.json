@@ -1,0 +1,64 @@
+{
+  "source_key": "v06",
+  "original_name": "Y1nPM8AFI2u-UDzx5MrMxJy--64CcjUYvCddekZGqIr518wdcMvtkI8fmy79iq4d-omVUT9GWtrmTDJa8MBNK5fAy78shC0kZV9RkY6xL5NaP8r88U5wxe9kiOf2DCEsaqKfIHQsJpM2p-9cionRALl02EUkb7oc6rYxEwYle9jiX25aNBJRMYnrb0bUBjOK.mp4",
+  "sha256": "7e61fc0c31859032b1d01db3ecad4bb1a0ea55e21804f04be6dab91ea66f6571",
+  "declared_duration_seconds": 40.333333,
+  "decoded_audio_seconds": 40.3345,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v06",
+  "family_id": "20261109-ginseng-daily-v06",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 20,
+    "sheets": [
+      "sheet-1.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [],
+  "original_timeline": [
+    [
+      0,
+      16,
+      "瓶在脸侧讲解，轻转展示"
+    ],
+    [
+      16,
+      24,
+      "指尖触鼻侧、滴管靠额头，随后放低"
+    ],
+    [
+      24,
+      34,
+      "手指横向推抹额头并接触面颊"
+    ],
+    [
+      34,
+      40.333333,
+      "近镜指示鼻侧和额头，继续交流"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "卧床局部护理",
+    "outline": "瓶内参与产品介绍 → 干皮定位 → 家庭旁人交流穿插 → 额头局部使用 → 购买提示",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "实际滴落与滴管安置不全",
+    "此段无全脸完整用法"
+  ]
+}

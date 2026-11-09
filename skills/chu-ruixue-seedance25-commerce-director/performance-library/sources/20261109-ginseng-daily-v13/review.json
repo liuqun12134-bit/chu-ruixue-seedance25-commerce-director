@@ -1,0 +1,60 @@
+{
+  "source_key": "v13",
+  "original_name": "人参油 (10).mp4",
+  "sha256": "b40540b760845c724deb3d549c955a028175b3ee80ab29a0d8117ef1327154a9",
+  "declared_duration_seconds": 41.563991,
+  "decoded_audio_seconds": 41.588375,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v13",
+  "family_id": "20261109-ginseng-daily-v01",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 21,
+    "sheets": [
+      "sheet-1.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [],
+  "original_timeline": [
+    [
+      0,
+      6,
+      "托瓶近镜，与身后人短暂交流"
+    ],
+    [
+      6,
+      36,
+      "手机底光照瓶，转瓶和前后移动展示根状物"
+    ],
+    [
+      36,
+      41.563991,
+      "放瓶后面向镜头交流收尾"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "多人互动看参",
+    "outline": "脸干用什么 → 打灯看参 → 与旁人及粉丝问题互动 → 干皮/油皮两款分流 → 早晚搭配话题",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "身后人物不登记为初瑞雪表现",
+    "同场多人声未分离",
+    "无取油使用"
+  ]
+}

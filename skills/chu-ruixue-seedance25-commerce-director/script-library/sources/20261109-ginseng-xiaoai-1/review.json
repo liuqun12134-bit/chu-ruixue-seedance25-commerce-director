@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "source_id": "20261109-ginseng-xiaoai-1",
+  "source_file": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+  "original_basenames": [
+    "小爱1.mp4",
+    "小爱3.mp4"
+  ],
+  "sha256": "2a359ca29c5772c33f90d1775f10317a327179bf0ab2c218ba890387b5106c7d",
+  "bytes": 4052754,
+  "duration_seconds": 22.871995,
+  "source_type": "ai_generated_user_confirmed",
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "user_assessment": "同事做的非常好的AI视频",
+  "review_method": "full-duration sampled frame review at 4fps, 1fps overview, local ASR unreviewed",
+  "frame_count_reviewed": 91,
+  "observations": [
+    {
+      "time_range_seconds": [
+        0,
+        1.25
+      ],
+      "observation": "闭盖瓶从桌面举到镜头前短展示，再放回桌面。",
+      "interpretation_and_limits": "开场立即让产品出现；不是使用后效果。"
+    },
+    {
+      "time_range_seconds": [
+        1.25,
+        2.75
+      ],
+      "observation": "拿白毛巾接触额头、面部并移向一侧，随后放低。",
+      "interpretation_and_limits": "洗护场景动作可选；不能据此宣称已完成清洁或吸干。"
+    },
+    {
+      "time_range_seconds": [
+        2.75,
+        3.75
+      ],
+      "observation": "身体前倾，指尖指示鼻侧/面颊局部。",
+      "interpretation_and_limits": "近镜局部指示；此时本轮尚未取油，面部已经有明显高光。"
+    },
+    {
+      "time_range_seconds": [
+        3.75,
+        6.75
+      ],
+      "observation": "产品放桌面，空手张掌、竖食指，面向镜头讲解。",
+      "interpretation_and_limits": "口播停留段仍有轻手势；不必逐词换动作。"
+    },
+    {
+      "time_range_seconds": [
+        6.75,
+        9.5
+      ],
+      "observation": "再次举起闭盖瓶并靠近镜头，缓慢变换瓶身角度，瓶内根状物和液体可见。",
+      "interpretation_and_limits": "重点是看清内容物，不需要改编成每条必须大幅摇瓶。"
+    },
+    {
+      "time_range_seconds": [
+        9.5,
+        12.25
+      ],
+      "observation": "瓶回桌面，扶瓶旋开并提起滴管；滴管靠近镜头/面颊上方。",
+      "interpretation_and_limits": "分离与提起可作取用参考；滴落位置与滴数未可靠确认。"
+    },
+    {
+      "time_range_seconds": [
+        12.25,
+        15
+      ],
+      "observation": "另一手在单侧面颊与下颌往返推抹，持滴管手留在旁侧。",
+      "interpretation_and_limits": "脸颊接触路线可观察，油如何转移到脸上需补清，不把悬停写成已滴入。"
+    },
+    {
+      "time_range_seconds": [
+        15,
+        15.75
+      ],
+      "observation": "掌心张开接在滴管下，随后滴管回到瓶口，顶盖重新就位。",
+      "interpretation_and_limits": "取油到掌心的意图明确，实际液滴与旋紧过程未认证。"
+    },
+    {
+      "time_range_seconds": [
+        15.75,
+        16.75
+      ],
+      "observation": "双掌相贴往返搓开。",
+      "interpretation_and_limits": "看见的是搓掌，不把温度升高或吸收完成当可见事实。"
+    },
+    {
+      "time_range_seconds": [
+        16.75,
+        21.25
+      ],
+      "observation": "双手接触面颊、鼻侧、额头，推抹/按压后回到两颊，稍作侧脸。",
+      "interpretation_and_limits": "全脸分区路线；覆盖动作持续跨过多句，效果幅度没有可靠前后对照。"
+    },
+    {
+      "time_range_seconds": [
+        21.25,
+        22.871995
+      ],
+      "observation": "双手离脸，举起掌心给镜头看，再放低并面向镜头收尾。",
+      "interpretation_and_limits": "离手留脸和亮掌属于展示方式，不能证明无残留、不油腻或吸收速度。"
+    }
+  ],
+  "limitations": [
+    "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+    "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+    "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+    "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+    "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+    "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。"
+  ],
+  "duplicate_check": {
+    "within_batch": "小爱1与小爱3字节相同；小爱2为不同文件，但共享话术骨架和相似动作，不算两份独立的效果验证。",
+    "existing_skill_exact_matches": [],
+    "transcoded_or_reedited": "not_exhaustively_checked"
+  },
+  "performance_decision": "excluded_ai_generated",
+  "overall_acceptance": "scoped_reference_only_not_certified"
+}

@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-20261109-ginseng-daily-v47",
+  "title": "机场直接持滴管靠脸演示与举瓶",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "真人原片全时段抽帧及未听审ASR提炼；完整保留可见原始流程，不补造缺失环节。",
+    "source_refs": [
+      "performance-library/sources/20261109-ginseng-daily-v47/source.mp4",
+      "performance-library/sources/20261109-ginseng-daily-v47/review.json"
+    ],
+    "limitations": [
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+      "滴管实际接触/滴落需细查",
+      "不默认推荐滴管直接碰脸",
+      "眼周安全范围未确认"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确要求整文件夹分析入库。"
+    },
+    {
+      "date": "2026-11-09",
+      "action": "clarify_effect_dependency",
+      "basis": "最后核对：用后举瓶必须承接已完成的实际接触，不允许重排到使用之前。"
+    },
+    {
+      "date": "2026-11-09",
+      "action": "correct_action_reference",
+      "basis": "将指瓶/瓶内根状物与指鼻侧面颊分开；指瓶使用已有对应动作候选，仍为draft。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "categories": [
+    "人参油"
+  ],
+  "product_ids": [],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "goal": "出行现场的单手使用节奏",
+  "adaptation_notes": "本条是完整原片路线档案，非逐字核准台词。机场卸妆后准备护理 → 表示只随身带一瓶油 → 单手推抹穿插干燥生活类比 → 举瓶看参 → 个人出行习惯 → 护理结束；嘴部和其他部位适用不由此确认。展示/讲解段可跨句、可按音频换序；depends_on只约束物理前提，不把原始顺序当唯一模板。多产品和面膜段须先确认适配；时长不足拆段，不能等比压缩。",
+  "source_sequence": [
+    "0–6秒：滴管靠近额头和面颊",
+    "6–14秒：单手上脸后举瓶，再次提管",
+    "14–30秒：单手面颊额头鼻侧推抹",
+    "30–46秒：持瓶与单手触脸交替",
+    "46–64秒：脸颊和下巴颈侧推抹",
+    "64–72.075秒：举瓶至脸侧收尾"
+  ],
+  "initial_state_satisfies": [
+    "若首帧已完成取用、涂抹或贴膜，可承接已存在状态；不得重复取用或让膜布重生。"
+  ],
+  "maintained_states": [
+    "已实际接触区域的表面状态保持；瓶盖和滴管位置连续；膜布若仍在脸上，回到持品时继续保留。"
+  ],
+  "effect_required": true,
+  "effect_stage_ids": [
+    "stage-06"
+  ],
+  "stages": [
+    {
+      "id": "stage-01",
+      "goal": "滴管靠近额头和面颊",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：机场卸妆后准备护理 → 表示只随身带一瓶油 → 单手推抹穿插干燥生活类比 → 举瓶看参 → 个人出行习惯 → 护理结束；嘴部和其他部位适用不由此确认"
+      ],
+      "entry_state": "承接原片当前持物和皮肤状态；此段无足够证据绑定共用动作。",
+      "action_options": [],
+      "exit_state": "按原片所见结束：滴管靠近额头和面颊；缺失动作不补成已观察事实。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的滴管靠近额头和面颊相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        0,
+        6
+      ],
+      "observed_action_chain": [],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-02",
+      "goal": "单手上脸后举瓶，再次提管",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：机场卸妆后准备护理 → 表示只随身带一瓶油 → 单手推抹穿插干燥生活类比 → 举瓶看参 → 个人出行习惯 → 护理结束；嘴部和其他部位适用不由此确认"
+      ],
+      "entry_state": "手上已有油，另一手可持已收好的瓶；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-single-face"
+      ],
+      "exit_state": "各实际接触区完成推开，手离脸时不重置肤面",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的单手上脸后举瓶，再次提管相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        6,
+        14
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-single-face"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-03",
+      "goal": "单手面颊额头鼻侧推抹",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：机场卸妆后准备护理 → 表示只随身带一瓶油 → 单手推抹穿插干燥生活类比 → 举瓶看参 → 个人出行习惯 → 护理结束；嘴部和其他部位适用不由此确认"
+      ],
+      "entry_state": "手上已有油，另一手可持已收好的瓶；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-single-face"
+      ],
+      "exit_state": "各实际接触区完成推开，手离脸时不重置肤面",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的单手面颊额头鼻侧推抹相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        14,
+        30
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-single-face"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-04",
+      "goal": "持瓶与单手触脸交替",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：机场卸妆后准备护理 → 表示只随身带一瓶油 → 单手推抹穿插干燥生活类比 → 举瓶看参 → 个人出行习惯 → 护理结束；嘴部和其他部位适用不由此确认"
+      ],
+      "entry_state": "闭合瓶稳定可见且另一手空闲；段内其余操作保持连续。",
+      "action_options": [
+        "action-20261102-ginseng-oil-ref-24-point-bottle",
+        "action-20261109-ginseng-real-single-face"
+      ],
+      "exit_state": "各实际接触区完成推开，手离脸时不重置肤面",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的持瓶与单手触脸交替相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        30,
+        46
+      ],
+      "observed_action_chain": [
+        "action-20261102-ginseng-oil-ref-24-point-bottle",
+        "action-20261109-ginseng-real-single-face"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-05",
+      "goal": "脸颊和下巴颈侧推抹",
+      "required": true,
+      "depends_on": [
+        "stage-04"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：机场卸妆后准备护理 → 表示只随身带一瓶油 → 单手推抹穿插干燥生活类比 → 举瓶看参 → 个人出行习惯 → 护理结束；嘴部和其他部位适用不由此确认"
+      ],
+      "entry_state": "手上仍有可用余量且目标产品允许用于颈侧；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-neck",
+        "action-20261109-ginseng-real-single-face"
+      ],
+      "exit_state": "各实际接触区完成推开，手离脸时不重置肤面",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的脸颊和下巴颈侧推抹相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        46,
+        64
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-neck",
+        "action-20261109-ginseng-real-single-face"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-06",
+      "goal": "举瓶至脸侧收尾",
+      "required": true,
+      "depends_on": [
+        "stage-05"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：机场卸妆后准备护理 → 表示只随身带一瓶油 → 单手推抹穿插干燥生活类比 → 举瓶看参 → 个人出行习惯 → 护理结束；嘴部和其他部位适用不由此确认"
+      ],
+      "entry_state": "单手面部及下颌护理已完成；滴管已安全回瓶并确认闭盖，再举到脸侧。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "exit_state": "产品在脸侧，已接触的面部状态保持，手不再遮挡面颊。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的举瓶至脸侧收尾相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        64,
+        72.075
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    }
+  ],
+  "source_key": "v47",
+  "variant_keys": [],
+  "scene": "白字母毛衣机场候机",
+  "semantic_outline": {
+    "title": "旅途即时使用",
+    "outline": "机场卸妆后准备护理 → 表示只随身带一瓶油 → 单手推抹穿插干燥生活类比 → 举瓶看参 → 个人出行习惯 → 护理结束；嘴部和其他部位适用不由此确认",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "draft_reason": "台词与声音语气未听审；剂量/搭配/局部省略须按目标产品和具体选段核对。",
+  "family_id": "20261109-ginseng-daily-v22"
+}

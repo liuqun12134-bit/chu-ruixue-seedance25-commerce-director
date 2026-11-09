@@ -1,0 +1,89 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v15",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜床上半躺持瓶轻摇与脸侧讲解",
+  "summary": "同一持品条件下通过距离和角度区分讲解层次。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "人参油",
+    "浅紫上衣软包床头",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "全程闭盖，无使用结果",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "近镜悬提瓶、轻摇和转瓶",
+    "movement": "近镜悬提瓶、轻摇和转瓶 → 收至脸侧或胸前，指脸并继续交流 → 再次举瓶靠近镜头，远近升降变化，末尾手指朝下",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "再次举瓶靠近镜头，远近升降变化，末尾手指朝下",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v15",
+      "start_seconds": 0,
+      "end_seconds": 24,
+      "context": "浅紫上衣软包床头；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "近镜悬提瓶、轻摇和转瓶",
+      "utterance": "给大家介绍一下咱俩人身有了 因为我秋冬家那一款有 这适合就是干 灵干的情况下也适用 就是这款 每一个里面都带一个人身的这个人身有 这个就是 只要是你想润的话 这个超级润 你们要知道好的有的话 在脸上的停留时间和润度是很长的 这个咱俩人身有了 这个怕你们脸干 特地给你们说一声 我自己脸要红的 刺激的 或者什么任何情况下",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v15",
+      "start_seconds": 24,
+      "end_seconds": 34,
+      "context": "浅紫上衣软包床头；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "收至脸侧或胸前，指脸并继续交流",
+      "utterance": "我自己脸要红的 刺激的 或者什么任何情况下 我都会立刻找人身有 这个就是你可能会觉得 怎么吸收的没有别的那么快 它不是那么薄的",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v15",
+      "start_seconds": 34,
+      "end_seconds": 56.366667,
+      "context": "浅紫上衣软包床头；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "再次举瓶靠近镜头，远近升降变化，末尾手指朝下",
+      "utterance": "它不是那么薄的 它是比较润一点的在脸上 比较适合秋冬 大肥面膜什么的效果也有 闹猛了 今天给大家这个人是有惯在这 把活动给大家打开的 不用等了 双胀也有这个价钱 里边一颗一颗小人神 我总有一种感觉就是 我这个人身多泡一会 它效果就会更好 总有这种感觉 有像的是一拍",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v15/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

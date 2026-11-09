@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v31",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜其他护理液上脸后转人参油搭配讲解",
+  "summary": "区分前段护理液与末尾人参油 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "紫雏菊上衣衣帽间",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "粉瓶身份未知，不是已确认的人参油取用",
+    "人参油使用路线不完整",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "粉色长瓶倒向掌心",
+    "movement": "粉色长瓶倒向掌心 → 搓掌和双手全脸推抹 → 再次展示粉色长瓶并触脸 → 空手交流，人参油在末尾入镜",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "空手交流，人参油在末尾入镜",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v31",
+      "start_seconds": 0,
+      "end_seconds": 8,
+      "context": "紫雏菊上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "粉色长瓶倒向掌心",
+      "utterance": "用油的话搭配的水还有说的吗 要薄一点不要有那种很厚的 像我就用这个一直用这个水 其实它一定是很",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v31",
+      "start_seconds": 8,
+      "end_seconds": 32,
+      "context": "紫雏菊上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "搓掌和双手全脸推抹",
+      "utterance": "其实它一定是很 它一定是比较薄的水 这在克斯美斯做的 克斯美斯是一个牌子咸酸的工厂 台底的水的话就是不要很厚 都算你毛孔 后面的油都被你堵门外了 后面厚品的系统不要了 所以一定要有薄一点的水 也好闻还好用",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v31",
+      "start_seconds": 32,
+      "end_seconds": 42,
+      "context": "紫雏菊上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "再次展示粉色长瓶并触脸",
+      "utterance": "这款保持自认以购用 都挺好的 这个就是青春景华许空 因为这个就是 没有夹那么厚的成分 所以它比较适合来做大地",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v31",
+      "start_seconds": 42,
+      "end_seconds": 48.266667,
+      "context": "紫雏菊上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "空手交流，人参油在末尾入镜",
+      "utterance": "所以它比较适合来做大地 先用这个可以再去用其他的油 比如人生油啊这些",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v31/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

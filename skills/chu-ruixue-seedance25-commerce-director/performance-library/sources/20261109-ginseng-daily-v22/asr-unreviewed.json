@@ -1,0 +1,930 @@
+{
+  "source_sha256": "403d6f4f24b95494c3893ef79613c0647bce380992fba347008048b5493dcc13",
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "model": "faster-whisper-small-local-int8",
+  "decoded_seconds": 30.07125,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.92,
+      "text": "姐妹们真正给大家带人参饮容里边满满的营养",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.58,
+          "text": "姐",
+          "probability": 0.655173122882843
+        },
+        {
+          "start": 0.58,
+          "end": 0.68,
+          "text": "妹",
+          "probability": 0.8221297860145569
+        },
+        {
+          "start": 0.68,
+          "end": 0.82,
+          "text": "们",
+          "probability": 0.7199692130088806
+        },
+        {
+          "start": 0.82,
+          "end": 1.04,
+          "text": "真",
+          "probability": 0.8459880948066711
+        },
+        {
+          "start": 1.04,
+          "end": 1.24,
+          "text": "正",
+          "probability": 0.9998372793197632
+        },
+        {
+          "start": 1.24,
+          "end": 1.34,
+          "text": "给",
+          "probability": 0.9846571087837219
+        },
+        {
+          "start": 1.34,
+          "end": 1.48,
+          "text": "大家",
+          "probability": 0.9849809408187866
+        },
+        {
+          "start": 1.48,
+          "end": 1.98,
+          "text": "带",
+          "probability": 0.8762644529342651
+        },
+        {
+          "start": 1.98,
+          "end": 2.4,
+          "text": "人",
+          "probability": 0.951063334941864
+        },
+        {
+          "start": 2.4,
+          "end": 2.6,
+          "text": "参",
+          "probability": 0.6459850668907166
+        },
+        {
+          "start": 2.6,
+          "end": 2.74,
+          "text": "饮",
+          "probability": 0.5122029334306717
+        },
+        {
+          "start": 2.74,
+          "end": 2.86,
+          "text": "容",
+          "probability": 0.2700960636138916
+        },
+        {
+          "start": 2.86,
+          "end": 3.02,
+          "text": "里",
+          "probability": 0.9412875771522522
+        },
+        {
+          "start": 3.02,
+          "end": 3.12,
+          "text": "边",
+          "probability": 0.7115231156349182
+        },
+        {
+          "start": 3.12,
+          "end": 3.28,
+          "text": "满",
+          "probability": 0.9220278561115265
+        },
+        {
+          "start": 3.28,
+          "end": 3.44,
+          "text": "满",
+          "probability": 0.9987200200557709
+        },
+        {
+          "start": 3.44,
+          "end": 3.58,
+          "text": "的",
+          "probability": 0.968268632888794
+        },
+        {
+          "start": 3.58,
+          "end": 3.72,
+          "text": "营",
+          "probability": 0.9848140478134155
+        },
+        {
+          "start": 3.72,
+          "end": 3.92,
+          "text": "养",
+          "probability": 0.9854030311107635
+        }
+      ]
+    },
+    {
+      "start": 4.4399999999999995,
+      "end": 5.38,
+      "text": "满满的活性",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 4.4399999999999995,
+          "end": 4.76,
+          "text": "满",
+          "probability": 0.990204244852066
+        },
+        {
+          "start": 4.76,
+          "end": 4.88,
+          "text": "满",
+          "probability": 0.9991366267204285
+        },
+        {
+          "start": 4.88,
+          "end": 4.98,
+          "text": "的",
+          "probability": 0.9520667791366577
+        },
+        {
+          "start": 4.98,
+          "end": 5.18,
+          "text": "活",
+          "probability": 0.8816890120506287
+        },
+        {
+          "start": 5.18,
+          "end": 5.38,
+          "text": "性",
+          "probability": 0.9868664741516113
+        }
+      ]
+    },
+    {
+      "start": 5.38,
+      "end": 6.72,
+      "text": "里边泡了个小人参",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 5.38,
+          "end": 5.54,
+          "text": "里",
+          "probability": 0.13699302077293396
+        },
+        {
+          "start": 5.54,
+          "end": 5.92,
+          "text": "边",
+          "probability": 0.9540145397186279
+        },
+        {
+          "start": 5.92,
+          "end": 6.06,
+          "text": "泡",
+          "probability": 0.9706355035305023
+        },
+        {
+          "start": 6.06,
+          "end": 6.14,
+          "text": "了",
+          "probability": 0.9073382616043091
+        },
+        {
+          "start": 6.14,
+          "end": 6.24,
+          "text": "个",
+          "probability": 0.6344171762466431
+        },
+        {
+          "start": 6.24,
+          "end": 6.38,
+          "text": "小",
+          "probability": 0.9970864653587341
+        },
+        {
+          "start": 6.38,
+          "end": 6.52,
+          "text": "人",
+          "probability": 0.991796612739563
+        },
+        {
+          "start": 6.52,
+          "end": 6.72,
+          "text": "参",
+          "probability": 0.9820246696472168
+        }
+      ]
+    },
+    {
+      "start": 7.12,
+      "end": 9.3,
+      "text": "看了见的东西咱们一起奉行对不对",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 7.12,
+          "end": 7.44,
+          "text": "看",
+          "probability": 0.8336259722709656
+        },
+        {
+          "start": 7.44,
+          "end": 7.56,
+          "text": "了",
+          "probability": 0.6748831868171692
+        },
+        {
+          "start": 7.56,
+          "end": 7.7,
+          "text": "见",
+          "probability": 0.4948093593120575
+        },
+        {
+          "start": 7.7,
+          "end": 7.84,
+          "text": "的",
+          "probability": 0.6672673225402832
+        },
+        {
+          "start": 7.84,
+          "end": 7.94,
+          "text": "东",
+          "probability": 0.9958945512771606
+        },
+        {
+          "start": 7.94,
+          "end": 8.04,
+          "text": "西",
+          "probability": 0.9996651411056519
+        },
+        {
+          "start": 8.04,
+          "end": 8.18,
+          "text": "咱",
+          "probability": 0.9888246953487396
+        },
+        {
+          "start": 8.18,
+          "end": 8.26,
+          "text": "们",
+          "probability": 0.5421975255012512
+        },
+        {
+          "start": 8.26,
+          "end": 8.38,
+          "text": "一起",
+          "probability": 0.9787775278091431
+        },
+        {
+          "start": 8.38,
+          "end": 8.52,
+          "text": "奉",
+          "probability": 0.9051255881786346
+        },
+        {
+          "start": 8.52,
+          "end": 8.62,
+          "text": "行",
+          "probability": 0.8742805123329163
+        },
+        {
+          "start": 8.62,
+          "end": 8.76,
+          "text": "对",
+          "probability": 0.8670823574066162
+        },
+        {
+          "start": 8.76,
+          "end": 9.3,
+          "text": "不对",
+          "probability": 0.9994848966598511
+        }
+      ]
+    },
+    {
+      "start": 9.3,
+      "end": 10.68,
+      "text": "这款是个干皮啊",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 9.3,
+          "end": 9.72,
+          "text": "这",
+          "probability": 0.9618319869041443
+        },
+        {
+          "start": 9.72,
+          "end": 9.9,
+          "text": "款",
+          "probability": 0.9909636974334717
+        },
+        {
+          "start": 9.9,
+          "end": 10.1,
+          "text": "是",
+          "probability": 0.5477363467216492
+        },
+        {
+          "start": 10.1,
+          "end": 10.18,
+          "text": "个",
+          "probability": 0.9779210686683655
+        },
+        {
+          "start": 10.18,
+          "end": 10.34,
+          "text": "干",
+          "probability": 0.869215726852417
+        },
+        {
+          "start": 10.34,
+          "end": 10.52,
+          "text": "皮",
+          "probability": 0.9582219123840332
+        },
+        {
+          "start": 10.52,
+          "end": 10.68,
+          "text": "啊",
+          "probability": 0.14161406457424164
+        }
+      ]
+    },
+    {
+      "start": 10.68,
+      "end": 11.56,
+      "text": "咱们大家脸干的话",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 10.68,
+          "end": 10.76,
+          "text": "咱",
+          "probability": 0.9023849964141846
+        },
+        {
+          "start": 10.76,
+          "end": 10.84,
+          "text": "们",
+          "probability": 0.8607994914054871
+        },
+        {
+          "start": 10.84,
+          "end": 10.98,
+          "text": "大家",
+          "probability": 0.7198729515075684
+        },
+        {
+          "start": 10.98,
+          "end": 11.16,
+          "text": "脸",
+          "probability": 0.7256133556365967
+        },
+        {
+          "start": 11.16,
+          "end": 11.34,
+          "text": "干",
+          "probability": 0.9762384295463562
+        },
+        {
+          "start": 11.34,
+          "end": 11.56,
+          "text": "的话",
+          "probability": 0.9719960689544678
+        }
+      ]
+    },
+    {
+      "start": 11.56,
+      "end": 13.5,
+      "text": "就给大家推荐这款人参饮容",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 11.56,
+          "end": 11.7,
+          "text": "就",
+          "probability": 0.554267942905426
+        },
+        {
+          "start": 11.7,
+          "end": 12.04,
+          "text": "给",
+          "probability": 0.6776477098464966
+        },
+        {
+          "start": 12.04,
+          "end": 12.14,
+          "text": "大家",
+          "probability": 0.980340301990509
+        },
+        {
+          "start": 12.14,
+          "end": 12.3,
+          "text": "推",
+          "probability": 0.6377949118614197
+        },
+        {
+          "start": 12.3,
+          "end": 12.38,
+          "text": "荐",
+          "probability": 0.9951659142971039
+        },
+        {
+          "start": 12.38,
+          "end": 12.52,
+          "text": "这",
+          "probability": 0.9944524168968201
+        },
+        {
+          "start": 12.52,
+          "end": 12.64,
+          "text": "款",
+          "probability": 0.9935604333877563
+        },
+        {
+          "start": 12.64,
+          "end": 13.18,
+          "text": "人",
+          "probability": 0.9620959758758545
+        },
+        {
+          "start": 13.18,
+          "end": 13.28,
+          "text": "参",
+          "probability": 0.9991556704044342
+        },
+        {
+          "start": 13.28,
+          "end": 13.44,
+          "text": "饮",
+          "probability": 0.8120714426040649
+        },
+        {
+          "start": 13.44,
+          "end": 13.6,
+          "text": "容",
+          "probability": 0.9821677207946777
+        }
+      ]
+    },
+    {
+      "start": 14.04,
+      "end": 15.36,
+      "text": "有需要的自己去拍啊",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 14.04,
+          "end": 14.34,
+          "text": "有",
+          "probability": 0.9202943444252014
+        },
+        {
+          "start": 14.34,
+          "end": 14.52,
+          "text": "需要",
+          "probability": 0.9204068183898926
+        },
+        {
+          "start": 14.52,
+          "end": 14.66,
+          "text": "的",
+          "probability": 0.9842607378959656
+        },
+        {
+          "start": 14.66,
+          "end": 14.78,
+          "text": "自己",
+          "probability": 0.9740380048751831
+        },
+        {
+          "start": 14.78,
+          "end": 14.92,
+          "text": "去",
+          "probability": 0.9912711381912231
+        },
+        {
+          "start": 14.92,
+          "end": 15.1,
+          "text": "拍",
+          "probability": 0.9529716372489929
+        },
+        {
+          "start": 15.1,
+          "end": 15.36,
+          "text": "啊",
+          "probability": 0.4292509853839874
+        }
+      ]
+    },
+    {
+      "start": 15.36,
+      "end": 17.12,
+      "text": "然后这款可以是晚上来用",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 15.36,
+          "end": 15.84,
+          "text": "然后",
+          "probability": 0.9434410333633423
+        },
+        {
+          "start": 15.84,
+          "end": 15.98,
+          "text": "这",
+          "probability": 0.9523135423660278
+        },
+        {
+          "start": 15.98,
+          "end": 16.1,
+          "text": "款",
+          "probability": 0.950419545173645
+        },
+        {
+          "start": 16.1,
+          "end": 16.3,
+          "text": "可以",
+          "probability": 0.9973159432411194
+        },
+        {
+          "start": 16.3,
+          "end": 16.46,
+          "text": "是",
+          "probability": 0.7175746560096741
+        },
+        {
+          "start": 16.46,
+          "end": 16.7,
+          "text": "晚上",
+          "probability": 0.9475833773612976
+        },
+        {
+          "start": 16.7,
+          "end": 16.92,
+          "text": "来",
+          "probability": 0.926533579826355
+        },
+        {
+          "start": 16.92,
+          "end": 17.12,
+          "text": "用",
+          "probability": 0.9982370138168335
+        }
+      ]
+    },
+    {
+      "start": 17.12,
+      "end": 17.98,
+      "text": "这款因为很润",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 17.12,
+          "end": 17.36,
+          "text": "这",
+          "probability": 0.8471948504447937
+        },
+        {
+          "start": 17.36,
+          "end": 17.46,
+          "text": "款",
+          "probability": 0.8668354749679565
+        },
+        {
+          "start": 17.46,
+          "end": 17.56,
+          "text": "因为",
+          "probability": 0.8282977938652039
+        },
+        {
+          "start": 17.56,
+          "end": 17.8,
+          "text": "很",
+          "probability": 0.9933185577392578
+        },
+        {
+          "start": 17.8,
+          "end": 17.98,
+          "text": "润",
+          "probability": 0.8890084028244019
+        }
+      ]
+    },
+    {
+      "start": 17.98,
+      "end": 19.08,
+      "text": "白的你可以用",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 17.98,
+          "end": 18.6,
+          "text": "白",
+          "probability": 0.7721587419509888
+        },
+        {
+          "start": 18.6,
+          "end": 18.7,
+          "text": "的",
+          "probability": 0.12098425626754761
+        },
+        {
+          "start": 18.7,
+          "end": 18.88,
+          "text": "你可以",
+          "probability": 0.8405430912971497
+        },
+        {
+          "start": 18.88,
+          "end": 19.08,
+          "text": "用",
+          "probability": 0.982635498046875
+        }
+      ]
+    },
+    {
+      "start": 19.08,
+      "end": 20.5,
+      "text": "另外一款是油平衡的",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 19.08,
+          "end": 19.44,
+          "text": "另外",
+          "probability": 0.22233234345912933
+        },
+        {
+          "start": 19.44,
+          "end": 19.64,
+          "text": "一",
+          "probability": 0.9944161176681519
+        },
+        {
+          "start": 19.64,
+          "end": 19.74,
+          "text": "款",
+          "probability": 0.9978917241096497
+        },
+        {
+          "start": 19.74,
+          "end": 19.92,
+          "text": "是",
+          "probability": 0.05079055204987526
+        },
+        {
+          "start": 19.92,
+          "end": 20.04,
+          "text": "油",
+          "probability": 0.42481768131256104
+        },
+        {
+          "start": 20.04,
+          "end": 20.18,
+          "text": "平",
+          "probability": 0.32034510374069214
+        },
+        {
+          "start": 20.18,
+          "end": 20.32,
+          "text": "衡",
+          "probability": 0.8733308613300323
+        },
+        {
+          "start": 20.32,
+          "end": 20.5,
+          "text": "的",
+          "probability": 0.980766773223877
+        }
+      ]
+    },
+    {
+      "start": 20.5,
+      "end": 21.54,
+      "text": "你们自己去搭",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 20.5,
+          "end": 21.0,
+          "text": "你们",
+          "probability": 0.8027180433273315
+        },
+        {
+          "start": 21.0,
+          "end": 21.2,
+          "text": "自己",
+          "probability": 0.9977595806121826
+        },
+        {
+          "start": 21.2,
+          "end": 21.38,
+          "text": "去",
+          "probability": 0.9981496334075928
+        },
+        {
+          "start": 21.38,
+          "end": 21.54,
+          "text": "搭",
+          "probability": 0.9507689476013184
+        }
+      ]
+    },
+    {
+      "start": 21.54,
+      "end": 22.3,
+      "text": "有这个选项",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 21.54,
+          "end": 21.78,
+          "text": "有",
+          "probability": 0.625393271446228
+        },
+        {
+          "start": 21.78,
+          "end": 21.96,
+          "text": "这个",
+          "probability": 0.9440616369247437
+        },
+        {
+          "start": 21.96,
+          "end": 22.14,
+          "text": "选",
+          "probability": 0.9107910096645355
+        },
+        {
+          "start": 22.14,
+          "end": 22.3,
+          "text": "项",
+          "probability": 0.996353954076767
+        }
+      ]
+    },
+    {
+      "start": 24.34,
+      "end": 25.92,
+      "text": "然后给大家播个套盒",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 24.34,
+          "end": 24.66,
+          "text": "然后",
+          "probability": 0.9961649179458618
+        },
+        {
+          "start": 24.66,
+          "end": 24.98,
+          "text": "给",
+          "probability": 0.9749118089675903
+        },
+        {
+          "start": 24.98,
+          "end": 25.14,
+          "text": "大家",
+          "probability": 0.9833700656890869
+        },
+        {
+          "start": 25.14,
+          "end": 25.26,
+          "text": "播",
+          "probability": 0.18530622124671936
+        },
+        {
+          "start": 25.26,
+          "end": 25.44,
+          "text": "个",
+          "probability": 0.6641464233398438
+        },
+        {
+          "start": 25.44,
+          "end": 25.66,
+          "text": "套",
+          "probability": 0.9993947446346283
+        },
+        {
+          "start": 25.66,
+          "end": 25.92,
+          "text": "盒",
+          "probability": 0.9533633589744568
+        }
+      ]
+    },
+    {
+      "start": 26.58,
+      "end": 26.9,
+      "text": "呃",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 26.58,
+          "end": 26.9,
+          "text": "呃",
+          "probability": 0.6108853369951248
+        }
+      ]
+    },
+    {
+      "start": 26.9,
+      "end": 27.86,
+      "text": "去机场了",
+      "avg_logprob": -0.26935068245142535,
+      "no_speech_prob": 0.3504800498485565,
+      "words": [
+        {
+          "start": 26.9,
+          "end": 27.24,
+          "text": "去",
+          "probability": 0.5926097631454468
+        },
+        {
+          "start": 27.24,
+          "end": 27.42,
+          "text": "机",
+          "probability": 0.9726060032844543
+        },
+        {
+          "start": 27.42,
+          "end": 27.6,
+          "text": "场",
+          "probability": 0.9978244304656982
+        },
+        {
+          "start": 27.6,
+          "end": 27.86,
+          "text": "了",
+          "probability": 0.9809066653251648
+        }
+      ]
+    },
+    {
+      "start": 27.86,
+      "end": 28.32,
+      "text": "拜拜",
+      "avg_logprob": -0.7051354514227973,
+      "no_speech_prob": 0.0048706852830946445,
+      "words": [
+        {
+          "start": 27.86,
+          "end": 28.32,
+          "text": "拜拜",
+          "probability": 0.7659803628921509
+        }
+      ]
+    },
+    {
+      "start": 29.18,
+      "end": 29.84,
+      "text": "出去留了",
+      "avg_logprob": -0.7051354514227973,
+      "no_speech_prob": 0.0048706852830946445,
+      "words": [
+        {
+          "start": 29.04,
+          "end": 29.4,
+          "text": "出去",
+          "probability": 0.7458246350288391
+        },
+        {
+          "start": 29.4,
+          "end": 29.66,
+          "text": "留",
+          "probability": 0.7014225125312805
+        },
+        {
+          "start": 29.66,
+          "end": 29.84,
+          "text": "了",
+          "probability": 0.9523667097091675
+        }
+      ]
+    }
+  ]
+}

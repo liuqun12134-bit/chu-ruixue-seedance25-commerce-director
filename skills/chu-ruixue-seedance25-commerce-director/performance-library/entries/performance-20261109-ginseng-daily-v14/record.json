@@ -1,0 +1,140 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v14",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜喷雾精华后用油并贴膜的完整护理",
+  "summary": "多产品流程中把人参油的取用与完成状态独立标明。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "白雏菊长袖白桌",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "前段其他瓶不能误认人参油",
+    "取下面膜与实际停留时长不全",
+    "不作为目标产品搭配规则",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "双掌触脸、喷蓝色喷雾",
+    "movement": "双掌触脸、喷蓝色喷雾 → 使用另一透明滴管瓶、搓掌和全脸推抹 → 人参油举瓶、提管至掌心、搓开 → 双手全脸按压与讲解交替 → 展开并贴合面膜，沿边缘整理 → 面膜上调整下巴鼻翼额头并按压 → 面膜已不明显，拿纸巾擦手、局部触脸和讲解",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "面膜已不明显，拿纸巾擦手、局部触脸和讲解",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v14",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "context": "白雏菊长袖白桌；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "双掌触脸、喷蓝色喷雾",
+      "utterance": "敷个面膜 现在脸特别干 你们要这个敷面膜之前一定要先给脸补一下水 要有水 然后整个脸比较干一点",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v14",
+      "start_seconds": 10,
+      "end_seconds": 34,
+      "context": "白雏菊长袖白桌；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "使用另一透明滴管瓶、搓掌和全脸推抹",
+      "utterance": "要有水 然后整个脸比较干一点 所以就是我要用油 水油平衡 把这个油上下两层 这个摇一摇 咱家有很多油 这款的话就是比较 夏天都能用的 干啤啤都能用的 这波青的油 敷上油 你看 光敷了个油脸就亮得很过了 但我覺得我急救的話,我更適合用這個人身油",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v14",
+      "start_seconds": 34,
+      "end_seconds": 44,
+      "context": "白雏菊长袖白桌；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "人参油举瓶、提管至掌心、搓开",
+      "utterance": "但我覺得我急救的話,我更適合用這個人身油 就是急救,臉有紅油的保護膜 急救就找找找人身油了 我今天還是加大力度一下 因為我家的阿姨是我的臉",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v14",
+      "start_seconds": 44,
+      "end_seconds": 68,
+      "context": "白雏菊长袖白桌；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "双手全脸按压与讲解交替",
+      "utterance": "因為我家的阿姨是我的臉 今天有一點乾 明天早上出國 人身油 敷在我的臉上 然後再拿出來面膜 你再去敷 这就是油敷面膜 让这个水分更好的吸收 水和油太在一起会现成皮肤膜 明天早上我见不散了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v14",
+      "start_seconds": 68,
+      "end_seconds": 82,
+      "context": "白雏菊长袖白桌；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "展开并贴合面膜，沿边缘整理",
+      "utterance": "明天早上我见不散了 最后一下子了 不敷了 我的脸是超级明明肌 然后很容易过敏 又很容易干",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v14",
+      "start_seconds": 82,
+      "end_seconds": 110,
+      "context": "白雏菊长袖白桌；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "面膜上调整下巴鼻翼额头并按压",
+      "utterance": "好了,这是,你们用面膜之前不要干包拉鸡的,直接敷面膜,这是不对的。 给点水,也可不可以干的时候,给点油。 那我能换一款这个吗? 换什么呀? 这个,这个每天好有,天好多。 你要拼多久呀?",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v14",
+      "start_seconds": 110,
+      "end_seconds": 132.833333,
+      "context": "白雏菊长袖白桌；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "面膜已不明显，拿纸巾擦手、局部触脸和讲解",
+      "utterance": "应该 应该要拼很久吧 再把剩下的面膜放进去 人生油我们也要给大家做活动了 好了 不要做过新迷索吧 Bye Love Elsa Smarter",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v14/sheet-1.jpg",
+      "sources/20261109-ginseng-daily-v14/sheet-2.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

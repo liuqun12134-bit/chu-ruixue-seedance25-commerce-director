@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-20261109-ginseng-daily-v18",
+  "title": "浴室喷雾准备、用油、纸巾擦手收尾",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "真人原片全时段抽帧及未听审ASR提炼；完整保留可见原始流程，不补造缺失环节。",
+    "source_refs": [
+      "performance-library/sources/20261109-ginseng-daily-v18/source.mp4",
+      "performance-library/sources/20261109-ginseng-daily-v18/review.json"
+    ],
+    "limitations": [
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+      "喷雾身份未知",
+      "眼周话术不能代替实际适用性",
+      "擦手不证明完全吸收"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确要求整文件夹分析入库。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "categories": [
+    "人参油"
+  ],
+  "product_ids": [],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "goal": "用后擦手再持品的自然收尾，站姿可用。",
+  "adaptation_notes": "本条是完整原片路线档案，非逐字核准台词。日常爱用油 → 先水后油 → 掌心和上脸 → 描述个人水油搭配感受 → 局部干纹话题 → 面霜/底妆搭配话题。展示/讲解段可跨句、可按音频换序；depends_on只约束物理前提，不把原始顺序当唯一模板。多产品和面膜段须先确认适配；时长不足拆段，不能等比压缩。",
+  "source_sequence": [
+    "0–8秒：举瓶、空手讲解",
+    "8–18秒：另拿喷雾闭眼喷洒并放下",
+    "18–28秒：拿人参油取用到掌心，搓掌",
+    "28–40秒：双手两颊鼻侧全脸推抹",
+    "40–58秒：拿纸巾擦手，继续讲解",
+    "58–66秒：再次举瓶展示后放低",
+    "66–90.1333秒：手指指示眼周/面颊、张掌和擦手讲解"
+  ],
+  "initial_state_satisfies": [
+    "若首帧已完成取用、涂抹或贴膜，可承接已存在状态；不得重复取用或让膜布重生。"
+  ],
+  "maintained_states": [
+    "已实际接触区域的表面状态保持；瓶盖和滴管位置连续；膜布若仍在脸上，回到持品时继续保留。"
+  ],
+  "effect_required": false,
+  "effect_stage_ids": [],
+  "stages": [
+    {
+      "id": "stage-01",
+      "goal": "举瓶、空手讲解",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：日常爱用油 → 先水后油 → 掌心和上脸 → 描述个人水油搭配感受 → 局部干纹话题 → 面霜/底妆搭配话题"
+      ],
+      "entry_state": "闭盖瓶可稳握，桌面可承托；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "exit_state": "瓶直立于桌面，双手可继续动作。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的举瓶、空手讲解相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        0,
+        8
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-02",
+      "goal": "另拿喷雾闭眼喷洒并放下",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：日常爱用油 → 先水后油 → 掌心和上脸 → 描述个人水油搭配感受 → 局部干纹话题 → 面霜/底妆搭配话题"
+      ],
+      "entry_state": "喷雾身份、用法及与油的搭配已确认；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-spray-prep"
+      ],
+      "exit_state": "喷雾已放回，人参油准备取用",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的另拿喷雾闭眼喷洒并放下相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        8,
+        18
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-spray-prep"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-03",
+      "goal": "拿人参油取用到掌心，搓掌",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：日常爱用油 → 先水后油 → 掌心和上脸 → 描述个人水油搭配感受 → 局部干纹话题 → 面霜/底妆搭配话题"
+      ],
+      "entry_state": "滴管已取出，另一手掌心朝上，瓶可稳定承托；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-palm-dose",
+        "action-20261109-ginseng-xiaoai-rub"
+      ],
+      "exit_state": "双手空出、掌面可用于后续接触。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的拿人参油取用到掌心，搓掌相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        18,
+        28
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-palm-dose",
+        "action-20261109-ginseng-xiaoai-rub"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-04",
+      "goal": "双手两颊鼻侧全脸推抹",
+      "required": true,
+      "depends_on": [
+        "stage-03"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：日常爱用油 → 先水后油 → 掌心和上脸 → 描述个人水油搭配感受 → 局部干纹话题 → 面霜/底妆搭配话题"
+      ],
+      "entry_state": "双掌已有油且产品安全放置；第二条区间从剪辑后的片段开始；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-face"
+      ],
+      "exit_state": "面部无遮挡，双手离脸，产品仍在桌面。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的双手两颊鼻侧全脸推抹相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        28,
+        40
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-face"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-05",
+      "goal": "拿纸巾擦手，继续讲解",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：日常爱用油 → 先水后油 → 掌心和上脸 → 描述个人水油搭配感受 → 局部干纹话题 → 面霜/底妆搭配话题"
+      ],
+      "entry_state": "手上有护理残液，纸巾可取；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-tissue-hands"
+      ],
+      "exit_state": "纸巾留手中或放低，手可再次持品",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的拿纸巾擦手，继续讲解相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        40,
+        58
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-tissue-hands"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-06",
+      "goal": "再次举瓶展示后放低",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：日常爱用油 → 先水后油 → 掌心和上脸 → 描述个人水油搭配感受 → 局部干纹话题 → 面霜/底妆搭配话题"
+      ],
+      "entry_state": "闭盖瓶可稳握，桌面可承托；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "exit_state": "瓶直立于桌面，双手可继续动作。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的再次举瓶展示后放低相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        58,
+        66
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-07",
+      "goal": "手指指示眼周/面颊、张掌和擦手讲解",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：日常爱用油 → 先水后油 → 掌心和上脸 → 描述个人水油搭配感受 → 局部干纹话题 → 面霜/底妆搭配话题"
+      ],
+      "entry_state": "产品稳定在桌面，空手可动；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "exit_state": "产品仍原位，完成完整语义段。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的手指指示眼周/面颊、张掌和擦手讲解相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        66,
+        90.133333
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    }
+  ],
+  "source_key": "v18",
+  "variant_keys": [],
+  "scene": "白雏菊长袖浴室站姿",
+  "semantic_outline": {
+    "title": "先水后油个人习惯",
+    "outline": "日常爱用油 → 先水后油 → 掌心和上脸 → 描述个人水油搭配感受 → 局部干纹话题 → 面霜/底妆搭配话题",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "draft_reason": "台词与声音语气未听审；剂量/搭配/局部省略须按目标产品和具体选段核对。",
+  "family_id": "20261109-ginseng-daily-v18"
+}

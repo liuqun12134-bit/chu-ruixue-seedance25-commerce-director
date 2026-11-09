@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-20261109-ginseng-daily-v51",
+  "title": "直播透光、手部质地演示与多瓶讲解",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "真人原片全时段抽帧及未听审ASR提炼；完整保留可见原始流程，不补造缺失环节。",
+    "source_refs": [
+      "performance-library/sources/20261109-ginseng-daily-v51/source.mp4",
+      "performance-library/sources/20261109-ginseng-daily-v51/review.json"
+    ],
+    "limitations": [
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+      "旁人台词动作须分开",
+      "多瓶促销内容不迁移为当前活动",
+      "手背浅色膏液与油混合，ASR提示粉底液，另一产品包装身份和混用适配未核实。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确要求整文件夹分析入库。"
+    },
+    {
+      "date": "2026-11-09",
+      "action": "correct_action_reference",
+      "basis": "将指瓶/瓶内根状物与指鼻侧面颊分开；指瓶使用已有对应动作候选，仍为draft。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "categories": [
+    "人参油"
+  ],
+  "product_ids": [],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "goal": "瓶内展示到手部演示再回持品的长直播结构",
+  "adaptation_notes": "本条是完整原片路线档案，非逐字核准台词。近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核。展示/讲解段可跨句、可按音频换序；depends_on只约束物理前提，不把原始顺序当唯一模板。多产品和面膜段须先确认适配；时长不足拆段，不能等比压缩。",
+  "source_sequence": [
+    "0–16秒：近镜举瓶转瓶",
+    "16–24秒：手机底光照瓶",
+    "24–38秒：开瓶、滴管朝掌心并搓抹",
+    "38–50秒：另一黑色泵头瓶朝手背取浅色膏液，随后举近手背推抹；不是已确认喷雾",
+    "50–58秒：纸巾擦手、回收工具",
+    "58–108秒：多瓶摆桌，转头互动和展示印刷卡",
+    "108–128秒：旁人举瓶讲解，初瑞雪转头或听",
+    "128–148秒：本人举指和持瓶讲解",
+    "148–158秒：旁人再次举瓶，本人桌前交流",
+    "158–170秒：本人举两瓶、手机底光再展示",
+    "170–182.648秒：持瓶互动收尾"
+  ],
+  "initial_state_satisfies": [
+    "若首帧已完成取用、涂抹或贴膜，可承接已存在状态；不得重复取用或让膜布重生。"
+  ],
+  "maintained_states": [
+    "已实际接触区域的表面状态保持；瓶盖和滴管位置连续；膜布若仍在脸上，回到持品时继续保留。"
+  ],
+  "effect_required": false,
+  "effect_stage_ids": [],
+  "stages": [
+    {
+      "id": "stage-01",
+      "goal": "近镜举瓶转瓶",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "闭盖瓶可稳握，桌面可承托；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "exit_state": "瓶直立于桌面，双手可继续动作。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的近镜举瓶转瓶相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        0,
+        16
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-02",
+      "goal": "手机底光照瓶",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "瓶盖已旋紧，一手持瓶、一手持亮灯手机；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-phone-light"
+      ],
+      "exit_state": "瓶内根状物被透光展示；撤光后恢复正常外观",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的手机底光照瓶相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        16,
+        24
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-phone-light"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-03",
+      "goal": "开瓶、滴管朝掌心并搓抹",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "瓶身可由桌面或另一只手稳定承托；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-open-dropper",
+        "action-20261109-ginseng-xiaoai-palm-dose",
+        "action-20261109-ginseng-xiaoai-rub"
+      ],
+      "exit_state": "双手空出、掌面可用于后续接触。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的开瓶、滴管朝掌心并搓抹相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        24,
+        38
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-open-dropper",
+        "action-20261109-ginseng-xiaoai-palm-dose",
+        "action-20261109-ginseng-xiaoai-rub"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-04",
+      "goal": "另一黑色泵头瓶朝手背取浅色膏液，随后举近手背推抹；不是已确认喷雾",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "手背已有另一浅色膏液；具体品名、混用适配及用量需另行确认；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mix-handback"
+      ],
+      "exit_state": "手背浅色膏液已被推薄，表面有光泽；不证明配方兼容或妆效保持",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的另一黑色泵头瓶朝手背取浅色膏液，随后举近手背推抹；不是已确认喷雾相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        38,
+        50
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mix-handback"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-05",
+      "goal": "纸巾擦手、回收工具",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "手上有护理残液，纸巾可取；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-tissue-hands"
+      ],
+      "exit_state": "纸巾留手中或放低，手可再次持品",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的纸巾擦手、回收工具相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        50,
+        58
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-tissue-hands"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-06",
+      "goal": "多瓶摆桌，转头互动和展示印刷卡",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "承接原片当前持物和皮肤状态；此段无足够证据绑定共用动作。",
+      "action_options": [],
+      "exit_state": "按原片所见结束：多瓶摆桌，转头互动和展示印刷卡；缺失动作不补成已观察事实。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的多瓶摆桌，转头互动和展示印刷卡相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        58,
+        108
+      ],
+      "observed_action_chain": [],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-07",
+      "goal": "旁人举瓶讲解，初瑞雪转头或听",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "承接原片当前持物和皮肤状态；此段无足够证据绑定共用动作。",
+      "action_options": [],
+      "exit_state": "按原片所见结束：旁人举瓶讲解，初瑞雪转头或听；缺失动作不补成已观察事实。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的旁人举瓶讲解，初瑞雪转头或听相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        108,
+        128
+      ],
+      "observed_action_chain": [],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-08",
+      "goal": "本人举指和持瓶讲解",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "闭合瓶稳定可见且另一手空闲；段内其余操作保持连续。",
+      "action_options": [
+        "action-20261102-ginseng-oil-ref-24-point-bottle",
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "exit_state": "产品仍原位，完成完整语义段。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的本人举指和持瓶讲解相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        128,
+        148
+      ],
+      "observed_action_chain": [
+        "action-20261102-ginseng-oil-ref-24-point-bottle",
+        "action-20261109-ginseng-xiaoai-talk-gesture"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-09",
+      "goal": "旁人再次举瓶，本人桌前交流",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "承接原片当前持物和皮肤状态；此段无足够证据绑定共用动作。",
+      "action_options": [],
+      "exit_state": "按原片所见结束：旁人再次举瓶，本人桌前交流；缺失动作不补成已观察事实。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的旁人再次举瓶，本人桌前交流相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        148,
+        158
+      ],
+      "observed_action_chain": [],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-10",
+      "goal": "本人举两瓶、手机底光再展示",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "瓶盖已旋紧，一手持瓶、一手持亮灯手机；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-phone-light"
+      ],
+      "exit_state": "瓶内根状物被透光展示；撤光后恢复正常外观",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的本人举两瓶、手机底光再展示相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        158,
+        170
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-phone-light"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-11",
+      "goal": "持瓶互动收尾",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核"
+      ],
+      "entry_state": "闭盖瓶可稳握，桌面可承托；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "exit_state": "瓶直立于桌面，双手可继续动作。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的持瓶互动收尾相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        170,
+        182.648
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    }
+  ],
+  "source_key": "v51",
+  "variant_keys": [],
+  "scene": "黑西装红色直播背景",
+  "semantic_outline": {
+    "title": "直播产品演示与互动",
+    "outline": "近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "draft_reason": "台词与声音语气未听审；剂量/搭配/局部省略须按目标产品和具体选段核对。",
+  "family_id": "20261109-ginseng-daily-v51"
+}

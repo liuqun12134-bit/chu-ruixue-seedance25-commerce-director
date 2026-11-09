@@ -1,0 +1,351 @@
+{
+  "source_sha256": "0805048faef5654acf4af362c4a977cd17d0e67b5599843f55c9235886e157ea",
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "model": "faster-whisper-small-local-int8",
+  "decoded_seconds": 13.678,
+  "segments": [
+    {
+      "start": 0.4800000000000001,
+      "end": 2.44,
+      "text": "人家强烈推荐在家人身有",
+      "avg_logprob": -0.46294690337446,
+      "no_speech_prob": 0.5895730257034302,
+      "words": [
+        {
+          "start": 0.4800000000000001,
+          "end": 0.84,
+          "text": "人",
+          "probability": 0.26148492097854614
+        },
+        {
+          "start": 0.84,
+          "end": 0.94,
+          "text": "家",
+          "probability": 0.8840796947479248
+        },
+        {
+          "start": 0.94,
+          "end": 1.12,
+          "text": "强",
+          "probability": 0.7229157090187073
+        },
+        {
+          "start": 1.12,
+          "end": 1.26,
+          "text": "烈",
+          "probability": 0.8235045373439789
+        },
+        {
+          "start": 1.26,
+          "end": 1.42,
+          "text": "推",
+          "probability": 0.9117900729179382
+        },
+        {
+          "start": 1.42,
+          "end": 1.6,
+          "text": "荐",
+          "probability": 0.9198128879070282
+        },
+        {
+          "start": 1.6,
+          "end": 1.8,
+          "text": "在",
+          "probability": 0.28864866495132446
+        },
+        {
+          "start": 1.8,
+          "end": 1.96,
+          "text": "家",
+          "probability": 0.8838244676589966
+        },
+        {
+          "start": 1.96,
+          "end": 2.1,
+          "text": "人",
+          "probability": 0.9934681057929993
+        },
+        {
+          "start": 2.1,
+          "end": 2.26,
+          "text": "身",
+          "probability": 0.8182629346847534
+        },
+        {
+          "start": 2.26,
+          "end": 2.44,
+          "text": "有",
+          "probability": 0.8362433314323425
+        }
+      ]
+    },
+    {
+      "start": 3.18,
+      "end": 5.12,
+      "text": "人家有代犯的脸干嘛",
+      "avg_logprob": -0.46294690337446,
+      "no_speech_prob": 0.5895730257034302,
+      "words": [
+        {
+          "start": 3.18,
+          "end": 3.54,
+          "text": "人",
+          "probability": 0.17116597294807434
+        },
+        {
+          "start": 3.54,
+          "end": 3.72,
+          "text": "家",
+          "probability": 0.12409904599189758
+        },
+        {
+          "start": 3.72,
+          "end": 3.8,
+          "text": "有",
+          "probability": 0.8090665340423584
+        },
+        {
+          "start": 3.8,
+          "end": 3.94,
+          "text": "代",
+          "probability": 0.29764455556869507
+        },
+        {
+          "start": 3.94,
+          "end": 4.08,
+          "text": "犯",
+          "probability": 0.6225435212254524
+        },
+        {
+          "start": 4.08,
+          "end": 4.24,
+          "text": "的",
+          "probability": 0.9353118538856506
+        },
+        {
+          "start": 4.24,
+          "end": 4.4,
+          "text": "脸",
+          "probability": 0.930040180683136
+        },
+        {
+          "start": 4.4,
+          "end": 4.58,
+          "text": "干",
+          "probability": 0.8504433035850525
+        },
+        {
+          "start": 4.58,
+          "end": 5.12,
+          "text": "嘛",
+          "probability": 0.472955584526062
+        }
+      ]
+    },
+    {
+      "start": 5.12,
+      "end": 6.46,
+      "text": "干皮的最爱",
+      "avg_logprob": -0.46294690337446,
+      "no_speech_prob": 0.5895730257034302,
+      "words": [
+        {
+          "start": 5.12,
+          "end": 5.76,
+          "text": "干",
+          "probability": 0.49998968839645386
+        },
+        {
+          "start": 5.76,
+          "end": 5.94,
+          "text": "皮",
+          "probability": 0.7105343341827393
+        },
+        {
+          "start": 5.94,
+          "end": 6.1,
+          "text": "的",
+          "probability": 0.6539863348007202
+        },
+        {
+          "start": 6.1,
+          "end": 6.24,
+          "text": "最",
+          "probability": 0.9637993574142456
+        },
+        {
+          "start": 6.24,
+          "end": 6.46,
+          "text": "爱",
+          "probability": 0.9516971707344055
+        }
+      ]
+    },
+    {
+      "start": 7.120000000000001,
+      "end": 8.76,
+      "text": "刚才采耳碎了一下",
+      "avg_logprob": -0.46294690337446,
+      "no_speech_prob": 0.5895730257034302,
+      "words": [
+        {
+          "start": 7.120000000000001,
+          "end": 7.48,
+          "text": "刚",
+          "probability": 0.7330300807952881
+        },
+        {
+          "start": 7.48,
+          "end": 7.7,
+          "text": "才",
+          "probability": 0.9486992955207825
+        },
+        {
+          "start": 7.7,
+          "end": 8.02,
+          "text": "采",
+          "probability": 0.6888734102249146
+        },
+        {
+          "start": 8.02,
+          "end": 8.16,
+          "text": "耳",
+          "probability": 0.7797553241252899
+        },
+        {
+          "start": 8.16,
+          "end": 8.38,
+          "text": "碎",
+          "probability": 0.7383151203393936
+        },
+        {
+          "start": 8.38,
+          "end": 8.54,
+          "text": "了",
+          "probability": 0.9322096705436707
+        },
+        {
+          "start": 8.54,
+          "end": 8.76,
+          "text": "一下",
+          "probability": 0.4676280915737152
+        }
+      ]
+    },
+    {
+      "start": 9.46,
+      "end": 11.8,
+      "text": "在我自己公司办公室采耳的过来",
+      "avg_logprob": -0.46294690337446,
+      "no_speech_prob": 0.5895730257034302,
+      "words": [
+        {
+          "start": 9.46,
+          "end": 9.82,
+          "text": "在",
+          "probability": 0.7208861112594604
+        },
+        {
+          "start": 9.82,
+          "end": 9.9,
+          "text": "我",
+          "probability": 0.9970476031303406
+        },
+        {
+          "start": 9.9,
+          "end": 10.04,
+          "text": "自己",
+          "probability": 0.9926188588142395
+        },
+        {
+          "start": 10.04,
+          "end": 10.24,
+          "text": "公",
+          "probability": 0.9646255970001221
+        },
+        {
+          "start": 10.24,
+          "end": 10.42,
+          "text": "司",
+          "probability": 0.9944051504135132
+        },
+        {
+          "start": 10.42,
+          "end": 10.58,
+          "text": "办",
+          "probability": 0.880673885345459
+        },
+        {
+          "start": 10.58,
+          "end": 10.7,
+          "text": "公",
+          "probability": 0.9738035798072815
+        },
+        {
+          "start": 10.7,
+          "end": 10.92,
+          "text": "室",
+          "probability": 0.9979839026927948
+        },
+        {
+          "start": 10.92,
+          "end": 11.24,
+          "text": "采",
+          "probability": 0.9542558193206787
+        },
+        {
+          "start": 11.24,
+          "end": 11.38,
+          "text": "耳",
+          "probability": 0.9580347239971161
+        },
+        {
+          "start": 11.38,
+          "end": 11.48,
+          "text": "的",
+          "probability": 0.8981682062149048
+        },
+        {
+          "start": 11.48,
+          "end": 11.64,
+          "text": "过",
+          "probability": 0.9651633501052856
+        },
+        {
+          "start": 11.64,
+          "end": 11.82,
+          "text": "来",
+          "probability": 0.9738659858703613
+        }
+      ]
+    },
+    {
+      "start": 12.8,
+      "end": 13.64,
+      "text": "这看到人",
+      "avg_logprob": -0.46294690337446,
+      "no_speech_prob": 0.5895730257034302,
+      "words": [
+        {
+          "start": 12.8,
+          "end": 13.16,
+          "text": "这",
+          "probability": 0.21341611444950104
+        },
+        {
+          "start": 13.16,
+          "end": 13.42,
+          "text": "看到",
+          "probability": 0.3590448796749115
+        },
+        {
+          "start": 13.42,
+          "end": 13.64,
+          "text": "人",
+          "probability": 0.7978466153144836
+        }
+      ]
+    }
+  ]
+}

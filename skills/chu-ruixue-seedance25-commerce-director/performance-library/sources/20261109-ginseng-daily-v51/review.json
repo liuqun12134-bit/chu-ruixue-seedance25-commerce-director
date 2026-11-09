@@ -1,0 +1,102 @@
+{
+  "source_key": "v51",
+  "original_name": "人参油.mp4",
+  "sha256": "27348780046ec15ce8e792450ea1e2f0567e3085b1b16b8dad31c5abcda4ba24",
+  "declared_duration_seconds": 182.648005,
+  "decoded_audio_seconds": 182.6481875,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v51",
+  "family_id": "20261109-ginseng-daily-v51",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 91,
+    "sheets": [
+      "sheet-1.jpg",
+      "sheet-2.jpg",
+      "sheet-3.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [],
+  "original_timeline": [
+    [
+      0,
+      16,
+      "近镜举瓶转瓶"
+    ],
+    [
+      16,
+      24,
+      "手机底光照瓶"
+    ],
+    [
+      24,
+      38,
+      "开瓶、滴管朝掌心并搓抹"
+    ],
+    [
+      38,
+      50,
+      "另一黑色泵头瓶朝手背取浅色膏液，随后举近手背推抹；不是已确认喷雾"
+    ],
+    [
+      50,
+      58,
+      "纸巾擦手、回收工具"
+    ],
+    [
+      58,
+      108,
+      "多瓶摆桌，转头互动和展示印刷卡"
+    ],
+    [
+      108,
+      128,
+      "旁人举瓶讲解，初瑞雪转头或听"
+    ],
+    [
+      128,
+      148,
+      "本人举指和持瓶讲解"
+    ],
+    [
+      148,
+      158,
+      "旁人再次举瓶，本人桌前交流"
+    ],
+    [
+      158,
+      170,
+      "本人举两瓶、手机底光再展示"
+    ],
+    [
+      170,
+      182.648,
+      "持瓶互动收尾"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "直播产品演示与互动",
+    "outline": "近镜看参与手机透光 → 干燥及底妆搭配话题 → 手背浅色膏液推抹 → 多瓶、价格活动和库存 → 多人互动 → 再次底光展示；具体另一产品身份待核",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "旁人台词动作须分开",
+    "多瓶促销内容不迁移为当前活动",
+    "手背浅色膏液与油混合，ASR提示粉底液，另一产品包装身份和混用适配未核实。"
+  ]
+}

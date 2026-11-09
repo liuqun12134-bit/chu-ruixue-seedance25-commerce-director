@@ -1,0 +1,152 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v11",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜油与面膜组合演示、分层贴合及局部按摩",
+  "summary": "长流程可分为油前打底、贴膜与后续按摩；展示完成状态。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "卡通睡衣衣帽间",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "约84秒后面膜状态和剪辑省略待细查",
+    "不确认油膜搭配为目标产品用法",
+    "眼周操作适用性待确认",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "手机照瓶，油与粉色面膜袋同框",
+    "movement": "手机照瓶，油与粉色面膜袋同框 → 放下工具、讲解、开面膜袋和台面取用 → 先单手推抹面颊额头下巴 → 从袋中取出展开面膜，贴到脸上并揭去外层网状/承托片 → 沿鼻翼下巴面颊抚平贴合 → 低头拿袋/取用，手指在面部局部操作 → 指尖眼下鼻侧及双掌面部按压 → 离手讲解、侧看、指向镜头或下方",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "离手讲解、侧看、指向镜头或下方",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v11",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "context": "卡通睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "手机照瓶，油与粉色面膜袋同框",
+      "utterance": "这是咱家的人参油 我今天不是跟大家说我抱了一层皮了吗 用完一唇 那这个我今天要把人参油和咱家的面膜调到一起",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v11",
+      "start_seconds": 10,
+      "end_seconds": 40,
+      "context": "卡通睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "放下工具、讲解、开面膜袋和台面取用",
+      "utterance": "那这个我今天要把人参油和咱家的面膜调到一起 你的脸上可以先抹一层油 然后再拿这个人参油 你不是真的放了一颗人参呢 看到了吗 然后把人参油挤到我们的面膜里面 太淡了 用完一唇 就是你抱皮的话你就会觉得干 因为做的活动是历时到点了 从来没给过你这活动 然后有如何咱家的无防红线的 有酒精的面膜它调的一起 不能有那种气性的 然后直接再点人敷补才能够敷",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v11",
+      "start_seconds": 40,
+      "end_seconds": 50,
+      "context": "卡通睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "先单手推抹面颊额头下巴",
+      "utterance": "然后直接再点人敷补才能够敷 所以就一成爆皮漆的话 大家是用不了美白油了 因为都是强功耀损的 这个就是比如说在红血丝 然后讲抗粥 抗衰 气色不好",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v11",
+      "start_seconds": 50,
+      "end_seconds": 68,
+      "context": "卡通睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "从袋中取出展开面膜，贴到脸上并揭去外层网状/承托片",
+      "utterance": "然后讲抗粥 抗衰 气色不好 脸发黄 去使用这块油 你要知道用20年的水没有效果 你要用油了 你可不是在用这个水的 然后就把这个 鱼肉和面包调在一起 啊 这小味 挺全的味道",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v11",
+      "start_seconds": 68,
+      "end_seconds": 84,
+      "context": "卡通睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "沿鼻翼下巴面颊抚平贴合",
+      "utterance": "把这个油和面包揉在一起 你们要是用美白油的话也用这个方法 非常复提 看到了吗",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v11",
+      "start_seconds": 84,
+      "end_seconds": 110,
+      "context": "卡通睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "低头拿袋/取用，手指在面部局部操作",
+      "utterance": "非常非常富贴咱们就是服装个10分钟可以了啊 我服面膏不准服15分钟 看 还有这么多 眼睛下面一定要带到啊 也干味咋来的 干味你这缺水啊还是缺油啊 自己想想 人油皮咋叫不叫干味呢 对不对 干味你这缺油啊 不叫缺水啊",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v11",
+      "start_seconds": 110,
+      "end_seconds": 132,
+      "context": "卡通睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "指尖眼下鼻侧及双掌面部按压",
+      "utterance": "这个人生油我觉得应该红到了它的季节了 尤其大东北的像条片霜呢 这个油就比别的油要更有油感一些 就不像别的嘛玩的就你现在吸出完了 这个就是你就我今天特别干我急救用它我就是这个油",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v11",
+      "start_seconds": 132,
+      "end_seconds": 146.366667,
+      "context": "卡通睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "离手讲解、侧看、指向镜头或下方",
+      "utterance": "这个就是你就我今天特别干我急救用它我就是这个油 不想多借这老房子 人生还用借这吗 人生交皮弄容脚都给商保了 有需要点这里啊 今天活动多点了啊 别再等了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v11/sheet-1.jpg",
+      "sources/20261109-ginseng-daily-v11/sheet-2.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

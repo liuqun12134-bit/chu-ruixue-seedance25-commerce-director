@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261109-ginseng-real-phone-light",
+  "title": "手机灯托底透光看参",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "用户授权整批人参油参考视频入库；按真人原片抽帧提炼。",
+    "source_refs": [
+      "performance-library/sources/20261109-ginseng-daily-v10/review.json",
+      "performance-library/sources/20261109-ginseng-daily-v10/source.mp4",
+      "performance-library/sources/20261109-ginseng-daily-v50/review.json",
+      "performance-library/sources/20261109-ginseng-daily-v50/source.mp4"
+    ],
+    "limitations": [
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+      "不能把黄色透光当油液本色",
+      "不是每条视频必需摇瓶"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "真人原片可观察动作，未进行生成测试。"
+    }
+  ],
+  "modes": [
+    "talk"
+  ],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "approved_product_ids": [],
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "人参油",
+        "面部护理油"
+      ],
+      "basis": "来源品类由用户确认；迁移按目标产品评估。"
+    },
+    "texture": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "此动作仅处理持物、构图或擦手，不依赖液体质地。"
+    },
+    "packaging": {
+      "mode": "constrained",
+      "values": [
+        "透明闭盖瓶"
+      ],
+      "basis": "持物动作需匹配此包装条件。"
+    },
+    "body_part": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "不接触皮肤，展示结构或容器。"
+    },
+    "purpose": {
+      "mode": "constrained",
+      "values": [
+        "手机灯托底透光看参"
+      ],
+      "basis": "仅迁移此可观察的动作目的。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "瓶盖已旋紧，一手持瓶、一手持亮灯手机"
+    ],
+    "action": "将瓶底移到手机灯上方，转瓶后停稳，再撤去底光",
+    "transition": "回到正常光脸侧持瓶；开瓶前放下手机",
+    "end_state": "瓶内根状物被透光展示；撤光后恢复正常外观",
+    "expected_effect": "让观众看清手机灯托底透光看参的过程；不是功效证明。",
+    "avoid": [
+      "不能把黄色透光当油液本色",
+      "不是每条视频必需摇瓶"
+    ]
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false,
+  "source_evidence": [
+    {
+      "source_ref": "performance-library/sources/20261109-ginseng-daily-v10/source.mp4",
+      "time_range_seconds": [
+        0,
+        9.5
+      ],
+      "timing_status": "approximate_4fps_sampled_review",
+      "source_kind": "real_person_user_confirmed"
+    },
+    {
+      "source_ref": "performance-library/sources/20261109-ginseng-daily-v50/source.mp4",
+      "time_range_seconds": [
+        0,
+        12
+      ],
+      "timing_status": "approximate_2second_sampled_review",
+      "source_kind": "real_person_user_confirmed"
+    }
+  ],
+  "acceptance_status": "scoped_method_reference"
+}

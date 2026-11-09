@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-20261109-ginseng-daily-v48",
+  "title": "全脸用油、贴膜揭外层与擦手收尾",
+  "enabled": true,
+  "status": "draft",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "真人原片全时段抽帧及未听审ASR提炼；完整保留可见原始流程，不补造缺失环节。",
+    "source_refs": [
+      "performance-library/sources/20261109-ginseng-daily-v48/source.mp4",
+      "performance-library/sources/20261109-ginseng-daily-v48/review.json"
+    ],
+    "limitations": [
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+      "后段膜布去留不够清楚",
+      "不按剪辑长度制定敷膜时间"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确要求整文件夹分析入库。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "categories": [
+    "人参油"
+  ],
+  "product_ids": [],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "goal": "揭外层的动作次序和擦手收尾",
+  "adaptation_notes": "本条是完整原片路线档案，非逐字核准台词。掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明。展示/讲解段可跨句、可按音频换序；depends_on只约束物理前提，不把原始顺序当唯一模板。多产品和面膜段须先确认适配；时长不足拆段，不能等比压缩。",
+  "source_sequence": [
+    "0–8秒：举瓶、掌心取用、搓开",
+    "8–18秒：双手全脸推抹",
+    "18–32秒：开袋准备并继续触脸",
+    "32–40秒：展开面膜贴到脸上",
+    "40–48秒：揭去外层承托片并整理",
+    "48–74秒：沿下巴鼻侧面颊按压整理",
+    "74–84秒：取纸巾擦手",
+    "84–97.5秒：继续局部触脸、纸巾手势，瓶回桌面"
+  ],
+  "initial_state_satisfies": [
+    "若首帧已完成取用、涂抹或贴膜，可承接已存在状态；不得重复取用或让膜布重生。"
+  ],
+  "maintained_states": [
+    "已实际接触区域的表面状态保持；瓶盖和滴管位置连续；膜布若仍在脸上，回到持品时继续保留。"
+  ],
+  "effect_required": false,
+  "effect_stage_ids": [],
+  "stages": [
+    {
+      "id": "stage-01",
+      "goal": "举瓶、掌心取用、搓开",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明"
+      ],
+      "entry_state": "滴管已取出，另一手掌心朝上，瓶可稳定承托；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-palm-dose",
+        "action-20261109-ginseng-xiaoai-rub"
+      ],
+      "exit_state": "双手空出、掌面可用于后续接触。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的举瓶、掌心取用、搓开相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        0,
+        8
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-palm-dose",
+        "action-20261109-ginseng-xiaoai-rub"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-02",
+      "goal": "双手全脸推抹",
+      "required": true,
+      "depends_on": [
+        "stage-01"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明"
+      ],
+      "entry_state": "双掌已有油且产品安全放置；第二条区间从剪辑后的片段开始；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-face"
+      ],
+      "exit_state": "面部无遮挡，双手离脸，产品仍在桌面。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的双手全脸推抹相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        8,
+        18
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-face"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-03",
+      "goal": "开袋准备并继续触脸",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明"
+      ],
+      "entry_state": "袋在两手之间，开口位置清楚；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mask-open"
+      ],
+      "exit_state": "面膜袋已开，内容物未凭空离袋",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的开袋准备并继续触脸相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        18,
+        32
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mask-open"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-04",
+      "goal": "展开面膜贴到脸上",
+      "required": true,
+      "depends_on": [
+        "stage-03"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明"
+      ],
+      "entry_state": "膜布已可取出，脸部护理准备完成；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mask-apply"
+      ],
+      "exit_state": "膜布已落在脸上，边缘仍待整理",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的展开面膜贴到脸上相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        32,
+        40
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mask-apply"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-05",
+      "goal": "揭去外层承托片并整理",
+      "required": true,
+      "depends_on": [
+        "stage-04"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明"
+      ],
+      "entry_state": "双层膜布已贴脸且明确哪层需要保留；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mask-peel"
+      ],
+      "exit_state": "贴肤层仍在脸上，外层已被拿走",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的揭去外层承托片并整理相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        40,
+        48
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mask-peel"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-06",
+      "goal": "沿下巴鼻侧面颊按压整理",
+      "required": true,
+      "depends_on": [
+        "stage-05"
+      ],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明"
+      ],
+      "entry_state": "贴肤膜已在脸上，外层已按产品需要处理；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-mask-adjust"
+      ],
+      "exit_state": "膜布贴合主要轮廓并持续保留",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的沿下巴鼻侧面颊按压整理相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        48,
+        74
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-mask-adjust"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-07",
+      "goal": "取纸巾擦手",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明"
+      ],
+      "entry_state": "手上有护理残液，纸巾可取；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-real-tissue-hands"
+      ],
+      "exit_state": "纸巾留手中或放低，手可再次持品",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的取纸巾擦手相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        74,
+        84
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-real-tissue-hands"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    },
+    {
+      "id": "stage-08",
+      "goal": "继续局部触脸、纸巾手势，瓶回桌面",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "优先承接相关原声语义段；以下整片概括仅来自未听审ASR：掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明"
+      ],
+      "entry_state": "闭盖瓶可稳握，桌面可承托；段内后续动作按前一动作结束状态衔接。",
+      "action_options": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "exit_state": "瓶直立于桌面，双手可继续动作。",
+      "carry_forward": [
+        "保持刚完成的持物、瓶盖、皮肤接触区和膜布状态；转头或遮挡不重置。"
+      ],
+      "acceptance": [
+        "与原片可见的继续局部触脸、纸巾手势，瓶回桌面相符；缺省过程须标明。",
+        "仅在目标产品允许、时间足够且首帧状态满足时复用。"
+      ],
+      "source_interval_seconds": [
+        84,
+        97.5
+      ],
+      "observed_action_chain": [
+        "action-20261109-ginseng-xiaoai-lift"
+      ],
+      "semantic_alignment": "unreviewed_asr_approximate"
+    }
+  ],
+  "source_key": "v48",
+  "variant_keys": [],
+  "scene": "白雏菊短袖白桌",
+  "semantic_outline": {
+    "title": "油打底后贴膜",
+    "outline": "掌心取油并全脸推开 → 面膜准备 → 贴上揭外层 → 整理贴合 → 擦手与原声交流；不是定量使用说明",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "draft_reason": "台词与声音语气未听审；剂量/搭配/局部省略须按目标产品和具体选段核对。",
+  "family_id": "20261109-ginseng-daily-v14"
+}

@@ -1,0 +1,75 @@
+{
+  "source_key": "v03",
+  "original_name": "GgGpo6vEawrn9d0gvgKNn6oJYG_Loi3FVAQXl9_iHa_-p6A9SLoAeRgI52_OE2L8xb87f5Z81oJAMcm9DigTIWE8qGQ-G8vPqq_aV4PYW4KetVpMP3r70Ya2kpDI-TW-J9twjV51frAgC5lhpyy8F2dcF9t4yRbnyH8DccP0ldz7Rw3MCYVFD_uKAwsa8CHb.mp4",
+  "sha256": "65060ba2189afa6df9709f38778cd90a7ddac649145a18c1b2b68c033aedde96",
+  "declared_duration_seconds": 82.57,
+  "decoded_audio_seconds": 82.5948125,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v03",
+  "family_id": "20261109-ginseng-daily-v03",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 41,
+    "sheets": [
+      "sheet-1.jpg",
+      "sheet-2.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [],
+  "original_timeline": [
+    [
+      0,
+      10,
+      "托瓶近镜、转瓶看根状物"
+    ],
+    [
+      10,
+      18,
+      "旋开提管至掌心，回瓶"
+    ],
+    [
+      18,
+      46,
+      "双手额头两颊推抹，单手沿鼻侧和下颌细推"
+    ],
+    [
+      46,
+      52,
+      "再次取油至掌心并搓开"
+    ],
+    [
+      52,
+      76,
+      "继续面颊额头局部推抹，近镜停留"
+    ],
+    [
+      76,
+      82.57,
+      "再次举瓶后放低，露出面部收尾"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "生活化边聊边用",
+    "outline": "介绍瓶内人参 → 开瓶使用 → 大量家庭旁人交流 → 回到产品与购买提示；不可把旁人话当本人话术",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "眼周实际适用性需目标产品确认",
+    "多次取油不能推导标准剂量"
+  ]
+}

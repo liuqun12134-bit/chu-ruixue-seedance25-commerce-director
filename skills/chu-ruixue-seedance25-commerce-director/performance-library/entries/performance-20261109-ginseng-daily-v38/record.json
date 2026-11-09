@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v38",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜近脸横转倒持展示瓶内结构",
+  "summary": "闭盖瓶多角度展示 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "人参油",
+    "紫睡衣衣帽间",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "不开盖、不上脸",
+    "转瓶与其他同场片段不算独立习惯",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "瓶近镜，指瓶底",
+    "movement": "瓶近镜，指瓶底 → 脸侧直立与倒持交替 → 横向纵向转瓶 → 脸侧持续持瓶和小幅转角",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "脸侧持续持瓶和小幅转角",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v38",
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "context": "紫睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "瓶近镜，指瓶底",
+      "utterance": "选用很热很热的理由就选这款人生有每一个里面给大家泡一个人生 这个现在就是深得大家闲断货断了两次 每一次的话都断一个来月",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v38",
+      "start_seconds": 6,
+      "end_seconds": 18,
+      "context": "紫睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "脸侧直立与倒持交替",
+      "utterance": "这个现在就是深得大家闲断货断了两次 每一次的话都断一个来月 这个难得出货了 我说有问题还有多少人要拍 要不再给你们 近点货 再做点货 你们怎么总拍的那么快啊 因为这个卖的便宜 一直挂在里边没有卖",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v38",
+      "start_seconds": 18,
+      "end_seconds": 30,
+      "context": "紫睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "横向纵向转瓶",
+      "utterance": "近点货 再做点货 你们怎么总拍的那么快啊 因为这个卖的便宜 一直挂在里边没有卖 然后你大家都是自动拍的和回购拍的 所以就是你们要是 后面还要回购物了 跟我说一声 多点点赞告诉我一声",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v38",
+      "start_seconds": 30,
+      "end_seconds": 47.996,
+      "context": "紫睡衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "脸侧持续持瓶和小幅转角",
+      "utterance": "多点点赞告诉我一声 然后就给大家做做做做一下的 因为这个大家也能看到身的成本 还有包装的成本 很多成本在这边放着 还有油的成本都已经很贵了 然后如果存太多的话 压线太多了 你们要的话再给大家存点",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v38/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

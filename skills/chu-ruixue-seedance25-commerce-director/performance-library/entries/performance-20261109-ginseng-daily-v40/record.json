@@ -1,0 +1,176 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v40",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜用油打底、袋内加油、贴膜后持品",
+  "summary": "贴膜后的状态保持与回到产品 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "白长袖深色柜架",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "混用适配未确认",
+    "省略咬袋开包动作，不推荐复用",
+    "剪辑时长不是敷膜时长",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "举瓶、滴管朝掌心、搓掌",
+    "movement": "举瓶、滴管朝掌心、搓掌 → 上脸推抹、间隔举瓶 → 打开蓝白面膜袋 → 滴管朝袋口，回瓶后重复 → 揉拍袋外并取膜 → 展开面膜并贴上 → 沿额头鼻翼面颊下巴整理膜布 → 手掌和颈部手势 → 保留面膜，举瓶近镜 → 伸手移镜头，末尾突变角度",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "伸手移镜头，末尾突变角度",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v40",
+      "start_seconds": 0,
+      "end_seconds": 8,
+      "context": "白长袖深色柜架；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "举瓶、滴管朝掌心、搓掌",
+      "utterance": "一会儿去打球 打上去来 就用个油的面 用这个人手油",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v40",
+      "start_seconds": 8,
+      "end_seconds": 22,
+      "context": "白长袖深色柜架；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "上脸推抹、间隔举瓶",
+      "utterance": "用这个人手油 给人手油老票 看这边 因为早上就不用尾牌了 打球的又要放了 等这个尾牌停不了那么久",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v40",
+      "start_seconds": 22,
+      "end_seconds": 34,
+      "context": "白长袖深色柜架；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "打开蓝白面膜袋",
+      "utterance": "昨天还烧上来很美 買這個才是有的到達全部的家裡那一家",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v40",
+      "start_seconds": 34,
+      "end_seconds": 50,
+      "context": "白长袖深色柜架；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "滴管朝袋口，回瓶后重复",
+      "utterance": "就沒有刺激它也不行 就沒有刺激它 這個 就把它帶上身子 填一點 就填一點 然後很多都買過了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v40",
+      "start_seconds": 50,
+      "end_seconds": 68,
+      "context": "白长袖深色柜架；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "揉拍袋外并取膜",
+      "utterance": "然後很多都買過了 買了很多 沒有閃利軟炸 就讓普通的用油 用油 這是乾皮的油 又可以拍另外一塊 我覺得相當級就 一片口粉188的麵衫買了5票",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v40",
+      "start_seconds": 68,
+      "end_seconds": 88,
+      "context": "白长袖深色柜架；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "展开面膜并贴上",
+      "utterance": "一片口粉188的麵衫買了5票 30塊1票 昨天用口粉滑完油整個臉好太多了 今天早上回來一點 因為海邊風吹很大了 大修 我这个手的现在是算的",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v40",
+      "start_seconds": 88,
+      "end_seconds": 124,
+      "context": "白长袖深色柜架；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "沿额头鼻翼面颊下巴整理膜布",
+      "utterance": "这可以了 所有油除了在用以外 最后一步是它们非常常用的 还是非常高效率的用油 眼睛下巴一定要解决 眼睛下巴干了洗油一定要解决 用水是解决不了干的洗油 就得用油 脚后不能用上那个那么干",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v40",
+      "start_seconds": 124,
+      "end_seconds": 134,
+      "context": "白长袖深色柜架；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "手掌和颈部手势",
+      "utterance": "脚后不能用上那个那么干 用不抹油 抹水 肯定会那么干 这是根本问题",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v40",
+      "start_seconds": 134,
+      "end_seconds": 144,
+      "context": "白长袖深色柜架；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "保留面膜，举瓶近镜",
+      "utterance": "好了,这个是油,给它推荐一下 让我去烤过了,吃点饭,一会儿再重新",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v40",
+      "start_seconds": 144,
+      "end_seconds": 147.377,
+      "context": "白长袖深色柜架；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "伸手移镜头，末尾突变角度",
+      "utterance": "让我去烤过了,吃点饭,一会儿再重新",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v40/sheet-1.jpg",
+      "sources/20261109-ginseng-daily-v40/sheet-2.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

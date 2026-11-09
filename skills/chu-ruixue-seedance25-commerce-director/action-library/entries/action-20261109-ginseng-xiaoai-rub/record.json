@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-20261109-ginseng-xiaoai-rub",
+  "title": "双掌相贴往返搓开",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "用户要求分析入库同事制作的人参油AI视频；已对去重后两条成片进行全时段抽帧观察。 另补充本批用户确认的真人原片参考，见source_evidence各项source_kind。",
+    "source_refs": [
+      "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+      "script-library/sources/20261109-ginseng-xiaoai-1/review.json",
+      "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+      "script-library/sources/20261109-ginseng-xiaoai-2/review.json",
+      "performance-library/sources/20261109-ginseng-daily-v09/review.json",
+      "performance-library/sources/20261109-ginseng-daily-v09/source.mp4",
+      "performance-library/sources/20261109-ginseng-daily-v48/review.json",
+      "performance-library/sources/20261109-ginseng-daily-v48/source.mp4"
+    ],
+    "limitations": [
+      "用户明确说明是同事制作的AI视频，并评价非常好；该评价保留为用户评价，不等于本次已验证全部生成质量。",
+      "本次对两条独立成片全时段4fps抽帧检查并看1fps概览；不是实时播放、逐原始帧检查或人工听审。时间边界约0.25秒，短瞬间可能漏采。",
+      "本地faster-whisper-small转写未经听审；机器原文、可读字幕、语义概括分开保存，口型及声音语气未认证。",
+      "用户确认来源为人参油；不凭AI包装相似绑定已存在的具体产品。价格、赠品、用量、使用顺序与功效须由实际产品和当次活动确认。",
+      "AI成片不是初瑞雪本人习惯证据；人物表现库不新增。已有强面部反光不能作为本轮使用前后功效对照。",
+      "generation_status=untested表示本次提炼脚本/动作未另行生成验证；实际AI参考原片另作为来源证据完整保存。",
+      "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+      "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+      "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+      "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "source_generation_type": "mixed_ai_and_real_reference",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "create",
+      "basis": "用户明确授权动作与脚本分析入库；来源去重并保留原片。"
+    },
+    {
+      "date": "2026-11-09",
+      "action": "add_real_source_evidence",
+      "basis": "整批真人入库补充观察；原AI来源和原有适用限制保留，未升级未核实的落滴/语气关系。"
+    }
+  ],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "approved_product_ids": [],
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "人参油",
+        "面部护理油"
+      ],
+      "basis": "来源品类用户确认；其他品类需另评适配。"
+    },
+    "texture": {
+      "mode": "constrained",
+      "values": [
+        "油状"
+      ],
+      "basis": "用户确认人参油；不从AI画面测定物理黏度。"
+    },
+    "packaging": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "本动作在产品已稳定放置或取用完成后执行，不依赖容器形态。"
+    },
+    "body_part": {
+      "mode": "constrained",
+      "values": [
+        "掌心"
+      ],
+      "basis": "按抽帧可见部位。"
+    },
+    "purpose": {
+      "mode": "constrained",
+      "values": [
+        "掌间分布"
+      ],
+      "basis": "按实际动作目的。"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "改编时掌心已有依据充分的油量，滴管已安全回瓶"
+    ],
+    "action": "双掌相贴做短幅往返，结束后一起抬向脸部。",
+    "transition": "搓掌跨相邻语义句，抬手衔接脸部。",
+    "end_state": "双手空出、掌面可用于后续接触。",
+    "expected_effect": "展示油在掌间分布的动作，不推断温度或吸收。",
+    "avoid": [
+      "未取油不能空搓假装完成使用",
+      "不为对词把搓掌拆碎"
+    ]
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false,
+  "source_evidence": [
+    {
+      "source_ref": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+      "time_range_seconds": [
+        15.75,
+        16.75
+      ],
+      "timing_status": "approximate_4fps_sampled_review",
+      "source_kind": "ai_generated_user_confirmed"
+    },
+    {
+      "source_ref": "script-library/sources/20261109-ginseng-xiaoai-2/source.mp4",
+      "time_range_seconds": [
+        16.5,
+        19.5
+      ],
+      "timing_status": "approximate_4fps_sampled_review",
+      "source_kind": "ai_generated_user_confirmed"
+    },
+    {
+      "source_ref": "performance-library/sources/20261109-ginseng-daily-v09/source.mp4",
+      "time_range_seconds": [
+        10,
+        14
+      ],
+      "timing_status": "approximate_2second_sampled_review",
+      "source_kind": "real_person_user_confirmed"
+    },
+    {
+      "source_ref": "performance-library/sources/20261109-ginseng-daily-v48/source.mp4",
+      "time_range_seconds": [
+        4,
+        8
+      ],
+      "timing_status": "approximate_2second_sampled_review",
+      "source_kind": "real_person_user_confirmed"
+    }
+  ],
+  "acceptance_status": "scoped_method_reference"
+}

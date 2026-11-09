@@ -1,0 +1,139 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v09",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜掌心取油、全脸按压和脸侧持品",
+  "summary": "先完成操作，再让瓶与皮肤展示同框。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "白雏菊睡衣红发夹衣帽间",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "蓝盒不是本品，作用未确认",
+    "重复按摩不证明吸收速度",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "举瓶展示后放低",
+    "movement": "举瓶展示后放低 → 滴管至掌心、放工具、搓掌 → 单手额头起步转双手全脸；期间出现蓝色配套盒 → 举瓶后放下继续讲解 → 再次双手额头两颊鼻侧推抹按压 → 单手面颊、下巴和鼻侧展示 → 瓶举到脸侧，另一手指示鼻侧面颊收尾",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "瓶举到脸侧，另一手指示鼻侧面颊收尾",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v09",
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "context": "白雏菊睡衣红发夹衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "举瓶展示后放低",
+      "utterance": "用了A純刚刚摸了一个神经线的修处 待会现在马上又用个油 别的油还不行 整个现在我只能用这个人身油",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v09",
+      "start_seconds": 6,
+      "end_seconds": 14,
+      "context": "白雏菊睡衣红发夹衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "滴管至掌心、放工具、搓掌",
+      "utterance": "整个现在我只能用这个人身油 太淡了 你看蓝色胎也是修复的 但蓝色胎跟A純不能一起使用",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v09",
+      "start_seconds": 14,
+      "end_seconds": 32,
+      "context": "白雏菊睡衣红发夹衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "单手额头起步转双手全脸；期间出现蓝色配套盒",
+      "utterance": "但蓝色胎跟A純不能一起使用 所以就说你叫蓝色胎的水人说 哎那我家里有蓝色胎水人用的 不能 功效护肤值关键 不要自己下刀 都是在功效的 你们买的过功过的 啥都打啥都行 无所谓 但是没有功效的 赶紧拿我的人参油啊",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v09",
+      "start_seconds": 32,
+      "end_seconds": 40,
+      "context": "白雏菊睡衣红发夹衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "举瓶后放下继续讲解",
+      "utterance": "赶紧拿我的人参油啊 我总感觉泡的时间越长 应该越浓 整个脸太干了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v09",
+      "start_seconds": 40,
+      "end_seconds": 58,
+      "context": "白雏菊睡衣红发夹衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "再次双手额头两颊鼻侧推抹按压",
+      "utterance": "干的都不行了 因为它就是 给你收毛孔 我就要你训练英文尾 为什么给你抱同皮之后 你要 这一周要让你亲服面膜呢 超干 可能今天我带了一天妆 今天去那个化妆了吗",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v09",
+      "start_seconds": 58,
+      "end_seconds": 72,
+      "context": "白雏菊睡衣红发夹衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "单手面颊、下巴和鼻侧展示",
+      "utterance": "今天去那个化妆了吗 太尷尬了 要命了要命了 好 舒服多了舒服多了 健身油给你们做活动吧",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v09",
+      "start_seconds": 72,
+      "end_seconds": 88.133333,
+      "context": "白雏菊睡衣红发夹衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "瓶举到脸侧，另一手指示鼻侧面颊收尾",
+      "utterance": "健身油一直都没有给你们做过这么低的活动 我说了一下刚刚的下午你们点在这去一看 让你们不过百能拿到几瓶 我让你们没有用过油 东东区用起来的油 给大家倒床 不过百 四瓶 点这",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v09/sheet-1.jpg",
+      "sources/20261109-ginseng-daily-v09/sheet-2.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v18",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜浴室喷雾准备、用油、纸巾擦手收尾",
+  "summary": "用后擦手再持品的自然收尾，站姿可用。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "白雏菊长袖浴室站姿",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "喷雾身份未知",
+    "眼周话术不能代替实际适用性",
+    "擦手不证明完全吸收",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "举瓶、空手讲解",
+    "movement": "举瓶、空手讲解 → 另拿喷雾闭眼喷洒并放下 → 拿人参油取用到掌心，搓掌 → 双手两颊鼻侧全脸推抹 → 拿纸巾擦手，继续讲解 → 再次举瓶展示后放低 → 手指指示眼周/面颊、张掌和擦手讲解",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "手指指示眼周/面颊、张掌和擦手讲解",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v18",
+      "start_seconds": 0,
+      "end_seconds": 8,
+      "context": "白雏菊长袖浴室站姿；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "举瓶、空手讲解",
+      "utterance": "老规矩我还是油的爱好者 这个是人参油 里面有个人参 我平时装在里面的时候我一定会去用油的 就先去那个打底的水",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v18",
+      "start_seconds": 8,
+      "end_seconds": 18,
+      "context": "白雏菊长袖浴室站姿；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "另拿喷雾闭眼喷洒并放下",
+      "utterance": "就先去那个打底的水 然后去用个油 这个是油干碗 就是比如说 放豆腐豆腐、油酥筍 这种人 先可以先用这个油干碗",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v18",
+      "start_seconds": 18,
+      "end_seconds": 28,
+      "context": "白雏菊长袖浴室站姿；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "拿人参油取用到掌心，搓掌",
+      "utterance": "先可以先用这个油干碗 然后重点是用油来修复我 我用油来修复 我之前也有点红 这个人参油 拿手给它弄热",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v18",
+      "start_seconds": 28,
+      "end_seconds": 40,
+      "context": "白雏菊长袖浴室站姿；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "双手两颊鼻侧全脸推抹",
+      "utterance": "拿手给它弄热 哎呀在脸上啊一股真身份 是有一种喝了个营养品的感觉 我喜欢水油平衡",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v18",
+      "start_seconds": 40,
+      "end_seconds": 58,
+      "context": "白雏菊长袖浴室站姿；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "拿纸巾擦手，继续讲解",
+      "utterance": "我喜欢水油平衡 我不喜欢只用油 水油平衡会让我觉得我的脸 第二天会轻转到膜 就是水油在一起会像个膜嘛 劈着膜嘛 我们拼的膜就是水油 接着在一起才能形态 所以一定要水油同步 这个不能再多介绍了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v18",
+      "start_seconds": 58,
+      "end_seconds": 66,
+      "context": "白雏菊长袖浴室站姿；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "再次举瓶展示后放低",
+      "utterance": "这个不能再多介绍了 这个是人身的这个抗肿肉油 眼睛像个小干纹的这个细纹上 吸用水 再用这个油 在哪儿水 你在这个线上敷上去弄",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v18",
+      "start_seconds": 66,
+      "end_seconds": 90.133333,
+      "context": "白雏菊长袖浴室站姿；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "手指指示眼周/面颊、张掌和擦手讲解",
+      "utterance": "在哪儿水 你在这个线上敷上去弄 那个脸上没有披着膜的 都是不够亮的 去用油 晚上是要人都出油的 你油出的少了皮肤 真正是要比别人差 这纹纹要干纹要多 这个年龄你要么40岁的人的话 我就觉得没有这纹纹是很正常的一件事情 除非干 没啥个干纹呢 干出来的 调你的粉底液 调你的面霜 调面膜都行 简直点 简直拿头弄",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v18/sheet-1.jpg",
+      "sources/20261109-ginseng-daily-v18/sheet-2.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

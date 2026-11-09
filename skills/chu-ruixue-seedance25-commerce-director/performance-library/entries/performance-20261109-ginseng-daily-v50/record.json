@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v50",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜手机透光展示后两瓶比较",
+  "summary": "透光结构、正常外观、两产品比较三层次 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "人参油",
+    "浅蓝上衣衣帽间",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "蓝瓶身份和属性需核实",
+    "两瓶不互相借用功效",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "手机底光照瓶转动",
+    "movement": "手机底光照瓶转动 → 撤光，正常光持瓶近脸 → 另举蓝色渐变瓶，与人参油交替或同框 → 放瓶后竖指讲解",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "放瓶后竖指讲解",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v50",
+      "start_seconds": 0,
+      "end_seconds": 12,
+      "context": "浅蓝上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "手机底光照瓶转动",
+      "utterance": "你们问我家哪款油是最润的 乌泳之仪肯定是这款 而且超级亮 看不见 这边真的有一个人身的 还有粉丝问我这个人身 到最后能不能拿出来",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v50",
+      "start_seconds": 12,
+      "end_seconds": 24,
+      "context": "浅蓝上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "撤光，正常光持瓶近脸",
+      "utterance": "你要蹲菜区的话 我也不知道 这一款最润最润的油 可以调那边双调面膜 万物几颗调 有需要什么的 自己去搭 在这款上 这款是最清爽",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v50",
+      "start_seconds": 24,
+      "end_seconds": 32,
+      "context": "浅蓝上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "另举蓝色渐变瓶，与人参油交替或同框",
+      "utterance": "这个是水油平衡的 它俩我建议你们可以一起带走 最近很好用 就是人都是出油的",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v50",
+      "start_seconds": 32,
+      "end_seconds": 41.448,
+      "context": "浅蓝上衣衣帽间；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "放瓶后竖指讲解",
+      "utterance": "就是人都是出油的 眼睛下面干完腥味的减膜 一定要把油用起来 脚后跟子上一部抹油 你泡多少次脚 它都不会解决干完",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v50/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

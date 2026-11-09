@@ -1,0 +1,90 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v33",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜机场行走中指脸与捏指讲解",
+  "summary": "移动生活场景口播 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "人参油",
+    "白卡通T机场大厅",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "无持品使用",
+    "镜头光线变化不作效果比较",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "竖指和指示鼻侧眼下",
+    "movement": "竖指和指示鼻侧眼下 → 边走边侧看、捏指朝镜头 → 换大厅角度继续指脸和手势",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "换大厅角度继续指脸和手势",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v33",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "context": "白卡通T机场大厅；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "竖指和指示鼻侧眼下",
+      "utterance": "人参游和美白游 哪一个共驱咒来选 A纯游 奶奶 A纯游 就有一个可能有可能会爆皮 你去阴谋门 你去驱咒的话 它也是寂寞光 啪啪啪啪给你打几下的",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v33",
+      "start_seconds": 10,
+      "end_seconds": 32,
+      "context": "白卡通T机场大厅；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "边走边侧看、捏指朝镜头",
+      "utterance": "啪啪啪啪给你打几下的 给你爆怎么皮 就有这个问题 然后人参游的话 一天外两万来单 它就没有快没有货了 受窍 但是你要说驱咒的游的话 去演的咒的游 咱家有专门的演游 厚一点的 就是带一个按摩棒了 因为那个厚一点 可以按摩这吸收 另外一个带个滚轮扭是吸收快的 然后那带你要想真正的驱逐效果来的猛的话",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v33",
+      "start_seconds": 32,
+      "end_seconds": 52.338,
+      "context": "白卡通T机场大厅；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "换大厅角度继续指脸和手势",
+      "utterance": "然后那带你要想真正的驱逐效果来的猛的话 你觉得是A纯 A纯的有 A纯的有的话就有一个问题 就是你有可能会爆皮 A纯的话就是给你有可能爆层皮 你产生新的皮 然后越来越紧致 然后驱逐的话全世界你给我找 有没有一个成分别 A纯跟牛的 没有就落A纯有 但是就是有爆皮 然后你可能会剥脱一层皮 有这个问题 好了回答完了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v33/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

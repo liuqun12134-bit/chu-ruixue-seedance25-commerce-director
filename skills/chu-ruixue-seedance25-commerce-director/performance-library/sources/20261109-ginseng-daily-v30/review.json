@@ -1,0 +1,76 @@
+{
+  "source_key": "v30",
+  "original_name": "人参油 (37).mp4",
+  "sha256": "bd3a39dba75ebba404cee025d9404cfa584c43ac391814eb9d4b370ac246c903",
+  "declared_duration_seconds": 50.9,
+  "decoded_audio_seconds": 50.92275,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v30",
+  "family_id": "20261109-ginseng-daily-v30",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 25,
+    "sheets": [
+      "sheet-1.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [
+    {
+      "path": "detail-14.jpg",
+      "start_seconds": 14,
+      "end_seconds": 22,
+      "fps": 4
+    }
+  ],
+  "original_timeline": [
+    [
+      0,
+      14,
+      "脸侧举瓶、指瓶底和鼻侧"
+    ],
+    [
+      14,
+      20,
+      "打开瓶，滴管靠近手掌或指尖"
+    ],
+    [
+      20,
+      34,
+      "指尖在面颊鼻侧下巴涂抹，间隔取用"
+    ],
+    [
+      34,
+      46,
+      "放低工具继续局部推抹"
+    ],
+    [
+      46,
+      50.9,
+      "空手讲解收尾"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "新品预告与局部试用",
+    "outline": "新品预告 → 瓶内有参 → 边取用边讲个人使用 → 味道及肤感 → 次日活动预告",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "实际滴落及滴数不能从抽帧确定",
+    "不可推导眼部适用"
+  ]
+}

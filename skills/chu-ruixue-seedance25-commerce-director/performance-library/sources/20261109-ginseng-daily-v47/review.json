@@ -1,0 +1,82 @@
+{
+  "source_key": "v47",
+  "original_name": "人参油 (6).mp4",
+  "sha256": "e53a3281842a66fe30070b5824d9d25ca5db963cce8d42f9f45f199d282081e9",
+  "declared_duration_seconds": 72.075011,
+  "decoded_audio_seconds": 72.099375,
+  "source_kind": "real_person_user_confirmed",
+  "identity_basis": "用户明确确认：除小爱1/2/3外，其余都是初瑞雪真人原片。",
+  "category": {
+    "value": "人参油",
+    "basis": "user_confirmed"
+  },
+  "canonical_route_key": "v47",
+  "family_id": "20261109-ginseng-daily-v22",
+  "family_basis": "同画面/同场景同造型保守归组；不证明不同组一定是独立拍摄。",
+  "analysis_status": "sampled_visual_analysis_and_unreviewed_asr",
+  "observation_method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+  "decode": {
+    "sample_fps": 0.5,
+    "frames": 36,
+    "sheets": [
+      "sheet-1.jpg"
+    ],
+    "decode_returncode": 0,
+    "decode_stderr": ""
+  },
+  "detail_sheets": [
+    {
+      "path": "detail-0.jpg",
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "fps": 4
+    }
+  ],
+  "original_timeline": [
+    [
+      0,
+      6,
+      "滴管靠近额头和面颊"
+    ],
+    [
+      6,
+      14,
+      "单手上脸后举瓶，再次提管"
+    ],
+    [
+      14,
+      30,
+      "单手面颊额头鼻侧推抹"
+    ],
+    [
+      30,
+      46,
+      "持瓶与单手触脸交替"
+    ],
+    [
+      46,
+      64,
+      "脸颊和下巴颈侧推抹"
+    ],
+    [
+      64,
+      72.075,
+      "举瓶至脸侧收尾"
+    ]
+  ],
+  "variant_note": null,
+  "semantic_outline": {
+    "title": "旅途即时使用",
+    "outline": "机场卸妆后准备护理 → 表示只随身带一瓶油 → 单手推抹穿插干燥生活类比 → 举瓶看参 → 个人出行习惯 → 护理结束；嘴部和其他部位适用不由此确认",
+    "status": "unreviewed_asr_interpretation"
+  },
+  "limitations": [
+    "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。",
+    "原声保留；本地faster-whisper-small机器转写未经听审，有错字、漏字、幻觉和多人说话混入风险。",
+    "仅提炼参考演法。用量、混用、眼周适用、功效、价格、销量和活动均未作为产品事实采纳。",
+    "重复剪辑/转码/相似场景归组，不据此计独立习惯；提炼方案未生成验证。",
+    "滴管实际接触/滴落需细查",
+    "不默认推荐滴管直接碰脸",
+    "眼周安全范围未确认"
+  ]
+}

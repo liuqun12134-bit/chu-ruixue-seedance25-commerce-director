@@ -1,0 +1,880 @@
+{
+  "schema_version": 1,
+  "input": "script-library/sources/20261109-ginseng-xiaoai-1/source.mp4",
+  "source_sha256": "2a359ca29c5772c33f90d1775f10317a327179bf0ab2c218ba890387b5106c7d",
+  "audio_index": 0,
+  "decoded_seconds_16khz": 22.8730625,
+  "language": "zh",
+  "review_status": "unreviewed_asr",
+  "timing_status": "estimated",
+  "note": "Machine hypothesis only; check uncertain words and repetition against actual sound and lips.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.72,
+      "text": "今天有優惠券 八十九到少四個 還送面膜",
+      "avg_logprob": -0.1857334904683133,
+      "no_speech_prob": 0.06945332884788513,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.34,
+          "text": "今天",
+          "probability": 0.8940852284431458
+        },
+        {
+          "start": 0.34,
+          "end": 0.52,
+          "text": "有",
+          "probability": 0.9605597853660583
+        },
+        {
+          "start": 0.52,
+          "end": 0.62,
+          "text": "優",
+          "probability": 0.6334461718797684
+        },
+        {
+          "start": 0.62,
+          "end": 0.72,
+          "text": "惠",
+          "probability": 0.9975674748420715
+        },
+        {
+          "start": 0.72,
+          "end": 0.88,
+          "text": "券",
+          "probability": 0.7280907332897186
+        },
+        {
+          "start": 1.12,
+          "end": 1.26,
+          "text": " 八",
+          "probability": 0.5469172596931458
+        },
+        {
+          "start": 1.26,
+          "end": 1.38,
+          "text": "十",
+          "probability": 0.9688571095466614
+        },
+        {
+          "start": 1.38,
+          "end": 1.5,
+          "text": "九",
+          "probability": 0.9906637668609619
+        },
+        {
+          "start": 1.5,
+          "end": 1.62,
+          "text": "到",
+          "probability": 0.6811167001724243
+        },
+        {
+          "start": 1.62,
+          "end": 1.74,
+          "text": "少",
+          "probability": 0.2836921513080597
+        },
+        {
+          "start": 1.74,
+          "end": 1.92,
+          "text": "四",
+          "probability": 0.9546102285385132
+        },
+        {
+          "start": 1.92,
+          "end": 2.08,
+          "text": "個",
+          "probability": 0.6060566902160645
+        },
+        {
+          "start": 2.16,
+          "end": 2.28,
+          "text": " 還",
+          "probability": 0.7671661972999573
+        },
+        {
+          "start": 2.28,
+          "end": 2.38,
+          "text": "送",
+          "probability": 0.9534116983413696
+        },
+        {
+          "start": 2.38,
+          "end": 2.52,
+          "text": "面",
+          "probability": 0.9101752042770386
+        },
+        {
+          "start": 2.52,
+          "end": 2.72,
+          "text": "膜",
+          "probability": 0.9994812905788422
+        }
+      ]
+    },
+    {
+      "start": 2.72,
+      "end": 5.24,
+      "text": "優惠只有今天有 你們問我秋冬用哪款油",
+      "avg_logprob": -0.1857334904683133,
+      "no_speech_prob": 0.06945332884788513,
+      "words": [
+        {
+          "start": 2.72,
+          "end": 3.04,
+          "text": "優",
+          "probability": 0.7574881613254547
+        },
+        {
+          "start": 3.04,
+          "end": 3.14,
+          "text": "惠",
+          "probability": 0.999876081943512
+        },
+        {
+          "start": 3.14,
+          "end": 3.26,
+          "text": "只有",
+          "probability": 0.9434249401092529
+        },
+        {
+          "start": 3.26,
+          "end": 3.46,
+          "text": "今天",
+          "probability": 0.986845850944519
+        },
+        {
+          "start": 3.46,
+          "end": 3.7,
+          "text": "有",
+          "probability": 0.9601271748542786
+        },
+        {
+          "start": 3.7,
+          "end": 4.16,
+          "text": " 你",
+          "probability": 0.5914196968078613
+        },
+        {
+          "start": 4.16,
+          "end": 4.26,
+          "text": "們",
+          "probability": 0.9927927255630493
+        },
+        {
+          "start": 4.26,
+          "end": 4.34,
+          "text": "問",
+          "probability": 0.991378903388977
+        },
+        {
+          "start": 4.34,
+          "end": 4.46,
+          "text": "我",
+          "probability": 0.9934031367301941
+        },
+        {
+          "start": 4.46,
+          "end": 4.6,
+          "text": "秋",
+          "probability": 0.9820468425750732
+        },
+        {
+          "start": 4.6,
+          "end": 4.7,
+          "text": "冬",
+          "probability": 0.9970667362213135
+        },
+        {
+          "start": 4.7,
+          "end": 4.82,
+          "text": "用",
+          "probability": 0.9840256571769714
+        },
+        {
+          "start": 4.82,
+          "end": 4.94,
+          "text": "哪",
+          "probability": 0.8331483006477356
+        },
+        {
+          "start": 4.94,
+          "end": 5.06,
+          "text": "款",
+          "probability": 0.42410117387771606
+        },
+        {
+          "start": 5.06,
+          "end": 5.24,
+          "text": "油",
+          "probability": 0.9818050265312195
+        }
+      ]
+    },
+    {
+      "start": 5.24,
+      "end": 6.9,
+      "text": "就用人參油 我自己也每天在用",
+      "avg_logprob": -0.1857334904683133,
+      "no_speech_prob": 0.06945332884788513,
+      "words": [
+        {
+          "start": 5.24,
+          "end": 5.5,
+          "text": "就",
+          "probability": 0.3415018320083618
+        },
+        {
+          "start": 5.5,
+          "end": 5.6,
+          "text": "用",
+          "probability": 0.9882946014404297
+        },
+        {
+          "start": 5.6,
+          "end": 5.7,
+          "text": "人",
+          "probability": 0.9618719220161438
+        },
+        {
+          "start": 5.7,
+          "end": 5.82,
+          "text": "參",
+          "probability": 0.48126938939094543
+        },
+        {
+          "start": 5.82,
+          "end": 5.98,
+          "text": "油",
+          "probability": 0.9303426742553711
+        },
+        {
+          "start": 5.98,
+          "end": 6.14,
+          "text": " 我",
+          "probability": 0.5564448237419128
+        },
+        {
+          "start": 6.14,
+          "end": 6.3,
+          "text": "自己",
+          "probability": 0.9978979825973511
+        },
+        {
+          "start": 6.3,
+          "end": 6.42,
+          "text": "也",
+          "probability": 0.960440456867218
+        },
+        {
+          "start": 6.42,
+          "end": 6.5,
+          "text": "每",
+          "probability": 0.993664026260376
+        },
+        {
+          "start": 6.5,
+          "end": 6.62,
+          "text": "天",
+          "probability": 0.9988231062889099
+        },
+        {
+          "start": 6.62,
+          "end": 6.74,
+          "text": "在",
+          "probability": 0.8498528003692627
+        },
+        {
+          "start": 6.74,
+          "end": 6.9,
+          "text": "用",
+          "probability": 0.9992899894714355
+        }
+      ]
+    },
+    {
+      "start": 6.9,
+      "end": 9.44,
+      "text": "冬天臉乾的 臉上皮膚鬆弛皺紋多的",
+      "avg_logprob": -0.1857334904683133,
+      "no_speech_prob": 0.06945332884788513,
+      "words": [
+        {
+          "start": 6.9,
+          "end": 7.38,
+          "text": "冬",
+          "probability": 0.9058249890804291
+        },
+        {
+          "start": 7.38,
+          "end": 7.54,
+          "text": "天",
+          "probability": 0.9983718991279602
+        },
+        {
+          "start": 7.54,
+          "end": 7.68,
+          "text": "臉",
+          "probability": 0.8364978432655334
+        },
+        {
+          "start": 7.68,
+          "end": 7.88,
+          "text": "乾",
+          "probability": 0.9539594650268555
+        },
+        {
+          "start": 7.88,
+          "end": 8.08,
+          "text": "的",
+          "probability": 0.9749636650085449
+        },
+        {
+          "start": 8.2,
+          "end": 8.28,
+          "text": " 臉",
+          "probability": 0.9977835118770599
+        },
+        {
+          "start": 8.28,
+          "end": 8.4,
+          "text": "上",
+          "probability": 0.9982960820198059
+        },
+        {
+          "start": 8.4,
+          "end": 8.56,
+          "text": "皮",
+          "probability": 0.9888558983802795
+        },
+        {
+          "start": 8.56,
+          "end": 8.64,
+          "text": "膚",
+          "probability": 0.9967761039733887
+        },
+        {
+          "start": 8.64,
+          "end": 8.8,
+          "text": "鬆",
+          "probability": 0.9242270290851593
+        },
+        {
+          "start": 8.8,
+          "end": 8.88,
+          "text": "弛",
+          "probability": 0.8985231220722198
+        },
+        {
+          "start": 8.88,
+          "end": 9.02,
+          "text": "皺",
+          "probability": 0.9249727427959442
+        },
+        {
+          "start": 9.02,
+          "end": 9.14,
+          "text": "紋",
+          "probability": 0.9483430683612823
+        },
+        {
+          "start": 9.14,
+          "end": 9.28,
+          "text": "多",
+          "probability": 0.9964945912361145
+        },
+        {
+          "start": 9.28,
+          "end": 9.44,
+          "text": "的",
+          "probability": 0.9442881345748901
+        }
+      ]
+    },
+    {
+      "start": 9.44,
+      "end": 11.04,
+      "text": "你缺的不是水 你是缺油",
+      "avg_logprob": -0.1857334904683133,
+      "no_speech_prob": 0.06945332884788513,
+      "words": [
+        {
+          "start": 9.44,
+          "end": 9.76,
+          "text": "你",
+          "probability": 0.3054180145263672
+        },
+        {
+          "start": 9.76,
+          "end": 9.9,
+          "text": "缺",
+          "probability": 0.9510478377342224
+        },
+        {
+          "start": 9.9,
+          "end": 9.98,
+          "text": "的",
+          "probability": 0.9414685368537903
+        },
+        {
+          "start": 9.98,
+          "end": 10.12,
+          "text": "不是",
+          "probability": 0.9688263535499573
+        },
+        {
+          "start": 10.12,
+          "end": 10.38,
+          "text": "水",
+          "probability": 0.9982004165649414
+        },
+        {
+          "start": 10.38,
+          "end": 10.58,
+          "text": " 你",
+          "probability": 0.831861674785614
+        },
+        {
+          "start": 10.58,
+          "end": 10.7,
+          "text": "是",
+          "probability": 0.9877611398696899
+        },
+        {
+          "start": 10.7,
+          "end": 10.82,
+          "text": "缺",
+          "probability": 0.9954803586006165
+        },
+        {
+          "start": 10.82,
+          "end": 11.04,
+          "text": "油",
+          "probability": 0.9990536570549011
+        }
+      ]
+    },
+    {
+      "start": 11.360000000000001,
+      "end": 14.26,
+      "text": "人參油是非常非常潤的油 很潤 但是不油膩",
+      "avg_logprob": -0.1857334904683133,
+      "no_speech_prob": 0.06945332884788513,
+      "words": [
+        {
+          "start": 11.360000000000001,
+          "end": 11.64,
+          "text": "人",
+          "probability": 0.29244357347488403
+        },
+        {
+          "start": 11.64,
+          "end": 11.84,
+          "text": "參",
+          "probability": 0.9153808951377869
+        },
+        {
+          "start": 11.84,
+          "end": 12.0,
+          "text": "油",
+          "probability": 0.996025800704956
+        },
+        {
+          "start": 12.0,
+          "end": 12.1,
+          "text": "是",
+          "probability": 0.9468770027160645
+        },
+        {
+          "start": 12.1,
+          "end": 12.38,
+          "text": "非常",
+          "probability": 0.9931060671806335
+        },
+        {
+          "start": 12.38,
+          "end": 12.58,
+          "text": "非常",
+          "probability": 0.9495484232902527
+        },
+        {
+          "start": 12.58,
+          "end": 12.8,
+          "text": "潤",
+          "probability": 0.9449476301670074
+        },
+        {
+          "start": 12.8,
+          "end": 12.92,
+          "text": "的",
+          "probability": 0.9652109742164612
+        },
+        {
+          "start": 12.92,
+          "end": 13.1,
+          "text": "油",
+          "probability": 0.9881966710090637
+        },
+        {
+          "start": 13.1,
+          "end": 13.4,
+          "text": " 很",
+          "probability": 0.8809086084365845
+        },
+        {
+          "start": 13.4,
+          "end": 13.58,
+          "text": "潤",
+          "probability": 0.984952449798584
+        },
+        {
+          "start": 13.7,
+          "end": 13.78,
+          "text": " 但是",
+          "probability": 0.9716382622718811
+        },
+        {
+          "start": 13.78,
+          "end": 13.96,
+          "text": "不",
+          "probability": 0.9967808723449707
+        },
+        {
+          "start": 13.96,
+          "end": 14.08,
+          "text": "油",
+          "probability": 0.9990334510803223
+        },
+        {
+          "start": 14.08,
+          "end": 14.26,
+          "text": "膩",
+          "probability": 0.9939658641815186
+        }
+      ]
+    },
+    {
+      "start": 14.26,
+      "end": 17.06,
+      "text": "是管你皮膚粗糙乾燥 是讓你皮膚緊緻的",
+      "avg_logprob": -0.1857334904683133,
+      "no_speech_prob": 0.06945332884788513,
+      "words": [
+        {
+          "start": 14.26,
+          "end": 14.62,
+          "text": "是",
+          "probability": 0.5747945308685303
+        },
+        {
+          "start": 14.62,
+          "end": 14.76,
+          "text": "管",
+          "probability": 0.9767407178878784
+        },
+        {
+          "start": 14.76,
+          "end": 14.88,
+          "text": "你",
+          "probability": 0.9623439908027649
+        },
+        {
+          "start": 14.88,
+          "end": 15.02,
+          "text": "皮",
+          "probability": 0.9956945180892944
+        },
+        {
+          "start": 15.02,
+          "end": 15.12,
+          "text": "膚",
+          "probability": 0.9974639713764191
+        },
+        {
+          "start": 15.12,
+          "end": 15.28,
+          "text": "粗",
+          "probability": 0.996532529592514
+        },
+        {
+          "start": 15.28,
+          "end": 15.42,
+          "text": "糙",
+          "probability": 0.9968451261520386
+        },
+        {
+          "start": 15.42,
+          "end": 15.6,
+          "text": "乾",
+          "probability": 0.7470825910568237
+        },
+        {
+          "start": 15.6,
+          "end": 15.84,
+          "text": "燥",
+          "probability": 0.9622963070869446
+        },
+        {
+          "start": 15.84,
+          "end": 16.12,
+          "text": " 是",
+          "probability": 0.538689374923706
+        },
+        {
+          "start": 16.12,
+          "end": 16.24,
+          "text": "讓",
+          "probability": 0.9811516404151917
+        },
+        {
+          "start": 16.24,
+          "end": 16.32,
+          "text": "你",
+          "probability": 0.9634714722633362
+        },
+        {
+          "start": 16.32,
+          "end": 16.46,
+          "text": "皮",
+          "probability": 0.9970340728759766
+        },
+        {
+          "start": 16.46,
+          "end": 16.56,
+          "text": "膚",
+          "probability": 0.9988249242305756
+        },
+        {
+          "start": 16.56,
+          "end": 16.7,
+          "text": "緊",
+          "probability": 0.921748161315918
+        },
+        {
+          "start": 16.7,
+          "end": 16.86,
+          "text": "緻",
+          "probability": 0.9198652803897858
+        },
+        {
+          "start": 16.86,
+          "end": 17.06,
+          "text": "的",
+          "probability": 0.9919776916503906
+        }
+      ]
+    },
+    {
+      "start": 17.06,
+      "end": 20.0,
+      "text": "所以蛋白你臉乾 皺紋多 皮膚鬆弛不緊緻",
+      "avg_logprob": -0.1857334904683133,
+      "no_speech_prob": 0.06945332884788513,
+      "words": [
+        {
+          "start": 17.06,
+          "end": 17.5,
+          "text": "所以",
+          "probability": 0.6767964959144592
+        },
+        {
+          "start": 17.5,
+          "end": 17.68,
+          "text": "蛋",
+          "probability": 0.3853549361228943
+        },
+        {
+          "start": 17.68,
+          "end": 17.8,
+          "text": "白",
+          "probability": 0.45014747977256775
+        },
+        {
+          "start": 17.8,
+          "end": 17.96,
+          "text": "你",
+          "probability": 0.6904955506324768
+        },
+        {
+          "start": 17.96,
+          "end": 18.14,
+          "text": "臉",
+          "probability": 0.9881070256233215
+        },
+        {
+          "start": 18.14,
+          "end": 18.32,
+          "text": "乾",
+          "probability": 0.9784917831420898
+        },
+        {
+          "start": 18.48,
+          "end": 18.56,
+          "text": " 皺",
+          "probability": 0.9975864291191101
+        },
+        {
+          "start": 18.56,
+          "end": 18.72,
+          "text": "紋",
+          "probability": 0.9997439980506897
+        },
+        {
+          "start": 18.72,
+          "end": 18.88,
+          "text": "多",
+          "probability": 0.9966800212860107
+        },
+        {
+          "start": 19.06,
+          "end": 19.16,
+          "text": " 皮",
+          "probability": 0.9973646998405457
+        },
+        {
+          "start": 19.16,
+          "end": 19.28,
+          "text": "膚",
+          "probability": 0.9997991323471069
+        },
+        {
+          "start": 19.28,
+          "end": 19.44,
+          "text": "鬆",
+          "probability": 0.9563485085964203
+        },
+        {
+          "start": 19.44,
+          "end": 19.54,
+          "text": "弛",
+          "probability": 0.9955990016460419
+        },
+        {
+          "start": 19.54,
+          "end": 19.66,
+          "text": "不",
+          "probability": 0.9690789580345154
+        },
+        {
+          "start": 19.66,
+          "end": 19.8,
+          "text": "緊",
+          "probability": 0.9900025129318237
+        },
+        {
+          "start": 19.8,
+          "end": 20.0,
+          "text": "緻",
+          "probability": 0.9946080446243286
+        }
+      ]
+    },
+    {
+      "start": 20.0,
+      "end": 22.6,
+      "text": "你就用人參油 老粉都臉著好幾個秋冬了",
+      "avg_logprob": -0.1857334904683133,
+      "no_speech_prob": 0.06945332884788513,
+      "words": [
+        {
+          "start": 20.0,
+          "end": 20.42,
+          "text": "你就",
+          "probability": 0.5030199885368347
+        },
+        {
+          "start": 20.42,
+          "end": 20.54,
+          "text": "用",
+          "probability": 0.9633640646934509
+        },
+        {
+          "start": 20.54,
+          "end": 20.66,
+          "text": "人",
+          "probability": 0.9969431757926941
+        },
+        {
+          "start": 20.66,
+          "end": 20.76,
+          "text": "參",
+          "probability": 0.9837691187858582
+        },
+        {
+          "start": 20.76,
+          "end": 20.96,
+          "text": "油",
+          "probability": 0.9943716526031494
+        },
+        {
+          "start": 21.34,
+          "end": 21.44,
+          "text": " 老",
+          "probability": 0.9726823568344116
+        },
+        {
+          "start": 21.44,
+          "end": 21.58,
+          "text": "粉",
+          "probability": 0.9618443250656128
+        },
+        {
+          "start": 21.58,
+          "end": 21.72,
+          "text": "都",
+          "probability": 0.8558728098869324
+        },
+        {
+          "start": 21.72,
+          "end": 21.84,
+          "text": "臉",
+          "probability": 0.626195102930069
+        },
+        {
+          "start": 21.84,
+          "end": 21.94,
+          "text": "著",
+          "probability": 0.8754695057868958
+        },
+        {
+          "start": 21.94,
+          "end": 22.04,
+          "text": "好",
+          "probability": 0.9834845662117004
+        },
+        {
+          "start": 22.04,
+          "end": 22.14,
+          "text": "幾",
+          "probability": 0.9957832098007202
+        },
+        {
+          "start": 22.14,
+          "end": 22.22,
+          "text": "個",
+          "probability": 0.9967852830886841
+        },
+        {
+          "start": 22.22,
+          "end": 22.34,
+          "text": "秋",
+          "probability": 0.9965308308601379
+        },
+        {
+          "start": 22.34,
+          "end": 22.48,
+          "text": "冬",
+          "probability": 0.9999164342880249
+        },
+        {
+          "start": 22.48,
+          "end": 22.6,
+          "text": "了",
+          "probability": 0.9581003189086914
+        }
+      ]
+    }
+  ]
+}

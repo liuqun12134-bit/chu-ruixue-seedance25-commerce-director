@@ -1,0 +1,126 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v16",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜两轮掌心取油、全脸使用与换光线展示",
+  "summary": "使用后换视角展示的构图方式。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "use"
+  ],
+  "tags": [
+    "人参油",
+    "白卡通皇冠T恤",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "移动镜头导致光线改变，不能当真实肤色前后比较",
+    "第一轮取油量不清",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "持瓶介绍并摇转",
+    "movement": "持瓶介绍并摇转 → 放低取用、搓掌、双手上脸 → 提管至掌心，回瓶后全脸推抹 → 局部推抹与空手讲解、重新举瓶 → 放下产品，面对镜头交流 → 拿起摄像设备移至另一光线环境，转脸近镜展示",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "拿起摄像设备移至另一光线环境，转脸近镜展示",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v16",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "context": "白卡通皇冠T恤；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "持瓶介绍并摇转",
+      "utterance": "微醇带给我们的弊端的话就是干皮 虽然去皱了 脸也亮了 紧致了 就是有问题干的 我刚去健康室 健康室带人身",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v16",
+      "start_seconds": 10,
+      "end_seconds": 18,
+      "context": "白卡通皇冠T恤；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "放低取用、搓掌、双手上脸",
+      "utterance": "没劲了 手都堆了 稍微粗热一点 把油揉点上 我就出门了 闷这个脸",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v16",
+      "start_seconds": 18,
+      "end_seconds": 26,
+      "context": "白卡通皇冠T恤；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "提管至掌心，回瓶后全脸推抹",
+      "utterance": "闷这个脸 干 干的 平安上那个 平常吃的粗热点",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v16",
+      "start_seconds": 26,
+      "end_seconds": 38,
+      "context": "白卡通皇冠T恤；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "局部推抹与空手讲解、重新举瓶",
+      "utterance": "平常吃的粗热点 出門了 所以就是你們下個油了 再再加上油",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v16",
+      "start_seconds": 38,
+      "end_seconds": 48,
+      "context": "白卡通皇冠T恤；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "放下产品，面对镜头交流",
+      "utterance": "這給大家抗戰抗鬥了 給大家取黃的 不沖陰藥 頭臉特別亮的 健身頭髮 還沒洗吧 還會洗 再還運動去",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v16",
+      "start_seconds": 48,
+      "end_seconds": 58.933333,
+      "context": "白卡通皇冠T恤；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "拿起摄像设备移至另一光线环境，转脸近镜展示",
+      "utterance": "再還運動去 給你們點鼓勵 這周帶他們出去 跑步比賽 少少少 好久不見",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v16/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}

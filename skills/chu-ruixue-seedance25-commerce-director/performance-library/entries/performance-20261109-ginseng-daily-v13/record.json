@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "id": "performance-20261109-ginseng-daily-v13",
+  "record_type": "performance",
+  "person_id": "chu-ruixue",
+  "title": "待听审｜双人场景中的手机透光持瓶讲解",
+  "summary": "只提取前景初瑞雪的托瓶、指示与看镜头过程。 已确认真人来源，仅保存视觉动作；不认定语言、情绪、手势之间的习惯关系。",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "enabled": true,
+  "modes": [
+    "talk"
+  ],
+  "tags": [
+    "人参油",
+    "绿黑旗袍、后方另一女性",
+    "抽帧观察"
+  ],
+  "evidence_status": "example",
+  "preconditions": [
+    "身份依据为用户确认；复用前匹配原片持物、姿态和局部使用条件。"
+  ],
+  "avoid": [
+    "身后人物不登记为初瑞雪表现",
+    "同场多人声未分离",
+    "无取油使用",
+    "不得把待听审候选当核实的人物习惯。"
+  ],
+  "performance": {
+    "start_state": "托瓶近镜，与身后人短暂交流",
+    "movement": "托瓶近镜，与身后人短暂交流 → 手机底光照瓶，转瓶和前后移动展示根状物 → 放瓶后面向镜头交流收尾",
+    "gaze_expression": "概览中可见朝镜头、看手中物或侧看；未逐段量化视线，表情不等同已核实情绪。",
+    "rhythm": "所列区间为2秒概览的近似边界；细查区间见来源review.json。声音重音、停顿和动作卡点尚未听审。",
+    "recovery": "放瓶后面向镜头交流收尾",
+    "end_state": "保持原片最后可见状态；不补充后续表情或收势。"
+  },
+  "observations": [
+    {
+      "source_id": "20261109-ginseng-daily-v13",
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "context": "绿黑旗袍、后方另一女性；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "托瓶近镜，与身后人短暂交流",
+      "utterance": "脸肝用什么 人身油 人身油啊姐妹们 这个肝脾尤其是合格打个灯给大家看起来",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v13",
+      "start_seconds": 6,
+      "end_seconds": 36,
+      "context": "绿黑旗袍、后方另一女性；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "手机底光照瓶，转瓶和前后移动展示根状物",
+      "utterance": "这个肝脾尤其是合格打个灯给大家看起来 姐妹们 就这 进来来把脸露起来 封面呢 姐妹们来 看不见满满的营养 还有粉丝问我了 俊姐 这个人身到最后能不能拿出来 炖菜呀姐妹们 都没完了 你要非那个喜不喜欢炖菜 我真不知道这些事 就这小人身油 我问你们小脸肝的时候 你涂得好不好事 眼膜里好不好使 风神紧盲 就这个人身油 你干皮就用这个 你要是油皮的话 你就用那个水油平衡的",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    },
+    {
+      "source_id": "20261109-ginseng-daily-v13",
+      "start_seconds": 36,
+      "end_seconds": 41.563991,
+      "context": "绿黑旗袍、后方另一女性；视频原声ASR候选，可能混入旁人，不做本人逐字定稿。",
+      "observed_sequence": "放瓶后面向镜头交流收尾",
+      "utterance": "你就用那个水油平衡的 他俩我建议你们那个找用 这个碗就用风神了",
+      "speech_review": "unreviewed_asr",
+      "alignment": "approximate",
+      "tone": null,
+      "relationship": null
+    }
+  ],
+  "expression": {
+    "status": "pending",
+    "intent": null,
+    "tone_tags": [],
+    "keywords": [],
+    "paraphrases": [],
+    "exclusions": [],
+    "placement": null,
+    "pending_reason": "尚未对原声听审、区分说话人或核对原话/语气/动作对应。ASR存在明显错字，不能用于ready关联。"
+  },
+  "review_notes": {
+    "evidence_sheets": [
+      "sources/20261109-ginseng-daily-v13/sheet-1.jpg"
+    ],
+    "method": "全片每2秒抽帧检查；所列关键区间另有4fps抽帧，不是连续播放或逐原始帧审核。"
+  }
+}
