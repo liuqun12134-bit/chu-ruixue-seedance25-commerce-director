@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "record_type": "product",
+  "id": "product-ginseng-oil-20261109",
+  "title": "ZUZU人参油30mL",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-09",
+  "updated_on": "2026-11-09",
+  "provenance": {
+    "kind": "user_interview",
+    "basis": "2026-11-09用户参考图、三项产品采访回答及最终“没有补充”；区分静态图观察、用户产品事实与编排约束。",
+    "source_refs": [
+      "product-library/entries/product-ginseng-oil-20261109/assets/product-reference.png",
+      "product-library/entries/product-ginseng-oil-20261109/assets/user-interview.json"
+    ],
+    "limitations": [
+      "瓶身与金色组件的实际材质、尺寸及配方成分未提供，不据外观推定。",
+      "保湿滋润、抗皱紧致、以油养肤为用户提供卖点，未提供功效检测资料，不推断即时祛皱或结构性变化。",
+      "晃瓶与涂后展示来自用户描述，未观察本品实际演示视频或生成验证。",
+      "气泡仅为用户要求的展示细节，不作为营养含量或功效证据。",
+      "面霜及面膜的具体搭配方式、配比未提供，编排具体混合步骤时需另行明确。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-09",
+      "action": "created",
+      "basis": "用户明确新增；创建独立target草稿，保留原对标档案。",
+      "old_value": null
+    },
+    {
+      "date": "2026-11-09",
+      "action": "completed-user-interview",
+      "basis": "三项用户回答及最终没有补充；保留原始回答与草稿旧值。",
+      "old_value": {
+        "schema_version": 1,
+        "record_type": "product",
+        "id": "product-ginseng-oil-20261109",
+        "title": "人参油（用户产品，名称规格待补充）",
+        "enabled": true,
+        "status": "draft",
+        "created_on": "2026-11-09",
+        "updated_on": "2026-11-09",
+        "provenance": {
+          "kind": "user_interview",
+          "basis": "用户于2026-11-09明确要求新增人参油产品规则库，并提供一张带说明文字的四视图；仅据本次材料建档。",
+          "source_refs": [
+            "product-library/entries/product-ginseng-oil-20261109/assets/product-reference.png",
+            "product-library/entries/product-ginseng-oil-20261109/assets/user-interview.json"
+          ],
+          "limitations": [
+            "静态参考图不证明实际材质、尺寸、操作、剂量、流动性或涂后效果。",
+            "品牌、正式名称、净含量、用途和使用方法尚待回答。",
+            "不继承原对标产品的用法、规格或效果；未做生成验证。"
+          ]
+        },
+        "generation_status": "untested",
+        "generation_evidence": [],
+        "role": "target",
+        "aliases": [
+          "人参油"
+        ],
+        "reference_hashes": [
+          "794b3bab22923b234e50dc690401a600d439a0866273472d4a9480c4751c8a44"
+        ],
+        "category": {
+          "value": null,
+          "basis": "unknown"
+        },
+        "facts": {
+          "packaging": {
+            "value": "透明、上窄下宽的瓶身，底部厚且透亮；上方为金色圆筒状盖体和圆盘形顶钮。分离图可见螺纹瓶口及连在金色组件下方的透明滴管。实际瓶体/盖体材质、顶钮操作方式、尺寸及标签细节待确认。",
+            "status": "observed",
+            "basis": "本次用户参考图中可见的外观与分离状态，不据图片猜测材料或真实操作。"
+          },
+          "net_content": {
+            "value": null,
+            "status": "unknown",
+            "basis": "待主动询问或核实"
+          },
+          "dimensions": {
+            "value": null,
+            "status": "unknown",
+            "basis": "待主动询问或核实"
+          },
+          "contents": {
+            "value": "瓶内有一根带细根须的人参；图中文字注明“液体为淡黄色精油”“瓶内有一根人参”。瓶内整体视觉偏金黄，滴管内液体较浅；不能将瓶中整体观感直接等同于滴出液体的颜色。",
+            "status": "observed",
+            "basis": "用户参考图及图中文字；“精油”为原图表述，尚未据此确认配方分类或是否需要稀释。"
+          },
+          "texture": {
+            "value": null,
+            "status": "unknown",
+            "basis": "待主动询问或核实"
+          },
+          "usage": {
+            "value": null,
+            "status": "unknown",
+            "basis": "待主动询问或核实"
+          },
+          "body_parts": {
+            "value": null,
+            "status": "unknown",
+            "basis": "待主动询问或核实"
+          },
+          "finish": {
+            "value": null,
+            "status": "unknown",
+            "basis": "待主动询问或核实"
+          },
+          "selling_points": {
+            "value": null,
+            "status": "unknown",
+            "basis": "待主动询问或核实"
+          }
+        },
+        "match_fields": {
+          "texture": null,
+          "packaging": [
+            "滴管瓶"
+          ],
+          "body_part": null
+        },
+        "rules": [
+          {
+            "id": "reference-packaging",
+            "text": "本产品包装入镜时，按绑定参考图保持透明锥形瓶身、金色滴管组件和瓶内一根人参；不误写为普通外露出液嘴的泵瓶。开盖、吸取和滴出动作待实际操作方式确认。",
+            "status": "pending",
+            "modes": [
+              "talk",
+              "use"
+            ],
+            "trigger": "本产品包装入镜或编排取用动作时",
+            "basis": "参考图外观观察形成的待确认规则。"
+          },
+          {
+            "id": "pale-yellow-liquid",
+            "text": "油液清晰可见时，以参考图文字注明的淡黄色为依据，不把瓶内整体金黄色观感直接套到滴出的液体上。流动性和拉丝状态尚未确认。",
+            "status": "pending",
+            "modes": [
+              "talk",
+              "use"
+            ],
+            "trigger": "滴管内或滴出的油液清晰可见时",
+            "basis": "参考图中文字及滴管内浅色液体观察，待采访确认。"
+          }
+        ],
+        "interview": {
+          "asked": [
+            "这款人参油的品牌、正式名称和净含量分别是什么？主要用于面部护肤还是其他用途？",
+            "实际怎么取用和涂抹：金色顶部如何操作、每次用几滴、涂哪些部位、是否需要混合面霜？",
+            "它的流动性和涂后肤感是什么样？视频里最需要看清哪些卖点或变化，哪些效果不能出现？"
+          ],
+          "missing_core": [
+            "品牌/正式名称/净含量",
+            "品类与用途",
+            "取用方式、用量、部位及是否需混合或稀释",
+            "流动性与涂后状态",
+            "核心卖点与展示要求",
+            "最后补充问题尚待提问和回答"
+          ],
+          "supplement_answer": null,
+          "complete": false
+        }
+      }
+    }
+  ],
+  "role": "target",
+  "aliases": [
+    "人参油",
+    "ZUZU人参油",
+    "zuzu人参油",
+    "ZUZU人参油30ml"
+  ],
+  "reference_hashes": [
+    "794b3bab22923b234e50dc690401a600d439a0866273472d4a9480c4751c8a44"
+  ],
+  "category": {
+    "value": "面部护理油",
+    "basis": "user_confirmed"
+  },
+  "facts": {
+    "packaging": {
+      "value": "参考图为透明上窄下宽瓶身、厚底、金色圆筒状滴管盖和圆盘形按压头；用户确认滴管组件通过螺纹旋出，按压顶部吸油。实际材质、尺寸及标签细节未知。",
+      "basis": "外观依据绑定参考图；螺旋开合和按压吸油依据用户回答。",
+      "status": "confirmed"
+    },
+    "net_content": {
+      "value": "30 mL",
+      "basis": "2026-11-09用户采访明确回答",
+      "status": "confirmed"
+    },
+    "dimensions": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "contents": {
+      "value": "瓶内真实有一根人参，带根须；油液为淡黄色。瓶中整体视觉偏金黄，滴管内/滴出的液体仍按淡黄色表现。",
+      "basis": "真实人参由用户明确确认；淡黄色依据用户提供参考图文字与滴管内液体观察。",
+      "status": "confirmed"
+    },
+    "texture": {
+      "value": "油状、偏水感的液体流动性，能流动；不按厚膏或浓稠胶体表现。",
+      "basis": "2026-11-09用户采访明确回答",
+      "status": "confirmed"
+    },
+    "usage": {
+      "value": "先旋松并取出滴管组件，再操作顶部按压头吸油；吸取时滴管尖端需处于瓶内油液中，吸取后再提起滴用。每次约1/3至1/2滴管，通常涂面部；可搭配面霜或面膜，具体搭配操作与配比未给出。",
+      "basis": "用户原话为先螺旋扭出再按压吸油、每次三分之一到二分之一滴管；吸取须接触油液为物理连续性编排说明，并非额外实测。",
+      "status": "confirmed"
+    },
+    "body_parts": {
+      "value": [
+        "面部"
+      ],
+      "basis": "2026-11-09用户采访明确回答",
+      "status": "confirmed"
+    },
+    "finish": {
+      "value": "涂后皮肤水润、有光泽感；保留真实肤色、纹理及自然面部结构。",
+      "basis": "水润与光泽为用户确认；保持肤色、纹理与结构为技能编排约束。",
+      "status": "confirmed"
+    },
+    "selling_points": {
+      "value": [
+        "保湿滋润",
+        "抗皱紧致",
+        "以油养肤",
+        "瓶内真实有一根人参；可以通过晃瓶展示人参随油液摆动及少量气泡，传达用户希望的滋养感。"
+      ],
+      "basis": "用户提供卖点和展示目的；并非已独立核验的功效或营养结论。",
+      "status": "confirmed"
+    }
+  },
+  "match_fields": {
+    "texture": [
+      "油状",
+      "水感",
+      "流动液体"
+    ],
+    "packaging": [
+      "滴管瓶"
+    ],
+    "body_part": [
+      "面部",
+      "面颊"
+    ]
+  },
+  "rules": [
+    {
+      "id": "reference-packaging",
+      "text": "保持绑定参考图的透明锥形瓶身、金色滴管组件和瓶内一根真实人参。该包装为螺纹滴管结构，不按普通外露出液嘴的泵瓶操作。",
+      "status": "confirmed",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "trigger": "本产品包装或取用过程入镜时",
+      "basis": "用户参考图和开合操作确认。"
+    },
+    {
+      "id": "pale-yellow-liquid",
+      "text": "滴管内和滴出的油液为淡黄色、水感且能流动，不把瓶中整体金黄色观感直接套为深黄浓稠滴液，不表现为膏体或胶状拉丝。",
+      "status": "confirmed",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "trigger": "油液清晰可见时",
+      "basis": "用户参考图文字、滴管液体观察及用户对水感流动性的描述。"
+    },
+    {
+      "id": "dropper-operation",
+      "text": "先旋开滴管组件，再操作顶部按压头吸油；吸取时滴管尖端须处于油液中，吸取后提起滴用。承接首帧实际开合状态，不在滴管悬空时凭空吸入油，不新增虚构泵嘴。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "编排取油环节且首帧尚未完成取油时",
+      "basis": "用户确认旋开后按压吸油；尖端接触油液为物理连续性约束。"
+    },
+    {
+      "id": "dose-and-pairing",
+      "text": "单次常规使用量约1/3至1/2滴管，通常涂面部；不得擅自换算成固定滴数或毫升数。可搭配面霜或面膜，具体混合顺序和比例不能凭空补出。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "展示常规用量、面部使用或搭配使用时",
+      "basis": "用户确认用量、部位及搭配选项。"
+    },
+    {
+      "id": "ginseng-display",
+      "text": "以看清瓶内一根真实人参为包装核心展示目标。需要展示该卖点且时长和首帧状态允许时，可在盖体旋紧后轻晃瓶身，使油液流动、人参合理摆动并出现少量气泡；人参始终在瓶内，数量和形态连续，不强行大幅翻滚，不制造大量泡沫。晃瓶为可选手段，不要求每条片都执行。",
+      "status": "confirmed",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "trigger": "需要突出瓶内真实人参卖点时",
+      "basis": "真实人参、晃动和少量气泡为用户要求；旋紧后轻晃及连续性为拍摄设计约束，尚未生成验证。"
+    },
+    {
+      "id": "hydrated-finish",
+      "text": "实际涂抹过的区域逐渐呈现水润和自然光泽；效果在转头、遮挡、离手和取放产品后保持。保留真实肤色与肤质，不用整体曝光提升、换肤、瞬间消纹或五官变化表达效果；未使用区域不凭空同步变化。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "已完成局部或面部涂抹后的效果展示与后续镜头",
+      "basis": "用户确认涂后水润有光泽；状态保持与非换肤表达来自技能通用规则。"
+    },
+    {
+      "id": "claim-expression",
+      "text": "按用户提供的保湿滋润、抗皱紧致、以油养肤组织卖点；当前可视效果以用户确认的水润与光泽为准，不扩写即时消皱或面部结构改变。少量气泡用于呈现油液晃动，不推断其证明营养含量或功效。",
+      "status": "confirmed",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "trigger": "编排卖点表达或可视效果时",
+      "basis": "用户提供卖点；避免把未证实功效变成即时视觉结果的编排约束。"
+    }
+  ],
+  "interview": {
+    "asked": [
+      "这款人参油的品牌、正式名称和净含量分别是什么？主要用于面部护肤还是其他用途？",
+      "实际怎么取用和涂抹：金色顶部如何操作、每次用几滴、涂哪些部位、是否需要混合面霜？",
+      "它的流动性和涂后肤感是什么样？视频里最需要看清哪些卖点或变化，哪些效果不能出现？",
+      "还有没有特殊用法、必须展示的细节或其他补充？没有补充也可以。"
+    ],
+    "missing_core": [],
+    "supplement_answer": "没有补充",
+    "complete": true
+  }
+}

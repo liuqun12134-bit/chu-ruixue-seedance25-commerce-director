@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "skill_name": "chu-ruixue-seedance25-commerce-director",
-  "skill_version": "2.1.2",
+  "skill_version": "2.1.3",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-09T08:06:12.118965+00:00",
+  "created_at": "2026-11-09T10:33:10.519281+00:00",
   "summary": {
     "demo_records": 26,
     "demo_units": 81,
@@ -11,20 +11,20 @@
     "performance_sources": 81,
     "ready_mappings": 0,
     "pending_mappings": 76,
-    "product_records": 5,
+    "product_records": 6,
     "script_records": 49,
     "action_records": 122,
     "failure_records": 0,
-    "files": 1041,
-    "bytes": 2455367879,
+    "files": 1044,
+    "bytes": 2461018030,
     "videos": 116,
-    "images": 343
+    "images": 344
   },
   "files": [
     {
       "path": "SKILL.md",
       "size": 6007,
-      "sha256": "f2dc37539290f6f6fb9fdcd78bb15844808c763de1519aeab9a8f51d410448c3"
+      "sha256": "6aa030a26302caa02795faebef4617a548b437805b3e411fc9fc930624667fb5"
     },
     {
       "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-backlight/record.json",
@@ -2168,8 +2168,8 @@
     },
     {
       "path": "library-review.html",
-      "size": 33858,
-      "sha256": "525f34d20a6d8b6c9d27f32ee02ff3583d8a5d02948e247d52f4e2c92225acb9"
+      "size": 34003,
+      "sha256": "1c2ff38740d67ac57a113365e1896335cecc615cab7d964b46f469214ef07a73"
     },
     {
       "path": "performance-library/entries/perf-crx-20261107-01-open-close/history/record-v1-20261107.json",
@@ -4607,6 +4607,21 @@
       "sha256": "df8b076abb036c91095704dd55aae5f30992e4cc8a468334cdd2cb2c73b99e73"
     },
     {
+      "path": "product-library/entries/product-ginseng-oil-20261109/assets/product-reference.png",
+      "size": 5616696,
+      "sha256": "794b3bab22923b234e50dc690401a600d439a0866273472d4a9480c4751c8a44"
+    },
+    {
+      "path": "product-library/entries/product-ginseng-oil-20261109/assets/user-interview.json",
+      "size": 2090,
+      "sha256": "12d0895400fee3b7954e55b19e3378807b97ff08fbe7d35f0cc6933ae691d348"
+    },
+    {
+      "path": "product-library/entries/product-ginseng-oil-20261109/record.json",
+      "size": 15045,
+      "sha256": "5837ccf8db75f9b3d11b5bad17bb0abe57046de3453a6f920b86e71bda602f9e"
+    },
+    {
       "path": "product-library/entries/product-ginseng-oil-legacy/record.json",
       "size": 2252,
       "sha256": "f678bbbd3b5068386b97bea7c376d7774788e91503771e606f0f056c45651034"
@@ -4628,8 +4643,8 @@
     },
     {
       "path": "product-library/index.json",
-      "size": 23102,
-      "sha256": "a952ec0fccb11785f5e7b44e8a7ed16fac315e5a2a2cc08f35d7c1f1696dbde1"
+      "size": 39277,
+      "sha256": "90fc234fa23dfc3bca1ce92d64cfe5938da309a7cd86a42798fb2d0a85904433"
     },
     {
       "path": "references/audio.md",

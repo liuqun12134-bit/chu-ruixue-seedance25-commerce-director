@@ -2,7 +2,7 @@
 name: chu-ruixue-seedance25-commerce-director
 description: 为用户自己的产品和初瑞雪制作 Seedance 2.5 电商口播导演稿。支持产品采访、参考视频提炼脚本与动作、口述维护、失败分析、本地初始化，以及从 GitHub 更新本技能和全部库。默认先给三个简短方案再按选择出稿；不自动生图或提交付费视频。
 metadata:
-  version: "2.1.2"
+  version: "2.1.3"
 ---
 
 # 初瑞雪 Seedance 2.5 专用导演
