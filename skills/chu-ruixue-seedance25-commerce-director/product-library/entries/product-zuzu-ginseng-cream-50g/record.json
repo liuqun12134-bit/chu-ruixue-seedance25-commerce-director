@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "record_type": "product",
+  "id": "product-zuzu-ginseng-cream-50g",
+  "title": "ZUZU 人参面霜（50g）",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-10",
+  "updated_on": "2026-11-10",
+  "provenance": {
+    "kind": "user_interview",
+    "basis": "2026-11-10 用户在本次产品采访中口述确认。外观依据用户上传四视图；最后补充问题回答“没有了”。",
+    "source_refs": [
+      "product-library/entries/product-zuzu-ginseng-cream-50g/assets/user-interview.json",
+      "product-library/entries/product-zuzu-ginseng-cream-50g/assets/product-reference.png"
+    ],
+    "limitations": [
+      "功效、配方、气味和涂后状态为用户陈述，未独立测试；生成效果未验证。",
+      "实物尺寸、具体配方及人参比例未知；硬币大小不换算为克数、厚度或体积。",
+      "用户原文“淡黄色的高低”按上下文整理为“淡黄色膏体”，原文保留。",
+      "上传图仅作产品外观参考，不视为实拍或材质检测证据。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-10",
+      "action": "create",
+      "old_value": null,
+      "basis": "用户明确要求添加规则，提供产品图并完成采访；保存为ready，生成状态保持untested。"
+    }
+  ],
+  "role": "target",
+  "aliases": [
+    "人参霜",
+    "人参面霜",
+    "ZUZU人参霜",
+    "zuzu人参霜",
+    "ZUZU人参面霜",
+    "zuzu人参面霜"
+  ],
+  "reference_hashes": [
+    "7662f31a6d12642e9903e26258d7365e32878073b29a26b4650b613942775a2b"
+  ],
+  "category": {
+    "value": "日常护肤面霜",
+    "basis": "user_confirmed"
+  },
+  "facts": {
+    "packaging": {
+      "value": "玻璃罐身、塑料旋盖；旋转开盖，无内片、无挖勺。参考图可见金色反光盖、黑色罐口及底部外观、米金色标签、ZUZU和50g标识；金色外观不代表金属材质。",
+      "status": "confirmed",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。外观来自上传图；材质与结构来自用户。"
+    },
+    "net_content": {
+      "value": "50g/罐",
+      "status": "confirmed",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。"
+    },
+    "dimensions": {
+      "value": null,
+      "status": "unknown",
+      "basis": "用户未提供实物尺寸，不从50g推算。"
+    },
+    "contents": {
+      "value": "淡黄色膏体；用户称添加人参、人参味浓郁，具体配方和添加比例未知。",
+      "status": "confirmed",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。"
+    },
+    "texture": {
+      "value": "类似奶油的膏霜质地；流动性未单独确认。",
+      "status": "confirmed",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。"
+    },
+    "usage": {
+      "value": "每次约一元硬币大小，涂在脸部，直接用手抹匀；未指定半脸用量，不换算克数或厚度。",
+      "status": "confirmed",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。"
+    },
+    "body_parts": {
+      "value": [
+        "脸部"
+      ],
+      "status": "confirmed",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。"
+    },
+    "finish": {
+      "value": "抹匀后皮肤呈一点淡淡的光泽感、水光感，但不重。",
+      "status": "confirmed",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。"
+    },
+    "selling_points": {
+      "value": [
+        "保湿",
+        "抗老",
+        "添加人参",
+        "人参味浓郁"
+      ],
+      "status": "confirmed",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。"
+    }
+  },
+  "match_fields": {
+    "texture": [
+      "膏霜",
+      "奶油质地"
+    ],
+    "packaging": [
+      "旋盖罐",
+      "玻璃罐",
+      "塑料盖",
+      "无内片",
+      "无挖勺"
+    ],
+    "body_part": [
+      "面部",
+      "面颊"
+    ]
+  },
+  "rules": [
+    {
+      "id": "packaging-identity",
+      "text": "保持50g玻璃罐、塑料旋盖及参考图外观；金色反光盖仍为塑料，不描述为金属。",
+      "status": "confirmed",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "trigger": "产品入镜或描述包装时",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。外观来自上传图。"
+    },
+    {
+      "id": "opening-and-accessories",
+      "text": "旋转打开外盖后可直接取膏；本品无内片和挖勺，不添加移除内片或使用随罐挖勺的动作。已开盖首帧直接承接；盖子与罐子去向符合手位和承托，不凭空消失。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "开盖、取膏或放回产品时",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。技能物理连续性要求。"
+    },
+    {
+      "id": "cream-appearance",
+      "text": "内容物为淡黄色、类似奶油的膏霜；按真实取膏和接触表现，不改成油液或其他不相符质地。",
+      "status": "confirmed",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "trigger": "展示膏体或取膏时",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。"
+    },
+    {
+      "id": "facial-dose-and-spread",
+      "text": "脸部使用每次约一元硬币大小，直接用手抹匀；硬币大小仅为用量描述，不推算克数、厚度或半脸固定用量。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "安排脸部使用演示时",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。"
+    },
+    {
+      "id": "subtle-waterglow-finish",
+      "text": "实际抹匀后呈淡淡、轻微的光泽感和水光感，效果不重，不夸张成厚重油亮。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "展示脸部涂后状态时",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。"
+    },
+    {
+      "id": "finish-continuity",
+      "text": "膏痕随真实推抹逐渐变薄；涂后轻微光泽在后续转头、遮挡、离手后保持自然连续；保留真实肤质，不以全脸换肤、五官变化或全局提亮伪造效果。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "涂抹过程及同条视频后续镜头",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。技能状态连续性要求。"
+    },
+    {
+      "id": "selling-point-scope",
+      "text": "按用户陈述使用保湿、抗老、添加人参、人参味浓郁卖点；不推断人参比例、可见整根人参或即时抗老视觉结果。各卖点不要求每条全部演出；配方和功效未独立测试。",
+      "status": "confirmed",
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "trigger": "选择卖点、表现方法或编排口播时",
+      "basis": "2026-11-10 用户在本次产品采访中口述确认。技能产品事实与演示边界要求。"
+    }
+  ],
+  "interview": {
+    "asked": [
+      "名称、规格与品类",
+      "包装、材质、开盖、内片与挖勺",
+      "膏体、质地、用量、部位与用法",
+      "涂后状态、卖点、必须展示或不能出现的表现",
+      "还有没有特殊用法、必须展示的细节或其他补充？没有补充也可以。"
+    ],
+    "missing_core": [],
+    "supplement_answer": "没有了",
+    "complete": true
+  }
+}

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "skill_name": "chu-ruixue-seedance25-commerce-director",
-  "skill_version": "2.1.3",
+  "skill_version": "2.1.4",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-09T10:33:10.519281+00:00",
+  "created_at": "2026-11-10T06:29:28.330495+00:00",
   "summary": {
     "demo_records": 26,
     "demo_units": 81,
@@ -11,21 +11,16 @@
     "performance_sources": 81,
     "ready_mappings": 0,
     "pending_mappings": 76,
-    "product_records": 6,
+    "product_records": 7,
     "script_records": 49,
     "action_records": 122,
     "failure_records": 0,
-    "files": 1044,
-    "bytes": 2461018030,
+    "files": 1047,
+    "bytes": 2462617711,
     "videos": 116,
-    "images": 344
+    "images": 345
   },
   "files": [
-    {
-      "path": "SKILL.md",
-      "size": 6007,
-      "sha256": "6aa030a26302caa02795faebef4617a548b437805b3e411fc9fc930624667fb5"
-    },
     {
       "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-backlight/record.json",
       "size": 3818,
@@ -2168,8 +2163,8 @@
     },
     {
       "path": "library-review.html",
-      "size": 34003,
-      "sha256": "1c2ff38740d67ac57a113365e1896335cecc615cab7d964b46f469214ef07a73"
+      "size": 34159,
+      "sha256": "9d4e492162a042fe996e5bda3bea7c4ffe47d63cfe6be59b45c0ce2913e92e16"
     },
     {
       "path": "performance-library/entries/perf-crx-20261107-01-open-close/history/record-v1-20261107.json",
@@ -3245,11 +3240,6 @@
       "path": "performance-library/reviews/20261107-talking/usable-prefixes.json",
       "size": 857,
       "sha256": "7a2648ed7b5782721e01a330e2134bb9e7dc1516d0e9061517e920c1a18d4ca3"
-    },
-    {
-      "path": "performance-library/sources.json",
-      "size": 156339,
-      "sha256": "d839371ad0b6bae97f1118e726fbccb68c1d0b947649b92fdf316bf0edfaff34"
     },
     {
       "path": "performance-library/sources/20261109-ginseng-daily-v01/asr-unreviewed.json",
@@ -4592,6 +4582,11 @@
       "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82"
     },
     {
+      "path": "performance-library/sources.json",
+      "size": 156339,
+      "sha256": "d839371ad0b6bae97f1118e726fbccb68c1d0b947649b92fdf316bf0edfaff34"
+    },
+    {
       "path": "product-library/entries/product-cream-b5-20261107/record.json",
       "size": 2357,
       "sha256": "805f94d40fa060788aaf8fd6b65218b9c3055494095dd6d3eee059354cb602e0"
@@ -4642,9 +4637,24 @@
       "sha256": "bc5c183d8e11917d56e0ff7593e54e866be381a8f2e3fcf5273ba9c68d7692bf"
     },
     {
+      "path": "product-library/entries/product-zuzu-ginseng-cream-50g/assets/product-reference.png",
+      "size": 1582287,
+      "sha256": "7662f31a6d12642e9903e26258d7365e32878073b29a26b4650b613942775a2b"
+    },
+    {
+      "path": "product-library/entries/product-zuzu-ginseng-cream-50g/assets/user-interview.json",
+      "size": 806,
+      "sha256": "b3fc801ad1ee52c268ebf4ef8b139cfb1b42360c7d51e4145f9b8d6cd4bc2de8"
+    },
+    {
+      "path": "product-library/entries/product-zuzu-ginseng-cream-50g/record.json",
+      "size": 7848,
+      "sha256": "83f5107e145d33af236e0c084e772f9fac575bb2f0b025f253aeaf50a825c059"
+    },
+    {
       "path": "product-library/index.json",
-      "size": 39277,
-      "sha256": "90fc234fa23dfc3bca1ce92d64cfe5938da309a7cd86a42798fb2d0a85904433"
+      "size": 47861,
+      "sha256": "9ecd147fdf69a59772f413126fdbae1db4948e095a3b68d5faece6626fda16ce"
     },
     {
       "path": "references/audio.md",
@@ -5195,6 +5205,11 @@
       "path": "scripts/update.py",
       "size": 14526,
       "sha256": "e2e6785eafcdd9f69ea819081faed55fef32d1dca7ece2387558935f4baa8dd3"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 6007,
+      "sha256": "8288fac361ba7d1c60e319ff770619e10c0c06a63ab9a717e80cdc957f9fd95c"
     },
     {
       "path": "templates/action-record.json",
