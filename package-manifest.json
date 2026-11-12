@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "skill_name": "chu-ruixue-seedance25-commerce-director",
-  "skill_version": "2.2.0",
+  "skill_version": "2.2.1",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-12T02:05:21.319962+00:00",
+  "created_at": "2026-11-12T03:08:44.597317+00:00",
   "summary": {
     "demo_records": 26,
     "demo_units": 81,
@@ -16,16 +16,11 @@
     "action_records": 122,
     "failure_records": 2,
     "files": 1091,
-    "bytes": 2521338309,
+    "bytes": 2521340328,
     "videos": 124,
     "images": 366
   },
   "files": [
-    {
-      "path": "SKILL.md",
-      "size": 6927,
-      "sha256": "63ae194537a4b2204aba26c2f8d499b8840b569ccb9c1805dcc8dabde1438f26"
-    },
     {
       "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-backlight/record.json",
       "size": 3818,
@@ -3247,11 +3242,6 @@
       "sha256": "7a2648ed7b5782721e01a330e2134bb9e7dc1516d0e9061517e920c1a18d4ca3"
     },
     {
-      "path": "performance-library/sources.json",
-      "size": 156339,
-      "sha256": "d839371ad0b6bae97f1118e726fbccb68c1d0b947649b92fdf316bf0edfaff34"
-    },
-    {
       "path": "performance-library/sources/20261109-ginseng-daily-v01/asr-unreviewed.json",
       "size": 24636,
       "sha256": "45b9d3c6d125045dfdbcf5d4f871eacd3f236932fb3c21cba8def883b0c37047"
@@ -4592,6 +4582,11 @@
       "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82"
     },
     {
+      "path": "performance-library/sources.json",
+      "size": 156339,
+      "sha256": "d839371ad0b6bae97f1118e726fbccb68c1d0b947649b92fdf316bf0edfaff34"
+    },
+    {
       "path": "product-library/entries/product-cream-b5-20261107/record.json",
       "size": 2357,
       "sha256": "805f94d40fa060788aaf8fd6b65218b9c3055494095dd6d3eee059354cb602e0"
@@ -4913,8 +4908,8 @@
     },
     {
       "path": "references/output-format.md",
-      "size": 5912,
-      "sha256": "b67aeec54c631103d70bfcc1bb56a17356f81c19bd65ed8046cb89874a8c979d"
+      "size": 7599,
+      "sha256": "a35cd572698de771f852705261bee0a1fc420238de6126332ea442984713385b"
     },
     {
       "path": "references/performance-direction.md",
@@ -5430,6 +5425,11 @@
       "path": "scripts/update.py",
       "size": 14526,
       "sha256": "e2e6785eafcdd9f69ea819081faed55fef32d1dca7ece2387558935f4baa8dd3"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 7259,
+      "sha256": "b799c6b002bb31d62f37f0f6d992616b0d2627280e123109e9cf9613b3070031"
     },
     {
       "path": "templates/action-record.json",
