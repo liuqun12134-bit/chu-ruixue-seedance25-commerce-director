@@ -639,7 +639,12 @@
         "complete": true
       },
       "path": "product-library/entries/product-ginseng-oil-20261109/record.json",
-      "failure_cases": []
+      "failure_cases": [
+        {
+          "id": "failure-talk-naturalness-20261112-02",
+          "path": "product-library/entries/product-ginseng-oil-20261109/failures/failure-talk-naturalness-20261112-02.json"
+        }
+      ]
     },
     {
       "schema_version": 1,
@@ -1226,7 +1231,12 @@
         "complete": true
       },
       "path": "product-library/entries/product-zuzu-ginseng-cream-50g/record.json",
-      "failure_cases": []
+      "failure_cases": [
+        {
+          "id": "failure-talk-naturalness-20261112-01",
+          "path": "product-library/entries/product-zuzu-ginseng-cream-50g/failures/failure-talk-naturalness-20261112-01.json"
+        }
+      ]
     }
   ]
 }

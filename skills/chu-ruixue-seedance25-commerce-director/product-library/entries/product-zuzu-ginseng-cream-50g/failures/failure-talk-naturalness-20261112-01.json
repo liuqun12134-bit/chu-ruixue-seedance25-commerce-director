@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "record_type": "failure",
+  "id": "failure-talk-naturalness-20261112-01",
+  "product_id": "product-zuzu-ginseng-cream-50g",
+  "created_on": "2026-11-12",
+  "user_problem": "用户反馈纯口播动作僵硬、不自然、一眼假，边讲边用也有类似问题；要求对比自制1—2和同行3—8并提出共同人物表现优化方案。",
+  "input_files": [
+    {
+      "role": "failed_output",
+      "path": "product-library/sources/review-talk-naturalness-20261112/01.mp4",
+      "sha256": "5204152adb8103be4a9df52e9fb1936c8ce8a56e44fddf648df8af2ce9e5480a"
+    },
+    {
+      "role": "actual_submitted_prompt",
+      "path": "product-library/sources/review-talk-naturalness-20261112/submitted-prompt-01.txt",
+      "sha256": "0b0551e375d49eeb0f649bb2fab3fdb914987c851a736de1ebfd1352a6879899"
+    },
+    {
+      "role": "unreviewed_asr",
+      "path": "product-library/sources/review-talk-naturalness-20261112/asr-01.json",
+      "sha256": "b890fc5910a2a54fec76d2b4498beaa7ef5c357e2ee614be0fcd36150302fbb4"
+    },
+    {
+      "role": "analysis_and_untested_plan",
+      "path": "product-library/sources/review-talk-naturalness-20261112/分析与优化方案.txt",
+      "sha256": "ab151f85e019615ff63df5c4d793b50236aca1a1cda7e604f63e90c452e20143"
+    },
+    {
+      "role": "source_manifest",
+      "path": "product-library/sources/review-talk-naturalness-20261112/manifest.json",
+      "sha256": "48f1cb6a28b15dab8c8d74074fd3bc77d9e6edbcdcbb5122cc185c5dd109a813"
+    },
+    {
+      "role": "sampled_frames",
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-01-1.jpg",
+      "sha256": "b2dfc84dd959493d231b1ad56155d82936cb818cf49e781ebf18271cd3f6eafa"
+    },
+    {
+      "role": "sampled_frames",
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-01-2.jpg",
+      "sha256": "3e5df64e7248d97bcc75dd31b64b4256057c369242375eaa0d856c4954b607df"
+    },
+    {
+      "role": "dense_sampled_frames",
+      "path": "product-library/sources/review-talk-naturalness-20261112/dense-01.jpg",
+      "sha256": "86fb92bfb52b9ab49dec5a2c37d55fe493c5fa2adea726148091f22501cddfd6"
+    },
+    {
+      "role": "peer_reference_not_person_habit_evidence",
+      "path": "product-library/sources/review-talk-naturalness-20261112/03.mp4",
+      "sha256": "edac7fef74728395d856a07f8d2b10181ccfa2b9981abbc6788c5bbf666a7426"
+    },
+    {
+      "role": "peer_reference_not_person_habit_evidence",
+      "path": "product-library/sources/review-talk-naturalness-20261112/04.mp4",
+      "sha256": "967aa3f913ff4cb156f54ed3117c5acff3c64c4502590454117ec71839113f52"
+    },
+    {
+      "role": "peer_reference_not_person_habit_evidence",
+      "path": "product-library/sources/review-talk-naturalness-20261112/05.mp4",
+      "sha256": "c8a446e307022b508606a6226fea04c0f146483e9e760b0eeae32d1430ad865b"
+    },
+    {
+      "role": "peer_reference_not_person_habit_evidence",
+      "path": "product-library/sources/review-talk-naturalness-20261112/06.mp4",
+      "sha256": "21ae51fdf0c2326567a5b9069ac911368d814e86c7c5256c0cc2cbcc4649d5a0"
+    },
+    {
+      "role": "peer_reference_not_person_habit_evidence",
+      "path": "product-library/sources/review-talk-naturalness-20261112/07.mp4",
+      "sha256": "f730f686bce5ba15df98e7ddeb46cc87f0a230997a51cd81d3c4a3168781af79"
+    },
+    {
+      "role": "peer_reference_not_person_habit_evidence",
+      "path": "product-library/sources/review-talk-naturalness-20261112/08.mp4",
+      "sha256": "9e752a17204285e8c879dccd7a4bf3a73f070c3babb1fa62023ccb215835662f"
+    }
+  ],
+  "observations": [
+    "约5.8—9.6秒出现空闲手抬起—悬停—回桌，其余多数区间保持闭盖托罐。约10—24秒含成分、紧致、痛点、活动，持物与手部姿势变化少。",
+    "实际稿明确要求进入成分、适用人群、紧致时空闲手已回桌边；同一握法、托罐手只随呼吸微调。后半段缺少具体可见交流安排。",
+    "约6.4—7.4秒抽帧可见掌面偏向下且指尖悬垂，与稿中掌心斜向上有差异；需原速进一步核查。"
+  ],
+  "hypotheses": [
+    "人物表达指令较抽象，模型可能主要执行详细的持品路径；不能仅由成片推断模型内部机制。",
+    "当前76条人物表现关联全为pending、ready召回为0，可能使出稿依赖临时设计；不能证明这一状态是唯一原因。",
+    "首帧构图、脸部质感、参考图及模型本身也可能影响真实感，需要控制变量。"
+  ],
+  "proposed_changes": [
+    "在talk/use共同编排中明确语义意图、表情视线、身体过渡、手部任务和恢复位置。",
+    "区分稳定物体身份与固定姿势；按条件选用指部位、展示、取放或换手，不机械添加随机动作。",
+    "把已有“不统一压成小幅、淡表情、一直举品”要求落实到交稿检查，而非重复堆同义规则。",
+    "原声已固定，只跟随原声实际强调，不重新制造语气；不将talk效果陈述变成肤面变化。",
+    "保持同素材同参数，以原稿、解除姿势限制、增加语义表演做对照；生成次数和费用需另行授权。"
+  ],
+  "unknowns": [
+    "实际首帧、人物及产品多视角和上传原音频尚未提供；用户本次已提供两份实际提示词。",
+    "视频通过全片1fps和关键区间4fps抽帧检查，音频为未听审ASR；未验证原速细微运动、语气或口型同步。",
+    "同行视频的生成/真人/后期流程与使用模型未知，不作为初瑞雪真实习惯证据。",
+    "优化方案尚未生成验证；同模型不同随机结果的贡献未知。"
+  ],
+  "related_script_ids": [],
+  "related_action_ids": [],
+  "findings": [
+    {
+      "classification": "script_problem",
+      "evidence": "用户实际提示词明确使空闲手在成分、适用人群、紧致段回桌，并持续同握法；抽帧显示相近结果。过度限制是稿件可确认特征，自然度因果强度仍需对照。",
+      "confidence": "confirmed"
+    },
+    {
+      "classification": "execution_deviation",
+      "evidence": "约6.4—7.4秒掌向与提示词的斜向上有差异，当前为抽帧判断。",
+      "confidence": "likely"
+    },
+    {
+      "classification": "rule_gap",
+      "evidence": "既有输出规范已有不统一小幅/淡表情/一直举品的要求，本次输出未落实。建议补可执行的逐段检查；并非证明原技能完全没有相关原则。",
+      "confidence": "likely"
+    }
+  ],
+  "rule_updates": [],
+  "attempts": [
+    {
+      "date": "2026-11-12",
+      "outcome": "untested",
+      "changes": [
+        "在talk/use共同编排中明确语义意图、表情视线、身体过渡、手部任务和恢复位置。",
+        "区分稳定物体身份与固定姿势；按条件选用指部位、展示、取放或换手，不机械添加随机动作。",
+        "把已有“不统一压成小幅、淡表情、一直举品”要求落实到交稿检查，而非重复堆同义规则。",
+        "原声已固定，只跟随原声实际强调，不重新制造语气；不将talk效果陈述变成肤面变化。",
+        "保持同素材同参数，以原稿、解除姿势限制、增加语义表演做对照；生成次数和费用需另行授权。"
+      ],
+      "evidence_refs": [],
+      "scope": [
+        "纯口播优先验证",
+        "边讲边用共同表现为待验证推广，当前未提供use成片"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-12",
+      "action": "create",
+      "basis": "按用户明确调用技能的失败分析流程归档；实际提示词由用户本轮补充。仅保存案例和未测建议，不修改正式编排或人物ready状态。"
+    }
+  ]
+}

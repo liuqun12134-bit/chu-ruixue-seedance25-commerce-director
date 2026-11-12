@@ -3,7 +3,7 @@
   "skill_name": "chu-ruixue-seedance25-commerce-director",
   "skill_version": "2.2.0",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-12T01:57:25.829487+00:00",
+  "created_at": "2026-11-12T02:05:21.319962+00:00",
   "summary": {
     "demo_records": 26,
     "demo_units": 81,
@@ -14,13 +14,18 @@
     "product_records": 7,
     "script_records": 49,
     "action_records": 122,
-    "failure_records": 0,
-    "files": 1048,
-    "bytes": 2462629635,
-    "videos": 116,
-    "images": 345
+    "failure_records": 2,
+    "files": 1091,
+    "bytes": 2521338309,
+    "videos": 124,
+    "images": 366
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6927,
+      "sha256": "63ae194537a4b2204aba26c2f8d499b8840b569ccb9c1805dcc8dabde1438f26"
+    },
     {
       "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-backlight/record.json",
       "size": 3818,
@@ -2163,8 +2168,8 @@
     },
     {
       "path": "library-review.html",
-      "size": 34159,
-      "sha256": "9d4e492162a042fe996e5bda3bea7c4ffe47d63cfe6be59b45c0ce2913e92e16"
+      "size": 34763,
+      "sha256": "5eede153e8ca518f75b3e38c6ec1a8101ba3760ee635051354a74f95d58c1a04"
     },
     {
       "path": "performance-library/entries/perf-crx-20261107-01-open-close/history/record-v1-20261107.json",
@@ -3240,6 +3245,11 @@
       "path": "performance-library/reviews/20261107-talking/usable-prefixes.json",
       "size": 857,
       "sha256": "7a2648ed7b5782721e01a330e2134bb9e7dc1516d0e9061517e920c1a18d4ca3"
+    },
+    {
+      "path": "performance-library/sources.json",
+      "size": 156339,
+      "sha256": "d839371ad0b6bae97f1118e726fbccb68c1d0b947649b92fdf316bf0edfaff34"
     },
     {
       "path": "performance-library/sources/20261109-ginseng-daily-v01/asr-unreviewed.json",
@@ -4582,11 +4592,6 @@
       "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82"
     },
     {
-      "path": "performance-library/sources.json",
-      "size": 156339,
-      "sha256": "d839371ad0b6bae97f1118e726fbccb68c1d0b947649b92fdf316bf0edfaff34"
-    },
-    {
       "path": "product-library/entries/product-cream-b5-20261107/record.json",
       "size": 2357,
       "sha256": "805f94d40fa060788aaf8fd6b65218b9c3055494095dd6d3eee059354cb602e0"
@@ -4610,6 +4615,11 @@
       "path": "product-library/entries/product-ginseng-oil-20261109/assets/user-interview.json",
       "size": 2090,
       "sha256": "12d0895400fee3b7954e55b19e3378807b97ff08fbe7d35f0cc6933ae691d348"
+    },
+    {
+      "path": "product-library/entries/product-ginseng-oil-20261109/failures/failure-talk-naturalness-20261112-02.json",
+      "size": 7966,
+      "sha256": "bc66a596cb5f0001c8d95c2e13d3bd650da8577895820a55116e9bd204ea26e3"
     },
     {
       "path": "product-library/entries/product-ginseng-oil-20261109/record.json",
@@ -4647,14 +4657,224 @@
       "sha256": "b3fc801ad1ee52c268ebf4ef8b139cfb1b42360c7d51e4145f9b8d6cd4bc2de8"
     },
     {
+      "path": "product-library/entries/product-zuzu-ginseng-cream-50g/failures/failure-talk-naturalness-20261112-01.json",
+      "size": 7925,
+      "sha256": "f0706de11ecb4d39c4349fe7e245847e506c2631df84f393f8d16467ba4dc8a8"
+    },
+    {
       "path": "product-library/entries/product-zuzu-ginseng-cream-50g/record.json",
       "size": 7848,
       "sha256": "83f5107e145d33af236e0c084e772f9fac575bb2f0b025f253aeaf50a825c059"
     },
     {
       "path": "product-library/index.json",
-      "size": 47861,
-      "sha256": "9ecd147fdf69a59772f413126fdbae1db4948e095a3b68d5faece6626fda16ce"
+      "size": 48277,
+      "sha256": "26f4cb2e731590a29e29c621c61d2fb86c1b7bdd9600efb1799dd20e780d5810"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/01.mp4",
+      "size": 12182615,
+      "sha256": "5204152adb8103be4a9df52e9fb1936c8ce8a56e44fddf648df8af2ce9e5480a"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/02.mp4",
+      "size": 15225526,
+      "sha256": "adc5999b4637fcdd5aa17b28e028dc59c355fae7af6d967680e40f4902aed3e0"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/03.mp4",
+      "size": 4798958,
+      "sha256": "edac7fef74728395d856a07f8d2b10181ccfa2b9981abbc6788c5bbf666a7426"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/04.mp4",
+      "size": 4350823,
+      "sha256": "967aa3f913ff4cb156f54ed3117c5acff3c64c4502590454117ec71839113f52"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/05.mp4",
+      "size": 3770239,
+      "sha256": "c8a446e307022b508606a6226fea04c0f146483e9e760b0eeae32d1430ad865b"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/06.mp4",
+      "size": 4407196,
+      "sha256": "21ae51fdf0c2326567a5b9069ac911368d814e86c7c5256c0cc2cbcc4649d5a0"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/07.mp4",
+      "size": 4290522,
+      "sha256": "f730f686bce5ba15df98e7ddeb46cc87f0a230997a51cd81d3c4a3168781af79"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/08.mp4",
+      "size": 3119548,
+      "sha256": "9e752a17204285e8c879dccd7a4bf3a73f070c3babb1fa62023ccb215835662f"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/asr-01.json",
+      "size": 12416,
+      "sha256": "b890fc5910a2a54fec76d2b4498beaa7ef5c357e2ee614be0fcd36150302fbb4"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/asr-02.json",
+      "size": 11847,
+      "sha256": "223fe5a1b81a55641d6eb637c2ba416b8d4289d5ed74eba33452bae6b6f05c33"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/asr-03.json",
+      "size": 15870,
+      "sha256": "003241d29978c14987e162195d938bdf340b0abb3941285c7ef03927bcc3af60"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/asr-04.json",
+      "size": 15282,
+      "sha256": "b474e8cc66dc073010db481794292f1ed32fd728e2200fb766d580236aa6243d"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/asr-05.json",
+      "size": 16498,
+      "sha256": "5ac393140bea2e199f1ceb66cf0596569f646c44f9eb79b1b8d90ef2cd49bec6"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/asr-06.json",
+      "size": 15175,
+      "sha256": "9fe43bdd7cd6ce0f173aad0d4a6648ec4f028536113ac7a62b8fc1a4e2c2f828"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/asr-07.json",
+      "size": 15535,
+      "sha256": "54dae6383f8636816b15f1e6bd9329819a42329796106dbec5672258631509fc"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/asr-08.json",
+      "size": 15101,
+      "sha256": "b2b27c784d84cfb978a6aef35859fbdb3f9bb8a15f329c70a880a22b2d753051"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-01-1.jpg",
+      "size": 400756,
+      "sha256": "b2dfc84dd959493d231b1ad56155d82936cb818cf49e781ebf18271cd3f6eafa"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-01-2.jpg",
+      "size": 99745,
+      "sha256": "3e5df64e7248d97bcc75dd31b64b4256057c369242375eaa0d856c4954b607df"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-02-1.jpg",
+      "size": 387006,
+      "sha256": "2977f5eff11bf170e034d3b9d60d7b1580e246b582636bbb12da72d2d6690085"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-02-2.jpg",
+      "size": 144977,
+      "sha256": "14df113f51b95feb9947f42077c0574b7297d6569445fb1d2a8941ed4841ecbd"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-03-1.jpg",
+      "size": 485620,
+      "sha256": "b9f96554d5836fff2dc045c94ca4c61e9841bcec8ea038df1bd54a68df94be61"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-03-2.jpg",
+      "size": 190755,
+      "sha256": "9187ea1accf70351b008be2cca8870b2e81478de4e801723a50aa10421d6e0e9"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-04-1.jpg",
+      "size": 451809,
+      "sha256": "8d7d8260234d04e46246cc1eed5c943c0b920929186205fe34cef90399af26b3"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-04-2.jpg",
+      "size": 198293,
+      "sha256": "30c656209af0e83ab71486e361973a39c5798534b954209f7d9b11643458248f"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-05-1.jpg",
+      "size": 461644,
+      "sha256": "3326b6a915eeef6179303adf4b902e268937438c7fb21c9740dbb9b74bcd34e7"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-05-2.jpg",
+      "size": 161630,
+      "sha256": "029a699a68aa422b1f5a115e57698577711a0fd8367459ee803a4ea24a563f9d"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-06-1.jpg",
+      "size": 431792,
+      "sha256": "fa14cc7b26683bfa548c661f2295629732a68eba72d8549e6883043cb2a3c7b6"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-06-2.jpg",
+      "size": 172972,
+      "sha256": "0af89ef4266275fcf7029bf36d0e45ddb8aa99ad57e6eead7e21e82ed5cac2e9"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-07-1.jpg",
+      "size": 411520,
+      "sha256": "14b6a52e33b71b6d98bba1f3794b90ec859c5e6414e3701efab1018eb9f3370b"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-07-2.jpg",
+      "size": 148349,
+      "sha256": "79e33537616bbf8423039488675e943410ea3e7629c3e1e7825eee691c0b5480"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-08-1.jpg",
+      "size": 374832,
+      "sha256": "477fd72903571bc204681e02ab06bb49ffeeb6f2a75107d8c6da4bd5cec4abf0"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/contact-08-2.jpg",
+      "size": 149531,
+      "sha256": "883ce10db0c0f655c7550895549db2c743234e1b7fd258efa97de2895c6a1ee4"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/dense-01.jpg",
+      "size": 340307,
+      "sha256": "86fb92bfb52b9ab49dec5a2c37d55fe493c5fa2adea726148091f22501cddfd6"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/dense-02.jpg",
+      "size": 326448,
+      "sha256": "db27921cd40af3571fe417c5d039465b88f4ce419571e0641ef4bd3b69a2ccfd"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/dense-04.jpg",
+      "size": 367162,
+      "sha256": "6d7c89530c2d1a546c852a79465420a40595a3fe9f7a4e9cce4e7857b4287eda"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/dense-06.jpg",
+      "size": 358826,
+      "sha256": "a6a67b7317e9f351274431c93ea8ce22b894daf7225f5569c8390ff6d7992a93"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/dense-08.jpg",
+      "size": 309034,
+      "sha256": "23ecc88cd6edd179cbb5e9b7677339d60b989cae2edecf8def347bd7d60c5ff6"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/manifest.json",
+      "size": 37662,
+      "sha256": "48f1cb6a28b15dab8c8d74074fd3bc77d9e6edbcdcbb5122cc185c5dd109a813"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/submitted-prompt-01.txt",
+      "size": 2610,
+      "sha256": "0b0551e375d49eeb0f649bb2fab3fdb914987c851a736de1ebfd1352a6879899"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/submitted-prompt-02.txt",
+      "size": 2778,
+      "sha256": "b3b403d8040a02b53f32ef9254c040575545d234f775206c775930996237a054"
+    },
+    {
+      "path": "product-library/sources/review-talk-naturalness-20261112/分析与优化方案.txt",
+      "size": 12554,
+      "sha256": "ab151f85e019615ff63df5c4d793b50236aca1a1cda7e604f63e90c452e20143"
     },
     {
       "path": "references/audio.md",
@@ -5210,11 +5430,6 @@
       "path": "scripts/update.py",
       "size": 14526,
       "sha256": "e2e6785eafcdd9f69ea819081faed55fef32d1dca7ece2387558935f4baa8dd3"
-    },
-    {
-      "path": "SKILL.md",
-      "size": 6927,
-      "sha256": "63ae194537a4b2204aba26c2f8d499b8840b569ccb9c1805dcc8dabde1438f26"
     },
     {
       "path": "templates/action-record.json",
