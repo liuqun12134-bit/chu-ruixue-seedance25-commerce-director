@@ -30,6 +30,8 @@ applicability固定五项category/texture/packaging/body_part/purpose，每项{m
 
 用途标签可跨来源品类检索：购买引导、产品暂放、产品取回。标签写入applicability.purpose.values，保留已有用途；具体条件见[通用编排规则](directing.md#通用编排规则)。只补当前动作实际包含的用途，不以补标签解除其他维度限制或升级证据状态。
 
+共用交流动作沿用现有动作格式，不新增第五库。设计补充用provenance.kind=user_authored或authored_method，basis注明用户设计/AI设计及依据，generation_status保持untested直到有实际生成证据；不能标成视频观察或本人习惯。只在适用时将modes设为talk、use，起始条件写明空闲手/持机/画幅等限制，sequence.transition和end_state包含放松与接续。五维标签仍逐项判断：只有确实与该维度无关时才用unrestricted，指脸或持品动作不能将部位/包装条件一概放开。用途可用关注痛点、解释强调、推荐交流等语义标签，但不作为见词必做的触发器。缺库记录时可做当次设计，无需为了出稿先建记录或升级pending。
+
 source_category记录来源分类，不等于所有适用品类。approved_product_ids为有依据的适用关联，不能覆盖包装等硬条件。sequence保存start_conditions/action/transition/end_state/expected_effect/avoid。legacy_ref={record_path,unit_id}追溯旧单元；迁移标签未核实保持draft和migration_needs_review。
 
 ### 脚本

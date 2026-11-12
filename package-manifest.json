@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "skill_name": "chu-ruixue-seedance25-commerce-director",
-  "skill_version": "2.1.5",
+  "skill_version": "2.2.0",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-10T08:25:44.706993+00:00",
+  "created_at": "2026-11-12T01:57:25.829487+00:00",
   "summary": {
     "demo_records": 26,
     "demo_units": 81,
@@ -15,17 +15,12 @@
     "script_records": 49,
     "action_records": 122,
     "failure_records": 0,
-    "files": 1047,
-    "bytes": 2462619450,
+    "files": 1048,
+    "bytes": 2462629635,
     "videos": 116,
     "images": 345
   },
   "files": [
-    {
-      "path": "SKILL.md",
-      "size": 6242,
-      "sha256": "d07165d17bc6670cdae6de89ec2e933d7ed3185bae846701f47efac1697b484e"
-    },
     {
       "path": "action-library/entries/action-20261102-ginseng-oil-ref-03-backlight/record.json",
       "size": 3818,
@@ -3247,11 +3242,6 @@
       "sha256": "7a2648ed7b5782721e01a330e2134bb9e7dc1516d0e9061517e920c1a18d4ca3"
     },
     {
-      "path": "performance-library/sources.json",
-      "size": 156339,
-      "sha256": "d839371ad0b6bae97f1118e726fbccb68c1d0b947649b92fdf316bf0edfaff34"
-    },
-    {
       "path": "performance-library/sources/20261109-ginseng-daily-v01/asr-unreviewed.json",
       "size": 24636,
       "sha256": "45b9d3c6d125045dfdbcf5d4f871eacd3f236932fb3c21cba8def883b0c37047"
@@ -4592,6 +4582,11 @@
       "sha256": "f60bfa5db2c842fb703303ccca447424d861fd78e5425829476064617eecda82"
     },
     {
+      "path": "performance-library/sources.json",
+      "size": 156339,
+      "sha256": "d839371ad0b6bae97f1118e726fbccb68c1d0b947649b92fdf316bf0edfaff34"
+    },
+    {
       "path": "product-library/entries/product-cream-b5-20261107/record.json",
       "size": 2357,
       "sha256": "805f94d40fa060788aaf8fd6b65218b9c3055494095dd6d3eee059354cb602e0"
@@ -4673,8 +4668,8 @@
     },
     {
       "path": "references/directing.md",
-      "size": 5817,
-      "sha256": "00dbe3934c218a27522307a57b6c1fde3854eb8cc74fac19c3ada575b6993ce7"
+      "size": 6346,
+      "sha256": "0facebf85bd417ef2c5a6d0610bcdb168ec97209ac051dea61fbbf136fb766e1"
     },
     {
       "path": "references/ingestion.md",
@@ -4688,8 +4683,8 @@
     },
     {
       "path": "references/libraries.md",
-      "size": 5755,
-      "sha256": "b9cc75ea063298787b1431d2e75452291e1bd50301d3b642ea1731eb45e3943a"
+      "size": 6464,
+      "sha256": "4a99b45e798345202e6c8bffc404d9f6ecc75882a35bfef56cb2ca20ae43ddea"
     },
     {
       "path": "references/methods.md",
@@ -4698,8 +4693,13 @@
     },
     {
       "path": "references/output-format.md",
-      "size": 4945,
-      "sha256": "f963f50188180d04f579669fd41632ef2d4433a235fffac875516f2da13e6828"
+      "size": 5912,
+      "sha256": "b67aeec54c631103d70bfcc1bb56a17356f81c19bd65ed8046cb89874a8c979d"
+    },
+    {
+      "path": "references/performance-direction.md",
+      "size": 6412,
+      "sha256": "66748322c59480db1f9b5be496d6e1a39201a89e9df5e1aa54a95b1b2c3e9c23"
     },
     {
       "path": "references/performance-format.md",
@@ -4713,8 +4713,8 @@
     },
     {
       "path": "references/review.md",
-      "size": 2395,
-      "sha256": "5a0bb19c07474a2794a7e5e890e2c8f45369ed273dbc64191e7df2a3018e5d80"
+      "size": 3278,
+      "sha256": "bcdb2c29af5a8c0f0f514f109957fd91b19736c2e7e7b502b3d93df257242e58"
     },
     {
       "path": "references/runtime.md",
@@ -5210,6 +5210,11 @@
       "path": "scripts/update.py",
       "size": 14526,
       "sha256": "e2e6785eafcdd9f69ea819081faed55fef32d1dca7ece2387558935f4baa8dd3"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 6927,
+      "sha256": "63ae194537a4b2204aba26c2f8d499b8840b569ccb9c1805dcc8dabde1438f26"
     },
     {
       "path": "templates/action-record.json",
