@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "skill_name": "chu-ruixue-seedance25-commerce-director",
-  "skill_version": "2.2.2",
+  "skill_version": "2.2.3",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-16T01:07:12.604119+00:00",
+  "created_at": "2026-11-17T10:26:56.276683+00:00",
   "summary": {
     "demo_records": 26,
     "demo_units": 81,
@@ -16,7 +16,7 @@
     "action_records": 122,
     "failure_records": 2,
     "files": 1091,
-    "bytes": 2521344326,
+    "bytes": 2521348857,
     "videos": 124,
     "images": 366
   },
@@ -4883,8 +4883,8 @@
     },
     {
       "path": "references/directing.md",
-      "size": 7564,
-      "sha256": "0c900c785bdb28ef635e6c9c044c242efb2932b7f55de92c22866ec29bdc121c"
+      "size": 9142,
+      "sha256": "18e79d4a6c2342a9b23a4a0eab7632db709cb2b7088acb6645e47f89e4a0757c"
     },
     {
       "path": "references/ingestion.md",
@@ -4908,13 +4908,13 @@
     },
     {
       "path": "references/output-format.md",
-      "size": 8270,
-      "sha256": "85b2254aadd2bce97d2d519900582fe339d0fe295a292c414e50053c2fd98b6f"
+      "size": 8445,
+      "sha256": "d4b86bf6d76bb715df9f1390db3fb7000aad0316ac3b793d3a04da581251ecff"
     },
     {
       "path": "references/performance-direction.md",
-      "size": 7451,
-      "sha256": "38ca4838a0edbcf302c82c61f5bf80ebcfbdd112bb0181cff0d7e0400ae8df30"
+      "size": 8295,
+      "sha256": "8a2ace22b441ba649a0e9dc17b16908f3ccb92b0ac886b5ea46bf8a1711d794c"
     },
     {
       "path": "references/performance-format.md",
@@ -4928,8 +4928,8 @@
     },
     {
       "path": "references/review.md",
-      "size": 4152,
-      "sha256": "98af498aa77bde5a255b11a5a97ac45cdda2953cee49a0d259bc0c927553ff29"
+      "size": 5913,
+      "sha256": "da18fcb72628384c81bcf224a73cf297fef5e2200faac8be23d126859356220e"
     },
     {
       "path": "references/runtime.md",
@@ -5428,8 +5428,8 @@
     },
     {
       "path": "SKILL.md",
-      "size": 7455,
-      "sha256": "b97c6d9d9902b04041dc20aa96e40534cfc6f693e1cd408078f5ae049affb9d9"
+      "size": 7628,
+      "sha256": "3a48034e0020c8d730be2a82676b0c33a7145d117f60aa7e01bebff7d09baedc"
     },
     {
       "path": "templates/action-record.json",
