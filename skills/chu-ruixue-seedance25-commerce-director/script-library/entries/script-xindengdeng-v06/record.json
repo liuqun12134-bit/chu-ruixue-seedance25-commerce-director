@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-xindengdeng-v06",
+  "title": "自拍转直播 · 中央出膏特写",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-21",
+  "updated_on": "2026-11-21",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "前约 17 秒复用 V01 拍摄；后段为另一直播画面。",
+    "source_refs": [
+      "script-library/sources/xindengdeng-child-cream-20261121/v06/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v06/source.mp4"
+    ],
+    "limitations": [
+      "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "categories": [
+    "面霜"
+  ],
+  "product_ids": [
+    "product-xindengdeng-child-cream"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "user_confirmed"
+  },
+  "goal": "从包装认知过渡到中央出料的近景。",
+  "adaptation_notes": "混剪前后分属两段镜头。只讲结构可缩短前段，此路线在出膏特写处即已完成。",
+  "source_sequence": [
+    "0–约 17 秒，粉衣自拍，举瓶介绍后放下。",
+    "约 17–21 秒切直播，展示两个粉瓶，取其中一个，露出圆形按压盘。",
+    "约 21–24 秒，一手稳住瓶体，另一手操作顶盘，顶面朝前，中央浅色膏团可见。",
+    "约 25 秒至结尾，再展示瓶身樱桃图案，回到盒上陈列。"
+  ],
+  "initial_state_satisfies": [
+    "顶盘已露出可免去举瓶。"
+  ],
+  "maintained_states": [
+    "本次按出的膏量保持到取走；瓶身图案连贯。"
+  ],
+  "effect_required": false,
+  "effect_stage_ids": [],
+  "stages": [
+    {
+      "id": "front",
+      "goal": "交代产品身份",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "介绍本品"
+      ],
+      "entry_state": "同款包装在手边",
+      "action_options": [
+        "action-20261107-cherry-cream-product-bring-in",
+        "action-20261107-cherry-cream-product-turn-container"
+      ],
+      "exit_state": "樱桃图案朝镜头，指腹未挡住主体",
+      "carry_forward": [],
+      "acceptance": [
+        "樱桃图案朝镜头，指腹未挡住主体"
+      ]
+    },
+    {
+      "id": "pump",
+      "goal": "看清一次按压和出膏的因果",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "解释取用"
+      ],
+      "entry_state": "露出顶盘，瓶身已托稳",
+      "action_options": [
+        "action-xindengdeng-press"
+      ],
+      "exit_state": "手指按下一次，膏体才从中央出来",
+      "carry_forward": [
+        "保留这一泵，约硬币大小。"
+      ],
+      "acceptance": [
+        "手指按下一次，膏体才从中央出来"
+      ]
+    },
+    {
+      "id": "detail",
+      "goal": "让新出的膏可辨",
+      "required": true,
+      "depends_on": [
+        "pump"
+      ],
+      "audio_intents": [
+        "解释包装"
+      ],
+      "entry_state": "按压完成，膏体停留在盘面",
+      "action_options": [
+        "action-xindengdeng-point-top"
+      ],
+      "exit_state": "顶盘朝向镜头，手指不遮中央膏体",
+      "carry_forward": [],
+      "acceptance": [
+        "顶盘朝向镜头，手指不遮中央膏体"
+      ]
+    },
+    {
+      "id": "shelf",
+      "goal": "从结构回到瓶身",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "收尾"
+      ],
+      "entry_state": "顶盘已经看清",
+      "action_options": [],
+      "exit_state": "瓶身正面或陈列回到镜头内",
+      "carry_forward": [],
+      "acceptance": [
+        "瓶身正面或陈列回到镜头内"
+      ]
+    }
+  ]
+}

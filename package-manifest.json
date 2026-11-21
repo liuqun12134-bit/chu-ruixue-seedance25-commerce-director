@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "skill_name": "chu-ruixue-seedance25-commerce-director",
-  "skill_version": "2.2.3",
+  "skill_version": "2.2.4",
   "skill_path": "skills/chu-ruixue-seedance25-commerce-director",
-  "created_at": "2026-11-17T10:26:56.276683+00:00",
+  "created_at": "2026-11-21T06:20:12.008845+00:00",
   "summary": {
     "demo_records": 26,
     "demo_units": 81,
@@ -11,14 +11,14 @@
     "performance_sources": 81,
     "ready_mappings": 0,
     "pending_mappings": 76,
-    "product_records": 7,
-    "script_records": 49,
-    "action_records": 122,
-    "failure_records": 2,
-    "files": 1091,
-    "bytes": 2521348857,
-    "videos": 124,
-    "images": 366
+    "product_records": 8,
+    "script_records": 56,
+    "action_records": 127,
+    "failure_records": 4,
+    "files": 1180,
+    "bytes": 2709095841,
+    "videos": 137,
+    "images": 408
   },
   "files": [
     {
@@ -632,9 +632,34 @@
       "sha256": "68fb102071cbdedb62ea5a381dc1231c39fd5dc4dfd27ddfa049732ff11d0497"
     },
     {
+      "path": "action-library/entries/action-xindengdeng-assisted/record.json",
+      "size": 2429,
+      "sha256": "31da5f58719a93959a0eab269028217f65371cf98da2cbb4a440f70e4d9acbd5"
+    },
+    {
+      "path": "action-library/entries/action-xindengdeng-point-top/record.json",
+      "size": 2803,
+      "sha256": "868a30c008d125ec0f4cdf396f1ac6e7ad6d5d7c2b07225640113e62f64b8c1c"
+    },
+    {
+      "path": "action-library/entries/action-xindengdeng-press/record.json",
+      "size": 2653,
+      "sha256": "a317ec0999004b6000da40e69dc446e83ae4b49f26dfb88003edd4b8e6638524"
+    },
+    {
+      "path": "action-library/entries/action-xindengdeng-spread/record.json",
+      "size": 2666,
+      "sha256": "8bc6a1d35f96a618c1a3b2dde8bd3390fd33b192b4616d1bdeba5ca649dfd8ed"
+    },
+    {
+      "path": "action-library/entries/action-xindengdeng-transfer/record.json",
+      "size": 2440,
+      "sha256": "977bb1aa3775bd62094cee7b6ab5aee7d5ca9d72a7007051626621afcf43108d"
+    },
+    {
       "path": "action-library/index.json",
-      "size": 533857,
-      "sha256": "334457cbc268ffcd7decf8526e91668e0f7eefd58a821143a1973a0116d60944"
+      "size": 548521,
+      "sha256": "499913ead1234df58fb9f77716842335bd8799326090e4cb20ec0d00e90bfdca"
     },
     {
       "path": "agents/openai.yaml",
@@ -2163,8 +2188,8 @@
     },
     {
       "path": "library-review.html",
-      "size": 34763,
-      "sha256": "5eede153e8ca518f75b3e38c6ec1a8101ba3760ee635051354a74f95d58c1a04"
+      "size": 37564,
+      "sha256": "5ade8182b8477a8511910a8faf160bd391385208162361948395e1709d18491d"
     },
     {
       "path": "performance-library/entries/perf-crx-20261107-01-open-close/history/record-v1-20261107.json",
@@ -4627,6 +4652,21 @@
       "sha256": "f678bbbd3b5068386b97bea7c376d7774788e91503771e606f0f056c45651034"
     },
     {
+      "path": "product-library/entries/product-xindengdeng-child-cream/failures/failure-xindengdeng-20261121-11211242.json",
+      "size": 6262,
+      "sha256": "5d2e349fd2c5e5f970acb61d107d9bc70a0d7ea5648e302c90cf4bd065661e45"
+    },
+    {
+      "path": "product-library/entries/product-xindengdeng-child-cream/record.json",
+      "size": 5850,
+      "sha256": "4ae833f482bce8f841a3bb1915a1bb03747bfaf232cd93ea824726c2f99942cb"
+    },
+    {
+      "path": "product-library/entries/product-xindengdeng-cream-40g/assets/product-reference.webp",
+      "size": 28062,
+      "sha256": "b2be976cd5b567251a8ecaa009a24872ba55c5f3ddd38c7bf908c6b17af75701"
+    },
+    {
       "path": "product-library/entries/product-zuzu-boseyin-tone-up-50g/assets/product-reference.png",
       "size": 1739210,
       "sha256": "2206b6a9976efd32a5d5eadc3d620789f298821eaa27b017c253a35bd9c428a4"
@@ -4652,6 +4692,11 @@
       "sha256": "b3fc801ad1ee52c268ebf4ef8b139cfb1b42360c7d51e4145f9b8d6cd4bc2de8"
     },
     {
+      "path": "product-library/entries/product-zuzu-ginseng-cream-50g/failures/failure-mouth-teeth-20261117-01.json",
+      "size": 10985,
+      "sha256": "8172b88e74d46789c386313bc9182b4f97298737c2c06edfb513dd59180332d9"
+    },
+    {
       "path": "product-library/entries/product-zuzu-ginseng-cream-50g/failures/failure-talk-naturalness-20261112-01.json",
       "size": 7925,
       "sha256": "f0706de11ecb4d39c4349fe7e245847e506c2631df84f393f8d16467ba4dc8a8"
@@ -4663,8 +4708,163 @@
     },
     {
       "path": "product-library/index.json",
-      "size": 48277,
-      "sha256": "26f4cb2e731590a29e29c621c61d2fb86c1b7bdd9600efb1799dd20e780d5810"
+      "size": 55128,
+      "sha256": "0497b51ed0576ac2a1a928d340714ce2e5ca4e069294e0c108e327f1a9004a28"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/figure5.jpg",
+      "size": 131126,
+      "sha256": "ae5d6a9e1be41eeb073826872e6f12fa4fa841b0c304a0b440ef3d6972eacd76"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/fish_seedance25_schema.json",
+      "size": 9353,
+      "sha256": "cc6aa32d2eec0e53ff53f7592ef749bd78ec772956300b6fc9c9e1390166f994"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/manifest.json",
+      "size": 4072,
+      "sha256": "4b7237be0398430bdc4548e2c53ca0dac4b9892aa93b3573b57ef3d9210ecd78"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/prompt1.txt",
+      "size": 1875,
+      "sha256": "96498ee1265e3353e0bd6d6eb13e93289619a1579f382eb09026a651068d5a65"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/prompt2.txt",
+      "size": 1758,
+      "sha256": "325e4c84a90e9852e0d79eee9536969671bbac964d2d2a1cf8e495fa8833b43d"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/prompt3.txt",
+      "size": 2368,
+      "sha256": "05085f465cd54c48c158e2051f2a6941fa5396fb94402ad4bc449b578e9ce5a6"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v1.mp4",
+      "size": 28289479,
+      "sha256": "aa79a07dc697f27ba21533d4666ce0d5b1d4e05272ffc780a1cb39131c12a3f3"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v1_dense.jpg",
+      "size": 104563,
+      "sha256": "131c9fdb51729c0a8ce4d47ca9896e2d9f40b88d19101b069e020d97da4d465c"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v1_mouth_1.jpg",
+      "size": 314759,
+      "sha256": "6ad580dd625828a4b7459e3b77038e443df5bb5009c13dc4a7bad31cec84b5bf"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v1_mouth_2.jpg",
+      "size": 53793,
+      "sha256": "b930a444d93c4745c1ebf09d7befcd61864da50c85ab202342d8f88d79e7f033"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v1_overview.jpg",
+      "size": 966416,
+      "sha256": "dcea3a3ef7242bf0cc16f5e59d95d12e60870c70b9229f32016b5990fd3acc2b"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2.mp4",
+      "size": 4852071,
+      "sha256": "0da66b62b2242ca964cc5d5f67cd8db6414bb1161161ca8e1d654ea4d14bec47"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2_dense.jpg",
+      "size": 116006,
+      "sha256": "92e7834281cef38e7b3c61d97f46c0f5789c288ef7637e3d5618af5460e914b1"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2_mouth_1.jpg",
+      "size": 339968,
+      "sha256": "6ff16cbe0cb6dc5028e6eb4cf25e51d69404e0c243ce63ceb7d973397630fd84"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2_mouth_2.jpg",
+      "size": 335508,
+      "sha256": "f710afb2f68fbdc0b36fd7028ef4cbd2982fb278a865d8224ed6967a717b01f9"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2_mouth_3.jpg",
+      "size": 18947,
+      "sha256": "655c8247279ded368b7ba5f2eaee1b0d9917c4344884fcb0cdb0f0376c7a860b"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2_overview.jpg",
+      "size": 395605,
+      "sha256": "555d53d2d26706501c91de785651a37194b5ad32757107bd7aa395f336356090"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3.mp4",
+      "size": 5615971,
+      "sha256": "eb88efe77af55b62ee3a27af44d155f3808d26490522506efe496129f51444b6"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3_dense.jpg",
+      "size": 110312,
+      "sha256": "72fe362bdb6196b514424f29f34f0f50c34fdb5e5d33053b1ab8d3c3b071c25d"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3_mouth_1.jpg",
+      "size": 324946,
+      "sha256": "566e2b5f6995656afeda57a8a40762047d1f515c6065aaee47a04820e83aaf4a"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3_mouth_2.jpg",
+      "size": 330051,
+      "sha256": "6554f3474480ec3c36765ab80ca7f00c88ecce3b839ea09bc0c4bc297de3a3aa"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3_mouth_3.jpg",
+      "size": 100078,
+      "sha256": "9c8f48756bc14dc299723ae1fbf7550424d6d80d6058fc0973f9c3be5b8fc720"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3_overview.jpg",
+      "size": 478540,
+      "sha256": "3fe77c4b16bec1374a088b28ef4fc330b23902abc0c8c2a926076b1f0bb73fe1"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4.mp4",
+      "size": 5252542,
+      "sha256": "60ee15be2b13a9afe14f194475d2a85c0d007700544a9f61fa23e592dbdc8ca6"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4_dense.jpg",
+      "size": 123679,
+      "sha256": "f9ca731283ade25887f7ae1e79f5af8f0b1229a14aaf6aa8350cb2e999dc30e3"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4_mouth_1.jpg",
+      "size": 370087,
+      "sha256": "5886babaffa429910d55fd0657ee5bee28b88448b9cd860a0d470f75850f481d"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4_mouth_2.jpg",
+      "size": 365832,
+      "sha256": "f911f7449ec7ae6b0492f4202581d8c6ca57b8132783185539f5dc8a5a36b92b"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4_mouth_3.jpg",
+      "size": 110116,
+      "sha256": "7ec23a06ce2bcd84df2883dd96c3679094d17582961aae2cd46f65d6914dddec"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4_overview.jpg",
+      "size": 426085,
+      "sha256": "3a24442eb8ccc32de2addd5b24d765e838815c9070d2150c900eefb9518e205a"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/嘴部抽帧对照.jpg",
+      "size": 132090,
+      "sha256": "0e1a429717d693818ee007e1fa95ea50bf767809fd7c4ea5ca761d6b4c653052"
+    },
+    {
+      "path": "product-library/sources/review-mouth-teeth-20261117/诊断说明.txt",
+      "size": 4915,
+      "sha256": "5fdf5131da25d819f437606b407ff3fb93553d92beaa460d1fcdafddabf10657"
     },
     {
       "path": "product-library/sources/review-talk-naturalness-20261112/01.mp4",
@@ -4872,6 +5072,56 @@
       "sha256": "ab151f85e019615ff63df5c4d793b50236aca1a1cda7e604f63e90c452e20143"
     },
     {
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/audio.mp3",
+      "size": 447284,
+      "sha256": "0d14f496ea4a47681d6505be267f0784f5ceca2f31aed486ce8ca87ca385bbf0"
+    },
+    {
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/frames-1.jpg",
+      "size": 211210,
+      "sha256": "abc97220cb3d29bc4b6cf81765fafaacd6d2a2ea1e5705562be0207fa384f362"
+    },
+    {
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/frames-2.jpg",
+      "size": 226493,
+      "sha256": "b4881acc91f98491175c62af3682e6bfe5f4c3c98af039e227dfc5763e609bf2"
+    },
+    {
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/frames-3.jpg",
+      "size": 214586,
+      "sha256": "215b071b856497242208a255b1f0a42786faf1a8fa265c093b6d1ac82576a870"
+    },
+    {
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/person.png",
+      "size": 1787459,
+      "sha256": "8b7b502a184dcc96e86fdef8b6bc1a86562b4084032a934934756f53dbc69e07"
+    },
+    {
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/product.webp",
+      "size": 28062,
+      "sha256": "b2be976cd5b567251a8ecaa009a24872ba55c5f3ddd38c7bf908c6b17af75701"
+    },
+    {
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/prompt-from-chat.txt",
+      "size": 2528,
+      "sha256": "d500418dfaa5c979e3042f2f34a0ba3660e2d515eb77e8de1d37d3abc4e61ed9"
+    },
+    {
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/result.mp4",
+      "size": 16321643,
+      "sha256": "4a8cace588553a554733c031e0b301e0aa7793b436b28a25b129d80de54bc9eb"
+    },
+    {
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/retry-user-feedback.txt",
+      "size": 452,
+      "sha256": "bc9390e1d17f82fbee65179b78baebb5156f98739838258f0573f2060cc57c57"
+    },
+    {
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/start.png",
+      "size": 2385282,
+      "sha256": "53289c5f5a1834f842c303a82abd64c4a06768d4ef019bb5f348346823a831de"
+    },
+    {
       "path": "references/audio.md",
       "size": 4786,
       "sha256": "e14353a41eecf656d1936016cbf7a66c6f24ec5718b833c1f42a870624108dbe"
@@ -4883,8 +5133,8 @@
     },
     {
       "path": "references/directing.md",
-      "size": 9142,
-      "sha256": "18e79d4a6c2342a9b23a4a0eab7632db709cb2b7088acb6645e47f89e4a0757c"
+      "size": 10353,
+      "sha256": "6c0b20fc2fed63e68b754844c9bd0c4403147e4a863340987a632c8b2316592b"
     },
     {
       "path": "references/ingestion.md",
@@ -4943,8 +5193,8 @@
     },
     {
       "path": "references/updating.md",
-      "size": 5079,
-      "sha256": "93b266d786555cac3e7349ef5e6d0c59f95ffcafe37e1c40f5096be6d88502cd"
+      "size": 5460,
+      "sha256": "caad59404455c757058ffba2d4121d9d39155accbacfaf144323a37c3341ae47"
     },
     {
       "path": "script-library/batches/20261109-ginseng-daily/analysis-notes.json",
@@ -5227,9 +5477,44 @@
       "sha256": "9b57378f32a7a344260bf75759300e817bbfa5b8ffcc0df0ca814d823e045e05"
     },
     {
+      "path": "script-library/entries/script-xindengdeng-v01/record.json",
+      "size": 3331,
+      "sha256": "6252066f23b8369cec8735c2a42a8bd229d13d0b84dd0095ba99a5afba6b6c02"
+    },
+    {
+      "path": "script-library/entries/script-xindengdeng-v02/record.json",
+      "size": 3814,
+      "sha256": "05ea658a551e606918945663b49dc7340f6b0ea3df8832676a201e9c8851d1fc"
+    },
+    {
+      "path": "script-library/entries/script-xindengdeng-v03/record.json",
+      "size": 4126,
+      "sha256": "3169f366751b187a25ca7c123cd78aadd0d8b3cd4e838b20d70fc5b46e9ef21a"
+    },
+    {
+      "path": "script-library/entries/script-xindengdeng-v05/record.json",
+      "size": 4923,
+      "sha256": "55957a737844cb3c661fc863c83c20487226987c14c3ef5eaa5a85e413883dd3"
+    },
+    {
+      "path": "script-library/entries/script-xindengdeng-v06/record.json",
+      "size": 3996,
+      "sha256": "fbc88d7e85828b2c2335c6de8c6b7286e59e42091849e38e6a8f0b2b168e6f25"
+    },
+    {
+      "path": "script-library/entries/script-xindengdeng-v08/record.json",
+      "size": 3438,
+      "sha256": "b4777a5253890b583e0ac95ee7a2bf67e6a8391947d00d1dce726fd29b51c126"
+    },
+    {
+      "path": "script-library/entries/script-xindengdeng-v09/record.json",
+      "size": 4321,
+      "sha256": "136b86ccfc24042f0e9cb0cb6c5877f674863add126efdab67c9204f9f7bd8b9"
+    },
+    {
       "path": "script-library/index.json",
-      "size": 513504,
-      "sha256": "3b3198898628e9acba22c21b37014366ee22fc17b68a3dcb5fb1bd8701129673"
+      "size": 544649,
+      "sha256": "cc16d5b60ab86ae0da3cffe9e8742010345f8f7379cf9fafae476f8538ac7e85"
     },
     {
       "path": "script-library/sources/20261109-ginseng-xiaoai-1/asr-unreviewed.json",
@@ -5377,6 +5662,166 @@
       "sha256": "7773edf12539f5172dad871f437189b425c43825d7b0130acc9bb2bd73742205"
     },
     {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v01/frames.jpg",
+      "size": 136995,
+      "sha256": "15088e08a33a60483586489bbdb731f757c1c307518715525ba476a458960483"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v01/observation.json",
+      "size": 2085,
+      "sha256": "1308a6f2b6d8cbdd7502a05e59269099cce89e8b27243d5dadb8cf72af85c0db"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v02/frames.jpg",
+      "size": 206857,
+      "sha256": "fa6e9ead6d9b85be69d9e7e60923e5fdbca6dfa9022e0eeb16108a5b22245a13"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v02/observation.json",
+      "size": 4828,
+      "sha256": "119560ecdbe63c0ff3c3831d4fd9243a49546fe5697b530202258241e9051fd9"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v02/source.mp4",
+      "size": 11024692,
+      "sha256": "39e1470650e3f3ca6563293e3cb0e0b206fd5297af34e2655685cdc00724484a"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v03/frames.jpg",
+      "size": 224511,
+      "sha256": "71e33dff5b15143751921dc756f70150b80c9f72bcbf0d0a97f49804e48a9433"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v03/observation.json",
+      "size": 2584,
+      "sha256": "1dbd6c6c353423a78fca21f0258f7fa7b66fad7a898a03a297ef8ab5c7446f8b"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v03/source.mp4",
+      "size": 4327362,
+      "sha256": "1d41b5ca26864d64a909d63460e8e6fa7a5bf2accf83b8fd33f8d503cf5d3708"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v04/frames.jpg",
+      "size": 167821,
+      "sha256": "a516c453c13057d62705368b36dbb758b41b456cd730714af0291ee2d1d2dced"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v04/observation.json",
+      "size": 4297,
+      "sha256": "6ebef9ca00053c5950297e38179cf03a45a89e884a31c413f08375bbffa26eb0"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v04/source.mp4",
+      "size": 25841523,
+      "sha256": "4e880406fe1958aff0b96e81b81fbbded368512e090c5192d89df33314e9614d"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v05/detail.jpg",
+      "size": 360705,
+      "sha256": "dd3912ee390828098c8b31ed72a9b84f968b5d80bbd0ff6f05467fd5eb06a0b5"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v05/frames.jpg",
+      "size": 292511,
+      "sha256": "5f7bb6442d3fa15373232ea7e784b1e4db7cfcd3deb3d5a100d3e8385321dfe6"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v05/observation.json",
+      "size": 5683,
+      "sha256": "bf69cbe62b2b56b5e3bc4330aaf8b7af0c8983af74f50197cc1b40ce60e187e4"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v05/source.mp4",
+      "size": 32934099,
+      "sha256": "61be6435cb13f5a1c75d0cf65d09e6cc1e87094b465b649ade923d14af5e796b"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v06/detail.jpg",
+      "size": 241388,
+      "sha256": "139abf3d163224caacc358ee924d4e1154a91e7d55a6087125d303b414ce7eea"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v06/frames.jpg",
+      "size": 180273,
+      "sha256": "752d8b77c6aa6ea01b3b86f22f902b225fb03693a3b1ca7f9da8e6255adc6444"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v06/observation.json",
+      "size": 3749,
+      "sha256": "fe624931612976a0295eebb705dd348cc619842d42d474219553b6e473705f64"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v06/source.mp4",
+      "size": 5752183,
+      "sha256": "e638bd2e5d92ba7fb59b22a3acd2219488183523480ea90ece4006c8b9bdb5c5"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v07/detail.jpg",
+      "size": 169376,
+      "sha256": "fb6b66da8011b64a42c0c33363991ae2bdb2c43553163c94ff32490daee3dc53"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v07/frames.jpg",
+      "size": 164680,
+      "sha256": "8abeaf8dafe94dd31eb6dfc86a7de107bb375e97ea222a7268d292953732bb8e"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v07/observation.json",
+      "size": 3611,
+      "sha256": "76ff07e982a3b8be986953e4f63eda20e6977b0e9f77b2e62469ec87012d06e1"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v07/source.mp4",
+      "size": 6957941,
+      "sha256": "d89f9c7ee71a52798f9330312d0f89d465dc4cf4c4361e08875dee117a87534a"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v08/detail.jpg",
+      "size": 287459,
+      "sha256": "3b142e1e7fcf06202feed3bb665cee80f6c4bde8e1bce37ed604c5a4bc33d043"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v08/frames.jpg",
+      "size": 264532,
+      "sha256": "0536fe5a3844e8fbff20dfb14626270440f89c141c45d1d0a1d4d05637a6c4ae"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v08/observation.json",
+      "size": 3510,
+      "sha256": "8a7ffbc3aa2a25f4bd5b01df6722549c4c601c7f2eaf9f24b0ffd9fec67bf003"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v08/source.mp4",
+      "size": 7122472,
+      "sha256": "e224287818d5ca5c574df75da317b262f2a48e64b288cd0ce318043e43d71612"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v09/detail.jpg",
+      "size": 287133,
+      "sha256": "fe4474c68dec958988c322b621dd872626cf57112e5dbd0e9c4f7b8687e2a443"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v09/frames.jpg",
+      "size": 284493,
+      "sha256": "0eaa2130af8c62c44da562aa4a98bd999dbde033cec273c932b87a6b5c576cba"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v09/observation.json",
+      "size": 9977,
+      "sha256": "0b036a9f8fcd5816f37bb6d20a990fa2cd33437b4febde3cb7a29716a53044c7"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/v09/source.mp4",
+      "size": 19010883,
+      "sha256": "230dab63c193ffb49e3b7efb06cc47d245a501485f24fe9300aa286081526c3b"
+    },
+    {
+      "path": "script-library/sources/xindengdeng-child-cream-20261121/学习记录.md",
+      "size": 7391,
+      "sha256": "4f1de930be731cd0a8f69b9f9a875bfa7df60e806b042f82a2216da59a9db0bb"
+    },
+    {
       "path": "scripts/audio.py",
       "size": 12079,
       "sha256": "f7029cdbb7df00f4ef871f8bd52f684fa3aba0d952085c2083491d14df32382c"
@@ -5423,13 +5868,13 @@
     },
     {
       "path": "scripts/update.py",
-      "size": 14526,
-      "sha256": "e2e6785eafcdd9f69ea819081faed55fef32d1dca7ece2387558935f4baa8dd3"
+      "size": 16844,
+      "sha256": "91a572c79701d6ef871423946a29a8bb42d6c2528f2b0590638f014b62af0b2b"
     },
     {
       "path": "SKILL.md",
       "size": 7628,
-      "sha256": "3a48034e0020c8d730be2a82676b0c33a7145d117f60aa7e01bebff7d09baedc"
+      "sha256": "d4fd00d4f99023e7833ec539420a3d5c7fb048066aedd287feec96543ce5f378"
     },
     {
       "path": "templates/action-record.json",

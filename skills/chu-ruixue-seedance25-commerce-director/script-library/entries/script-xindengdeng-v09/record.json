@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-xindengdeng-v09",
+  "title": "直播长版 · 手背试涂、包装讲解与陈列",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-21",
+  "updated_on": "2026-11-21",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "粉色樱桃款为手背演示对象。紫色猫咪瓶盒在后段另行展示。与 V08 的后段包装展示同源。",
+    "source_refs": [
+      "script-library/sources/xindengdeng-child-cream-20261121/v09/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v09/source.mp4"
+    ],
+    "limitations": [
+      "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "categories": [
+    "面霜"
+  ],
+  "product_ids": [
+    "product-xindengdeng-child-cream"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "user_confirmed"
+  },
+  "goal": "先看同伴手背上的膏痕和推开结果，再转入包装故事。",
+  "adaptation_notes": "手机页面、紫色瓶盒、多人互动均为现场可选段。V08 重剪了其中部分包装讲解。",
+  "source_sequence": [
+    "0–约 6 秒，从桌面粉瓶展示顶部、取用。",
+    "约 7–20 秒，另一人将带浅色膏痕的手背举近，主讲人指示涂抹处，示范者推开后继续展手。",
+    "约 21–69 秒，桌面多款陈列；中段举粉瓶并展示手机页面，再继续讲解。",
+    "约 70–87 秒，取粉瓶举近，转向顶盘和中央膏点。",
+    "约 88–100 秒，换紫色瓶盒展示图案。约 101 秒起口播互动，最后整理桌面陈列。"
+  ],
+  "initial_state_satisfies": [
+    "已有膏痕可由同伴直接举手；单人首帧改用 V05 路线。"
+  ],
+  "maintained_states": [
+    "同一部位保持微微水润的自然肤质；后续转腕、遮挡或举品仍承接。"
+  ],
+  "effect_required": true,
+  "effect_stage_ids": [
+    "finish"
+  ],
+  "stages": [
+    {
+      "id": "load",
+      "goal": "让少量膏在手背上可见",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "引出质地"
+      ],
+      "entry_state": "双人同框，现场已取用粉瓶",
+      "action_options": [],
+      "exit_state": "同伴手背举起，涂处明确",
+      "carry_forward": [],
+      "acceptance": [
+        "同伴手背举起，涂处明确"
+      ]
+    },
+    {
+      "id": "finish",
+      "goal": "用指示与推开让结果可见",
+      "required": true,
+      "depends_on": [
+        "load"
+      ],
+      "audio_intents": [
+        "展示水润肤感"
+      ],
+      "entry_state": "同伴手背已有膏痕",
+      "action_options": [
+        "action-xindengdeng-assisted"
+      ],
+      "exit_state": "指示处和涂处一致，离手后仍见自然微润的手背",
+      "carry_forward": [
+        "同一部位保持微微水润的自然肤质；后续转腕、遮挡或举品仍承接。"
+      ],
+      "acceptance": [
+        "指示处和涂处一致，离手后仍见自然微润的手背"
+      ]
+    },
+    {
+      "id": "pack",
+      "goal": "回到包装结构",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "解释包装"
+      ],
+      "entry_state": "手背展示完成，主讲人可取瓶",
+      "action_options": [
+        "action-xindengdeng-point-top"
+      ],
+      "exit_state": "粉瓶的顶面被单独举近，中央膏点可辨",
+      "carry_forward": [],
+      "acceptance": [
+        "粉瓶的顶面被单独举近，中央膏点可辨"
+      ]
+    },
+    {
+      "id": "close",
+      "goal": "从图案设计回到桌面交流",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "设计与收尾"
+      ],
+      "entry_state": "桌面实有多件陈列",
+      "action_options": [],
+      "exit_state": "图案和瓶盒放回，口播自然收束",
+      "carry_forward": [],
+      "acceptance": [
+        "图案和瓶盒放回，口播自然收束"
+      ]
+    }
+  ]
+}

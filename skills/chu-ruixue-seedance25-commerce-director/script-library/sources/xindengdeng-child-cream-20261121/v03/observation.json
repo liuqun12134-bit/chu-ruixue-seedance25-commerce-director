@@ -1,0 +1,95 @@
+{
+  "id": "V03",
+  "filename": "儿童面霜8.11.mp4",
+  "duration": 19.017007,
+  "sha256": "1d41b5ca26864d64a909d63460e8e6fa7a5bf2accf83b8fd33f8d503cf5d3708",
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "codec_type": "audio"
+    }
+  ],
+  "title": "《儿童面霜8.11》· 自述接手背示范",
+  "scope": "粉色樱桃款混剪。约前 8 秒复用 V01 拍摄。",
+  "source_asset": "script-library/sources/xindengdeng-child-cream-20261121/v03/source.mp4",
+  "visual_review": "全长 2 fps 解码，按全片取样并复核关键操作；时间约值。",
+  "source_sequence": [
+    "0–约 8 秒，粉衣自拍举瓶，字幕写「1支40克」。",
+    "约 8 秒切到直播桌前。先讲解，再朝镜头展示粉色顶盘。",
+    "约 12–16 秒，双手举近，在手背摩开，再露出手背。取膏到上手的过程被剪辑压缩。",
+    "约 16 秒后回到桌面粉瓶和口播。"
+  ],
+  "frames": "script-library/sources/xindengdeng-child-cream-20261121/v03/frames.jpg",
+  "detail": null,
+  "shares_footage_with": [
+    "V01",
+    "V06"
+  ],
+  "audio_review": "原声保留。本机 faster-whisper small 普通话自动转写；未听审，专名、数字、成分、卖点措辞不作为已核实话术。",
+  "asr": [
+    {
+      "start": 0.0,
+      "end": 1.6,
+      "text": "然后连卖都没卖过"
+    },
+    {
+      "start": 1.6,
+      "end": 3.8,
+      "text": "挂连接就挂了一次连接就没了"
+    },
+    {
+      "start": 3.8,
+      "end": 7.92,
+      "text": "这是40克的很润的那种在这心脏的品牌"
+    },
+    {
+      "start": 7.92,
+      "end": 9.44,
+      "text": "这个小孩儿能用大人用"
+    },
+    {
+      "start": 9.44,
+      "end": 10.56,
+      "text": "因为等能的品牌"
+    },
+    {
+      "start": 10.56,
+      "end": 11.64,
+      "text": "这是这么包装的"
+    },
+    {
+      "start": 11.64,
+      "end": 12.68,
+      "text": "小孩儿的东西的话"
+    },
+    {
+      "start": 12.68,
+      "end": 14.24,
+      "text": "它是需要给它进购风模的"
+    },
+    {
+      "start": 14.24,
+      "end": 15.64,
+      "text": "它要有一个风模感"
+    },
+    {
+      "start": 15.64,
+      "end": 17.0,
+      "text": "这是来自英国工厂的"
+    },
+    {
+      "start": 17.0,
+      "end": 17.96,
+      "text": "我全不包包粉"
+    },
+    {
+      "start": 17.96,
+      "end": 18.84,
+      "text": "拍到了吗"
+    }
+  ]
+}

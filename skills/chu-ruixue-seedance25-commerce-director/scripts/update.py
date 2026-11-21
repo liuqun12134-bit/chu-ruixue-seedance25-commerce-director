@@ -32,9 +32,11 @@ def digest(path):
     return h.hexdigest()
 
 
-def inventory(root):
+def inventory(root, complete=False):
     result = {}
-    for folder, dirs, files in os.walk(root, followlinks=False):
+    def on_error(exc):
+        raise exc
+    for folder, dirs, files in os.walk(root, followlinks=False, onerror=on_error):
         parent = Path(folder)
         for name in dirs + files:
             path = parent / name
@@ -42,10 +44,14 @@ def inventory(root):
                 raise ValueError('Linked path is not supported: ' + str(path))
         if '.git' in dirs or '.git' in files:
             raise ValueError('Installed skill is a Git checkout; update that checkout separately.')
-        dirs[:] = [d for d in dirs if d != '__pycache__']
+        if complete:
+            for name in dirs:
+                result[(parent / name).relative_to(root).as_posix() + '/'] = None
+        else:
+            dirs[:] = [d for d in dirs if d != '__pycache__']
         for name in files:
             path = parent / name
-            if path.suffix not in {'.pyc', '.pyo'}:
+            if complete or path.suffix not in {'.pyc', '.pyo'}:
                 result[path.relative_to(root).as_posix()] = digest(path)
     return result
 
@@ -144,6 +150,41 @@ def atomic_json(path, value):
         os.replace(temp, path)
     finally:
         temp.unlink(missing_ok=True)
+
+
+def configured_archive(target):
+    home = Path.home()
+    skills = (home / '.codex/skills').resolve()
+    setting = home / '.codex/skill-backup-root.txt'
+    if target.parent != skills or not setting.is_file():
+        return None
+    root = Path(setting.read_text(encoding='utf-8-sig').strip())
+    if not root.is_absolute():
+        raise ValueError('Skill backup root must be an absolute path.')
+    directory = (root / target.name).resolve()
+    for discovery in (skills, (home / '.agents/skills').resolve()):
+        if directory == discovery or discovery in directory.parents or directory in discovery.parents:
+            raise ValueError('Backup directory overlaps a skill discovery root: ' + str(directory))
+    directory.mkdir(parents=True, exist_ok=True)
+    return directory
+
+
+def archive_completed_backup(target, backup, directory, report):
+    backup = backup.resolve()
+    if backup.parent != target.parent or not backup.name.startswith(target.name + '.backup-'):
+        raise ValueError('Unexpected update backup: ' + str(backup))
+    destination = directory / backup.name
+    if destination.exists():
+        raise FileExistsError(destination)
+    with tempfile.TemporaryDirectory(prefix='.partial-', dir=directory) as temp:
+        staged = Path(temp) / backup.name
+        expected = inventory(backup, complete=True)
+        shutil.copytree(backup, staged)
+        if inventory(staged, complete=True) != expected or inventory(backup, complete=True) != expected:
+            raise ValueError('Backup verification failed; original retained: ' + str(backup))
+        staged.rename(destination)
+    report['backup'] = str(destination)
+    shutil.rmtree(backup)
 
 
 def install(target, remote_root, changes, local_hashes, validate_fn=validate):
@@ -249,6 +290,7 @@ def execute(args):
             run([sys.executable, '-B', remote_root / 'scripts/catalog.py', 'validate'], cwd=remote_root)
             backup = None
             if changes['writes'] or changes['deletes']:
+                archive_directory = configured_archive(target)
                 backup = install(target, remote_root, changes, local)
                 report['status'] = 'updated'
                 report['backup'] = str(backup)
@@ -270,6 +312,11 @@ def execute(args):
                     target.rename(failed)
                     backup.rename(target)
                 raise
+            if backup and archive_directory is not None:
+                try:
+                    archive_completed_backup(target, backup, archive_directory, report)
+                except (OSError, ValueError) as exc:
+                    report['backup_warning'] = 'Update committed; backup archival or cleanup incomplete: ' + str(exc)
             report['state_file'] = str(state_path)
             return report, 0
     finally:

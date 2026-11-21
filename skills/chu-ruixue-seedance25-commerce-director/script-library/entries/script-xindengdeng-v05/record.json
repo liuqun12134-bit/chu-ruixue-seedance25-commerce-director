@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-xindengdeng-v05",
+  "title": "梳化现场 · 顶盘出膏到手背推开",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-21",
+  "updated_on": "2026-11-21",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "粉色樱桃按压款。手背是试涂部位。面部刷具属于同时进行的化妆。",
+    "source_refs": [
+      "script-library/sources/xindengdeng-child-cream-20261121/v05/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v05/source.mp4"
+    ],
+    "limitations": [
+      "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "categories": [
+    "面霜"
+  ],
+  "product_ids": [
+    "product-xindengdeng-child-cream"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "user_confirmed"
+  },
+  "goal": "在一个连续的手背示范中交代泵头、用量和涂后肤感。",
+  "adaptation_notes": "开场举瓶与口播时长可调。化妆刷、梳头和现场人员是拍摄背景。",
+  "source_sequence": [
+    "0–24 秒，举粉瓶靠近镜头，正面图案和透明外罩可见。",
+    "约 24–30 秒，露出粉色顶盘，指尖从两侧向下按，中央冒出小团浅色膏体。",
+    "约 30–33 秒，指腹将膏体带到另一手手背，先能看见一小片浅色膏痕。",
+    "约 33–51 秒，手指来回推薄，间歇抬开，镜头能看到原涂处，之后双手退出前景。",
+    "约 52 秒至结尾，镜头留在梳化和口播，成分、护理及预告属于话术。"
+  ],
+  "initial_state_satisfies": [
+    "首帧已完成按压并留有膏时直接取；已落手背直接推开。"
+  ],
+  "maintained_states": [
+    "同一部位保持微微水润的自然肤质；后续转腕、遮挡或举品仍承接。"
+  ],
+  "effect_required": true,
+  "effect_stage_ids": [
+    "finish"
+  ],
+  "stages": [
+    {
+      "id": "front",
+      "goal": "交代产品身份",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "介绍本品"
+      ],
+      "entry_state": "同款包装在手边",
+      "action_options": [
+        "action-20261107-cherry-cream-product-bring-in",
+        "action-20261107-cherry-cream-product-turn-container"
+      ],
+      "exit_state": "樱桃图案朝镜头，指腹未挡住主体",
+      "carry_forward": [],
+      "acceptance": [
+        "樱桃图案朝镜头，指腹未挡住主体"
+      ]
+    },
+    {
+      "id": "pump",
+      "goal": "看清一次按压和出膏的因果",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "解释取用"
+      ],
+      "entry_state": "露出顶盘，瓶身已托稳",
+      "action_options": [
+        "action-xindengdeng-press"
+      ],
+      "exit_state": "手指按下一次，膏体才从中央出来",
+      "carry_forward": [
+        "保留这一泵，约硬币大小。"
+      ],
+      "acceptance": [
+        "手指按下一次，膏体才从中央出来"
+      ]
+    },
+    {
+      "id": "load",
+      "goal": "把这一次的膏转到手背",
+      "required": true,
+      "depends_on": [
+        "pump"
+      ],
+      "audio_intents": [
+        "示范用量"
+      ],
+      "entry_state": "顶盘中央已出膏",
+      "action_options": [
+        "action-xindengdeng-transfer"
+      ],
+      "exit_state": "另一手手背已有浅色膏痕",
+      "carry_forward": [],
+      "acceptance": [
+        "另一手手背已有浅色膏痕"
+      ]
+    },
+    {
+      "id": "finish",
+      "goal": "看清手背推开后的状态",
+      "required": true,
+      "depends_on": [
+        "load"
+      ],
+      "audio_intents": [
+        "展示肤感"
+      ],
+      "entry_state": "同一手背已落膏",
+      "action_options": [
+        "action-xindengdeng-spread"
+      ],
+      "exit_state": "指腹离开，原涂处可见微微水润，皮纹和肤色仍自然",
+      "carry_forward": [
+        "原涂处的状态保持到离开画面。"
+      ],
+      "acceptance": [
+        "指腹离开，原涂处可见微微水润，皮纹和肤色仍自然"
+      ]
+    },
+    {
+      "id": "close",
+      "goal": "完成手背展示后接回口播",
+      "required": false,
+      "depends_on": [
+        "finish"
+      ],
+      "audio_intents": [
+        "讲完使用体会"
+      ],
+      "entry_state": "手背结果已经看清",
+      "action_options": [],
+      "exit_state": "手背可放下，交流继续",
+      "carry_forward": [],
+      "acceptance": [
+        "手背可放下，交流继续"
+      ]
+    }
+  ]
+}

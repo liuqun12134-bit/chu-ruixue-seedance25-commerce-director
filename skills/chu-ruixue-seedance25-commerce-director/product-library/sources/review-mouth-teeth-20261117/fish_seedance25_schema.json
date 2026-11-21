@@ -1,0 +1,410 @@
+{
+  "model_id": "seedance-2.5",
+  "description": "Latest Seedance generation with mixed media references, native audio and clips up to 30s.",
+  "media_types": [
+    "video"
+  ],
+  "traits": [
+    "reference-aware"
+  ],
+  "prompt": "required",
+  "prompt_max_chars": 20000,
+  "capabilities": {
+    "t2v": {
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "aspect_ratio": {
+            "type": "string",
+            "enum": [
+              "16:9",
+              "9:16",
+              "4:3",
+              "3:4",
+              "1:1",
+              "21:9",
+              "adaptive"
+            ],
+            "default": "16:9"
+          },
+          "resolution": {
+            "type": "string",
+            "enum": [
+              "480p",
+              "720p",
+              "1080p"
+            ],
+            "default": "480p"
+          },
+          "duration": {
+            "type": "string",
+            "enum": [
+              "4s",
+              "5s",
+              "6s",
+              "7s",
+              "8s",
+              "9s",
+              "10s",
+              "11s",
+              "12s",
+              "13s",
+              "14s",
+              "15s",
+              "16s",
+              "17s",
+              "18s",
+              "19s",
+              "20s",
+              "21s",
+              "22s",
+              "23s",
+              "24s",
+              "25s",
+              "26s",
+              "27s",
+              "28s",
+              "29s",
+              "30s"
+            ],
+            "default": "4s"
+          }
+        },
+        "additionalProperties": false
+      },
+      "max_count": 1,
+      "default_credits": 10808
+    },
+    "i2v": {
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "resolution": {
+            "type": "string",
+            "enum": [
+              "480p",
+              "720p",
+              "1080p"
+            ],
+            "default": "480p"
+          },
+          "duration": {
+            "type": "string",
+            "enum": [
+              "4s",
+              "5s",
+              "6s",
+              "7s",
+              "8s",
+              "9s",
+              "10s",
+              "11s",
+              "12s",
+              "13s",
+              "14s",
+              "15s",
+              "16s",
+              "17s",
+              "18s",
+              "19s",
+              "20s",
+              "21s",
+              "22s",
+              "23s",
+              "24s",
+              "25s",
+              "26s",
+              "27s",
+              "28s",
+              "29s",
+              "30s"
+            ],
+            "default": "4s"
+          }
+        },
+        "additionalProperties": false
+      },
+      "max_count": 1,
+      "default_credits": 10808,
+      "required_roles": [
+        "startFrame"
+      ],
+      "inputs": {
+        "startFrame": {
+          "kind": "image",
+          "mime_types": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "max_bytes": 20971520,
+          "max_count": 1,
+          "limits": {
+            "minWidthPixels": 300,
+            "maxWidthPixels": 6000,
+            "minHeightPixels": 300,
+            "maxHeightPixels": 6000,
+            "minAspectRatio": 0.4,
+            "maxAspectRatio": 2.5
+          },
+          "auto_fulfill": true
+        },
+        "endFrame": {
+          "kind": "image",
+          "mime_types": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "max_bytes": 20971520,
+          "max_count": 1,
+          "limits": {
+            "minWidthPixels": 300,
+            "maxWidthPixels": 6000,
+            "minHeightPixels": 300,
+            "maxHeightPixels": 6000,
+            "minAspectRatio": 0.4,
+            "maxAspectRatio": 2.5
+          },
+          "auto_fulfill": true
+        }
+      }
+    },
+    "reference": {
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "aspect_ratio": {
+            "type": "string",
+            "enum": [
+              "16:9",
+              "9:16",
+              "4:3",
+              "3:4",
+              "1:1",
+              "21:9",
+              "adaptive"
+            ],
+            "default": "16:9"
+          },
+          "resolution": {
+            "type": "string",
+            "enum": [
+              "480p",
+              "720p",
+              "1080p"
+            ],
+            "default": "480p"
+          },
+          "duration": {
+            "type": "string",
+            "enum": [
+              "4s",
+              "5s",
+              "6s",
+              "7s",
+              "8s",
+              "9s",
+              "10s",
+              "11s",
+              "12s",
+              "13s",
+              "14s",
+              "15s",
+              "16s",
+              "17s",
+              "18s",
+              "19s",
+              "20s",
+              "21s",
+              "22s",
+              "23s",
+              "24s",
+              "25s",
+              "26s",
+              "27s",
+              "28s",
+              "29s",
+              "30s"
+            ],
+            "default": "4s"
+          }
+        },
+        "additionalProperties": false
+      },
+      "max_count": 1,
+      "default_credits": 10808,
+      "required_roles": [
+        "ref"
+      ],
+      "inputs": {
+        "ref": {
+          "kind": "image",
+          "mime_types": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "max_bytes": 20971520,
+          "max_count": 30,
+          "limits": {
+            "minWidthPixels": 300,
+            "maxWidthPixels": 6000,
+            "minHeightPixels": 300,
+            "maxHeightPixels": 6000,
+            "minAspectRatio": 0.4,
+            "maxAspectRatio": 2.5
+          },
+          "auto_fulfill": true
+        },
+        "videoRef": {
+          "kind": "video",
+          "mime_types": [
+            "video/mp4",
+            "video/quicktime"
+          ],
+          "max_bytes": 209715200,
+          "max_count": 10,
+          "duration": {
+            "min_sec": 1.8,
+            "max_sec": 30.2,
+            "max_total_sec": 30.2
+          },
+          "limits": {
+            "minWidthPixels": 300,
+            "maxWidthPixels": 6000,
+            "minHeightPixels": 300,
+            "maxHeightPixels": 6000,
+            "minAspectRatio": 0.4,
+            "maxAspectRatio": 2.5
+          }
+        },
+        "audioRef": {
+          "kind": "audio",
+          "mime_types": [
+            "audio/mpeg",
+            "audio/mp3",
+            "audio/wav",
+            "audio/x-wav"
+          ],
+          "max_bytes": 15728640,
+          "max_count": 10,
+          "duration": {
+            "min_sec": 1.8,
+            "max_sec": 30.2,
+            "max_total_sec": 30.2
+          }
+        }
+      },
+      "max_inputs": 50
+    },
+    "reference_video": {
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "aspect_ratio": {
+            "type": "string",
+            "enum": [
+              "16:9",
+              "9:16",
+              "4:3",
+              "3:4",
+              "1:1",
+              "21:9",
+              "adaptive"
+            ],
+            "default": "16:9"
+          },
+          "resolution": {
+            "type": "string",
+            "enum": [
+              "480p",
+              "720p",
+              "1080p"
+            ],
+            "default": "480p"
+          },
+          "duration": {
+            "type": "string",
+            "enum": [
+              "4s",
+              "5s",
+              "6s",
+              "7s",
+              "8s",
+              "9s",
+              "10s",
+              "11s",
+              "12s",
+              "13s",
+              "14s",
+              "15s",
+              "16s",
+              "17s",
+              "18s",
+              "19s",
+              "20s",
+              "21s",
+              "22s",
+              "23s",
+              "24s",
+              "25s",
+              "26s",
+              "27s",
+              "28s",
+              "29s",
+              "30s"
+            ],
+            "default": "4s"
+          }
+        },
+        "additionalProperties": false
+      },
+      "max_count": 1,
+      "default_credits": 21616,
+      "required_roles": [
+        "videoRef"
+      ],
+      "inputs": {
+        "videoRef": {
+          "kind": "video",
+          "mime_types": [
+            "video/mp4",
+            "video/quicktime"
+          ],
+          "max_bytes": 209715200,
+          "max_count": 10,
+          "duration": {
+            "min_sec": 1.8,
+            "max_sec": 30.2,
+            "max_total_sec": 30.2
+          },
+          "limits": {
+            "minWidthPixels": 300,
+            "maxWidthPixels": 6000,
+            "minHeightPixels": 300,
+            "maxHeightPixels": 6000,
+            "minAspectRatio": 0.4,
+            "maxAspectRatio": 2.5
+          }
+        },
+        "audioRef": {
+          "kind": "audio",
+          "mime_types": [
+            "audio/mpeg",
+            "audio/mp3",
+            "audio/wav",
+            "audio/x-wav"
+          ],
+          "max_bytes": 15728640,
+          "max_count": 10,
+          "duration": {
+            "min_sec": 1.8,
+            "max_sec": 30.2,
+            "max_total_sec": 30.2
+          }
+        }
+      }
+    }
+  }
+}

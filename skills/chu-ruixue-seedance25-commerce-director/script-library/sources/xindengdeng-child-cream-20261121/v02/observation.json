@@ -1,0 +1,197 @@
+{
+  "id": "V02",
+  "filename": "BMjAyNTEyMDkxNDEyMTdfMTE3NjUwMTIxXzE4MTg5NzQ5NjU3OF8yXzM=_b_Bef29dc3fda2b3320961bf69b185d0dfd.mp4",
+  "duration": 45.72,
+  "sha256": "39e1470650e3f3ca6563293e3cb0e0b206fd5297af34e2655685cdc00724484a",
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "codec_type": "audio"
+    }
+  ],
+  "title": "门店口播 · 三款面霜分别介绍",
+  "scope": "混合面霜。同框出现粉瓶、黄色圆罐和蓝罐，各段陈述只随对应产品。",
+  "source_asset": "script-library/sources/xindengdeng-child-cream-20261121/v02/source.mp4",
+  "visual_review": "全长 2 fps 解码，按全片取样并复核关键操作；时间约值。",
+  "source_sequence": [
+    "0–5 秒，在货架前以多款产品引出品牌。",
+    "约 5–12 秒，把粉瓶举近并指向包装，讲樱桃设计。",
+    "约 12–28 秒，转到儿童护理话题，随后单独拿近黄色圆罐。",
+    "约 29–38 秒，单独举蓝罐。约 39 秒起三款并列收尾。"
+  ],
+  "frames": "script-library/sources/xindengdeng-child-cream-20261121/v02/frames.jpg",
+  "detail": null,
+  "shares_footage_with": [],
+  "audio_review": "原声保留。本机 faster-whisper small 普通话自动转写；未听审，专名、数字、成分、卖点措辞不作为已核实话术。",
+  "asr": [
+    {
+      "start": 0.0,
+      "end": 1.6,
+      "text": "有多少人在等我女兒的品牌"
+    },
+    {
+      "start": 1.6,
+      "end": 3.36,
+      "text": "是在等著新長輪還是安保護"
+    },
+    {
+      "start": 3.36,
+      "end": 4.16,
+      "text": "新長輪品牌"
+    },
+    {
+      "start": 4.16,
+      "end": 5.12,
+      "text": "這個是真空包裝"
+    },
+    {
+      "start": 5.12,
+      "end": 6.0,
+      "text": "很多姐們都在等"
+    },
+    {
+      "start": 6.0,
+      "end": 7.92,
+      "text": "而且是等著參與設計研發的"
+    },
+    {
+      "start": 7.92,
+      "end": 9.2,
+      "text": "因為她非常的喜歡Cherry"
+    },
+    {
+      "start": 9.2,
+      "end": 9.76,
+      "text": "櫻桃"
+    },
+    {
+      "start": 9.76,
+      "end": 11.72,
+      "text": "大家都知道小孩生育的話是沒有皮脂膜的"
+    },
+    {
+      "start": 11.72,
+      "end": 13.76,
+      "text": "她長到幾歲之後才會慢慢形成皮脂膜"
+    },
+    {
+      "start": 13.76,
+      "end": 15.56,
+      "text": "所以孩子是需要一些油的"
+    },
+    {
+      "start": 15.56,
+      "end": 17.64,
+      "text": "這為什麼我們會經常給她去用輔助油"
+    },
+    {
+      "start": 17.64,
+      "end": 18.6,
+      "text": "當我們沒有這種油的時候"
+    },
+    {
+      "start": 18.6,
+      "end": 20.4,
+      "text": "皮膚的話也會出現紅蜜刺血這種情況"
+    },
+    {
+      "start": 20.4,
+      "end": 21.08,
+      "text": "但這個安保護"
+    },
+    {
+      "start": 21.08,
+      "end": 22.32,
+      "text": "因為安安殺的皮膚比較脆弱"
+    },
+    {
+      "start": 22.32,
+      "end": 23.56,
+      "text": "經常會身上騷擾刺腦"
+    },
+    {
+      "start": 23.56,
+      "end": 25.6,
+      "text": "所以這款就是給專門明明的保溫們"
+    },
+    {
+      "start": 30.0,
+      "end": 31.0,
+      "text": "蓝灯带"
+    },
+    {
+      "start": 31.0,
+      "end": 32.0,
+      "text": "因为我自己的话就是一个红面机"
+    },
+    {
+      "start": 32.0,
+      "end": 33.0,
+      "text": "我的脸经常会红面刺激"
+    },
+    {
+      "start": 33.0,
+      "end": 34.0,
+      "text": "如果你又红又米"
+    },
+    {
+      "start": 34.0,
+      "end": 35.0,
+      "text": "你又想提达紧质"
+    },
+    {
+      "start": 35.0,
+      "end": 36.0,
+      "text": "你又想保湿"
+    },
+    {
+      "start": 36.0,
+      "end": 37.0,
+      "text": "蓝灯带这个成分"
+    },
+    {
+      "start": 37.0,
+      "end": 38.0,
+      "text": "大家绝对是不二之选"
+    },
+    {
+      "start": 38.0,
+      "end": 39.0,
+      "text": "所以这次拿出来三款面霜"
+    },
+    {
+      "start": 39.0,
+      "end": 40.0,
+      "text": "给所有的请问"
+    },
+    {
+      "start": 40.0,
+      "end": 42.0,
+      "text": "炸一下我只做功效"
+    },
+    {
+      "start": 42.0,
+      "end": 43.0,
+      "text": "不服你想给孩子买面霜"
+    },
+    {
+      "start": 43.0,
+      "end": 44.0,
+      "text": "当然让小孩能用的"
+    },
+    {
+      "start": 44.0,
+      "end": 45.0,
+      "text": "大人都能用"
+    },
+    {
+      "start": 45.0,
+      "end": 46.0,
+      "text": "全家都可以用"
+    }
+  ]
+}

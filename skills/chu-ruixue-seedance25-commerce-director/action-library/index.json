@@ -12690,6 +12690,435 @@
       "source_time": null,
       "migration_source_sha256": "623973e2f38f0097c3cd3fa6e11a4789be6ad497f56bc7945cd0679f9b0f41ac",
       "path": "action-library/entries/action-method-sheet-mask-01-smooth/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-xindengdeng-assisted",
+      "title": "同伴举起试涂手背，主讲人指向膏痕",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "V09 约 7–16 秒",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v09/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v09/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "面霜"
+          ],
+          "basis": "按动作起点和视频证据限定：面霜"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "膏霜"
+          ],
+          "basis": "按动作起点和视频证据限定：膏霜"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "膏体已在手上，后续动作与容器无关"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手背"
+          ],
+          "basis": "按动作起点和视频证据限定：手背"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "涂后展示"
+          ],
+          "basis": "按动作起点和视频证据限定：涂后展示"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "确有两人入镜，同伴手背已有膏痕。"
+        ],
+        "action": "同伴抬起手背，主讲人指示涂处，同伴将膏推开。",
+        "transition": "手指让开原涂处，同伴维持展示角度。",
+        "end_state": "手背与主讲人的指示区对应。",
+        "expected_effect": "膏痕和推开位置清楚，双人动作各自有归属。",
+        "avoid": [
+          "同场其他产品的操作、功效和用量均不随动作迁移。"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "path": "action-library/entries/action-xindengdeng-assisted/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-xindengdeng-point-top",
+      "title": "倾斜顶盘，指给镜头看中央已有的膏点",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "V06 约 22–24 秒；V08 约 5–12 秒；V09 约 75–86 秒，与 V08 同场",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v06/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v06/source.mp4",
+          "script-library/sources/xindengdeng-child-cream-20261121/v08/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v08/source.mp4",
+          "script-library/sources/xindengdeng-child-cream-20261121/v09/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v09/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "talk",
+        "use"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "面霜"
+          ],
+          "basis": "按动作起点和视频证据限定：面霜"
+        },
+        "texture": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "只展示容器，未接触内容物"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "顶盘按压瓶"
+          ],
+          "basis": "按动作起点和视频证据限定：顶盘按压瓶"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "展示离体容器，不接触皮肤"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "包装说明"
+          ],
+          "basis": "按动作起点和视频证据限定：包装说明"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "顶盘已露出，中央有可见膏点。"
+        ],
+        "action": "倾斜瓶身露出圆盘，指尖停在膏点旁，留出视线。",
+        "transition": "保持一拍，再转回瓶身正面。",
+        "end_state": "中央结构与已有膏点可辨，停留期间膏量保持。",
+        "expected_effect": "观众看清包装结构及出料位置。",
+        "avoid": [
+          "同场其他产品的操作、功效和用量均不随动作迁移。"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "path": "action-library/entries/action-xindengdeng-point-top/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-xindengdeng-press",
+      "title": "稳住瓶身，按下顶盘展示中央出膏",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "V05 约 25–30 秒；V06 约 20–24 秒",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v05/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v05/source.mp4",
+          "script-library/sources/xindengdeng-child-cream-20261121/v06/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v06/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "面霜"
+          ],
+          "basis": "按动作起点和视频证据限定：面霜"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "膏霜"
+          ],
+          "basis": "按动作起点和视频证据限定：膏霜"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "顶盘按压瓶"
+          ],
+          "basis": "按动作起点和视频证据限定：顶盘按压瓶"
+        },
+        "body_part": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "展示离体容器，不接触皮肤"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "按压出料"
+          ],
+          "basis": "按动作起点和视频证据限定：按压出料"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "顶盘已露出，手指留出中央出口，另一手能稳定瓶身。"
+        ],
+        "action": "让顶盘微朝镜头，手指下按，使浅色膏体从中央冒出。",
+        "transition": "停止下按，短停让膏体和出口同框。",
+        "end_state": "同一瓶顶盘上留有本次按出的膏。",
+        "expected_effect": "按压发起与新膏出现能对上；本品一次一泵。",
+        "avoid": [
+          "同场其他产品的操作、功效和用量均不随动作迁移。"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "path": "action-library/entries/action-xindengdeng-press/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-xindengdeng-spread",
+      "title": "在同一手背推薄，离手露出涂过的位置",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "V05 约 31–51 秒；V03 约 12–16 秒；混剪",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v05/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v05/source.mp4",
+          "script-library/sources/xindengdeng-child-cream-20261121/v03/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v03/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "面霜"
+          ],
+          "basis": "按动作起点和视频证据限定：面霜"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "膏霜"
+          ],
+          "basis": "按动作起点和视频证据限定：膏霜"
+        },
+        "packaging": {
+          "mode": "unrestricted",
+          "values": [],
+          "basis": "膏体已在手上，后续动作与容器无关"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手背"
+          ],
+          "basis": "按动作起点和视频证据限定：手背"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "涂后展示"
+          ],
+          "basis": "按动作起点和视频证据限定：涂后展示"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "手背已有膏痕，涂抹手可自由活动。"
+        ],
+        "action": "用指腹贴着膏痕来回推开，逐渐减轻力度，再将手指移开。",
+        "transition": "保留同一手背和原光线，给结果留出可见时间。",
+        "end_state": "原涂处显露，浅色厚痕已推薄。",
+        "expected_effect": "观众能找到施用位置；本款按用户要求呈微微水润。",
+        "avoid": [
+          "同场其他产品的操作、功效和用量均不随动作迁移。"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "path": "action-library/entries/action-xindengdeng-spread/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "action",
+      "id": "action-xindengdeng-transfer",
+      "title": "指腹取顶盘上的膏，落在另一手手背",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "V05 约 29–33 秒",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v05/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v05/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "approved_product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "applicability": {
+        "category": {
+          "mode": "constrained",
+          "values": [
+            "面霜"
+          ],
+          "basis": "按动作起点和视频证据限定：面霜"
+        },
+        "texture": {
+          "mode": "constrained",
+          "values": [
+            "膏霜"
+          ],
+          "basis": "按动作起点和视频证据限定：膏霜"
+        },
+        "packaging": {
+          "mode": "constrained",
+          "values": [
+            "顶盘按压瓶"
+          ],
+          "basis": "按动作起点和视频证据限定：顶盘按压瓶"
+        },
+        "body_part": {
+          "mode": "constrained",
+          "values": [
+            "手背"
+          ],
+          "basis": "按动作起点和视频证据限定：手背"
+        },
+        "purpose": {
+          "mode": "constrained",
+          "values": [
+            "转移膏体"
+          ],
+          "basis": "按动作起点和视频证据限定：转移膏体"
+        }
+      },
+      "sequence": {
+        "start_conditions": [
+          "中央已出膏，另一手手背可接触。"
+        ],
+        "action": "指腹取膏，移到另一手手背，留下可辨的浅色膏痕。",
+        "transition": "手背留在镜头内，试涂手指准备推开。",
+        "end_state": "膏痕位于刚接触的手背。",
+        "expected_effect": "能看清膏从何处转到何处。",
+        "avoid": [
+          "同场其他产品的操作、功效和用量均不随动作迁移。"
+        ]
+      },
+      "legacy_ref": null,
+      "migration_needs_review": false,
+      "path": "action-library/entries/action-xindengdeng-transfer/record.json"
     }
   ]
 }

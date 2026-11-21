@@ -1,0 +1,139 @@
+{
+  "id": "V07",
+  "filename": "BMjAyNTA1MDYxODE1MzFfMTc5ODg4NjE2OF8xNjM2MTk3NTAxMDBfMV8z_b_Beee61a34255ea907fea07e910ae19717.mp4",
+  "duration": 30.812993,
+  "sha256": "d89f9c7ee71a52798f9330312d0f89d465dc4cf4c4361e08875dee117a87534a",
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "codec_type": "audio"
+    }
+  ],
+  "title": "混剪 · 黄色圆罐与面颊推开",
+  "scope": "其他儿童/婴儿面霜参考。开头复用 V04 商场素材，面部实擦段明确插入黄色圆罐，字幕提安安。",
+  "source_asset": "script-library/sources/xindengdeng-child-cream-20261121/v07/source.mp4",
+  "visual_review": "全长 2 fps 解码，按全片取样并复核关键操作；时间约值。",
+  "source_sequence": [
+    "0–约 5 秒，商场绿衣口播。",
+    "约 5–9 秒，切室内成人面部近景，手指接触面颊。",
+    "约 10–12 秒，举黄色圆罐；随后同场景在面颊推抹，再把手移开。",
+    "约 25 秒起切回另一室内近景继续讲解。适龄、眼周与粉瓶用法均不能由此转录。"
+  ],
+  "frames": "script-library/sources/xindengdeng-child-cream-20261121/v07/frames.jpg",
+  "detail": "script-library/sources/xindengdeng-child-cream-20261121/v07/detail.jpg",
+  "shares_footage_with": [
+    "V04"
+  ],
+  "audio_review": "原声保留。本机 faster-whisper small 普通话自动转写；未听审，专名、数字、成分、卖点措辞不作为已核实话术。",
+  "asr": [
+    {
+      "start": 0.0,
+      "end": 2.56,
+      "text": "儿童面霜就卖了一万多瓶"
+    },
+    {
+      "start": 2.56,
+      "end": 3.8,
+      "text": "还好我下了三万单"
+    },
+    {
+      "start": 3.8,
+      "end": 4.56,
+      "text": "不带俩用了"
+    },
+    {
+      "start": 4.56,
+      "end": 6.92,
+      "text": "这个的话就是保持不睡的婴儿的面霜"
+    },
+    {
+      "start": 6.92,
+      "end": 8.48,
+      "text": "零碎就可以使用了"
+    },
+    {
+      "start": 8.48,
+      "end": 9.92,
+      "text": "是那个小金盾的"
+    },
+    {
+      "start": 9.92,
+      "end": 10.8,
+      "text": "这是阿安的画"
+    },
+    {
+      "start": 10.8,
+      "end": 12.0,
+      "text": "阿安的小头像"
+    },
+    {
+      "start": 12.0,
+      "end": 13.4,
+      "text": "大家看一下这个婴儿的这个"
+    },
+    {
+      "start": 13.4,
+      "end": 15.04,
+      "text": "保持面霜的阵地就很水"
+    },
+    {
+      "start": 16.04,
+      "end": 16.96,
+      "text": "很好推开"
+    },
+    {
+      "start": 17.8,
+      "end": 18.72,
+      "text": "看到了吧"
+    },
+    {
+      "start": 18.72,
+      "end": 19.84,
+      "text": "这个面霜"
+    },
+    {
+      "start": 20.84,
+      "end": 21.76,
+      "text": "大人小孩都能用"
+    },
+    {
+      "start": 21.76,
+      "end": 22.64,
+      "text": "就是零碎"
+    },
+    {
+      "start": 22.64,
+      "end": 23.44,
+      "text": "小孩能用的"
+    },
+    {
+      "start": 23.44,
+      "end": 24.48,
+      "text": "大人都能用"
+    },
+    {
+      "start": 24.48,
+      "end": 26.2,
+      "text": "然后大家想这个要"
+    },
+    {
+      "start": 26.2,
+      "end": 27.36,
+      "text": "儿童面霜的话可以放心"
+    },
+    {
+      "start": 27.36,
+      "end": 30.2,
+      "text": "我给你们做的这个是一夜的工厂"
+    },
+    {
+      "start": 30.2,
+      "end": 30.8,
+      "text": "同工厂"
+    }
+  ]
+}

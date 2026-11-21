@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-xindengdeng-point-top",
+  "title": "倾斜顶盘，指给镜头看中央已有的膏点",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-21",
+  "updated_on": "2026-11-21",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "V06 约 22–24 秒；V08 约 5–12 秒；V09 约 75–86 秒，与 V08 同场",
+    "source_refs": [
+      "script-library/sources/xindengdeng-child-cream-20261121/v06/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v06/source.mp4",
+      "script-library/sources/xindengdeng-child-cream-20261121/v08/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v08/source.mp4",
+      "script-library/sources/xindengdeng-child-cream-20261121/v09/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v09/source.mp4"
+    ],
+    "limitations": [
+      "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk",
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "user_confirmed"
+  },
+  "approved_product_ids": [
+    "product-xindengdeng-child-cream"
+  ],
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "按动作起点和视频证据限定：面霜"
+    },
+    "texture": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "只展示容器，未接触内容物"
+    },
+    "packaging": {
+      "mode": "constrained",
+      "values": [
+        "顶盘按压瓶"
+      ],
+      "basis": "按动作起点和视频证据限定：顶盘按压瓶"
+    },
+    "body_part": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "展示离体容器，不接触皮肤"
+    },
+    "purpose": {
+      "mode": "constrained",
+      "values": [
+        "包装说明"
+      ],
+      "basis": "按动作起点和视频证据限定：包装说明"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "顶盘已露出，中央有可见膏点。"
+    ],
+    "action": "倾斜瓶身露出圆盘，指尖停在膏点旁，留出视线。",
+    "transition": "保持一拍，再转回瓶身正面。",
+    "end_state": "中央结构与已有膏点可辨，停留期间膏量保持。",
+    "expected_effect": "观众看清包装结构及出料位置。",
+    "avoid": [
+      "同场其他产品的操作、功效和用量均不随动作迁移。"
+    ]
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false
+}

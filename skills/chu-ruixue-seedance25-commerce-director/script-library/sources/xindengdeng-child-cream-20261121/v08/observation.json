@@ -1,0 +1,134 @@
+{
+  "id": "V08",
+  "filename": "BMjAyNTA5MDQxNDIwMzVfMTMzMjMwNjA2XzE3NDE4NDU3NDI1NF8xXzM=_b_B8b8d8a4a1af5981a2a7e3f6a9da24eab.mp4",
+  "duration": 26.2,
+  "sha256": "e224287818d5ca5c574df75da317b262f2a48e64b288cd0ce318043e43d71612",
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 716,
+      "height": 1128
+    },
+    {
+      "codec_type": "audio"
+    }
+  ],
+  "title": "直播短剪 · 顶盘与猫咪图案",
+  "scope": "粉瓶和紫色猫咪瓶盒同台。与 V09 为同场重叠段，详见长版。",
+  "source_asset": "script-library/sources/xindengdeng-child-cream-20261121/v08/source.mp4",
+  "visual_review": "全长 2 fps 解码，按全片取样并复核关键操作；时间约值。",
+  "source_sequence": [
+    "0–约 4 秒，桌面多件包装，拿起粉色樱桃瓶。",
+    "约 4–14 秒，举近瓶正面，翻向顶盘，指点已有浅色膏体和中央结构。",
+    "约 15–23 秒，放下粉瓶，拿起紫色盒与瓶，展示猫咪图案。",
+    "约 24 秒至结尾，回到桌面产品和口播。"
+  ],
+  "frames": "script-library/sources/xindengdeng-child-cream-20261121/v08/frames.jpg",
+  "detail": "script-library/sources/xindengdeng-child-cream-20261121/v08/detail.jpg",
+  "shares_footage_with": [
+    "V09"
+  ],
+  "audio_review": "原声保留。本机 faster-whisper small 普通话自动转写；未听审，专名、数字、成分、卖点措辞不作为已核实话术。",
+  "asr": [
+    {
+      "start": 0.0,
+      "end": 1.4,
+      "text": "通過的大學畢業出來吧"
+    },
+    {
+      "start": 1.4,
+      "end": 2.72,
+      "text": "然後我就開始做"
+    },
+    {
+      "start": 2.72,
+      "end": 3.24,
+      "text": "包裝品"
+    },
+    {
+      "start": 3.24,
+      "end": 3.92,
+      "text": "當然我辛苦工"
+    },
+    {
+      "start": 3.92,
+      "end": 4.92,
+      "text": "將女孩兒得做純薩"
+    },
+    {
+      "start": 4.92,
+      "end": 7.12,
+      "text": "然後這種東西就真貨包裝的20萬元一個"
+    },
+    {
+      "start": 7.12,
+      "end": 7.92,
+      "text": "真貨都貴"
+    },
+    {
+      "start": 7.92,
+      "end": 10.0,
+      "text": "自己不想普通的那種領蓋那種瓶子"
+    },
+    {
+      "start": 10.0,
+      "end": 11.2,
+      "text": "這種東西就是小孩兒用的"
+    },
+    {
+      "start": 11.2,
+      "end": 12.28,
+      "text": "他又喜歡"
+    },
+    {
+      "start": 12.28,
+      "end": 13.2,
+      "text": "而且更安全"
+    },
+    {
+      "start": 13.2,
+      "end": 13.88,
+      "text": "成本更高"
+    },
+    {
+      "start": 13.88,
+      "end": 14.72,
+      "text": "然後掌握給我看"
+    },
+    {
+      "start": 14.72,
+      "end": 16.68,
+      "text": "這是等能的自己設計的"
+    },
+    {
+      "start": 16.68,
+      "end": 18.4,
+      "text": "然後這個貓是我們自己家手會的貓"
+    },
+    {
+      "start": 18.4,
+      "end": 19.28,
+      "text": "所以不請拳"
+    },
+    {
+      "start": 19.28,
+      "end": 20.64,
+      "text": "這個就是自己畫的"
+    },
+    {
+      "start": 20.64,
+      "end": 22.4,
+      "text": "然後這個就是新能的品牌"
+    },
+    {
+      "start": 22.4,
+      "end": 24.4,
+      "text": "就是長大的就給新能的這一個東西"
+    },
+    {
+      "start": 24.4,
+      "end": 25.8,
+      "text": "就是新能的面霜"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-xindengdeng-v08",
+  "title": "直播短剪 · 顶盘与猫咪图案",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-21",
+  "updated_on": "2026-11-21",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "粉瓶和紫色猫咪瓶盒同台。与 V09 为同场重叠段，详见长版。",
+    "source_refs": [
+      "script-library/sources/xindengdeng-child-cream-20261121/v08/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v08/source.mp4"
+    ],
+    "limitations": [
+      "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "talk"
+  ],
+  "categories": [
+    "面霜"
+  ],
+  "product_ids": [
+    "product-xindengdeng-child-cream"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "user_confirmed"
+  },
+  "goal": "用瓶身与顶盘两个角度讲清包装设计。",
+  "adaptation_notes": "单品稿可在粉瓶顶盘特写结束。紫色瓶盒为原片现场陈列，未确认产品关系。",
+  "source_sequence": [
+    "0–约 4 秒，桌面多件包装，拿起粉色樱桃瓶。",
+    "约 4–14 秒，举近瓶正面，翻向顶盘，指点已有浅色膏体和中央结构。",
+    "约 15–23 秒，放下粉瓶，拿起紫色盒与瓶，展示猫咪图案。",
+    "约 24 秒至结尾，回到桌面产品和口播。"
+  ],
+  "initial_state_satisfies": [
+    "顶盘已有膏点，可直接指示位置。"
+  ],
+  "maintained_states": [
+    "只介绍既有膏点时，膏量保持。"
+  ],
+  "effect_required": false,
+  "effect_stage_ids": [],
+  "stages": [
+    {
+      "id": "front",
+      "goal": "交代产品身份",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "介绍本品"
+      ],
+      "entry_state": "同款包装在手边",
+      "action_options": [
+        "action-20261107-cherry-cream-product-bring-in",
+        "action-20261107-cherry-cream-product-turn-container"
+      ],
+      "exit_state": "樱桃图案朝镜头，指腹未挡住主体",
+      "carry_forward": [],
+      "acceptance": [
+        "樱桃图案朝镜头，指腹未挡住主体"
+      ]
+    },
+    {
+      "id": "top",
+      "goal": "让观众辨认中央出口",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "说明真空泵结构"
+      ],
+      "entry_state": "顶盘已露出，中央已有膏点",
+      "action_options": [
+        "action-xindengdeng-point-top"
+      ],
+      "exit_state": "顶盘中央和已有膏点同时清楚可见",
+      "carry_forward": [],
+      "acceptance": [
+        "顶盘中央和已有膏点同时清楚可见"
+      ]
+    },
+    {
+      "id": "graphic",
+      "goal": "交代同场图案设计",
+      "required": false,
+      "depends_on": [],
+      "audio_intents": [
+        "设计故事"
+      ],
+      "entry_state": "画面确有紫色瓶盒，原声讲到设计",
+      "action_options": [],
+      "exit_state": "能看见展示的是同场紫色图案物件",
+      "carry_forward": [],
+      "acceptance": [
+        "能看见展示的是同场紫色图案物件"
+      ]
+    }
+  ]
+}

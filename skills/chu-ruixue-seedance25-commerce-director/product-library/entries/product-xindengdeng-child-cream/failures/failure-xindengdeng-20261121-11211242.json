@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "record_type": "failure",
+  "id": "failure-xindengdeng-20261121-11211242",
+  "product_id": "product-xindengdeng-child-cream",
+  "created_on": "2026-11-21",
+  "user_problem": "按压后膏团仍在盘上，手指没有可见膏却持续点脸；下巴没有抹匀，白痕自行消失。",
+  "input_files": [
+    {
+      "role": "user_provided_generated_output",
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/result.mp4",
+      "sha256": "4a8cace588553a554733c031e0b301e0aa7793b436b28a25b129d80de54bc9eb"
+    },
+    {
+      "role": "audio_provided_in_chat",
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/audio.mp3",
+      "sha256": "0d14f496ea4a47681d6505be267f0784f5ceca2f31aed486ce8ca87ca385bbf0"
+    },
+    {
+      "role": "start_frame_provided_in_chat",
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/start.png",
+      "sha256": "53289c5f5a1834f842c303a82abd64c4a06768d4ef019bb5f348346823a831de"
+    },
+    {
+      "role": "person_reference_provided_in_chat",
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/person.png",
+      "sha256": "8b7b502a184dcc96e86fdef8b6bc1a86562b4084032a934934756f53dbc69e07"
+    },
+    {
+      "role": "product_reference_provided_in_chat",
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/product.webp",
+      "sha256": "b2be976cd5b567251a8ecaa009a24872ba55c5f3ddd38c7bf908c6b17af75701"
+    },
+    {
+      "role": "latest_delivered_prompt_submission_unverified",
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/prompt-from-chat.txt",
+      "sha256": "d500418dfaa5c979e3042f2f34a0ba3660e2d515eb77e8de1d37d3abc4e61ed9"
+    },
+    {
+      "role": "decoded_visual_evidence",
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/frames-1.jpg",
+      "sha256": "abc97220cb3d29bc4b6cf81765fafaacd6d2a2ea1e5705562be0207fa384f362"
+    },
+    {
+      "role": "decoded_visual_evidence",
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/frames-2.jpg",
+      "sha256": "b4881acc91f98491175c62af3682e6bfe5f4c3c98af039e227dfc5763e609bf2"
+    },
+    {
+      "role": "decoded_visual_evidence",
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/frames-3.jpg",
+      "sha256": "215b071b856497242208a255b1f0a42786faf1a8fa265c093b6d1ac82576a870"
+    },
+    {
+      "role": "user_reported_retry_feedback",
+      "path": "product-library/sources/review-xindengdeng-20261121-11211242/retry-user-feedback.txt",
+      "sha256": "bc9390e1d17f82fbee65179b78baebb5156f98739838258f0573f2060cc57c57"
+    }
+  ],
+  "observations": [
+    "约3.25–4.00秒顶盘出膏；4.25–4.75秒手撤离，盘上膏团仍有明显尖峰，指腹未见与脸上用量相称的膏。",
+    "约14–17秒指腹在下巴附近点出白痕；17.5秒双手推颊时中央仍白。约23.0秒指尖沿下颌两侧向下离开，约23.33秒双手已移向额头，中央白痕仍清楚。",
+    "约25.0秒仍可见下巴白痕，25–26秒随着手离开额头自行淡去；没有对应横过中央白痕的涂抹。"
+  ],
+  "hypotheses": [
+    "上版文字写了带起这泵膏，但没有交代指腹从膏底刮过后，泵盘的膏明显减少、指腹带膏可见。",
+    "沿下颌带开下巴的膏没有指定接触的是下巴正中。收尾净脸的目标可能比逐区接触过程得到更明确的执行。"
+  ],
+  "proposed_changes": [
+    "按压和取膏分开；指腹从膏团底部刮过，离开时盘上只余薄痕，指腹的一小团膏直接带到第一处。",
+    "五处点齐后，双手先从下唇下方的中央白痕向两侧推，白点出现短薄痕并随接触散开，再继续两颊、鼻侧和额头。"
+  ],
+  "unknowns": [
+    "实际提交提示词、上传文件版本、模型及生成参数、后期处理均未独立核对；以上提示词对照采用对话内最近一版。",
+    "视频抽帧复盘，未做原速有声口型判断；生成尝试总数未知。"
+  ],
+  "related_script_ids": [
+    "script-xindengdeng-v05"
+  ],
+  "related_action_ids": [
+    "action-xindengdeng-press",
+    "action-xindengdeng-transfer"
+  ],
+  "findings": [
+    {
+      "classification": "execution_deviation",
+      "evidence": "与用户所需的实际取膏、点涂及抹匀结果对照，泵盘可见膏团未有对应减少，下巴白痕消退时未见相应手指接触。",
+      "confidence": "confirmed"
+    },
+    {
+      "classification": "script_problem",
+      "evidence": "对话稿写了按压、带起和沿下颌带开，取膏结束状态与下巴中央的具体接触路线可加强。对实际生成的影响待验证。",
+      "confidence": "likely"
+    }
+  ],
+  "rule_updates": [],
+  "attempts": [
+    {
+      "outcome": "failed",
+      "changes": [],
+      "evidence_refs": [
+        "product-library/sources/review-xindengdeng-20261121-11211242/result.mp4"
+      ],
+      "scope": [
+        "用户提供的这一成片与两处操作问题"
+      ]
+    },
+    {
+      "outcome": "untested",
+      "changes": [
+        "指腹刮取后的可见膏量转移",
+        "双手先推匀下巴正中膏点"
+      ],
+      "evidence_refs": [],
+      "scope": [
+        "本次改法尚未生成验证"
+      ]
+    },
+    {
+      "outcome": "succeeded",
+      "changes": [
+        "按压后松手，指腹从膏团底部刮起，盘面减少与指腹带膏同时可见。",
+        "五处点齐，双手先把下巴正中的膏点从中间向两侧推薄，再接双颊、鼻侧、额头。"
+      ],
+      "evidence_refs": [
+        "product-library/sources/review-xindengdeng-20261121-11211242/retry-user-feedback.txt"
+      ],
+      "scope": [
+        "用户反馈这一新版已解决两项问题。两项改动合并使用；各自贡献和跨产品稳定性未知。",
+        "新版成片未独立复看。生成次数、平台参数和实际提交文本未核实。"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-21",
+      "basis": "用户反馈与局部抽帧复盘。"
+    },
+    {
+      "date": "2026-11-21",
+      "basis": "用户反馈新版两处问题已解决，作为本案后续结果保存。"
+    }
+  ]
+}

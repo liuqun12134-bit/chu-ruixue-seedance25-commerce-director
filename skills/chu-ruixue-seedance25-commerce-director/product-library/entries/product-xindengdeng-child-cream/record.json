@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "record_type": "product",
+  "id": "product-xindengdeng-child-cream",
+  "title": "辛等等儿童面霜",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-21",
+  "updated_on": "2026-11-21",
+  "provenance": {
+    "kind": "user_interview",
+    "basis": "用户指定单款建档。本次用户确认真空泵、用量、部位、肤感和出料顺序；粉色樱桃图案包装和手背示范由原片核对。",
+    "source_refs": [
+      "script-library/sources/xindengdeng-child-cream-20261121/v01/observation.json",
+      "demo-library/entries/demo-20261107-cherry-cream-product/source.mp4",
+      "script-library/sources/xindengdeng-child-cream-20261121/v03/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v03/source.mp4",
+      "script-library/sources/xindengdeng-child-cream-20261121/v05/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v05/source.mp4",
+      "script-library/sources/xindengdeng-child-cream-20261121/v06/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v06/source.mp4",
+      "script-library/sources/xindengdeng-child-cream-20261121/v09/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v09/source.mp4"
+    ],
+    "limitations": [
+      "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。",
+      "V08、V09 的紫色瓶盒只登记为同场道具，款式关系未知。V07 黄色圆罐实擦不作为本品证据。40 克为视频所示规格，当前在售规格未另行确认。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [
+    {
+      "date": "2026-11-21",
+      "basis": "用户要求新建单款目标档案。旧辛等等樱桃面霜仍为历史对标记录；V01 复用其原片，未把紫色瓶盒另立为产品。"
+    }
+  ],
+  "role": "target",
+  "aliases": [
+    "辛等等面霜",
+    "辛等等樱桃面霜"
+  ],
+  "reference_hashes": [],
+  "category": {
+    "value": "面霜",
+    "basis": "user_confirmed"
+  },
+  "facts": {
+    "packaging": {
+      "value": "真空泵，按压顶部圆盘，膏体从中央出口出来。视频示范瓶为粉色、樱桃/小花图案，带透明外罩。",
+      "basis": "用户确认结构；V01、V05、V06 核对外观和出料。",
+      "status": "confirmed"
+    },
+    "net_content": {
+      "value": "参考片所示每支 40 克，当前在售规格待核。",
+      "basis": "V03 约 5 秒字幕「1支40克」；V01、V06 是同源素材。",
+      "status": "observed"
+    },
+    "dimensions": {
+      "value": null,
+      "status": "unknown",
+      "basis": "待主动询问或核实"
+    },
+    "contents": {
+      "value": "中央出口出现浅色膏体。",
+      "basis": "V05 约 26–31 秒，V06 约 21–24 秒。",
+      "status": "observed"
+    },
+    "texture": {
+      "value": "膏霜，肤感水润、不粘腻。",
+      "basis": "用户本次确认；肤感来自用户描述。",
+      "status": "confirmed"
+    },
+    "usage": {
+      "value": "一次按压一泵，膏量约一枚硬币大小。先按压出膏，再取膏，涂于脸或手并推开。",
+      "basis": "用户本次确认；V05 展示按压和手背推开。",
+      "status": "confirmed"
+    },
+    "body_parts": {
+      "value": "脸部或手部。",
+      "basis": "用户本次确认。",
+      "status": "confirmed"
+    },
+    "finish": {
+      "value": "涂后微微水润，肤感不粘腻。",
+      "basis": "用户本次确认。",
+      "status": "confirmed"
+    },
+    "selling_points": {
+      "value": "真空泵按压取用；水润但不粘腻。",
+      "basis": "用户本次指定展示重点。",
+      "status": "confirmed"
+    }
+  },
+  "match_fields": {
+    "texture": [
+      "膏霜"
+    ],
+    "packaging": [
+      "顶盘按压瓶",
+      "真空泵瓶"
+    ],
+    "body_part": [
+      "面颊",
+      "面部",
+      "手背",
+      "手部"
+    ]
+  },
+  "rules": [
+    {
+      "id": "pump-before-cream",
+      "text": "托稳瓶身，露出可按的顶盘，按下一次后中央才出现新膏体；继而取用。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "展示出膏时",
+      "basis": "本次用户明确要求。"
+    },
+    {
+      "id": "one-pump",
+      "text": "一次用一泵，约一枚硬币大小。按压量保持连贯，取走多少，顶盘相应减少。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "演示单次使用量时",
+      "basis": "本次用户明确要求。"
+    },
+    {
+      "id": "face-or-hand",
+      "text": "可抹脸，也可抹手。选定部位后，在实际接触的位置推开。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "演示使用时",
+      "basis": "本次用户明确要求。"
+    },
+    {
+      "id": "slightly-dewy",
+      "text": "膏痕逐渐推薄，离手后原涂处保持微微水润的自然肤质；肤感表达为水润、不粘腻。",
+      "status": "confirmed",
+      "modes": [
+        "use"
+      ],
+      "trigger": "展示涂后结果时",
+      "basis": "本次用户明确要求。"
+    }
+  ],
+  "interview": {
+    "asked": [
+      "确认建档范围、包装关系和现售克数",
+      "确认实际用量、涂后状态、特殊用法和其他补充"
+    ],
+    "missing_core": [],
+    "supplement_answer": "用户补充：脸和手都能用，一次一泵约一枚硬币大小；不按压不能自行出膏，涂后微微水润、不粘腻。",
+    "complete": true
+  }
+}

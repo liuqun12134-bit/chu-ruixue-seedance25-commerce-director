@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-xindengdeng-transfer",
+  "title": "指腹取顶盘上的膏，落在另一手手背",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-21",
+  "updated_on": "2026-11-21",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "V05 约 29–33 秒",
+    "source_refs": [
+      "script-library/sources/xindengdeng-child-cream-20261121/v05/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v05/source.mp4"
+    ],
+    "limitations": [
+      "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "user_confirmed"
+  },
+  "approved_product_ids": [
+    "product-xindengdeng-child-cream"
+  ],
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "按动作起点和视频证据限定：面霜"
+    },
+    "texture": {
+      "mode": "constrained",
+      "values": [
+        "膏霜"
+      ],
+      "basis": "按动作起点和视频证据限定：膏霜"
+    },
+    "packaging": {
+      "mode": "constrained",
+      "values": [
+        "顶盘按压瓶"
+      ],
+      "basis": "按动作起点和视频证据限定：顶盘按压瓶"
+    },
+    "body_part": {
+      "mode": "constrained",
+      "values": [
+        "手背"
+      ],
+      "basis": "按动作起点和视频证据限定：手背"
+    },
+    "purpose": {
+      "mode": "constrained",
+      "values": [
+        "转移膏体"
+      ],
+      "basis": "按动作起点和视频证据限定：转移膏体"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "中央已出膏，另一手手背可接触。"
+    ],
+    "action": "指腹取膏，移到另一手手背，留下可辨的浅色膏痕。",
+    "transition": "手背留在镜头内，试涂手指准备推开。",
+    "end_state": "膏痕位于刚接触的手背。",
+    "expected_effect": "能看清膏从何处转到何处。",
+    "avoid": [
+      "同场其他产品的操作、功效和用量均不随动作迁移。"
+    ]
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false
+}

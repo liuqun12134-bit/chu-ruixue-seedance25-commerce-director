@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "record_type": "failure",
+  "id": "failure-mouth-teeth-20261117-01",
+  "product_id": "product-zuzu-ginseng-cream-50g",
+  "created_on": "2026-11-17",
+  "user_problem": "用户反馈Seedance 2.5口播约每3—4条会有1条牙齿问题，希望接近本人真实说话时基本不露上牙的效果；视频2/3失败，视频4由用户认为成功。",
+  "input_files": [
+    {
+      "role": "real_person_reference_user_identified",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v1.mp4",
+      "sha256": "aa79a07dc697f27ba21533d4666ce0d5b1d4e05272ffc780a1cb39131c12a3f3"
+    },
+    {
+      "role": "failed_output_prompt1",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2.mp4",
+      "sha256": "0da66b62b2242ca964cc5d5f67cd8db6414bb1161161ca8e1d654ea4d14bec47"
+    },
+    {
+      "role": "failed_output_prompt2",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3.mp4",
+      "sha256": "eb88efe77af55b62ee3a27af44d155f3808d26490522506efe496129f51444b6"
+    },
+    {
+      "role": "user_accepted_generated_comparator_prompt3",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4.mp4",
+      "sha256": "60ee15be2b13a9afe14f194475d2a85c0d007700544a9f61fa23e592dbdc8ca6"
+    },
+    {
+      "role": "current_person_multiview_user_provided",
+      "path": "product-library/sources/review-mouth-teeth-20261117/figure5.jpg",
+      "sha256": "ae5d6a9e1be41eeb073826872e6f12fa4fa841b0c304a0b440ef3d6972eacd76"
+    },
+    {
+      "role": "user_reported_submitted_prompt_1_paragraph_whitespace_normalized",
+      "path": "product-library/sources/review-mouth-teeth-20261117/prompt1.txt",
+      "sha256": "96498ee1265e3353e0bd6d6eb13e93289619a1579f382eb09026a651068d5a65"
+    },
+    {
+      "role": "user_reported_submitted_prompt_2_paragraph_whitespace_normalized",
+      "path": "product-library/sources/review-mouth-teeth-20261117/prompt2.txt",
+      "sha256": "325e4c84a90e9852e0d79eee9536969671bbac964d2d2a1cf8e495fa8833b43d"
+    },
+    {
+      "role": "user_reported_submitted_prompt_3_paragraph_whitespace_normalized",
+      "path": "product-library/sources/review-mouth-teeth-20261117/prompt3.txt",
+      "sha256": "05085f465cd54c48c158e2051f2a6941fa5396fb94402ad4bc449b578e9ce5a6"
+    },
+    {
+      "role": "analysis_and_untested_proposals",
+      "path": "product-library/sources/review-mouth-teeth-20261117/诊断说明.txt",
+      "sha256": "5fdf5131da25d819f437606b407ff3fb93553d92beaa460d1fcdafddabf10657"
+    },
+    {
+      "role": "source_metadata_manifest",
+      "path": "product-library/sources/review-mouth-teeth-20261117/manifest.json",
+      "sha256": "4b7237be0398430bdc4548e2c53ca0dac4b9892aa93b3573b57ef3d9210ecd78"
+    },
+    {
+      "role": "interface_schema_read_only_20261117",
+      "path": "product-library/sources/review-mouth-teeth-20261117/fish_seedance25_schema.json",
+      "sha256": "cc6aa32d2eec0e53ff53f7592ef749bd78ec772956300b6fc9c9e1390166f994"
+    },
+    {
+      "role": "representative_decoded_crops",
+      "path": "product-library/sources/review-mouth-teeth-20261117/嘴部抽帧对照.jpg",
+      "sha256": "0e1a429717d693818ee007e1fa95ea50bf767809fd7c4ea5ca761d6b4c653052"
+    },
+    {
+      "role": "full_length_2second_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v1_overview.jpg",
+      "sha256": "dcea3a3ef7242bf0cc16f5e59d95d12e60870c70b9229f32016b5990fd3acc2b"
+    },
+    {
+      "role": "full_length_2second_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2_overview.jpg",
+      "sha256": "555d53d2d26706501c91de785651a37194b5ad32757107bd7aa395f336356090"
+    },
+    {
+      "role": "full_length_2second_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3_overview.jpg",
+      "sha256": "3fe77c4b16bec1374a088b28ef4fc330b23902abc0c8c2a926076b1f0bb73fe1"
+    },
+    {
+      "role": "full_length_2second_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4_overview.jpg",
+      "sha256": "3a24442eb8ccc32de2addd5b24d765e838815c9070d2150c900eefb9518e205a"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v1_mouth_1.jpg",
+      "sha256": "6ad580dd625828a4b7459e3b77038e443df5bb5009c13dc4a7bad31cec84b5bf"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v1_mouth_2.jpg",
+      "sha256": "b930a444d93c4745c1ebf09d7befcd61864da50c85ab202342d8f88d79e7f033"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2_mouth_1.jpg",
+      "sha256": "6ff16cbe0cb6dc5028e6eb4cf25e51d69404e0c243ce63ceb7d973397630fd84"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2_mouth_2.jpg",
+      "sha256": "f710afb2f68fbdc0b36fd7028ef4cbd2982fb278a865d8224ed6967a717b01f9"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2_mouth_3.jpg",
+      "sha256": "655c8247279ded368b7ba5f2eaee1b0d9917c4344884fcb0cdb0f0376c7a860b"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3_mouth_1.jpg",
+      "sha256": "566e2b5f6995656afeda57a8a40762047d1f515c6065aaee47a04820e83aaf4a"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3_mouth_2.jpg",
+      "sha256": "6554f3474480ec3c36765ab80ca7f00c88ecce3b839ea09bc0c4bc297de3a3aa"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3_mouth_3.jpg",
+      "sha256": "9c8f48756bc14dc299723ae1fbf7550424d6d80d6058fc0973f9c3be5b8fc720"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4_mouth_1.jpg",
+      "sha256": "5886babaffa429910d55fd0657ee5bee28b88448b9cd860a0d470f75850f481d"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4_mouth_2.jpg",
+      "sha256": "f911f7449ec7ae6b0492f4202581d8c6ca57b8132783185539f5dc8a5a36b92b"
+    },
+    {
+      "role": "2fps_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4_mouth_3.jpg",
+      "sha256": "7ec23a06ce2bcd84df2883dd96c3679094d17582961aae2cd46f65d6914dddec"
+    },
+    {
+      "role": "6fps_short_span_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v1_dense.jpg",
+      "sha256": "131c9fdb51729c0a8ce4d47ca9896e2d9f40b88d19101b069e020d97da4d465c"
+    },
+    {
+      "role": "6fps_short_span_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v2_dense.jpg",
+      "sha256": "92e7834281cef38e7b3c61d97f46c0f5789c288ef7637e3d5618af5460e914b1"
+    },
+    {
+      "role": "6fps_short_span_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v3_dense.jpg",
+      "sha256": "72fe362bdb6196b514424f29f34f0f50c34fdb5e5d33053b1ab8d3c3b071c25d"
+    },
+    {
+      "role": "6fps_short_span_mouth_sampling",
+      "path": "product-library/sources/review-mouth-teeth-20261117/v4_dense.jpg",
+      "sha256": "f9ca731283ade25887f7ae1e79f5af8f0b1229a14aaf6aa8350cb2e999dc30e3"
+    }
+  ],
+  "observations": [
+    "三条生成片均为Seedance 2.5，用户本轮明确确认。三份实际提示词均写出唇颌小幅自然开合、上唇覆盖及上下门牙不外露。",
+    "视频2多个前中后段抽帧有大范围牙列暴露；视频3约3—4秒密集抽帧中中央牙齿外观不规则，10.5秒等处开口明显。可确认可见外观问题及对提示要求的执行偏离。",
+    "图5没有明显露齿表情，包含静态五官/唇形但不提供连续说话轨迹；不能据此断言露齿图污染。",
+    "视频1前14秒抽样显示正常开合与较多上唇覆盖，偶有可见牙齿。视频4在1、6.5、18、25—26秒等样本可见牙齿，用户认可不等于全程零露齿或牙列被准确重建。",
+    "视频2/3文件为720x1280@30fps，视频4为480x854@24fps。仅为当前文件规格，不能反推生成参数。",
+    "方法为全片每2秒抽帧、2—4全片及1前14秒2fps嘴部抽帧、四段6fps抽帧；没有原速有声听审，未验证音画同步。"
+  ],
+  "hypotheses": [
+    "静态人物外观与文字约束不足以稳定控制本人连续唇颌习惯；加入真人动态参考可能有帮助，效果未测试。",
+    "首帧、原声/发音、参考、参数、后处理及生成采样均可能影响，当前不同场景的3条成片不能分离各因素贡献。",
+    "将口型目标对齐本人自然上唇覆盖、基本不露上牙，可能优于绝对禁止所有上下门牙；未证明原绝对约束导致畸形。"
+  ],
+  "proposed_changes": [
+    "优先对同一6—8秒片段做有/无本人动态参考A/B，其他输入与设置保持一致；每组至少3次只作筛选，再测完整原声。",
+    "单独测试更贴近真人的简短唇颌段，避免与动态参考、首帧修改同时改变。",
+    "取得实际上传首帧后检查唇部；不以输出0秒当输入，不涂黑牙齿或先删除图5。",
+    "如要求稳定复刻本人原始表演，可考虑保留原脸/嘴区域、只修改其外场景/产品；更换台词或全脸重绘后不能保持同一保证。"
+  ],
+  "unknowns": [
+    "实际上传的首帧、产品参考、独立原音频、任务ID与参数未归档；平台与导出流程未知。",
+    "没有同条件重复生成或付费验证，不能量化固定失败率或给出解决率。",
+    "没有原速有声听审，不认证音画同步与运动自然度。",
+    "素颜霜成功对照只标记为用户认可的生成片，不写为真人习惯证据或产品功效证据。"
+  ],
+  "related_script_ids": [],
+  "related_action_ids": [],
+  "findings": [
+    {
+      "classification": "execution_deviation",
+      "evidence": "prompt1/2已写不露门牙与正常结构；v2/v3解码抽帧存在宽牙列暴露与不规则门牙。",
+      "confidence": "confirmed"
+    },
+    {
+      "classification": "unknown",
+      "evidence": "首帧、原音频、参数与采样未控制，不能确定当前差异的单一根因。",
+      "confidence": "confirmed"
+    }
+  ],
+  "rule_updates": [],
+  "attempts": [],
+  "history": [
+    {
+      "date": "2026-11-17",
+      "action": "create",
+      "basis": "按失败分析技能归档用户原片、提示词、人物图及解码证据；所有修法待测，未改正式规则、未生成或付费、未同步GitHub、未写Codex记忆。"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "record_type": "action",
+  "id": "action-xindengdeng-press",
+  "title": "稳住瓶身，按下顶盘展示中央出膏",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-21",
+  "updated_on": "2026-11-21",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "V05 约 25–30 秒；V06 约 20–24 秒",
+    "source_refs": [
+      "script-library/sources/xindengdeng-child-cream-20261121/v05/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v05/source.mp4",
+      "script-library/sources/xindengdeng-child-cream-20261121/v06/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v06/source.mp4"
+    ],
+    "limitations": [
+      "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "user_confirmed"
+  },
+  "approved_product_ids": [
+    "product-xindengdeng-child-cream"
+  ],
+  "applicability": {
+    "category": {
+      "mode": "constrained",
+      "values": [
+        "面霜"
+      ],
+      "basis": "按动作起点和视频证据限定：面霜"
+    },
+    "texture": {
+      "mode": "constrained",
+      "values": [
+        "膏霜"
+      ],
+      "basis": "按动作起点和视频证据限定：膏霜"
+    },
+    "packaging": {
+      "mode": "constrained",
+      "values": [
+        "顶盘按压瓶"
+      ],
+      "basis": "按动作起点和视频证据限定：顶盘按压瓶"
+    },
+    "body_part": {
+      "mode": "unrestricted",
+      "values": [],
+      "basis": "展示离体容器，不接触皮肤"
+    },
+    "purpose": {
+      "mode": "constrained",
+      "values": [
+        "按压出料"
+      ],
+      "basis": "按动作起点和视频证据限定：按压出料"
+    }
+  },
+  "sequence": {
+    "start_conditions": [
+      "顶盘已露出，手指留出中央出口，另一手能稳定瓶身。"
+    ],
+    "action": "让顶盘微朝镜头，手指下按，使浅色膏体从中央冒出。",
+    "transition": "停止下按，短停让膏体和出口同框。",
+    "end_state": "同一瓶顶盘上留有本次按出的膏。",
+    "expected_effect": "按压发起与新膏出现能对上；本品一次一泵。",
+    "avoid": [
+      "同场其他产品的操作、功效和用量均不随动作迁移。"
+    ]
+  },
+  "legacy_ref": null,
+  "migration_needs_review": false
+}

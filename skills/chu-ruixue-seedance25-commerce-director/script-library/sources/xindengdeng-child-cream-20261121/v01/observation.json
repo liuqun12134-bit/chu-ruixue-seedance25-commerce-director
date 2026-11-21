@@ -1,0 +1,64 @@
+{
+  "id": "V01",
+  "filename": "BMjAyNTAzMjYxNDM0MTJfMzc0MDIwMDY2XzE2MDE1Mzc2MTU5NV8xXzM=_b_B95ff2f1230016a906bc17360bbfee3f6.mp4",
+  "duration": 20.92,
+  "sha256": "cc51baddb9a5b18b6ec1d352bad0f592dcfe6ebdd339dcfdb109f0dc06a9e2d0",
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 720,
+      "height": 1408
+    },
+    {
+      "codec_type": "audio"
+    }
+  ],
+  "title": "粉衣自拍 · 脸侧看包装",
+  "scope": "粉色樱桃按压款。旧库同文件 SHA-256 完全一致。",
+  "source_asset": "demo-library/entries/demo-20261107-cherry-cream-product/source.mp4",
+  "visual_review": "全长 2 fps 解码，按全片取样并复核关键操作；时间约值。",
+  "source_sequence": [
+    "0–3 秒，空手近景开场，先看镜头，再看向画外。",
+    "3–11 秒，举起粉瓶，稍倾露出顶部，转到樱桃图案一侧。",
+    "11–19 秒，脸侧持稳，指腹托下缘。19 秒后瓶离画，人继续交流。"
+  ],
+  "frames": "script-library/sources/xindengdeng-child-cream-20261121/v01/frames.jpg",
+  "detail": null,
+  "shares_footage_with": [
+    "V03",
+    "V06"
+  ],
+  "audio_review": "原声保留。本机 faster-whisper small 普通话自动转写；未听审，专名、数字、成分、卖点措辞不作为已核实话术。",
+  "asr": [
+    {
+      "start": 0.0,
+      "end": 3.64,
+      "text": "然后连卖的没卖过 挂了一次链接就没了"
+    },
+    {
+      "start": 4.28,
+      "end": 8.04,
+      "text": "这是40克的 它这个就是特别适合秋冬很润的那种"
+    },
+    {
+      "start": 8.6,
+      "end": 10.68,
+      "text": "在这新党的品牌的 因为以前给它买的那个"
+    },
+    {
+      "start": 11.8,
+      "end": 14.28,
+      "text": "鹰汤面双一个要七八百块钱"
+    },
+    {
+      "start": 14.88,
+      "end": 19.2,
+      "text": "然后就标那个来的 但我觉得我这个更好用 这就是新党的品牌"
+    },
+    {
+      "start": 20.12,
+      "end": 20.64,
+      "text": "然后"
+    }
+  ]
+}

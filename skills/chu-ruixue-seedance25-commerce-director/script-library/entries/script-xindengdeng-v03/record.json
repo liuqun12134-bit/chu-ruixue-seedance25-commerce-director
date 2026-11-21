@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "record_type": "script",
+  "id": "script-xindengdeng-v03",
+  "title": "《儿童面霜8.11》· 自述接手背示范",
+  "enabled": true,
+  "status": "ready",
+  "created_on": "2026-11-21",
+  "updated_on": "2026-11-21",
+  "provenance": {
+    "kind": "video_analysis",
+    "basis": "粉色樱桃款混剪。约前 8 秒复用 V01 拍摄。",
+    "source_refs": [
+      "script-library/sources/xindengdeng-child-cream-20261121/v03/observation.json",
+      "script-library/sources/xindengdeng-child-cream-20261121/v03/source.mp4"
+    ],
+    "limitations": [
+      "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+    ]
+  },
+  "generation_status": "untested",
+  "generation_evidence": [],
+  "history": [],
+  "modes": [
+    "use"
+  ],
+  "categories": [
+    "面霜"
+  ],
+  "product_ids": [
+    "product-xindengdeng-child-cream"
+  ],
+  "source_category": {
+    "value": "面霜",
+    "basis": "user_confirmed"
+  },
+  "goal": "用短剪连接包装展示与手背推开。",
+  "adaptation_notes": "这是剪辑路线。若生成连续镜头，从空顶盘开始必须补上一次按压、取膏、落手背，再接结果。",
+  "source_sequence": [
+    "0–约 8 秒，粉衣自拍举瓶，字幕写「1支40克」。",
+    "约 8 秒切到直播桌前。先讲解，再朝镜头展示粉色顶盘。",
+    "约 12–16 秒，双手举近，在手背摩开，再露出手背。取膏到上手的过程被剪辑压缩。",
+    "约 16 秒后回到桌面粉瓶和口播。"
+  ],
+  "initial_state_satisfies": [
+    "首帧已有膏可直接承接推开。"
+  ],
+  "maintained_states": [
+    "同一部位保持微微水润的自然肤质；后续转腕、遮挡或举品仍承接。"
+  ],
+  "effect_required": true,
+  "effect_stage_ids": [
+    "finish"
+  ],
+  "stages": [
+    {
+      "id": "front",
+      "goal": "交代产品身份",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "介绍本品"
+      ],
+      "entry_state": "同款包装在手边",
+      "action_options": [
+        "action-20261107-cherry-cream-product-bring-in",
+        "action-20261107-cherry-cream-product-turn-container"
+      ],
+      "exit_state": "樱桃图案朝镜头，指腹未挡住主体",
+      "carry_forward": [],
+      "acceptance": [
+        "樱桃图案朝镜头，指腹未挡住主体"
+      ]
+    },
+    {
+      "id": "top",
+      "goal": "让观众辨认中央出口",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "说明真空泵结构"
+      ],
+      "entry_state": "顶盘已露出，中央已有膏点",
+      "action_options": [
+        "action-xindengdeng-point-top"
+      ],
+      "exit_state": "顶盘中央和已有膏点同时清楚可见",
+      "carry_forward": [],
+      "acceptance": [
+        "顶盘中央和已有膏点同时清楚可见"
+      ]
+    },
+    {
+      "id": "load",
+      "goal": "衔接手背示范",
+      "required": true,
+      "depends_on": [],
+      "audio_intents": [
+        "转入肤感示范"
+      ],
+      "entry_state": "原片切换场景；取用过程省略",
+      "action_options": [],
+      "exit_state": "手背已有膏，可辨认示范部位",
+      "carry_forward": [],
+      "acceptance": [
+        "手背已有膏，可辨认示范部位"
+      ]
+    },
+    {
+      "id": "finish",
+      "goal": "看清手背推开后的状态",
+      "required": true,
+      "depends_on": [
+        "load"
+      ],
+      "audio_intents": [
+        "展示肤感"
+      ],
+      "entry_state": "同一手背已落膏",
+      "action_options": [
+        "action-xindengdeng-spread"
+      ],
+      "exit_state": "指腹离开，原涂处可见微微水润，皮纹和肤色仍自然",
+      "carry_forward": [
+        "原涂处的状态保持到离开画面。"
+      ],
+      "acceptance": [
+        "指腹离开，原涂处可见微微水润，皮纹和肤色仍自然"
+      ]
+    }
+  ]
+}

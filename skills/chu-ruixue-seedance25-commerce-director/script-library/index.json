@@ -11071,6 +11071,901 @@
         }
       ],
       "path": "script-library/entries/script-toneup-handback/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "script",
+      "id": "script-xindengdeng-v01",
+      "title": "粉衣自拍 · 脸侧看包装",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "粉色樱桃按压款。旧库同文件 SHA-256 完全一致。",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v01/observation.json",
+          "demo-library/entries/demo-20261107-cherry-cream-product/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "talk"
+      ],
+      "categories": [
+        "面霜"
+      ],
+      "product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "goal": "用一次脸侧持瓶讲清在介绍哪款面霜。",
+      "adaptation_notes": "复用旧库同源动作；可略去空手开头，按原声决定何时放下。",
+      "source_sequence": [
+        "0–3 秒，空手近景开场，先看镜头，再看向画外。",
+        "3–11 秒，举起粉瓶，稍倾露出顶部，转到樱桃图案一侧。",
+        "11–19 秒，脸侧持稳，指腹托下缘。19 秒后瓶离画，人继续交流。"
+      ],
+      "initial_state_satisfies": [
+        "已持品可直接转向正面。"
+      ],
+      "maintained_states": [
+        "瓶体、图案、透明外罩连续。"
+      ],
+      "effect_required": false,
+      "effect_stage_ids": [],
+      "stages": [
+        {
+          "id": "intro",
+          "goal": "对镜引出产品",
+          "required": false,
+          "depends_on": [],
+          "audio_intents": [
+            "引出推荐"
+          ],
+          "entry_state": "产品在画外",
+          "action_options": [],
+          "exit_state": "目光自然转向待拿取的瓶子",
+          "carry_forward": [],
+          "acceptance": [
+            "目光自然转向待拿取的瓶子"
+          ]
+        },
+        {
+          "id": "front",
+          "goal": "交代产品身份",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "介绍本品"
+          ],
+          "entry_state": "同款包装在手边",
+          "action_options": [
+            "action-20261107-cherry-cream-product-bring-in",
+            "action-20261107-cherry-cream-product-turn-container"
+          ],
+          "exit_state": "樱桃图案朝镜头，指腹未挡住主体",
+          "carry_forward": [],
+          "acceptance": [
+            "樱桃图案朝镜头，指腹未挡住主体"
+          ]
+        },
+        {
+          "id": "hold",
+          "goal": "让包装停稳，再回到交流",
+          "required": true,
+          "depends_on": [
+            "front"
+          ],
+          "audio_intents": [
+            "个人推荐"
+          ],
+          "entry_state": "瓶已举到脸侧",
+          "action_options": [
+            "action-20261107-cherry-cream-product-face-side-hold"
+          ],
+          "exit_state": "下缘有支撑，图案短暂停稳；完成后产品可自然移走",
+          "carry_forward": [],
+          "acceptance": [
+            "下缘有支撑，图案短暂停稳；完成后产品可自然移走"
+          ]
+        }
+      ],
+      "path": "script-library/entries/script-xindengdeng-v01/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "script",
+      "id": "script-xindengdeng-v02",
+      "title": "门店口播 · 三款面霜分别介绍",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "混合面霜。同框出现粉瓶、黄色圆罐和蓝罐，各段陈述只随对应产品。",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v02/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v02/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "talk"
+      ],
+      "categories": [
+        "面霜"
+      ],
+      "product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "goal": "多款同台时，让观众能认出当前正在讲的粉瓶。",
+      "adaptation_notes": "单款导演稿仅取粉瓶段。黄色和蓝色段的适用人群、成分、功效各自归属。",
+      "source_sequence": [
+        "0–5 秒，在货架前以多款产品引出品牌。",
+        "约 5–12 秒，把粉瓶举近并指向包装，讲樱桃设计。",
+        "约 12–28 秒，转到儿童护理话题，随后单独拿近黄色圆罐。",
+        "约 29–38 秒，单独举蓝罐。约 39 秒起三款并列收尾。"
+      ],
+      "initial_state_satisfies": [
+        "单品首帧直接做粉瓶介绍。"
+      ],
+      "maintained_states": [
+        "各款包装和相应话术一一对应。"
+      ],
+      "effect_required": false,
+      "effect_stage_ids": [],
+      "stages": [
+        {
+          "id": "lineup",
+          "goal": "交代同台产品",
+          "required": false,
+          "depends_on": [],
+          "audio_intents": [
+            "引出多款"
+          ],
+          "entry_state": "现场实际有多款包装",
+          "action_options": [],
+          "exit_state": "观众能区分粉、黄、蓝三件",
+          "carry_forward": [],
+          "acceptance": [
+            "观众能区分粉、黄、蓝三件"
+          ]
+        },
+        {
+          "id": "front",
+          "goal": "交代产品身份",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "介绍本品"
+          ],
+          "entry_state": "同款包装在手边",
+          "action_options": [
+            "action-20261107-cherry-cream-product-bring-in",
+            "action-20261107-cherry-cream-product-turn-container"
+          ],
+          "exit_state": "樱桃图案朝镜头，指腹未挡住主体",
+          "carry_forward": [],
+          "acceptance": [
+            "樱桃图案朝镜头，指腹未挡住主体"
+          ]
+        },
+        {
+          "id": "switch",
+          "goal": "把讲解对象和包装对应起来",
+          "required": false,
+          "depends_on": [],
+          "audio_intents": [
+            "区分各款"
+          ],
+          "entry_state": "当前是多款介绍并且各款已核实",
+          "action_options": [],
+          "exit_state": "每次只把正在讲的那款举近，随后放回同组",
+          "carry_forward": [],
+          "acceptance": [
+            "每次只把正在讲的那款举近，随后放回同组"
+          ]
+        },
+        {
+          "id": "close",
+          "goal": "回到同框总结",
+          "required": false,
+          "depends_on": [],
+          "audio_intents": [
+            "收束推荐"
+          ],
+          "entry_state": "各款已分别展示",
+          "action_options": [],
+          "exit_state": "三件同框，手位与包装对应",
+          "carry_forward": [],
+          "acceptance": [
+            "三件同框，手位与包装对应"
+          ]
+        }
+      ],
+      "path": "script-library/entries/script-xindengdeng-v02/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "script",
+      "id": "script-xindengdeng-v03",
+      "title": "《儿童面霜8.11》· 自述接手背示范",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "粉色樱桃款混剪。约前 8 秒复用 V01 拍摄。",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v03/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v03/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "categories": [
+        "面霜"
+      ],
+      "product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "goal": "用短剪连接包装展示与手背推开。",
+      "adaptation_notes": "这是剪辑路线。若生成连续镜头，从空顶盘开始必须补上一次按压、取膏、落手背，再接结果。",
+      "source_sequence": [
+        "0–约 8 秒，粉衣自拍举瓶，字幕写「1支40克」。",
+        "约 8 秒切到直播桌前。先讲解，再朝镜头展示粉色顶盘。",
+        "约 12–16 秒，双手举近，在手背摩开，再露出手背。取膏到上手的过程被剪辑压缩。",
+        "约 16 秒后回到桌面粉瓶和口播。"
+      ],
+      "initial_state_satisfies": [
+        "首帧已有膏可直接承接推开。"
+      ],
+      "maintained_states": [
+        "同一部位保持微微水润的自然肤质；后续转腕、遮挡或举品仍承接。"
+      ],
+      "effect_required": true,
+      "effect_stage_ids": [
+        "finish"
+      ],
+      "stages": [
+        {
+          "id": "front",
+          "goal": "交代产品身份",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "介绍本品"
+          ],
+          "entry_state": "同款包装在手边",
+          "action_options": [
+            "action-20261107-cherry-cream-product-bring-in",
+            "action-20261107-cherry-cream-product-turn-container"
+          ],
+          "exit_state": "樱桃图案朝镜头，指腹未挡住主体",
+          "carry_forward": [],
+          "acceptance": [
+            "樱桃图案朝镜头，指腹未挡住主体"
+          ]
+        },
+        {
+          "id": "top",
+          "goal": "让观众辨认中央出口",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "说明真空泵结构"
+          ],
+          "entry_state": "顶盘已露出，中央已有膏点",
+          "action_options": [
+            "action-xindengdeng-point-top"
+          ],
+          "exit_state": "顶盘中央和已有膏点同时清楚可见",
+          "carry_forward": [],
+          "acceptance": [
+            "顶盘中央和已有膏点同时清楚可见"
+          ]
+        },
+        {
+          "id": "load",
+          "goal": "衔接手背示范",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "转入肤感示范"
+          ],
+          "entry_state": "原片切换场景；取用过程省略",
+          "action_options": [],
+          "exit_state": "手背已有膏，可辨认示范部位",
+          "carry_forward": [],
+          "acceptance": [
+            "手背已有膏，可辨认示范部位"
+          ]
+        },
+        {
+          "id": "finish",
+          "goal": "看清手背推开后的状态",
+          "required": true,
+          "depends_on": [
+            "load"
+          ],
+          "audio_intents": [
+            "展示肤感"
+          ],
+          "entry_state": "同一手背已落膏",
+          "action_options": [
+            "action-xindengdeng-spread"
+          ],
+          "exit_state": "指腹离开，原涂处可见微微水润，皮纹和肤色仍自然",
+          "carry_forward": [
+            "原涂处的状态保持到离开画面。"
+          ],
+          "acceptance": [
+            "指腹离开，原涂处可见微微水润，皮纹和肤色仍自然"
+          ]
+        }
+      ],
+      "path": "script-library/entries/script-xindengdeng-v03/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "script",
+      "id": "script-xindengdeng-v05",
+      "title": "梳化现场 · 顶盘出膏到手背推开",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "粉色樱桃按压款。手背是试涂部位。面部刷具属于同时进行的化妆。",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v05/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v05/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "categories": [
+        "面霜"
+      ],
+      "product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "goal": "在一个连续的手背示范中交代泵头、用量和涂后肤感。",
+      "adaptation_notes": "开场举瓶与口播时长可调。化妆刷、梳头和现场人员是拍摄背景。",
+      "source_sequence": [
+        "0–24 秒，举粉瓶靠近镜头，正面图案和透明外罩可见。",
+        "约 24–30 秒，露出粉色顶盘，指尖从两侧向下按，中央冒出小团浅色膏体。",
+        "约 30–33 秒，指腹将膏体带到另一手手背，先能看见一小片浅色膏痕。",
+        "约 33–51 秒，手指来回推薄，间歇抬开，镜头能看到原涂处，之后双手退出前景。",
+        "约 52 秒至结尾，镜头留在梳化和口播，成分、护理及预告属于话术。"
+      ],
+      "initial_state_satisfies": [
+        "首帧已完成按压并留有膏时直接取；已落手背直接推开。"
+      ],
+      "maintained_states": [
+        "同一部位保持微微水润的自然肤质；后续转腕、遮挡或举品仍承接。"
+      ],
+      "effect_required": true,
+      "effect_stage_ids": [
+        "finish"
+      ],
+      "stages": [
+        {
+          "id": "front",
+          "goal": "交代产品身份",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "介绍本品"
+          ],
+          "entry_state": "同款包装在手边",
+          "action_options": [
+            "action-20261107-cherry-cream-product-bring-in",
+            "action-20261107-cherry-cream-product-turn-container"
+          ],
+          "exit_state": "樱桃图案朝镜头，指腹未挡住主体",
+          "carry_forward": [],
+          "acceptance": [
+            "樱桃图案朝镜头，指腹未挡住主体"
+          ]
+        },
+        {
+          "id": "pump",
+          "goal": "看清一次按压和出膏的因果",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "解释取用"
+          ],
+          "entry_state": "露出顶盘，瓶身已托稳",
+          "action_options": [
+            "action-xindengdeng-press"
+          ],
+          "exit_state": "手指按下一次，膏体才从中央出来",
+          "carry_forward": [
+            "保留这一泵，约硬币大小。"
+          ],
+          "acceptance": [
+            "手指按下一次，膏体才从中央出来"
+          ]
+        },
+        {
+          "id": "load",
+          "goal": "把这一次的膏转到手背",
+          "required": true,
+          "depends_on": [
+            "pump"
+          ],
+          "audio_intents": [
+            "示范用量"
+          ],
+          "entry_state": "顶盘中央已出膏",
+          "action_options": [
+            "action-xindengdeng-transfer"
+          ],
+          "exit_state": "另一手手背已有浅色膏痕",
+          "carry_forward": [],
+          "acceptance": [
+            "另一手手背已有浅色膏痕"
+          ]
+        },
+        {
+          "id": "finish",
+          "goal": "看清手背推开后的状态",
+          "required": true,
+          "depends_on": [
+            "load"
+          ],
+          "audio_intents": [
+            "展示肤感"
+          ],
+          "entry_state": "同一手背已落膏",
+          "action_options": [
+            "action-xindengdeng-spread"
+          ],
+          "exit_state": "指腹离开，原涂处可见微微水润，皮纹和肤色仍自然",
+          "carry_forward": [
+            "原涂处的状态保持到离开画面。"
+          ],
+          "acceptance": [
+            "指腹离开，原涂处可见微微水润，皮纹和肤色仍自然"
+          ]
+        },
+        {
+          "id": "close",
+          "goal": "完成手背展示后接回口播",
+          "required": false,
+          "depends_on": [
+            "finish"
+          ],
+          "audio_intents": [
+            "讲完使用体会"
+          ],
+          "entry_state": "手背结果已经看清",
+          "action_options": [],
+          "exit_state": "手背可放下，交流继续",
+          "carry_forward": [],
+          "acceptance": [
+            "手背可放下，交流继续"
+          ]
+        }
+      ],
+      "path": "script-library/entries/script-xindengdeng-v05/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "script",
+      "id": "script-xindengdeng-v06",
+      "title": "自拍转直播 · 中央出膏特写",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "前约 17 秒复用 V01 拍摄；后段为另一直播画面。",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v06/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v06/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "categories": [
+        "面霜"
+      ],
+      "product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "goal": "从包装认知过渡到中央出料的近景。",
+      "adaptation_notes": "混剪前后分属两段镜头。只讲结构可缩短前段，此路线在出膏特写处即已完成。",
+      "source_sequence": [
+        "0–约 17 秒，粉衣自拍，举瓶介绍后放下。",
+        "约 17–21 秒切直播，展示两个粉瓶，取其中一个，露出圆形按压盘。",
+        "约 21–24 秒，一手稳住瓶体，另一手操作顶盘，顶面朝前，中央浅色膏团可见。",
+        "约 25 秒至结尾，再展示瓶身樱桃图案，回到盒上陈列。"
+      ],
+      "initial_state_satisfies": [
+        "顶盘已露出可免去举瓶。"
+      ],
+      "maintained_states": [
+        "本次按出的膏量保持到取走；瓶身图案连贯。"
+      ],
+      "effect_required": false,
+      "effect_stage_ids": [],
+      "stages": [
+        {
+          "id": "front",
+          "goal": "交代产品身份",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "介绍本品"
+          ],
+          "entry_state": "同款包装在手边",
+          "action_options": [
+            "action-20261107-cherry-cream-product-bring-in",
+            "action-20261107-cherry-cream-product-turn-container"
+          ],
+          "exit_state": "樱桃图案朝镜头，指腹未挡住主体",
+          "carry_forward": [],
+          "acceptance": [
+            "樱桃图案朝镜头，指腹未挡住主体"
+          ]
+        },
+        {
+          "id": "pump",
+          "goal": "看清一次按压和出膏的因果",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "解释取用"
+          ],
+          "entry_state": "露出顶盘，瓶身已托稳",
+          "action_options": [
+            "action-xindengdeng-press"
+          ],
+          "exit_state": "手指按下一次，膏体才从中央出来",
+          "carry_forward": [
+            "保留这一泵，约硬币大小。"
+          ],
+          "acceptance": [
+            "手指按下一次，膏体才从中央出来"
+          ]
+        },
+        {
+          "id": "detail",
+          "goal": "让新出的膏可辨",
+          "required": true,
+          "depends_on": [
+            "pump"
+          ],
+          "audio_intents": [
+            "解释包装"
+          ],
+          "entry_state": "按压完成，膏体停留在盘面",
+          "action_options": [
+            "action-xindengdeng-point-top"
+          ],
+          "exit_state": "顶盘朝向镜头，手指不遮中央膏体",
+          "carry_forward": [],
+          "acceptance": [
+            "顶盘朝向镜头，手指不遮中央膏体"
+          ]
+        },
+        {
+          "id": "shelf",
+          "goal": "从结构回到瓶身",
+          "required": false,
+          "depends_on": [],
+          "audio_intents": [
+            "收尾"
+          ],
+          "entry_state": "顶盘已经看清",
+          "action_options": [],
+          "exit_state": "瓶身正面或陈列回到镜头内",
+          "carry_forward": [],
+          "acceptance": [
+            "瓶身正面或陈列回到镜头内"
+          ]
+        }
+      ],
+      "path": "script-library/entries/script-xindengdeng-v06/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "script",
+      "id": "script-xindengdeng-v08",
+      "title": "直播短剪 · 顶盘与猫咪图案",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "粉瓶和紫色猫咪瓶盒同台。与 V09 为同场重叠段，详见长版。",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v08/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v08/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "talk"
+      ],
+      "categories": [
+        "面霜"
+      ],
+      "product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "goal": "用瓶身与顶盘两个角度讲清包装设计。",
+      "adaptation_notes": "单品稿可在粉瓶顶盘特写结束。紫色瓶盒为原片现场陈列，未确认产品关系。",
+      "source_sequence": [
+        "0–约 4 秒，桌面多件包装，拿起粉色樱桃瓶。",
+        "约 4–14 秒，举近瓶正面，翻向顶盘，指点已有浅色膏体和中央结构。",
+        "约 15–23 秒，放下粉瓶，拿起紫色盒与瓶，展示猫咪图案。",
+        "约 24 秒至结尾，回到桌面产品和口播。"
+      ],
+      "initial_state_satisfies": [
+        "顶盘已有膏点，可直接指示位置。"
+      ],
+      "maintained_states": [
+        "只介绍既有膏点时，膏量保持。"
+      ],
+      "effect_required": false,
+      "effect_stage_ids": [],
+      "stages": [
+        {
+          "id": "front",
+          "goal": "交代产品身份",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "介绍本品"
+          ],
+          "entry_state": "同款包装在手边",
+          "action_options": [
+            "action-20261107-cherry-cream-product-bring-in",
+            "action-20261107-cherry-cream-product-turn-container"
+          ],
+          "exit_state": "樱桃图案朝镜头，指腹未挡住主体",
+          "carry_forward": [],
+          "acceptance": [
+            "樱桃图案朝镜头，指腹未挡住主体"
+          ]
+        },
+        {
+          "id": "top",
+          "goal": "让观众辨认中央出口",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "说明真空泵结构"
+          ],
+          "entry_state": "顶盘已露出，中央已有膏点",
+          "action_options": [
+            "action-xindengdeng-point-top"
+          ],
+          "exit_state": "顶盘中央和已有膏点同时清楚可见",
+          "carry_forward": [],
+          "acceptance": [
+            "顶盘中央和已有膏点同时清楚可见"
+          ]
+        },
+        {
+          "id": "graphic",
+          "goal": "交代同场图案设计",
+          "required": false,
+          "depends_on": [],
+          "audio_intents": [
+            "设计故事"
+          ],
+          "entry_state": "画面确有紫色瓶盒，原声讲到设计",
+          "action_options": [],
+          "exit_state": "能看见展示的是同场紫色图案物件",
+          "carry_forward": [],
+          "acceptance": [
+            "能看见展示的是同场紫色图案物件"
+          ]
+        }
+      ],
+      "path": "script-library/entries/script-xindengdeng-v08/record.json"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "script",
+      "id": "script-xindengdeng-v09",
+      "title": "直播长版 · 手背试涂、包装讲解与陈列",
+      "enabled": true,
+      "status": "ready",
+      "created_on": "2026-11-21",
+      "updated_on": "2026-11-21",
+      "provenance": {
+        "kind": "video_analysis",
+        "basis": "粉色樱桃款为手背演示对象。紫色猫咪瓶盒在后段另行展示。与 V08 的后段包装展示同源。",
+        "source_refs": [
+          "script-library/sources/xindengdeng-child-cream-20261121/v09/observation.json",
+          "script-library/sources/xindengdeng-child-cream-20261121/v09/source.mp4"
+        ],
+        "limitations": [
+          "画面采用全片解码抽帧及重点窗口核对，时间为近似值。原声本地自动转写，未人工听审。"
+        ]
+      },
+      "generation_status": "untested",
+      "generation_evidence": [],
+      "history": [],
+      "modes": [
+        "use"
+      ],
+      "categories": [
+        "面霜"
+      ],
+      "product_ids": [
+        "product-xindengdeng-child-cream"
+      ],
+      "source_category": {
+        "value": "面霜",
+        "basis": "user_confirmed"
+      },
+      "goal": "先看同伴手背上的膏痕和推开结果，再转入包装故事。",
+      "adaptation_notes": "手机页面、紫色瓶盒、多人互动均为现场可选段。V08 重剪了其中部分包装讲解。",
+      "source_sequence": [
+        "0–约 6 秒，从桌面粉瓶展示顶部、取用。",
+        "约 7–20 秒，另一人将带浅色膏痕的手背举近，主讲人指示涂抹处，示范者推开后继续展手。",
+        "约 21–69 秒，桌面多款陈列；中段举粉瓶并展示手机页面，再继续讲解。",
+        "约 70–87 秒，取粉瓶举近，转向顶盘和中央膏点。",
+        "约 88–100 秒，换紫色瓶盒展示图案。约 101 秒起口播互动，最后整理桌面陈列。"
+      ],
+      "initial_state_satisfies": [
+        "已有膏痕可由同伴直接举手；单人首帧改用 V05 路线。"
+      ],
+      "maintained_states": [
+        "同一部位保持微微水润的自然肤质；后续转腕、遮挡或举品仍承接。"
+      ],
+      "effect_required": true,
+      "effect_stage_ids": [
+        "finish"
+      ],
+      "stages": [
+        {
+          "id": "load",
+          "goal": "让少量膏在手背上可见",
+          "required": true,
+          "depends_on": [],
+          "audio_intents": [
+            "引出质地"
+          ],
+          "entry_state": "双人同框，现场已取用粉瓶",
+          "action_options": [],
+          "exit_state": "同伴手背举起，涂处明确",
+          "carry_forward": [],
+          "acceptance": [
+            "同伴手背举起，涂处明确"
+          ]
+        },
+        {
+          "id": "finish",
+          "goal": "用指示与推开让结果可见",
+          "required": true,
+          "depends_on": [
+            "load"
+          ],
+          "audio_intents": [
+            "展示水润肤感"
+          ],
+          "entry_state": "同伴手背已有膏痕",
+          "action_options": [
+            "action-xindengdeng-assisted"
+          ],
+          "exit_state": "指示处和涂处一致，离手后仍见自然微润的手背",
+          "carry_forward": [
+            "同一部位保持微微水润的自然肤质；后续转腕、遮挡或举品仍承接。"
+          ],
+          "acceptance": [
+            "指示处和涂处一致，离手后仍见自然微润的手背"
+          ]
+        },
+        {
+          "id": "pack",
+          "goal": "回到包装结构",
+          "required": false,
+          "depends_on": [],
+          "audio_intents": [
+            "解释包装"
+          ],
+          "entry_state": "手背展示完成，主讲人可取瓶",
+          "action_options": [
+            "action-xindengdeng-point-top"
+          ],
+          "exit_state": "粉瓶的顶面被单独举近，中央膏点可辨",
+          "carry_forward": [],
+          "acceptance": [
+            "粉瓶的顶面被单独举近，中央膏点可辨"
+          ]
+        },
+        {
+          "id": "close",
+          "goal": "从图案设计回到桌面交流",
+          "required": false,
+          "depends_on": [],
+          "audio_intents": [
+            "设计与收尾"
+          ],
+          "entry_state": "桌面实有多件陈列",
+          "action_options": [],
+          "exit_state": "图案和瓶盒放回，口播自然收束",
+          "carry_forward": [],
+          "acceptance": [
+            "图案和瓶盒放回，口播自然收束"
+          ]
+        }
+      ],
+      "path": "script-library/entries/script-xindengdeng-v09/record.json"
     }
   ]
 }
